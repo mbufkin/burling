@@ -1,0 +1,23 @@
+# Python bytecode and virtualenvs — never commit generated runtime files.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local overrides. config.yaml in git is localhost-only defaults.
+.env
+.env.*
+rclone.conf
+
+# The real handover dump. Point --intake at it; do not copy it into this repo.
+corpus/
+burling/intake/*
+!burling/intake/.gitkeep
+!burling/intake/README.md
+
+# Review output can hold redacted PII findings. Keep the folder, not the files.
+burling/output/*
+!burling/output/.gitkeep
+
+# Pack artifacts from copying source off the workstation.
+*.zip
