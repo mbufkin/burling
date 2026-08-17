@@ -1,0 +1,27 @@
+name: Feature request
+description: A change to tagging, priors, reports, or local-model behavior.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is hard or wrong today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should the harness do instead? Keep it local-only.
+    validations:
+      required: true
+  - type: checkboxes
+    id: constraints
+    attributes:
+      label: Constraints you agree to
+      options:
+        - label: This does not send document text to a non-localhost URL
+          required: true
+        - label: This does not auto-delete files
+          required: true

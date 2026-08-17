@@ -5,7 +5,7 @@ from __future__ import annotations
 import unittest
 
 from burling.ollama_client import assert_local_only
-from burling.pass2 import _force_delete
+from burling.pass2 import _force_personal_tax
 from burling.priors import luhn_ok, prior_severity, scan_filename, scan_text
 
 
@@ -42,12 +42,13 @@ class PriorScanTests(unittest.TestCase):
         self.assertEqual(prior_severity({}), "low")
 
     def test_fail_closed_overrides_model_keep(self) -> None:
-        row = {"priors": {"ssn": {"count": 1, "redacted_samples": ["***-**-6789"]}}}
+        # Filename W-2 is personal leftover even if the model says keep.
+        row = {"filename_tags": ["tax_financial"], "priors": {"ssn": {"count": 1}}}
         result = {"recommendation": "keep", "reasons": ["keep_work_curriculum"]}
-        cfg = {"policy": {"fail_closed_on_ssn": True}}
-        out = _force_delete(row, result, cfg)
+        cfg = {"policy": {"fail_closed_on_personal_tax": True}}
+        out = _force_personal_tax(row, result, cfg)
         self.assertEqual(out["recommendation"], "delete_candidate")
-        self.assertIn("contains_ssn", out["reasons"])
+        self.assertIn("personal_tax", out["reasons"])
         self.assertTrue(out["fail_closed"])
 
     def test_refuses_cloud_model_url(self) -> None:

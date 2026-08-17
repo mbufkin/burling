@@ -3,13 +3,11 @@
 GOLDEN RULE: one file must not kill the run. Timeouts and corrupt files are
 noted on that document; Ctrl+C still stops the job.
 
-Usage (from the clone root, the folder that contains the `burling` package):
+Usage (from the clone root):
 
-    python -m burling.run --status
-    python -m burling.run --intake "D:\\handover\\dump"
-    python -m burling.run --priors-only
-    python -m burling.run --pass 1
-    python -m burling.run --pass 2
+    python -m burling.run --priors-only --intake burling/tests/fixtures/tiny-dump
+    python -m burling.run --intake /path/to/handover
+    python -m burling.run --pass 1 --limit 20
     python -m burling.run --report
 """
 

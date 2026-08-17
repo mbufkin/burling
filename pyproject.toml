@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "burling"
+version = "0.1.0"
+description = "Two-pass local document review: regex tags PII, a local LLM flags personal leftovers. Never auto-deletes."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [{ name = "Michael Bufkin" }]
+keywords = ["privacy", "pii", "document-review", "ollama", "local-llm"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+]
+dependencies = [
+    "pypdf>=5.0.0",
+    "cryptography>=42.0.0",
+    "PyYAML>=6.0",
+    "pymupdf>=1.24.0",
+    "rapidocr-onnxruntime>=1.4.0",
+    "opencv-python-headless>=4.8.0",
+    "numpy>=1.26.0",
+]
+
+[project.optional-dependencies]
+dev = []
+
+[project.scripts]
+burling = "burling.run:main"
+
+[project.urls]
+Homepage = "https://github.com/mbufkin/burling"
+Issues = "https://github.com/mbufkin/burling/issues"
+Changelog = "https://github.com/mbufkin/burling/blob/main/CHANGELOG.md"
+
+[tool.setuptools.packages.find]
+include = ["burling*"]
+
+[tool.setuptools.package-data]
+burling = ["config.example.yaml"]

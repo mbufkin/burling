@@ -1,7 +1,8 @@
-Drop the handover dump here, or point `--intake` at the real folder.
+Drop a handover folder here, or pass `--intake` at the real path.
 
-This folder is gitignored on purpose. Do not copy personal files into git.
+This directory is gitignored on purpose. For a safe first run use the
+synthetic dump instead:
 
-```powershell
-python -m burling.run --intake "D:\path\to\the\dump"
+```bash
+python -m burling.run --priors-only --intake burling/tests/fixtures/tiny-dump
 ```

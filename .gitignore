@@ -4,10 +4,11 @@ __pycache__/
 .venv/
 venv/
 
-# Secrets and local overrides. config.yaml in git is localhost-only defaults.
+# Machine-specific overrides. The repo ships config.example.yaml.
 .env
 .env.*
 rclone.conf
+burling/config.yaml
 
 # The real handover dump. Point --intake at it; do not copy it into this repo.
 corpus/
@@ -19,5 +20,8 @@ burling/intake/*
 burling/output/*
 !burling/output/.gitkeep
 
-# Pack artifacts from copying source off the workstation.
+# Pack artifacts from copying source off a workstation.
 *.zip
+*.egg-info/
+dist/
+build/

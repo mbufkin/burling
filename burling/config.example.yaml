@@ -1,0 +1,35 @@
+# Burling — local-only, two-pass document review.
+#
+# Copy to config.yaml if you need machine-specific paths:
+#   cp burling/config.example.yaml burling/config.yaml
+# If config.yaml is missing, this file is used as-is.
+
+ollama:
+  url: "http://127.0.0.1:11434"
+  # 7B-class models fit an 8 GB consumer GPU. Swap if VRAM is tight.
+  model: "qwen2.5-coder:7b"
+  timeout_seconds: 300
+  temperature: 0.1
+
+paths:
+  intake_dir: "intake"
+  output_dir: "output"
+
+# Stay under the model context so the JSON answer still fits.
+chunking:
+  threshold_chars: 12000
+  chunk_chars: 10000
+  overlap_chars: 400
+
+policy:
+  never_delete: true          # harness only flags; a human confirms
+  local_only: true            # refuse any non-localhost model URL
+  redact_pii_in_ledger: true  # never write raw SSN/CC into output/
+  # SSN alone is not a delete. Work records can contain PII and still belong.
+  # Filename tax/mortgage/W-2 is treated as personal leftover.
+  fail_closed_on_personal_tax: true
+
+# Optional Shared Drive stream: python -m burling.stream
+rclone:
+  bin: "rclone"
+  remote: "remote:"

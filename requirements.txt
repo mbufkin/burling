@@ -1,3 +1,5 @@
+# Install from pyproject.toml (`pip install -e .`).
+# This file is a convenience mirror of [project.dependencies].
 pypdf>=5.0.0
 cryptography>=42.0.0
 PyYAML>=6.0
