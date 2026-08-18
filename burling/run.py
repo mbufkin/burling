@@ -1,4 +1,4 @@
-"""CLI: build the queue, run pass 1 (tags), run pass 2 (delete flags), write reports.
+"""CLI: build the queue, run pass 1 (tags), run pass 2 (delete flags), topic map, reports.
 
 GOLDEN RULE: one file must not kill the run. Timeouts and corrupt files are
 noted on that document; Ctrl+C still stops the job.
@@ -8,6 +8,7 @@ Usage (from the clone root):
     python -m burling.run --priors-only --intake burling/tests/fixtures/tiny-dump
     python -m burling.run --intake /path/to/handover
     python -m burling.run --pass 1 --limit 20
+    python -m burling.run --map --intake /path/to/handover
     python -m burling.run --report
 """
 
@@ -25,7 +26,7 @@ from burling.reports import write_reports
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
-        description="Two-pass local document review: tag, then flag personal files."
+        description="Two-pass local document review + taxonomy topic map."
     )
     parser.add_argument(
         "--intake",
@@ -45,6 +46,16 @@ def main(argv: list[str] | None = None) -> int:
         dest="only_pass",
         choices=["1", "2"],
         help="Run only this model pass (queue must already exist)",
+    )
+    parser.add_argument(
+        "--map",
+        action="store_true",
+        help="Taxonomy-first topic map only (uses map.yml; queue must exist or use with --intake).",
+    )
+    parser.add_argument(
+        "--map-force",
+        action="store_true",
+        help="With --map, re-place documents that already have a placement.",
     )
     parser.add_argument(
         "--limit",
@@ -88,6 +99,20 @@ def main(argv: list[str] | None = None) -> int:
         print(f"reports written for {stats['documents']} documents")
         return 0
 
+    # --map alone: place onto governed taxonomy (after inventory exists).
+    if args.map and args.only_pass is None and not args.priors_only:
+        skip_queue = bool(args.resume)
+        if not skip_queue and args.intake:
+            print("Building queue (extract + regex priors)...")
+            queue = build_queue(cfg)
+            print(f"Queued {queue['total']} files from {queue['intake']}")
+        from burling.classify_map import run_map
+
+        n = run_map(cfg, limit=args.limit, force=args.map_force)
+        write_reports(cfg)
+        print(f"map placed {n} document(s)")
+        return 0
+
     skip_queue = bool(args.resume or args.only_pass)
     if skip_queue:
         print("Resuming from ledger (not re-extracting; skipped files are retried)...")
@@ -114,13 +139,21 @@ def main(argv: list[str] | None = None) -> int:
         n = run_pass2(cfg, limit=args.limit)
         print(f"pass 2 judged {n} document(s)")
 
+    # Full run: after PII passes, place every doc on the governed topic map.
+    if args.only_pass is None:
+        from burling.classify_map import run_map
+
+        n = run_map(cfg, limit=args.limit, force=args.map_force)
+        print(f"topic map placed {n} document(s)")
+
     stats = write_reports(cfg)
     print_status(cfg)
     print(
-        f"map ready: {stats['delete_candidates']} delete candidates, "
+        f"review ready: {stats['delete_candidates']} delete candidates, "
         f"{stats['review']} still in review queue"
     )
     print("Nothing was deleted. Read burling/output/DELETE-CANDIDATES.md")
+    print("Topic map: burling/output/TOPIC-MAP.md and topic-map.html")
     return 0
 
 

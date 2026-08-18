@@ -38,6 +38,20 @@ def write_reports(cfg: dict) -> dict:
     atomic_write(out / "DELETE-CANDIDATES.md", delete_md)
     atomic_write(out / "SUMMARY.md", summary_md)
     write_all_decisions(cfg, rows)
+
+    # Refresh topic-map artifacts when placements already exist on the ledger.
+    if any(r.get("placement") for r in rows):
+        try:
+            from burling.classify_map import load_map, write_placement_artifacts
+
+            write_placement_artifacts(cfg, load_map())
+        except Exception as exc:
+            # Reports must still complete if the HTML helper fails.
+            atomic_write(
+                out / "TOPIC-MAP.md",
+                f"# Topic map\n\n(refresh failed: {exc})\n",
+            )
+
     return {
         "documents": len(rows),
         "pii": sum(1 for r in rows if set(r.get("priors") or {}) & {"ssn", "address", "email", "phone", "dob", "credit_card"}),
@@ -52,6 +66,9 @@ def write_reports(cfg: dict) -> dict:
             for r in rows
             if (r.get("pass2") or {}).get("recommendation") == "review"
             or not (r.get("extraction") or {}).get("ok")
+        ),
+        "placed": sum(
+            1 for r in rows if (r.get("placement") or {}).get("status") in {"done", "skipped"}
         ),
     }
 

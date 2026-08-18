@@ -94,6 +94,8 @@ def chat(cfg: dict, messages: list[dict], *, step: str) -> dict:
         stage = "pass1"
     elif step.startswith("pass2"):
         stage = "pass2"
+    elif step.startswith("map"):
+        stage = "map"
     try:
         from burling.progress import record_tokens
 

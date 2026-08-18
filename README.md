@@ -61,12 +61,33 @@ python -m burling.run --pass 2 --limit 20
 python -m burling.run --report
 ```
 
+## Topic map (taxonomy-first)
+
+After pass 1 / pass 2, a full run also places every document onto a
+**governed** multi-facet map (`burling/map.yml`) — program × function ×
+audience × record_type × lifecycle — the same pattern used in
+law/records systems: classify into a known scheme, do not cluster-then-label.
+
+```bash
+# Full review + topic map
+python -m burling.run --intake /path/to/handover
+
+# Topic map only (queue already built, or with --intake to rebuild)
+python -m burling.run --map --intake /path/to/handover
+python -m burling.run --map --map-force   # re-place everything
+```
+
+Edit `burling/map.yml` to change allowed terms; the model may not invent new ones.
+
 ## What you get (`burling/output/`)
 
 | File | Role |
 | --- | --- |
-| `ledger.json` | Source of truth. Redacted priors, tags, recommendations. |
+| `ledger.json` | Source of truth. Redacted priors, tags, recommendations, placements. |
 | `DOCUMENT-MAP.md` | Pass 1 tags grouped so you can see the dump. |
+| `TOPIC-MAP.md` | Taxonomy placements by program (handoff aid). |
+| `topic-map.html` | Interactive sunburst (switch facets in the browser). |
+| `placements.json` | Machine-readable facet placements. |
 | `DELETE-CANDIDATES.md` | Pass 2 files to remove **by hand**. |
 | `REVIEW-QUEUE.md` | Extract failures + model `review` + not yet scanned. |
 | `SUMMARY.md` | Counts. |

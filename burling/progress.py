@@ -69,6 +69,7 @@ def empty_token_stats() -> dict:
         "calls": 0,
         "pass1_tokens": 0,
         "pass2_tokens": 0,
+        "map_tokens": 0,
         "last_prompt_tokens": 0,
         "last_completion_tokens": 0,
         "updated_at": None,
@@ -94,6 +95,8 @@ def record_tokens(cfg: dict, prompt: int, completion: int, stage: str) -> dict:
         data["pass1_tokens"] += total
     elif stage == "pass2":
         data["pass2_tokens"] += total
+    elif stage == "map":
+        data["map_tokens"] += total
     data["updated_at"] = utc_now()
     atomic_write_json(path, data)
     return data
@@ -229,6 +232,12 @@ def ledger_status(cfg: dict) -> dict:
         1 for r in rows if (r.get("pass2") or {}).get("recommendation") == "delete_candidate"
     )
     ssn = sum(1 for r in rows if "ssn" in (r.get("priors") or {}))
+    map_done = sum(
+        1 for r in rows if (r.get("placement") or {}).get("status") in {"done", "skipped"}
+    )
+    map_review = sum(
+        1 for r in rows if (r.get("placement") or {}).get("needs_review")
+    )
     live = load_json(progress_file(cfg), {}) or {}
     tokens = load_json(tokens_file(cfg), empty_token_stats()) or empty_token_stats()
     return {
@@ -240,6 +249,8 @@ def ledger_status(cfg: dict) -> dict:
         "pass1_waiting": p1_wait,
         "pass2_done": p2_done,
         "pass2_waiting": p2_wait,
+        "map_done": map_done,
+        "map_review": map_review,
         "ssn_flagged": ssn,
         "delete_candidates": delete,
         "live": live,
@@ -267,12 +278,14 @@ def render_status(cfg: dict) -> str:
         now = "…" + now[-89:]
 
     stage_names = {
-        "queue": "1/3 extract + regex (not the model yet)",
-        "queue-done": "1/3 extract done — starting pass 1",
-        "pass1": "2/3 pass 1 tags (local 7B)",
-        "pass1-done": "2/3 pass 1 done — starting pass 2",
-        "pass2": "3/3 pass 2 keep/delete (local 7B)",
-        "pass2-done": "3/3 finished",
+        "queue": "1/4 extract + regex (not the model yet)",
+        "queue-done": "1/4 extract done — starting pass 1",
+        "pass1": "2/4 pass 1 tags (local 7B)",
+        "pass1-done": "2/4 pass 1 done — starting pass 2",
+        "pass2": "3/4 pass 2 keep/delete (local 7B)",
+        "pass2-done": "3/4 finished — starting topic map",
+        "map": "4/4 topic map (taxonomy placement)",
+        "map-done": "4/4 topic map done",
         "idle": "waiting for a run",
     }
     stage_index = {
@@ -282,19 +295,21 @@ def render_status(cfg: dict) -> str:
         "pass1-done": 2,
         "pass2": 2,
         "pass2-done": 3,
+        "map": 3,
+        "map-done": 4,
     }
     base = stage_index.get(str(stage), 0)
     if str(stage).endswith("-done"):
-        overall = min(100.0, base / 3.0 * 100.0)
+        overall = min(100.0, base / 4.0 * 100.0)
     else:
-        overall = min(100.0, (base + pct / 100.0) / 3.0 * 100.0)
+        overall = min(100.0, (base + pct / 100.0) / 4.0 * 100.0)
 
     tok = st.get("tokens") or empty_token_stats()
 
     lines = [
         "Burling live tracker    refresh 1s    Ctrl+C to stop",
         "",
-        f"overall      {_bar(overall)}  {overall:5.1f}%   (queue + pass1 + pass2)",
+        f"overall      {_bar(overall)}  {overall:5.1f}%   (queue + pass1 + pass2 + map)",
         f"this stage   {_bar(pct)}  {pct:5.1f}%   {current}/{total}  {stage}",
         f"what         {stage_names.get(str(stage), stage)}",
         f"eta {eta}    {rate}s/file    this file {on_file}{hung}",
@@ -303,12 +318,14 @@ def render_status(cfg: dict) -> str:
         f"extract      {st['extract_ok']} ok   /  {st['extract_fail']} failed",
         f"pass 1       {st['pass1_done']} done  /  {st['pass1_waiting']} waiting",
         f"pass 2       {st['pass2_done']} done  /  {st['pass2_waiting']} waiting",
+        f"topic map    {st.get('map_done', 0)} placed /  {st.get('map_review', 0)} needs review",
         f"SSN regex    {st['ssn_flagged']}         delete cand {st['delete_candidates']} (not deleted)",
         f"documents    {st['documents']}",
         f"tokens       {format_tokens(tok.get('total_tokens') or 0)}  total",
         f"             in {tok.get('prompt_tokens') or 0:,}  out {tok.get('completion_tokens') or 0:,}  "
         f"calls {tok.get('calls') or 0}  "
-        f"p1 {tok.get('pass1_tokens') or 0:,}  p2 {tok.get('pass2_tokens') or 0:,}",
+        f"p1 {tok.get('pass1_tokens') or 0:,}  p2 {tok.get('pass2_tokens') or 0:,}  "
+        f"map {tok.get('map_tokens') or 0:,}",
         f"last call    in {tok.get('last_prompt_tokens') or 0:,}  out {tok.get('last_completion_tokens') or 0:,}",
         f"updated      {live.get('updated_at') or '—'}",
     ]

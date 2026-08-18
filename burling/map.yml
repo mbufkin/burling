@@ -1,0 +1,112 @@
+# Burling capability map (taxonomy-first) for CTE / school handover dumps.
+# Source of truth for classify_map.py. Edit terms here; do not invent labels in code.
+# Pattern: records systems classify into a governed scheme (ISO 15489 / TAR / XBRL),
+# not "cluster then name." See toolmap docs/document-classification-at-scale.md.
+
+meta:
+  id: burling-cte-handoff-map
+  version: 0.1.0
+  notes: |-
+    Multi-facet map for middle-school CTE transition / handoff folders.
+    Classifier may only emit listed term names or the sentinel 'unmapped'.
+  sentinels:
+    unmapped: Use when no listed term fits with reasonable confidence.
+  classify_rules:
+  - Place each file using full extracted text + path, not folder name alone.
+  - Pick 1–2 terms per facet from the allowed vocabulary.
+  - Prefer program + function + audience as the primary discovery axes.
+  - Never invent new term names outside this map.
+  - Summarize without quoting student/staff names, emails, phones, or addresses.
+
+facets:
+  program:
+  - name: mobile-lab
+    description: CTE mobile lab / trailer operations, compliance, campus visits, scripts.
+  - name: pathful-eif
+    description: Pathful / EIF course integration, semester and full-year overviews, program changes.
+  - name: professional-development
+    description: Teacher PD, back-to-school sessions, summer PD decks and agendas.
+  - name: purchasing
+    description: Quotes, purchase lists, vendor paperwork, spend tracking for MS CTE.
+  - name: showcase-events
+    description: Career exploration showcase, partner flyers, invites, parking/logistics.
+  - name: waip-experiences
+    description: WAIP / career exploration experience registrations and related logistics.
+  - name: ms-cohort
+    description: MS Path to College & Career co-hort frameworks and cohort ops.
+  - name: engine-room
+    description: Engine Room need-to-know campus/teacher lists and operational workbooks.
+  - name: technology-inventory
+    description: MS CTE technology tracking, check-in responses, device/lab inventory.
+  - name: compliance
+    description: Checklists and acknowledgment forms for labs, trailers, or district rules.
+  - name: conference-travel
+    description: Conference trackers, travel/spend related to PD or events.
+  - name: general-cte-ops
+    description: Cross-cutting CTE MS ops that do not fit a single program above.
+
+  function:
+  - name: inventory-tracking
+    description: Spreadsheets or lists that track equipment, tech, or assets over time.
+  - name: compliance-checklist
+    description: Checklists, acknowledgments, or compliance forms to complete or file.
+  - name: purchasing-quote
+    description: Vendor quotes, purchase orders, priced supply lists.
+  - name: registration-roster
+    description: Sign-ups, registrations, invite lists, teacher/campus rosters.
+  - name: pd-delivery
+    description: PD agendas, slide decks, and session materials for delivering training.
+  - name: communications-outreach
+    description: Flyers, invites, parking tags, partner-facing announcements.
+  - name: planning-framework
+    description: Frameworks, overviews, and planning docs that define how a program runs.
+  - name: spending-budget
+    description: Budget, spending plans, or conference/PD spend trackers.
+  - name: video-script
+    description: Scripts for videos or recorded messaging.
+  - name: meeting-deck
+    description: Slide decks for meetings (campus, lab, ops) that are not primarily PD.
+  - name: course-overview
+    description: Course / semester / year overviews for curriculum or Pathful paths.
+  - name: handoff-reference
+    description: Need-to-know reference material for a role transition or successor.
+  - name: partner-materials
+    description: Materials aimed at external partners or vendors beyond a simple quote.
+
+  audience:
+  - name: teachers
+    description: Classroom / CTE teachers as primary readers or actors.
+  - name: campus-admin
+    description: Campus leadership or site coordinators.
+  - name: central-cte-staff
+    description: District CTE MS central office / program staff (handoff audience).
+  - name: partners-external
+    description: External partners, employers, showcase guests.
+  - name: vendors
+    description: Vendors and purchasing contacts.
+  - name: students-families
+    description: Students or families as audience (rare in staff handoff dumps).
+
+  record_type:
+  - name: spreadsheet-tracker
+    description: Workbook used as a living tracker or response log.
+  - name: slide-deck
+    description: Presentation slides (pptx or exported slides).
+  - name: word-procedure
+    description: Narrative Word docs — procedures, frameworks, scripts, overviews.
+  - name: pdf-packet
+    description: PDF packets — quotes, flyers, print-ready guides, scanned forms.
+  - name: checklist-form
+    description: Forms or checklists meant to be filled or signed.
+
+  lifecycle:
+  - name: active-ops
+    description: Currently used for day-to-day operations this school year.
+  - name: need-to-know-handoff
+    description: Critical for successor onboarding; keep prominent in the handoff map.
+  - name: external-facing
+    description: Meant to leave the internal team (partners, campuses, public-ish).
+  - name: archival-reference
+    description: Keep for reference but not the live working copy.
+  - name: draft-working
+    description: Working draft or copy-of; may need cleanup before handoff.

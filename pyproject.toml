@@ -45,4 +45,4 @@ Changelog = "https://github.com/mbufkin/burling/blob/main/CHANGELOG.md"
 include = ["burling*"]
 
 [tool.setuptools.package-data]
-burling = ["config.example.yaml"]
+burling = ["config.example.yaml", "map.yml"]
