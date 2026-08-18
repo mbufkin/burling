@@ -8,8 +8,13 @@ ollama:
   url: "http://127.0.0.1:11434"
   # 7B-class models fit an 8 GB consumer GPU. Swap if VRAM is tight.
   model: "qwen2.5-coder:7b"
+  # api: "ollama" (default) or "openai" for llama.cpp llama-server (/v1/chat/completions)
+  api: "ollama"
   timeout_seconds: 300
   temperature: 0.1
+  # openai / llama.cpp only:
+  # max_tokens: 2048
+  # enable_thinking: false   # required for Nemotron-style reasoning models
 
 paths:
   intake_dir: "intake"

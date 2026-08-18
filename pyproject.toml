@@ -35,6 +35,7 @@ dev = []
 
 [project.scripts]
 burling = "burling.run:main"
+burling-compare = "burling.compare_placements:main"
 
 [project.urls]
 Homepage = "https://github.com/mbufkin/burling"
