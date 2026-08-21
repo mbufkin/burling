@@ -36,12 +36,18 @@ def flatten_decision(row: dict) -> dict:
     priors = row.get("priors") or {}
     p1 = row.get("pass1") or {}
     p2 = row.get("pass2") or {}
+    placement = row.get("placement") or {}
+    rich = row.get("rich_tags") or {}
 
     steps = ["extract", "priors"]
     if p1.get("status"):
         steps.append("pass1")
     if p2.get("status"):
         steps.append("pass2")
+    if placement.get("status"):
+        steps.append("map")
+    if rich.get("status"):
+        steps.append("tags")
 
     flat: dict = {
         "doc_id": row.get("doc_id"),
@@ -82,6 +88,23 @@ def flatten_decision(row: dict) -> dict:
         "pass2_final_custody": p2.get("custody"),
         "pass2_final_recommendation": p2.get("recommendation"),
         "pass2_final_reasons": _join(p2.get("reasons")),
+        # Topic-map placement (taxonomy-first). Empty until --map / full run finishes.
+        "map_status": placement.get("status"),
+        "map_program": _join(placement.get("program")),
+        "map_function": _join(placement.get("function")),
+        "map_audience": _join(placement.get("audience")),
+        "map_record_type": _join(placement.get("record_type")),
+        "map_lifecycle": _join(placement.get("lifecycle")),
+        "map_confidence": placement.get("confidence"),
+        "map_needs_review": placement.get("needs_review"),
+        "map_rationale": placement.get("rationale"),
+        "map_handoff_note": placement.get("handoff_note"),
+        # Pass A rich tags (tag-then-stitch). Empty until --tags runs.
+        "rich_tags_status": rich.get("status"),
+        "rich_tags": _join(rich.get("tags")),
+        "rich_tags_count": len(rich.get("tags") or []),
+        "rich_summary": rich.get("summary"),
+        "rich_tags_needs_review": rich.get("needs_review"),
     }
 
     for kind in PII_KINDS:

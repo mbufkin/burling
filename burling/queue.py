@@ -14,6 +14,7 @@ from burling.extract import extract_record, iter_source_files
 from burling.io_util import atomic_write_json, load_json
 from burling.ledger import (
     content_hash,
+    existing_doc_id,
     file_fingerprint,
     load_ledger,
     queue_path,
@@ -57,7 +58,8 @@ def build_queue(cfg: dict, intake: Path | None = None) -> dict:
             extracted = extract_record(path, root)
             text = extracted["text"]
             chash = content_hash(text) if extracted["extraction_ok"] else file_fingerprint(path)
-            doc_id = chash[:16]
+            # Reuse the path's existing id so an OCR recover does not fork the row.
+            doc_id = existing_doc_id(ledger, extracted["rel_path"]) or chash[:16]
             priors = scan_text(text) if extracted["extraction_ok"] else {}
             filename_tags = scan_filename(extracted["rel_path"])
 
@@ -83,9 +85,10 @@ def build_queue(cfg: dict, intake: Path | None = None) -> dict:
                 queued_at=existing.get("queued_at") or _now(),
             )
             if not unchanged:
-                # File changed: invalidate model passes so they re-run.
+                # File changed or extract recovered: invalidate model passes.
                 row["pass1"] = None
                 row["pass2"] = None
+                row["rich_tags"] = None
                 row["queue_status"] = "extracted" if extracted["extraction_ok"] else "extract_failed"
             elif not row.get("queue_status"):
                 row["queue_status"] = "extracted" if extracted["extraction_ok"] else "extract_failed"

@@ -45,6 +45,19 @@ def save_ledger(cfg: dict, ledger: dict) -> None:
     atomic_write_json(ledger_path(cfg), ledger)
 
 
+def existing_doc_id(ledger: dict, rel_path: str) -> str | None:
+    """Stable identity is the file path in the dump, not the extract hash.
+
+    Best practice: when OCR later succeeds on a scan that failed yesterday,
+    keep the same ledger row. The hash tells us *whether* to re-tag, not
+    *who* the document is. A new hash must not mint a second ghost record.
+    """
+    for row in (ledger.get("documents") or {}).values():
+        if row.get("rel_path") == rel_path and row.get("doc_id"):
+            return str(row["doc_id"])
+    return None
+
+
 def upsert(ledger: dict, doc_id: str, **fields) -> dict:
     row = ledger["documents"].setdefault(doc_id, {"doc_id": doc_id})
     row.update(fields)

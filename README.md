@@ -79,6 +79,17 @@ python -m burling.run --map --map-force   # re-place everything
 
 Edit `burling/map.yml` to change allowed terms; the model may not invent new ones.
 
+## Staged organize (experiment)
+
+Tag one layer, then fold, then go deeper. Do not invent main/sub/detail in
+one window. Spec: [docs/file-plan-layers.md](docs/file-plan-layers.md).
+20news spike findings (including TnT-LLM): [docs/taxonomy-spike.md](docs/taxonomy-spike.md).
+
+```bash
+python -m burling.run --spike --limit 20 \
+  --config burling/config.gold-20news-local-spike.yaml
+```
+
 ## What you get (`burling/output/`)
 
 | File | Role |
@@ -96,7 +107,9 @@ The ledger stores redacted samples (`***-**-6789`), never the raw SSN.
 
 ## Rules the code enforces
 
-- **Local only.** Non-localhost model URLs are refused.
+- **Local only.** Non-localhost model URLs are refused. The NVIDIA NIM
+  proxy is localhost but forwards off-box — it requires
+  `policy.public_corpus` and is 20news-only (`docs/taxonomy-spike.md`).
 - **One file, one call.** No shared chat history across the dump.
 - **Full text.** Long files are chunked with overlap, then merged.
 - **Fail closed** on formatted SSN and Luhn-valid card numbers.

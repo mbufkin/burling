@@ -64,6 +64,16 @@ Fail-closed. Do not let the model roam raw identifiers. Tokenize / redact in the
 
 Paperless-ngx + Tesseract + a local Qwen is a common 2025–2026 hobby pipeline for tax/medical/personal *type* labels. They classify **form type**. They usually do **not** ask “district work vs employee’s private life.” That second question is our actual gap — and Purview’s classifier layer, not Presidio’s.
 
+### 8. LLM taxonomy induction (Microsoft TnT-LLM and related)
+
+Browse folders are taxonomy generation + assignment. **TnT-LLM** (Wan et al.,
+Microsoft Research + UW, KDD 2024) is the lab paper: induce a label
+taxonomy, then classify. They used it on Bing Copilot intents. The known
+issue is **granularity, coverage, and consistency** — the reason the method
+is multi-stage instead of one prompt. Names-only folds over-merge; a file
+roster makes a small model merge the wrong ids. Details and the 20news
+spike: [taxonomy-spike.md](taxonomy-spike.md).
+
 ## What to steal (priority order)
 
 1. **Two labels, never one.** `pii_kinds[]` from Python. `custody: personal | work | unclear` from the model. Delete only if custody=personal. PII map lists both.
@@ -74,9 +84,12 @@ Paperless-ngx + Tesseract + a local Qwen is a common 2025–2026 hobby pipeline 
 6. **Seed set + metrics.** You code 20–30 files (personal vs work). Report precision/recall. Grossman: if you do not measure, you are guessing.
 7. **FERPA keep-path.** Student health / immunization / TB stay `keep` even with SSN; they still appear on `PII-MAP.md` so they are not lost in the dump.
 8. **Goldens.** Loom’s intake goldens: synthetic W-2, synthetic immunization roster, travel form, clean lesson plan. CI the policy, not just JSON parse.
+9. **Taxonomy in stages, coerce in code.** TnT-LLM’s lesson: do not invent the tree in one call. Merge ids must be copied from the inventory; filenames stay out of the combine window.
 
 ## What not to copy
 
 - Cloud DLP / Purview as the scanner — this dump has student health and tax. Local only.
+- NVIDIA NIM / any non-localhost model on a workplace dump. The spike is 20news only (`policy.public_corpus`).
 - “Has SSN ⇒ delete.” That is the mistake Presidio/Purview exist to prevent, and it would eat FERPA records.
 - Trusting 7B JSON parse as proof of correctness. Parse ≠ custody.
+- Trusting an LLM merge list without coercing ids. TnT-LLM still needs a records office.

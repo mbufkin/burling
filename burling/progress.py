@@ -70,6 +70,7 @@ def empty_token_stats() -> dict:
         "pass1_tokens": 0,
         "pass2_tokens": 0,
         "map_tokens": 0,
+        "audit_tokens": 0,
         "last_prompt_tokens": 0,
         "last_completion_tokens": 0,
         "updated_at": None,
@@ -97,6 +98,8 @@ def record_tokens(cfg: dict, prompt: int, completion: int, stage: str) -> dict:
         data["pass2_tokens"] += total
     elif stage == "map":
         data["map_tokens"] += total
+    elif stage == "audit":
+        data["audit_tokens"] += total
     data["updated_at"] = utc_now()
     atomic_write_json(path, data)
     return data
