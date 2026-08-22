@@ -60,6 +60,47 @@ class ChildPromptTests(unittest.TestCase):
         self.assertEqual(recs[0]["sub"], "playoffs")
         self.assertEqual(recs[2]["sub"], "playoffs")
 
+    def test_apply_map_stamps_why_on_each_merged_file(self) -> None:
+        # tagged_main is the clerk; main is after the fold. Combine reasoning
+        # must stay on the file so a later reader can see the mash.
+        recs = [
+            {
+                "rel_path": "a.txt",
+                "main": "atheism",
+                "tagged_main": "atheism",
+                "reasoning": "The subject is atheism.",
+            },
+            {
+                "rel_path": "b.txt",
+                "main": "dos-memory",
+                "tagged_main": "dos-memory",
+                "reasoning": "The subject is EMM386.",
+            },
+            {
+                "rel_path": "c.txt",
+                "main": "hockey",
+                "tagged_main": "hockey",
+                "reasoning": "The subject is hockey.",
+            },
+        ]
+        groups = [(("atheism", "dos-memory"), "dos-memory")]
+        n = apply_field_map(
+            recs,
+            "main",
+            {"atheism": "dos-memory", "dos-memory": "dos-memory", "hockey": "hockey"},
+            groups=groups,
+            reasoning="atheism and dos-memory look like the same kind of thing.",
+        )
+        self.assertEqual(n, 1)
+        self.assertEqual(recs[0]["main"], "dos-memory")
+        self.assertEqual(recs[0]["tagged_main"], "atheism")
+        self.assertEqual(recs[0]["combine_mains_from"], "atheism")
+        self.assertEqual(recs[0]["combine_mains_into"], "dos-memory")
+        self.assertEqual(recs[0]["combine_mains_merge"], ["atheism", "dos-memory"])
+        self.assertIn("same kind", recs[0]["combine_mains_reasoning"])
+        self.assertEqual(recs[1]["combine_mains_from"], "dos-memory")
+        self.assertNotIn("combine_mains_from", recs[2])
+
 
 class CloudGuardTests(unittest.TestCase):
     def test_nim_proxy_requires_public_corpus(self) -> None:

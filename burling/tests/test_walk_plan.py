@@ -2,16 +2,21 @@
 
 from __future__ import annotations
 
+import tempfile
 import unittest
+from pathlib import Path
 
 from burling.file_plan import UNMAPPED_ID
+from burling.layer_plan import WORKPLACE_MAINS
 from burling.walk_plan import (
     ChildChoice,
     WalkState,
     build_walk_regions,
     coerce_child_choice,
     coerce_main_choice,
+    run_walk_plan,
     walk_one,
+    walk_source_records,
 )
 
 
@@ -110,6 +115,17 @@ class CoerceChildTests(unittest.TestCase):
             coerce_child_choice({"action": "invent", "name": "misc"}, [], allow_empty=True).action,
             "empty",
         )
+
+    def test_every_workplace_series_is_banned_as_a_child(self) -> None:
+        # A child named training under operations was the CTE duplicate-root smell.
+        for series in WORKPLACE_MAINS:
+            choice = coerce_child_choice(
+                {"action": "invent", "name": series},
+                [],
+                allow_empty=True,
+            )
+            self.assertEqual(choice.action, "empty", msg=series)
+            self.assertEqual(choice.name, "")
 
 
 class RehomeTests(unittest.TestCase):
@@ -236,6 +252,86 @@ class WalkOneTests(unittest.TestCase):
         )
         self.assertEqual(home, [UNMAPPED_ID])
         self.assertEqual(state.records["x.txt"]["reason"], "extract missing")
+
+
+def _cfg(intake: Path, output: Path) -> dict:
+    return {
+        "paths": {"intake_dir": str(intake), "output_dir": str(output)},
+        "policy": {"never_delete": True, "local_only": True},
+        "chunking": {"threshold_chars": 80000, "chunk_chars": 80000, "overlap_chars": 400},
+        "ollama": {"url": "http://127.0.0.1:11434", "model": "unused"},
+    }
+
+
+class RunWalkPlanTests(unittest.TestCase):
+    def test_stub_walk_one_home_resume_and_empty_unmapped(self) -> None:
+        # CI never talks to a model. Choosers are the clerk; code is the office.
+        with tempfile.TemporaryDirectory() as tmp:
+            intake = Path(tmp) / "intake"
+            out = Path(tmp) / "output"
+            intake.mkdir()
+            (intake / "invoice.txt").write_text(
+                "Q3 invoice for roof repair, PO 4412, amount due net 30.", encoding="utf-8"
+            )
+            (intake / "empty.txt").write_text("", encoding="utf-8")
+            (intake / "travel.txt").write_text(
+                "Staff travel authorization for the summer conference in Austin.",
+                encoding="utf-8",
+            )
+            cfg = _cfg(intake, out)
+
+            def main(*, rel_path: str, **_kw: object) -> dict:
+                if "invoice" in rel_path:
+                    return {"main": "finance", "summary": "invoice"}
+                if "travel" in rel_path:
+                    return {"main": "operations", "summary": "travel"}
+                return {"main": "operations"}
+
+            def child(**_kw: object) -> dict:
+                return {"action": "empty"}
+
+            def combine(**_kw: object) -> dict:
+                return {"groups": []}
+
+            meta = run_walk_plan(
+                cfg,
+                choose_main=main,
+                choose_child=child,
+                choose_combine=combine,
+            )
+            self.assertEqual(meta["documents"], 3)
+            self.assertEqual(meta["homes_mean"], 1.0)
+            self.assertEqual(meta["unmapped"], 1)
+
+            again = run_walk_plan(
+                cfg,
+                choose_main=main,
+                choose_child=child,
+                choose_combine=combine,
+            )
+            self.assertEqual(again["documents"], 3)
+            # Resume skipped the three done rows; tags.json still has three.
+
+            source = walk_source_records(cfg)
+            self.assertEqual(
+                {r["rel_path"] for r in source},
+                {"invoice.txt", "empty.txt", "travel.txt"},
+            )
+
+    def test_source_prefers_ledger_over_intake(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            intake = Path(tmp) / "intake"
+            out = Path(tmp) / "output"
+            intake.mkdir()
+            out.mkdir()
+            (intake / "ignored.txt").write_text("should not be listed", encoding="utf-8")
+            (out / "ledger.json").write_text(
+                '{"documents": {"abc": {"rel_path": "only-in-ledger.txt"}}}',
+                encoding="utf-8",
+            )
+            cfg = _cfg(intake, out)
+            rows = walk_source_records(cfg)
+            self.assertEqual(rows, [{"rel_path": "only-in-ledger.txt"}])
 
 
 if __name__ == "__main__":

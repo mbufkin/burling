@@ -141,7 +141,14 @@ class WalkState:
                     counts[child] += 1
         return counts.most_common()
 
-    def rehome(self, prefix: list[str], merge: list[str], into: str) -> int:
+    def rehome(
+        self,
+        prefix: list[str],
+        merge: list[str],
+        into: str,
+        *,
+        reasoning: str = "",
+    ) -> int:
         """Move files under prefix+old into prefix+into.
 
         Old sibling names nest as the next layer when depth allows
@@ -180,12 +187,15 @@ class WalkState:
             self.records[rel] = rec
             moved += 1
         if moved:
+            members = sorted(merge_set)
             self.combines.append(
                 {
                     "at": utc_now(),
                     "prefix": list(prefix),
-                    "merge": sorted(merge_set),
+                    "from": members,
+                    "merge": members,
                     "into": into,
+                    "reasoning": (reasoning or "")[:800],
                     "moved": moved,
                 }
             )
@@ -426,6 +436,57 @@ def _count_nodes(nodes: list) -> int:
     return n
 
 
+def walk_source_records(cfg: dict) -> list[dict]:
+    """Files to walk. After a review run the ledger exists; tags.json may not.
+
+    Order: ledger documents → queue.json → tags.json → intake listing.
+    Best practice: the clerk files the dump that was queued, not a
+    leftover stitch roster from a previous experiment.
+    """
+    from burling.extract import iter_source_files
+    from burling.ledger import load_ledger
+    from burling.paths import intake_dir as config_intake
+    from burling.queue import load_queue
+    from burling.stitch_tags import load_tag_records
+
+    seen: set[str] = set()
+    rows: list[dict] = []
+
+    def _add(rel: object) -> None:
+        path = str(rel or "").strip()
+        if path and path not in seen:
+            seen.add(path)
+            rows.append({"rel_path": path})
+
+    ledger = load_ledger(cfg)
+    for rec in (ledger.get("documents") or {}).values():
+        if isinstance(rec, dict):
+            _add(rec.get("rel_path"))
+    if rows:
+        rows.sort(key=lambda item: item["rel_path"])
+        return rows
+
+    for item in (load_queue(cfg).get("items") or []):
+        if isinstance(item, dict):
+            _add(item.get("rel_path"))
+    if rows:
+        return rows
+
+    tags_path = Path(cfg.get("paths", {}).get("tags_json") or (output_dir(cfg) / "tags.json"))
+    if tags_path.is_file():
+        for rec in load_tag_records(cfg, tags_path):
+            if isinstance(rec, dict):
+                _add(rec.get("rel_path"))
+        if rows:
+            return rows
+
+    intake = config_intake(cfg)
+    if intake.is_dir():
+        for path in iter_source_files(intake):
+            _add(path.relative_to(intake).as_posix())
+    return rows
+
+
 def _state_path(cfg: dict) -> Path:
     return output_dir(cfg) / "walk-state.json"
 
@@ -620,17 +681,23 @@ def run_walk_plan(
     force: bool = False,
     choose_main: Chooser | None = None,
     choose_child: Chooser | None = None,
+    choose_combine: Chooser | None = None,
 ) -> dict:
-    """Walk every listed file. Writes a new output folder. Resume-safe."""
+    """Walk every listed file. Writes a new output folder. Resume-safe.
+
+    Filing places this letter. Maintain may combine fat mixed drawers
+    after it is home. Inject choosers in tests so CI never needs a GPU.
+    """
+    from burling.maintain_plan import choose_combine_model, maintain_after_place
     from burling.ralp import persist_payload
-    from burling.stitch_tags import load_tag_records
 
     out = output_dir(cfg)
     out.mkdir(parents=True, exist_ok=True)
-    tags_path = Path(cfg.get("paths", {}).get("tags_json") or (out / "tags.json"))
-    source = load_tag_records(cfg, tags_path if tags_path.is_file() else None)
+    source = walk_source_records(cfg)
     if not source:
-        raise RuntimeError(f"No document list at {tags_path} (need tags.json for the file list).")
+        raise RuntimeError(
+            "No document list for --walk (need a ledger, queue, tags.json, or intake files)."
+        )
 
     state = WalkState() if force else load_walk_state(cfg)
     pending = [
@@ -648,6 +715,7 @@ def run_walk_plan(
 
     main_fn = choose_main or (lambda **kw: choose_main_model(cfg, **kw))
     child_fn = choose_child or (lambda **kw: choose_child_model(cfg, **kw))
+    combine_fn = choose_combine or (lambda **kw: choose_combine_model(cfg, **kw))
 
     progress = Progress(cfg, "walk", len(pending))
     try:
@@ -667,6 +735,8 @@ def run_walk_plan(
                     console_safe(f"  walk {rel} → {'/'.join(home)}"),
                     flush=True,
                 )
+                # Combine is a later set task. Do not smuggle it into filing.
+                maintain_after_place(state, home, choose_combine=combine_fn)
             except OPERATOR_STOP:
                 raise
             except Exception as exc:

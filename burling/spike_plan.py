@@ -102,13 +102,30 @@ def load_spike_state(cfg: dict) -> dict[str, dict]:
     return by_path
 
 
-def save_spike_state(cfg: dict, by_path: dict[str, dict]) -> None:
+def load_combine_log(cfg: dict) -> list[dict]:
+    """Whole-run fold notes. Per-file why lives on each document."""
+    path = _state_path(cfg)
+    if not path.is_file():
+        return []
+    data = json.loads(path.read_text(encoding="utf-8"))
+    log = data.get("combine_log") or []
+    return [item for item in log if isinstance(item, dict)]
+
+
+def save_spike_state(
+    cfg: dict,
+    by_path: dict[str, dict],
+    combine_log: list[dict] | None = None,
+) -> None:
+    # Tagging saves mid-run; keep the fold log unless the caller passed a new one.
+    log = combine_log if combine_log is not None else load_combine_log(cfg)
     docs = list(by_path.values())
     atomic_write_json(
         _state_path(cfg),
         {
             "count": len(docs),
             "documents": docs,
+            "combine_log": log,
             "method": "spike-stages",
             "at": utc_now(),
         },
@@ -121,8 +138,13 @@ def _blank_rec(rel: str) -> dict:
         "main": "",
         "sub": "",
         "detail": "",
+        "tagged_main": "",
+        "tagged_sub": "",
+        "tagged_detail": "",
         "summary": "",
         "reasoning": "",
+        "sub_reasoning": "",
+        "detail_reasoning": "",
         "status": "pending",
         "at": utc_now(),
     }
@@ -191,6 +213,18 @@ def details_user_prompt(main: str, sub: str, n_files: int, details: list[tuple[s
     return "\n".join(lines)
 
 
+def _merge_members(
+    groups: list[tuple[tuple[str, ...], str]],
+) -> dict[str, tuple[str, list[str]]]:
+    """id → (into, the merge list it was in). One group claims an id."""
+    out: dict[str, tuple[str, list[str]]] = {}
+    for merge, into in groups:
+        members = list(merge)
+        for name in members:
+            out[name] = (into, members)
+    return out
+
+
 def apply_field_map(
     records: list[dict],
     field: str,
@@ -198,8 +232,21 @@ def apply_field_map(
     *,
     main: str | None = None,
     sub: str | None = None,
+    groups: list[tuple[tuple[str, ...], str]] | None = None,
+    reasoning: str = "",
 ) -> int:
-    """Rewrite one layer. Code is the records office; the model only proposed."""
+    """Rewrite one layer. Code is the records office; the model only proposed.
+
+    tagged_* stays the clerk's original id. combine_* fields record the fold
+    so a later reader can see why atheism now lives under another main.
+    """
+    prefix = {
+        "main": "combine_mains",
+        "sub": "combine_subs",
+        "detail": "combine_details",
+    }.get(field)
+    members = _merge_members(groups or [])
+    why = (reasoning or "")[:800]
     changed = 0
     for rec in records:
         if main is not None and kebab(rec.get("main")) != main:
@@ -212,7 +259,34 @@ def apply_field_map(
             rec[field] = nxt
             rec["at"] = utc_now()
             changed += 1
+        if prefix and cur in members:
+            into, merge = members[cur]
+            rec[f"{prefix}_from"] = cur
+            rec[f"{prefix}_into"] = into
+            rec[f"{prefix}_merge"] = list(merge)
+            rec[f"{prefix}_reasoning"] = why
     return changed
+
+
+def _record_combine(
+    log: list[dict],
+    *,
+    stage: str,
+    reasoning: str,
+    groups: list[tuple[tuple[str, ...], str]],
+    changed: int,
+    parent: str = "",
+) -> None:
+    log.append(
+        {
+            "stage": stage,
+            "parent": parent,
+            "reasoning": (reasoning or "")[:800],
+            "groups": [{"merge": list(merge), "into": into} for merge, into in groups],
+            "files_remapped": changed,
+            "at": utc_now(),
+        }
+    )
 
 
 def _ask(cfg: dict, messages: list[dict], step: str) -> dict:
@@ -256,6 +330,7 @@ def _tag_mains(
                         step=f"spike-main:{rel}",
                     )
                     rec["main"] = coerce_open_id(raw.get("main"))
+                    rec["tagged_main"] = rec["main"]
                     rec["summary"] = str(raw.get("summary") or "")[:500]
                     rec["reasoning"] = str(raw.get("reasoning") or "")[:500]
                     rec["status"] = "done"
@@ -278,7 +353,7 @@ def _tag_mains(
         save_spike_state(cfg, by_path)
 
 
-def _combine_mains(cfg: dict, records: list[dict]) -> None:
+def _combine_mains(cfg: dict, records: list[dict], combine_log: list[dict]) -> None:
     mains = counts_for(records, "main")
     ids = [name for name, _n in mains]
     print(f"SPIKE combine-mains: {len(ids)} unique mains", flush=True)
@@ -292,10 +367,20 @@ def _combine_mains(cfg: dict, records: list[dict]) -> None:
     )
     groups = coerce_groups(raw, ids, leave_one=False)
     mapping = apply_groups(ids, groups)
-    changed = apply_field_map(records, "main", mapping)
+    why = str(raw.get("reasoning") or "")
+    changed = apply_field_map(records, "main", mapping, groups=groups, reasoning=why)
+    _record_combine(
+        combine_log,
+        stage="combine-mains",
+        reasoning=why,
+        groups=groups,
+        changed=changed,
+    )
     print(f"  groups {len(groups)}, files remapped {changed}", flush=True)
     for merge, into in groups:
         print(console_safe(f"  merge {list(merge)} → {into}"), flush=True)
+    if why:
+        print(console_safe(f"  why: {why[:240]}"), flush=True)
 
 
 def _tag_children(
@@ -378,6 +463,8 @@ def _tag_children(
                         if name == kebab(parent.split("/")[-1]):
                             name = ""
                         rec[field] = name
+                        rec[f"tagged_{field}"] = name
+                        rec[f"{field}_reasoning"] = str(raw.get("reasoning") or "")[:500]
                         if raw.get("summary"):
                             rec["summary"] = str(raw.get("summary"))[:500]
                     rec["status"] = "done"
@@ -399,7 +486,7 @@ def _tag_children(
         save_spike_state(cfg, by_path)
 
 
-def _combine_subs(cfg: dict, records: list[dict]) -> None:
+def _combine_subs(cfg: dict, records: list[dict], combine_log: list[dict]) -> None:
     mains = [name for name, _n in counts_for(records, "main")]
     for main in mains:
         subs = counts_for(records, "sub", main=main)
@@ -418,13 +505,26 @@ def _combine_subs(cfg: dict, records: list[dict]) -> None:
         )
         groups = coerce_groups(raw, ids, leave_one=True)
         mapping = apply_groups(ids, groups)
-        changed = apply_field_map(records, "sub", mapping, main=main)
+        why = str(raw.get("reasoning") or "")
+        changed = apply_field_map(
+            records, "sub", mapping, main=main, groups=groups, reasoning=why
+        )
+        _record_combine(
+            combine_log,
+            stage="combine-subs",
+            reasoning=why,
+            groups=groups,
+            changed=changed,
+            parent=main,
+        )
         print(f"  groups {len(groups)}, files remapped {changed}", flush=True)
         for merge, into in groups:
             print(console_safe(f"  {main}: {list(merge)} → {into}"), flush=True)
+        if why:
+            print(console_safe(f"  why: {why[:240]}"), flush=True)
 
 
-def _combine_details(cfg: dict, records: list[dict]) -> None:
+def _combine_details(cfg: dict, records: list[dict], combine_log: list[dict]) -> None:
     drawers = list(
         dict.fromkeys(
             (kebab(r.get("main")), kebab(r.get("sub")))
@@ -449,8 +549,29 @@ def _combine_details(cfg: dict, records: list[dict]) -> None:
         )
         groups = coerce_groups(raw, ids, leave_one=True)
         mapping = apply_groups(ids, groups)
-        changed = apply_field_map(records, "detail", mapping, main=main, sub=sub)
+        why = str(raw.get("reasoning") or "")
+        changed = apply_field_map(
+            records,
+            "detail",
+            mapping,
+            main=main,
+            sub=sub,
+            groups=groups,
+            reasoning=why,
+        )
+        _record_combine(
+            combine_log,
+            stage="combine-details",
+            reasoning=why,
+            groups=groups,
+            changed=changed,
+            parent=f"{main}/{sub}",
+        )
         print(f"  groups {len(groups)}, files remapped {changed}", flush=True)
+        for merge, into in groups:
+            print(console_safe(f"  {main}/{sub}: {list(merge)} → {into}"), flush=True)
+        if why:
+            print(console_safe(f"  why: {why[:240]}"), flush=True)
 
 
 def run_spike(
@@ -479,11 +600,12 @@ def run_spike(
         source = source[: max(0, limit)]
 
     by_path = {} if force else load_spike_state(cfg)
+    combine_log: list[dict] = [] if force else load_combine_log(cfg)
     for rec in source:
         rel = str(rec.get("rel_path") or "")
         if rel and rel not in by_path:
             by_path[rel] = _blank_rec(rel)
-    save_spike_state(cfg, by_path)
+    save_spike_state(cfg, by_path, combine_log)
 
     rels = [str(r.get("rel_path") or "") for r in source if r.get("rel_path")]
     print(
@@ -504,8 +626,8 @@ def run_spike(
     records = _records_list(by_path, source)
     if stop_at >= 1:
         print("SPIKE stage combine-mains — fold after all mains exist", flush=True)
-        _combine_mains(cfg, records)
-        save_spike_state(cfg, by_path)
+        _combine_mains(cfg, records, combine_log)
+        save_spike_state(cfg, by_path, combine_log)
 
     if stop_at >= 2:
         print("SPIKE stage sub — one main at a time, reuse drawers", flush=True)
@@ -514,8 +636,8 @@ def run_spike(
 
     if stop_at >= 3:
         print("SPIKE stage combine-subs — review each cabinet", flush=True)
-        _combine_subs(cfg, records)
-        save_spike_state(cfg, by_path)
+        _combine_subs(cfg, records, combine_log)
+        save_spike_state(cfg, by_path, combine_log)
 
     if stop_at >= 4:
         print("SPIKE stage detail — one drawer at a time", flush=True)
@@ -524,8 +646,8 @@ def run_spike(
 
     if stop_at >= 5:
         print("SPIKE stage combine-details — review same process", flush=True)
-        _combine_details(cfg, records)
-        save_spike_state(cfg, by_path)
+        _combine_details(cfg, records, combine_log)
+        save_spike_state(cfg, by_path, combine_log)
 
     records = _records_list(by_path, source)
     mains = counts_for(records, "main")
