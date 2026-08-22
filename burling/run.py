@@ -1,4 +1,4 @@
-"""CLI: review, tag, stitch, audit, and RALP (organize→audit→revise).
+"""CLI: handover clerk — extract, leftover judge, walk organize.
 
 GOLDEN RULE: one file must not kill the run. Timeouts and corrupt files are
 noted on that document; Ctrl+C still stops the job.
@@ -8,7 +8,7 @@ Usage (from the clone root):
     python -m burling.run --priors-only --intake burling/tests/fixtures/tiny-dump
     python -m burling.run --intake /path/to/handover
     python -m burling.run --pass 1 --limit 20
-    python -m burling.run --map --intake /path/to/handover
+    python -m burling.run --walk --intake /path/to/handover
     python -m burling.run --report
 """
 
@@ -17,6 +17,7 @@ from __future__ import annotations
 import argparse
 import sys
 from pathlib import Path
+from typing import Callable
 
 from burling.paths import load_config
 from burling.progress import print_status, watch_status
@@ -24,9 +25,80 @@ from burling.queue import build_queue
 from burling.reports import write_reports
 
 
+PassFn = Callable[..., int]
+WalkFn = Callable[..., dict]
+QueueFn = Callable[..., dict]
+
+
+def run_handover(
+    cfg: dict,
+    *,
+    only_pass: str | None = None,
+    priors_only: bool = False,
+    resume: bool = False,
+    limit: int | None = None,
+    tags_force: bool = False,
+    run_pass1_fn: PassFn | None = None,
+    run_pass2_fn: PassFn | None = None,
+    run_walk_fn: WalkFn | None = None,
+    build_queue_fn: QueueFn | None = None,
+) -> int:
+    """Ship path: queue → pass 1 → pass 2 → walk.
+
+    Tests inject the model stages so CI never talks to Ollama. The records
+    office is still this function: one home per file, never delete.
+    """
+    skip_queue = bool(resume or only_pass)
+    if skip_queue:
+        print("Resuming from ledger (not re-extracting; skipped files are retried)...")
+    else:
+        print("Building queue (extract + regex priors)...")
+        queue_fn = build_queue_fn or build_queue
+        queue = queue_fn(cfg)
+        print(f"Queued {queue['total']} files from {queue['intake']}", flush=True)
+
+    if priors_only:
+        stats = write_reports(cfg)
+        print_status(cfg)
+        print("priors-only done. Run without --priors-only to start model passes.")
+        return 0
+
+    if only_pass in (None, "1"):
+        from burling.pass1 import run_pass1
+
+        pass1 = run_pass1_fn or run_pass1
+        n = pass1(cfg, limit=limit)
+        print(f"pass 1 tagged {n} document(s)")
+
+    if only_pass in (None, "2"):
+        from burling.pass2 import run_pass2
+
+        pass2 = run_pass2_fn or run_pass2
+        n = pass2(cfg, limit=limit)
+        print(f"pass 2 judged {n} document(s)")
+
+    # Full run: after the leftover judge, walk the locked series.
+    if only_pass is None:
+        from burling.walk_plan import run_walk_plan
+
+        walk = run_walk_fn or run_walk_plan
+        walk(cfg, resume=resume, limit=limit, force=tags_force)
+        print("walk organize done")
+
+    stats = write_reports(cfg)
+    print_status(cfg)
+    print(
+        f"review ready: {stats['delete_candidates']} delete candidates, "
+        f"{stats['review']} still in review queue"
+    )
+    print("Nothing was deleted. Read DELETE-CANDIDATES.md")
+    print("Browse map: REGIONS.md and topic-map.html")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
-        description="Two-pass local document review + taxonomy topic map."
+        description="Local handover clerk: extract, leftover judge, walk organize."
     )
     parser.add_argument(
         "--intake",
@@ -291,48 +363,14 @@ def main(argv: list[str] | None = None) -> int:
         print(f"map placed {n} document(s)")
         return 0
 
-    skip_queue = bool(args.resume or args.only_pass)
-    if skip_queue:
-        print("Resuming from ledger (not re-extracting; skipped files are retried)...")
-    else:
-        print("Building queue (extract + regex priors)...")
-        queue = build_queue(cfg)
-        print(f"Queued {queue['total']} files from {queue['intake']}")
-
-    if args.priors_only:
-        stats = write_reports(cfg)
-        print_status(cfg)
-        print("priors-only done. Run without --priors-only to start model passes.")
-        return 0
-
-    if args.only_pass in (None, "1"):
-        from burling.pass1 import run_pass1
-
-        n = run_pass1(cfg, limit=args.limit)
-        print(f"pass 1 tagged {n} document(s)")
-
-    if args.only_pass in (None, "2"):
-        from burling.pass2 import run_pass2
-
-        n = run_pass2(cfg, limit=args.limit)
-        print(f"pass 2 judged {n} document(s)")
-
-    # Full run: after PII passes, place every doc on the governed topic map.
-    if args.only_pass is None:
-        from burling.classify_map import run_map
-
-        n = run_map(cfg, limit=args.limit, force=args.map_force)
-        print(f"topic map placed {n} document(s)")
-
-    stats = write_reports(cfg)
-    print_status(cfg)
-    print(
-        f"review ready: {stats['delete_candidates']} delete candidates, "
-        f"{stats['review']} still in review queue"
+    return run_handover(
+        cfg,
+        only_pass=args.only_pass,
+        priors_only=args.priors_only,
+        resume=args.resume,
+        limit=args.limit,
+        tags_force=args.tags_force,
     )
-    print("Nothing was deleted. Read burling/output/DELETE-CANDIDATES.md")
-    print("Topic map: burling/output/TOPIC-MAP.md and topic-map.html")
-    return 0
 
 
 if __name__ == "__main__":
