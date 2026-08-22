@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "burling"
-version = "0.1.0"
-description = "Two-pass local document review: regex tags PII, a local LLM flags personal leftovers. Never auto-deletes."
+version = "0.2.0"
+description = "Local handover clerk: extract, leftover PII judge, walk organize. Never auto-deletes."
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
 authors = [{ name = "Michael Bufkin" }]
-keywords = ["privacy", "pii", "document-review", "ollama", "local-llm"]
+keywords = ["privacy", "pii", "document-review", "organize", "local-llm", "ollama", "records"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "License :: OSI Approved :: MIT License",

@@ -1,7 +1,7 @@
 # Contributing
 
-Thanks for looking. Burling is a small local-first review harness. The bar
-for a change is: tests pass without a GPU, and personal files never enter git.
+Thanks for looking. Burling is a local-first handover clerk. The bar for a
+change is: tests pass without a GPU, and personal files never enter git.
 
 ## Development setup
 
@@ -13,17 +13,21 @@ source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -e ".[dev]"
 ```
 
-Ollama is only required for pass 1 / pass 2. Regex work uses `--priors-only`.
+A local LLM is only required for pass 1 / pass 2 / walk. Regex work uses
+`--priors-only`. Do not add a test that needs Ollama, llama.cpp, or a real
+handover dump.
 
 ## Tests
+
+Same two commands as CI:
 
 ```bash
 python -m unittest discover -s burling/tests -p "test_*.py"
 python -m burling.run --priors-only --intake burling/tests/fixtures/tiny-dump
 ```
 
-CI runs the same commands. Do not add a test that needs a real handover dump
-or a cloud API.
+Walk and maintain tests inject stub choosers. If you change coerce, rehome,
+or the default `--intake` path, extend those tests.
 
 ## Pull requests
 
@@ -37,6 +41,7 @@ Please do **not** commit:
 
 - Anything under `intake/`, `corpus/`, or `output/` except the placeholders
 - `rclone.conf`, `.env`, or a filled-in `config.yaml`
+- Machine YAMLs with local model paths (`config.cte-manager-*.yaml`, gb10)
 - Screenshots or logs that show real names, emails, or account numbers
 
 ## Code of conduct

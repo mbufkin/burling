@@ -8,5 +8,5 @@ This repository reviews folders that may contain personal data.
 - Never add an auto-delete path.
 - Run `python -m unittest discover -s burling/tests -p "test_*.py"` after
   changing priors, queue, or reports.
-- Layered organize (3-layer tags, roll-up parent, max 3 browse folders): `docs/file-plan-layers.md`.
+- Everyday organize is `--walk` (locked series, then reuse/invent; maintain later). `--layers` is the previous test: `docs/file-plan-layers.md`.
 - Staged taxonomy spike (main → combine → sub → detail) and why names-only over-merges: `docs/taxonomy-spike.md`. NVIDIA NIM proxy is 20news / `policy.public_corpus` only.

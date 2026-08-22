@@ -8,9 +8,12 @@ invents a parent (cleaning + cooking → housekeeping). A stranger walks at
 most three folders, and only that deep when the parent is fat and mixed.
 The fourth layer never becomes a folder.
 
-Everyday organize is this path, not `--ralp` and not bag-of-tags stitch.
-`--clerk` (stitch a plan, then pick) was the previous test. Navy source
-for the steal: [military-document-sorting.md](military-document-sorting.md).
+Everyday organize is **`--walk`**: pick a locked workplace series, then reuse
+or invent a child. Combine is a later maintain call on fat mixed drawers
+(`burling/maintain_plan.py`). `--layers` (independent 3-layer tags, then one
+roll-up) is the previous test. `--clerk` (stitch a plan, then pick) and
+`--ralp` are older loops. Navy source for the steal:
+[military-document-sorting.md](military-document-sorting.md).
 
 ---
 
