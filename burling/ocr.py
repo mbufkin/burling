@@ -94,6 +94,34 @@ def ocr_pdf(path: Path, *, max_pages: int = MAX_OCR_PAGES) -> str:
     return text
 
 
+def ocr_image(path: Path) -> str:
+    """OCR a standalone photo (signage, scan, screenshot). Same engine as PDFs.
+
+    Best practice: cache by file fingerprint so a folder of 48 PNGs is not
+    re-OCRed every resume. CPU only.
+    """
+    cached = _cache_path(path)
+    if cached.exists():
+        return cached.read_text(encoding="utf-8", errors="replace")
+
+    import cv2
+
+    engine = _engine()
+    arr = cv2.imread(str(path))
+    if arr is None:
+        raise ValueError(f"could not read image {path.name}")
+    result, _elapsed = engine(arr)
+    lines: list[str] = []
+    if result:
+        for row in result:
+            if len(row) >= 2 and row[1]:
+                lines.append(str(row[1]))
+    text = "\n".join(lines).strip()
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    cached.write_text(text, encoding="utf-8")
+    return text
+
+
 def flatten_pdf(path: Path) -> tuple[str, str]:
     """Return (text, method) for a PDF, OCR-ing only when the text layer is empty."""
     try:
