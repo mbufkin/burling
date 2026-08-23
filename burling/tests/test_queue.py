@@ -73,6 +73,22 @@ class QueueTests(unittest.TestCase):
         names = [r["rel_path"] for r in todo]
         self.assertEqual(names, ["b.txt", "c.txt"])
 
+    def test_existing_doc_id_follows_path_not_hash(self) -> None:
+        # OCR recover must not mint a second row for the same scan.
+        from burling.ledger import existing_doc_id
+
+        ledger = {
+            "documents": {
+                "old-fingerprint": {
+                    "doc_id": "old-fingerprint",
+                    "rel_path": "scans/basc.pdf",
+                    "content_hash": "deadbeef",
+                }
+            }
+        }
+        self.assertEqual(existing_doc_id(ledger, "scans/basc.pdf"), "old-fingerprint")
+        self.assertIsNone(existing_doc_id(ledger, "other.pdf"))
+
 
 if __name__ == "__main__":
     unittest.main()

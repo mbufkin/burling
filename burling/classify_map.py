@@ -62,26 +62,52 @@ def vocab_block(map_doc: dict) -> str:
 
 def _system_prompt(vocab: str) -> str:
     return (
-        "You classify school CTE handover documents into a governed multi-facet "
-        "taxonomy. Output ONLY a single JSON object with keys: "
-        "program, function, audience, record_type, lifecycle (arrays of term names), "
+        "You classify Dallas ISD CTE working documents into a governed multi-facet "
+        "taxonomy. Describe the file as it is — do not assume this is a job "
+        "handover or successor packet. Output ONLY a single JSON object with keys: "
+        "program, function, audience, record_type, lifecycle "
+        "(each value is a term name string OR a JSON array of 1–2 term names), "
         "confidence (0.0-1.0), needs_review (boolean), "
         "rationale (one sentence, no personal identifiers), "
-        "handoff_note (one short sentence for a successor: why this file matters). "
-        "Use ONLY term names listed in the map. Use [] when nothing fits. "
-        "Use the sentinel \"unmapped\" inside a facet array when text exists but "
-        "no listed term fits. Do not invent new terms. "
+        "handoff_note (one short sentence: why this file matters in the collection). "
+        "Use ONLY exact term names listed in the map (kebab-case, e.g. pathful-eif). "
+        "Prefer a real term over \"unmapped\" when the document clearly matches. "
+        "Use \"unmapped\" (or [\"unmapped\"]) only when no listed term fits. "
+        "Do not invent new terms. "
         "Do not quote names, emails, phones, SSNs, or street addresses.\n\n"
         f"Allowed vocabulary:\n{vocab}"
     )
 
 
+def _coerce_term_list(raw: object) -> list[str]:
+    """Normalize model facet values to a list of candidate names.
+
+    Best practice: accept both shapes strong models emit —
+    a single string (\"pathful-eif\") or an array ([\"pathful-eif\"]).
+    Nemotron and similar often return strings for one-term facets; rejecting
+    those as invalid quietly maps everything to \"unmapped\".
+    """
+    if raw is None:
+        return []
+    if isinstance(raw, str):
+        text = raw.strip()
+        if not text:
+            return []
+        # Rare: model returns "a, b" instead of a JSON array.
+        if "," in text and " " not in text.split(",", 1)[0].strip():
+            return [part.strip() for part in text.split(",") if part.strip()]
+        return [text]
+    if isinstance(raw, list):
+        out: list[str] = []
+        for item in raw:
+            out.extend(_coerce_term_list(item))
+        return out
+    return [str(raw).strip()] if str(raw).strip() else []
+
+
 def _sanitize_terms(raw: object, allowed: set[str]) -> list[str]:
-    if not isinstance(raw, list):
-        return ["unmapped"]
     out: list[str] = []
-    for item in raw:
-        name = str(item).strip()
+    for name in _coerce_term_list(raw):
         if name in allowed and name not in out:
             out.append(name)
     return out[:2] if out else ["unmapped"]
