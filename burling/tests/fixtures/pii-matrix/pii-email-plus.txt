@@ -1,0 +1,2 @@
+Newsletter signup used alex+signup@example.com
+Unsubscribe handled at the list level.
