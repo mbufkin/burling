@@ -1,0 +1,27 @@
+# Constrained clerk on the 20 Newsgroups gold set — gb10 Lightning only.
+# Writes to gold-20news/clerk so the finished RALP tree is not overwritten.
+# Reuses the cached Pass A tags (no re-tag).
+ollama:
+  url: "http://127.0.0.1:8080"
+  api: "openai"
+  model: "/home/lenovo/llama.cpp/models/nemotron35-lightning-30b.gguf"
+  timeout_seconds: 600
+  temperature: 0.1
+  max_tokens: 4096
+  enable_thinking: false
+
+paths:
+  intake_dir: "/home/lenovo/gold-20news/inbox"
+  output_dir: "/home/lenovo/gold-20news/clerk"
+  tags_json: "/home/lenovo/gold-20news/output/tags.json"
+
+chunking:
+  threshold_chars: 80000
+  chunk_chars: 80000
+  overlap_chars: 400
+
+policy:
+  never_delete: true
+  local_only: true
+  redact_pii_in_ledger: true
+  fail_closed_on_personal_tax: true

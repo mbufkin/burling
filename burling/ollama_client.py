@@ -21,26 +21,49 @@ def assert_local_only(url: str) -> None:
         )
 
 
+def _repair_json(raw: str) -> str:
+    """Fix the two Nemotron mistakes that otherwise kill a finished run.
+
+    Best practice: never let one trailing comma or a ``//`` comment take down
+    Pass B after hours of tagging. Repair is conservative — only drop trailing
+    commas before ``}`` / ``]`` and strip ``//`` line comments.
+    """
+    # ``// comment`` is not JSON; Nemotron sometimes annotates a region.
+    no_comments = re.sub(r"(?m)//[^\n]*", "", raw)
+    # Trailing commas: ``{"a": 1,}`` or ``[1, 2,]``.
+    return re.sub(r",(\s*[}\]])", r"\1", no_comments)
+
+
 def parse_model_json(text: str, *, context: str = "model response") -> dict:
-    """Accept fenced JSON, raw JSON, or the first {...} blob. Small models are messy."""
+    """Accept fenced JSON, raw JSON, or the first {...} blob. Small models are messy.
+
+    Best practice: every candidate blob is tried raw *and* repaired. The old
+    second ``json.loads`` was unguarded — a trailing comma raised
+    ``JSONDecodeError`` and aborted stitch after tags had already finished.
+    """
     if not text or not str(text).strip():
         raise ValueError(f"{context}: empty model response")
     raw = text.strip()
     fence = re.search(r"```(?:json)?\s*([\s\S]*?)```", raw, re.I)
     if fence:
         raw = fence.group(1).strip()
-    try:
-        data = json.loads(raw, strict=False)
-        if isinstance(data, dict):
-            return data
-    except json.JSONDecodeError:
-        pass
+
+    candidates = [raw]
     start, end = raw.find("{"), raw.rfind("}")
     if start >= 0 and end > start:
-        data = json.loads(raw[start : end + 1], strict=False)
-        if isinstance(data, dict):
-            return data
-    raise ValueError(f"{context}: no JSON object found; starts with {raw[:120]!r}")
+        candidates.append(raw[start : end + 1])
+
+    last_err: Exception | None = None
+    for cand in candidates:
+        for blob in (cand, _repair_json(cand)):
+            try:
+                data = json.loads(blob, strict=False)
+            except json.JSONDecodeError as exc:
+                last_err = exc
+                continue
+            if isinstance(data, dict):
+                return data
+    raise ValueError(f"{context}: no JSON object found; starts with {raw[:120]!r}") from last_err
 
 
 def _stage_for(step: str) -> str:
@@ -50,6 +73,8 @@ def _stage_for(step: str) -> str:
         return "pass2"
     if step.startswith("map"):
         return "map"
+    if step.startswith("audit"):
+        return "audit"
     return "other"
 
 
@@ -175,8 +200,18 @@ def chat(cfg: dict, messages: list[dict], *, step: str) -> dict:
     Best practice: set ``ollama.api`` explicitly in config.yaml:
       - ``ollama`` (default) for Ollama
       - ``openai`` for llama-server and other /v1 endpoints
+
+    GOLDEN RULE: one malformed generation must not kill the run. Retry once
+    when the model returns unparseable JSON (common on the large stitch tree).
     """
     api = str((cfg.get("ollama") or {}).get("api") or "ollama").strip().lower()
-    if api in {"openai", "openai-compatible", "llamacpp", "llama.cpp"}:
-        return _chat_openai(cfg, messages, step=step)
-    return _chat_ollama(cfg, messages, step=step)
+    last_exc: Exception | None = None
+    for attempt in range(2):
+        try:
+            if api in {"openai", "openai-compatible", "llamacpp", "llama.cpp"}:
+                return _chat_openai(cfg, messages, step=step)
+            return _chat_ollama(cfg, messages, step=step)
+        except (ValueError, json.JSONDecodeError) as exc:
+            last_exc = exc
+            print(f"  bad JSON on {step} (attempt {attempt + 1}/2): {exc}", flush=True)
+    raise last_exc if last_exc else RuntimeError(f"{step}: JSON parse failed")
