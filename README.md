@@ -61,6 +61,19 @@ python -m burling.run --pass 2 --limit 20
 python -m burling.run --report
 ```
 
+## Organize → audit loop (experimental)
+
+`--ralp` is the **R**evise-**A**udit **L**oop for **P**lacement: cluster and
+name groups, audit one group at a time, apply moves, let the model split
+mixed groups, audit again. It works on **any** folder. See
+[docs/ralp-loop.md](docs/ralp-loop.md).
+
+```bash
+python -m burling.run --ralp --intake burling/tests/fixtures/sort-sample --ralp-rounds 3
+```
+
+Do not point this at a real dump in git.
+
 ## Topic map (taxonomy-first)
 
 After pass 1 / pass 2, a full run also places every document onto a

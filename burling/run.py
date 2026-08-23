@@ -1,4 +1,4 @@
-"""CLI: build the queue, run pass 1 (tags), run pass 2 (delete flags), topic map, reports.
+"""CLI: review, tag, stitch, audit, and RALP (organize→audit→revise).
 
 GOLDEN RULE: one file must not kill the run. Timeouts and corrupt files are
 noted on that document; Ctrl+C still stops the job.
@@ -58,6 +58,71 @@ def main(argv: list[str] | None = None) -> int:
         help="With --map, re-place documents that already have a placement.",
     )
     parser.add_argument(
+        "--tags",
+        action="store_true",
+        help="Pass A rich free-form tags only (see docs/tag-then-stitch.md).",
+    )
+    parser.add_argument(
+        "--tags-force",
+        action="store_true",
+        help="With --tags, re-tag documents that already have rich_tags. "
+        "With --layers, re-tag 3-layer paths already in layer-tags.json. "
+        "With --walk, re-file documents already in walk-state.json.",
+    )
+    parser.add_argument(
+        "--stitch",
+        action="store_true",
+        help="Pass B: stitch output/tags.json into nested regions (needs Pass A).",
+    )
+    parser.add_argument(
+        "--stitch-method",
+        choices=["ab", "compact", "clerk"],
+        default="ab",
+        help="With --stitch: ab = normalize+cluster (default); "
+        "compact = original top-180 raw tags; "
+        "clerk = compact + ban channel/year heads.",
+    )
+    parser.add_argument(
+        "--clerk",
+        action="store_true",
+        help="Older test: one clerk stitch, then one home per file. "
+        "Ship path is --walk (docs/file-plan-layers.md).",
+    )
+    parser.add_argument(
+        "--layers",
+        action="store_true",
+        help="Previous test: independent 3-layer tags, then roll-up. "
+        "Ship path is --walk (docs/file-plan-layers.md).",
+    )
+    parser.add_argument(
+        "--walk",
+        action="store_true",
+        help="Organize: pick a locked main, then reuse / invent / combine "
+        "at each child. Combine rehomes siblings (docs/file-plan-layers.md).",
+    )
+    parser.add_argument(
+        "--audit",
+        action="store_true",
+        help="Pass C: L1 graph checks + L2 group-at-a-time placement audit (needs --stitch).",
+    )
+    parser.add_argument(
+        "--audit-force",
+        action="store_true",
+        help="With --audit, redo chunks that already have status=done.",
+    )
+    parser.add_argument(
+        "--ralp",
+        action="store_true",
+        help="Organize → audit → apply → revise mixed groups → audit again "
+        "(docs/ralp-loop.md). Works on any --intake folder.",
+    )
+    parser.add_argument(
+        "--ralp-rounds",
+        type=int,
+        default=3,
+        help="With --ralp, max organize/audit cycles (default 3).",
+    )
+    parser.add_argument(
         "--limit",
         type=int,
         help="Process at most N documents this run (resume later)",
@@ -97,6 +162,71 @@ def main(argv: list[str] | None = None) -> int:
     if args.report:
         stats = write_reports(cfg)
         print(f"reports written for {stats['documents']} documents")
+        return 0
+
+    # --walk: locked main, then reuse / invent / combine. Ship organize path.
+    if args.walk:
+        from burling.walk_plan import run_walk_plan
+
+        run_walk_plan(
+            cfg,
+            resume=args.resume,
+            limit=args.limit,
+            force=args.tags_force,
+        )
+        return 0
+
+    # --layers: independent 3-layer tags → roll-up → Python tree.
+    if args.layers:
+        from burling.layer_plan import run_layer_plan
+
+        run_layer_plan(
+            cfg,
+            resume=args.resume,
+            limit=args.limit,
+            force=args.tags_force,
+        )
+        return 0
+
+    # --clerk: one stitch (banned heads) → one home per file. Not a loop.
+    if args.clerk:
+        from burling.file_plan import run_file_plan
+
+        run_file_plan(cfg, resume=args.resume, limit=args.limit)
+        return 0
+
+    # --ralp: organize → audit → apply → revise → audit (any intake).
+    if args.ralp:
+        from burling.ralp import run_ralp
+
+        run_ralp(cfg, max_rounds=max(1, args.ralp_rounds))
+        return 0
+
+    # --audit: L1 graph + L2 group-at-a-time placement check (needs regions.json).
+    if args.audit:
+        from burling.audit import run_audit
+
+        run_audit(cfg, force=args.audit_force, limit=args.limit)
+        return 0
+
+    # --stitch: Pass B tag→region hierarchy (requires Pass A tags.json).
+    if args.stitch:
+        from burling.stitch_tags import run_stitch
+
+        run_stitch(cfg, method=args.stitch_method)
+        return 0
+
+    # --tags: Pass A rich free-form tagging (before Pass B stitch).
+    if args.tags and args.only_pass is None and not args.priors_only and not args.map:
+        skip_queue = bool(args.resume)
+        if not skip_queue and args.intake:
+            print("Building queue (extract + regex priors)...")
+            queue = build_queue(cfg)
+            print(f"Queued {queue['total']} files from {queue['intake']}")
+        from burling.tag_rich import run_rich_tags
+
+        n = run_rich_tags(cfg, limit=args.limit, force=args.tags_force)
+        print(f"rich-tagged {n} document(s)")
         return 0
 
     # --map alone: place onto governed taxonomy (after inventory exists).

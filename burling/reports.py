@@ -90,15 +90,17 @@ def _summary(rows: list[dict]) -> str:
 **Regex SSN hits:** {ssn}
 **Regex address hits:** {addr}
 
-Python tagged PII. The model only decided personal leftover vs work record.
-Work files with PII (student immunization, travel) stay on `PII-MAP.md` but are not delete candidates.
+PII scan is a **suggestion / focus list**, not a verdict. Regex flags identifier-shaped
+hits; the model only suggests personal leftover vs work record so you know where to look.
+Work files with PII (student immunization, travel) stay on `PII-MAP.md` and are **not**
+delete instructions.
 
-## Pass 2 recommendations
+## Pass 2 suggestions (human confirms)
 
-| Recommendation | Count |
+| Suggestion | Count |
 |---|---|
-| delete_candidate (personal) | {recs.get("delete_candidate", 0)} |
-| review | {recs.get("review", 0)} |
+| delete_candidate (personal) — focus item | {recs.get("delete_candidate", 0)} |
+| review — focus item | {recs.get("review", 0)} |
 | keep (work) | {recs.get("keep", 0)} |
 | pending | {recs.get("pending", 0)} |
 
@@ -108,8 +110,8 @@ Work files with PII (student immunization, travel) stay on `PII-MAP.md` but are 
 |---|---|
 {tag_lines}
 
-Nothing in this folder is deleted by the harness. Confirm `DELETE-CANDIDATES.md`
-yourself, then move or delete those files by hand.
+The harness never deletes files. Use these lists to focus review; confirm
+`DELETE-CANDIDATES.md` yourself, then move or delete by hand if you agree.
 """
 
 
