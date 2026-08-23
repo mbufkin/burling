@@ -22,6 +22,7 @@ burling/output/*
 
 # Pack artifacts from copying source off a workstation.
 *.zip
+!burling/tests/fixtures/**/*.zip
 *.egg-info/
 dist/
 build/
