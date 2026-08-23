@@ -13,11 +13,6 @@ folder. It does not move siblings. Rehome is a later supervisor pass
 then a reason is required. Spec: ``docs/file-plan-layers.md``.
 
 Everyday organize is this module (``--walk``), not ``--ralp``.
-
-Andon stop (docs issue #37, jidoka): a high-severity file the clerk
-cannot place is never dumped into ``unmapped``. It is kept where it is
-and the line stops until the cause is fixed and it re-files. Low
-severity leftovers bin as before. Disable with ``walk.andon_stop: false``.
 """
 
 from __future__ import annotations
@@ -139,9 +134,6 @@ class WalkState:
     facets: dict[str, str] = field(default_factory=dict)
     records: dict[str, dict] = field(default_factory=dict)
     combines: list[dict] = field(default_factory=list)
-    # rel_path → reason for high-severity files kept in place (andon).
-    # Transient by design: never a folder, cleared on successful re-file.
-    andon_keeps: dict[str, str] = field(default_factory=dict)
 
     def children(self, prefix: list[str]) -> list[tuple[str, int]]:
         """Immediate child ids under prefix, fattest first, with file counts."""
@@ -213,34 +205,13 @@ class WalkState:
         detail: ChildChoice,
         summary: str = "",
         reason: str = "",
-        severity: str = "low",
     ) -> list[str]:
         """File this document and apply any combines first.
 
         Order matters: rehome siblings, then this file lands in the
         folder the combine just made, then the detail step can see it.
-
-        Andon: a high-severity document that would land in unmapped is
-        auto-kept in its current home instead — filed nowhere, binned
-        nowhere — and the caller stops the line.
         """
         if not main:
-            if severity == "high":
-                self.andon_keeps[rel_path] = reason or "no topical substance"
-                self.records[rel_path] = {
-                    "rel_path": rel_path,
-                    "main": "",
-                    "sub": "",
-                    "detail": "",
-                    "summary": summary,
-                    "reason": (
-                        f"andon: high-severity file kept in place "
-                        f"({reason or 'no topical substance'})"
-                    ),
-                    "status": "andon-keep",
-                    "at": utc_now(),
-                }
-                return []
             home = [UNMAPPED_ID]
             self.homes[rel_path] = home
             self.records[rel_path] = {
@@ -254,7 +225,6 @@ class WalkState:
                 "at": utc_now(),
             }
             return home
-        self.andon_keeps.pop(rel_path, None)  # re-filed: clear the stop.
 
         if sub.action == "combine" and sub.merge:
             self.rehome([main], list(sub.merge), sub.name)
@@ -446,7 +416,6 @@ def build_walk_regions(state: WalkState) -> dict:
             "unmapped": unmapped,
             "homes_mean": round(sum(n_homes) / len(n_homes), 2) if n_homes else 0,
             "combines": len(state.combines),
-            "andon_keeps": len(state.andon_keeps),
             "max_browse_depth": MAX_BROWSE_DEPTH,
             "built_at": utc_now(),
         },
@@ -487,11 +456,6 @@ def load_walk_state(cfg: dict) -> WalkState:
         facets={str(k): kebab(v) for k, v in (data.get("facets") or {}).items() if kebab(v)},
         records={str(k): v for k, v in (data.get("records") or {}).items() if isinstance(v, dict)},
         combines=list(data.get("combines") or []),
-        andon_keeps={
-            str(k): str(v)
-            for k, v in (data.get("andon_keeps") or {}).items()
-            if isinstance(v, str)
-        },
     )
 
 
@@ -503,7 +467,6 @@ def save_walk_state(cfg: dict, state: WalkState) -> None:
             "facets": state.facets,
             "records": state.records,
             "combines": state.combines,
-            "andon_keeps": state.andon_keeps,
             "method": "walk-file-plan",
         },
     )
@@ -596,7 +559,6 @@ def walk_one(
     text: str,
     choose_main: Chooser,
     choose_child: Chooser,
-    severity: str = "low",
 ) -> list[str]:
     """File one document against the live tree. Testable: inject the choosers."""
     if not (text or "").strip():
@@ -607,7 +569,6 @@ def walk_one(
             detail=ChildChoice("empty", ""),
             summary="",
             reason="extract missing",
-            severity=severity,
         )
     raw_main = choose_main(rel_path=rel_path, text=text)
     main, reason = coerce_main_choice(raw_main, text=text)
@@ -620,7 +581,7 @@ def walk_one(
     if not main:
         return state.place(
             rel_path, main="", sub=ChildChoice("empty", ""), detail=ChildChoice("empty", ""),
-            summary=summary, reason=reason or "no topical substance", severity=severity,
+            summary=summary, reason=reason or "no topical substance",
         )
 
     sub_raw = choose_child(
@@ -660,39 +621,6 @@ def walk_one(
     )
 
 
-def _severity_map(cfg: dict) -> dict[str, str]:
-    """rel_path → prior_severity from queue.json. Missing file/field = low."""
-    from burling.ledger import queue_path
-
-    qp = queue_path(cfg)
-    if not qp.is_file():
-        return {}
-    try:
-        data = json.loads(qp.read_text(encoding="utf-8"))
-    except (OSError, ValueError):
-        return {}
-    out: dict[str, str] = {}
-    for row in (data.get("documents") or {}).values():
-        rel = row.get("rel_path")
-        sev = row.get("prior_severity")
-        if rel and sev:
-            out[str(rel)] = str(sev)
-    return out
-
-
-def _andon_banner(state: WalkState) -> str:
-    lines = [
-        f"ANDON STOP: {len(state.andon_keeps)} high-severity file(s) could not be "
-        "filed and were kept in their current home — never binned, never deleted.",
-    ]
-    lines += [f"  - {console_safe(rel)}" for rel in sorted(state.andon_keeps)]
-    lines.append(
-        "The line is stopped. Fix the cause (extraction/tagging), then resume with "
-        "--walk --resume: kept files retry first and clear the stop when they file."
-    )
-    return "\n".join(lines)
-
-
 def run_walk_plan(
     cfg: dict,
     *,
@@ -729,23 +657,11 @@ def run_walk_plan(
 
     main_fn = choose_main or (lambda **kw: choose_main_model(cfg, **kw))
     child_fn = choose_child or (lambda **kw: choose_child_model(cfg, **kw))
-    andon_on = bool(cfg.get("walk", {}).get("andon_stop", True))
-    sevs = _severity_map(cfg) if andon_on else {}
-    # Kept files retry first: the stop clears the moment they re-file.
-    pending.sort(
-        key=lambda r: (
-            0 if state.records.get(str(r.get("rel_path") or ""), {}).get("status") == "andon-keep" else 1
-        )
-    )
 
     progress = Progress(cfg, "walk", len(pending))
     try:
         for i, rec in enumerate(pending, start=1):
             rel = str(rec.get("rel_path") or "")
-            # Andon gate: an unresolved high-severity keep stops the line.
-            if state.andon_keeps and rel not in state.andon_keeps:
-                print(_andon_banner(state), flush=True)
-                break
             progress.tick(i, rel)
             try:
                 text = _doc_text(cfg, rel)
@@ -755,7 +671,6 @@ def run_walk_plan(
                     text=text,
                     choose_main=main_fn,
                     choose_child=child_fn,
-                    severity=sevs.get(rel, "low"),
                 )
                 print(
                     console_safe(f"  walk {rel} → {'/'.join(home)}"),
@@ -772,11 +687,7 @@ def run_walk_plan(
                     detail=ChildChoice("empty", ""),
                     summary=f"{type(exc).__name__}: {exc}",
                     reason=f"{type(exc).__name__}: {exc}",
-                    severity=sevs.get(rel, "low"),
                 )
-            if state.records.get(rel, {}).get("status") == "andon-keep":
-                print(_andon_banner(state), flush=True)
-                break
             save_walk_state(cfg, state)
             # Regions/HTML are for the operator, not the clerk. Every 20
             # files is enough to watch; every file would rewrite the map 400×.
