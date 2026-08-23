@@ -19,9 +19,22 @@ burling/intake/*
 # Review output can hold redacted PII findings. Keep the folder, not the files.
 burling/output/*
 !burling/output/.gitkeep
+burling/output-sort-sample/
+
+# Field-trial artifacts (real names). Never publish.
+compare/
+
+# Public gold dumps (MultiEURLEX ~2.8GB, 20 Newsgroups). Do not vendor.
+.data/
 
 # Pack artifacts from copying source off a workstation.
 *.zip
 *.egg-info/
 dist/
 build/
+
+# Local working notes and generated previews. Never publish.
+.DS_Store
+.scratch/
+CONTEXT.md
+docs/browse-preview/
