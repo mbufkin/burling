@@ -561,13 +561,53 @@ def save_walk_state(cfg: dict, state: WalkState) -> None:
     )
 
 
+WALK_CALLS_NAME = "walk-decisions.jsonl"
+
+
+def _log_walk_call(
+    cfg: dict,
+    step: str,
+    messages: list[dict],
+    raw: object,
+    error: str | None = None,
+) -> None:
+    """Append one walk model call to output/walk-decisions.jsonl.
+
+    Decision context only: folder, siblings, and the raw answer. The
+    DOCUMENT TEXT section of the prompt is stripped — trace.py's rule:
+    never create a second PII store. Log I/O must not kill the run.
+    """
+    try:
+        user = next((m.get("content") or "" for m in messages if m.get("role") == "user"), "")
+        head = user.split("DOCUMENT TEXT:")[0].strip()
+        rec = {
+            "at": utc_now(),
+            "step": step,
+            "context": head,
+            "raw": raw if isinstance(raw, dict) else str(raw or "")[:500],
+        }
+        if error:
+            rec["error"] = error
+        path = output_dir(cfg) / WALK_CALLS_NAME
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open("a", encoding="utf-8") as fh:
+            fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    except Exception as exc:
+        from burling.progress import console_safe
+
+        print(console_safe(f"  NOTED [walk-log] {step}: {exc}"), flush=True)
+
+
 def _ask(cfg: dict, messages: list[dict], step: str) -> dict:
     """One fresh-window JSON call. Empty dict on failure so the clerk can retry."""
     try:
         raw = chat(cfg, messages, step=step)
-        return raw if isinstance(raw, dict) else {}
+        raw = raw if isinstance(raw, dict) else {}
+        _log_walk_call(cfg, step, messages, raw)
+        return raw
     except Exception as exc:
         print(f"  walk {step} failed: {exc}", flush=True)
+        _log_walk_call(cfg, step, messages, {}, error=f"{type(exc).__name__}: {exc}")
         return {}
 
 
