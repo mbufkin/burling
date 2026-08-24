@@ -28,7 +28,12 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Callable
 
-from burling.file_plan import UNMAPPED_ID, ensure_unmapped, is_banned_head
+from burling.file_plan import (
+    UNMAPPED_ID,
+    approved_children,
+    ensure_unmapped,
+    is_banned_head,
+)
 from burling.isolate import OPERATOR_STOP, note_file_failure
 from burling.io_util import atomic_write_json
 from burling.layer_plan import (
@@ -702,17 +707,30 @@ def _ask(cfg: dict, messages: list[dict], step: str) -> dict:
         return {}
 
 
-def _child_user(rel_path: str, text: str, prefix: list[str], siblings: list[tuple[str, int]]) -> str:
+def _child_user(
+    rel_path: str,
+    text: str,
+    prefix: list[str],
+    siblings: list[tuple[str, int]],
+    approved: set[str] | None = None,
+) -> str:
     folder = "/".join(prefix) or "(root)"
     if siblings:
         lines = [f"- {name}: {n}" for name, n in siblings]
         existing = "EXISTING CHILDREN (name: files):\n" + "\n".join(lines)
     else:
         existing = "EXISTING CHILDREN: none. Invent the first child, or empty if none fits."
+    menu = ""
+    if approved:
+        menu = (
+            "\n\nAPPROVED CHILDREN for this folder (pick from these when one fits; "
+            "invent only if none covers the subject):\n- "
+            + "\n- ".join(sorted(approved))
+        )
     return (
         f"FILE: {rel_path}\n"
         f"CURRENT FOLDER: {folder}\n\n"
-        f"{existing}\n\n"
+        f"{existing}{menu}\n\n"
         f"DOCUMENT TEXT:\n{text[:LAYER_DOC_CAP]}"
     )
 
@@ -763,13 +781,29 @@ def choose_child_model(
     text: str,
     prefix: list[str],
     siblings: list[tuple[str, int]],
+    approved: set[str] | None = None,
 ) -> dict:
-    user = _child_user(rel_path, text, prefix, siblings)
+    user = _child_user(rel_path, text, prefix, siblings, approved=approved)
     return _ask(
         cfg,
         [{"role": "system", "content": CHILD_SYSTEM}, {"role": "user", "content": user}],
         step=f"walk-child:{'/'.join(prefix)}:{rel_path}",
     )
+
+
+def _coerce_with_menu(raw: object, children: list, approved: set[str] | None) -> ChildChoice:
+    """Coerce a child proposal; off-menu inventions fall back to empty.
+
+    The menu is the poka-yoke: a drawer outside the org's plan is not a
+    drawer we want, however plausible the name. Staying at the main level
+    is the honest miss.
+    """
+    choice = coerce_child_choice(
+        raw, [n for n, _c in children], allow_empty=True
+    )
+    if approved is None or choice.action != "invent" or not choice.name:
+        return choice
+    return ChildChoice("empty", "") if kebab(choice.name) not in approved else choice
 
 
 def walk_one(
@@ -780,6 +814,7 @@ def walk_one(
     choose_main: Chooser,
     choose_child: Chooser,
     severity: str = "low",
+    cfg: dict | None = None,
 ) -> list[str]:
     """File one document against the live tree. Testable: inject the choosers."""
     if not (text or "").strip():
@@ -806,13 +841,15 @@ def walk_one(
             summary=summary, reason=reason or "no topical substance", severity=severity,
         )
 
+    approved = approved_children(cfg, main) if cfg is not None else None
     sub_raw = choose_child(
         rel_path=rel_path,
         text=text,
         prefix=[main],
         siblings=state.children([main]),
+        approved=approved,
     )
-    sub = coerce_child_choice(sub_raw, [n for n, _c in state.children([main])], allow_empty=True)
+    sub = _coerce_with_menu(sub_raw, state.children([main]), approved)
     if sub.action == "combine" and sub.merge:
         state.rehome([main], list(sub.merge), sub.name)
         sub = ChildChoice("reuse", sub.name, ())
@@ -946,6 +983,7 @@ def run_walk_plan(
                     choose_main=main_fn,
                     choose_child=child_fn,
                     severity=sevs.get(rel, "low"),
+                    cfg=cfg,
                 )
                 print(
                     console_safe(f"  walk {rel} → {'/'.join(home)}"),

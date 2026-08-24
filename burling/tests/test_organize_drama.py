@@ -53,7 +53,7 @@ def _gold_main_after_operator_fix(*, rel_path: str, text: str) -> dict:
     return {"main": LABELS[rel_path]["main"], "reason": "gold label"}
 
 
-def _gold_child(*, rel_path: str, text: str, prefix: list[str], siblings: list) -> dict:
+def _gold_child(*, rel_path: str, text: str, prefix: list[str], siblings: list, approved=None) -> dict:
     sub = kebab_safe((LABELS.get(rel_path) or {}).get("sub") or "")
     if not sub:
         return {"action": "empty"}

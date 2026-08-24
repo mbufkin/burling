@@ -149,6 +149,15 @@ clones stay light.
 
 ---
 
+## Companion corpora
+
+- `burling/tests/fixtures/sort-sample/` — 19 synthetic civic-topic docs
+  (transport, agriculture, environment, public-health, sports,
+  personal-finance). No workplace-mains labels: it exercises alias/fallback
+  behavior and is the cross-machine smoke sample (Mac Ollama vs gb10
+  llama.cpp). Used by `--ralp` testing.
+- `burling/tests/fixtures/organize-drama/` — the scored Layer-3 corpus above.
+
 ## Why not just use public corpora?
 
 They're complementary, not sufficient (per `docs/ralp-loop.md`): 20 Newsgroups

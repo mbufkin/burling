@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Burling — Topic map</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;500&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #0b3a5b;
+      --navy-deep: #07263d;
+      --navy-ink: #051828;
+      --blue: #003366;
+      --blue-mid: #1a6fa8;
+      --red: #b91c1c;
+      --paper: #f3ead8;
+      --paper-soft: #c4b8a0;
+      --paper-muted: #8a8070;
+      --rule: #1a4460;
+      --alert: #e8b4b4;
+      --sans: "Source Sans 3", "Segoe UI", sans-serif;
+      --serif: "Newsreader", Georgia, serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body { margin: 0; min-height: 100%; }
+
+    html { color-scheme: dark; }
+
+    body {
+      font-family: var(--sans);
+      background: var(--navy-deep);
+      color: var(--paper);
+      line-height: 1.5;
+    }
+
+    /* Paper grain: texture, not decoration. Opacity stays low so type wins. */
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 40;
+      opacity: 0.04;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+      background-size: 400px 400px;
+    }
+
+    /* Edge-to-edge product chrome. Institution first, then the tool. */
+    .brandbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 16px;
+      padding: 14px clamp(20px, 3vw, 48px);
+      border-bottom: 1px solid var(--rule);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--paper-soft);
+    }
+
+    .brandbar span:last-child { color: var(--paper-muted); }
+
+    /*
+      Off the 1180px rail. The page uses the viewport; only prose
+      keeps a measure. Butterick: 45–90 characters. Few: size regions
+      by importance, not a rigid column.
+    */
+    .page {
+      width: 100%;
+      max-width: none;
+      margin: 0;
+      padding: 40px clamp(20px, 3vw, 48px) 64px;
+    }
+
+    .masthead {
+      display: grid;
+      grid-template-columns: minmax(20rem, 38rem) minmax(16rem, 1fr);
+      column-gap: clamp(40px, 6vw, 96px);
+      row-gap: 36px;
+      align-items: start;
+    }
+
+    .eyebrow {
+      margin: 0 0 16px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--paper-muted);
+    }
+
+    h1 {
+      margin: 0 0 24px;
+      font-family: var(--serif);
+      font-size: clamp(40px, 4.2vw, 64px);
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.08;
+    }
+
+    h1 em {
+      font-style: italic;
+      color: var(--blue-mid);
+    }
+
+    /*
+      Hierarchy: one fact owns the page. Brand --red fails on navy
+      (~2.4:1); --alert stays readable.
+    */
+    .lead-stat {
+      display: flex;
+      align-items: baseline;
+      gap: 20px;
+      margin: 0 0 20px;
+      padding: 0;
+    }
+
+    .lead-stat-figure {
+      font-family: var(--serif);
+      font-size: clamp(48px, 7vw, 72px);
+      font-weight: 400;
+      line-height: 0.9;
+      letter-spacing: -0.03em;
+      color: var(--alert);
+    }
+
+    .lead-stat-copy {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .lead-stat-copy strong {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--paper);
+    }
+
+    .lead-stat-copy span {
+      font-size: 14px;
+      color: var(--paper-muted);
+    }
+
+    .lede {
+      margin: 0;
+      max-width: 66ch;
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--paper-soft);
+    }
+
+    .placements {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      max-width: 28rem;
+      width: 100%;
+      justify-self: end;
+    }
+
+    .programs {
+      display: grid;
+      gap: 0;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .programs li {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 16px;
+      align-items: baseline;
+      padding: 9px 0;
+      border-bottom: 1px solid var(--rule);
+      font-size: 14px;
+      color: var(--paper-soft);
+    }
+
+    .programs li.is-lead { color: var(--paper); }
+
+    .programs b {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: 18px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .stage {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(260px, 22rem);
+      gap: 32px clamp(28px, 3vw, 48px);
+      margin-top: 40px;
+      padding-top: 28px;
+      border-top: 1px solid var(--rule);
+    }
+
+    .stage-label {
+      margin: 0 0 14px;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--paper-muted);
+    }
+
+    .facets {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 28px;
+      margin-bottom: 8px;
+    }
+
+    .facet {
+      appearance: none;
+      background: none;
+      border: 0;
+      border-bottom: 2px solid transparent;
+      padding: 6px 0 8px;
+      margin: 0;
+      color: var(--paper-muted);
+      font-family: var(--sans);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    .facet:hover { color: var(--paper); }
+
+    .facet[aria-selected="true"] {
+      color: var(--paper);
+      border-bottom-color: var(--blue-mid);
+    }
+
+    .facet:focus-visible {
+      outline: 2px solid var(--blue-mid);
+      outline-offset: 4px;
+    }
+
+    /* Circle needs height as well as width or extra pixels just pad the plot. */
+    #sunburst {
+      width: 100%;
+      height: clamp(560px, 78vh, 900px);
+    }
+
+    #sunburst svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    #sunburst .slice {
+      cursor: pointer;
+      transition: opacity 160ms ease;
+    }
+
+    #sunburst .slice.is-dim { opacity: 0.28; }
+
+    #sunburst .slice-label {
+      pointer-events: none;
+      font-family: var(--sans);
+      font-weight: 600;
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
+
+    #sunburst .hub { cursor: pointer; }
+
+    #sunburst .hub circle { fill: var(--navy-ink); }
+
+    #sunburst .hub-title {
+      font-family: var(--serif);
+      font-size: 22px;
+      fill: var(--paper);
+      text-anchor: middle;
+    }
+
+    #sunburst .hub-sub {
+      font-family: var(--sans);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      fill: var(--paper-muted);
+      text-anchor: middle;
+    }
+
+    .crumb {
+      margin: 10px 0 8px;
+      font-size: 12px;
+      color: var(--paper-soft);
+    }
+
+    .crumb b {
+      font-weight: 600;
+      color: var(--paper);
+    }
+
+    .hint {
+      margin: 8px 0 0;
+      font-size: 12px;
+      color: var(--paper-muted);
+    }
+
+    .brief { padding-top: 8px; }
+
+    .brief-kicker {
+      margin: 0 0 10px;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--blue-mid);
+    }
+
+    .brief h2 {
+      margin: 0 0 10px;
+      font-family: var(--serif);
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 1.2;
+    }
+
+    .brief p {
+      margin: 0 0 14px;
+      font-size: 14px;
+      line-height: 1.55;
+      color: var(--paper-soft);
+    }
+
+    .brief dl {
+      margin: 0;
+      display: grid;
+      gap: 10px;
+    }
+
+    .brief dt {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--paper-muted);
+    }
+
+    .brief dd {
+      margin: 3px 0 0;
+      font-size: 14px;
+      color: var(--paper);
+      word-break: break-word;
+    }
+
+    /* Default brief: numbered how-to so the rail is never an empty hole. */
+    .guide {
+      margin: 22px 0 0;
+      padding: 0;
+      list-style: none;
+      counter-reset: guide;
+      border-top: 1px solid var(--rule);
+    }
+
+    .guide li {
+      counter-increment: guide;
+      display: grid;
+      grid-template-columns: 1.4rem 1fr;
+      gap: 10px;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--rule);
+      font-size: 13px;
+      line-height: 1.45;
+      color: var(--paper-soft);
+    }
+
+    .guide li::before {
+      content: counter(guide);
+      font-family: var(--serif);
+      font-size: 16px;
+      color: var(--blue-mid);
+    }
+
+    .flag {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 3px 0;
+      color: var(--alert);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .file-list {
+      margin: 16px 0 0;
+      padding: 0;
+      list-style: none;
+      border-top: 1px solid var(--rule);
+    }
+
+    .file-list li {
+      padding: 8px 0;
+      border-bottom: 1px solid var(--rule);
+      font-size: 14px;
+      line-height: 1.35;
+      color: var(--paper);
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid var(--rule);
+      color: var(--paper-muted);
+      font-size: 12px;
+    }
+
+    footer span { margin: 0 0.4em; color: var(--rule); }
+
+    @media (max-width: 1040px) {
+      .masthead { grid-template-columns: 1fr; }
+      .placements {
+        justify-self: stretch;
+        max-width: 36rem;
+        margin-top: 4px;
+        padding-top: 20px;
+        border-top: 1px solid var(--rule);
+      }
+    }
+
+    @media (max-width: 860px) {
+      .brandbar { padding: 12px 16px; }
+      .page { padding: 28px 16px 48px; }
+      .lead-stat { flex-wrap: wrap; gap: 12px 16px; }
+      .stage { grid-template-columns: 1fr; gap: 20px; }
+      .brief { padding-top: 0; }
+      #sunburst { height: 520px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="brandbar">
+    <span>Burling</span>
+    <span>Sample collection</span>
+  </div>
+  <div class="page">
+    <header class="masthead">
+      <div class="masthead-copy">
+        <p class="eyebrow">Collection map</p>
+        <h1>Topic <em>map</em></h1>
+        <p class="lead-stat">
+          <span class="lead-stat-figure">0</span>
+          <span class="lead-stat-copy">
+            <strong>Flagged for review</strong>
+            <span>of 68 documents in the collection</span>
+          </span>
+        </p>
+        <p class="lede">A synthetic handover dump, grouped the way the work runs. Ring size is count, not importance. These are sample files, not a live records dump.</p>
+      </div>
+
+      <div class="placements">
+        <p class="stage-label">Largest groups</p>
+        <ol class="programs"><li><span>Finance</span><b>9</b></li><li><span>Personnel</span><b>6</b></li><li><span>Operations</span><b>6</b></li><li><span>Communications</span><b>5</b></li><li><span>Customers</span><b>5</b></li><li><span>Security</span><b>5</b></li></ol>
+      </div>
+    </header>
+
+    <section class="stage">
+      <div>
+        <p class="stage-label">View</p>
+        <div class="facets" role="tablist" aria-label="Collection view"><button class="facet" type="button" role="tab" data-facet="program" aria-selected="true">Program</button></div>
+        <p class="crumb" id="crumb"><b>Full collection</b> · hover a slice to preview</p>
+        <div id="sunburst" role="img" aria-label="Topic sunburst"></div>
+        <p class="hint">Click a slice to open it. Click the center to return.</p>
+      </div>
+      <aside class="brief" id="brief" aria-live="polite"></aside>
+    </section>
+
+    <footer>
+      Burling · sample documentation — not a live dump
+    </footer>
+  </div>
+  <script>
+    const FIGURES = {"program": {"ids": ["root", "term::finance", "doc::program::finance/budget/q3-budget-draft.txt", "doc::program::finance/budget/travel-budget-scenario.txt", "doc::program::finance/invoices/invoice-acme-0042.txt", "doc::program::finance/invoices/invoice-globex-0077.txt", "doc::program::finance/payroll/payroll-calendar-2025.txt", "doc::program::finance/reimbursements/mileage-expense-claim.txt", "doc::program::finance/vendors/vendor-payment-list-2024.txt", "doc::program::finance/vendors/vendor-payment-list-2025.txt", "doc::program::mixed/project-alpha-budget.txt", "term::operations", "doc::program::operations/incidents/conveyor-jam-report.txt", "doc::program::operations/incidents/db-outage-postmortem.txt", "doc::program::operations/logs/delivery-receiving-log.txt", "doc::program::operations/logs/shift-handoff-week12.txt", "doc::program::operations/planning/capacity-plan-h2.txt", "doc::program::operations/schedules/production-schedule-march.txt", "term::personnel", "doc::program::mixed/project-alpha-roster.txt", "doc::program::personnel/cases/harassment-complaint-intake.txt", "doc::program::personnel/cases/performance-review-q2-marcus.txt", "doc::program::personnel/policies/offer-letter-jane-okafor.txt", "doc::program::personnel/policies/travel-expense-policy.txt", "doc::program::personnel/records/benefits-enrollment-form.txt", "term::communications", "doc::program::communications/crisis/crisis-comms-holding-statement.txt", "doc::program::communications/internal/all-hands-slides-outline.txt", "doc::program::communications/internal/newsletter-april-draft.txt", "doc::program::communications/press/press-release-product-launch.txt", "doc::program::mixed/project-alpha-press.txt", "term::customers", "doc::program::customers/acme/acme-kickoff-notes.txt", "doc::program::customers/acme/acme-qbr-deck-outline.txt", "doc::program::customers/acme/acme-renewal-risk-call.txt", "doc::program::customers/globex/globex-support-history.txt", "doc::program::customers/surveys/customer-feedback-spring.txt", "term::security", "doc::program::security/incidents/badge-tailgate-incident.txt", "doc::program::security/incidents/phishing-drill-results.txt", "doc::program::security/policies/visitor-badge-policy.txt", "doc::program::security/tickets/firewall-change-ticket.txt", "doc::program::special/legacy-export.txt", "term::technology", "doc::program::technology/architecture/office-wifi-upgrade-plan.txt", "doc::program::technology/design/api-gateway-design-notes.txt", "doc::program::technology/retros/sprint-42-retro.txt", "doc::program::technology/runbooks/database-backup-runbook.txt", "doc::program::technology/runbooks/laptop-imaging-guide.txt", "term::administration", "doc::program::administration/minutes/all-hands-minutes-january.txt", "doc::program::administration/minutes/supply-committee-minutes-february.txt", "doc::program::administration/policies/front-desk-rota.txt", "doc::program::administration/policies/records-retention-policy.txt", "term::facilities", "doc::program::facilities/logs/hvac-maintenance-log.txt", "doc::program::facilities/logs/key-card-audit-log.txt", "doc::program::facilities/policies/loading-dock-hours.txt", "doc::program::facilities/policies/parking-permit-policy.txt", "term::health", "doc::program::health/assessments/ergonomics-assessment-desk.txt", "doc::program::health/clinics/flu-shot-clinic-signup.txt", "doc::program::health/events/wellness-fair-flyer.txt", "doc::program::health/inventory/first-aid-kit-inventory.txt", "term::legal", "doc::program::legal/holds/litigation-hold-notice.txt", "doc::program::legal/leases/warehouse-lease-summary.txt", "doc::program::legal/templates/nda-template.txt", "doc::program::legal/trademarks/trademark-renewal-filing.txt", "term::personal", "doc::program::personal/family/family-chili-recipe.txt", "doc::program::personal/family/soccer-car-pool-schedule.txt", "doc::program::personal/hobbies/delta-kite-build-plan.txt", "doc::program::personal/hobbies/guitar-lesson-notes.txt", "term::training", "doc::program::training/certifications/forklift-cert-records.txt", "doc::program::training/compliance/compliance-training-deadlines.txt", "doc::program::training/mentoring/mentor-program-guidelines.txt", "doc::program::training/plans/newhire-training-plan.txt", "term::unmapped", "doc::program::scratch/empty-scratch.txt", "doc::program::special/me-too-thread.txt", "doc::program::special/unsubscribe-confirmations.txt"], "parents": ["", "root", "term::finance", "term::finance", "term::finance", "term::finance", "term::finance", "term::finance", "term::finance", "term::finance", "term::finance", "root", "term::operations", "term::operations", "term::operations", "term::operations", "term::operations", "term::operations", "root", "term::personnel", "term::personnel", "term::personnel", "term::personnel", "term::personnel", "term::personnel", "root", "term::communications", "term::communications", "term::communications", "term::communications", "term::communications", "root", "term::customers", "term::customers", "term::customers", "term::customers", "term::customers", "root", "term::security", "term::security", "term::security", "term::security", "term::security", "root", "term::technology", "term::technology", "term::technology", "term::technology", "term::technology", "root", "term::administration", "term::administration", "term::administration", "term::administration", "root", "term::facilities", "term::facilities", "term::facilities", "term::facilities", "root", "term::health", "term::health", "term::health", "term::health", "root", "term::legal", "term::legal", "term::legal", "term::legal", "root", "term::personal", "term::personal", "term::personal", "term::personal", "root", "term::training", "term::training", "term::training", "term::training", "root", "term::unmapped", "term::unmapped", "term::unmapped"], "labels": ["Map", "finance", "q3 budget draft", "travel budget scenario", "invoice acme", "invoice globex", "payroll calendar", "mileage expense claim", "vendor payment list", "vendor payment list", "project alpha budget", "operations", "conveyor jam report", "db outage postmortem", "delivery receiving log", "shift handoff week12", "capacity plan h2", "production schedule march", "personnel", "project alpha roster", "harassment complaint", "performance review q2", "offer letter jane okafor", "travel expense policy", "benefits enrollment form", "communications", "crisis comms holding", "all hands slides outline", "newsletter april draft", "press release product", "project alpha press", "customers", "acme kickoff notes", "acme qbr deck outline", "acme renewal risk call", "globex support history", "customer feedback spring", "security", "badge tailgate incident", "phishing drill results", "visitor badge policy", "firewall change ticket", "legacy export", "technology", "office wifi upgrade plan", "api gateway design notes", "sprint 42 retro", "database backup runbook", "laptop imaging guide", "administration", "all hands minutes january", "supply committee minutes", "front desk rota", "records retention policy", "facilities", "hvac maintenance log", "key card audit log", "loading dock hours", "parking permit policy", "health", "ergonomics assessment desk", "flu shot clinic signup", "wellness fair flyer", "first aid kit inventory", "legal", "litigation hold notice", "warehouse lease summary", "nda template", "trademark renewal filing", "personal", "family chili recipe", "soccer car pool schedule", "delta kite build plan", "guitar lesson notes", "training", "forklift cert records", "compliance training", "mentor program guidelines", "newhire training plan", "unmapped", "empty scratch", "me too thread", "unsubscribe confirmations"], "values": [68, 9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 1, 1, 1, 1, 1, 1, 6, 1, 1, 1, 1, 1, 1, 5, 1, 1, 1, 1, 1, 5, 1, 1, 1, 1, 1, 5, 1, 1, 1, 1, 1, 5, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 4, 1, 1, 1, 1, 4, 1, 1, 1, 1, 4, 1, 1, 1, 1, 4, 1, 1, 1, 1, 4, 1, 1, 1, 1, 3, 1, 1, 1], "marker": {"colors": ["#051c2e", "#1a6fa8", "#efe4ce", "#e4d4b8", "#d8c6a6", "#f3ead8", "#cfc0a0", "#e8d7b4", "#d2c2a4", "#c4b496", "#efe4ce", "#0b3a5b", "#efe4ce", "#e4d4b8", "#d8c6a6", "#f3ead8", "#cfc0a0", "#e8d7b4", "#3d7fa8", "#efe4ce", "#e4d4b8", "#d8c6a6", "#f3ead8", "#cfc0a0", "#e8d7b4", "#003366", "#efe4ce", "#e4d4b8", "#d8c6a6", "#f3ead8", "#cfc0a0", "#5a93b0", "#efe4ce", "#e4d4b8", "#d8c6a6", "#f3ead8", "#cfc0a0", "#164866", "#efe4ce", "#e4d4b8", "#d8c6a6", "#f3ead8", "#cfc0a0", "#4a7a94", "#efe4ce", "#e4d4b8", "#d8c6a6", "#f3ead8", "#cfc0a0", "#2a5a78", "#efe4ce", "#e4d4b8", "#d8c6a6", "#f3ead8", "#6b8fa3", "#efe4ce", "#e4d4b8", "#d8c6a6", "#f3ead8", "#0e4a6b", "#efe4ce", "#e4d4b8", "#d8c6a6", "#f3ead8", "#3a6a82", "#efe4ce", "#e4d4b8", "#d8c6a6", "#f3ead8", "#1c5570", "#efe4ce", "#e4d4b8", "#d8c6a6", "#f3ead8", "#1a6fa8", "#efe4ce", "#e4d4b8", "#d8c6a6", "#f3ead8", "#6e675c", "#efe4ce", "#e4d4b8", "#d8c6a6"], "line": {"width": 2, "color": "#07263d"}}, "textfont": {"family": "Source Sans 3, sans-serif", "size": 15, "color": ["#f3ead8", "#f3ead8", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#07263d"]}, "customdata": ["{\"kind\": \"root\", \"facet\": \"program\", \"count\": 68, \"title\": \"By program\", \"note\": \"Ring size is document count, not importance.\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"finance\", \"count\": 9, \"title\": \"finance\", \"files\": [\"q3 budget draft\", \"travel budget scenario\", \"invoice acme\", \"invoice globex\", \"payroll calendar\", \"mileage expense claim\", \"vendor payment list\", \"vendor payment list\", \"project alpha budget\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"finance\", \"title\": \"q3-budget-draft.txt\", \"ring\": \"q3 budget draft\", \"path\": \"finance/budget/q3-budget-draft.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance--budget\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"finance\", \"title\": \"travel-budget-scenario.txt\", \"ring\": \"travel budget scenario\", \"path\": \"finance/budget/travel-budget-scenario.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance--budget\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"finance\", \"title\": \"invoice-acme-0042.txt\", \"ring\": \"invoice acme\", \"path\": \"finance/invoices/invoice-acme-0042.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance--invoices\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"finance\", \"title\": \"invoice-globex-0077.txt\", \"ring\": \"invoice globex\", \"path\": \"finance/invoices/invoice-globex-0077.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance--invoices\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"finance\", \"title\": \"payroll-calendar-2025.txt\", \"ring\": \"payroll calendar\", \"path\": \"finance/payroll/payroll-calendar-2025.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance--payroll\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"finance\", \"title\": \"mileage-expense-claim.txt\", \"ring\": \"mileage expense claim\", \"path\": \"finance/reimbursements/mileage-expense-claim.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance--reimbursements\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"finance\", \"title\": \"vendor-payment-list-2024.txt\", \"ring\": \"vendor payment list\", \"path\": \"finance/vendors/vendor-payment-list-2024.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance--vendors\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"finance\", \"title\": \"vendor-payment-list-2025.txt\", \"ring\": \"vendor payment list\", \"path\": \"finance/vendors/vendor-payment-list-2025.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance--vendors\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"finance\", \"title\": \"project-alpha-budget.txt\", \"ring\": \"project alpha budget\", \"path\": \"mixed/project-alpha-budget.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance--budget\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"operations\", \"count\": 6, \"title\": \"operations\", \"files\": [\"conveyor jam report\", \"db outage postmortem\", \"delivery receiving log\", \"shift handoff week12\", \"capacity plan h2\", \"production schedule march\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"operations\", \"title\": \"conveyor-jam-report.txt\", \"ring\": \"conveyor jam report\", \"path\": \"operations/incidents/conveyor-jam-report.txt\", \"conf\": 1.0, \"program\": \"operations\", \"function\": \"operations--incidents\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"operations\", \"title\": \"db-outage-postmortem.txt\", \"ring\": \"db outage postmortem\", \"path\": \"operations/incidents/db-outage-postmortem.txt\", \"conf\": 1.0, \"program\": \"operations\", \"function\": \"operations--incidents\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"operations\", \"title\": \"delivery-receiving-log.txt\", \"ring\": \"delivery receiving log\", \"path\": \"operations/logs/delivery-receiving-log.txt\", \"conf\": 1.0, \"program\": \"operations\", \"function\": \"operations--logs\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"operations\", \"title\": \"shift-handoff-week12.txt\", \"ring\": \"shift handoff week12\", \"path\": \"operations/logs/shift-handoff-week12.txt\", \"conf\": 1.0, \"program\": \"operations\", \"function\": \"operations--logs\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"operations\", \"title\": \"capacity-plan-h2.txt\", \"ring\": \"capacity plan h2\", \"path\": \"operations/planning/capacity-plan-h2.txt\", \"conf\": 1.0, \"program\": \"operations\", \"function\": \"operations--planning\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"operations\", \"title\": \"production-schedule-march.txt\", \"ring\": \"production schedule march\", \"path\": \"operations/schedules/production-schedule-march.txt\", \"conf\": 1.0, \"program\": \"operations\", \"function\": \"operations--schedules\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"personnel\", \"count\": 6, \"title\": \"personnel\", \"files\": [\"project alpha roster\", \"harassment complaint\", \"performance review q2\", \"offer letter jane okafor\", \"travel expense policy\", \"benefits enrollment form\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"personnel\", \"title\": \"project-alpha-roster.txt\", \"ring\": \"project alpha roster\", \"path\": \"mixed/project-alpha-roster.txt\", \"conf\": 1.0, \"program\": \"personnel\", \"function\": \"personnel--rosters\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"personnel\", \"title\": \"harassment-complaint-intake.txt\", \"ring\": \"harassment complaint\", \"path\": \"personnel/cases/harassment-complaint-intake.txt\", \"conf\": 1.0, \"program\": \"personnel\", \"function\": \"personnel--cases\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"personnel\", \"title\": \"performance-review-q2-marcus.txt\", \"ring\": \"performance review q2\", \"path\": \"personnel/cases/performance-review-q2-marcus.txt\", \"conf\": 1.0, \"program\": \"personnel\", \"function\": \"personnel--cases\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"personnel\", \"title\": \"offer-letter-jane-okafor.txt\", \"ring\": \"offer letter jane okafor\", \"path\": \"personnel/policies/offer-letter-jane-okafor.txt\", \"conf\": 1.0, \"program\": \"personnel\", \"function\": \"personnel--policies\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"personnel\", \"title\": \"travel-expense-policy.txt\", \"ring\": \"travel expense policy\", \"path\": \"personnel/policies/travel-expense-policy.txt\", \"conf\": 1.0, \"program\": \"personnel\", \"function\": \"personnel--policies\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"personnel\", \"title\": \"benefits-enrollment-form.txt\", \"ring\": \"benefits enrollment form\", \"path\": \"personnel/records/benefits-enrollment-form.txt\", \"conf\": 1.0, \"program\": \"personnel\", \"function\": \"personnel--benefits\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"communications\", \"count\": 5, \"title\": \"communications\", \"files\": [\"crisis comms holding\", \"all hands slides outline\", \"newsletter april draft\", \"press release product\", \"project alpha press\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"communications\", \"title\": \"crisis-comms-holding-statement.txt\", \"ring\": \"crisis comms holding\", \"path\": \"communications/crisis/crisis-comms-holding-statement.txt\", \"conf\": 1.0, \"program\": \"communications\", \"function\": \"communications--crisis\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"communications\", \"title\": \"all-hands-slides-outline.txt\", \"ring\": \"all hands slides outline\", \"path\": \"communications/internal/all-hands-slides-outline.txt\", \"conf\": 1.0, \"program\": \"communications\", \"function\": \"communications--internal\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"communications\", \"title\": \"newsletter-april-draft.txt\", \"ring\": \"newsletter april draft\", \"path\": \"communications/internal/newsletter-april-draft.txt\", \"conf\": 1.0, \"program\": \"communications\", \"function\": \"communications--internal\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"communications\", \"title\": \"press-release-product-launch.txt\", \"ring\": \"press release product\", \"path\": \"communications/press/press-release-product-launch.txt\", \"conf\": 1.0, \"program\": \"communications\", \"function\": \"communications--press\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"communications\", \"title\": \"project-alpha-press.txt\", \"ring\": \"project alpha press\", \"path\": \"mixed/project-alpha-press.txt\", \"conf\": 1.0, \"program\": \"communications\", \"function\": \"communications--press\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"customers\", \"count\": 5, \"title\": \"customers\", \"files\": [\"acme kickoff notes\", \"acme qbr deck outline\", \"acme renewal risk call\", \"globex support history\", \"customer feedback spring\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"customers\", \"title\": \"acme-kickoff-notes.txt\", \"ring\": \"acme kickoff notes\", \"path\": \"customers/acme/acme-kickoff-notes.txt\", \"conf\": 1.0, \"program\": \"customers\", \"function\": \"customers--acme\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"customers\", \"title\": \"acme-qbr-deck-outline.txt\", \"ring\": \"acme qbr deck outline\", \"path\": \"customers/acme/acme-qbr-deck-outline.txt\", \"conf\": 1.0, \"program\": \"customers\", \"function\": \"customers--acme\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"customers\", \"title\": \"acme-renewal-risk-call.txt\", \"ring\": \"acme renewal risk call\", \"path\": \"customers/acme/acme-renewal-risk-call.txt\", \"conf\": 1.0, \"program\": \"customers\", \"function\": \"customers--acme\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"customers\", \"title\": \"globex-support-history.txt\", \"ring\": \"globex support history\", \"path\": \"customers/globex/globex-support-history.txt\", \"conf\": 1.0, \"program\": \"customers\", \"function\": \"customers--globex\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"customers\", \"title\": \"customer-feedback-spring.txt\", \"ring\": \"customer feedback spring\", \"path\": \"customers/surveys/customer-feedback-spring.txt\", \"conf\": 1.0, \"program\": \"customers\", \"function\": \"customers--surveys\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"security\", \"count\": 5, \"title\": \"security\", \"files\": [\"badge tailgate incident\", \"phishing drill results\", \"visitor badge policy\", \"firewall change ticket\", \"legacy export\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"security\", \"title\": \"badge-tailgate-incident.txt\", \"ring\": \"badge tailgate incident\", \"path\": \"security/incidents/badge-tailgate-incident.txt\", \"conf\": 1.0, \"program\": \"security\", \"function\": \"security--incidents\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"security\", \"title\": \"phishing-drill-results.txt\", \"ring\": \"phishing drill results\", \"path\": \"security/incidents/phishing-drill-results.txt\", \"conf\": 1.0, \"program\": \"security\", \"function\": \"security--incidents\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"security\", \"title\": \"visitor-badge-policy.txt\", \"ring\": \"visitor badge policy\", \"path\": \"security/policies/visitor-badge-policy.txt\", \"conf\": 1.0, \"program\": \"security\", \"function\": \"security--policies\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"security\", \"title\": \"firewall-change-ticket.txt\", \"ring\": \"firewall change ticket\", \"path\": \"security/tickets/firewall-change-ticket.txt\", \"conf\": 1.0, \"program\": \"security\", \"function\": \"security--tickets\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"security\", \"title\": \"legacy-export.txt\", \"ring\": \"legacy export\", \"path\": \"special/legacy-export.txt\", \"conf\": 1.0, \"program\": \"security\", \"function\": \"security--credentials\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"technology\", \"count\": 5, \"title\": \"technology\", \"files\": [\"office wifi upgrade plan\", \"api gateway design notes\", \"sprint 42 retro\", \"database backup runbook\", \"laptop imaging guide\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"technology\", \"title\": \"office-wifi-upgrade-plan.txt\", \"ring\": \"office wifi upgrade plan\", \"path\": \"technology/architecture/office-wifi-upgrade-plan.txt\", \"conf\": 1.0, \"program\": \"technology\", \"function\": \"technology--architecture\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"technology\", \"title\": \"api-gateway-design-notes.txt\", \"ring\": \"api gateway design notes\", \"path\": \"technology/design/api-gateway-design-notes.txt\", \"conf\": 1.0, \"program\": \"technology\", \"function\": \"technology--design\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"technology\", \"title\": \"sprint-42-retro.txt\", \"ring\": \"sprint 42 retro\", \"path\": \"technology/retros/sprint-42-retro.txt\", \"conf\": 1.0, \"program\": \"technology\", \"function\": \"technology--retros\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"technology\", \"title\": \"database-backup-runbook.txt\", \"ring\": \"database backup runbook\", \"path\": \"technology/runbooks/database-backup-runbook.txt\", \"conf\": 1.0, \"program\": \"technology\", \"function\": \"technology--runbooks\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"technology\", \"title\": \"laptop-imaging-guide.txt\", \"ring\": \"laptop imaging guide\", \"path\": \"technology/runbooks/laptop-imaging-guide.txt\", \"conf\": 1.0, \"program\": \"technology\", \"function\": \"technology--runbooks\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"administration\", \"count\": 4, \"title\": \"administration\", \"files\": [\"all hands minutes january\", \"supply committee minutes\", \"front desk rota\", \"records retention policy\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"administration\", \"title\": \"all-hands-minutes-january.txt\", \"ring\": \"all hands minutes january\", \"path\": \"administration/minutes/all-hands-minutes-january.txt\", \"conf\": 1.0, \"program\": \"administration\", \"function\": \"administration--minutes\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"administration\", \"title\": \"supply-committee-minutes-february.txt\", \"ring\": \"supply committee minutes\", \"path\": \"administration/minutes/supply-committee-minutes-february.txt\", \"conf\": 1.0, \"program\": \"administration\", \"function\": \"administration--minutes\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"administration\", \"title\": \"front-desk-rota.txt\", \"ring\": \"front desk rota\", \"path\": \"administration/policies/front-desk-rota.txt\", \"conf\": 1.0, \"program\": \"administration\", \"function\": \"administration--policies\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"administration\", \"title\": \"records-retention-policy.txt\", \"ring\": \"records retention policy\", \"path\": \"administration/policies/records-retention-policy.txt\", \"conf\": 1.0, \"program\": \"administration\", \"function\": \"administration--policies\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"facilities\", \"count\": 4, \"title\": \"facilities\", \"files\": [\"hvac maintenance log\", \"key card audit log\", \"loading dock hours\", \"parking permit policy\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"facilities\", \"title\": \"hvac-maintenance-log.txt\", \"ring\": \"hvac maintenance log\", \"path\": \"facilities/logs/hvac-maintenance-log.txt\", \"conf\": 1.0, \"program\": \"facilities\", \"function\": \"facilities--logs\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"facilities\", \"title\": \"key-card-audit-log.txt\", \"ring\": \"key card audit log\", \"path\": \"facilities/logs/key-card-audit-log.txt\", \"conf\": 1.0, \"program\": \"facilities\", \"function\": \"facilities--logs\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"facilities\", \"title\": \"loading-dock-hours.txt\", \"ring\": \"loading dock hours\", \"path\": \"facilities/policies/loading-dock-hours.txt\", \"conf\": 1.0, \"program\": \"facilities\", \"function\": \"facilities--policies\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"facilities\", \"title\": \"parking-permit-policy.txt\", \"ring\": \"parking permit policy\", \"path\": \"facilities/policies/parking-permit-policy.txt\", \"conf\": 1.0, \"program\": \"facilities\", \"function\": \"facilities--policies\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"health\", \"count\": 4, \"title\": \"health\", \"files\": [\"ergonomics assessment desk\", \"flu shot clinic signup\", \"wellness fair flyer\", \"first aid kit inventory\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"health\", \"title\": \"ergonomics-assessment-desk.txt\", \"ring\": \"ergonomics assessment desk\", \"path\": \"health/assessments/ergonomics-assessment-desk.txt\", \"conf\": 1.0, \"program\": \"health\", \"function\": \"health--assessments\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"health\", \"title\": \"flu-shot-clinic-signup.txt\", \"ring\": \"flu shot clinic signup\", \"path\": \"health/clinics/flu-shot-clinic-signup.txt\", \"conf\": 1.0, \"program\": \"health\", \"function\": \"health--clinics\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"health\", \"title\": \"wellness-fair-flyer.txt\", \"ring\": \"wellness fair flyer\", \"path\": \"health/events/wellness-fair-flyer.txt\", \"conf\": 1.0, \"program\": \"health\", \"function\": \"health--events\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"health\", \"title\": \"first-aid-kit-inventory.txt\", \"ring\": \"first aid kit inventory\", \"path\": \"health/inventory/first-aid-kit-inventory.txt\", \"conf\": 1.0, \"program\": \"health\", \"function\": \"health--inventory\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"legal\", \"count\": 4, \"title\": \"legal\", \"files\": [\"litigation hold notice\", \"warehouse lease summary\", \"nda template\", \"trademark renewal filing\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"legal\", \"title\": \"litigation-hold-notice.txt\", \"ring\": \"litigation hold notice\", \"path\": \"legal/holds/litigation-hold-notice.txt\", \"conf\": 1.0, \"program\": \"legal\", \"function\": \"legal--holds\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"legal\", \"title\": \"warehouse-lease-summary.txt\", \"ring\": \"warehouse lease summary\", \"path\": \"legal/leases/warehouse-lease-summary.txt\", \"conf\": 1.0, \"program\": \"legal\", \"function\": \"legal--leases\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"legal\", \"title\": \"nda-template.txt\", \"ring\": \"nda template\", \"path\": \"legal/templates/nda-template.txt\", \"conf\": 1.0, \"program\": \"legal\", \"function\": \"legal--templates\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"legal\", \"title\": \"trademark-renewal-filing.txt\", \"ring\": \"trademark renewal filing\", \"path\": \"legal/trademarks/trademark-renewal-filing.txt\", \"conf\": 1.0, \"program\": \"legal\", \"function\": \"legal--trademarks\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"personal\", \"count\": 4, \"title\": \"personal\", \"files\": [\"family chili recipe\", \"soccer car pool schedule\", \"delta kite build plan\", \"guitar lesson notes\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"personal\", \"title\": \"family-chili-recipe.txt\", \"ring\": \"family chili recipe\", \"path\": \"personal/family/family-chili-recipe.txt\", \"conf\": 1.0, \"program\": \"personal\", \"function\": \"personal--family\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"personal\", \"title\": \"soccer-car-pool-schedule.txt\", \"ring\": \"soccer car pool schedule\", \"path\": \"personal/family/soccer-car-pool-schedule.txt\", \"conf\": 1.0, \"program\": \"personal\", \"function\": \"personal--family\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"personal\", \"title\": \"delta-kite-build-plan.txt\", \"ring\": \"delta kite build plan\", \"path\": \"personal/hobbies/delta-kite-build-plan.txt\", \"conf\": 1.0, \"program\": \"personal\", \"function\": \"personal--hobbies\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"personal\", \"title\": \"guitar-lesson-notes.txt\", \"ring\": \"guitar lesson notes\", \"path\": \"personal/hobbies/guitar-lesson-notes.txt\", \"conf\": 1.0, \"program\": \"personal\", \"function\": \"personal--hobbies\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"training\", \"count\": 4, \"title\": \"training\", \"files\": [\"forklift cert records\", \"compliance training\", \"mentor program guidelines\", \"newhire training plan\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"training\", \"title\": \"forklift-cert-records.txt\", \"ring\": \"forklift cert records\", \"path\": \"training/certifications/forklift-cert-records.txt\", \"conf\": 1.0, \"program\": \"training\", \"function\": \"training--certifications\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"training\", \"title\": \"compliance-training-deadlines.txt\", \"ring\": \"compliance training\", \"path\": \"training/compliance/compliance-training-deadlines.txt\", \"conf\": 1.0, \"program\": \"training\", \"function\": \"training--compliance\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"training\", \"title\": \"mentor-program-guidelines.txt\", \"ring\": \"mentor program guidelines\", \"path\": \"training/mentoring/mentor-program-guidelines.txt\", \"conf\": 1.0, \"program\": \"training\", \"function\": \"training--mentoring\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"training\", \"title\": \"newhire-training-plan.txt\", \"ring\": \"newhire training plan\", \"path\": \"training/plans/newhire-training-plan.txt\", \"conf\": 1.0, \"program\": \"training\", \"function\": \"training--plans\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"unmapped\", \"count\": 3, \"title\": \"unmapped\", \"files\": [\"empty scratch\", \"me too thread\", \"unsubscribe confirmations\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"unmapped\", \"title\": \"empty-scratch.txt\", \"ring\": \"empty scratch\", \"path\": \"scratch/empty-scratch.txt\", \"conf\": 1.0, \"program\": \"unmapped\", \"function\": \"unmapped\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"unmapped\", \"title\": \"me-too-thread.txt\", \"ring\": \"me too thread\", \"path\": \"special/me-too-thread.txt\", \"conf\": 1.0, \"program\": \"unmapped\", \"function\": \"unmapped\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"unmapped\", \"title\": \"unsubscribe-confirmations.txt\", \"ring\": \"unsubscribe confirmations\", \"path\": \"special/unsubscribe-confirmations.txt\", \"conf\": 1.0, \"program\": \"unmapped\", \"function\": \"unmapped\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"\"}"], "branchvalues": "total", "hovertemplate": "<b>%{label}</b><br>%{value}<extra></extra>", "textinfo": "label", "insidetextorientation": "auto", "maxdepth": 2, "sort": false, "leaf": {"opacity": 1}}};
+    const FACET_LABELS = {"program": "Program"};
+    const DOC_COUNT = 68;
+    const HUB_LABEL = "Map";
+    const ROOT_TITLE = "Sample collection";
+    const IDLE_NOTE = "Hover a ring to preview a group. Click a slice to open it. This map is synthetic sample files only.";
+    const brief = document.getElementById("brief");
+    const crumb = document.getElementById("crumb");
+    let currentFacet = "program";
+
+    function idleBrief() {
+      return {
+        kind: "root",
+        title: ROOT_TITLE,
+        count: DOC_COUNT,
+        facet: currentFacet,
+        note: IDLE_NOTE,
+      };
+    }
+
+    let pinned = idleBrief();
+
+    function parseMeta(raw) {
+      if (raw && typeof raw === "object" && !Array.isArray(raw)) return raw;
+      try { return JSON.parse(raw); } catch (_) { return { title: String(raw || "") }; }
+    }
+
+    function escapeHtml(s) {
+      return String(s || "").replace(/[&<>"]/g, function (c) {
+        return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c];
+      });
+    }
+
+    function rootCrumb() {
+      if (currentFacet === "browse") {
+        return "<b>Full collection</b> · hover a slice to preview";
+      }
+      const label = (FACET_LABELS[currentFacet] || currentFacet).toLowerCase();
+      return "<b>By " + escapeHtml(label) + "</b> · hover a slice to preview";
+    }
+
+    function setCrumb(meta) {
+      const m = meta || idleBrief();
+      if (m.kind === "doc") {
+        crumb.innerHTML = "<b>" + escapeHtml((m.term || "").replace(/-/g, " ")) + "</b> · " + escapeHtml(m.ring || m.title || "");
+      } else if (m.kind === "term") {
+        crumb.innerHTML = "<b>" + escapeHtml(m.title || "") + "</b> · " + (m.count || 0) + " files";
+      } else {
+        crumb.innerHTML = rootCrumb();
+      }
+    }
+
+    function renderBrief(meta) {
+      const m = meta || idleBrief();
+      const isRoot = m.kind === "root";
+      const kicker = m.kind === "doc"
+        ? "Document"
+        : (m.kind === "term" ? (FACET_LABELS[m.facet] || m.facet) : "Collection");
+      const countLine = m.kind === "doc"
+        ? ""
+        : "<p>" + (m.count || 0) + " documents" + (m.facet && !isRoot ? " · " + (FACET_LABELS[m.facet] || m.facet).toLowerCase() : "") + "</p>";
+      const rows = [];
+      function pushRow(label, value) {
+        const v = String(value || "").trim();
+        if (!v || v === "unmapped") return;
+        rows.push([label, v]);
+      }
+      pushRow("Path", m.path);
+      pushRow("Program", m.program);
+      pushRow("Function", m.function);
+      pushRow("Audience", m.audience);
+      if (m.conf !== undefined && m.kind === "doc") rows.push(["Confidence", Number(m.conf).toFixed(2)]);
+      const dl = rows.length
+        ? "<dl>" + rows.map(function (r) { return "<div><dt>" + r[0] + "</dt><dd>" + escapeHtml(r[1]) + "</dd></div>"; }).join("") + "</dl>"
+        : "";
+      const flag = m.needs_review ? '<span class="flag">Needs review</span>' : "";
+      const note = m.note ? "<p>" + escapeHtml(m.note) + "</p>" : "";
+      const files = (m.files && m.files.length)
+        ? '<ol class="file-list">' + m.files.map(function (f) { return "<li>" + escapeHtml(f) + "</li>"; }).join("") + "</ol>"
+        : "";
+      const guide = isRoot
+        ? '<ol class="guide"><li>Ring size is document count, not importance.</li><li>The inner ring is the group. The outer ring is the next level.</li><li>Click the center to return to the full map.</li></ol>'
+        : "";
+      brief.innerHTML = '<p class="brief-kicker">' + escapeHtml(kicker) + "</p><h2>" + escapeHtml(m.title || "") + "</h2>" + countLine + note + dl + files + flag + guide;
+      setCrumb(m);
+    }
+
+    const host = document.getElementById("sunburst");
+    const NS = "http://www.w3.org/2000/svg";
+    const trees = {};
+    let focusId = "root";
+
+    function prettyLabel(s) {
+      return String(s || "").replace(/Cte/g, "CTE").replace(/Wbl/g, "WBL");
+    }
+
+    function isDoc(node) {
+      return !!(node.meta && node.meta.kind === "doc");
+    }
+
+    function textColor(hex) {
+      const c = String(hex || "").replace("#", "");
+      if (c.length < 6) return "#f3ead8";
+      const r = parseInt(c.slice(0, 2), 16);
+      const g = parseInt(c.slice(2, 4), 16);
+      const b = parseInt(c.slice(4, 6), 16);
+      const L = (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255;
+      return L > 0.55 ? "#07263d" : "#f3ead8";
+    }
+
+    function buildTree(fig) {
+      const nodes = {};
+      const colors = (fig.marker && fig.marker.colors) || [];
+      const custom = fig.customdata || [];
+      for (let i = 0; i < fig.ids.length; i++) {
+        const id = fig.ids[i];
+        nodes[id] = {
+          id: id,
+          label: fig.labels[i],
+          value: fig.values[i] || 0,
+          color: colors[i] || "#1a6fa8",
+          meta: parseMeta(custom[i]),
+          children: [],
+          parent: null,
+        };
+      }
+      let root = null;
+      for (let i = 0; i < fig.ids.length; i++) {
+        const id = fig.ids[i];
+        const parentId = fig.parents[i];
+        if (!parentId) {
+          root = nodes[id];
+        } else if (nodes[parentId]) {
+          nodes[id].parent = nodes[parentId];
+          nodes[parentId].children.push(nodes[id]);
+        }
+      }
+      return { root: root, nodes: nodes };
+    }
+
+    function treeFor(facet) {
+      if (!trees[facet]) trees[facet] = buildTree(FIGURES[facet]);
+      return trees[facet];
+    }
+
+    // Two rings from the focused node. At the collection root, file
+    // leaves stay hidden — 670 slivers are texture, not a map.
+    function layoutFrom(focus) {
+      const drawn = [];
+      const start = -Math.PI / 2;
+      function rec(node, a0, a1, depth) {
+        node.x0 = a0;
+        node.x1 = a1;
+        node.depth = depth;
+        if (node !== focus) drawn.push(node);
+        if (depth >= 2) return;
+        let kids = node.children || [];
+        // File leaves only when this node is the open group and
+        // every child is a file. Otherwise they read as static.
+        const showingFiles = node === focus && kids.length > 0 && kids.every(isDoc);
+        if (!showingFiles) {
+          kids = kids.filter(function (k) { return !isDoc(k); });
+        }
+        let total = 0;
+        for (let i = 0; i < kids.length; i++) total += kids[i].value || 0;
+        if (!total) return;
+        let a = a0;
+        for (let i = 0; i < kids.length; i++) {
+          const span = (a1 - a0) * ((kids[i].value || 0) / total);
+          rec(kids[i], a, a + span, depth + 1);
+          a += span;
+        }
+      }
+      rec(focus, start, start + Math.PI * 2, 0);
+      return drawn;
+    }
+
+    function sectorPath(cx, cy, r0, r1, a0, a1) {
+      const large = (a1 - a0) > Math.PI ? 1 : 0;
+      function pt(r, a) {
+        return [cx + r * Math.cos(a), cy + r * Math.sin(a)];
+      }
+      const p0 = pt(r1, a0);
+      const p1 = pt(r1, a1);
+      const p2 = pt(r0, a1);
+      const p3 = pt(r0, a0);
+      return "M" + p0[0] + "," + p0[1]
+        + " A" + r1 + "," + r1 + " 0 " + large + " 1 " + p1[0] + "," + p1[1]
+        + " L" + p2[0] + "," + p2[1]
+        + " A" + r0 + "," + r0 + " 0 " + large + " 0 " + p3[0] + "," + p3[1]
+        + " Z";
+    }
+
+    function padded(node) {
+      const span = node.x1 - node.x0;
+      const pad = Math.min(0.016, span * 0.16);
+      if (span - pad < 0.006) return [node.x0, node.x1];
+      return [node.x0 + pad / 2, node.x1 - pad / 2];
+    }
+
+    function setHot(id) {
+      const paths = host.querySelectorAll(".slice");
+      if (!id) {
+        for (let i = 0; i < paths.length; i++) {
+          paths[i].classList.remove("is-dim", "is-hot");
+        }
+        return;
+      }
+      const hot = {};
+      let n = treeFor(currentFacet).nodes[id];
+      while (n) {
+        hot[n.id] = true;
+        n = n.parent;
+      }
+      for (let i = 0; i < paths.length; i++) {
+        const hid = paths[i].getAttribute("data-id");
+        paths[i].classList.toggle("is-hot", !!hot[hid]);
+        paths[i].classList.toggle("is-dim", !hot[hid]);
+      }
+    }
+
+    function addLabel(svg, node, cx, cy, r0, r1, a0, a1) {
+      const span = a1 - a0;
+      const r = (r0 + r1) / 2;
+      const minArc = isDoc(node) ? 58 : 40;
+      if (span * r < minArc) return;
+      const mid = (a0 + a1) / 2;
+      const x = cx + r * Math.cos(mid);
+      const y = cy + r * Math.sin(mid);
+      const deg = mid * 180 / Math.PI;
+      const rot = (deg > 90 || deg < -90) ? deg + 180 : deg;
+      const text = document.createElementNS(NS, "text");
+      text.setAttribute("class", "slice-label");
+      text.setAttribute("transform", "translate(" + x + "," + y + ") rotate(" + rot + ")");
+      text.setAttribute("fill", textColor(node.color));
+      text.setAttribute("font-size", node.depth === 1 ? "12.5" : "11");
+      text.textContent = prettyLabel(node.label);
+      svg.appendChild(text);
+    }
+
+    function zoomTo(node) {
+      if (node && node.children && node.children.length) {
+        focusId = node.id;
+        pinned = node.meta && node.meta.kind ? node.meta : idleBrief();
+      } else if (node) {
+        pinned = node.meta || { title: node.label };
+      }
+      renderWheel();
+      renderBrief(pinned);
+    }
+
+    function zoomOut(focus) {
+      if (focus && focus.parent) {
+        focusId = focus.parent.id;
+        pinned = focus.parent.meta && focus.parent.meta.kind
+          ? focus.parent.meta
+          : idleBrief();
+      } else {
+        focusId = "root";
+        pinned = idleBrief();
+      }
+      renderWheel();
+      renderBrief(pinned);
+    }
+
+    function renderWheel() {
+      const built = treeFor(currentFacet);
+      const focus = (built.nodes[focusId] || built.root);
+      if (!focus) return;
+      const drawn = layoutFrom(focus);
+      let maxD = 1;
+      for (let i = 0; i < drawn.length; i++) {
+        if (drawn[i].depth > maxD) maxD = drawn[i].depth;
+      }
+
+      const rect = host.getBoundingClientRect();
+      const S = Math.max(280, Math.floor(Math.min(rect.width, rect.height)));
+      const cx = S / 2;
+      const cy = S / 2;
+      const R = S / 2 - 6;
+      const hubR = R * 0.30;
+      const rings = maxD <= 1
+        ? { 1: [hubR + 8, R] }
+        : { 1: [hubR + 8, R * 0.62], 2: [R * 0.655, R] };
+
+      host.innerHTML = "";
+      const svg = document.createElementNS(NS, "svg");
+      svg.setAttribute("viewBox", "0 0 " + S + " " + S);
+      svg.setAttribute("width", "100%");
+      svg.setAttribute("height", "100%");
+      svg.setAttribute("aria-hidden", "true");
+
+      for (let i = 0; i < drawn.length; i++) {
+        const node = drawn[i];
+        const rr = rings[node.depth];
+        if (!rr) continue;
+        const ang = padded(node);
+        if (ang[1] - ang[0] < 0.004) continue;
+        const path = document.createElementNS(NS, "path");
+        path.setAttribute("class", "slice");
+        path.setAttribute("data-id", node.id);
+        path.setAttribute("data-label", prettyLabel(node.label));
+        path.setAttribute("d", sectorPath(cx, cy, rr[0], rr[1], ang[0], ang[1]));
+        path.setAttribute("fill", node.color);
+        path.addEventListener("pointerenter", function () {
+          setHot(node.id);
+          renderBrief(node.meta);
+        });
+        path.addEventListener("pointerleave", function () {
+          setHot(null);
+          renderBrief(pinned);
+        });
+        path.addEventListener("click", function (ev) {
+          ev.stopPropagation();
+          zoomTo(node);
+        });
+        svg.appendChild(path);
+      }
+
+      for (let i = 0; i < drawn.length; i++) {
+        const node = drawn[i];
+        const rr = rings[node.depth];
+        if (!rr) continue;
+        const ang = padded(node);
+        addLabel(svg, node, cx, cy, rr[0], rr[1], ang[0], ang[1]);
+      }
+
+      const hub = document.createElementNS(NS, "g");
+      hub.setAttribute("class", "hub");
+      const disc = document.createElementNS(NS, "circle");
+      disc.setAttribute("cx", cx);
+      disc.setAttribute("cy", cy);
+      disc.setAttribute("r", hubR - 4);
+      hub.appendChild(disc);
+      const title = document.createElementNS(NS, "text");
+      title.setAttribute("class", "hub-title");
+      title.setAttribute("x", cx);
+      const hubLabel = focus.id === "root" ? HUB_LABEL : prettyLabel(focus.label);
+      const words = hubLabel.split(" ");
+      const lines = hubLabel.length <= 14 || words.length < 2
+        ? [hubLabel]
+        : [words.slice(0, Math.ceil(words.length / 2)).join(" "), words.slice(Math.ceil(words.length / 2)).join(" ")];
+      if (lines.join(" ").length > 16) title.setAttribute("font-size", "15");
+      const lineH = lines.length > 1 ? 18 : 0;
+      title.setAttribute("y", cy - 4 - (lineH ? 8 : 0));
+      lines.forEach(function (line, i) {
+        const tspan = document.createElementNS(NS, "tspan");
+        tspan.setAttribute("x", cx);
+        tspan.setAttribute("dy", i === 0 ? "0" : "18");
+        tspan.textContent = line;
+        title.appendChild(tspan);
+      });
+      hub.appendChild(title);
+      const sub = document.createElementNS(NS, "text");
+      sub.setAttribute("class", "hub-sub");
+      sub.setAttribute("x", cx);
+      sub.setAttribute("y", cy + 18);
+      const count = (focus.meta && focus.meta.count) || focus.value || DOC_COUNT;
+      sub.textContent = focus.parent ? "Back" : (count + " files");
+      hub.appendChild(sub);
+      hub.addEventListener("click", function (ev) {
+        ev.stopPropagation();
+        zoomOut(focus);
+      });
+      svg.appendChild(hub);
+
+      host.appendChild(svg);
+    }
+
+    function draw(facet) {
+      currentFacet = facet;
+      focusId = "root";
+      pinned = idleBrief();
+      document.querySelectorAll(".facet").forEach(function (btn) {
+        btn.setAttribute("aria-selected", btn.dataset.facet === facet ? "true" : "false");
+      });
+      renderWheel();
+      renderBrief(pinned);
+    }
+
+    if (window.ResizeObserver) {
+      new ResizeObserver(function () { renderWheel(); }).observe(host);
+    } else {
+      window.addEventListener("resize", function () { renderWheel(); });
+    }
+
+    document.querySelector(".facets")?.addEventListener("click", function (e) {
+      const btn = e.target.closest(".facet");
+      if (!btn) return;
+      draw(btn.dataset.facet);
+    });
+
+    renderBrief(idleBrief());
+    draw("program");
+  </script>
+</body>
+</html>

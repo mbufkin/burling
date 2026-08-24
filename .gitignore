@@ -26,3 +26,12 @@ burling/output/*
 *.egg-info/
 dist/
 build/
+
+# LinkedIn demo scratch + rendered video (rebuild with tools/).
+.scratch/linkedin-demo/
+.scratch/linkedin-demo-model/
+docs/linkedin/frames/
+docs/linkedin/raw-video/
+docs/linkedin/*.mp4
+docs/linkedin/*.webm
+docs/linkedin/poster.png

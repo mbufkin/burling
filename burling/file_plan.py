@@ -383,3 +383,48 @@ def run_file_plan(
         print(f"CLERK: stitching file plan from {len(records)} tagged docs", flush=True)
         stitch_from_records(cfg, records, method="clerk")
     return run_clerk(cfg, limit=limit)
+
+
+# Approved child drawers per workplace main (the series beneath each series).
+# Mains are locked; children are menu-locked too when this map applies.
+# An org overrides per installation via config `walk.children`.
+WORKPLACE_CHILDREN: dict[str, tuple[str, ...]] = {
+    "personnel": ("policies", "cases", "benefits", "rosters"),
+    "operations": ("schedules", "incidents", "planning", "logs"),
+    "administration": ("policies", "minutes"),
+    "finance": ("budget", "invoices", "payroll", "reimbursements", "vendors"),
+    "legal": ("templates", "holds", "trademarks", "leases"),
+    "technology": ("design", "architecture", "runbooks", "retros"),
+    # customers is deliberately absent: its drawers are account/matter
+    # names, which no plan can pre-declare. Free invention applies there,
+    # as it does for any main without an entry.
+    "facilities": ("logs", "policies"),
+    "security": ("incidents", "policies", "tickets", "credentials"),
+    "communications": ("press", "internal", "crisis"),
+    "training": ("plans", "certifications", "compliance", "mentoring"),
+    "health": ("assessments", "clinics", "inventory", "events"),
+    "personal": ("family", "hobbies"),
+}
+
+
+def _kebab(raw: object) -> str:
+    text = str(raw or "").strip().lower().replace("_", "-")
+    return re.sub(r"[^a-z0-9]+", "-", text).strip("-")[:48]
+
+
+def approved_children(cfg: dict | None, main: str) -> set[str] | None:
+    """Menu of legal child drawers for main, or None when free invention applies.
+
+    Config `walk.children` (main -> list) overrides the built-in map;
+    `walk.children: false` disables menus entirely.
+    """
+    if cfg is None:
+        return set(WORKPLACE_CHILDREN.get(main, ())) or None
+    override = (cfg.get("walk") or {}).get("children")
+    if override is False:
+        return None
+    if isinstance(override, dict):
+        raw = override.get(main)
+        return {_kebab(x) for x in raw} if raw else None
+    own = WORKPLACE_CHILDREN.get(main, ())
+    return set(own) or None

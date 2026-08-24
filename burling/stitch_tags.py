@@ -436,11 +436,17 @@ def _region_term(rid: str, region_idx: dict[str, dict]) -> str:
     return rid or "unmapped"
 
 
-def write_stitch_topic_map(out: Path, payload: dict, region_idx: dict[str, dict]) -> None:
+def write_stitch_topic_map(
+    out: Path,
+    payload: dict,
+    region_idx: dict[str, dict],
+    chrome: dict | None = None,
+) -> None:
     """Write topic-map.html + TOPIC-MAP.md from an already-stitched payload.
 
     Best practice: maps are a projection of ``regions.json``. Regenerating
-    them never calls the model and never touches tags.json.
+    them never calls the model and never touches tags.json. ``chrome``
+    swaps the masthead for a public sample map; omit it for district maps.
     """
     placements = stitch_to_placements(payload.get("assignments") or [], region_idx)
     tags_path = out / "tags.json"
@@ -463,9 +469,11 @@ def write_stitch_topic_map(out: Path, payload: dict, region_idx: dict[str, dict]
         "count": len(placements),
         "placements": placements,
         "browse_figure": browse_sunburst_payload(
-            graph_nodes, payload.get("assignments") or []
+            graph_nodes, payload.get("assignments") or [], chrome=chrome
         ),
     }
+    if chrome:
+        map_payload["chrome"] = chrome
     write_topic_map_html(out / "topic-map.html", map_payload)
     lines = [
         "# Topic map (method C browse graph)",

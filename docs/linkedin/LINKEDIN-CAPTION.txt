@@ -1,0 +1,21 @@
+Last post: 455 files, a local 7B, and a multi-pass harness that flags leftover PII without sending a byte to the cloud.
+
+That solved the privacy problem. It did not solve the handover problem.
+
+A successor still should not inherit a folder. They should inherit a map.
+
+Burling v2 is that next pass. After the leftover judge, a local model files each document into one home on a locked workplace series — finance, operations, personnel, and the rest. It does not invent a 14th category. Unmapped stays unmapped. Personal leftovers stay in their own lane so a human can delete them by hand. The harness never removes a file.
+
+Then it draws the tree as a sunburst. Ring size is count, not importance. Click a series and the files open. Click the center and the map closes.
+
+Same rules as the review run:
+Local only. Localhost or it refuses.
+One file, one fresh window. No leftover chat history.
+$0 in cloud API charges.
+
+The walkthrough is a synthetic sample corpus — not the live dump. The real records stay offline until a person confirms the list.
+
+Code: https://github.com/mbufkin/burling
+
+—
+#LocalAI #DataPrivacy #knowledgetransfer #OpenSource #LLM #AIEngineering
