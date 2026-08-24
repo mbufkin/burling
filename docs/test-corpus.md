@@ -159,7 +159,9 @@ and the file-plan semantics this repo actually ships.
 
 ## Done when
 
-- [ ] `tools/make_corpus.py` lands; fixtures committed
-- [ ] Layer-1 assertions wired into `test_queue`-style unit tests, incl. the redaction meta-test
-- [ ] Format gauntlet green in CI (OCR portion skipping gracefully off-line)
-- [ ] Sort-sample v2 + `labels.json` scoring a `--walk` run end-to-end
+- [x] `tools/make_corpus.py` lands; fixtures committed
+- [x] Layer-1 assertions wired into `test_queue`-style unit tests, incl. the redaction meta-test
+- [x] Format gauntlet green in CI (OCR portion skipping gracefully off-line)
+- [x] Organize drama + `labels.json` scoring a scripted `--walk` run end-to-end
+      (`burling/score_placements.py` + `test_organize_drama.py`; andon trip,
+      operator resume, combine rehome, and accuracy 1.0 all asserted)

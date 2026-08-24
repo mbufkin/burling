@@ -1,0 +1,275 @@
+{
+  "administration/minutes/all-hands-minutes-january.txt": {
+    "main": "administration",
+    "sub": "minutes"
+  },
+  "administration/minutes/supply-committee-minutes-february.txt": {
+    "main": "administration",
+    "sub": "minutes"
+  },
+  "administration/policies/front-desk-rota.txt": {
+    "main": "administration",
+    "sub": "policies"
+  },
+  "administration/policies/records-retention-policy.txt": {
+    "main": "administration",
+    "sub": "policies"
+  },
+  "communications/crisis/crisis-comms-holding-statement.txt": {
+    "main": "communications",
+    "sub": "crisis"
+  },
+  "communications/internal/all-hands-slides-outline.txt": {
+    "main": "communications",
+    "sub": "internal"
+  },
+  "communications/internal/newsletter-april-draft.txt": {
+    "main": "communications",
+    "sub": "internal"
+  },
+  "communications/press/press-release-product-launch.txt": {
+    "main": "communications",
+    "sub": "press"
+  },
+  "customers/acme/acme-kickoff-notes.txt": {
+    "main": "customers",
+    "sub": "acme"
+  },
+  "customers/acme/acme-qbr-deck-outline.txt": {
+    "main": "customers",
+    "sub": "acme"
+  },
+  "customers/acme/acme-renewal-risk-call.txt": {
+    "main": "customers",
+    "sub": "acme"
+  },
+  "customers/globex/globex-support-history.txt": {
+    "main": "customers",
+    "sub": "globex"
+  },
+  "customers/surveys/customer-feedback-spring.txt": {
+    "main": "customers",
+    "sub": "surveys"
+  },
+  "facilities/logs/hvac-maintenance-log.txt": {
+    "main": "facilities",
+    "sub": "logs"
+  },
+  "facilities/logs/key-card-audit-log.txt": {
+    "main": "facilities",
+    "sub": "logs"
+  },
+  "facilities/policies/loading-dock-hours.txt": {
+    "main": "facilities",
+    "sub": "policies"
+  },
+  "facilities/policies/parking-permit-policy.txt": {
+    "main": "facilities",
+    "sub": "policies"
+  },
+  "finance/budget/q3-budget-draft.txt": {
+    "main": "finance",
+    "sub": "budget"
+  },
+  "finance/budget/travel-budget-scenario.txt": {
+    "main": "finance",
+    "sub": "budget"
+  },
+  "finance/invoices/invoice-acme-0042.txt": {
+    "main": "finance",
+    "sub": "invoices"
+  },
+  "finance/invoices/invoice-globex-0077.txt": {
+    "main": "finance",
+    "sub": "invoices"
+  },
+  "finance/payroll/payroll-calendar-2025.txt": {
+    "main": "finance",
+    "sub": "payroll"
+  },
+  "finance/reimbursements/mileage-expense-claim.txt": {
+    "main": "finance",
+    "sub": "reimbursements"
+  },
+  "finance/vendors/vendor-payment-list-2024.txt": {
+    "main": "finance",
+    "sub": "vendors"
+  },
+  "finance/vendors/vendor-payment-list-2025.txt": {
+    "main": "finance",
+    "sub": "vendors"
+  },
+  "health/assessments/ergonomics-assessment-desk.txt": {
+    "main": "health",
+    "sub": "assessments"
+  },
+  "health/clinics/flu-shot-clinic-signup.txt": {
+    "main": "health",
+    "sub": "clinics"
+  },
+  "health/events/wellness-fair-flyer.txt": {
+    "main": "health",
+    "sub": "events"
+  },
+  "health/inventory/first-aid-kit-inventory.txt": {
+    "main": "health",
+    "sub": "inventory"
+  },
+  "legal/holds/litigation-hold-notice.txt": {
+    "main": "legal",
+    "sub": "holds"
+  },
+  "legal/leases/warehouse-lease-summary.txt": {
+    "main": "legal",
+    "sub": "leases"
+  },
+  "legal/templates/nda-template.txt": {
+    "main": "legal",
+    "sub": "templates"
+  },
+  "legal/trademarks/trademark-renewal-filing.txt": {
+    "main": "legal",
+    "sub": "trademarks"
+  },
+  "mixed/project-alpha-budget.txt": {
+    "main": "finance",
+    "sub": "budget"
+  },
+  "mixed/project-alpha-press.txt": {
+    "main": "communications",
+    "sub": "press"
+  },
+  "mixed/project-alpha-roster.txt": {
+    "main": "personnel",
+    "sub": "rosters"
+  },
+  "operations/incidents/conveyor-jam-report.txt": {
+    "main": "operations",
+    "sub": "incidents"
+  },
+  "operations/incidents/db-outage-postmortem.txt": {
+    "main": "operations",
+    "sub": "incidents"
+  },
+  "operations/logs/delivery-receiving-log.txt": {
+    "main": "operations",
+    "sub": "logs"
+  },
+  "operations/logs/shift-handoff-week12.txt": {
+    "main": "operations",
+    "sub": "logs"
+  },
+  "operations/planning/capacity-plan-h2.txt": {
+    "main": "operations",
+    "sub": "planning"
+  },
+  "operations/schedules/production-schedule-march.txt": {
+    "main": "operations",
+    "sub": "schedules"
+  },
+  "personal/family/family-chili-recipe.txt": {
+    "main": "personal",
+    "sub": "family"
+  },
+  "personal/family/soccer-car-pool-schedule.txt": {
+    "main": "personal",
+    "sub": "family"
+  },
+  "personal/hobbies/delta-kite-build-plan.txt": {
+    "main": "personal",
+    "sub": "hobbies"
+  },
+  "personal/hobbies/guitar-lesson-notes.txt": {
+    "main": "personal",
+    "sub": "hobbies"
+  },
+  "personnel/cases/harassment-complaint-intake.txt": {
+    "main": "personnel",
+    "sub": "cases"
+  },
+  "personnel/cases/performance-review-q2-marcus.txt": {
+    "main": "personnel",
+    "sub": "cases"
+  },
+  "personnel/policies/offer-letter-jane-okafor.txt": {
+    "main": "personnel",
+    "sub": "policies"
+  },
+  "personnel/policies/travel-expense-policy.txt": {
+    "main": "personnel",
+    "sub": "policies"
+  },
+  "personnel/records/benefits-enrollment-form.txt": {
+    "main": "personnel",
+    "sub": "benefits"
+  },
+  "scratch/empty-scratch.txt": {
+    "main": "unmapped",
+    "sub": ""
+  },
+  "security/incidents/badge-tailgate-incident.txt": {
+    "main": "security",
+    "sub": "incidents"
+  },
+  "security/incidents/phishing-drill-results.txt": {
+    "main": "security",
+    "sub": "incidents"
+  },
+  "security/policies/visitor-badge-policy.txt": {
+    "main": "security",
+    "sub": "policies"
+  },
+  "security/tickets/firewall-change-ticket.txt": {
+    "main": "security",
+    "sub": "tickets"
+  },
+  "special/legacy-export.txt": {
+    "main": "security",
+    "note": "andon-kept until an operator assigns a home; see test_organize_drama",
+    "sub": "credentials"
+  },
+  "special/me-too-thread.txt": {
+    "main": "unmapped",
+    "sub": ""
+  },
+  "special/unsubscribe-confirmations.txt": {
+    "main": "unmapped",
+    "sub": ""
+  },
+  "technology/architecture/office-wifi-upgrade-plan.txt": {
+    "main": "technology",
+    "sub": "architecture"
+  },
+  "technology/design/api-gateway-design-notes.txt": {
+    "main": "technology",
+    "sub": "design"
+  },
+  "technology/retros/sprint-42-retro.txt": {
+    "main": "technology",
+    "sub": "retros"
+  },
+  "technology/runbooks/database-backup-runbook.txt": {
+    "main": "technology",
+    "sub": "runbooks"
+  },
+  "technology/runbooks/laptop-imaging-guide.txt": {
+    "main": "technology",
+    "sub": "runbooks"
+  },
+  "training/certifications/forklift-cert-records.txt": {
+    "main": "training",
+    "sub": "certifications"
+  },
+  "training/compliance/compliance-training-deadlines.txt": {
+    "main": "training",
+    "sub": "compliance"
+  },
+  "training/mentoring/mentor-program-guidelines.txt": {
+    "main": "training",
+    "sub": "mentoring"
+  },
+  "training/plans/newhire-training-plan.txt": {
+    "main": "training",
+    "sub": "plans"
+  }
+}

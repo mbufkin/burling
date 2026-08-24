@@ -1,0 +1,1 @@
+Laptop imaging guide: base image, security agent enrollment steps, and the local admin password escrow procedure.

@@ -1,0 +1,1 @@
+Sprint forty-two retro: liked the shorter release train, wondered about flaky end-to-end tests, action to add a smoke suite.

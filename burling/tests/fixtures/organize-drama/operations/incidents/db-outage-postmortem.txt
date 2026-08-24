@@ -1,0 +1,1 @@
+Postmortem for the March database outage: root cause was a connection-pool exhaustion after the nightly vacuum job overran.

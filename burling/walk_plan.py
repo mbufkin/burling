@@ -713,18 +713,18 @@ def walk_one(
 
 
 def _severity_map(cfg: dict) -> dict[str, str]:
-    """rel_path → prior_severity from queue.json. Missing file/field = low."""
-    from burling.ledger import queue_path
+    """rel_path → prior_severity from the ledger. Missing file/field = low."""
+    # priors live on ledger rows (queue.json carries only the item roster).
+    from burling.ledger import load_ledger
 
-    qp = queue_path(cfg)
-    if not qp.is_file():
-        return {}
     try:
-        data = json.loads(qp.read_text(encoding="utf-8"))
-    except (OSError, ValueError):
+        data = load_ledger(cfg)
+    except Exception:
         return {}
     out: dict[str, str] = {}
     for row in (data.get("documents") or {}).values():
+        if not isinstance(row, dict):
+            continue
         rel = row.get("rel_path")
         sev = row.get("prior_severity")
         if rel and sev:
