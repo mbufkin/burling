@@ -231,3 +231,50 @@ def maintain_after_place(
                 print(console_safe(f"  why: {why[:240]}"), flush=True)
         moved += n
     return moved
+
+
+def sweep_combines(
+    state,
+    choose_combine: Callable[..., dict],
+    *,
+    min_children: int = 2,
+) -> int:
+    """Post-walk pass: offer EVERY parent with enough children to the combiner.
+
+    Filing-time maintain only fires at FAT_MIN, so on small-to-medium dumps
+    the fragmentation the walk created (one-file drawers) never gets a
+    cleanup window. The sweep walks every depth-1 and depth-2 prefix with
+    >= min_children children and applies whatever merges survive coercion.
+    """
+    prefixes: list[list[str]] = []
+    seen: set[tuple[str, ...]] = set()
+    for home in state.homes.values():
+        for depth in (1, 2):
+            if len(home) > depth:
+                prefix = tuple(home[:depth])
+                if prefix not in seen and prefix[0] != UNMAPPED_ID:
+                    seen.add(prefix)
+                    prefixes.append(list(prefix))
+
+    moved = 0
+    for prefix in sorted(prefixes):
+        children = state.children(prefix)
+        # Re-read after earlier merges may have rehomed these files away.
+        children = [(n, c) for n, c in children if c > 0]
+        if len(children) < min_children:
+            continue
+        raw = choose_combine(prefix=prefix, siblings=children)
+        groups = coerce_merges(raw, [name for name, _n in children])
+        obj = raw if isinstance(raw, dict) else {}
+        why = str(obj.get("reasoning") or "")[:800]
+        n = apply_merges(state, prefix, groups, reasoning=why or "combine sweep")
+        if n:
+            print(
+                console_safe(
+                    f"  sweep {'/'.join(prefix)}: "
+                    + "; ".join(f"{', '.join(m)} → {into}" for m, into in groups)
+                ),
+                flush=True,
+            )
+        moved += n
+    return moved

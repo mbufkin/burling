@@ -167,6 +167,11 @@ def main(argv: list[str] | None = None) -> int:
         "Ship path is --walk (docs/file-plan-layers.md).",
     )
     parser.add_argument(
+        "--sweep",
+        action="store_true",
+        help="Post-walk combine pass: merge thin drawers across all parents.",
+    )
+    parser.add_argument(
         "--walk",
         action="store_true",
         help="Organize: pick a locked main, then reuse / invent / combine "
@@ -282,6 +287,24 @@ def main(argv: list[str] | None = None) -> int:
         from burling.census_plan import run_census
 
         run_census(cfg, dive_main=args.census_dive)
+        return 0
+
+    # --sweep: post-walk combine pass over every parent with >=2 children.
+    if args.sweep:
+        from burling.maintain_plan import sweep_combines
+        from burling.walk_plan import load_walk_state, save_walk_state
+
+        state = load_walk_state(cfg)
+        from burling.ollama_client import _resolve  # noqa: F401  (config check)
+
+        def combine_model(**kw):
+            from burling.maintain_plan import choose_combine_model
+
+            return choose_combine_model(cfg, **kw)
+
+        moved = sweep_combines(state, combine_model)
+        save_walk_state(cfg, state)
+        print(f"SWEEP done: {moved} file(s) rehomed.")
         return 0
 
     # --walk: locked main, then reuse / invent / combine. Ship organize path.
