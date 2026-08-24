@@ -295,7 +295,6 @@ def main(argv: list[str] | None = None) -> int:
         from burling.walk_plan import load_walk_state, save_walk_state
 
         state = load_walk_state(cfg)
-        from burling.ollama_client import _resolve  # noqa: F401  (config check)
 
         def combine_model(**kw):
             from burling.maintain_plan import choose_combine_model
