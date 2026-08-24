@@ -148,17 +148,18 @@ class AndonResumeTests(unittest.TestCase):
 
 
 class SeverityMapTests(unittest.TestCase):
-    def test_reads_prior_severity_from_queue_json(self) -> None:
+    def test_reads_prior_severity_from_the_ledger(self) -> None:
         with tempfile.TemporaryDirectory() as td:
             root = Path(td)
-            qp = root / "queue.json"
-            qp.write_text(
+            lp = root / "ledger.json"
+            lp.write_text(
                 json.dumps(
                     {
+                        "version": 1,
                         "documents": {
                             "a": {"rel_path": "hot.txt", "prior_severity": "high"},
                             "b": {"rel_path": "cold.txt", "prior_severity": "low"},
-                        }
+                        },
                     }
                 ),
                 encoding="utf-8",
@@ -169,7 +170,7 @@ class SeverityMapTests(unittest.TestCase):
         self.assertEqual(sevs.get("cold.txt"), "low")
         self.assertEqual(sevs.get("absent.txt"), None)
 
-    def test_missing_queue_file_means_no_severities(self) -> None:
+    def test_missing_ledger_file_means_no_severities(self) -> None:
         with tempfile.TemporaryDirectory() as td:
             cfg = {"paths": {"output_dir": td}}
             self.assertEqual(_severity_map(cfg), {})

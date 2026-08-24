@@ -1,0 +1,1 @@
+Globex support history: fourteen tickets this quarter, mostly access provisioning, one sev-two resolved same day.
