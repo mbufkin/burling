@@ -103,8 +103,16 @@ Actions:
   category.
 
 Rules:
-- Prefer reuse over invent when an existing child already fits.
+- Decide in this order: (1) Is there any existing child that could hold
+  this file, even loosely? Reuse it. (2) Only if NO existing child covers
+  the subject at all, invent.
+- One-file drawers are a filing failure. Before inventing, ask: "would a
+  clerk filing ten similar documents put them here again?" If not,
+  reuse the closest existing child instead.
 - Do not invent a near-duplicate of an existing child; reuse the closest name.
+- Two files about neighboring subjects share a drawer; the drawer name is
+  the broader category (e.g. invoices, incidents, policies), never the
+  specific document.
 - Year, email, usenet, unmapped, and the approved mains are not child names.
 - Hardware may be a child of facilities or technology. It is never a main.
 """
