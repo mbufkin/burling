@@ -1,0 +1,1197 @@
+{
+  "homes": {
+    "administration/minutes/all-hands-minutes-january.txt": [
+      "administration"
+    ],
+    "administration/minutes/supply-committee-minutes-february.txt": [
+      "administration",
+      "supply-committee",
+      "minutes"
+    ],
+    "administration/policies/front-desk-rota.txt": [
+      "administration",
+      "front-desk"
+    ],
+    "administration/policies/records-retention-policy.txt": [
+      "administration"
+    ],
+    "communications/crisis/crisis-comms-holding-statement.txt": [
+      "communications"
+    ],
+    "communications/internal/all-hands-slides-outline.txt": [
+      "communications"
+    ],
+    "communications/internal/newsletter-april-draft.txt": [
+      "communications"
+    ],
+    "communications/press/press-release-product-launch.txt": [
+      "communications",
+      "press"
+    ],
+    "customers/acme/acme-kickoff-notes.txt": [
+      "customers"
+    ],
+    "customers/acme/acme-qbr-deck-outline.txt": [
+      "customers",
+      "quarterly-business-reviews"
+    ],
+    "customers/acme/acme-renewal-risk-call.txt": [
+      "customers",
+      "quarterly-business-reviews",
+      "acme-renewal-risk"
+    ],
+    "customers/globex/globex-support-history.txt": [
+      "customers"
+    ],
+    "customers/surveys/customer-feedback-spring.txt": [
+      "customers",
+      "spring-customer-feedback"
+    ],
+    "facilities/logs/hvac-maintenance-log.txt": [
+      "facilities",
+      "hardware"
+    ],
+    "facilities/logs/key-card-audit-log.txt": [
+      "facilities",
+      "hardware"
+    ],
+    "facilities/policies/loading-dock-hours.txt": [
+      "facilities",
+      "hardware"
+    ],
+    "facilities/policies/parking-permit-policy.txt": [
+      "facilities"
+    ],
+    "finance/budget/q3-budget-draft.txt": [
+      "finance"
+    ],
+    "finance/budget/travel-budget-scenario.txt": [
+      "finance",
+      "travel-budget",
+      "travel-budget-scenario"
+    ],
+    "finance/invoices/invoice-acme-0042.txt": [
+      "finance",
+      "invoices"
+    ],
+    "finance/invoices/invoice-globex-0077.txt": [
+      "finance",
+      "invoices"
+    ],
+    "finance/payroll/payroll-calendar-2025.txt": [
+      "finance",
+      "payroll-calendar"
+    ],
+    "finance/reimbursements/mileage-expense-claim.txt": [
+      "finance",
+      "travel-budget",
+      "travel-budget-scenario"
+    ],
+    "finance/vendors/vendor-payment-list-2024.txt": [
+      "finance",
+      "invoices",
+      "vendors"
+    ],
+    "finance/vendors/vendor-payment-list-2025.txt": [
+      "finance",
+      "invoices",
+      "vendors"
+    ],
+    "health/assessments/ergonomics-assessment-desk.txt": [
+      "health",
+      "ergonomics",
+      "monitor-riser"
+    ],
+    "health/clinics/flu-shot-clinic-signup.txt": [
+      "health",
+      "flu-shot-clinic"
+    ],
+    "health/events/wellness-fair-flyer.txt": [
+      "health",
+      "flu-shot-clinic",
+      "wellness-fair"
+    ],
+    "health/inventory/first-aid-kit-inventory.txt": [
+      "health",
+      "flu-shot-clinic",
+      "first-aid-kit"
+    ],
+    "legal/holds/litigation-hold-notice.txt": [
+      "legal"
+    ],
+    "legal/leases/warehouse-lease-summary.txt": [
+      "legal"
+    ],
+    "legal/templates/nda-template.txt": [
+      "legal",
+      "nda"
+    ],
+    "legal/trademarks/trademark-renewal-filing.txt": [
+      "legal",
+      "house-mark"
+    ],
+    "mixed/project-alpha-budget.txt": [
+      "finance",
+      "invoices",
+      "project-alpha"
+    ],
+    "mixed/project-alpha-press.txt": [
+      "communications",
+      "press"
+    ],
+    "mixed/project-alpha-roster.txt": [
+      "operations"
+    ],
+    "operations/incidents/conveyor-jam-report.txt": [
+      "operations",
+      "conveyor",
+      "station-four-jam"
+    ],
+    "operations/incidents/db-outage-postmortem.txt": [
+      "operations",
+      "conveyor",
+      "db-outage"
+    ],
+    "operations/logs/delivery-receiving-log.txt": [
+      "facilities"
+    ],
+    "operations/logs/shift-handoff-week12.txt": [
+      "operations",
+      "conveyor",
+      "station-four-jam"
+    ],
+    "operations/planning/capacity-plan-h2.txt": [
+      "operations",
+      "capacity-plan"
+    ],
+    "operations/schedules/production-schedule-march.txt": [
+      "operations",
+      "conveyor",
+      "station-four-jam"
+    ],
+    "personal/family/family-chili-recipe.txt": [
+      "personal"
+    ],
+    "personal/family/soccer-car-pool-schedule.txt": [
+      "personal"
+    ],
+    "personal/hobbies/delta-kite-build-plan.txt": [
+      "personal",
+      "hobbies"
+    ],
+    "personal/hobbies/guitar-lesson-notes.txt": [
+      "personal",
+      "hobbies"
+    ],
+    "personnel/cases/harassment-complaint-intake.txt": [
+      "personnel"
+    ],
+    "personnel/cases/performance-review-q2-marcus.txt": [
+      "personnel"
+    ],
+    "personnel/policies/offer-letter-jane-okafor.txt": [
+      "personnel"
+    ],
+    "personnel/policies/travel-expense-policy.txt": [
+      "finance",
+      "travel-budget"
+    ],
+    "personnel/records/benefits-enrollment-form.txt": [
+      "personnel"
+    ],
+    "scratch/empty-scratch.txt": [
+      "unmapped"
+    ],
+    "security/incidents/badge-tailgate-incident.txt": [
+      "security",
+      "incidents"
+    ],
+    "security/incidents/phishing-drill-results.txt": [
+      "security",
+      "incidents"
+    ],
+    "security/policies/visitor-badge-policy.txt": [
+      "security"
+    ],
+    "security/tickets/firewall-change-ticket.txt": [
+      "security",
+      "incidents"
+    ],
+    "special/me-too-thread.txt": [
+      "personal"
+    ],
+    "special/unsubscribe-confirmations.txt": [
+      "unmapped"
+    ],
+    "technology/architecture/office-wifi-upgrade-plan.txt": [
+      "technology",
+      "infrastructure",
+      "network"
+    ],
+    "technology/design/api-gateway-design-notes.txt": [
+      "technology",
+      "api-gateway",
+      "api-gateway-design"
+    ],
+    "technology/retros/sprint-42-retro.txt": [
+      "technology",
+      "infrastructure",
+      "network"
+    ],
+    "technology/runbooks/database-backup-runbook.txt": [
+      "technology",
+      "database",
+      "runbooks"
+    ],
+    "technology/runbooks/laptop-imaging-guide.txt": [
+      "technology",
+      "infrastructure",
+      "hardware"
+    ],
+    "training/certifications/forklift-cert-records.txt": [
+      "training",
+      "forklift-cert-records"
+    ],
+    "training/compliance/compliance-training-deadlines.txt": [
+      "training",
+      "compliance-training"
+    ],
+    "training/mentoring/mentor-program-guidelines.txt": [
+      "training",
+      "mentor-program-guidelines"
+    ],
+    "training/plans/newhire-training-plan.txt": [
+      "training",
+      "new-hire-training"
+    ]
+  },
+  "facets": {
+    "technology/architecture/office-wifi-upgrade-plan.txt": "wifi-upgrade",
+    "technology/retros/sprint-42-retro.txt": "retros",
+    "technology/runbooks/laptop-imaging-guide.txt": "runbooks"
+  },
+  "records": {
+    "administration/minutes/all-hands-minutes-january.txt": {
+      "rel_path": "administration/minutes/all-hands-minutes-january.txt",
+      "main": "administration",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is administration.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:53:30+00:00"
+    },
+    "administration/minutes/supply-committee-minutes-february.txt": {
+      "rel_path": "administration/minutes/supply-committee-minutes-february.txt",
+      "main": "administration",
+      "sub": "supply-committee",
+      "detail": "minutes",
+      "facet": "",
+      "summary": "The work function is administration.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:53:34+00:00"
+    },
+    "administration/policies/front-desk-rota.txt": {
+      "rel_path": "administration/policies/front-desk-rota.txt",
+      "main": "administration",
+      "sub": "front-desk",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is administration.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:53:37+00:00"
+    },
+    "administration/policies/records-retention-policy.txt": {
+      "rel_path": "administration/policies/records-retention-policy.txt",
+      "main": "administration",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is administration: running the office through policies and process.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:53:41+00:00"
+    },
+    "communications/crisis/crisis-comms-holding-statement.txt": {
+      "rel_path": "communications/crisis/crisis-comms-holding-statement.txt",
+      "main": "communications",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is communications.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:53:43+00:00"
+    },
+    "communications/internal/all-hands-slides-outline.txt": {
+      "rel_path": "communications/internal/all-hands-slides-outline.txt",
+      "main": "communications",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is communications.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:53:45+00:00"
+    },
+    "communications/internal/newsletter-april-draft.txt": {
+      "rel_path": "communications/internal/newsletter-april-draft.txt",
+      "main": "communications",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is communications.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:53:48+00:00"
+    },
+    "communications/press/press-release-product-launch.txt": {
+      "rel_path": "communications/press/press-release-product-launch.txt",
+      "main": "communications",
+      "sub": "press",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is communications.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:53:52+00:00"
+    },
+    "customers/acme/acme-kickoff-notes.txt": {
+      "rel_path": "customers/acme/acme-kickoff-notes.txt",
+      "main": "customers",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is customers.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:53:54+00:00"
+    },
+    "customers/acme/acme-qbr-deck-outline.txt": {
+      "rel_path": "customers/acme/acme-qbr-deck-outline.txt",
+      "main": "customers",
+      "sub": "quarterly-business-reviews",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is customers.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:54:00+00:00"
+    },
+    "customers/acme/acme-renewal-risk-call.txt": {
+      "rel_path": "customers/acme/acme-renewal-risk-call.txt",
+      "main": "customers",
+      "sub": "quarterly-business-reviews",
+      "detail": "acme-renewal-risk",
+      "facet": "",
+      "summary": "The work function is customers.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:54:07+00:00"
+    },
+    "customers/globex/globex-support-history.txt": {
+      "rel_path": "customers/globex/globex-support-history.txt",
+      "main": "customers",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is customers.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:54:09+00:00"
+    },
+    "customers/surveys/customer-feedback-spring.txt": {
+      "rel_path": "customers/surveys/customer-feedback-spring.txt",
+      "main": "customers",
+      "sub": "spring-customer-feedback",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is gathering and analyzing customer opinions to improve service.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:54:14+00:00"
+    },
+    "facilities/logs/hvac-maintenance-log.txt": {
+      "rel_path": "facilities/logs/hvac-maintenance-log.txt",
+      "main": "facilities",
+      "sub": "hardware",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is facilities maintenance.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:54:19+00:00"
+    },
+    "facilities/logs/key-card-audit-log.txt": {
+      "rel_path": "facilities/logs/key-card-audit-log.txt",
+      "main": "facilities",
+      "sub": "hardware",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is facilities.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:54:23+00:00"
+    },
+    "facilities/policies/loading-dock-hours.txt": {
+      "rel_path": "facilities/policies/loading-dock-hours.txt",
+      "main": "facilities",
+      "sub": "hardware",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is facilities.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:54:28+00:00"
+    },
+    "facilities/policies/parking-permit-policy.txt": {
+      "rel_path": "facilities/policies/parking-permit-policy.txt",
+      "main": "facilities",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is facilities.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:54:33+00:00"
+    },
+    "finance/budget/q3-budget-draft.txt": {
+      "rel_path": "finance/budget/q3-budget-draft.txt",
+      "main": "finance",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is finance.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:54:35+00:00"
+    },
+    "finance/budget/travel-budget-scenario.txt": {
+      "rel_path": "finance/budget/travel-budget-scenario.txt",
+      "main": "finance",
+      "sub": "travel-budget",
+      "detail": "travel-budget-scenario",
+      "facet": "",
+      "summary": "The work function is finance.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:54:40+00:00"
+    },
+    "finance/invoices/invoice-acme-0042.txt": {
+      "rel_path": "finance/invoices/invoice-acme-0042.txt",
+      "main": "finance",
+      "sub": "invoices",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is finance.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:55:18+00:00"
+    },
+    "finance/invoices/invoice-globex-0077.txt": {
+      "rel_path": "finance/invoices/invoice-globex-0077.txt",
+      "main": "finance",
+      "sub": "invoices",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is finance.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:55:22+00:00"
+    },
+    "finance/payroll/payroll-calendar-2025.txt": {
+      "rel_path": "finance/payroll/payroll-calendar-2025.txt",
+      "main": "finance",
+      "sub": "payroll-calendar",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is finance.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:55:28+00:00"
+    },
+    "finance/reimbursements/mileage-expense-claim.txt": {
+      "rel_path": "finance/reimbursements/mileage-expense-claim.txt",
+      "main": "finance",
+      "sub": "travel-budget",
+      "detail": "travel-budget-scenario",
+      "facet": "",
+      "summary": "The work function is finance.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:55:33+00:00"
+    },
+    "finance/vendors/vendor-payment-list-2024.txt": {
+      "rel_path": "finance/vendors/vendor-payment-list-2024.txt",
+      "main": "finance",
+      "sub": "invoices",
+      "detail": "vendors",
+      "facet": "",
+      "summary": "The work function is finance.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:55:37+00:00"
+    },
+    "finance/vendors/vendor-payment-list-2025.txt": {
+      "rel_path": "finance/vendors/vendor-payment-list-2025.txt",
+      "main": "finance",
+      "sub": "invoices",
+      "detail": "vendors",
+      "facet": "",
+      "summary": "The work function is finance.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:55:42+00:00"
+    },
+    "health/assessments/ergonomics-assessment-desk.txt": {
+      "rel_path": "health/assessments/ergonomics-assessment-desk.txt",
+      "main": "health",
+      "sub": "ergonomics",
+      "detail": "monitor-riser",
+      "facet": "",
+      "summary": "The work function is health.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:55:47+00:00"
+    },
+    "health/clinics/flu-shot-clinic-signup.txt": {
+      "rel_path": "health/clinics/flu-shot-clinic-signup.txt",
+      "main": "health",
+      "sub": "flu-shot-clinic",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is health.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:55:53+00:00"
+    },
+    "health/events/wellness-fair-flyer.txt": {
+      "rel_path": "health/events/wellness-fair-flyer.txt",
+      "main": "health",
+      "sub": "flu-shot-clinic",
+      "detail": "wellness-fair",
+      "facet": "",
+      "summary": "The work function is health.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:55:58+00:00"
+    },
+    "health/inventory/first-aid-kit-inventory.txt": {
+      "rel_path": "health/inventory/first-aid-kit-inventory.txt",
+      "main": "health",
+      "sub": "flu-shot-clinic",
+      "detail": "first-aid-kit",
+      "facet": "",
+      "summary": "The work function is health.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:56:03+00:00"
+    },
+    "legal/holds/litigation-hold-notice.txt": {
+      "rel_path": "legal/holds/litigation-hold-notice.txt",
+      "main": "legal",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is legal obligations.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:56:06+00:00"
+    },
+    "legal/leases/warehouse-lease-summary.txt": {
+      "rel_path": "legal/leases/warehouse-lease-summary.txt",
+      "main": "legal",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is legal obligations.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:56:09+00:00"
+    },
+    "legal/templates/nda-template.txt": {
+      "rel_path": "legal/templates/nda-template.txt",
+      "main": "legal",
+      "sub": "nda",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is legal obligations regarding confidential information.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:56:14+00:00"
+    },
+    "legal/trademarks/trademark-renewal-filing.txt": {
+      "rel_path": "legal/trademarks/trademark-renewal-filing.txt",
+      "main": "legal",
+      "sub": "house-mark",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is legal obligations regarding intellectual property.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:56:18+00:00"
+    },
+    "mixed/project-alpha-budget.txt": {
+      "rel_path": "mixed/project-alpha-budget.txt",
+      "main": "finance",
+      "sub": "invoices",
+      "detail": "project-alpha",
+      "facet": "",
+      "summary": "The work function is finance.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:56:46+00:00"
+    },
+    "mixed/project-alpha-press.txt": {
+      "rel_path": "mixed/project-alpha-press.txt",
+      "main": "communications",
+      "sub": "press",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is communications.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:56:51+00:00"
+    },
+    "mixed/project-alpha-roster.txt": {
+      "rel_path": "mixed/project-alpha-roster.txt",
+      "main": "operations",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is staffing assignments and resource management for a project.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:56:56+00:00"
+    },
+    "operations/incidents/conveyor-jam-report.txt": {
+      "rel_path": "operations/incidents/conveyor-jam-report.txt",
+      "main": "operations",
+      "sub": "conveyor",
+      "detail": "station-four-jam",
+      "facet": "",
+      "summary": "The work function is operations.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:57:01+00:00"
+    },
+    "operations/incidents/db-outage-postmortem.txt": {
+      "rel_path": "operations/incidents/db-outage-postmortem.txt",
+      "main": "operations",
+      "sub": "conveyor",
+      "detail": "db-outage",
+      "facet": "",
+      "summary": "The work function is operations.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:57:07+00:00"
+    },
+    "operations/logs/delivery-receiving-log.txt": {
+      "rel_path": "operations/logs/delivery-receiving-log.txt",
+      "main": "facilities",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is receiving and storing physical goods.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:57:12+00:00"
+    },
+    "operations/logs/shift-handoff-week12.txt": {
+      "rel_path": "operations/logs/shift-handoff-week12.txt",
+      "main": "operations",
+      "sub": "conveyor",
+      "detail": "station-four-jam",
+      "facet": "",
+      "summary": "The work function is operations.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:57:17+00:00"
+    },
+    "operations/planning/capacity-plan-h2.txt": {
+      "rel_path": "operations/planning/capacity-plan-h2.txt",
+      "main": "operations",
+      "sub": "capacity-plan",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is operations.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:57:22+00:00"
+    },
+    "operations/schedules/production-schedule-march.txt": {
+      "rel_path": "operations/schedules/production-schedule-march.txt",
+      "main": "operations",
+      "sub": "conveyor",
+      "detail": "station-four-jam",
+      "facet": "",
+      "summary": "The work function is operations.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:57:28+00:00"
+    },
+    "personal/family/family-chili-recipe.txt": {
+      "rel_path": "personal/family/family-chili-recipe.txt",
+      "main": "personal",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is personal.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:57:30+00:00"
+    },
+    "personal/family/soccer-car-pool-schedule.txt": {
+      "rel_path": "personal/family/soccer-car-pool-schedule.txt",
+      "main": "personal",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is personal.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:57:32+00:00"
+    },
+    "personal/hobbies/delta-kite-build-plan.txt": {
+      "rel_path": "personal/hobbies/delta-kite-build-plan.txt",
+      "main": "personal",
+      "sub": "hobbies",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is personal hobbies.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:57:37+00:00"
+    },
+    "personal/hobbies/guitar-lesson-notes.txt": {
+      "rel_path": "personal/hobbies/guitar-lesson-notes.txt",
+      "main": "personal",
+      "sub": "hobbies",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is personal.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:57:41+00:00"
+    },
+    "personnel/cases/harassment-complaint-intake.txt": {
+      "rel_path": "personnel/cases/harassment-complaint-intake.txt",
+      "main": "personnel",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is employment of people and workplace conduct issues.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:57:44+00:00"
+    },
+    "personnel/cases/performance-review-q2-marcus.txt": {
+      "rel_path": "personnel/cases/performance-review-q2-marcus.txt",
+      "main": "personnel",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is employment of people (performance review).",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:57:47+00:00"
+    },
+    "personnel/policies/offer-letter-jane-okafor.txt": {
+      "rel_path": "personnel/policies/offer-letter-jane-okafor.txt",
+      "main": "personnel",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is employment of people (hiring).",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:57:49+00:00"
+    },
+    "personnel/policies/travel-expense-policy.txt": {
+      "rel_path": "personnel/policies/travel-expense-policy.txt",
+      "main": "finance",
+      "sub": "travel-budget",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is finance.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:57:54+00:00"
+    },
+    "personnel/records/benefits-enrollment-form.txt": {
+      "rel_path": "personnel/records/benefits-enrollment-form.txt",
+      "main": "personnel",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is personnel.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:57:58+00:00"
+    },
+    "scratch/empty-scratch.txt": {
+      "rel_path": "scratch/empty-scratch.txt",
+      "main": "",
+      "sub": "",
+      "detail": "",
+      "summary": "",
+      "reason": "extract missing",
+      "status": "done",
+      "at": "2026-08-24T16:57:58+00:00"
+    },
+    "security/incidents/badge-tailgate-incident.txt": {
+      "rel_path": "security/incidents/badge-tailgate-incident.txt",
+      "main": "security",
+      "sub": "incidents",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is security: access and incidents.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:58:02+00:00"
+    },
+    "security/incidents/phishing-drill-results.txt": {
+      "rel_path": "security/incidents/phishing-drill-results.txt",
+      "main": "security",
+      "sub": "incidents",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is security: access and incidents.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:58:08+00:00"
+    },
+    "security/policies/visitor-badge-policy.txt": {
+      "rel_path": "security/policies/visitor-badge-policy.txt",
+      "main": "security",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is security.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:58:11+00:00"
+    },
+    "security/tickets/firewall-change-ticket.txt": {
+      "rel_path": "security/tickets/firewall-change-ticket.txt",
+      "main": "security",
+      "sub": "incidents",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is security.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:58:15+00:00"
+    },
+    "special/me-too-thread.txt": {
+      "rel_path": "special/me-too-thread.txt",
+      "main": "personal",
+      "sub": "",
+      "detail": "",
+      "facet": "",
+      "summary": "The text is a generic 'me too' response with no substantive work content. It is not a work-related document.",
+      "reason": "The text has no subject and is a generic reply indicating no further action is needed.",
+      "status": "done",
+      "at": "2026-08-24T16:58:18+00:00"
+    },
+    "special/unsubscribe-confirmations.txt": {
+      "rel_path": "special/unsubscribe-confirmations.txt",
+      "main": "",
+      "sub": "",
+      "detail": "",
+      "summary": "The text has no topical substance. It is a request to unsubscribe from a list and generic agreement.",
+      "reason": "No subject; generic unsubscribe and 'me too' statements.",
+      "status": "done",
+      "at": "2026-08-24T16:58:19+00:00"
+    },
+    "technology/architecture/office-wifi-upgrade-plan.txt": {
+      "rel_path": "technology/architecture/office-wifi-upgrade-plan.txt",
+      "main": "technology",
+      "sub": "infrastructure",
+      "detail": "network",
+      "facet": "wifi-upgrade",
+      "summary": "The work function is technology.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:58:23+00:00"
+    },
+    "technology/design/api-gateway-design-notes.txt": {
+      "rel_path": "technology/design/api-gateway-design-notes.txt",
+      "main": "technology",
+      "sub": "api-gateway",
+      "detail": "api-gateway-design",
+      "facet": "",
+      "summary": "The work function is technology.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:58:28+00:00"
+    },
+    "technology/retros/sprint-42-retro.txt": {
+      "rel_path": "technology/retros/sprint-42-retro.txt",
+      "main": "technology",
+      "sub": "infrastructure",
+      "detail": "network",
+      "facet": "retros",
+      "summary": "The work function is technology.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:58:33+00:00"
+    },
+    "technology/runbooks/database-backup-runbook.txt": {
+      "rel_path": "technology/runbooks/database-backup-runbook.txt",
+      "main": "technology",
+      "sub": "database",
+      "detail": "runbooks",
+      "facet": "",
+      "summary": "The work function is technology.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:58:38+00:00"
+    },
+    "technology/runbooks/laptop-imaging-guide.txt": {
+      "rel_path": "technology/runbooks/laptop-imaging-guide.txt",
+      "main": "technology",
+      "sub": "infrastructure",
+      "detail": "hardware",
+      "facet": "runbooks",
+      "summary": "The work function is technology.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:58:43+00:00"
+    },
+    "training/certifications/forklift-cert-records.txt": {
+      "rel_path": "training/certifications/forklift-cert-records.txt",
+      "main": "training",
+      "sub": "forklift-cert-records",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is training.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:58:47+00:00"
+    },
+    "training/compliance/compliance-training-deadlines.txt": {
+      "rel_path": "training/compliance/compliance-training-deadlines.txt",
+      "main": "training",
+      "sub": "compliance-training",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is training.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:58:51+00:00"
+    },
+    "training/mentoring/mentor-program-guidelines.txt": {
+      "rel_path": "training/mentoring/mentor-program-guidelines.txt",
+      "main": "training",
+      "sub": "mentor-program-guidelines",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is training.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:58:57+00:00"
+    },
+    "training/plans/newhire-training-plan.txt": {
+      "rel_path": "training/plans/newhire-training-plan.txt",
+      "main": "training",
+      "sub": "new-hire-training",
+      "detail": "",
+      "facet": "",
+      "summary": "The work function is instruction.",
+      "reason": "",
+      "status": "done",
+      "at": "2026-08-24T16:59:02+00:00"
+    }
+  },
+  "combines": [
+    {
+      "at": "2026-08-24T16:59:05+00:00",
+      "prefix": [
+        "facilities"
+      ],
+      "from": [
+        "parking-permits"
+      ],
+      "merge": [
+        "parking-permits"
+      ],
+      "into": "facilities",
+      "dissolve": true,
+      "reasoning": "hardware and parking-permits are both categories of files within the facilities folder.",
+      "moved": 1
+    },
+    {
+      "at": "2026-08-24T16:59:08+00:00",
+      "prefix": [
+        "finance",
+        "travel-budget"
+      ],
+      "from": [
+        "travel-expense-policy"
+      ],
+      "merge": [
+        "travel-expense-policy"
+      ],
+      "into": "finance/travel-budget",
+      "dissolve": true,
+      "reasoning": "travel-budget-scenario and travel-expense-policy are both budget-related documents under the travel-budget folder.",
+      "moved": 1
+    },
+    {
+      "at": "2026-08-24T16:59:12+00:00",
+      "prefix": [
+        "legal"
+      ],
+      "from": [
+        "nda-template"
+      ],
+      "merge": [
+        "nda-template"
+      ],
+      "into": "legal",
+      "dissolve": true,
+      "reasoning": "nda-template and trademark-renewal are both legal documents.",
+      "moved": 1
+    },
+    {
+      "at": "2026-08-24T16:59:12+00:00",
+      "prefix": [
+        "legal"
+      ],
+      "from": [
+        "trademark-renewal"
+      ],
+      "merge": [
+        "trademark-renewal"
+      ],
+      "into": "legal",
+      "dissolve": true,
+      "reasoning": "nda-template and trademark-renewal are both legal documents.",
+      "moved": 1
+    },
+    {
+      "at": "2026-08-24T16:59:13+00:00",
+      "prefix": [
+        "operations"
+      ],
+      "from": [
+        "packaging-cell"
+      ],
+      "merge": [
+        "packaging-cell"
+      ],
+      "into": "operations",
+      "dissolve": true,
+      "reasoning": "conveyor and packaging-cell are both operational equipment categories.",
+      "moved": 1
+    },
+    {
+      "at": "2026-08-24T16:59:15+00:00",
+      "prefix": [
+        "personal",
+        "hobbies"
+      ],
+      "from": [
+        "guitar"
+      ],
+      "merge": [
+        "guitar"
+      ],
+      "into": "personal/hobbies",
+      "dissolve": true,
+      "reasoning": "kites and guitar are both hobby-related activities.",
+      "moved": 1
+    },
+    {
+      "at": "2026-08-24T16:59:15+00:00",
+      "prefix": [
+        "personal",
+        "hobbies"
+      ],
+      "from": [
+        "kites"
+      ],
+      "merge": [
+        "kites"
+      ],
+      "into": "personal/hobbies",
+      "dissolve": true,
+      "reasoning": "kites and guitar are both hobby-related activities.",
+      "moved": 1
+    },
+    {
+      "at": "2026-08-24T16:59:16+00:00",
+      "prefix": [
+        "security",
+        "incidents"
+      ],
+      "from": [
+        "firewall-incidents"
+      ],
+      "merge": [
+        "firewall-incidents"
+      ],
+      "into": "security/incidents",
+      "dissolve": true,
+      "reasoning": "tailgate-incidents, phishing-incidents, and firewall-incidents are all types of security incidents. They can be grouped under a broader category.",
+      "moved": 1
+    },
+    {
+      "at": "2026-08-24T16:59:16+00:00",
+      "prefix": [
+        "security",
+        "incidents"
+      ],
+      "from": [
+        "phishing-incidents"
+      ],
+      "merge": [
+        "phishing-incidents"
+      ],
+      "into": "security/incidents",
+      "dissolve": true,
+      "reasoning": "tailgate-incidents, phishing-incidents, and firewall-incidents are all types of security incidents. They can be grouped under a broader category.",
+      "moved": 1
+    },
+    {
+      "at": "2026-08-24T16:59:16+00:00",
+      "prefix": [
+        "security",
+        "incidents"
+      ],
+      "from": [
+        "tailgate-incidents"
+      ],
+      "merge": [
+        "tailgate-incidents"
+      ],
+      "into": "security/incidents",
+      "dissolve": true,
+      "reasoning": "tailgate-incidents, phishing-incidents, and firewall-incidents are all types of security incidents. They can be grouped under a broader category.",
+      "moved": 1
+    },
+    {
+      "at": "2026-08-24T16:59:17+00:00",
+      "prefix": [
+        "technology"
+      ],
+      "from": [
+        "hardware",
+        "network"
+      ],
+      "merge": [
+        "hardware",
+        "network"
+      ],
+      "into": "infrastructure",
+      "reasoning": "network and hardware are both physical infrastructure components.",
+      "moved": 3
+    }
+  ],
+  "andon_keeps": {},
+  "method": "walk-file-plan"
+}
