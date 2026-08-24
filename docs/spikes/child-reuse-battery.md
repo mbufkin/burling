@@ -31,6 +31,18 @@ before and after --sweep.
 
 ## Artifacts
 
-- Battery states: `/tmp/battery/*.json` on gb10 (kept for re-analysis)
+- Battery walk-states (n=3 per arm, pre/post sweep):
+  `docs/spikes/battery/{baseline,reuse}-{1,2,3}-{pre,post}.json`
 - Scorer: `burling/score_placements.py`
-- Log: `output/walk-decisions.jsonl` (#61); sweep: `--sweep` (#62)
+- Walk-call log: `output/walk-decisions.jsonl` (#61); sweep: `--sweep` (#62)
+
+Re-analyze locally:
+```
+python3 - <<'PY'
+import json
+from burling.score_placements import score_run, load_labels
+labels = load_labels(__import__('pathlib').Path("burling/tests/fixtures/organize-drama/labels.json"))
+ws = json.load(open("docs/spikes/battery/reuse-1-post.json"))
+print(score_run(ws["homes"], labels))
+PY
+```
