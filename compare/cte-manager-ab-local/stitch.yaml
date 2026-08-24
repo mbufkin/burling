@@ -1,0 +1,25 @@
+# Local A+B restitch of the CTE-manager corpus (cached tags.json).
+# Does not overwrite compare/cte-manager-gb10 (the 8:35 compact-stitch draft).
+# Best practice: keep the Nemotron draft until this tree is reviewed.
+
+ollama:
+  url: "http://127.0.0.1:11434"
+  model: "qwen3.6:latest"
+  api: "ollama"
+  timeout_seconds: 600
+  temperature: 0.1
+
+paths:
+  intake_dir: "/Users/michaelbufkin/Desktop/burling-v2/burling/intake"
+  output_dir: "/Users/michaelbufkin/Desktop/burling-v2/compare/cte-manager-ab-local"
+
+chunking:
+  threshold_chars: 12000
+  chunk_chars: 10000
+  overlap_chars: 400
+
+policy:
+  never_delete: true
+  local_only: true
+  redact_pii_in_ledger: true
+  fail_closed_on_personal_tax: true

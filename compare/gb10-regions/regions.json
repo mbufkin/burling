@@ -1,0 +1,1419 @@
+{
+  "meta": {
+    "documents": 28,
+    "top_level": 8,
+    "nodes": 19,
+    "tags_total": 344,
+    "tags_mapped": 172,
+    "tag_coverage_pct": 50.0,
+    "docs_mapped": 26,
+    "built_at": "2026-08-18T23:27:41+00:00",
+    "notes": "Tree built from 344 unique tags across 28 documents. Top‑level regions map to core CTE handoff domains: curriculum administration, mobile lab deployment, showcase & events, purchasing & procurement, technology inventory, professional development, Pathful integration, and showcase preparation 2026‑27. Children capture narrower sub‑domains (trailer compliance, parking/logistics, apparel/gear, etc.). Synonyms merged to reduce duplication. No personal names or invented programs introduced."
+  },
+  "regions": [
+    {
+      "id": "curriculum-administration",
+      "label": "Curriculum Administration",
+      "description": "Oversight of curriculum standards, pacing, and administrative dashboards.",
+      "tags": [
+        "curriculum_admin",
+        "curriculum-admin",
+        "curriculum-admin-dashboard",
+        "curriculum_standardization",
+        "curriculum_lesson",
+        "curriculum-overview-2026-27",
+        "curriculum_pacing",
+        "curriculum-script",
+        "curriculum-resource",
+        "curriculum-administration"
+      ],
+      "children": [
+        {
+          "id": "pacing-guide",
+          "label": "Pacing Guide",
+          "description": "Sequencing and timing of curriculum delivery across terms.",
+          "tags": [
+            "pacing-guide",
+            "pacing_guide_update"
+          ],
+          "children": []
+        },
+        {
+          "id": "scope-and-sequence",
+          "label": "Scope & Sequence",
+          "description": "Development of multi-year curriculum roadmaps and course ordering.",
+          "tags": [
+            "scope-and-sequence",
+            "scope_and_sequence_development"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "mobile-lab-deployment",
+      "label": "Mobile Lab Deployment",
+      "description": "Physical trailer logistics, compliance, and scheduling for the CTE mobile lab.",
+      "tags": [
+        "mobile-lab",
+        "mobile-lab-2026-2027",
+        "mobile-lab-calendar-2026-2027",
+        "mobile-lab-deployment-2026-2027",
+        "trailer-assignment-2026-2027",
+        "trailer-compliance-field-trip",
+        "trailer-acknowledgment",
+        "trailer-visit-logistics",
+        "mobile-lab-script",
+        "mobile-lab-instructions",
+        "mobile-lab-showcase",
+        "mobile-lab-practicum"
+      ],
+      "children": [
+        {
+          "id": "trailer-compliance",
+          "label": "Trailer Compliance",
+          "description": "Regulatory and safety checks for mobile lab operations.",
+          "tags": [
+            "mobile-lab-compliance",
+            "compliance-checklist",
+            "cte-framework",
+            "inclement-weather-policy",
+            "safety-protocols"
+          ],
+          "children": []
+        },
+        {
+          "id": "trailer-pd",
+          "label": "Trailer Professional Development",
+          "description": "Training and pre‑work for staff operating the mobile lab.",
+          "tags": [
+            "teacher-pre-work",
+            "teacher-substitute-requirements"
+          ],
+          "children": []
+        },
+        {
+          "id": "trailer-scripts",
+          "label": "Trailer Scripts & Activities",
+          "description": "Lesson scripts, hands‑on activities, and equipment guides loaded in the trailer.",
+          "tags": [
+            "mobile-lab-script",
+            "curriculum-script",
+            "hands-on-cte-activity",
+            "grade-level-modules",
+            "mobile-lab-instructions"
+          ],
+          "children": []
+        },
+        {
+          "id": "trailer-ops",
+          "label": "Trailer Operations",
+          "description": "Scheduling, site visits, and on‑campus coordination for lab stops.",
+          "tags": [
+            "site-visit-tracking",
+            "trailer-assignment-2026-2027",
+            "showcase-scheduling",
+            "mobile-lab-scheduling",
+            "trailer-compliance-field-trip"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "showcase-events",
+      "label": "Showcase & Events",
+      "description": "Career exploration showcases, partner engagement, and event logistics.",
+      "tags": [
+        "showcase-2026-2027",
+        "showcase-2026",
+        "showcase-2025-2026",
+        "showcase-preparation-2026-2027",
+        "showcase-preparation",
+        "showcase-scheduling",
+        "showcase-evaluation-feedback",
+        "showcase-invite-list-2026-2027",
+        "showcase-invitation",
+        "showcase-october-6-2026",
+        "event-logistics",
+        "event-scheduling-2026-2027",
+        "event-planning-contact-list",
+        "registration-showcase2026",
+        "registration-memo",
+        "showcase-2026-2027-cte-showcase",
+        "career-exploration-showcase",
+        "career-exploration-mobile-lab",
+        "showcase-2026"
+      ],
+      "children": [
+        {
+          "id": "parking-and-logistics",
+          "label": "Parking & Logistics",
+          "description": "Parking assignments, loading zones, and vendor/student flow.",
+          "tags": [
+            "showcase-2026-2027",
+            "parking-assignments",
+            "loading-zone-management",
+            "bus-drop-off",
+            "vendor-check-in",
+            "volunteer-check-in",
+            "transportation-planning"
+          ],
+          "children": []
+        },
+        {
+          "id": "partner-engagement",
+          "label": "Partner Engagement",
+          "description": "Industry partner outreach, invitations, and database management.",
+          "tags": [
+            "industry-partnership",
+            "partner-outreach",
+            "partner-contact-list",
+            "external-stakeholder-mapping",
+            "cte-industry-partners",
+            "event-promotion"
+          ],
+          "children": []
+        },
+        {
+          "id": "career-exploration",
+          "label": "Career Exploration",
+          "description": "Modules, parking tags, and student-facing exploration activities.",
+          "tags": [
+            "career-exploration",
+            "career-exploration-parking",
+            "career-clusters",
+            "career-cluster-mapping",
+            "hands-on-activities",
+            "hands-on-cte"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "purchasing-procurement",
+      "label": "Purchasing & Procurement",
+      "description": "Quotes, vendor management, and material budgeting for CTE programs.",
+      "tags": [
+        "purchasing-quote",
+        "purchasing-quote-2026-2027",
+        "purchasing-guidance",
+        "purchasing_guidance",
+        "budget-tracker-2026-2027",
+        "budget-management",
+        "spending-categories",
+        "budget-deadlines",
+        "budget-deadline",
+        "consumables-supplies",
+        "materials-budget",
+        "three-quotes-policy",
+        "po-reference",
+        "price-breakdown",
+        "shipping-delivery-truck",
+        "terms-net-15",
+        "district-vendor-list",
+        "punch-out-procedure",
+        "curriculum-admin-dashboard"
+      ],
+      "children": [
+        {
+          "id": "cte-apparel-and-supplies",
+          "label": "CTE Apparel & Supplies",
+          "description": "T‑shirts, cotton apparel, screen‑printing, and printed materials.",
+          "tags": [
+            "cte-t-shirts",
+            "cotton-apparel",
+            "screen-printing",
+            "decoration-front",
+            "10-day-production",
+            "quote-50410",
+            "quote-50401",
+            "fmb-promoproducts",
+            "port-co-easy-cotton-tee",
+            "orange-and-navy-colors",
+            "size-breakdown-s-m-l-xl-2xl-3xl-4xl",
+            "booklet-printing",
+            "saddle-stitched-binding",
+            "full-color-printing",
+            "materials-budget"
+          ],
+          "children": []
+        },
+        {
+          "id": "equipment-and-gear",
+          "label": "Equipment & Gear",
+          "description": "3D pens, dental modules, simulators, and hands‑on activity kits.",
+          "tags": [
+            "3d-pen-challenge",
+            "3d-pen-design",
+            "3d-house-construction",
+            "dental-care-module",
+            "tooth-anatomy",
+            "virtual-dental-procedures",
+            "computer-science-cryptography",
+            "welding-simulation",
+            "aviation-flight-training",
+            "hands-on-cte-activity",
+            "printable-worksheets",
+            "check-for-understanding"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "technology-inventory",
+      "label": "Technology Inventory",
+      "description": "Device tracking, service desk, and asset management for CTE classrooms.",
+      "tags": [
+        "cte-technology-tracking",
+        "asset-inventory",
+        "device-condition",
+        "it-service-now",
+        "ownership-status",
+        "rm-number",
+        "technology_check_in",
+        "campus_1to1",
+        "device_ownership",
+        "device_type_laptops",
+        "campus_provided_vs_cte_provided",
+        "spreadsheet-tracker",
+        "multi-campus-cte",
+        "1-1-device-deployment"
+      ],
+      "children": []
+    },
+    {
+      "id": "professional-development",
+      "label": "Professional Development",
+      "description": "Summer PD, back‑to‑school training, and educator role definitions.",
+      "tags": [
+        "professional_development",
+        "professional-development",
+        "back_to_school",
+        "back-to-school",
+        "2026-2027_school_year",
+        "2026-summer-pd",
+        "summer-professional-development",
+        "PLC_schedule",
+        "curriculum_pacing",
+        "scope-and-sequence",
+        "budget-deadlines",
+        "education-is-freedom-eif",
+        "pathful",
+        "everfi",
+        "pathful-integration",
+        "pathful-platform-integration",
+        "clever-integration",
+        "mobile-lab-showcase",
+        "cte-summer-pd-2026",
+        "teacher-onboarding",
+        "teacher-of-record-accountability"
+      ],
+      "children": []
+    },
+    {
+      "id": "pathful-integration",
+      "label": "Pathful Integration",
+      "description": "Curriculum mapping and platform integration for Pathful CTE courses.",
+      "tags": [
+        "pathful-integration",
+        "pathful-platform-integration",
+        "pathful",
+        "path_to_college_career_framework",
+        "cte-curriculum-mapping",
+        "curriculum-overview-2026-27",
+        "workforce-readiness",
+        "lesson-touchpoints",
+        "career-exploration-modules",
+        "employability-skills",
+        "work-based-learning",
+        "student-tracker-goals",
+        "13-touchpoint-map",
+        "6-pathful-modules",
+        "3-curriculum-tracks",
+        "digital-cte-resources",
+        "curriculum_lesson",
+        "curriculum-admin"
+      ],
+      "children": []
+    },
+    {
+      "id": "showcase-preparation-2026-27",
+      "label": "Showcase Preparation 2026‑2027",
+      "description": "Pre‑event planning, invitations, and partner coordination for the annual showcase.",
+      "tags": [
+        "showcase-preparation-2026-2027",
+        "showcase-2026-2027",
+        "showcase-2026",
+        "showcase-2025-2026",
+        "showcase-october-6-2026",
+        "showcase-evaluation-feedback",
+        "registration-showcase2026",
+        "showcase-invite-list-2026-2027",
+        "showcase-invitation",
+        "event-logistics",
+        "event-scheduling-2026-2027",
+        "event-planning-contact-list",
+        "registration-memo",
+        "2026-2027-cte-showcase",
+        "career-exploration-showcase",
+        "career-exploration-mobile-lab",
+        "trailer-visit-logistics",
+        "teacher-pre-work",
+        "student-pre-sorted-groups",
+        "vendor-interaction-rotation",
+        "principal-signup-campus-selection",
+        "transportation-request",
+        "post-trailer-survey",
+        "booklet-completion",
+        "catalyst-grouping-A-B",
+        "recap-video-analysis",
+        "showcase-preparation"
+      ],
+      "children": []
+    }
+  ],
+  "synonyms": {
+    "curriculum-admin": [
+      "curriculum_admin",
+      "curriculum-admin-dashboard",
+      "curriculum_administration"
+    ],
+    "mobile-lab": [
+      "mobile_lab",
+      "mobile-lab-2026-2027",
+      "mobile-lab-calendar-2026-2027",
+      "mobile-lab-deployment-2026-2027"
+    ],
+    "showcase-2026-2027": [
+      "showcase-2026-2027",
+      "showcase-2026",
+      "showcase-2025-2026",
+      "showcase-preparation-2026-2027"
+    ],
+    "purchasing-quote": [
+      "purchasing-quote-2026-2027",
+      "purchasing_guidance",
+      "quote-50410",
+      "quote-50401"
+    ],
+    "professional-development": [
+      "professional_development",
+      "professional-development",
+      "back_to_school",
+      "back-to-school",
+      "2026-2027_school_year",
+      "summer-professional-development",
+      "2026-summer-pd"
+    ],
+    "cte-mobile-lab": [
+      "mobile-lab",
+      "mobile-lab-2026-2027",
+      "cte-mobile-lab"
+    ],
+    "event-logistics": [
+      "event-scheduling-2026-2027",
+      "event-logistics",
+      "showcase-infrastructure",
+      "event-planning-contact-list"
+    ],
+    "curriculum_lesson": [
+      "curriculum_lesson",
+      "curriculum-script",
+      "lesson-outline",
+      "lesson-touchpoints"
+    ],
+    "college_career_exploration": [
+      "college_career_exploration",
+      "college-career-exploration",
+      "career-exploration",
+      "career-exploration-showcase",
+      "career-exploration-mobile-lab",
+      "career-readiness-initiative"
+    ],
+    "pathful": [
+      "pathful-integration",
+      "pathful-platform-integration",
+      "pathful",
+      "pathful-integration"
+    ]
+  },
+  "tag_to_region": {
+    "curriculum_admin": "curriculum-administration",
+    "curriculum-admin": "curriculum-administration",
+    "curriculum-admin-dashboard": "curriculum-administration",
+    "curriculum_standardization": "curriculum-administration",
+    "curriculum_lesson": "curriculum-administration",
+    "curriculum-overview-2026-27": "curriculum-administration",
+    "curriculum_pacing": "curriculum-administration",
+    "curriculum-script": "curriculum-administration",
+    "curriculum-resource": "curriculum-administration",
+    "curriculum-administration": "curriculum-administration",
+    "pacing-guide": "pacing-guide",
+    "pacing_guide_update": "pacing-guide",
+    "scope-and-sequence": "scope-and-sequence",
+    "scope_and_sequence_development": "scope-and-sequence",
+    "mobile-lab": "mobile-lab-deployment",
+    "mobile-lab-2026-2027": "mobile-lab-deployment",
+    "mobile-lab-calendar-2026-2027": "mobile-lab-deployment",
+    "mobile-lab-deployment-2026-2027": "mobile-lab-deployment",
+    "trailer-assignment-2026-2027": "mobile-lab-deployment",
+    "trailer-compliance-field-trip": "mobile-lab-deployment",
+    "trailer-acknowledgment": "mobile-lab-deployment",
+    "trailer-visit-logistics": "mobile-lab-deployment",
+    "mobile-lab-script": "mobile-lab-deployment",
+    "mobile-lab-instructions": "mobile-lab-deployment",
+    "mobile-lab-showcase": "mobile-lab-deployment",
+    "mobile-lab-practicum": "mobile-lab-deployment",
+    "mobile-lab-compliance": "trailer-compliance",
+    "compliance-checklist": "trailer-compliance",
+    "cte-framework": "trailer-compliance",
+    "inclement-weather-policy": "trailer-compliance",
+    "safety-protocols": "trailer-compliance",
+    "teacher-pre-work": "trailer-pd",
+    "teacher-substitute-requirements": "trailer-pd",
+    "hands-on-cte-activity": "trailer-scripts",
+    "grade-level-modules": "trailer-scripts",
+    "site-visit-tracking": "trailer-ops",
+    "showcase-scheduling": "trailer-ops",
+    "mobile-lab-scheduling": "trailer-ops",
+    "showcase-2026-2027": "showcase-events",
+    "showcase-2026": "showcase-events",
+    "showcase-2025-2026": "showcase-events",
+    "showcase-preparation-2026-2027": "showcase-events",
+    "showcase-preparation": "showcase-events",
+    "showcase-evaluation-feedback": "showcase-events",
+    "showcase-invite-list-2026-2027": "showcase-events",
+    "showcase-invitation": "showcase-events",
+    "showcase-october-6-2026": "showcase-events",
+    "event-logistics": "showcase-events",
+    "event-scheduling-2026-2027": "showcase-events",
+    "event-planning-contact-list": "showcase-events",
+    "registration-showcase2026": "showcase-events",
+    "registration-memo": "showcase-events",
+    "showcase-2026-2027-cte-showcase": "showcase-events",
+    "career-exploration-showcase": "showcase-events",
+    "career-exploration-mobile-lab": "showcase-events",
+    "parking-assignments": "parking-and-logistics",
+    "loading-zone-management": "parking-and-logistics",
+    "bus-drop-off": "parking-and-logistics",
+    "vendor-check-in": "parking-and-logistics",
+    "volunteer-check-in": "parking-and-logistics",
+    "transportation-planning": "parking-and-logistics",
+    "industry-partnership": "partner-engagement",
+    "partner-outreach": "partner-engagement",
+    "partner-contact-list": "partner-engagement",
+    "external-stakeholder-mapping": "partner-engagement",
+    "cte-industry-partners": "partner-engagement",
+    "event-promotion": "partner-engagement",
+    "career-exploration": "career-exploration",
+    "career-exploration-parking": "career-exploration",
+    "career-clusters": "career-exploration",
+    "career-cluster-mapping": "career-exploration",
+    "hands-on-activities": "career-exploration",
+    "hands-on-cte": "career-exploration",
+    "purchasing-quote": "purchasing-procurement",
+    "purchasing-quote-2026-2027": "purchasing-procurement",
+    "purchasing-guidance": "purchasing-procurement",
+    "purchasing_guidance": "purchasing-procurement",
+    "budget-tracker-2026-2027": "purchasing-procurement",
+    "budget-management": "purchasing-procurement",
+    "spending-categories": "purchasing-procurement",
+    "budget-deadlines": "purchasing-procurement",
+    "budget-deadline": "purchasing-procurement",
+    "consumables-supplies": "purchasing-procurement",
+    "materials-budget": "purchasing-procurement",
+    "three-quotes-policy": "purchasing-procurement",
+    "po-reference": "purchasing-procurement",
+    "price-breakdown": "purchasing-procurement",
+    "shipping-delivery-truck": "purchasing-procurement",
+    "terms-net-15": "purchasing-procurement",
+    "district-vendor-list": "purchasing-procurement",
+    "punch-out-procedure": "purchasing-procurement",
+    "cte-t-shirts": "cte-apparel-and-supplies",
+    "cotton-apparel": "cte-apparel-and-supplies",
+    "screen-printing": "cte-apparel-and-supplies",
+    "decoration-front": "cte-apparel-and-supplies",
+    "10-day-production": "cte-apparel-and-supplies",
+    "quote-50410": "cte-apparel-and-supplies",
+    "quote-50401": "cte-apparel-and-supplies",
+    "fmb-promoproducts": "cte-apparel-and-supplies",
+    "port-co-easy-cotton-tee": "cte-apparel-and-supplies",
+    "orange-and-navy-colors": "cte-apparel-and-supplies",
+    "size-breakdown-s-m-l-xl-2xl-3xl-4xl": "cte-apparel-and-supplies",
+    "booklet-printing": "cte-apparel-and-supplies",
+    "saddle-stitched-binding": "cte-apparel-and-supplies",
+    "full-color-printing": "cte-apparel-and-supplies",
+    "3d-pen-challenge": "equipment-and-gear",
+    "3d-pen-design": "equipment-and-gear",
+    "3d-house-construction": "equipment-and-gear",
+    "dental-care-module": "equipment-and-gear",
+    "tooth-anatomy": "equipment-and-gear",
+    "virtual-dental-procedures": "equipment-and-gear",
+    "computer-science-cryptography": "equipment-and-gear",
+    "welding-simulation": "equipment-and-gear",
+    "aviation-flight-training": "equipment-and-gear",
+    "printable-worksheets": "equipment-and-gear",
+    "check-for-understanding": "equipment-and-gear",
+    "cte-technology-tracking": "technology-inventory",
+    "asset-inventory": "technology-inventory",
+    "device-condition": "technology-inventory",
+    "it-service-now": "technology-inventory",
+    "ownership-status": "technology-inventory",
+    "rm-number": "technology-inventory",
+    "technology_check_in": "technology-inventory",
+    "campus_1to1": "technology-inventory",
+    "device_ownership": "technology-inventory",
+    "device_type_laptops": "technology-inventory",
+    "campus_provided_vs_cte_provided": "technology-inventory",
+    "spreadsheet-tracker": "technology-inventory",
+    "multi-campus-cte": "technology-inventory",
+    "1-1-device-deployment": "technology-inventory",
+    "professional_development": "professional-development",
+    "professional-development": "professional-development",
+    "back_to_school": "professional-development",
+    "back-to-school": "professional-development",
+    "2026-2027_school_year": "professional-development",
+    "2026-summer-pd": "professional-development",
+    "summer-professional-development": "professional-development",
+    "PLC_schedule": "professional-development",
+    "education-is-freedom-eif": "professional-development",
+    "pathful": "professional-development",
+    "everfi": "professional-development",
+    "pathful-integration": "professional-development",
+    "pathful-platform-integration": "professional-development",
+    "clever-integration": "professional-development",
+    "cte-summer-pd-2026": "professional-development",
+    "teacher-onboarding": "professional-development",
+    "teacher-of-record-accountability": "professional-development",
+    "path_to_college_career_framework": "pathful-integration",
+    "cte-curriculum-mapping": "pathful-integration",
+    "workforce-readiness": "pathful-integration",
+    "lesson-touchpoints": "pathful-integration",
+    "career-exploration-modules": "pathful-integration",
+    "employability-skills": "pathful-integration",
+    "work-based-learning": "pathful-integration",
+    "student-tracker-goals": "pathful-integration",
+    "13-touchpoint-map": "pathful-integration",
+    "6-pathful-modules": "pathful-integration",
+    "3-curriculum-tracks": "pathful-integration",
+    "digital-cte-resources": "pathful-integration",
+    "2026-2027-cte-showcase": "showcase-preparation-2026-27",
+    "student-pre-sorted-groups": "showcase-preparation-2026-27",
+    "vendor-interaction-rotation": "showcase-preparation-2026-27",
+    "principal-signup-campus-selection": "showcase-preparation-2026-27",
+    "transportation-request": "showcase-preparation-2026-27",
+    "post-trailer-survey": "showcase-preparation-2026-27",
+    "booklet-completion": "showcase-preparation-2026-27",
+    "catalyst-grouping-A-B": "showcase-preparation-2026-27",
+    "recap-video-analysis": "showcase-preparation-2026-27",
+    "curriculum_administration": "curriculum-administration",
+    "mobile_lab": "mobile-lab-deployment",
+    "cte-mobile-lab": "mobile-lab-deployment",
+    "showcase-infrastructure": "showcase-events",
+    "lesson-outline": "curriculum-administration",
+    "college_career_exploration": "career-exploration"
+  },
+  "assignments": [
+    {
+      "doc_id": "ec811a14875574e6",
+      "rel_path": "Copy of Mobile Lab Compliance Checklist.docx",
+      "region_ids": [
+        "mobile-lab-deployment",
+        "trailer-compliance",
+        "trailer-ops",
+        "professional-development",
+        "curriculum-administration"
+      ],
+      "top_level_regions": [
+        "mobile-lab-deployment",
+        "professional-development",
+        "curriculum-administration"
+      ],
+      "matched_tags": [
+        "mobile-lab-practicum",
+        "compliance-checklist",
+        "site-visit-tracking",
+        "teacher-of-record-accountability",
+        "curriculum-administration"
+      ],
+      "unmatched_tags": [
+        "training-plan-requirements",
+        "edu-things-storage",
+        "grading-period-milestones",
+        "practicum-experience-documentation",
+        "student-performance-evaluation",
+        "non-discrimination-compliance"
+      ],
+      "summary": "This document is a compliance checklist for the Mobile Lab Practicum program within Dallas ISD's CTE framework. It outlines mandatory requirements for teacher-student interaction (45 minutes per week), training plans due by September 8, 2026, and a minimum of six annual site visits (one per grading period). All documentation, including non-discrimination statements and student performance evaluations, must be uploaded and stored in EduThings to ensure program adherence and accountability.",
+      "tag_count": 13
+    },
+    {
+      "doc_id": "d14b8180c110fb4e",
+      "rel_path": "Copy of [EXTERNAL FACING] MS CTE Technology Tracking - August 18, 10_33 AM.xlsx",
+      "region_ids": [
+        "technology-inventory",
+        "curriculum-administration"
+      ],
+      "top_level_regions": [
+        "technology-inventory",
+        "curriculum-administration"
+      ],
+      "matched_tags": [
+        "cte-technology-tracking",
+        "curriculum-admin"
+      ],
+      "unmatched_tags": [
+        "external-facing",
+        "handover-document",
+        "asset-tagging"
+      ],
+      "summary": "This spreadsheet serves as the primary tracking tool for CTE technology assets across middle schools, capturing device type, condition, ownership status, and IT Service Now ticket numbers for support tickets. It is designed for curriculum administrators and IT staff to maintain an organized inventory and ensure timely resolution of device issues.",
+      "tag_count": 10
+    },
+    {
+      "doc_id": "0ca68f3217ac40e5",
+      "rel_path": "Dallas ISD CTE MS Technology_Check-in (Responses).xlsx",
+      "region_ids": [
+        "curriculum-administration",
+        "technology-inventory"
+      ],
+      "top_level_regions": [
+        "curriculum-administration",
+        "technology-inventory"
+      ],
+      "matched_tags": [
+        "curriculum_admin",
+        "technology_check_in"
+      ],
+      "unmatched_tags": [
+        "staffing_assignments",
+        "college_career_course",
+        "middle_school_cte",
+        "tracking_sheet",
+        "responses_collection"
+      ],
+      "summary": "This spreadsheet captures a technology check-in for CTE teachers across multiple Dallas ISD middle schools, documenting device ownership (school-provided vs. CTE-provided), 1:1 campus status, and staffing assignments for College and Career Courses (1594 & 1677). It serves as a snapshot of technology readiness and personnel coverage for college and career readiness programs at the middle school level.",
+      "tag_count": 11
+    },
+    {
+      "doc_id": "87b1273a61af3724",
+      "rel_path": "EIF- Pathful/DISD_Full_Year_Course_Overview (1).docx",
+      "region_ids": [
+        "curriculum-administration",
+        "career-exploration"
+      ],
+      "top_level_regions": [
+        "curriculum-administration",
+        "showcase-events"
+      ],
+      "matched_tags": [
+        "curriculum_lesson",
+        "college_career_exploration"
+      ],
+      "unmatched_tags": [
+        "cte_course_overview",
+        "full_year_course",
+        "pathful_integration",
+        "unit_1_foundations_self_discovery",
+        "unit_2_career_exploration",
+        "unit_3_postsecondary_planning",
+        "unit_4_career_readiness_capstone",
+        "22_lessons",
+        "15_assessments_surveys",
+        "TEKS_aligned",
+        "spanish_supports",
+        "ell_supports",
+        "resume_building",
+        "interview_practice",
+        "goal_setting",
+        "capstone_project",
+        "course_pre_survey",
+        "course_post_survey",
+        "unit_pre_assessment",
+        "unit_post_assessment",
+        "teacher_guide",
+        "student_slide_deck",
+        "printable_handouts",
+        "career_research",
+        "post_secondary_research",
+        "budget_planning",
+        "workplace_skills"
+      ],
+      "summary": "This document provides a full-year CTE course overview for College & Career Exploration within DISD, mapping 22 lessons across four units from self-discovery to career readiness. It details embedded Pathful tool integrations, assessment schedules, and student deliverables including resume building, budgeting, and a capstone project. The successor can use this to align pacing, source materials, and ensure consistent Pathful tool utilization across campuses.",
+      "tag_count": 29
+    },
+    {
+      "doc_id": "8cd312cc2a8ba088",
+      "rel_path": "EIF- Pathful/DISD_Semester_Course_Overview.docx",
+      "region_ids": [
+        "curriculum-administration",
+        "professional-development",
+        "pacing-guide"
+      ],
+      "top_level_regions": [
+        "curriculum-administration",
+        "professional-development"
+      ],
+      "matched_tags": [
+        "curriculum_lesson",
+        "pathful-integration",
+        "pacing-guide"
+      ],
+      "unmatched_tags": [
+        "college-career-exploration",
+        "semester-course",
+        "cte-middle-school",
+        "unit-planning",
+        "student-portfolio",
+        "career-readiness",
+        "postsecondary-planning",
+        "self-discovery",
+        "resume-building",
+        "interview-prep",
+        "budgeting",
+        "capstone-project",
+        "TEKS-aligned",
+        "ELL-spanish-supports",
+        "assessment-tracker"
+      ],
+      "summary": "This document provides a condensed one-semester pacing guide for a College & Career Exploration course in DISD middle schools. It outlines 4 units and 18 lessons that guide students from self-discovery through career research in Pathful, postsecondary planning, and a capstone project involving resume building, budgeting, and interview practice. The course is TEKS-aligned, includes Spanish supports, and culminates in students presenting their personal career direction and artifacts.",
+      "tag_count": 19
+    },
+    {
+      "doc_id": "2cd8f94d8c4401a3",
+      "rel_path": "EIF- Pathful/Pathful_Integration_Overview.docx",
+      "region_ids": [
+        "curriculum-administration",
+        "professional-development",
+        "pathful-integration"
+      ],
+      "top_level_regions": [
+        "curriculum-administration",
+        "professional-development",
+        "pathful-integration"
+      ],
+      "matched_tags": [
+        "curriculum-overview-2026-27",
+        "pathful-platform-integration",
+        "workforce-readiness"
+      ],
+      "unmatched_tags": [
+        "postsecondary-planning",
+        "integration-replacement-schoollinks"
+      ],
+      "summary": "This document provides a comprehensive overview of the Pathful platform's integration into the 2026-27 CTE curriculum, detailing 13 distinct touchpoints across 6 modules within 3 curriculum tracks. It documents the transition from SchoolLinks to Pathful as the primary workforce-readiness platform, specifying exactly where and why each Pathful feature is used—from career assessments and job shadowing videos to resume builders and industry-led projects. The guide serves as a reference for teachers to embed platform use into lesson guides and presentations, ensuring students have a consistent, scaffolded experience in career exploration, postsecondary planning, and employability skills development.",
+      "tag_count": 15
+    },
+    {
+      "doc_id": "b6ae7af5493f82f8",
+      "rel_path": "EIF- Pathful/Program_Changes_2025-26_to_2026-27.docx",
+      "region_ids": [
+        "curriculum-administration",
+        "career-exploration"
+      ],
+      "top_level_regions": [
+        "curriculum-administration",
+        "showcase-events"
+      ],
+      "matched_tags": [
+        "curriculum_lesson",
+        "college_career_exploration"
+      ],
+      "unmatched_tags": [
+        "program_changes_2025-26_to_2026-27",
+        "platform_migration_schoollinks_to_pathful",
+        "teks_alignment_127_2",
+        "assessment_rebuild_2026-27",
+        "spanish_language_accessibility",
+        "hands_on_learning_insertions",
+        "rise_integration_supplemental",
+        "quality_assurance_link_audit",
+        "curriculum_validation_407_files"
+      ],
+      "summary": "This document summarizes the comprehensive revision of the College & Career Exploration curriculum for the 2026-27 school year, documenting the migration from SchoolLinks to Pathful as the primary workforce-readiness platform, alignment updates to TEKS §127.2, the rebuild of all 24 unit-level assessments, the addition of 49 Spanish-language resources, and the insertion of new hands-on activities across three district tracks. It serves as a leadership brief and partner hand-off artifact ensuring technical integrity, language accessibility, and standards compliance for the upcoming academic year.",
+      "tag_count": 11
+    },
+    {
+      "doc_id": "88f278617a24c3ce",
+      "rel_path": "Engine Room-Need to know docs for MS/2026-2027 MS Engine Room.xlsx",
+      "region_ids": [
+        "purchasing-procurement",
+        "mobile-lab-deployment",
+        "showcase-events",
+        "curriculum-administration"
+      ],
+      "top_level_regions": [
+        "purchasing-procurement",
+        "mobile-lab-deployment",
+        "showcase-events",
+        "curriculum-administration"
+      ],
+      "matched_tags": [
+        "budget-tracker-2026-2027",
+        "mobile-lab-calendar-2026-2027",
+        "showcase-preparation-2026-2027",
+        "curriculum-admin-dashboard"
+      ],
+      "unmatched_tags": [
+        "cte-budget-allocations",
+        "region-based-scheduling",
+        "cte-course-certification-tracker",
+        "budget-line-item-compliance"
+      ],
+      "summary": "This Excel workbook is the central CTE budget and mobile lab deployment tracker for Dallas ISD middle schools during the 2026-2027 academic year. It tracks budget line items, committed vs. spent amounts, and trailer assignments across 38+ campuses, organized by region and month. The document also maps course assignments, teacher certifications, and event scheduling (showcases, STEM expos, and field trips) to support the mobile lab’s itinerary and compliance with district CTE goals.",
+      "tag_count": 12
+    },
+    {
+      "doc_id": "91c9c4001399b977",
+      "rel_path": "Engine Room-Need to know docs for MS/2026-2027 Teacher_Campus List - 7_29_2026.xlsx",
+      "region_ids": [
+        "curriculum-administration"
+      ],
+      "top_level_regions": [
+        "curriculum-administration"
+      ],
+      "matched_tags": [
+        "curriculum_admin"
+      ],
+      "unmatched_tags": [
+        "staffing-roster-2026-2027",
+        "middle-school-cte",
+        "exploratory-courses",
+        "multi-campus-placement",
+        "teacher-assignment-snapshot",
+        "dallas-isd-org-structure",
+        "roster-export-7-29-2026",
+        "course-name-mapping",
+        "principal-leadership-list"
+      ],
+      "summary": "This Excel file is a campus-level staffing roster for Dallas ISD middle schools, listing teacher names, assigned campuses, and course sections for the 2026-2027 academic year. It serves as the primary reference for curriculum administrators and campus principals to verify course assignments, track exploratory and CTE placements, and ensure coverage across the district’s diverse school models (Montessori, STEAM, vanguard, and leadership academies). The 7/29/2026 timestamp indicates it is a pre-year snapshot used for scheduling and resource allocation.",
+      "tag_count": 10
+    },
+    {
+      "doc_id": "092746ffbaf3f798",
+      "rel_path": "MS Co-Hort/Framework_ MS Path to College & Career Co-Hort.docx",
+      "region_ids": [
+        "curriculum-administration",
+        "pathful-integration",
+        "scope-and-sequence",
+        "pacing-guide"
+      ],
+      "top_level_regions": [
+        "curriculum-administration",
+        "pathful-integration"
+      ],
+      "matched_tags": [
+        "curriculum_standardization",
+        "path_to_college_career_framework",
+        "scope_and_sequence_development",
+        "pacing_guide_update"
+      ],
+      "unmatched_tags": [
+        "7th_grade_cte",
+        "summer_2026_project",
+        "cte_champions_agreement",
+        "course_syllabi_development",
+        "education_is_freedom_integration",
+        "north_texas_youth_outreach_initiative",
+        "teks_alignment",
+        "compensation_stipend",
+        "deliverable_tracker",
+        "project_timeline_july_2026",
+        "in_person_virtual_meetings",
+        "cte_champion_educator_role"
+      ],
+      "summary": "This document is a CTE Champions agreement for a summer 2026 curriculum standardization project. Dallas ISD CTE is revisiting the 7th Grade Path to College and Career Framework (Courses 1594 and 1677) for the first time since launch. Teachers will develop, review, and refine the scope and sequence, course syllabi, pacing guides, and Year-at-a-Glance documents, while integrating Education is Freedom curriculum and North Texas Youth Outreach Initiative videos. The project runs July 15–31, 2026, with in-person and virtual meetings at 9400 N Central Expy. Participants can earn up to $1,750 (70 hours at $25/hr) for delivering standardized curriculum artifacts and meeting all project deadlines.",
+      "tag_count": 16
+    },
+    {
+      "doc_id": "52975c50133ad6f6",
+      "rel_path": "Mobile Lab Documents/2026 - 2027_ Dallas ISD CTE Mobile Lab Video Scripts.docx",
+      "region_ids": [
+        "mobile-lab-deployment",
+        "equipment-and-gear",
+        "curriculum-administration",
+        "career-exploration"
+      ],
+      "top_level_regions": [
+        "mobile-lab-deployment",
+        "purchasing-procurement",
+        "curriculum-administration",
+        "showcase-events"
+      ],
+      "matched_tags": [
+        "cte-mobile-lab",
+        "3d-pen-challenge",
+        "curriculum-script",
+        "career-exploration"
+      ],
+      "unmatched_tags": [
+        "zspace-dental-filling",
+        "flight-simulator-activity",
+        "code-breaker-challenge",
+        "health-science-pathway",
+        "aviation-pathway",
+        "cybersecurity-it-pathway",
+        "instructional-video",
+        "student-engagement"
+      ],
+      "summary": "This document contains four instructional scripts for the Dallas ISD CTE Career Exploration Mobile Lab, designed for the 2026-2027 school year. The scripts cover three core activities: a zSpace dental filling simulation for Health Science pathways, a 3D pen challenge for spatial reasoning, a flight simulator introducing aviation careers, and a Code Breaker challenge aligned with cybersecurity and IT pathways. Each script details safety protocols, setup instructions, and step-by-step student guidance. These materials serve as the primary training resource for mobile lab staff and students, ensuring consistent, safe, and engaging career exploration experiences across multiple CTE pathways.",
+      "tag_count": 14
+    },
+    {
+      "doc_id": "fb19ccc19d6a97f6",
+      "rel_path": "Mobile Lab Documents/Campus Mobile Lab Meeting Slide Deck.pptx",
+      "region_ids": [
+        "curriculum-administration",
+        "mobile-lab-deployment",
+        "trailer-compliance",
+        "trailer-pd",
+        "trailer-ops"
+      ],
+      "top_level_regions": [
+        "curriculum-administration",
+        "mobile-lab-deployment"
+      ],
+      "matched_tags": [
+        "curriculum_admin",
+        "mobile-lab-2026-2027",
+        "inclement-weather-policy",
+        "teacher-substitute-requirements",
+        "showcase-scheduling"
+      ],
+      "unmatched_tags": [
+        "campus-operational-responsibilities",
+        "student-pathways-career-exploration"
+      ],
+      "summary": "This slide deck serves as the operational playbook for the Dallas ISD Career Exploration Mobile Lab during the 2026-2027 school year. It details the daily schedule, student capacity limits, and the roles of teachers and administrators in supporting the in-school field trip. Critically, it outlines inclement weather protocols and the paperwork/substitute requirements campuses must fulfill five days prior to an event. The deck ensures that the mobile lab experience aligns with district career institute pathways and safety guidelines.",
+      "tag_count": 8
+    },
+    {
+      "doc_id": "5b7cffbe05e34978",
+      "rel_path": "Mobile Lab Documents/Trailer Acknowledgment_.docx",
+      "region_ids": [
+        "mobile-lab-deployment",
+        "trailer-compliance"
+      ],
+      "top_level_regions": [
+        "mobile-lab-deployment"
+      ],
+      "matched_tags": [
+        "trailer-acknowledgment",
+        "safety-protocols"
+      ],
+      "unmatched_tags": [
+        "cte-field-trip",
+        "campus-commitment-form",
+        "2026-2027",
+        "parking-access",
+        "substitute-coverage",
+        "laserfisch-approval",
+        "student-rosters",
+        "pre-work-requirement",
+        "weather-cancellation",
+        "administrator-initials",
+        "on-campus-event"
+      ],
+      "summary": "This is the Campus Acknowledgment and Commitment Form for the Dallas ISD Career Exploration Mobile Lab covering the 2026–2027 school year. It requires the campus principal to initial ten specific responsibilities, ranging from securing substitute coverage and completing laserfisch approval paperwork at least five days in advance, to confirming trailer parking that does not block fire lanes and ensuring student pre-work is complete. The form serves as the official record that the campus understands its role in supporting a safe, organized CTE field trip experience on campus, and it connects campus operations to CTE central-office oversight.",
+      "tag_count": 14
+    },
+    {
+      "doc_id": "9862eb158e8715be",
+      "rel_path": "PD/August 6, 2026, Dallas ISD CTE Middle School Professional Development & Back to School (1).pdf",
+      "region_ids": [
+        "curriculum-administration",
+        "professional-development",
+        "mobile-lab-deployment",
+        "purchasing-procurement"
+      ],
+      "top_level_regions": [
+        "curriculum-administration",
+        "professional-development",
+        "mobile-lab-deployment",
+        "purchasing-procurement"
+      ],
+      "matched_tags": [
+        "curriculum_pacing",
+        "professional_development",
+        "mobile_lab",
+        "purchasing_guidance"
+      ],
+      "unmatched_tags": [
+        "showcase_2026",
+        "CTE_middle_school",
+        "Education_is_Freedom",
+        "Pathful",
+        "Everfi",
+        "budget_deadlines",
+        "agenda_distribution"
+      ],
+      "summary": "This document is the official professional development agenda for Dallas ISD CTE Middle School staff, distributed ahead of the 2026-2027 school year. It outlines the August 6, 2026 PD schedule, curriculum priorities (Education is Freedom, Pathful, Everfi), and a series of seven PLCs spanning September 2026 through April 2026. The memo includes critical budget deadlines (spend 80% by January, 100% by February), purchasing protocols for large items, and details for the Middle School Showcase in October 2026. It serves as the successor's roadmap for curriculum implementation, teacher training, and resource allocation.",
+      "tag_count": 14
+    },
+    {
+      "doc_id": "ab22847ddc9fb763",
+      "rel_path": "PD/August 6, 2026, Dallas ISD CTE Middle School Professional Development & Back to School.pptx",
+      "region_ids": [
+        "curriculum-administration",
+        "professional-development",
+        "pacing-guide",
+        "scope-and-sequence",
+        "purchasing-procurement",
+        "mobile-lab-deployment",
+        "showcase-events"
+      ],
+      "top_level_regions": [
+        "curriculum-administration",
+        "professional-development",
+        "purchasing-procurement",
+        "mobile-lab-deployment",
+        "showcase-events"
+      ],
+      "matched_tags": [
+        "curriculum_admin",
+        "professional-development",
+        "pacing-guide",
+        "scope-and-sequence",
+        "budget-deadline",
+        "mobile-lab",
+        "showcase-2026"
+      ],
+      "unmatched_tags": [
+        "2026-2027",
+        "north-texas-youth-initiative",
+        "planning-calendar",
+        "cte-middle-school"
+      ],
+      "summary": "This PowerPoint agenda outlines the Dallas ISD CTE Middle School professional development session held on August 6, 2026, at 3701 Botham Jean Blvd. It details curriculum priorities for the 2026-2027 school year, emphasizing the Education is Freedom (EIF) primary pathway and supplemental resources like Pathful and Everfi. The document establishes critical budget deadlines (80% by January, 100% by February), schedules seven PLCs throughout the year, and highlights key events such as the Middle School Showcase in October. Successors should use this to align staff on pacing, resource access via Clever, and purchasing protocols for large items.",
+      "tag_count": 17
+    },
+    {
+      "doc_id": "2a38b4a477a9dad6",
+      "rel_path": "PD/CTE 26-27 Summer PD_ 7th Grade Career Readiness Experiences.pptx",
+      "region_ids": [
+        "mobile-lab-deployment",
+        "professional-development",
+        "showcase-events",
+        "trailer-pd",
+        "showcase-preparation-2026-27"
+      ],
+      "top_level_regions": [
+        "mobile-lab-deployment",
+        "professional-development",
+        "showcase-events",
+        "showcase-preparation-2026-27"
+      ],
+      "matched_tags": [
+        "mobile-lab-showcase",
+        "cte-summer-pd-2026",
+        "showcase-2025-2026",
+        "teacher-pre-work",
+        "student-pre-sorted-groups"
+      ],
+      "unmatched_tags": [
+        "7th-grade-career-readiness",
+        "ellis-davis-field-house"
+      ],
+      "summary": "This slide deck outlines the Dallas ISD 7th Grade Career Readiness Experiences program, detailing the logistics for the Mobile CTE Trailer showcase events scheduled across the 2025-2026 and 2026-2027 school years. It serves as summer professional development material for teachers, providing pre-work requirements, student grouping protocols (sorted into Catalyst groups A and B), and day-of-event procedures. The successor should use this to streamline principal-led campus date selection, ensure teacher completion of the provided guide and booklet, and manage vendor rotations averaging 8-10 minutes per station at the Ellis Davis Field House or home campuses.",
+      "tag_count": 17
+    },
+    {
+      "doc_id": "944635169d0cc90a",
+      "rel_path": "PD/CTE 26-27 Summer PD_ Middle School Spending.pptx",
+      "region_ids": [
+        "curriculum-administration",
+        "professional-development",
+        "purchasing-procurement"
+      ],
+      "top_level_regions": [
+        "curriculum-administration",
+        "professional-development",
+        "purchasing-procurement"
+      ],
+      "matched_tags": [
+        "curriculum_admin",
+        "summer-professional-development",
+        "budget-management"
+      ],
+      "unmatched_tags": [
+        "middle-school-cte",
+        "procurement-procedures",
+        "teacher-resources"
+      ],
+      "summary": "This PowerPoint presentation serves as the primary budget management guide for middle school CTE teachers during Summer 2026 professional development. It outlines the three main spending categories—consumables, classroom supplies, and teacher supplies—with specific examples for each. The deck details procurement procedures, including the requirement for three quotes via the District Vendor List or the streamlined Punch Out List process using Oracle. Critical deadlines are emphasized, mandating 50% of spending by October, 75% by December, and 100% by February, with a hard cutoff at the end of February. The presentation clarifies that every campus receives a minimum $250 budget housed with the office manager, and provides guidance on how to locate and manage these funds before the school year begins.",
+      "tag_count": 13
+    },
+    {
+      "doc_id": "edfc22b1a0a1e4c7",
+      "rel_path": "Purchasing/MSTees 3600 #50410.pdf",
+      "region_ids": [
+        "purchasing-procurement",
+        "cte-apparel-and-supplies"
+      ],
+      "top_level_regions": [
+        "purchasing-procurement"
+      ],
+      "matched_tags": [
+        "purchasing-quote",
+        "cte-t-shirts"
+      ],
+      "unmatched_tags": [
+        "mstees-3600-units",
+        "career-technical-education",
+        "dallas-isd-cte",
+        "approval-required"
+      ],
+      "summary": "This is a purchase order quote (PO #50410) from FMB Promo Products for 3,600 cotton t-shirts in orange and true navy, decorated with front-screen printing for the Dallas ISD Career and Technical Education Department. The quote breaks down pricing by size and color, requires written approval \"I APPROVE QUOTE WITH NO CHANGES\" to proceed, and includes delivery via truck with Net 15 payment terms. It serves as the formal procurement document for outfitting CTE staff or participants with branded apparel.",
+      "tag_count": 19
+    },
+    {
+      "doc_id": "cb7dbfa8460ca39b",
+      "rel_path": "Purchasing/Quote #50401 (1).pdf",
+      "region_ids": [
+        "purchasing-procurement",
+        "cte-apparel-and-supplies"
+      ],
+      "top_level_regions": [
+        "purchasing-procurement"
+      ],
+      "matched_tags": [
+        "purchasing-quote",
+        "booklet-printing"
+      ],
+      "unmatched_tags": [
+        "cte-explore-showcase-2026",
+        "district-shipping",
+        "career-technical-education-promotion"
+      ],
+      "summary": "This is a purchasing quote (ID 50401) from FMB Promo Products for 3,000 full-color, saddle-stitched 8.5\" x 11\" booklets intended for the CTE Exploration Showcase 2026. The quote totals $5,009.00, includes a $299 shipping charge, and is addressed to Megan James in the Career and Technical Education Department at 9400 N Central Expy. Production is on a 2-day rush, with in-hand date of 02/09/2026. The successor should verify the product specs (13pt matte cover, 70lb white inside paper, 24 pages) and confirm the shipping address before authorizing payment via purchase order.",
+      "tag_count": 10
+    },
+    {
+      "doc_id": "6a41c633f659ae21",
+      "rel_path": "Purchasing/School Specialty Purchasing List.docx",
+      "region_ids": [],
+      "top_level_regions": [],
+      "matched_tags": [],
+      "unmatched_tags": [],
+      "summary": "Extract failed: no text extracted",
+      "tag_count": 0
+    },
+    {
+      "doc_id": "96cffb236da3c047",
+      "rel_path": "Purchasing/Trailer Activity Guide - Print Ready (1).pdf",
+      "region_ids": [
+        "mobile-lab-deployment",
+        "equipment-and-gear",
+        "trailer-scripts",
+        "curriculum-administration"
+      ],
+      "top_level_regions": [
+        "mobile-lab-deployment",
+        "purchasing-procurement",
+        "curriculum-administration"
+      ],
+      "matched_tags": [
+        "cte-mobile-lab",
+        "3d-pen-design",
+        "hands-on-cte-activity",
+        "curriculum-resource"
+      ],
+      "unmatched_tags": [
+        "student-guide",
+        "cte-program-guide",
+        "multi-station-activities",
+        "health-sciences-dental-xray",
+        "career-pathways-exploration",
+        "engaging-cte-unit",
+        "single-day-experience",
+        "foundational-knowledge",
+        "interactive-activities",
+        "real-world-skills"
+      ],
+      "summary": "This CTE Mobile Lab student guide is a print-ready resource introducing multi-station career exploration across health sciences, computer science, welding, and aviation. It features four distinct modules: 3D pen design and 3D house construction, AR dental care covering tooth anatomy and virtual procedures, cryptography code-breaking, and flight simulator/drone activities. The guide includes learning objectives, step-by-step activities, check-for-understanding questions, and printable worksheets designed for a single-day hands-on lab experience. It connects foundational classroom learning with real-world skills and career pathways, serving as both a pre-lab primer and a take-home reference for students.",
+      "tag_count": 25
+    },
+    {
+      "doc_id": "4da7d5458f277a5c",
+      "rel_path": "Showcase/2026 - 2027 Career Exploration Parking Tags.pptx",
+      "region_ids": [
+        "showcase-events",
+        "career-exploration",
+        "parking-and-logistics"
+      ],
+      "top_level_regions": [
+        "showcase-events"
+      ],
+      "matched_tags": [
+        "showcase-2026-2027",
+        "career-exploration-parking",
+        "transportation-planning"
+      ],
+      "unmatched_tags": [
+        "bus-parking",
+        "vendor-parking",
+        "volunteer-parking"
+      ],
+      "summary": "This PowerPoint slide deck outlines the parking layout for the 2026-2027 Career Exploration Showcase, designating specific lots for bus parking (Lots A, B, and C) and separate areas for vendor/exhibitor and volunteer parking. It serves as a logistical planning tool to manage vehicle flow and ensure smooth operations during the event.",
+      "tag_count": 8
+    },
+    {
+      "doc_id": "049a89afd8e0bde3",
+      "rel_path": "Showcase/2026-2027 Showcase - Partner Flyer (2).pdf",
+      "region_ids": [
+        "showcase-events",
+        "career-exploration",
+        "partner-engagement",
+        "curriculum-administration"
+      ],
+      "top_level_regions": [
+        "showcase-events",
+        "curriculum-administration"
+      ],
+      "matched_tags": [
+        "showcase-2026",
+        "career-exploration",
+        "industry-partnership",
+        "curriculum-admin"
+      ],
+      "unmatched_tags": [
+        "middle-school-cte",
+        "ellis-davis-field-house",
+        "dallas-isd-event",
+        "2026-2027-school-year"
+      ],
+      "summary": "This flyer promotes the 2026 Middle School Career Exploration Showcase, scheduled for October 6-7, 2026, at the Ellis Davis Field House. It serves as a recruitment tool for industry partners and exhibitors, detailing hands-on activity expectations, student rotation logistics, and the event's impact (3,000+ students, 100+ partners, 13 career clusters). The document connects industry engagement to early CTE pathway mapping and includes registration and support contact information for participants.",
+      "tag_count": 14
+    },
+    {
+      "doc_id": "1177aa6fc1c22b64",
+      "rel_path": "Showcase/2026-2027 Showcase Invite List.xlsx",
+      "region_ids": [
+        "showcase-events",
+        "partner-engagement",
+        "career-exploration",
+        "showcase-preparation-2026-27"
+      ],
+      "top_level_regions": [
+        "showcase-events",
+        "showcase-preparation-2026-27"
+      ],
+      "matched_tags": [
+        "showcase-invite-list-2026-2027",
+        "cte-industry-partners",
+        "career-cluster-mapping",
+        "2026-2027-cte-showcase"
+      ],
+      "unmatched_tags": [
+        "industry-engagement-database",
+        "career-clusters-cte"
+      ],
+      "summary": "This Excel file compiles a curated invitation list of 130+ industry partners, educational institutions, and community organizations mapped to specific CTE career clusters for the upcoming 2026-2027 showcase. It serves as the master contact directory for event planners to coordinate outreach, manage RSVP logistics, and align partner engagements with curriculum pathways. The list spans diverse sectors from advanced manufacturing and health science to public safety and transportation, reflecting the district's broad CTE portfolio.",
+      "tag_count": 10
+    },
+    {
+      "doc_id": "6ad0cc94a59e279b",
+      "rel_path": "Showcase/Parking.pptx",
+      "region_ids": [
+        "showcase-events",
+        "parking-and-logistics"
+      ],
+      "top_level_regions": [
+        "showcase-events"
+      ],
+      "matched_tags": [
+        "showcase-2026-2027",
+        "parking-assignments"
+      ],
+      "unmatched_tags": [
+        "food-service-coordination",
+        "booth-assignments",
+        "cte-program-mapping",
+        "setup-instructions",
+        "draft-1"
+      ],
+      "summary": "This slide deck outlines parking, loading zones, and booth assignments for the MS Showcase 2026-2027 event at Ellis Davis Field House. It details vendor and volunteer check-in procedures, bus drop-off locations, and food service deadlines for exhibitors. The document maps CTE program areas (e.g., Health Science, Engineering, IT) to specific booth zones and includes logistical notes on cart availability and parking pass display.",
+      "tag_count": 12
+    },
+    {
+      "doc_id": "2acdc633e79c763c",
+      "rel_path": "Summe Conference Tracker 2026.xlsx",
+      "region_ids": [],
+      "top_level_regions": [],
+      "matched_tags": [],
+      "unmatched_tags": [
+        "ctat-2026-travel-tracker",
+        "cte-grant-funded-travel",
+        "conference-attendance-tracking",
+        "ctat-2026-registration",
+        "staff-travel-approvals",
+        "membership-invoice-tracking",
+        "signature-collection-workflow",
+        "region-15-cte-event",
+        "summer-2026-cte-conference",
+        "vendor-google-drive-links"
+      ],
+      "summary": "This Excel tracker consolidates CTE staff travel paperwork for the 2026 CTAT (Career & Technical Association of Texas) summer conference and associated association events. It logs attendee names, destinations, dates, membership invoice status, payment amounts ($675 standard), and tracks signature collection and approval workflows across multiple documents. The file serves as the central reference for grant-funded travel authorizations, membership compliance, and central-office oversight of conference participation.",
+      "tag_count": 10
+    },
+    {
+      "doc_id": "bed3855b8250ca56",
+      "rel_path": "WAIP/2026 - 2027_ Middle School Career Exploration Experience Registrations.docx",
+      "region_ids": [
+        "showcase-events",
+        "trailer-ops"
+      ],
+      "top_level_regions": [
+        "showcase-events",
+        "mobile-lab-deployment"
+      ],
+      "matched_tags": [
+        "registration-memo",
+        "mobile-lab-scheduling"
+      ],
+      "unmatched_tags": [
+        "middle-school-cte",
+        "2026-2027-school-year",
+        "principal-action-required",
+        "deputy-chief-communication",
+        "career-readiness-initiative"
+      ],
+      "summary": "This memo from the Deputy Chief of Career Readiness and Director of CTE instructs all 7th-grade principals to register their campus for one of two middle school career exploration experiences during the 2026–2027 school year: the CTE Middle School Career Exploration Showcase (a cluster-wide event on October 6 or 7) or the CTE Career Exploration Mobile Lab (a campus-based rotation with pre-assigned dates). Principals must confirm or request date changes by August 27, 2026, and the memo provides registration links and a contact for questions.",
+      "tag_count": 10
+    },
+    {
+      "doc_id": "436c890945db09b8",
+      "rel_path": "[EXTERNAL FACING] MS CTE Technology Tracking.xlsx",
+      "region_ids": [
+        "technology-inventory",
+        "curriculum-administration",
+        "professional-development",
+        "showcase-events"
+      ],
+      "top_level_regions": [
+        "technology-inventory",
+        "curriculum-administration",
+        "professional-development",
+        "showcase-events"
+      ],
+      "matched_tags": [
+        "cte-technology-tracking",
+        "curriculum-admin",
+        "teacher-onboarding",
+        "showcase-preparation"
+      ],
+      "unmatched_tags": [
+        "campus-coordination",
+        "college-and-career",
+        "professional-communications",
+        "principles-of-business",
+        "fall-semester-setup"
+      ],
+      "summary": "This spreadsheet serves as the central tracking tool for CTE technology assets across multiple Dallas ISD middle school campuses, documenting device condition, ownership, and IT service ticket status for key courses including College and Career, Professional Communications, and Principles of Business. Teachers use it to report device issues, confirm 1:1 deployment status, and coordinate with campus IT, with explicit instructions to escalate unresolved tickets to campus leadership. The document is actively used during fall semester setup, particularly as students begin receiving Chromebooks and staff complete beginning-of-year testing and surveys.",
+      "tag_count": 15
+    }
+  ]
+}

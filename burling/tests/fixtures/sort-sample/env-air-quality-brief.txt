@@ -1,0 +1,5 @@
+Air quality brief, inversion morning.
+
+PM2.5 peaked at 38 µg/m³ between 07:00 and 08:00. The advisory
+covers the valley floor only. Wood-stove curtailment is voluntary
+today; a Stage 1 alert would make it mandatory.

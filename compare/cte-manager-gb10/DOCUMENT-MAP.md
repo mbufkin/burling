@@ -1,0 +1,890 @@
+# Document map
+
+First-pass tags. One document may have extra tags in the ledger.
+
+## curriculum_admin (4)
+
+- `CTE-Standard Operating Procedures/2026-27 Dallas ISD CTE CTSO Handbook.docx`  extra: curriculum_lesson, work_email_or_memo, curriculum_pacing, student_record
+  - A Dallas ISD CTE handbook outlining the structure, goals, and operational procedures for Career and Technical Student Organizations (CTSOs) across the district, including chapter establishment, advisor responsibilities, fundraising, travel guidelines, and competition eligibility for the 2026-27 school year. A comprehensive handbook for Career and Technical Student Organizations (CTSOs) covering chapter operations, officer roles, membership dues, fundraising, competition eligibility, and funding structures for the 2026-27 school year. A district handbook outlining policies for Career and Technical Student Organization (CTSO) activities, including competition eligibility, travel procedures, field trip approvals, student behavior expectations, and sponsor responsibilities for the 2026-27 scho
+- `add_to_calendar.ics`  extra: work_email_or_memo
+  - An iCalendar file containing a scheduled training event about federal Perkins CTE updates, including interagency agreements and executive orders.
+- `outlook (1).vcs`  extra: work_email_or_memo
+  - An Outlook calendar event for a professional development session titled 'The Art of Coaching Teams: From a Mentoring Perspective' scheduled for December 11, 2025, in the Volunteer Mezzanine 9 room.
+- `outlook.vcs`
+  - A calendar event for a professional development session on strategic marketing plans to increase work-based learning opportunities for students, scheduled for December 10, 2025.
+
+## work_email_or_memo (3)
+
+- `Documents/Conference Travel/eInvoice, December 08 for JEREMY SPENCE.eml`  extra: curriculum_admin
+  - An eInvoice email from a travel booking service (ARTA Travel/Sabre) for conference-related expenses for Jeremy Spence, likely a CTE staff member. The message contains itemized travel charges and attendee details but no curriculum content itself. An eInvoice and travel itinerary for a conference trip, containing flight details, hotel charges, and reimbursement information for a staff member attending professional development. An eInvoice for conference travel in December 2008 for a staff member, containing itinerary details, cost breakdowns, and booking references. The document appears to be a work-related travel voucher or reimbursement record. An email message containing travel expense details and conference registration information for a staff member, including encoded attachments with f
+- `invite (1).ics`  extra: curriculum_admin
+  - A calendar invitation for new hire onboarding sent to staff members, containing meeting details, Teams link, and attendee list for a scheduled orientation session.
+- `invite.ics`  extra: curriculum_admin
+  - A calendar invitation for a People Ops Orientation meeting for NDI Senior Managers, sent via Microsoft Teams with dial-in phone numbers and meeting links. The event is scheduled for August 3, 2026, and includes organizational attendees and optional participants from a school network.
+
+## untagged / not yet pass-1 (864)
+
+- ` Non Awarded Vendor Request Form 7.2025.pdf`
+- ` PD Summer Schedule.pdf`
+- `12-21-BASC 3 Teacher.pdf`
+- `2018_TaxReturn (1).pdf`
+- `2023_TaxReturn (1).pdf`
+- `2023_TaxReturn (2).pdf`
+- `2024 Dallas ISD W2 (2).pdf`
+- `2024 Dallas ISD W2.pdf`
+- `2024 Kemp ISD W2 (1).pdf`
+- `2024 Kemp ISD W2.pdf`
+- `2024-2025-clna-guidebook.pdf`
+- `2025 CTE Summer PD Feedback.pdf`
+- `2025 non-awarded vendor request forms/Copy of Non-AwardedVendorRequestForm - ASE.pdf`
+- `2025 non-awarded vendor request forms/Non-Awarded Vendor Forms approved/Career Safe-approval[30].pdf`
+- `2025 non-awarded vendor request forms/Non-Awarded Vendor Forms approved/CareerSafe Approved.pdf`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ASE.pdf`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - BACE.pdf`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Certiport.pdf`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ESCO Institute.pdf`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Gaumard.pdf`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NCCER.pdf`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NOCTI.pdf`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Nasco.pdf`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SACA.pdf`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SolidProfessor.pdf`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_American Medical Technologists (AMT).pdf`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Assessment Technologies.pdf`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Platinum Consulting.pdf`
+- `2025-2030-industry-based-certification-list-for-public-school-accountability.pdf`
+- `2026 Graduation Cord Rosters.pdf`
+- `2026-27 DRAFT[98].pdf`
+- `2026-27 Perkins Application — Filled Tentative (PS3350).pdf`
+- `25-26 CI North .pdf`
+- `25-26 SEC 11028Y1N2-2022 Early Childhood (1).pdf`
+- `25-26 SEC 11028Y1N2-2022 Early Childhood.pdf`
+- `26-27 Academic Services Deck Template .key`  — extract error: unsupported or binary file type: .key
+- `26-27 CI Copy of Bell Schedule.docx.pdf`
+- `26-27 CLNA.pdf`
+- `26-27 Campus CTE Nonposition Realignment Datasource Updated.numbers`  — extract error: unsupported or binary file type: .numbers
+- `26-27 Campus CTE Nonposition Realignment Datasource V2 (1).pdf`
+- `26-27 Campus CTE Nonposition Realignment Datasource V4.pdf`
+- `26-27 Campus CTE Nonposition Realignment Datasource V5 (1).pdf`
+- `26-27 Campus CTE Nonposition Realignment Datasource V5.pdf`
+- `26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf`
+- `2nd floor map.png`
+- `3. Board Document 250357-version 2.pdf`
+- `3. Board Document 250357[69].pdf`
+- `318703661.pdf`
+- `A Goodson Travel form - signed.pdf`
+- `ACTE HQ Frameworks.pdf`
+- `ACTE Vision 2025 Agenda.pdf`
+- `ACTE Vision 2025/65684178-BD76-0A08-B60B-BE1C34BFECD62025121015413396.pdf`
+- `ACTE Vision 2025/656A76EE-B68A-D444-6762-21010FD3F29C2025121015414842.pdf`
+- `ACTE Vision 2025/656CE590-B6F4-2F08-5A50-B7FB55AB15F82025121015420436.pdf`
+- `ACTE Vision 2025/656EE0EE-B956-47AB-F3B8-A54C3E8E641B20251210154217363.pdf`
+- `ACTE Vision 2025/65716A4D-B4E2-7383-94EF-7EDF54BFC4E120251210154233987.pdf`
+- `ACTE Vision 2025/65754B6A-EF78-CE75-65F6-D456EA8547462025121015425945.pdf`
+- `ACTE Vision 2025/6579DB74-F008-599E-5ED8-2CEC15E80EA820251210154329313.pdf`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf`
+- `ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf`
+- `ACTE Vision 2025/Admin 101/Advisory Council.pdf`
+- `ACTE Vision 2025/Admin 101/CTE Program Coherent Sequence.pdf`
+- `ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf`
+- `ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf`
+- `ACTE Vision 2025/Admin 101/request.pdf`
+- `ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf`
+- `ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf`
+- `ACTE Vision 2025/Admin 201/CTE Admin 102-Slide Deck.pptx.pdf`
+- `ACTE Vision 2025/Admin 201/Improving_CTE_Performance_Measurement_Data_Collection_09-11-2024.pdf`
+- `ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf`
+- `ACTE Vision 2025/Admin 201/Perkins Performance Measures Data Analysis Template.pdf`
+- `ACTE Vision 2025/BFE8C233-C2D9-EA8C-9D7B-E8680DA0FD882025121209522347.pdf`
+- `ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf`
+- `ACTE Vision 2025/The Art of Coaching/Do we Need a Team.pdf`
+- `ACTE Vision 2025/The Art of Coaching/Example of a Team's Communication Agreements.pdf`
+- `ACTE Vision 2025/The Art of Coaching/Indicators of a Team's Emotional Intelligence.pdf`
+- `ACTE Vision 2025/The Art of Coaching/Indicators of an Effective Team.pdf`
+- `ACTE Vision 2025/The Art of Coaching/Team Member Roles and Responsibilities.pdf`
+- `ACTE Vision 2025/The Art of Coaching/Team Temperature Check.pdf`
+- `ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf`
+- `ACTE-Membership-Application-Jeremy Spence.pdf`
+- `Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf`
+- `Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf (SECURED).pdf`
+- `Allison Garcia Observer20TB20Screening_copy.pdf`
+- `Alpha Education Group_Non-AwardedVendorRequestForm - signed.pdf (SECURED).pdf`
+- `Assessment - Mackenna.pdf`
+- `August 6th PD 2.key`  — extract error: unsupported or binary file type: .key
+- `August 6th PD.pdf`
+- `BAUTISTA_TIVA GRANT TRAVEL DOCS.pdf`
+- `Baylor Scott & Whote MAA 2028 08.09.23.pdf`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768501134.7069674.pdf`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768502080.5657754.pdf`
+- `C.Seay- 2025 Certified Educator Conference - signed.pdf`
+- `CI North Parking at TJ.pdf`
+- `CI North Remote Parking (1).pdf`
+- `CIN Parking.pdf`
+- `CLNA 2026-27-clna-guidebook[55].pdf`
+- `CLNA 26-27/2025-26 Application.pdf (SECURED).pdf`
+- `CLNA 26-27/2026-27-clna-guidebook.pdf`
+- `CLNA 26-27/CLNA DALLAS ISD Working Doc.pdf`
+- `CLNA 26-27/PerkinsV_CLNA_Template_ Guide.pdf`
+- `CLNA 26-27/SC5600 Comprehensive Local Needs Assessment blank.pdf (SECURED).pdf.pdf`
+- `CLNA 26-27/regional-labor-market-information-wda-6.pdf`
+- `CLNA DALLAS ISD Working Doc.pdf`
+- `CLNA Guiding Questions (2).pdf`
+- `CLNA Guiding Questions.pdf`
+- `CLNA Planning Tool-Example.pdf`
+- `CLNA_26_27 App.pdf`
+- `COZART_TIVA GRANT TRAVEL DOCS - signed (1).pdf`
+- `CPAL_DISD_MOU_SowingSeeds (3).pdf`
+- `CTAT Summer 26_Agenda_062926.pdf`
+- `CTE Admin 101-Slide Deck.pdf`
+- `CTE Admin 102-Slide Deck.pdf`
+- `CTE CTSO Sponsorship Guidelines 25-26.pdf`
+- `CTE Form Mule Email Preview — CELIS _ Graphic Design I.key`  — extract error: unsupported or binary file type: .key
+- `CTE Form Mule Email Preview — CELIS _ Graphic Design I.pdf`
+- `CTE Framework (1).pdf`
+- `CTE Framework 2 slides.pdf`
+- `CTE Framework 26.pdf`
+- `CTE Framework.pdf`
+- `CTE Lead.pdf`
+- `CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf`
+- `CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf 1.zip`  — extract error: binary/unreadable type .zip — queued for human review, not model read
+- `CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf 1.zip.unpacked/CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf`
+- `CTE PD 6.1.26.pdf`
+- `CTE PLC October 29, 2024 (Responses).pdf`
+- `CTE PLC.png`
+- `CTE Required Certification by Program.pdf`
+- `CTE Summer PD 2026/Copy of Cooperative Learning in CTE.pdf`
+- `CTE Summer PD 2026/Copy of Dallas ISD Opening Session June 2026.pptx`  — extract error: no text extracted
+- `CTE Summer PD 2026/We are CTE.pdf`
+- `CTE Survey Dashboard — One Pager (1).pdf`
+- `CTE Survey Dashboard — One Pager.pdf`
+- `CTE TEAM (1).png`
+- `CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf`
+- `CTE- SUM26 CIN Summer Learning Site Signage Template.pdf`
+- `CTE- SUM26 CIS Summer Learning Site Signage Template (2).pdf`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (2).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (3).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (4).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (5).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (6).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (7).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (8).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (9).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary.png`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1).pdf`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1).zip`  — extract error: binary/unreadable type .zip — queued for human review, not model read
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (2).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (3).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (4).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (5).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (6).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (7).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (8).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (9).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary.png`
+- `CTE- SUM26 Summer Learning Site Signage  Template (2).pdf`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (2).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (3).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (4).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (5).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (6).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (7).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (8).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (9).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary.png`
+- `CTE- SUM26 Summer Learning Site Signage  Template.pdf`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip`  — extract error: binary/unreadable type .zip — queued for human review, not model read
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (2).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (3).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (4).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (5).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (6).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (7).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (8).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (9).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary.png`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (2).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (3).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (4).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (5).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (6).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (7).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (8).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (9).png`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary.png`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Methodist Catering Quotes.pdf`  — extract error: no text extracted
+- `CTE-Standard Operating Procedures/26-27 Safety SOP_DRAFT`  — extract error: unsupported or binary file type: (no extension)
+- `CTE-Standard Operating Procedures/CTE Vehicle Protocol.pdf`
+- `CTE-Standard Operating Procedures/CTE Vehicles.pdf`
+- `CTE-Standard Operating Procedures/Campus Lead Teacher Program.pdf`
+- `CTE-Standard Operating Procedures/Donation SOP Draft. pdf`
+- `CTE-Standard Operating Procedures/Standard Operting Procedures-Perkins.pdf`
+- `CTE_Meeting_Agenda_Updated (1).pdf`
+- `CTE_Meeting_Agenda_Updated.pdf`
+- `CTSO Lead/CTSO Agreement.pdf`
+- `CTSO Lead/CTSO Form Signed.pdf`
+- `CTX_Berkner HS_ED02 (2).pdf`
+- `CTX_Berkner HS_ED02.pdf`
+- `Career Exploration in IT.pdf`
+- `Career Institute North - Raw Data Entries (1).pdf`
+- `Career Institute North - Raw Data Entries.pdf`
+- `Carlson June hourlysupplementaltimecard.pdf`
+- `Certiport Conference Preauthorization, Agenda, Badge, Parking Receipts, and bank statement-Palmer.pdf`
+- `ChatGPT Image Aug 7, 2026, 11_03_54 AM.png`
+- `ChatGPT Image Jul 17, 2026, 09_53_55 AM.png`
+- `Classroom Photo.jpg`
+- `CodeHS Proclamation 2024 titles.pdf`
+- `CollabBadge.pdf`
+- `CollabFoodReceipt.jpg`
+- `CollabRentalCareReceipt.pdf`
+- `Complete_with_Docusign_3902_San_Miguel_Ct_PS.pdf`
+- `Considerations for 2026–27 and Future Cohorts  CCMR Notecatcher.pdf`
+- `ContactList_ProcurementServices_21_2.pdf`
+- `Cooperative Learning in CTE (1).key`  — extract error: unsupported or binary file type: .key
+- `Cooperative Learning in CTE.key`  — extract error: unsupported or binary file type: .key
+- `Cooperative Learning in CTE.pdf`
+- `Copy of 26-27 Academic Services Deck Template  (1) 2.key`  — extract error: unsupported or binary file type: .key
+- `Copy of 26-27 Academic Services Deck Template  (1).pdf`
+- `Copy of 26-27 Academic Services Deck Template .pdf`
+- `Copy of CTE PLC Agendas (1) (1).pdf`
+- `Copy of CTE PLC Agendas (1).pdf`
+- `Copy of EXPO Attendance Roster for CTE.pdf`
+- `Copy of Spring Stipend CTE-additions 2026.pdf`
+- `Copy of ibc-advisory-council-inventory-twc.pdf`
+- `Cornerstone_Session_Roster_Report_7_20_12 AM.pdf`
+- `Cornerstone_Session_Signin-10_12_2025 (1).pdf`
+- `Cornerstone_Session_Signin-10_12_2025.pdf`
+- `Cornerstone_Session_Signin-1_14_2026.pdf`
+- `Cornerstone_Session_Signin-1_5_2026 (1).pdf`
+- `Cornerstone_Session_Signin-1_5_2026 (3).pdf`
+- `Cornerstone_Session_Signin-1_5_2026 (4).pdf`
+- `Cornerstone_Session_Signin-1_5_2026.pdf`
+- `Cornerstone_Session_Signin-5_26_2026 (1).pdf`
+- `Cornerstone_Session_Signin-5_26_2026 (2).pdf`
+- `Cornerstone_Session_Signin-5_26_2026 (3).pdf`
+- `Cornerstone_Session_Signin-5_26_2026 (4).pdf`
+- `Cornerstone_Session_Signin-5_26_2026 (5).pdf`
+- `Cornerstone_Session_Signin-5_26_2026 (6).pdf`
+- `Cornerstone_Session_Signin-5_26_2026 (7).pdf`
+- `Cornerstone_Session_Signin-5_26_2026.pdf`
+- `Cornerstone_Session_Signin-5_29_2026.pdf`
+- `Cornerstone_Session_Signin-6_10_2026.pdf`
+- `Cornerstone_Session_Signin-6_9_2026.pdf`
+- `Coyle June hourlysupplementaltimecard.pdf`
+- `D. Enderle Travel Form ATAT - signed.pdf`
+- `D. Johnson complete naf documents .pdf`
+- `DIAZ_TIVA_GRANT TRAVEL FORMS _SIGNED.pdf`
+- `DISD_EMS_Student_Profile_5_26_26.pdf`
+- `DISD_EMS_Student_Profile_5_26_26.pdf.pdf`  — extract error: no text extracted
+- `DISD_Purchasing_Analysis 208023.pdf`
+- `DRAFT Vehicle Intake & Liability Waiver Form.pdf`
+- `DSC_6946-Enhanced-NR.jpg`
+- `DSC_7006-Enhanced-NR.jpg`
+- `DSC_7046-Enhanced-NR.jpg`
+- `DSC_7046-Enhanced-NR[89].jpg.jpeg`
+- `DSC_9851.jpg`
+- `DS_Store`  — extract error: unsupported or binary file type: (no extension)
+- `Dallas ISD 2026-2027 Comprehensive Local Needs Assessment.pdf`
+- `Dallas ISD CTE_ Work-Based Learning Continuum.pdf`
+- `Dallas ISD Garner A&P 1 year Estimate_316614.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip`  — extract error: binary/unreadable type .zip — queued for human review, not model read
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ALEXIS GUERECA 01.13.2010   TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ALLISON GARCIAGUIRRE 07.16.2009 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ANA RIVERA 12.09.2008 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ANGIE GONZALEZ 07.23.2010 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ARIANA GOMEZ 02.16.2011 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/CARLA MELGAR 09.22.1992 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/CINTHIA SANTOYO 06.08.2009 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/EDGAR VASQUEZ 09.10.2010 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/EMILY COLLINS 06.10.2009 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/GABRIELA GURROLA 11.13.2009 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/GABRIELLA NUNEZ 12.28.2009 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ISABELLA GUERRERO 10.02.2009 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/JAYDE MORALES 03.13.2009 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/JENNIFER CARPIO 09.30.2009 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/JUVE NOE MATEOS MENDOZA 06.04.2008 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/LYLA CAMERENA 04.16.2008 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/MARILYN ALMONACI 12.14.2009 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/MARLEY MARROQUIN 07.08.2008 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/MELISSA ALONSO 10.23.2008 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/MELISSA LARA 02.19.2011 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/NATALIA BLAS 05.21.2010 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/PAULA ROCABRUNO TORRALBA 11.16.2010 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/TREYNAHDEE WASHINGTON 08.07.2009 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/YVONNE MORGAN 07.14.1980 TB LABRESULTS.pdf`
+- `Dallas ISD TB Results/ALEXIS GUERECA 01.13.2010   TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/ALLISON GARCIAGUIRRE 07.16.2009 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/ANA RIVERA 12.09.2008 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/ANGIE GONZALEZ 07.23.2010 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/ARIANA GOMEZ 02.16.2011 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/CARLA MELGAR 09.22.1992 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/CINTHIA SANTOYO 06.08.2009 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/EDGAR VASQUEZ 09.10.2010 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/EMILY COLLINS 06.10.2009 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/GABRIELA GURROLA 11.13.2009 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/GABRIELLA NUNEZ 12.28.2009 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/ISABELLA GUERRERO 10.02.2009 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/JENNIFER CARPIO 09.30.2009 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/JUVE NOE MATEOS MENDOZA 06.04.2008 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/LYLA CAMERENA 04.16.2008 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/MARILYN ALMONACI 12.14.2009 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/MARLEY MARROQUIN 07.08.2008 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/MELISSA ALONSO 10.23.2008 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/MELISSA LARA 02.19.2011 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/NATALIA BLAS 05.21.2010 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/PAULA ROCABRUNO TORRALBA 11.16.2010 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/TREYNAHDEE WASHINGTON 08.07.2009 TB LAB RESULTS.pdf`
+- `Dallas ISD TB Results/YVONNE MORGAN 07.14.1980 TB LABRESULTS.pdf`
+- `Dallas ISD — NAF Membership Agreement 2026-27[57].pdf`
+- `DallasISDTravel - ACTE Best Practices - JS.pdf`
+- `Dallas_ISD_CLNA_2026-2027_DRAFT.pdf`
+- `Dallas_ISD_CTE_Industry_Partner_Quarterly_Meeting_One_Pager.pdf`
+- `Dallas_ISD_EMS_Program_2025-2026_Leadership Briefing 5_26_26[1].key`  — extract error: unsupported or binary file type: .key
+- `Dee July hourlysupplementaltimecard.pdf`
+- `Department Supplemental Pay Approval Memo.pdf`
+- `Digitial Citizenship PSA.pdf`
+- `Digitial Citizenship PSA[7].pdf`
+- `Disability+Severe+Food+Allergy+Request+Form.pdf`
+- `Documents/12-month weightlifitng Plan.pdf`
+- `Documents/12.21  CTE Lead Teacher.pdf`
+- `Documents/2024-25 Bell Schedule_CI South.docx.pdf`
+- `Documents/2025-2026 CTE Oracle iExpense Travel Training.pdf`
+- `Documents/244 Sitipend 2026/Amaning Completed-Supplemental_form.pdf (SECURED).pdf`
+- `Documents/244 Sitipend 2026/Amaning-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf`
+- `Documents/244 Sitipend 2026/Archie-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf`
+- `Documents/244 Sitipend 2026/Benagh-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf`
+- `Documents/244 Sitipend 2026/Copy of CTE Lead Teacher Stipends (Fall 2025).pdf`
+- `Documents/244 Sitipend 2026/Coyle-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf`
+- `Documents/244 Sitipend 2026/Hamilton-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf`
+- `Documents/244 Sitipend 2026/Jones-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf`
+- `Documents/244 Sitipend 2026/Kalat-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf`
+- `Documents/244 Sitipend 2026/MRodriguez-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf`
+- `Documents/244 Sitipend 2026/Maxwell-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf`
+- `Documents/244 Sitipend 2026/SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.2.pdf`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.pdf`
+- `Documents/244 Sitipend 2026/Williams-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf`
+- `Documents/26-27 Campus CTE Nonposition Realignment Datasource Updated.pdf`
+- `Documents/26-27 TraditionalCalendar-Traditional2026-2027.pdf`
+- `Documents/78992911509__7D2691A3-B2A3-4860-A0CD-4AB3D25CEB37.jpg`
+- `Documents/ACTE Nashville AA.pdf`
+- `Documents/ACTE Vision 2025/65684178-BD76-0A08-B60B-BE1C34BFECD62025121015413396.pdf`
+- `Documents/ACTE Vision 2025/656A76EE-B68A-D444-6762-21010FD3F29C2025121015414842.pdf`
+- `Documents/ACTE Vision 2025/656CE590-B6F4-2F08-5A50-B7FB55AB15F82025121015420436.pdf`
+- `Documents/ACTE Vision 2025/656EE0EE-B956-47AB-F3B8-A54C3E8E641B20251210154217363.pdf`
+- `Documents/ACTE Vision 2025/65716A4D-B4E2-7383-94EF-7EDF54BFC4E120251210154233987.pdf`
+- `Documents/ACTE Vision 2025/65734697-0BED-B7C1-727E-DB1AA7193B0820251210154246197.pdf`
+- `Documents/ACTE Vision 2025/65754B6A-EF78-CE75-65F6-D456EA8547462025121015425945.pdf`
+- `Documents/ACTE Vision 2025/6579DB74-F008-599E-5ED8-2CEC15E80EA820251210154329313.pdf`
+- `Documents/ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf`
+- `Documents/ACTE Vision 2025/Admin 101/ACTE Advisory Council Support Menu.pdf`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Council.pdf`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1 (1).pdf`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1.pdf`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Mentor Sample Program.pdf`
+- `Documents/ACTE Vision 2025/Admin 101/CTE New Teacher Professional Development Plan (1).pdf`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Prof Growth Plan.pdf`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Program Coherent Sequence.pdf`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Required Certification by Program.pdf`
+- `Documents/ACTE Vision 2025/Admin 101/Directions for High School Scope  Sequence (2).pdf`
+- `Documents/ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf`
+- `Documents/ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf`
+- `Documents/ACTE Vision 2025/Admin 101/WBL Cheat Sheet.pdf`
+- `Documents/ACTE Vision 2025/Admin 101/WBL-why it patters.pdf`
+- `Documents/ACTE Vision 2025/Admin 101/request.pdf`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool-Example.pdf`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf`
+- `Documents/ACTE Vision 2025/Admin 201/CTE Admin 102-Slide Deck.pptx.pdf`
+- `Documents/ACTE Vision 2025/Admin 201/Improving_CTE_Performance_Measurement_Data_Collection_09-11-2024.pdf`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Data Analysis Template.pdf`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins-V-Funding-Distribution.pdf`
+- `Documents/ACTE Vision 2025/BFE8C233-C2D9-EA8C-9D7B-E8680DA0FD882025121209522347.pdf`
+- `Documents/ACTE Vision 2025/CLNA/73459750-E17B-83F6-D59C-631B116DBF582025121022091676.pdf`
+- `Documents/ACTE Vision 2025/CLNA/734A12D1-EE5A-0990-1F62-9A28880A3C5720251210220946123.pdf`
+- `Documents/ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Do we Need a Team.pdf`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Example of a Team's Communication Agreements.pdf`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of a Team's Emotional Intelligence.pdf`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of an Effective Team.pdf`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Small Group Activity- Modeling Team Coaching in Action.pdf`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Member Roles and Responsibilities.pdf`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Temperature Check.pdf`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf`
+- `Documents/ANG-DISD Adamson HS Air Compressor Equipment Repairs_Quote_20262603AD.pdf`
+- `Documents/Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf`
+- `Documents/Adopted Materiall Quotes␠/ACTE Visin 2025 Grant_Funded Travel Authorization Form- ACTE 2025 copy.pdf`
+- `Documents/Adopted Materiall Quotes␠/BE Publishing Non Awarded Vendor Approved.pdf`
+- `Documents/Adopted Materiall Quotes␠/CTE QUOTE Dallas ISD Aug 26 2025 Digital 1 year with teacher tools MW.pdf`
+- `Documents/Adopted Materiall Quotes␠/Certiport Non Vendor form Approved .pdf`
+- `Documents/Adopted Materiall Quotes␠/Code HS Approved.pdf`
+- `Documents/Adopted Materiall Quotes␠/CodeHS Proclamation 2024 titles.pdf`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD A&P revised seat number Estimate_316614.pdf`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Garner A&P 1 year Estimate_316614.pdf`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 1 year Estimate_375613.pdf`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 4 year  Estimate_375616.pdf`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Video Game Design Estimate_375603.pdf`
+- `Documents/Adopted Materiall Quotes␠/Davis Publications Non Awarded Vendor Approved.pdf`
+- `Documents/Adopted Materiall Quotes␠/Goodheart Wilcox Non Awarded approved.pdf`
+- `Documents/Adopted Materiall Quotes␠/Human Services-Cengage quote 2025.pdf`
+- `Documents/Adopted Materiall Quotes␠/National Restraunt Association Approved Quote.pdf`
+- `Documents/Adopted Materiall Quotes␠/Non Awarded Vendor Request McGraw Hill Approved.pdf`
+- `Documents/Adopted Materiall Quotes␠/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf`
+- `Documents/Adopted Materiall Quotes␠/Pearson Non Awarded Approved.pdf`
+- `Documents/Adopted Materiall Quotes␠/Proclamation 2024 -Principles of IT.pdf`
+- `Documents/Adopted Materiall Quotes␠/SACA_09-08-2025 Approved.pdf`
+- `Documents/Adopted Materiall Quotes␠/TPSA non awarded vendor form - approved for competitions.pdf (SECURED).pdf`  — extract error: no text extracted
+- `Documents/Affiliated Agreements/Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2)[18].pdf`
+- `Documents/Affiliated Agreements/Automotive Service Excellence - Approved for one time purchase[5].pdf`
+- `Documents/Affiliated Agreements/Dallas ISD_First Amendment  to extend term[31].pdf`
+- `Documents/Affiliated Agreements/ESCO Institute LTD - approved for one time use.pdf`
+- `Documents/Affiliated Agreements/Sgtar Wars Table mats[6].pdf`
+- `Documents/Baylor Scott & Whote MAA 2028 08.09.23.pdf`
+- `Documents/Bell Schedule CI East.pdf`
+- `Documents/Bell Schedule CI North.pdf`
+- `Documents/CLNA Tools-ACTE Vision.pdf`
+- `Documents/CNA QR Sheet 2a_Stakeholder Involvement by Program-1.pdf`
+- `Documents/CNA Workscopes_ Step #1_ Stop_and_Jot_Reflection.pdf`
+- `Documents/CTAT Summer 2025.jpeg`
+- `Documents/CTE CTSO Sponsorship Guidelines 25-26.pages`  — extract error: unsupported or binary file type: .pages
+- `Documents/CTE Lead Teacher Stipends (Fall 2025).pdf`
+- `Documents/CTE Proclamation 2024.pdf`
+- `Documents/CTE white.png`  — extract error: image OCR produced no usable text
+- `Documents/Campus Lead Responsibilities 25-26.pages`  — extract error: unsupported or binary file type: .pages
+- `Documents/CompTIA Non Awarded Vendor Request Form 7.2025.pdf`
+- `Documents/Conference Travel/CTE CTSO Sponsorship Guidelines 25-26.docx.pdf`
+- `Documents/Conference Travel/CTE CTSO Sponsorship Guidelines 25-26.pdf`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.docx.pdf`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.pdf`
+- `Documents/Conference Travel/Expenditure Justification Form_September 2025[86] copy.pdf`
+- `Documents/Conference Travel/JEREMY SPENCE_ACTE VISION 2025_TRAVEL AUTHORIZATION - signed.pdf`
+- `Documents/Conference Travel/Jspence Hotel.pdf`
+- `Documents/Conference Travel/Moore Norman Agenda_MNTC_Dallas_ISD_Visit_Agenda.pdf`
+- `Documents/Conference Travel/Moore Norman Bing Map.png`
+- `Documents/Conference Travel/Moore Norman Campus Mileage.pdf`
+- `Documents/Conference Travel/Moore Norman Name Tent.pdf`
+- `Documents/Conference Travel/Moore Norman Return Bing Map.png`
+- `Documents/Conference Travel/Moore Norman Smoothie king.jpg`
+- `Documents/Conference Travel/SRFM Travel Expense Report Checklist.pdf`
+- `Documents/Conference Travel/Schedule At-A-Glance ACTE Vision 2025.pdf`
+- `Documents/Conference Travel/Uber 1 Nashville .pdf`
+- `Documents/Conference Travel/Uber 2 Nashville.pdf`
+- `Documents/Conference Travel/Uber 3 Nashville.pdf`
+- `Documents/Conference Travel/Uber 4 Nashville.pdf`
+- `Documents/Conference Travel/Uber 5 Nashville.pdf`
+- `Documents/Conference Travel/Uber receipts .pdf`
+- `Documents/Copy of 12.21  CTE Lead Teacher.pdf`
+- `Documents/Cornerstone_Session_Signin-1_5_2026 (2).pdf`
+- `Documents/DALLASISDGOOGLECOURSECATALOG.pdf`
+- `Documents/DallasISDTravel - ACTE Best Practice - JB.pdf`
+- `Documents/DallasISDTravel - ACTE Best Practices - JS.pdf`
+- `Documents/Estimate_3377_from_Alpha_Education_Group[48].pdf`
+- `Documents/Five Foundations of Ramsey.pdf`
+- `Documents/High School Principal Name-Email.numbers`  — extract error: unsupported or binary file type: .numbers
+- `Documents/How to Request a Trip (2).pdf`
+- `Documents/Insurance documentation .pdf`
+- `Documents/January 2026 Lunch and Learn.pdf`
+- `Documents/JeremySpenceCoverLetter AA.pdf`
+- `Documents/Kenzie Birth cert.jpeg`
+- `Documents/M. Spence Initial Parent Referral Packet[16].pdf`
+- `Documents/Mackenna Birth Cert.jpeg`
+- `Documents/Mackenna Spence 12-21-BASC 3 Teacher.pdf`
+- `Documents/Mackenna Spence NICHQ Teacher.pdf`
+- `Documents/Mackenna physical 2.jpeg`
+- `Documents/Mackenzie Birthcertificate.jpeg`
+- `Documents/Mackenzie Spence Birth certificate.jpeg`
+- `Documents/New Stipend Request Form[29].pdf`
+- `Documents/New Stipend Request Form[81].pdf`
+- `Documents/Non-AwardedVendorRequestForm copy.pdf`
+- `Documents/Norman Moore Grant_Funded Travel Authorization Form.pdf`
+- `Documents/Perkins Travel/2025-2026 Financial Services Activity Calendar[2].pdf`
+- `Documents/Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf`
+- `Documents/Perkins Travel/Expenditure Justification Form_September 2025[72].pdf`
+- `Documents/Perkins Travel/SRFM Meal Reimbursement Guide - Revised.10.14.2025[38].pdf`
+- `Documents/Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf`
+- `Documents/Personal/Everlake- Beneficiary Change Lincoln Benefit copy.pdf`
+- `Documents/Physical Mackenna spence 1.jpeg`
+- `Documents/Prelimonary 25-30 IBC Certifying List .pdf`
+- `Documents/Proclamation 2024_Preliminary Findings of the State Review Panel.pdf`
+- `Documents/Procurement Codes .pdf`
+- `Documents/Purchase Orders：Lince Codes/ContactList_ProcurementServices_21_2.pdf`
+- `Documents/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf`
+- `Documents/Quotes 25-26/Trailer Outlet Quote_.pdf`
+- `Documents/Showcase Promo 2026[5].pdf`
+- `Documents/TEKS/130.-subchapter-d-business-management-and-administration.pdf`
+- `Documents/Table mats.pdf`
+- `Documents/Townview Business School Leadership Campus Field Trip Proposal[17].pdf`
+- `Documents/Triptracker 101 2025-26.pptx.pdf`
+- `Documents/Triptracker Cheat Sheet.pdf`
+- `Documents/WT WHite PD Roster Dallas ISD.pdf`
+- `Documents/Welding -Alpha Group.pdf`
+- `Documents/Your trip – View reservations on aa.com - American Airlines.pdf`
+- `Documents/iSupplierPortalQuickReferenceCard-NewProspectiveSuppliersRegistration.pdf`
+- `Documents/scan_jspence-Life insurance.pdf`
+- `Documents/scan_jspence_2025-09-04-09-15-15.pdf`
+- `Documents/signal.log.pdf`  — extract error: no text extracted
+- `Documents/untitled folder/Travel Forms/Expenditure Justification Form_September 2025.pdf`
+- `EMT：EMR/26-27 CI Copy of Bell Schedule.docx.pdf`
+- `EMT：EMR/26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf`
+- `EMT：EMR/Dallas ISD_First Amendment  to extend term (1) - signed.pdf`
+- `EMT：EMR/FOR_YOUR_SIGNATURE_Affiliation_Agreement(One[79].pdf`
+- `EMT：EMR/Signed NAF Forms 26.pdf`
+- `Early Childhood Education.pdf`
+- `Ed Rising Conference Badge-Demars (1).pdf`
+- `Ed Rising Conference Badge-Demars (2).pdf`
+- `Ed Rising Conference Badge-Demars.pdf`
+- `Ed Rising Conference Itinerary (1).pdf`
+- `Ed Rising Conference Itinerary.pdf`
+- `Editable_Non Awarded Vendor Request Form 7.2025.pdf`
+- `Elementary (1).pdf`
+- `Elementary.pdf`
+- `Employability_Skills_Framework_OnePager_20180212.pdf`
+- `EnrollmentByCourse.pdf`
+- `Estimate_3377_from_Alpha_Education_Group[48].pdf`
+- `Ewing June hourlysupplementaltimecard.pdf`
+- `Final Divorce Decree Jeremy & kelli Spence.pdf`
+- `Goal_Details_Report_9_39_20_AM.pdf`
+- `HP_Color_LaserJet_Pro_MFP_3301-3388_Firmware_6.28.1.47-202603112313.bdl`  — extract error: unsupported or binary file type: .bdl
+- `Hicks Bio.pdf`
+- `Hotel receipt.pdf`
+- `Hubbard June hourlysupplementaltimecard.pdf`
+- `IMG_0899.jpg`
+- `IMG_0900.jpg`
+- `IMG_3618.jpeg`
+- `IMG_4417.jpeg`
+- `IMG_4433.jpeg`
+- `IMG_4472.jpg`
+- `IMG_4488.jpeg`
+- `IMG_4495.jpeg`
+- `IMG_4509.jpeg`
+- `IMG_4516.jpeg`
+- `IMG_5861.jpeg`
+- `Ihope explanation TIVA (1).pdf`
+- `Ihope explanation TIVA.pdf`
+- `Image_20250918_151209_898.jpeg`  — extract error: image OCR produced no usable text
+- `Image_20250918_151210_207.jpeg`
+- `Image_20250918_151210_340.jpeg`
+- `Insurance documentation  (1).pdf`
+- `Insurance documentation .pdf`
+- `Intership Student Names.pdf`
+- `Intership Students.png`
+- `J. Spann.pdf`
+- `JAYDE MORALES 03.13.2009 TB LAB RESULTS.pdf`
+- `JOSEPH_THOA_GRANT TRAVEL FORM-REVISED - signed.pdf`
+- `Jeremy Spence (4).jpg.jpeg`  — extract error: image OCR produced no usable text
+- `Jeremy Spence Cover Letter NAF 2026 (1).pdf`
+- `Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED) (3).pdf`
+- `Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED).pdf`
+- `JeremySpenceresume 04.2026.pdf`
+- `JeremySpenceresume 06.2024.docx.pdf`
+- `Johnson July hourlysupplementaltimecard.pdf`
+- `Jones-Gunter THOA Travel Mileage.pdf`
+- `K. Jennings SkillsUsa Nationals 2025 - signed (1).pdf`
+- `KGeorge 25-26 Woodrow CTE Business PLC Minutes.pdf`
+- `KGeorgeCTELeadTeacherStipendAgreement11.13.25 (1).pdf`
+- `KGeorgeCTELeadTeacherStipendAgreement11.13.25.pdf`
+- `KGeorgeEduthingsIBCCertUploads4.15.26.pdf`
+- `KGeorgeIBCTrainingSignIn3.25.26.pdf`
+- `KGeorgeTrainingIBCs3.25.26.pdf`
+- `Kenna Address Verification.jpeg`
+- `L. Sanchez-Munoz Travel form - signed.pdf`
+- `Lead Teacher/CTE Lead Teacher Agreement.pdf`
+- `Lead Teacher/CTE Lead Teacher.pdf`
+- `Lead Teacher/SOP Materials/Federal Spend & Cooperative Contract Use.pdf`
+- `Lead Teacher/original-4128F740-F01F-467F-97DF-B744898FC450.jpeg`
+- `Lesson Plan - Digitial Citizenship Part I.pdf`
+- `Lincoln Culinaryjpg.jpeg`
+- `Lockley NAF Internship Expo Attendance and Updates 2026.pdf`
+- `Lyla Camarena- Vitals Camp- Children's Health.pdf`
+- `M Clifton CTSO Sponser Agreement .pdf`
+- `M. Johnson June hourlysupplementaltimecard.pdf`
+- `M. Spence 504 Plan.pdf`
+- `Mac_TurboTax_Download (1).dmg`  — extract error: binary/unreadable type .dmg — queued for human review, not model read
+- `Mac_TurboTax_Download (2).dmg`  — extract error: binary/unreadable type .dmg — queued for human review, not model read
+- `Mac_TurboTax_Download.dmg`  — extract error: binary/unreadable type .dmg — queued for human review, not model read
+- `Mackenna Birth Cert (1).jpeg`
+- `Mackenna Birth Cert (2).jpeg`
+- `Mackenna Birth Cert (3).jpeg`
+- `Mackenna Birth Cert.jpeg`
+- `Mackenns Spence-Jones Center.pdf`
+- `March   Intership Job  Fair.jpg`  — extract error: image OCR produced no usable text
+- `Marriage License.pdf`
+- `Mental+Health+Services+Notification.pdf`
+- `Methodist Catering Quotes.pdf`  — extract error: no text extracted
+- `Minor Testing Packet (1).pdf`
+- `Minor Testing Packet.pdf`
+- `Moore Norman Bing Map.png`
+- `Moore Norman Return Bing Map.png`
+- `MyProjectsSection.pdf`  — extract error: no text extracted
+- `NAF 2026/NAF NEXT 2026 Grant_Funded Travel Authorization Form Updated.pdf`
+- `NAF 2026/NAF NEXT agenda page 1.jpg`
+- `NAF 2026/NAF NEXT agenda page 2.jpg`
+- `NAF 2026/NAF NEXT agenda page 3.jpg`
+- `NAF 2026/NAF NEXT agenda page 4.jpg`
+- `NAF Academy of Health Sciences.jpg`  — extract error: image OCR produced no usable text
+- `NAF Cover Letter.pdf`
+- `NAF Employment Application (1).pdf`
+- `NAF Employment Application.pdf`
+- `NAF Hotel.pdf`
+- `NAF Next 2026.pdf`
+- `NAF Next Meeting (1).key`  — extract error: unsupported or binary file type: .key
+- `NAF Next Meeting (1).pdf`
+- `NAF Next Meeting.key`  — extract error: unsupported or binary file type: .key
+- `NAF Next Meeting.pdf`
+- `NAF Paperwork/Board Document 250357[69].pdf`
+- `NAF reciepts (1).pdf`
+- `NICHQ Teacher.pdf`
+- `Non Awarded 2.pdf`
+- `Non Awarded Vendor Quotes/BE Publishing Non Awarded Vendor Approved.pdf`
+- `Non Awarded Vendor Quotes/CTE QUOTE Dallas ISD Aug 26 2025 Digital 1 year with teacher tools MW.pdf`
+- `Non Awarded Vendor Quotes/Certiport Non Vendor form Approved .pdf`
+- `Non Awarded Vendor Quotes/Code HS Approved.pdf`
+- `Non Awarded Vendor Quotes/Davis Publications Non Awarded Vendor Approved.pdf`
+- `Non Awarded Vendor Quotes/Goodheart Wilcox Non Awarded approved.pdf`
+- `Non Awarded Vendor Quotes/National Restraunt Association Approved Quote.pdf`
+- `Non Awarded Vendor Quotes/Non Awarded Vendor Request McGraw Hill Approved.pdf`
+- `Non Awarded Vendor Quotes/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf`
+- `Non Awarded Vendor Quotes/Pearson Non Awarded Approved.pdf`
+- `Non Awarded Vendor Quotes/SACA_09-08-2025 Approved.pdf`
+- `Non- Awarded 1.pdf`
+- `Non-Awarded Vendor Forms approved 2/NCCER_Approved 09-12-2025.pdf`
+- `Non-Awarded Vendor Forms approved 3/NCCER_Approved 09-12-2025.pdf`
+- `Non-Awarded Vendor Forms approved/Alpha Education Group_Non-AwardedVendorRequestForm - signed.pdf (SECURED).pdf`
+- `Non-Awarded Vendor Forms approved/CLNA␠/2026-27-clna-guidebook.pdf`
+- `Non-Awarded Vendor Forms approved/CLNA␠/SC5600 Comprehensive Local Needs Assessment blank.pdf (SECURED).pdf`
+- `Non-Awarded Vendor Forms approved/Career Safe-approval[30].pdf`
+- `Non-Awarded Vendor Forms approved/CareerSafe Approved.pdf`
+- `Non-Awarded Vendor Forms approved/CompTia Non-Awarded Vendor Form.pdf`
+- `Non-Awarded Vendor Forms approved/CompTia.pdf`
+- `Non-Awarded Vendor Forms approved/Stone Non-AwardedVendorRequestForm.pdf`
+- `Non-Awarded Vendor Forms approved/TPSA non awarded vendor form - approved for competitions[16].pdf`
+- `Non-Awarded Vendor Requests Log (1).pdf`
+- `Non-Awarded Vendor Requests Log.pdf`
+- `OneDrive_1_12-9-2025 (1).zip`  — extract error: binary/unreadable type .zip — queued for human review, not model read
+- `OneDrive_1_12-9-2025 (2).zip`  — extract error: binary/unreadable type .zip — queued for human review, not model read
+- `OneDrive_1_12-9-2025.zip`  — extract error: binary/unreadable type .zip — queued for human review, not model read
+- `OneDrive_2025-12-09.zip`  — extract error: binary/unreadable type .zip — queued for human review, not model read
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Admin 101_CTE Terms Glossary.docx`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Advisory Council Resources/Advisory Council Support Menu.docx`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Advisory Council Resources/Advisory Councils from Year 1.docx`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Advisory Council Resources/WBL Cheat Sheet.docx`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/CTE Admin 101-Slide Deck.pptx`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Program Management/ACTE HQ Frameworks.pdf`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Mentor Sample Program.pdf`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE New Teacher Professional Development Plan.pdf`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Prof Growth Plan.pdf`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Required Certification by Program.xlsx`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/Sample CTE Instructional Coaching Guidelines.pdf`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/ACTE Advisory Council Support Menu.pdf`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/Advisory Councils from Year 1.pdf`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/Sample CTE Equipment Request Form.pdf`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/What is and what isn't work-based learning.pdf`
+- `OneDrive_2_12-9-2025.zip`  — extract error: binary/unreadable type .zip — queued for human review, not model read
+- `OneDrive_2_12-9-2025.zip.unpacked/12 Effective Tier 1 Instructional Strategies.docx`
+- `OneDrive_2_12-9-2025.zip.unpacked/Directions for High School Scope  Sequence.pdf`
+- `OneDrive_2_12-9-2025.zip.unpacked/Employability_Skills_Framework_OnePager_20180212.pdf`
+- `OneDrive_2_12-9-2025.zip.unpacked/Program Coherent Sequence.docx`
+- `OneDrive_2_12-9-2025.zip.unpacked/Sample AI Prompt for Intervention Planning.docx`
+- `OneDrive_2_12-9-2025.zip.unpacked/Sample CW Day.pdf`
+- `OneDrive_2_12-9-2025.zip.unpacked/Scope and Sequence Template.xlsx`
+- `Oswaldo_IBC_Completer_Report_2024.pdf`
+- `PATIN_TIVA-GRANT TRAVEL FORM-REVISED - signed.pdf (SECURED).pdf`
+- `PD Creation Department Supplemental Pay Approval Memo .pdf`
+- `Parent consent Dallas ISD.docx[18].pdf`
+- `Penny King  Recruitment Brochure.pdf`
+- `Penny King November 2025 PLC GES Meeting.pdf`
+- `Penny King October 2025 PLC GES Meeting.pdf`
+- `Perkins Travel/2025-2026 Financial Services Activity Calendar[2].pdf`
+- `Perkins Travel/2025-2030-industry-based-certification-list-for-public-school-accountability.pdf`
+- `Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf`
+- `Perkins Travel/Expenditure Justification Form_September 2025[72].pdf`
+- `Perkins Travel/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf`
+- `Perkins Travel/SRFM Meal Reimbursement Guide - Revised.10.14.2025[38].pdf`
+- `Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf`
+- `Perkins-V-Funding-Distribution.pdf`
+- `PerkinsV_CLNA_Template_ Guide.pdf`
+- `Please_complete_with_DocuSign_Tosa_Approved_.pdf`
+- `Proclamation 2024_Preliminary Findings of the State Review Panel.pdf`
+- `Procurement Services Training (1).key`  — extract error: unsupported or binary file type: .key
+- `Procurement Services Training (1).pdf`
+- `Procurement Services Training.key`  — extract error: unsupported or binary file type: .key
+- `Procurement Services Training.pdf`
+- `Program Coherent Sequence.pdf`
+- `Proposal_ Student-Run Financial Center at Townview.pdf`
+- `QR Sheet 2a_Stakeholder Involvement by Program-1.pdf`
+- `Receipt _ DALLAS ISD.pdf`
+- `Reference Latter-Myra 2026.pdf`
+- `Sample AI Prompt for Intervention Planning.pdf`
+- `Sample CTE Equipment Request Form.pdf`
+- `Sample CTE Instructional Coaching Guidelines.pdf`
+- `Sample CW Day.pdf`
+- `SampleEmail (6).pdf`
+- `SampleEmail.pdf`
+- `Sanso 25-26 CTE Lead Teacher Stipend Agreement.pdf`
+- `Scope and Sequence Template.pdf`
+- `SouthwestReturnCollabTripAustin (1).pdf`
+- `SouthwestReturnCollabTripAustin (2).pdf`
+- `Spence-NAF Employment Application (1).pdf`
+- `Spence-Uber-NAF Conference (1).pdf`
+- `Spence.driving.record`  — extract error: unsupported or binary file type: .record
+- `Spring Stipend CTE-additions 2026.pdf`
+- `Standard Operting Procedures-Perkins.pdf`
+- `StartProcess (3).pdf`
+- `StartProcess.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip`  — extract error: binary/unreadable type .zip — queued for human review, not model read
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779987132611 - Marilyn Almonaci.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779988804972 - Melissa Alonso.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779988892711 - Natalia Blas.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779989208523 - Jennifer Carpio.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779989270536 - Emily Collins.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779989419214 - Allison Garcia.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779989820280 - Ariana Gomez Artica.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990127878 - Alexis Guereca.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990207966 - Ana Rivera.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990494836 - Paula Rocabruno Torralba.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990589182 - Gabriella Nunez 1.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990647956 - Gabriella Nunez 2.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990990829 - Cinthia Santoyo.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991060777 - Jayde Morales.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991144994 - Juve Mateos Mendoza.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991243234 - Isabella Guerrero.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991314944 - Treynahdee Washington.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991580729 - Gabriela Gurrola.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991987508 - Angie Gonzalez.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779992249416 - Melissa Lara.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779987132611 - Marilyn Almonaci.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779988804972 - Melissa Alonso.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779988892711 - Natalia Blas.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989208523 - Jennifer Carpio.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989270536 - Emily Collins.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989419214 - Allison Garcia.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989820280 - Ariana Gomez Artica.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990127878 - Alexis Guereca.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990207966 - Ana Rivera.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990494836 - Paula Rocabruno Torralba.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990589182 - Gabriella Nunez 1.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990647956 - Gabriella Nunez 2.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990990829 - Cinthia Santoyo.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991060777 - Jayde Morales.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991144994 - Juve Mateos Mendoza.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991243234 - Isabella Guerrero.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991314944 - Treynahdee Washington.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991580729 - Gabriela Gurrola.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991987508 - Angie Gonzalez.pdf`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779992249416 - Melissa Lara.pdf`
+- `Student List_TAFE Nationals_D.O.B..pdf`
+- `Student+Code+of+Conduct.pdf`
+- `Summer PD Schedule 2026.pdf`
+- `Supplemental_form.pdf`
+- `TIVA Conferece expenses.pdf`
+- `TIVA SIGNED TRAVEL AUTH. - WOOD.jpg`
+- `TOSA Site agreement.pdf`
+- `Tiva Milage (1).pdf`
+- `Tiva classes.pdf`
+- `Townview Floor Plan (1).jpg`
+- `Townview Floor Plan.jpg`
+- `Transportation Receipt 1 (1).pdf`
+- `Transportation Receipt 1.pdf`
+- `Transportation Receipt 2.pdf`
+- `Travel Authorization Form_Demars Officer Training Camp_4.10.25.pdf`
+- `Travel Reconcile NLSC - Agenda.pdf`
+- `Travel Reconcile NLSC - Arta.pdf`
+- `Travel Reconcile NLSC - Badge.pdf`
+- `Travel Reconcile NLSC - Lodging.pdf`
+- `Travel Reconcile NLSC- Justification.pdf`
+- `Triptracker Cheat Sheet.pdf`
+- `Trustee_CTE_Pathway_Tracker 25-26.pdf`
+- `TurboTaxReturn (1).tax2024`  — extract error: unsupported or binary file type: .tax2024
+- `TurboTaxReturn (2).tax2024`  — extract error: unsupported or binary file type: .tax2024
+- `TurboTaxReturn (3).tax2024`  — extract error: unsupported or binary file type: .tax2024
+- `TurboTaxReturn (4).tax2024`  — extract error: unsupported or binary file type: .tax2024
+- `TurboTaxReturn (5).tax2024`  — extract error: unsupported or binary file type: .tax2024
+- `TurboTaxReturn (6).tax2024`  — extract error: unsupported or binary file type: .tax2024
+- `TurboTaxReturn 2.tax2024`  — extract error: unsupported or binary file type: .tax2024
+- `TurboTaxReturn.tax2024`  — extract error: unsupported or binary file type: .tax2024
+- `Untitled document.pdf`
+- `Untitled presentation.pdf`
+- `Vehicle Check Out Form.pdf`
+- `Virtual-Background copy.jpg`
+- `Virtual-Background2.jpg`
+- `Vitals-Childrens-Testing Route.pdf`
+- `WBL.pdf`
+- `Workscopes_ Step #1_ Stop_and_Jot_Reflection.pdf`
+- `Workshop Title： ＂The First 10： Maximizing Every Minute for Career Success＂.pdf`
+- `Wrestling.jpeg`  — extract error: image OCR produced no usable text
+- `Zoom (1).pkg`  — extract error: binary/unreadable type .pkg — queued for human review, not model read
+- `Zoom (2).pkg`  — extract error: binary/unreadable type .pkg — queued for human review, not model read
+- `Zoom.pkg`  — extract error: binary/unreadable type .pkg — queued for human review, not model read
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (1).pdf`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (2).pdf`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (3).pdf`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030-3.pdf`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030.pdf`
+- `cte-indicator-auto-coder.pdf`
+- `cte-wbl-training-plan-0.pdf`
+- `cte-wbl-training-plan.pdf`
+- `dallasisd-c62186c3-6d83-472f-bc28-51c2d83d4ed9_SessionUsersTemplate.pdf`
+- `dallasisd-c806afc9-2f9e-49cd-ac0e-ef32f1f8d951_SessionUsersTemplate.pdf`
+- `download (1).pdf`  — extract error: no text extracted
+- `download.pdf`  — extract error: no text extracted
+- `eDynamic Quote - Principles of IT - 3YR - R. Howard_V1.pdf`
+- `edit.pdf`
+- `googlechrome.dmg`  — extract error: binary/unreadable type .dmg — queued for human review, not model read
+- `hourlysupplementaltimecard.pdf`
+- `ibc-advisory-council-inventory-twc (1).pdf`
+- `ibc-advisory-council-inventory-twc.pdf`
+- `image.png`  — extract error: image OCR produced no usable text
+- `industry-based-certifications-earned-sy2022-23.pdf`
+- `p2024-list-of-materials-adopted-by-sboe.pdf`
+- `perkinsplanupdatefinalrevised.pdf`
+- `preliminary-2025-2030-ibc-to-program-of-study-crosswalk (6).pdf`
+- `preliminary-2025-2030-ibc-to-program-of-study-crosswalk.pdf`
+- `receipt_3753bb7b-ce7f-4d0d-aa08-a0855cc82eb2.pdf`
+- `receipt_794bfc62-f72b-4f6c-af27-9092300445dc (1).pdf`
+- `receipt_c88da51b-4d66-4f7d-93a2-a76e949fab6c (1).pdf`
+- `regional-labor-market-information-wda-5.pdf`
+- `regional-labor-market-information-wda-6.pdf`
+- `scan_carmalone_2025-07-31-09-22-17.pdf`
+- `scan_carmalone_2025-07-31-11-27-56 (1).pdf`
+- `scan_carmalone_2025-07-31-11-27-56.pdf`
+- `scan_lealittle_2025-12-03-13-39-47 (1).pdf`
+- `scan_lealittle_2025-12-03-13-39-47 (2).pdf`
+- `scan_lealittle_2025-12-03-13-39-47.pdf`
+- `tiva 2/2025 Summer Certificicate (1).pdf`
+- `tiva 2/7-13-2025.pdf`
+- `tiva 2/7-14-2025.pdf`
+- `tiva 2/7-15-2025.pdf`
+- `tiva 2/7-16-2025.pdf`
+- `tiva 2/7-17-2025.pdf`
+- `tiva 2/7-18-2025.pdf`
+- `tiva 3/2025 Summer Certificicate (1).pdf`
+- `tiva 3/7-13-2025.pdf`
+- `tiva 3/7-14-2025.pdf`
+- `tiva 3/7-15-2025.pdf`
+- `tiva 3/7-16-2025.pdf`
+- `tiva 3/7-17-2025.pdf`
+- `tiva 3/7-18-2025.pdf`
+- `tiva 4/2025 Summer Certificicate (1).pdf`
+- `tiva 4/7-13-2025.pdf`
+- `tiva 4/7-14-2025.pdf`
+- `tiva 4/7-15-2025.pdf`
+- `tiva 4/7-16-2025.pdf`
+- `tiva 4/7-17-2025.pdf`
+- `tiva 4/7-18-2025 (2).pdf`
+- `tiva 4/7-18-2025.pdf`
+- `tiva.zip`  — extract error: binary/unreadable type .zip — queued for human review, not model read
+- `tiva.zip.unpacked/2025 Summer Certificicate (1).pdf`
+- `tiva.zip.unpacked/7-14-2025.pdf`
+- `tiva.zip.unpacked/7-15-2025.pdf`
+- `tiva.zip.unpacked/7-16-2025.pdf`
+- `tiva.zip.unpacked/7-17-2025.pdf`
+- `tiva.zip.unpacked/7-18-2025 (2).pdf`
+- `tiva.zip.unpacked/7-18-2025.pdf`
+- `tiva/2025 Summer Certificicate (1).pdf`
+- `tiva/7-13-2025.pdf`
+- `tiva/7-14-2025.pdf`
+- `tiva/7-15-2025.pdf`
+- `tiva/7-16-2025.pdf`
+- `tiva/7-17-2025.pdf`
+- `tiva/7-18-2025.pdf`
+- `wallpaperB.jpg`

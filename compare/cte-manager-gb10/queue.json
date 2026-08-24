@@ -1,0 +1,5147 @@
+{
+  "built_at": "2026-08-20T15:51:12+00:00",
+  "intake": "/home/lenovo/cte-manager-intake",
+  "total": 1028,
+  "items": [
+    {
+      "doc_id": "31bdb43b86edff3a",
+      "rel_path": " Non Awarded Vendor Request Form 7.2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a138893f6544ba88",
+      "rel_path": " PD Summer Schedule.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4f25687e1f6cc811",
+      "rel_path": "12-21-BASC 3 Teacher.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "df5633ecdb3a2060",
+      "rel_path": "199C.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9d409000e809aaf6",
+      "rel_path": "2018_TaxReturn (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ce3ff10cfa1bb5d4",
+      "rel_path": "2023_TaxReturn (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a96815bbb62a0e82",
+      "rel_path": "2023_TaxReturn (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5883a2f364a6161f",
+      "rel_path": "2024 Dallas ISD W2 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5883a2f364a6161f",
+      "rel_path": "2024 Dallas ISD W2 (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "dab3a16403beb98f",
+      "rel_path": "2024 Dallas ISD W2.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3cd91b429decca91",
+      "rel_path": "2024 Kemp ISD W2 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "863f87e50bf72676",
+      "rel_path": "2024 Kemp ISD W2.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0c301e102bb6a768",
+      "rel_path": "2024-2025-clna-guidebook.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "52a5e090d1272ed2",
+      "rel_path": "2025 CTE Summer PD Feedback.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d97284af91985464",
+      "rel_path": "2025 non-awarded vendor request forms/Copy of Non-AwardedVendorRequestForm - ASE.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "dfcef471949cb62f",
+      "rel_path": "2025 non-awarded vendor request forms/Non-Awarded Vendor Forms approved/Career Safe-approval[30].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "228714447c1f407d",
+      "rel_path": "2025 non-awarded vendor request forms/Non-Awarded Vendor Forms approved/CareerSafe Approved.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "872cae3ad1c742cb",
+      "rel_path": "2025 non-awarded vendor request forms/Non-Awarded Vendor Forms approved/CompTia Non-Awarded Vendor Form.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "872cae3ad1c742cb",
+      "rel_path": "2025 non-awarded vendor request forms/Non-Awarded Vendor Forms approved/CompTia.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "81bfa27770787a55",
+      "rel_path": "2025 non-awarded vendor request forms/Non-Awarded Vendor Forms approved/NCCER_Approved 09-12-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b6c44937b9da653c",
+      "rel_path": "2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ASE.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c001ff9501f4e216",
+      "rel_path": "2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - BACE.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "518c5a48a2a7fcf6",
+      "rel_path": "2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Certiport.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "540fe81abb534869",
+      "rel_path": "2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ESCO Institute.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5447e0f7dc26e9f5",
+      "rel_path": "2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Gaumard.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "273d28bd721598ab",
+      "rel_path": "2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NCCER.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d89e636448a6bffa",
+      "rel_path": "2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NOCTI.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "07639137cd02404b",
+      "rel_path": "2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Nasco.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "857eb9472a6b1a74",
+      "rel_path": "2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SACA.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9c11fc1c89c97a83",
+      "rel_path": "2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SolidProfessor.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "123b665a1885c82e",
+      "rel_path": "2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_American Medical Technologists (AMT).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8bde14331ca618c0",
+      "rel_path": "2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Assessment Technologies.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b70db337a0d2f96f",
+      "rel_path": "2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Platinum Consulting.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "fa1e40544ac368b9",
+      "rel_path": "2025-2030-industry-based-certification-list-for-public-school-accountability.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e7482a6dc92591ae",
+      "rel_path": "2026 Graduation Cord Rosters.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "abb0bb89fcaf5b9d",
+      "rel_path": "2026-27 DRAFT[98].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "dc188567629f1eb8",
+      "rel_path": "2026-27 Perkins Application — Filled Tentative (PS3350).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "eafb4f3354e09746",
+      "rel_path": "25-26 CI North .pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "887a8fb189ef3846",
+      "rel_path": "25-26 SEC 11028Y1N2-2022 Early Childhood (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "33a27e33f872b6a9",
+      "rel_path": "25-26 SEC 11028Y1N2-2022 Early Childhood.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ea2b2d90ec66fcaa",
+      "rel_path": "26-27 Academic Services Deck Template .key",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "c0fc42a6290289d9",
+      "rel_path": "26-27 CI Copy of Bell Schedule.docx.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "81379b9910b69cb2",
+      "rel_path": "26-27 CLNA.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "38a679036b5a2a49",
+      "rel_path": "26-27 Campus CTE Nonposition Realignment Datasource Updated.numbers",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "9b7f28445b6a1e30",
+      "rel_path": "26-27 Campus CTE Nonposition Realignment Datasource V2 (1) (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9b7f28445b6a1e30",
+      "rel_path": "26-27 Campus CTE Nonposition Realignment Datasource V2 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4b463f035b98523b",
+      "rel_path": "26-27 Campus CTE Nonposition Realignment Datasource V4.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8f49d2667a95b118",
+      "rel_path": "26-27 Campus CTE Nonposition Realignment Datasource V5 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "26cbd455ae3ff54b",
+      "rel_path": "26-27 Campus CTE Nonposition Realignment Datasource V5.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a68290c1d1593e9b",
+      "rel_path": "26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "cc7722004ea58c00",
+      "rel_path": "2nd floor map.png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b3a575c32220a432",
+      "rel_path": "3. Board Document 250357-version 2.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "725f335c4fdc5b76",
+      "rel_path": "3. Board Document 250357[69].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "99f617d4f962e8d7",
+      "rel_path": "318703661.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "eabbeeb4a6e4b271",
+      "rel_path": "A Goodson Travel form - signed.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b8f06a8a419e9c5d",
+      "rel_path": "ACTE Advisory Council Support Menu (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b8f06a8a419e9c5d",
+      "rel_path": "ACTE Advisory Council Support Menu (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b8f06a8a419e9c5d",
+      "rel_path": "ACTE Advisory Council Support Menu.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "dc8a2e7804716857",
+      "rel_path": "ACTE HQ Frameworks (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0f11ab777b87f574",
+      "rel_path": "ACTE HQ Frameworks.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9ba25045e3d96921",
+      "rel_path": "ACTE Vision 2025/65684178-BD76-0A08-B60B-BE1C34BFECD62025121015413396.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "833ea202fe68a8e7",
+      "rel_path": "ACTE Vision 2025/656A76EE-B68A-D444-6762-21010FD3F29C2025121015414842.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c0153792b1e7fd87",
+      "rel_path": "ACTE Vision 2025/656CE590-B6F4-2F08-5A50-B7FB55AB15F82025121015420436.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "49ead498d61cf28c",
+      "rel_path": "ACTE Vision 2025/656EE0EE-B956-47AB-F3B8-A54C3E8E641B20251210154217363.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "15b75711dade4a8b",
+      "rel_path": "ACTE Vision 2025/65716A4D-B4E2-7383-94EF-7EDF54BFC4E120251210154233987.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a31be323e9b0090c",
+      "rel_path": "ACTE Vision 2025/65734697-0BED-B7C1-727E-DB1AA7193B0820251210154246197.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "00b03f49ee89f2fe",
+      "rel_path": "ACTE Vision 2025/65754B6A-EF78-CE75-65F6-D456EA8547462025121015425945.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "cf90c672cb72825b",
+      "rel_path": "ACTE Vision 2025/6579DB74-F008-599E-5ED8-2CEC15E80EA820251210154329313.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "60ef5033339029dd",
+      "rel_path": "ACTE Vision 2025/ACTE Admin 101 Notes.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b8f06a8a419e9c5d",
+      "rel_path": "ACTE Vision 2025/ACTE Advisory Council Support Menu.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c36ddc12bf8261d7",
+      "rel_path": "ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b8f06a8a419e9c5d",
+      "rel_path": "ACTE Vision 2025/Admin 101/ACTE Advisory Council Support Menu (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f33eff551eeab8d4",
+      "rel_path": "ACTE Vision 2025/Admin 101/Advisory Council.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b05cc44ad6b27ff4",
+      "rel_path": "ACTE Vision 2025/Admin 101/Advisory Councils from Year 1 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b05cc44ad6b27ff4",
+      "rel_path": "ACTE Vision 2025/Admin 101/Advisory Councils from Year 1.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "624067274ee41b15",
+      "rel_path": "ACTE Vision 2025/Admin 101/CTE Mentor Sample Program (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "624067274ee41b15",
+      "rel_path": "ACTE Vision 2025/Admin 101/CTE Mentor Sample Program.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a3a9938deaee86ba",
+      "rel_path": "ACTE Vision 2025/Admin 101/CTE New Teacher Professional Development Plan (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "803430c2257e098f",
+      "rel_path": "ACTE Vision 2025/Admin 101/CTE Prof Growth Plan.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3f5ddce7cf29fc0a",
+      "rel_path": "ACTE Vision 2025/Admin 101/CTE Program Coherent Sequence.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2e9ee7b035a1e9e4",
+      "rel_path": "ACTE Vision 2025/Admin 101/CTE Required Certification by Program.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "474bc6519ed1fcbf",
+      "rel_path": "ACTE Vision 2025/Admin 101/Directions for High School Scope  Sequence (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "474bc6519ed1fcbf",
+      "rel_path": "ACTE Vision 2025/Admin 101/Directions for High School Scope  Sequence (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2edb0b34c224f05a",
+      "rel_path": "ACTE Vision 2025/Admin 101/Employability_Skills_Framework_OnePager_20180212 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2edb0b34c224f05a",
+      "rel_path": "ACTE Vision 2025/Admin 101/Employability_Skills_Framework_OnePager_20180212.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ea0f9f6f2c9a1505",
+      "rel_path": "ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5a2e97e627616b9a",
+      "rel_path": "ACTE Vision 2025/Admin 101/Sample CTE Equipment Request Form.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f366e895a79a4408",
+      "rel_path": "ACTE Vision 2025/Admin 101/Sample CTE Instructional Coaching Guidelines.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ad74ab84f9ba7410",
+      "rel_path": "ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "fdb95ca2ed3d772b",
+      "rel_path": "ACTE Vision 2025/Admin 101/WBL Cheat Sheet.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "fdb95ca2ed3d772b",
+      "rel_path": "ACTE Vision 2025/Admin 101/WBL-why it patters.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "11bcf66639c09b25",
+      "rel_path": "ACTE Vision 2025/Admin 101/request.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "be9030e62395e711",
+      "rel_path": "ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "947c1ce24384fbd7",
+      "rel_path": "ACTE Vision 2025/Admin 201/CLNA Planning Tool-Example.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e298b1685c1b8856",
+      "rel_path": "ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ed7964240d4a586c",
+      "rel_path": "ACTE Vision 2025/Admin 201/CTE Admin 102-Slide Deck.pptx.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c59fa26ac803498e",
+      "rel_path": "ACTE Vision 2025/Admin 201/Improving_CTE_Performance_Measurement_Data_Collection_09-11-2024.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5d931692f8a36cd9",
+      "rel_path": "ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8cc303f8cd75a587",
+      "rel_path": "ACTE Vision 2025/Admin 201/Perkins Performance Measures Data Analysis Template.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8e873ca3f66a0d5e",
+      "rel_path": "ACTE Vision 2025/Admin 201/Perkins-V-Funding-Distribution.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "bf735cba5e87f0f7",
+      "rel_path": "ACTE Vision 2025/BFE8C233-C2D9-EA8C-9D7B-E8680DA0FD882025121209522347.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "678317c20151a1b7",
+      "rel_path": "ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "444a7d10e6edf81a",
+      "rel_path": "ACTE Vision 2025/The Art of Coaching/Do we Need a Team.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "257954a0244cda0e",
+      "rel_path": "ACTE Vision 2025/The Art of Coaching/Example of a Team's Communication Agreements.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2a016bb48b3d189b",
+      "rel_path": "ACTE Vision 2025/The Art of Coaching/Indicators of a Team's Emotional Intelligence.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d40b4eaf23ad9440",
+      "rel_path": "ACTE Vision 2025/The Art of Coaching/Indicators of an Effective Team.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a31be323e9b0090c",
+      "rel_path": "ACTE Vision 2025/The Art of Coaching/Small Group Activity- Modeling Team Coaching in Action.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f33b75ff723a57eb",
+      "rel_path": "ACTE Vision 2025/The Art of Coaching/Team Member Roles and Responsibilities.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "49a67105539b125e",
+      "rel_path": "ACTE Vision 2025/The Art of Coaching/Team Temperature Check.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "afa7d772e0fce445",
+      "rel_path": "ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b7831299c9dbb682",
+      "rel_path": "ACTE Vision 2025 Agenda.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "45c8a7d508c9070d",
+      "rel_path": "ACTE-Membership-Application-Jeremy Spence.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "cb73c246ecd451a4",
+      "rel_path": "Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2) (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "cb73c246ecd451a4",
+      "rel_path": "Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2) (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "cb73c246ecd451a4",
+      "rel_path": "Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "32a3e193ea9dd78c",
+      "rel_path": "Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf (SECURED).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f91710c1fbf8da4b",
+      "rel_path": "Advisory Councils from Year 1 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f91710c1fbf8da4b",
+      "rel_path": "Advisory Councils from Year 1.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9a59c3723e0df93a",
+      "rel_path": "Allison Garcia Observer20TB20Screening_copy.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d85238564aed330f",
+      "rel_path": "Alpha Education Group_Non-AwardedVendorRequestForm - signed.pdf (SECURED).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6395e64ff1742c1d",
+      "rel_path": "Assessment - Mackenna.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "81091bf183cec7ae",
+      "rel_path": "August 6th PD 2.key",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "975ca0f93fb6eca7",
+      "rel_path": "August 6th PD.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "bf0e79e18bffc74b",
+      "rel_path": "BAUTISTA_TIVA GRANT TRAVEL DOCS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e203b3358f868f61",
+      "rel_path": "Baylor Scott & Whote MAA 2028 08.09.23.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1c3e1dce848d0467",
+      "rel_path": "Bid Table - Workplace Safety, Training, & Career Fair_1768501134.7069674.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f29b2294ac5ecac1",
+      "rel_path": "Bid Table - Workplace Safety, Training, & Career Fair_1768502080.5657754.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7d2c2952f235a54f",
+      "rel_path": "BudgetingCodingCheatSheet20250528.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "fc46b3f2477d5808",
+      "rel_path": "C.Seay- 2025 Certified Educator Conference - signed.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e3488491c1e3ef3e",
+      "rel_path": "CI North Parking at TJ.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "bc8b28a20ebe555b",
+      "rel_path": "CI North Remote Parking (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4f4713514b99bdc9",
+      "rel_path": "CIN Parking.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7b8ff4fe79b81e6a",
+      "rel_path": "CLNA 2026-27-clna-guidebook[55].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "577185cd5a39ee5e",
+      "rel_path": "CLNA 26-27/2025-26 Application.pdf (SECURED).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "199899e38ecb22ac",
+      "rel_path": "CLNA 26-27/2026-27-clna-guidebook.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "da56832be32d6b63",
+      "rel_path": "CLNA 26-27/CLNA DALLAS ISD Working Doc.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9e4866fd21b38372",
+      "rel_path": "CLNA 26-27/PerkinsV_CLNA_Template_ Guide.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c79e456d965c9770",
+      "rel_path": "CLNA 26-27/SC5600 Comprehensive Local Needs Assessment blank.pdf (SECURED).pdf.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d4f42821e835c441",
+      "rel_path": "CLNA 26-27/regional-labor-market-information-wda-6.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e8b231f3e3ae1fd1",
+      "rel_path": "CLNA DALLAS ISD Working Doc.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "86d6d0992ee58f5e",
+      "rel_path": "CLNA Guiding Questions (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "86d6d0992ee58f5e",
+      "rel_path": "CLNA Guiding Questions (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b652eff67165c356",
+      "rel_path": "CLNA Guiding Questions.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "947c1ce24384fbd7",
+      "rel_path": "CLNA Planning Tool-Example.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c8a6cb8ef6316fa5",
+      "rel_path": "CLNA_26_27 App.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "84c48d10e8b8712c",
+      "rel_path": "COZART_TIVA GRANT TRAVEL DOCS - signed (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "56eace5240343083",
+      "rel_path": "CPAL_DISD_MOU_SowingSeeds (3).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "be218b3697f2bc10",
+      "rel_path": "CTAT Summer 26_Agenda_062926.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "cb093eabdae69af8",
+      "rel_path": "CTE  CIS- SUM26 Summer Learning Site Signage Template (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9c531c192c449966",
+      "rel_path": "CTE Admin 101-Slide Deck.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b3f8644acc595942",
+      "rel_path": "CTE Admin 102-Slide Deck.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c480a4f0aeced3af",
+      "rel_path": "CTE Annual Program Survey.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5b6959d3d017070b",
+      "rel_path": "CTE CTSO Sponsorship Guidelines 25-26.docx.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "75ca0474941dcd57",
+      "rel_path": "CTE CTSO Sponsorship Guidelines 25-26.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "19c47d69c878cbd7",
+      "rel_path": "CTE Form Mule Email Preview — CELIS _ Graphic Design I.key",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "b7bf539cd21a2d20",
+      "rel_path": "CTE Form Mule Email Preview — CELIS _ Graphic Design I.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "fb409c9a59a10ae5",
+      "rel_path": "CTE Framework (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ab6e2ac3579ac88c",
+      "rel_path": "CTE Framework 2 slides.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b77e211bf8d50a7c",
+      "rel_path": "CTE Framework 26.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4afe8653c7a8c831",
+      "rel_path": "CTE Framework.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0178cb8f622f2fa4",
+      "rel_path": "CTE Lead.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "624067274ee41b15",
+      "rel_path": "CTE Mentor Sample Program (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "624067274ee41b15",
+      "rel_path": "CTE Mentor Sample Program.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "688ab13e6eaf8b95",
+      "rel_path": "CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "66b78a4456a54100",
+      "rel_path": "CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf 1.zip.unpacked/CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a3a9938deaee86ba",
+      "rel_path": "CTE New Teacher Professional Development Plan (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a3a9938deaee86ba",
+      "rel_path": "CTE New Teacher Professional Development Plan.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "32164980a457e03b",
+      "rel_path": "CTE PD 6.1.26.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "43055bdd359f0a69",
+      "rel_path": "CTE PLC October 29, 2024 (Responses).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2dfa047f098fdb07",
+      "rel_path": "CTE PLC.png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "dc72635c60a6d888",
+      "rel_path": "CTE Proclamation 2024 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "dc72635c60a6d888",
+      "rel_path": "CTE Proclamation 2024.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "803430c2257e098f",
+      "rel_path": "CTE Prof Growth Plan.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2e9ee7b035a1e9e4",
+      "rel_path": "CTE Required Certification by Program.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "faa2d892fa6d8b93",
+      "rel_path": "CTE Summer PD 2026/Copy of Cooperative Learning in CTE.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0791a3966c7605df",
+      "rel_path": "CTE Summer PD 2026/Copy of Dallas ISD Opening Session June 2026.pptx",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "049afb27b15932fe",
+      "rel_path": "CTE Summer PD 2026/We are CTE.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c480a4f0aeced3af",
+      "rel_path": "CTE Survey Dashboard — One Pager (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "bb3df3042af02f88",
+      "rel_path": "CTE Survey Dashboard — One Pager.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0cf8631716b6a6e3",
+      "rel_path": "CTE TEAM (1).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c397cf797326f722",
+      "rel_path": "CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a2d942f6f25bf8b2",
+      "rel_path": "CTE- SUM26 CIN Summer Learning Site Signage Template.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "cb093eabdae69af8",
+      "rel_path": "CTE- SUM26 CIS Summer Learning Site Signage Template (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7198577d278a28e2",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template/Elementary (2).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e8bdf8502c44b5c8",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template/Elementary (3).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "72508f8d7df6ad2d",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template/Elementary (4).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c68266b9e02d4b53",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template/Elementary (5).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "561b4777fb08e24b",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template/Elementary (6).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1fb678b35ad904da",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template/Elementary (7).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "303f7a2dd9d70a88",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template/Elementary (8).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7e2cb4a38e0839dc",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template/Elementary (9).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f6dea6d9aa1cac18",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template/Elementary.png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5cb3bbc5ca8a0e9c",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template/Methodist Catering Quotes.pdf",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "1f644dc6ecff6bbf",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (2).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2a90c907a81fb1e0",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (3).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "125916d9dcd5a1b2",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (4).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d9793ee28586827b",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (5).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0f1496421c6a7d9e",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (6).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "54d8cab3c2b89dab",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (7).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d80fead6a60dc6e4",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (8).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0513371e05c6521b",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (9).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5f0388eca9113a3d",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary.png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6592d35a6b574088",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (2).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "19a8f9893f2184e6",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (3).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6fc89768607aa7dd",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (4).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7bf000f9510f6ea9",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (5).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f52ffbf8278327a0",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (6).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "719bd823fd4d7318",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (7).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0df0d0d6e5435538",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (8).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8cf84f4b0bd08930",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (9).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "375bf5f50ef7ed42",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary.png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f4aaa172b2089091",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "afbb78e73e478b3c",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1).zip.unpacked/Elementary (2).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "47f8d2886b490710",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1).zip.unpacked/Elementary (3).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1c520a31729dbdf9",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1).zip.unpacked/Elementary (4).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "abfd1f8275f38ae7",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1).zip.unpacked/Elementary (5).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "86c3315596fafba2",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1).zip.unpacked/Elementary (6).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "208fac3253f5fe2f",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1).zip.unpacked/Elementary (7).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "dd69f6d4549c89da",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1).zip.unpacked/Elementary (8).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9efd225a7326da7a",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1).zip.unpacked/Elementary (9).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ddc0b04d54f3e556",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (1).zip.unpacked/Elementary.png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8e08565d0baf1639",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "da4280d3b154cd73",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (2).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ccda21c64dbcdf19",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (3).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ee19dbbb5fcea430",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (4).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "fc145e75531e1e91",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (5).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "81ec7fc7285793dd",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (6).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8a290c145cb35212",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (7).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "12b88d7ff2778e65",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (8).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "83510ef816e06781",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (9).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7f32e945ac5931da",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary.png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f193d256b13a5d7c",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "afbb78e73e478b3c",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (2).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "47f8d2886b490710",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (3).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1c520a31729dbdf9",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (4).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "abfd1f8275f38ae7",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (5).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "86c3315596fafba2",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (6).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "208fac3253f5fe2f",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (7).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "dd69f6d4549c89da",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (8).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9efd225a7326da7a",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (9).png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ddc0b04d54f3e556",
+      "rel_path": "CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary.png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "58699ecae5dd4be4",
+      "rel_path": "CTE-Standard Operating Procedures/2026-27 Dallas ISD CTE CTSO Handbook.docx",
+      "status": "pass2_done"
+    },
+    {
+      "doc_id": "8bdc89b7bc3b81bb",
+      "rel_path": "CTE-Standard Operating Procedures/26-27 Safety SOP_DRAFT",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "acd508e62435de88",
+      "rel_path": "CTE-Standard Operating Procedures/CTE Vehicle Protocol.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "acf3c40b820eafa7",
+      "rel_path": "CTE-Standard Operating Procedures/CTE Vehicles.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "162628a0b91510af",
+      "rel_path": "CTE-Standard Operating Procedures/Campus Lead Teacher Program.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "46f03a261f226ddc",
+      "rel_path": "CTE-Standard Operating Procedures/Donation SOP Draft. pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f012738ddfbd133f",
+      "rel_path": "CTE-Standard Operating Procedures/Standard Operting Procedures-Perkins.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1d0c16340bcaf1a3",
+      "rel_path": "CTE_Meeting_Agenda_Updated (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "fc1a17d8ce32095a",
+      "rel_path": "CTE_Meeting_Agenda_Updated.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "67da0ecf750c7228",
+      "rel_path": "CTSO Lead/CTSO Agreement.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5740d84baaa4a2fd",
+      "rel_path": "CTSO Lead/CTSO Form Signed.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "641646bf346e7e91",
+      "rel_path": "CTX_Berkner HS_ED02 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "641646bf346e7e91",
+      "rel_path": "CTX_Berkner HS_ED02 (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "19c14b487454eb12",
+      "rel_path": "CTX_Berkner HS_ED02.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0dd91877e1e8df5e",
+      "rel_path": "Campus Lead Responsibilities 25-26 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0dd91877e1e8df5e",
+      "rel_path": "Campus Lead Responsibilities 25-26.docx (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0dd91877e1e8df5e",
+      "rel_path": "Campus Lead Responsibilities 25-26.docx (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0dd91877e1e8df5e",
+      "rel_path": "Campus Lead Responsibilities 25-26.docx.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0dd91877e1e8df5e",
+      "rel_path": "Campus Lead Responsibilities 25-26.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "55651860601278b0",
+      "rel_path": "Career Exploration in IT.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "16980a060c7fddc4",
+      "rel_path": "Career Institute North - Raw Data Entries (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "18f8092bc7323bad",
+      "rel_path": "Career Institute North - Raw Data Entries.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c292957fdece2ee0",
+      "rel_path": "Carlson June hourlysupplementaltimecard.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f914198ba9bbcd00",
+      "rel_path": "Certiport Conference Preauthorization, Agenda, Badge, Parking Receipts, and bank statement-Palmer.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "17b557041da7c4bd",
+      "rel_path": "ChatGPT Image Aug 7, 2026, 11_03_54 AM.png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a592f220055966ea",
+      "rel_path": "ChatGPT Image Jul 17, 2026, 09_53_55 AM.png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0a5f0d6f84a0a002",
+      "rel_path": "Classroom Photo.jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0980c64997d65462",
+      "rel_path": "CodeHS Proclamation 2024 titles.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "023434fa7724f97d",
+      "rel_path": "CollabBadge.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f6c79083b74a162c",
+      "rel_path": "CollabFoodReceipt.jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6ae6903639ec021b",
+      "rel_path": "CollabRentalCareReceipt.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d382b9843f70ff9e",
+      "rel_path": "Complete_with_Docusign_3902_San_Miguel_Ct_PS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "eef2e6d403c0c09c",
+      "rel_path": "Considerations for 2026–27 and Future Cohorts  CCMR Notecatcher.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f0b2b2aaa4568af5",
+      "rel_path": "ContactList_ProcurementServices_21_2.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1a9eafe174f484ad",
+      "rel_path": "Cooperative Learning in CTE (1).key",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "c0c618d4266a3cab",
+      "rel_path": "Cooperative Learning in CTE.key",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "0a94c7a465019d57",
+      "rel_path": "Cooperative Learning in CTE.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "cc50dfb1388cf0ca",
+      "rel_path": "Copy of 26-27 Academic Services Deck Template  (1) 2.key",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "3e7680c90ec596d7",
+      "rel_path": "Copy of 26-27 Academic Services Deck Template  (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8dda663c13a9364d",
+      "rel_path": "Copy of 26-27 Academic Services Deck Template .pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "bb45f34b7fcd38fe",
+      "rel_path": "Copy of CTE PLC Agendas (1) (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ed8c377855df4ffe",
+      "rel_path": "Copy of CTE PLC Agendas (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5dd30e8680b07faf",
+      "rel_path": "Copy of EXPO Attendance Roster for CTE.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a991ac4b91c91bac",
+      "rel_path": "Copy of Spring Stipend CTE-additions 2026.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d5b3bfa6a818d534",
+      "rel_path": "Copy of ibc-advisory-council-inventory-twc.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "af8cf0f7f7e22008",
+      "rel_path": "Cornerstone_Session_Roster_Report_7_20_12 AM.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "17b20be08330ec3f",
+      "rel_path": "Cornerstone_Session_Signin-10_12_2025 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c7cea4b285aa1da8",
+      "rel_path": "Cornerstone_Session_Signin-10_12_2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2884a1aca3e895b0",
+      "rel_path": "Cornerstone_Session_Signin-1_14_2026.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "fecf8733d3d9239f",
+      "rel_path": "Cornerstone_Session_Signin-1_5_2026 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a07d32ad6444e977",
+      "rel_path": "Cornerstone_Session_Signin-1_5_2026 (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2db48aa92ad26edb",
+      "rel_path": "Cornerstone_Session_Signin-1_5_2026 (3).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4fc04843cb305eb7",
+      "rel_path": "Cornerstone_Session_Signin-1_5_2026 (4).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a07d32ad6444e977",
+      "rel_path": "Cornerstone_Session_Signin-1_5_2026.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "78219363382ee428",
+      "rel_path": "Cornerstone_Session_Signin-5_26_2026 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3bc4779101c18515",
+      "rel_path": "Cornerstone_Session_Signin-5_26_2026 (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "896cb82a3ed15b79",
+      "rel_path": "Cornerstone_Session_Signin-5_26_2026 (3).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1db060dcff8f1ef0",
+      "rel_path": "Cornerstone_Session_Signin-5_26_2026 (4).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "86524dbf0fa31540",
+      "rel_path": "Cornerstone_Session_Signin-5_26_2026 (5).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d037c546de11b7b9",
+      "rel_path": "Cornerstone_Session_Signin-5_26_2026 (6).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7834d0a7c02bb749",
+      "rel_path": "Cornerstone_Session_Signin-5_26_2026 (7).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4cc94f30101d5527",
+      "rel_path": "Cornerstone_Session_Signin-5_26_2026.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b040d50ea26a6ef4",
+      "rel_path": "Cornerstone_Session_Signin-5_29_2026.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b859d69e5a79a65d",
+      "rel_path": "Cornerstone_Session_Signin-6_10_2026.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4a899f41c51c191d",
+      "rel_path": "Cornerstone_Session_Signin-6_9_2026.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0b20d068e8da9dc4",
+      "rel_path": "Coyle June hourlysupplementaltimecard.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6c57b161945ac366",
+      "rel_path": "D. Enderle Travel Form ATAT - signed.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7386913da2057b56",
+      "rel_path": "D. Johnson complete naf documents .pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d468f499efd740e2",
+      "rel_path": "DIAZ_TIVA_GRANT TRAVEL FORMS _SIGNED.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d892104ae4110cec",
+      "rel_path": "DISD_EMS_Student_Profile_5_26_26.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "936511b230fb6287",
+      "rel_path": "DISD_EMS_Student_Profile_5_26_26.pdf.pdf",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "8a698572b6e78e30",
+      "rel_path": "DISD_Purchasing_Analysis 208023.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b63a6e86810b8ea9",
+      "rel_path": "DRAFT Vehicle Intake & Liability Waiver Form.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "52c895a886849ab4",
+      "rel_path": "DSC_6946-Enhanced-NR.jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c4dfb833a27155e3",
+      "rel_path": "DSC_7006-Enhanced-NR.jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "64dffdb221b45feb",
+      "rel_path": "DSC_7046-Enhanced-NR.jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3295983de5eb1c53",
+      "rel_path": "DSC_7046-Enhanced-NR[89].jpg.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "82520e0b3236d873",
+      "rel_path": "DSC_9851.jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2323a491b56c10ae",
+      "rel_path": "DS_Store",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "ca920ed06cc392ed",
+      "rel_path": "Dallas ISD 2026-2027 Comprehensive Local Needs Assessment.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "aa2545243b8132e1",
+      "rel_path": "Dallas ISD CTE_ Work-Based Learning Continuum.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "27882c7e5135805c",
+      "rel_path": "Dallas ISD Garner A&P 1 year Estimate_316614.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "aecb5d108e3279a1",
+      "rel_path": "Dallas ISD TB Results/ALEXIS GUERECA 01.13.2010   TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3050203c24bb9daa",
+      "rel_path": "Dallas ISD TB Results/ALLISON GARCIAGUIRRE 07.16.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "524057bd1df2d806",
+      "rel_path": "Dallas ISD TB Results/ANA RIVERA 12.09.2008 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8274a808441f85ad",
+      "rel_path": "Dallas ISD TB Results/ANGIE GONZALEZ 07.23.2010 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "95df977fbceccb1e",
+      "rel_path": "Dallas ISD TB Results/ARIANA GOMEZ 02.16.2011 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5232850390102525",
+      "rel_path": "Dallas ISD TB Results/CARLA MELGAR 09.22.1992 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d378515c81d865c3",
+      "rel_path": "Dallas ISD TB Results/CINTHIA SANTOYO 06.08.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "223ae415ea4e7f38",
+      "rel_path": "Dallas ISD TB Results/EDGAR VASQUEZ 09.10.2010 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ee47ffef845f390e",
+      "rel_path": "Dallas ISD TB Results/EMILY COLLINS 06.10.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3efe8351a13050d1",
+      "rel_path": "Dallas ISD TB Results/GABRIELA GURROLA 11.13.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "dda51f7da2428b85",
+      "rel_path": "Dallas ISD TB Results/GABRIELLA NUNEZ 12.28.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f7b8b5d0d8df876c",
+      "rel_path": "Dallas ISD TB Results/ISABELLA GUERRERO 10.02.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0e9fe0b0ecfeee1f",
+      "rel_path": "Dallas ISD TB Results/JAYDE MORALES 03.13.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "68b08c5beb05aced",
+      "rel_path": "Dallas ISD TB Results/JENNIFER CARPIO 09.30.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2be4b6e30f53d515",
+      "rel_path": "Dallas ISD TB Results/JUVE NOE MATEOS MENDOZA 06.04.2008 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a2dd4f991141b3ba",
+      "rel_path": "Dallas ISD TB Results/LYLA CAMERENA 04.16.2008 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ece903b99b27acfb",
+      "rel_path": "Dallas ISD TB Results/MARILYN ALMONACI 12.14.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "395cc2abbd97f017",
+      "rel_path": "Dallas ISD TB Results/MARLEY MARROQUIN 07.08.2008 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9fb81c2443370391",
+      "rel_path": "Dallas ISD TB Results/MELISSA ALONSO 10.23.2008 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "cf160f8bd9109732",
+      "rel_path": "Dallas ISD TB Results/MELISSA LARA 02.19.2011 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "474f82c49fe14add",
+      "rel_path": "Dallas ISD TB Results/NATALIA BLAS 05.21.2010 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "be3f9a25ee11fcda",
+      "rel_path": "Dallas ISD TB Results/PAULA ROCABRUNO TORRALBA 11.16.2010 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b7277c11dd2df4cb",
+      "rel_path": "Dallas ISD TB Results/TREYNAHDEE WASHINGTON 08.07.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "eaadba79983ef7e3",
+      "rel_path": "Dallas ISD TB Results/YVONNE MORGAN 07.14.1980 TB LABRESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "34cad2ea2d5c0e7c",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ALEXIS GUERECA 01.13.2010   TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0c0fe278a666d06f",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ALLISON GARCIAGUIRRE 07.16.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ce08271c81649ae0",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ANA RIVERA 12.09.2008 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ddc1756badecd619",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ANGIE GONZALEZ 07.23.2010 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "078d498bbb0afff7",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ARIANA GOMEZ 02.16.2011 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ce3f63f744c6e493",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/CARLA MELGAR 09.22.1992 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "99513d22430b9a7e",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/CINTHIA SANTOYO 06.08.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f7ce36dfc959817c",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/EDGAR VASQUEZ 09.10.2010 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "70b298c7753fd7f4",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/EMILY COLLINS 06.10.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0ac1de04adf15d55",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/GABRIELA GURROLA 11.13.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e86cc90c54cda177",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/GABRIELLA NUNEZ 12.28.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6a0b510b7308ff5b",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ISABELLA GUERRERO 10.02.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0e9fe0b0ecfeee1f",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/JAYDE MORALES 03.13.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "61dff98f19b50078",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/JENNIFER CARPIO 09.30.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0fa48d4687f92f61",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/JUVE NOE MATEOS MENDOZA 06.04.2008 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b45537fd156aa45d",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/LYLA CAMERENA 04.16.2008 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "05dbe0046a597909",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/MARILYN ALMONACI 12.14.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5d498db310414967",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/MARLEY MARROQUIN 07.08.2008 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "347d28754fd30118",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/MELISSA ALONSO 10.23.2008 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "041bc9a62c5b68cb",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/MELISSA LARA 02.19.2011 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0aad946e7692e788",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/NATALIA BLAS 05.21.2010 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "70681866617e8066",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/PAULA ROCABRUNO TORRALBA 11.16.2010 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "fa2ca6cd7ffc61a8",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/TREYNAHDEE WASHINGTON 08.07.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "adfd4dfa45007389",
+      "rel_path": "Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/YVONNE MORGAN 07.14.1980 TB LABRESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3a8d1c83cba70340",
+      "rel_path": "Dallas ISD — NAF Membership Agreement 2026-27[57].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e59ad887c3ea364b",
+      "rel_path": "DallasISDTravel - ACTE Best Practice - JB.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e59ad887c3ea364b",
+      "rel_path": "DallasISDTravel - ACTE Best Practices - JS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "30e50112538aed19",
+      "rel_path": "Dallas_ISD_CLNA_2026-2027_DRAFT.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0477e3b137a9892c",
+      "rel_path": "Dallas_ISD_CTE_Industry_Partner_Quarterly_Meeting_One_Pager.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e6b9f7359d147c7e",
+      "rel_path": "Dallas_ISD_EMS_Program_2025-2026_Leadership Briefing 5_26_26[1].key",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "624d507640317d60",
+      "rel_path": "Dee July hourlysupplementaltimecard.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "828da6cf81507b62",
+      "rel_path": "Department Supplemental Pay Approval Memo.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "cd1175df5e49950d",
+      "rel_path": "Digitial Citizenship PSA.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "49ff707ec858be8c",
+      "rel_path": "Digitial Citizenship PSA[7].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "474bc6519ed1fcbf",
+      "rel_path": "Directions for High School Scope  Sequence (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "474bc6519ed1fcbf",
+      "rel_path": "Directions for High School Scope  Sequence (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "474bc6519ed1fcbf",
+      "rel_path": "Directions for High School Scope  Sequence.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ba07d45fa247da1f",
+      "rel_path": "Disability+Severe+Food+Allergy+Request+Form.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "435fc9a2b8925e5f",
+      "rel_path": "Documents/12-month weightlifitng Plan.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "18c21e244b176ea6",
+      "rel_path": "Documents/12.21  CTE Lead Teacher.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4b99b73450768b5d",
+      "rel_path": "Documents/2024-25 Bell Schedule_CI South.docx.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0723e95efdb7095d",
+      "rel_path": "Documents/2025-2026 CTE Oracle iExpense Travel Training.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6134d00bc0e4d900",
+      "rel_path": "Documents/244 Sitipend 2026/Amaning Completed-Supplemental_form.pdf (SECURED).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "437b841820f96a20",
+      "rel_path": "Documents/244 Sitipend 2026/Amaning-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1b93b105f8d0af38",
+      "rel_path": "Documents/244 Sitipend 2026/Archie-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a8028eae7d611a79",
+      "rel_path": "Documents/244 Sitipend 2026/Benagh-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c7b720ac89df4702",
+      "rel_path": "Documents/244 Sitipend 2026/Copy of CTE Lead Teacher Stipends (Fall 2025).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4eab3c36e3752d2a",
+      "rel_path": "Documents/244 Sitipend 2026/Coyle-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "54be3d4caa26ec80",
+      "rel_path": "Documents/244 Sitipend 2026/Hamilton-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "fdb328c93f38a2fe",
+      "rel_path": "Documents/244 Sitipend 2026/Jones-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f8e5e3543e35c1b3",
+      "rel_path": "Documents/244 Sitipend 2026/Kalat-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0151c6760fc25bd1",
+      "rel_path": "Documents/244 Sitipend 2026/MRodriguez-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "487c094e7a74624f",
+      "rel_path": "Documents/244 Sitipend 2026/Maxwell-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "798e91f360b01558",
+      "rel_path": "Documents/244 Sitipend 2026/SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ab20012e6d726109",
+      "rel_path": "Documents/244 Sitipend 2026/Spring Stipend CTE 2026.2.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a44b31fb016c2e95",
+      "rel_path": "Documents/244 Sitipend 2026/Spring Stipend CTE 2026.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a28598610f8f30a3",
+      "rel_path": "Documents/244 Sitipend 2026/Williams-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5b6959d3d017070b",
+      "rel_path": "Documents/25-26 CTE CTSO Sponsorship Guidelines 25-26.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5a0b6d61dc29bcf2",
+      "rel_path": "Documents/26-27 Campus CTE Nonposition Realignment Datasource Updated.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d584010ccc4acde5",
+      "rel_path": "Documents/26-27 TraditionalCalendar-Traditional2026-2027.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a69ebb7c4851a3b5",
+      "rel_path": "Documents/78992911509__7D2691A3-B2A3-4860-A0CD-4AB3D25CEB37.jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e0f676a4b529ea4c",
+      "rel_path": "Documents/ACTE Nashville AA.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0afc5c4b8f52be27",
+      "rel_path": "Documents/ACTE Vision 2025/65684178-BD76-0A08-B60B-BE1C34BFECD62025121015413396.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4d416e5775fd011d",
+      "rel_path": "Documents/ACTE Vision 2025/656A76EE-B68A-D444-6762-21010FD3F29C2025121015414842.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ba5e8bdf63d69d65",
+      "rel_path": "Documents/ACTE Vision 2025/656CE590-B6F4-2F08-5A50-B7FB55AB15F82025121015420436.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "573cd00e4ea9fd02",
+      "rel_path": "Documents/ACTE Vision 2025/656EE0EE-B956-47AB-F3B8-A54C3E8E641B20251210154217363.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0090df1280d59476",
+      "rel_path": "Documents/ACTE Vision 2025/65716A4D-B4E2-7383-94EF-7EDF54BFC4E120251210154233987.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a31be323e9b0090c",
+      "rel_path": "Documents/ACTE Vision 2025/65734697-0BED-B7C1-727E-DB1AA7193B0820251210154246197.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0d5a44976b3de9ad",
+      "rel_path": "Documents/ACTE Vision 2025/65754B6A-EF78-CE75-65F6-D456EA8547462025121015425945.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e6fce1b70fbf9d28",
+      "rel_path": "Documents/ACTE Vision 2025/6579DB74-F008-599E-5ED8-2CEC15E80EA820251210154329313.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "334e1037fad21b17",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b8f06a8a419e9c5d",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/ACTE Advisory Council Support Menu (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "df3a1de81d49a8d7",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/ACTE Advisory Council Support Menu.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4ce56fe8c9c514d1",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/Advisory Council.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b05cc44ad6b27ff4",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a63057f8e4d20b63",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "624067274ee41b15",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/CTE Mentor Sample Program (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "072d5ae5665d7764",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/CTE Mentor Sample Program.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "84627e5eee516918",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/CTE New Teacher Professional Development Plan (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b6e480a02e5c4112",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/CTE Prof Growth Plan.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "168bed266bde7230",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/CTE Program Coherent Sequence.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9a667d4b979a5ee5",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/CTE Required Certification by Program.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "474bc6519ed1fcbf",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/Directions for High School Scope  Sequence (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b354abbe89bcafdc",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/Directions for High School Scope  Sequence (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2edb0b34c224f05a",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/Employability_Skills_Framework_OnePager_20180212 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2edb0b34c224f05a",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/Employability_Skills_Framework_OnePager_20180212.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f9dd180f3badb06f",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5a2e97e627616b9a",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/Sample CTE Equipment Request Form.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f366e895a79a4408",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/Sample CTE Instructional Coaching Guidelines.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "24cb652c8905a284",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "fdb95ca2ed3d772b",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/WBL Cheat Sheet.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "645683798bb908bb",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/WBL-why it patters.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "34f9219755a0ade7",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 101/request.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "cbff9f22a58ed573",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d82da26549c2ea73",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool-Example.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "73cefe07239266d7",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "07c485c0b973c090",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 201/CTE Admin 102-Slide Deck.pptx.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "60f5b1ebebd33fc1",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 201/Improving_CTE_Performance_Measurement_Data_Collection_09-11-2024.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "215108d439b872cc",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9f1dec4d5a703c29",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Data Analysis Template.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8e873ca3f66a0d5e",
+      "rel_path": "Documents/ACTE Vision 2025/Admin 201/Perkins-V-Funding-Distribution.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "65145e63717a4851",
+      "rel_path": "Documents/ACTE Vision 2025/BFE8C233-C2D9-EA8C-9D7B-E8680DA0FD882025121209522347.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a8d9b694f5ea481b",
+      "rel_path": "Documents/ACTE Vision 2025/CLNA/73459750-E17B-83F6-D59C-631B116DBF582025121022091676.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b4ca319b42916497",
+      "rel_path": "Documents/ACTE Vision 2025/CLNA/734A12D1-EE5A-0990-1F62-9A28880A3C5720251210220946123.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "43d6c2b67306b58a",
+      "rel_path": "Documents/ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0f73507dc86ad0db",
+      "rel_path": "Documents/ACTE Vision 2025/The Art of Coaching/Do we Need a Team.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4c48474658d435fd",
+      "rel_path": "Documents/ACTE Vision 2025/The Art of Coaching/Example of a Team's Communication Agreements.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2b5cd69609f807a8",
+      "rel_path": "Documents/ACTE Vision 2025/The Art of Coaching/Indicators of a Team's Emotional Intelligence.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e49a3c759fc359f5",
+      "rel_path": "Documents/ACTE Vision 2025/The Art of Coaching/Indicators of an Effective Team.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "244672ad04239ba7",
+      "rel_path": "Documents/ACTE Vision 2025/The Art of Coaching/Small Group Activity- Modeling Team Coaching in Action.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0a3b0e6203ffa69b",
+      "rel_path": "Documents/ACTE Vision 2025/The Art of Coaching/Team Member Roles and Responsibilities.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d1b57ed9476ff338",
+      "rel_path": "Documents/ACTE Vision 2025/The Art of Coaching/Team Temperature Check.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6060d658967700a3",
+      "rel_path": "Documents/ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4fcaf48338ba4c2f",
+      "rel_path": "Documents/ANG-DISD Adamson HS Air Compressor Equipment Repairs_Quote_20262603AD.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "05fadd02b4a4c33c",
+      "rel_path": "Documents/Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "437bcc932a44f891",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/ACTE Visin 2025 Grant_Funded Travel Authorization Form- ACTE 2025 copy.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b3417cf0cce1cfeb",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/BE Publishing Non Awarded Vendor Approved.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9d14418dba20affc",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/CTE QUOTE Dallas ISD Aug 26 2025 Digital 1 year with teacher tools MW.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3f7e9aacf3439d4c",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/Certiport Non Vendor form Approved .pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5deaa65fdff285be",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/Code HS Approved.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e85ff95d4e0184ae",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/CodeHS Proclamation 2024 titles.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "17777d4a305920dc",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/Dallas ISD A&P revised seat number Estimate_316614.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "30b8338e79eb0a81",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/Dallas ISD Garner A&P 1 year Estimate_316614.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a6e93c6ff1e66338",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 1 year Estimate_375613.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f7a37d7d97f4ee3f",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 4 year  Estimate_375616.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a2397110b041ddb4",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Video Game Design Estimate_375603.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "fab8a7f32eb8e375",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/Davis Publications Non Awarded Vendor Approved.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "baeafed39383ce73",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/Goodheart Wilcox Non Awarded approved.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "568569c798fa3ea4",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/Human Services-Cengage quote 2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "81bfa27770787a55",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/NCCER_Approved 09-12-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0d75e4fa3479c841",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/National Restraunt Association Approved Quote.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d0f7595f55ff5f3a",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/Non Awarded Vendor Request McGraw Hill Approved.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b06b40e7e9b06a95",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6d6800d6677bf8a9",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/Pearson Non Awarded Approved.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "cf8e0e2d83e83907",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/Proclamation 2024 -Principles of IT.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5304395e91ce0996",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/SACA_09-08-2025 Approved.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7796127f461beee2",
+      "rel_path": "Documents/Adopted Materiall Quotes␠/TPSA non awarded vendor form - approved for competitions.pdf (SECURED).pdf",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "abf6efb453ec8c41",
+      "rel_path": "Documents/Affiliated Agreements/Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2)[18].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "76649ecae5acc1b6",
+      "rel_path": "Documents/Affiliated Agreements/Automotive Service Excellence - Approved for one time purchase[5].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "aced3d606a548c0b",
+      "rel_path": "Documents/Affiliated Agreements/Dallas ISD_First Amendment  to extend term[31].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d716ab5541074ed3",
+      "rel_path": "Documents/Affiliated Agreements/ESCO Institute LTD - approved for one time use.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0c6509f146ade1b4",
+      "rel_path": "Documents/Affiliated Agreements/Sgtar Wars Table mats[6].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "129355d1d383caf9",
+      "rel_path": "Documents/Baylor Scott & Whote MAA 2028 08.09.23.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "453ef6b3b3127503",
+      "rel_path": "Documents/Bell Schedule CI East.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2acbeee418eeeb17",
+      "rel_path": "Documents/Bell Schedule CI North.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "90a273cadaa38d25",
+      "rel_path": "Documents/CLNA Tools-ACTE Vision.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6532788f0824f686",
+      "rel_path": "Documents/CNA QR Sheet 2a_Stakeholder Involvement by Program-1.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "986f11c451c63c29",
+      "rel_path": "Documents/CNA Workscopes_ Step #1_ Stop_and_Jot_Reflection.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "25fbfc92bb49a16c",
+      "rel_path": "Documents/CTAT Summer 2025.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e8d3515e0a0f465d",
+      "rel_path": "Documents/CTE CTSO Sponsorship Guidelines 25-26.pages",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "fdb1d4ccb4edb8b4",
+      "rel_path": "Documents/CTE Lead Teacher Stipends (Fall 2025).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "dc72635c60a6d888",
+      "rel_path": "Documents/CTE Proclamation 2024.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b3df315b958a2b16",
+      "rel_path": "Documents/CTE white.png",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "3730e92e7b701ef8",
+      "rel_path": "Documents/Campus Lead Responsibilities 25-26.pages",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "37948f5a1c3477ed",
+      "rel_path": "Documents/CompTIA Non Awarded Vendor Request Form 7.2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5b6959d3d017070b",
+      "rel_path": "Documents/Conference Travel/25-26 CTE CTSO Sponsorship Guidelines.docx.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5b6959d3d017070b",
+      "rel_path": "Documents/Conference Travel/CTE CTSO Sponsorship Guidelines 25-26.docx.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3ef3f8d8809cbb2f",
+      "rel_path": "Documents/Conference Travel/CTE CTSO Sponsorship Guidelines 25-26.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0dd91877e1e8df5e",
+      "rel_path": "Documents/Conference Travel/Campus Lead Responsibilities 25-26.docx.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9ca73ec6a7e57e7d",
+      "rel_path": "Documents/Conference Travel/Campus Lead Responsibilities 25-26.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d466f45bb697e4a8",
+      "rel_path": "Documents/Conference Travel/Estimate_3377_from_Alpha_Education_Group[84].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "bb3ae355b9bb4356",
+      "rel_path": "Documents/Conference Travel/Expenditure Justification Form_September 2025[86] copy.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "47038fe21594142c",
+      "rel_path": "Documents/Conference Travel/JEREMY SPENCE_ACTE VISION 2025_TRAVEL AUTHORIZATION - signed.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a820c8be568f9575",
+      "rel_path": "Documents/Conference Travel/Jspence Hotel.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "82be344ec464d63a",
+      "rel_path": "Documents/Conference Travel/Moore Norman Agenda_MNTC_Dallas_ISD_Visit_Agenda.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d2b2908e4487c08f",
+      "rel_path": "Documents/Conference Travel/Moore Norman Bing Map.png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "09c8c9bf5bd9e283",
+      "rel_path": "Documents/Conference Travel/Moore Norman Campus Mileage.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d471bafe41646cbd",
+      "rel_path": "Documents/Conference Travel/Moore Norman Name Tent.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6fc320b94315b919",
+      "rel_path": "Documents/Conference Travel/Moore Norman Return Bing Map.png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "634cf6633a54efc1",
+      "rel_path": "Documents/Conference Travel/Moore Norman Smoothie king.jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4c1d930c2a1440d8",
+      "rel_path": "Documents/Conference Travel/NAF Employment Application-Jeremy Spence.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4c1d930c2a1440d8",
+      "rel_path": "Documents/Conference Travel/NAF Employment Application-Spence.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b1265f9be689f467",
+      "rel_path": "Documents/Conference Travel/SRFM Travel Expense Report Checklist.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b6bec576d334f82c",
+      "rel_path": "Documents/Conference Travel/Schedule At-A-Glance ACTE Vision 2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3ea35d534b9b3fb7",
+      "rel_path": "Documents/Conference Travel/Uber 1 Nashville .pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "485afd1e23f619c8",
+      "rel_path": "Documents/Conference Travel/Uber 2 Nashville.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "722ddd82da43210d",
+      "rel_path": "Documents/Conference Travel/Uber 3 Nashville.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4ac12d1d25a9f525",
+      "rel_path": "Documents/Conference Travel/Uber 4 Nashville.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "272711b117eb07ff",
+      "rel_path": "Documents/Conference Travel/Uber 5 Nashville.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e593774cd36df076",
+      "rel_path": "Documents/Conference Travel/Uber receipts .pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0f03b5401245fc21",
+      "rel_path": "Documents/Conference Travel/eInvoice, December 08 for JEREMY SPENCE.eml",
+      "status": "pass2_done"
+    },
+    {
+      "doc_id": "790a049256849a45",
+      "rel_path": "Documents/Copy of 12.21  CTE Lead Teacher.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ef775af8e0561f1c",
+      "rel_path": "Documents/Cornerstone_Session_Signin-1_5_2026 (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "27b517bf8366f6fd",
+      "rel_path": "Documents/DALLASISDGOOGLECOURSECATALOG.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7d2c2952f235a54f",
+      "rel_path": "Documents/DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "db3680784c80c415",
+      "rel_path": "Documents/DallasISDTravel - ACTE Best Practice - JB.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e480c879d1f167b3",
+      "rel_path": "Documents/DallasISDTravel - ACTE Best Practices - JS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d466f45bb697e4a8",
+      "rel_path": "Documents/Estimate_3377_from_Alpha_Education_Group[48].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ff570a18c0f8fccf",
+      "rel_path": "Documents/Five Foundations of Ramsey.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "71904a0367f5d0a2",
+      "rel_path": "Documents/High School Principal Name-Email.numbers",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "faddb20d2d7bc335",
+      "rel_path": "Documents/How to Request a Trip (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d871ed8a414e68d0",
+      "rel_path": "Documents/Insurance documentation .pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "daa6cbbf68b091e1",
+      "rel_path": "Documents/January 2026 Lunch and Learn.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "840bf3dee5306c20",
+      "rel_path": "Documents/JeremySpenceCoverLetter AA.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7f2809f3dfbc2ce1",
+      "rel_path": "Documents/Kenzie Birth cert.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3333323cb01ccced",
+      "rel_path": "Documents/M. Spence Initial Parent Referral Packet[16].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "30477579e1ff1875",
+      "rel_path": "Documents/Mackenna Birth Cert.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3120a6e36387b2ec",
+      "rel_path": "Documents/Mackenna Spence 12-21-BASC 3 Teacher.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "408d681e23b3ad43",
+      "rel_path": "Documents/Mackenna Spence NICHQ Teacher.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8b75145fc391e3b8",
+      "rel_path": "Documents/Mackenna physical 2.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1a7d9fc1bc63c580",
+      "rel_path": "Documents/Mackenzie Birthcertificate.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0dddb03d2791ddc3",
+      "rel_path": "Documents/Mackenzie Spence Birth certificate.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a695f2966c222bfa",
+      "rel_path": "Documents/New Stipend Request Form[29].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "83a9e4144760bb5c",
+      "rel_path": "Documents/New Stipend Request Form[81].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b38d1e635c8f2fad",
+      "rel_path": "Documents/Non-AwardedVendorRequestForm copy.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8643e5ce5cd0840b",
+      "rel_path": "Documents/Norman Moore Grant_Funded Travel Authorization Form.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "31c6d2271f496e32",
+      "rel_path": "Documents/Perkins Travel/2025-2026 Financial Services Activity Calendar[2].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "bcc42ece46dbfe1e",
+      "rel_path": "Documents/Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9701097a369fe316",
+      "rel_path": "Documents/Perkins Travel/Expenditure Justification Form_September 2025[72].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "936a1703ff1441a6",
+      "rel_path": "Documents/Perkins Travel/SRFM Meal Reimbursement Guide - Revised.10.14.2025[38].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "852cc02a1114eadc",
+      "rel_path": "Documents/Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9e7f80900f117e34",
+      "rel_path": "Documents/Personal/Everlake- Beneficiary Change Lincoln Benefit copy.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "489a0216bdaf9185",
+      "rel_path": "Documents/Physical Mackenna spence 1.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "99883991994fa459",
+      "rel_path": "Documents/Prelimonary 25-30 IBC Certifying List .pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7410ca267c5a87d2",
+      "rel_path": "Documents/Proclamation 2024_Preliminary Findings of the State Review Panel.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "45bb0165e7e6c5d8",
+      "rel_path": "Documents/Procurement Codes .pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "df4979b1d1d391d1",
+      "rel_path": "Documents/Purchase Orders：Lince Codes/ContactList_ProcurementServices_21_2.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7d2c2952f235a54f",
+      "rel_path": "Documents/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "78eae76c6e849945",
+      "rel_path": "Documents/Quotes 25-26/Trailer Outlet Quote_.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "dff53925f9e86243",
+      "rel_path": "Documents/Showcase Promo 2026[5].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4c1d930c2a1440d8",
+      "rel_path": "Documents/Spence-NAF Employment Application.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a329eb091a0438a0",
+      "rel_path": "Documents/TEKS/130.-subchapter-d-business-management-and-administration.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b6b908ba60ba0abf",
+      "rel_path": "Documents/Table mats.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d999637263a50aaa",
+      "rel_path": "Documents/Townview Business School Leadership Campus Field Trip Proposal[17].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c6609e1448756602",
+      "rel_path": "Documents/Triptracker 101 2025-26.pptx.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4ea478648c246d6a",
+      "rel_path": "Documents/Triptracker Cheat Sheet.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "082f8170fc859033",
+      "rel_path": "Documents/WT WHite PD Roster Dallas ISD.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d4f7ccf88a496fb1",
+      "rel_path": "Documents/Welding -Alpha Group.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "44d11e77d4d27c81",
+      "rel_path": "Documents/Your trip – View reservations on aa.com - American Airlines.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8fd521961ceb9906",
+      "rel_path": "Documents/iSupplierPortalQuickReferenceCard-NewProspectiveSuppliersRegistration.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3d948adb5d779db3",
+      "rel_path": "Documents/scan_jspence-Life insurance.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7e8eee860ad28bff",
+      "rel_path": "Documents/scan_jspence_2025-09-04-09-15-15.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "40551c89b726b3cc",
+      "rel_path": "Documents/signal.log.pdf",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "a6db93f6a33f980f",
+      "rel_path": "Documents/untitled folder/Travel Forms/Expenditure Justification Form_September 2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "29fc867af2ea1b94",
+      "rel_path": "EMT：EMR/26-27 CI Copy of Bell Schedule.docx.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "cbdfbd680c70cd85",
+      "rel_path": "EMT：EMR/26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a4b5c41f5acdc4ee",
+      "rel_path": "EMT：EMR/Dallas ISD_First Amendment  to extend term (1) - signed.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9205c3e29b9c00b1",
+      "rel_path": "EMT：EMR/FOR_YOUR_SIGNATURE_Affiliation_Agreement(One[79].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5cd2fbcf27fcf047",
+      "rel_path": "EMT：EMR/Signed NAF Forms 26.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "854d52cab93a9569",
+      "rel_path": "Early Childhood Education.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a69792d352526142",
+      "rel_path": "Ed Rising Conference Badge-Demars (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "089f778959b30457",
+      "rel_path": "Ed Rising Conference Badge-Demars (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d607f5f22e028273",
+      "rel_path": "Ed Rising Conference Badge-Demars.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7e6e504e72d0738a",
+      "rel_path": "Ed Rising Conference Itinerary (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2b40fb2f0e97eba3",
+      "rel_path": "Ed Rising Conference Itinerary.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "bd9318d4fc711c29",
+      "rel_path": "Editable_Non Awarded Vendor Request Form 7.2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "df5633ecdb3a2060",
+      "rel_path": "Elementary (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "64966fcb905e394a",
+      "rel_path": "Elementary.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2edb0b34c224f05a",
+      "rel_path": "Employability_Skills_Framework_OnePager_20180212 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2cefaa3a3bc0fab4",
+      "rel_path": "Employability_Skills_Framework_OnePager_20180212.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3734939ab3470c3d",
+      "rel_path": "EnrollmentByCourse.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9b86305730d5ddc9",
+      "rel_path": "Estimate_3377_from_Alpha_Education_Group[48].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f6086e66823c3cfa",
+      "rel_path": "Ewing June hourlysupplementaltimecard.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4f47039d4d92ca73",
+      "rel_path": "Final Divorce Decree Jeremy & kelli Spence.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "061fb11e7ce03cf1",
+      "rel_path": "Goal_Details_Report_9_39_20_AM.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ad2c0c6ab8b07189",
+      "rel_path": "HP_Color_LaserJet_Pro_MFP_3301-3388_Firmware_6.28.1.47-202603112313.bdl",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "b2bc9e50d0be629e",
+      "rel_path": "Hicks Bio.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a696f42eda7efcb6",
+      "rel_path": "Hotel receipt.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6a1354a9eb5335e0",
+      "rel_path": "Hubbard June hourlysupplementaltimecard.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "04084419b3fcee52",
+      "rel_path": "IMG_0899.jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "541fd52fb2a2cd1b",
+      "rel_path": "IMG_0900.jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "09fca69013b9a56d",
+      "rel_path": "IMG_3618.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a0ff54f58d108f04",
+      "rel_path": "IMG_4417.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "17a03858a546fa58",
+      "rel_path": "IMG_4433.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d85f2cec261c2fb0",
+      "rel_path": "IMG_4472.jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3e7e6e4472534928",
+      "rel_path": "IMG_4488.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b9161b80effd5377",
+      "rel_path": "IMG_4495.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6a421c317382c14a",
+      "rel_path": "IMG_4509.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "18a6b7fc112463c5",
+      "rel_path": "IMG_4516.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9006f6cfba0b1992",
+      "rel_path": "IMG_5861.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2a25d8ab041c37fc",
+      "rel_path": "Ihope explanation TIVA (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1acb88a301e6f7d9",
+      "rel_path": "Ihope explanation TIVA.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6495b358d2da92e3",
+      "rel_path": "Image_20250918_151209_898.jpeg",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "616233252eaf228c",
+      "rel_path": "Image_20250918_151210_207.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2f3154b44ba5720a",
+      "rel_path": "Image_20250918_151210_340.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "79cd4b194ee34d83",
+      "rel_path": "Insurance documentation  (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "305b1e603ea772ac",
+      "rel_path": "Insurance documentation .pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5e6a16151b82777c",
+      "rel_path": "Intership Student Names.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "cd3f75ff0b51e6d8",
+      "rel_path": "Intership Students.png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "53e7326a4d0334f1",
+      "rel_path": "J. Spann.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "eb13a31e617ca869",
+      "rel_path": "JAYDE MORALES 03.13.2009 TB LAB RESULTS.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "79f69f4b5593e0b9",
+      "rel_path": "JOSEPH_THOA_GRANT TRAVEL FORM-REVISED - signed.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9b5818effedecc12",
+      "rel_path": "Jeremy Spence (4).jpg.jpeg",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "29262e10d068a513",
+      "rel_path": "Jeremy Spence Cover Letter NAF 2026 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7a3884db1cf94f26",
+      "rel_path": "Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED) (1) (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7a3884db1cf94f26",
+      "rel_path": "Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED) (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7a3884db1cf94f26",
+      "rel_path": "Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED) (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7a3884db1cf94f26",
+      "rel_path": "Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED) (3).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "095c3a831794552a",
+      "rel_path": "Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a8b101ee48672c0c",
+      "rel_path": "JeremySpenceresume 04.2026.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "37c9848b513309b6",
+      "rel_path": "JeremySpenceresume 06.2024.docx.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b844ebb1a26ee919",
+      "rel_path": "Johnson July hourlysupplementaltimecard.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3bada73c08d76d4f",
+      "rel_path": "Jones-Gunter THOA Travel Mileage.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2c90d52560e29877",
+      "rel_path": "K. Jennings SkillsUsa Nationals 2025 - signed (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "48e95d0fbef0c37f",
+      "rel_path": "KGeorge 25-26 Woodrow CTE Business PLC Minutes.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5a1fe2af78dd10e1",
+      "rel_path": "KGeorgeCTELeadTeacherStipendAgreement11.13.25 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1c27e66190ad41fe",
+      "rel_path": "KGeorgeCTELeadTeacherStipendAgreement11.13.25.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "09ff7da0893fd240",
+      "rel_path": "KGeorgeEduthingsIBCCertUploads4.15.26.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3437c3ca79e10a98",
+      "rel_path": "KGeorgeIBCTrainingSignIn3.25.26.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "865dd9cb830def62",
+      "rel_path": "KGeorgeTrainingIBCs3.25.26.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "433cd316a65fd153",
+      "rel_path": "Kenna Address Verification.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "303b41b4f3c39fc1",
+      "rel_path": "L. Sanchez-Munoz Travel form - signed.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "80cb4f4f1dcd9452",
+      "rel_path": "Lead Teacher/CTE Lead Teacher Agreement.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7b6bd2ae8b9e94d9",
+      "rel_path": "Lead Teacher/CTE Lead Teacher.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "783206edbb2f1986",
+      "rel_path": "Lead Teacher/SOP Materials/Federal Spend & Cooperative Contract Use.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "57a21f6269dfba61",
+      "rel_path": "Lead Teacher/original-4128F740-F01F-467F-97DF-B744898FC450.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e3954d0aacf380a1",
+      "rel_path": "Lesson Plan - Digitial Citizenship Part I.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c4e490bda836296d",
+      "rel_path": "Lincoln Culinaryjpg.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "438b9edaad29a734",
+      "rel_path": "Lockley NAF Internship Expo Attendance and Updates 2026.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "96373df32311ba21",
+      "rel_path": "Lyla Camarena- Vitals Camp- Children's Health.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "542130d4767985f0",
+      "rel_path": "M Clifton CTSO Sponser Agreement .pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e0ac33970debb560",
+      "rel_path": "M. Johnson June hourlysupplementaltimecard.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "737e2b16353336cd",
+      "rel_path": "M. Spence 504 Plan.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e87c04ab5a56a608",
+      "rel_path": "Mac_TurboTax_Download (1).dmg",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "9493970683c44f32",
+      "rel_path": "Mac_TurboTax_Download (2).dmg",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "5835aab7d4d5e544",
+      "rel_path": "Mac_TurboTax_Download.dmg",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "5ba55db869fe0f2c",
+      "rel_path": "Mackenna Birth Cert (1).jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5734187e73208f8c",
+      "rel_path": "Mackenna Birth Cert (2).jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e3d187a312fcd46b",
+      "rel_path": "Mackenna Birth Cert (3).jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "40a3d3b9df96f20d",
+      "rel_path": "Mackenna Birth Cert.jpeg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "12bade4a7425043a",
+      "rel_path": "Mackenns Spence-Jones Center.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "17545202b5e85187",
+      "rel_path": "March   Intership Job  Fair.jpg",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "4b4ea16fea1ecb18",
+      "rel_path": "Marriage License.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0dbd78265b84a4db",
+      "rel_path": "Mental+Health+Services+Notification.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d83fe8d17aa81559",
+      "rel_path": "Methodist Catering Quotes.pdf",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "71a45cef59d3db40",
+      "rel_path": "Minor Testing Packet (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d4e2973befbecfa4",
+      "rel_path": "Minor Testing Packet.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a647b677c2c1b587",
+      "rel_path": "Moore Norman Bing Map.png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f5d3cc0745531582",
+      "rel_path": "Moore Norman Return Bing Map.png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "15b9ef95a355debb",
+      "rel_path": "MyProjectsSection.pdf",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "9c89775e3aeb1e02",
+      "rel_path": "NAF 2026/NAF NEXT 2026 Grant_Funded Travel Authorization Form Updated.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e044b3c612646737",
+      "rel_path": "NAF 2026/NAF NEXT agenda page 1.jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b4798e71988e0362",
+      "rel_path": "NAF 2026/NAF NEXT agenda page 2.jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8147f85025ee5f51",
+      "rel_path": "NAF 2026/NAF NEXT agenda page 3.jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5bd5c04ecd38d7a6",
+      "rel_path": "NAF 2026/NAF NEXT agenda page 4.jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c89fa465076ee946",
+      "rel_path": "NAF Academy of Health Sciences.jpg",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "52c4bedd6e825f60",
+      "rel_path": "NAF Cover Letter.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4c1d930c2a1440d8",
+      "rel_path": "NAF Employment Application (1) (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4c1d930c2a1440d8",
+      "rel_path": "NAF Employment Application (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4df2de6c352f9334",
+      "rel_path": "NAF Employment Application.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "956170b9058ef61f",
+      "rel_path": "NAF Hotel.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "821ebff0a4a971be",
+      "rel_path": "NAF Next 2026.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "882b2cb9a1015098",
+      "rel_path": "NAF Next Meeting (1).key",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "9452eb43d31c6137",
+      "rel_path": "NAF Next Meeting (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9cef38d9db311a0a",
+      "rel_path": "NAF Next Meeting.key",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "fab529b8f99b2822",
+      "rel_path": "NAF Next Meeting.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "eaf383b0e54eccb7",
+      "rel_path": "NAF Paperwork/Board Document 250357[69].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "bcf2aefb1ab531a5",
+      "rel_path": "NAF reciepts (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "74143ea341a148b3",
+      "rel_path": "NICHQ Teacher.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f40341dc1e969fda",
+      "rel_path": "Non Awarded 2.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e9f49f2c529b6314",
+      "rel_path": "Non Awarded Vendor Quotes/BE Publishing Non Awarded Vendor Approved.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0bd15dfa74d7c72d",
+      "rel_path": "Non Awarded Vendor Quotes/CTE QUOTE Dallas ISD Aug 26 2025 Digital 1 year with teacher tools MW.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ab84465229f4f16d",
+      "rel_path": "Non Awarded Vendor Quotes/Certiport Non Vendor form Approved .pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9e6dd211f3c60ece",
+      "rel_path": "Non Awarded Vendor Quotes/Code HS Approved.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8843f8c3bfa971c6",
+      "rel_path": "Non Awarded Vendor Quotes/Davis Publications Non Awarded Vendor Approved.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "29537e44276636e7",
+      "rel_path": "Non Awarded Vendor Quotes/Goodheart Wilcox Non Awarded approved.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "81bfa27770787a55",
+      "rel_path": "Non Awarded Vendor Quotes/NCCER_Approved 09-12-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1fdd5b6e005ce186",
+      "rel_path": "Non Awarded Vendor Quotes/National Restraunt Association Approved Quote.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c98c193644f964ac",
+      "rel_path": "Non Awarded Vendor Quotes/Non Awarded Vendor Request McGraw Hill Approved.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "97ad776ee7e5881a",
+      "rel_path": "Non Awarded Vendor Quotes/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "26e7cd8ca0284682",
+      "rel_path": "Non Awarded Vendor Quotes/Pearson Non Awarded Approved.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9e75c28a9016cdbf",
+      "rel_path": "Non Awarded Vendor Quotes/SACA_09-08-2025 Approved.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9c43630d4bdd9a75",
+      "rel_path": "Non- Awarded 1.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "25b66616dbbe4ed4",
+      "rel_path": "Non-Awarded Vendor Forms approved/Alpha Education Group_Non-AwardedVendorRequestForm - signed.pdf (SECURED).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "27dd67d8f04230ca",
+      "rel_path": "Non-Awarded Vendor Forms approved/CLNA␠/2026-27-clna-guidebook.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "cb958a7218f7ecec",
+      "rel_path": "Non-Awarded Vendor Forms approved/CLNA␠/SC5600 Comprehensive Local Needs Assessment blank.pdf (SECURED).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ba6f573efcb0b14e",
+      "rel_path": "Non-Awarded Vendor Forms approved/Career Safe-approval[30].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1cb74332a02da39d",
+      "rel_path": "Non-Awarded Vendor Forms approved/CareerSafe Approved.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "872cae3ad1c742cb",
+      "rel_path": "Non-Awarded Vendor Forms approved/CompTia Non-Awarded Vendor Form.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3b098065f15925ff",
+      "rel_path": "Non-Awarded Vendor Forms approved/CompTia.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "81bfa27770787a55",
+      "rel_path": "Non-Awarded Vendor Forms approved/NCCER_Approved 09-12-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e0315195bce651ab",
+      "rel_path": "Non-Awarded Vendor Forms approved/Stone Non-AwardedVendorRequestForm.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8689ec8b9c66e07d",
+      "rel_path": "Non-Awarded Vendor Forms approved/TPSA non awarded vendor form - approved for competitions[16].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "81bfa27770787a55",
+      "rel_path": "Non-Awarded Vendor Forms approved 2/NCCER_Approved 09-12-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "aaa3b88421de8f25",
+      "rel_path": "Non-Awarded Vendor Forms approved 3/NCCER_Approved 09-12-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "85dac7c172e4c295",
+      "rel_path": "Non-Awarded Vendor Requests Log (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0537d98586805949",
+      "rel_path": "Non-Awarded Vendor Requests Log.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3cf5e70dfe3d5070",
+      "rel_path": "OneDrive_1_12-9-2025 (1).zip.unpacked/Advisory Council Support Menu.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2b049eb69c3d910f",
+      "rel_path": "OneDrive_1_12-9-2025 (1).zip.unpacked/Advisory Councils from Year 1.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4ddcb6cbd064f3d7",
+      "rel_path": "OneDrive_1_12-9-2025 (1).zip.unpacked/WBL Cheat Sheet.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b64060aec6013296",
+      "rel_path": "OneDrive_1_12-9-2025 (2).zip.unpacked/12 Effective Tier 1 Instructional Strategies.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "474bc6519ed1fcbf",
+      "rel_path": "OneDrive_1_12-9-2025 (2).zip.unpacked/Directions for High School Scope  Sequence.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2edb0b34c224f05a",
+      "rel_path": "OneDrive_1_12-9-2025 (2).zip.unpacked/Employability_Skills_Framework_OnePager_20180212.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "48a1ba8bad2aba95",
+      "rel_path": "OneDrive_1_12-9-2025 (2).zip.unpacked/Program Coherent Sequence.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "37b630a808aa6833",
+      "rel_path": "OneDrive_1_12-9-2025 (2).zip.unpacked/Sample AI Prompt for Intervention Planning.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b5f3f3156641815f",
+      "rel_path": "OneDrive_1_12-9-2025 (2).zip.unpacked/Sample CW Day.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ce199ab5789487f7",
+      "rel_path": "OneDrive_1_12-9-2025 (2).zip.unpacked/Scope and Sequence Template.xlsx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0514477af6cc47e7",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/Admin 101_CTE Terms Glossary.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3cf5e70dfe3d5070",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/Advisory Council Resources/Advisory Council Support Menu.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2b049eb69c3d910f",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/Advisory Council Resources/Advisory Councils from Year 1.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4ddcb6cbd064f3d7",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/Advisory Council Resources/WBL Cheat Sheet.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d3b386cfe870e766",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/CTE Admin 101-Slide Deck.pptx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "dc8a2e7804716857",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/Program Management/ACTE HQ Frameworks.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b64060aec6013296",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/Program Management/Curriculum Resources/12 Effective Tier 1 Instructional Strategies.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "474bc6519ed1fcbf",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/Program Management/Curriculum Resources/Directions for High School Scope  Sequence.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2edb0b34c224f05a",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/Program Management/Curriculum Resources/Employability_Skills_Framework_OnePager_20180212.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "48a1ba8bad2aba95",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/Program Management/Curriculum Resources/Program Coherent Sequence.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "37b630a808aa6833",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/Program Management/Curriculum Resources/Sample AI Prompt for Intervention Planning.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b5f3f3156641815f",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/Program Management/Curriculum Resources/Sample CW Day.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ce199ab5789487f7",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/Program Management/Curriculum Resources/Scope and Sequence Template.xlsx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "624067274ee41b15",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/Teacher Recruitment & Retention/CTE Mentor Sample Program.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a3a9938deaee86ba",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/Teacher Recruitment & Retention/CTE New Teacher Professional Development Plan.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "803430c2257e098f",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/Teacher Recruitment & Retention/CTE Prof Growth Plan.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d2532df85f007e06",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/Teacher Recruitment & Retention/CTE Required Certification by Program.xlsx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f366e895a79a4408",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/Teacher Recruitment & Retention/Sample CTE Instructional Coaching Guidelines.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b8f06a8a419e9c5d",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/WBL & Industry Partnerships/ACTE Advisory Council Support Menu.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f91710c1fbf8da4b",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/WBL & Industry Partnerships/Advisory Councils from Year 1.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5a2e97e627616b9a",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/WBL & Industry Partnerships/Sample CTE Equipment Request Form.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3c9faa13ad0537d2",
+      "rel_path": "OneDrive_1_12-9-2025.zip.unpacked/WBL & Industry Partnerships/What is and what isn't work-based learning.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0514477af6cc47e7",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Admin 101_CTE Terms Glossary.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3cf5e70dfe3d5070",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Advisory Council Resources/Advisory Council Support Menu.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2b049eb69c3d910f",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Advisory Council Resources/Advisory Councils from Year 1.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4ddcb6cbd064f3d7",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Advisory Council Resources/WBL Cheat Sheet.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d3b386cfe870e766",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/CTE Admin 101-Slide Deck.pptx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "dc8a2e7804716857",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Program Management/ACTE HQ Frameworks.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b64060aec6013296",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Program Management/Curriculum Resources/12 Effective Tier 1 Instructional Strategies.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "474bc6519ed1fcbf",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Program Management/Curriculum Resources/Directions for High School Scope  Sequence.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2edb0b34c224f05a",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Program Management/Curriculum Resources/Employability_Skills_Framework_OnePager_20180212.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "48a1ba8bad2aba95",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Program Management/Curriculum Resources/Program Coherent Sequence.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "37b630a808aa6833",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Program Management/Curriculum Resources/Sample AI Prompt for Intervention Planning.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b5f3f3156641815f",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Program Management/Curriculum Resources/Sample CW Day.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ce199ab5789487f7",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Program Management/Curriculum Resources/Scope and Sequence Template.xlsx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "624067274ee41b15",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Mentor Sample Program.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a3a9938deaee86ba",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE New Teacher Professional Development Plan.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "803430c2257e098f",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Prof Growth Plan.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d2532df85f007e06",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Required Certification by Program.xlsx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f366e895a79a4408",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/Sample CTE Instructional Coaching Guidelines.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b8f06a8a419e9c5d",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/ACTE Advisory Council Support Menu.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f91710c1fbf8da4b",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/Advisory Councils from Year 1.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5a2e97e627616b9a",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/Sample CTE Equipment Request Form.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3c9faa13ad0537d2",
+      "rel_path": "OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/What is and what isn't work-based learning.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b64060aec6013296",
+      "rel_path": "OneDrive_2_12-9-2025.zip.unpacked/12 Effective Tier 1 Instructional Strategies.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "474bc6519ed1fcbf",
+      "rel_path": "OneDrive_2_12-9-2025.zip.unpacked/Directions for High School Scope  Sequence.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2edb0b34c224f05a",
+      "rel_path": "OneDrive_2_12-9-2025.zip.unpacked/Employability_Skills_Framework_OnePager_20180212.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "48a1ba8bad2aba95",
+      "rel_path": "OneDrive_2_12-9-2025.zip.unpacked/Program Coherent Sequence.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "37b630a808aa6833",
+      "rel_path": "OneDrive_2_12-9-2025.zip.unpacked/Sample AI Prompt for Intervention Planning.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b5f3f3156641815f",
+      "rel_path": "OneDrive_2_12-9-2025.zip.unpacked/Sample CW Day.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ce199ab5789487f7",
+      "rel_path": "OneDrive_2_12-9-2025.zip.unpacked/Scope and Sequence Template.xlsx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "64472405ca85de79",
+      "rel_path": "Oswaldo_IBC_Completer_Report_2024.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "83511c93b49a3979",
+      "rel_path": "PATIN_TIVA-GRANT TRAVEL FORM-REVISED - signed.pdf (SECURED).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "fc1ac84b5f8e4d59",
+      "rel_path": "PD Creation Department Supplemental Pay Approval Memo .pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e5460b625899a45a",
+      "rel_path": "Parent consent Dallas ISD.docx[18].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2276d1fe4cd81025",
+      "rel_path": "Penny King  Recruitment Brochure.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f05c381cc09b4f7d",
+      "rel_path": "Penny King November 2025 PLC GES Meeting.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0796c4d41be82362",
+      "rel_path": "Penny King October 2025 PLC GES Meeting.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "12d960c749dd50fb",
+      "rel_path": "Perkins Travel/2025-2026 Financial Services Activity Calendar[2].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "73289a63a9fa95de",
+      "rel_path": "Perkins Travel/2025-2030-industry-based-certification-list-for-public-school-accountability.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "676be6a24d986e01",
+      "rel_path": "Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d01cf5bc99334e4a",
+      "rel_path": "Perkins Travel/Expenditure Justification Form_September 2025[72].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1d465aa9754ea870",
+      "rel_path": "Perkins Travel/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "57e20f1ed259cc06",
+      "rel_path": "Perkins Travel/SRFM Meal Reimbursement Guide - Revised.10.14.2025[38].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8dd359f1d049d373",
+      "rel_path": "Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0bf92387f82c451c",
+      "rel_path": "Perkins-V-Funding-Distribution.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4ff66ead81c3b7c7",
+      "rel_path": "PerkinsV_CLNA_Template_ Guide.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "04beb4d36c024689",
+      "rel_path": "Please_complete_with_DocuSign_Tosa_Approved_.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b325164893e1250d",
+      "rel_path": "Proclamation 2024_Preliminary Findings of the State Review Panel.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "60d690390c22a814",
+      "rel_path": "Procurement Services Training (1).key",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "ffcd6989aa9ed45e",
+      "rel_path": "Procurement Services Training (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d456c16d9089c1b7",
+      "rel_path": "Procurement Services Training.key",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "38354655017498c5",
+      "rel_path": "Procurement Services Training.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "dd2a2ce02a46ccdd",
+      "rel_path": "Program Coherent Sequence.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "76d4afbb41948493",
+      "rel_path": "Proposal_ Student-Run Financial Center at Townview.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3554707d467ce22d",
+      "rel_path": "QR Sheet 2a_Stakeholder Involvement by Program-1.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8abb9359d87c9bb5",
+      "rel_path": "Receipt _ DALLAS ISD.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c27a02d34c7ad85b",
+      "rel_path": "Reference Latter-Myra 2026.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "bfac89f6f91fb6c2",
+      "rel_path": "Sample AI Prompt for Intervention Planning.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6bbc8fe49886a29b",
+      "rel_path": "Sample CTE Equipment Request Form.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "60252484d7c2a312",
+      "rel_path": "Sample CTE Instructional Coaching Guidelines.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0cce520a7667a17d",
+      "rel_path": "Sample CW Day.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c416bf0e0351e9bd",
+      "rel_path": "SampleEmail (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c416bf0e0351e9bd",
+      "rel_path": "SampleEmail (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c416bf0e0351e9bd",
+      "rel_path": "SampleEmail (3).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c416bf0e0351e9bd",
+      "rel_path": "SampleEmail (4).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c416bf0e0351e9bd",
+      "rel_path": "SampleEmail (5).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c416bf0e0351e9bd",
+      "rel_path": "SampleEmail (6).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e02c04f3c90688cf",
+      "rel_path": "SampleEmail.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "666634116c1fdfc6",
+      "rel_path": "Sanso 25-26 CTE Lead Teacher Stipend Agreement.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "42193eb682d536c2",
+      "rel_path": "Scope and Sequence Template.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4579001981e14351",
+      "rel_path": "SouthwestReturnCollabTripAustin (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "112800e6bf896370",
+      "rel_path": "SouthwestReturnCollabTripAustin (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5f587b2821a1bb0d",
+      "rel_path": "Spence-NAF Employment Application (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "93bce32de108cd39",
+      "rel_path": "Spence-Uber-NAF Conference (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "90280477c39eba59",
+      "rel_path": "Spence.driving.record",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "a73258d25ca2516c",
+      "rel_path": "Spring Stipend CTE-additions 2026.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ea025eb164c96ff0",
+      "rel_path": "Standard Operting Procedures-Perkins.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6ef820876a9a0930",
+      "rel_path": "StartProcess (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6ef820876a9a0930",
+      "rel_path": "StartProcess (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6ef820876a9a0930",
+      "rel_path": "StartProcess (3).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e278c524c2d4e469",
+      "rel_path": "StartProcess.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "358e856c73d8bee0",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026/1779987132611 - Marilyn Almonaci.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "776b1c9c176ce36e",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026/1779988804972 - Melissa Alonso.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e41861eca15005d9",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026/1779988892711 - Natalia Blas.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "56b364184b48596e",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026/1779989208523 - Jennifer Carpio.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "907a7e41b7759861",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026/1779989270536 - Emily Collins.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "96e5bcb1dbb79d4c",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026/1779989419214 - Allison Garcia.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ccae350128b28b43",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026/1779989820280 - Ariana Gomez Artica.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1249dc2302eec0d8",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026/1779990127878 - Alexis Guereca.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5152c4cd33fe012a",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026/1779990207966 - Ana Rivera.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f90cc3099a2e1e69",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026/1779990494836 - Paula Rocabruno Torralba.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a2d8fc52b7c9e87e",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026/1779990589182 - Gabriella Nunez 1.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3d669efea729af77",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026/1779990647956 - Gabriella Nunez 2.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "56bc107504f3c969",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026/1779990990829 - Cinthia Santoyo.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "58bcfd3f56de63fc",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026/1779991060777 - Jayde Morales.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "755098c759530267",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026/1779991144994 - Juve Mateos Mendoza.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "707335392f030bbf",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026/1779991243234 - Isabella Guerrero.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "921c1a985056494b",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026/1779991314944 - Treynahdee Washington.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6eab8d1b1a43ba3c",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026/1779991580729 - Gabriela Gurrola.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3aa8bc98d72a2fd7",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026/1779991987508 - Angie Gonzalez.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "79c0a1dbe6076c0e",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026/1779992249416 - Melissa Lara.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "358e856c73d8bee0",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779987132611 - Marilyn Almonaci.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "776b1c9c176ce36e",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779988804972 - Melissa Alonso.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e41861eca15005d9",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779988892711 - Natalia Blas.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "56b364184b48596e",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779989208523 - Jennifer Carpio.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "907a7e41b7759861",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779989270536 - Emily Collins.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "96e5bcb1dbb79d4c",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779989419214 - Allison Garcia.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ccae350128b28b43",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779989820280 - Ariana Gomez Artica.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1249dc2302eec0d8",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990127878 - Alexis Guereca.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5152c4cd33fe012a",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990207966 - Ana Rivera.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f90cc3099a2e1e69",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990494836 - Paula Rocabruno Torralba.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a2d8fc52b7c9e87e",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990589182 - Gabriella Nunez 1.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3d669efea729af77",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990647956 - Gabriella Nunez 2.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "56bc107504f3c969",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990990829 - Cinthia Santoyo.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "58bcfd3f56de63fc",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991060777 - Jayde Morales.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "755098c759530267",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991144994 - Juve Mateos Mendoza.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "707335392f030bbf",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991243234 - Isabella Guerrero.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "921c1a985056494b",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991314944 - Treynahdee Washington.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6eab8d1b1a43ba3c",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991580729 - Gabriela Gurrola.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3aa8bc98d72a2fd7",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991987508 - Angie Gonzalez.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "79c0a1dbe6076c0e",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779992249416 - Melissa Lara.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "de01bf97111249fe",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779987132611 - Marilyn Almonaci.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "533fa569a06bf5fc",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779988804972 - Melissa Alonso.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b332dc9b7e6f0732",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779988892711 - Natalia Blas.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "bf515ec7c5c66640",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989208523 - Jennifer Carpio.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "19063761ae899589",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989270536 - Emily Collins.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e30964b14d2c769d",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989419214 - Allison Garcia.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e2d3fe8aead66162",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989820280 - Ariana Gomez Artica.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f966574edc5a2114",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990127878 - Alexis Guereca.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d8f9b10dca2b3345",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990207966 - Ana Rivera.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "91082a58009605ef",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990494836 - Paula Rocabruno Torralba.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5f3dac16ac57909f",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990589182 - Gabriella Nunez 1.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "cd44933c8e22f2e7",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990647956 - Gabriella Nunez 2.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ce43c8e264e276f3",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990990829 - Cinthia Santoyo.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6c4a124da7d54ce8",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991060777 - Jayde Morales.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d6b92abc9754e9f9",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991144994 - Juve Mateos Mendoza.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "aa2f46b9904d4e99",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991243234 - Isabella Guerrero.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ec057135e7bbb544",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991314944 - Treynahdee Washington.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "788f2e9e4288d392",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991580729 - Gabriela Gurrola.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "268dc8c87b99ce26",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991987508 - Angie Gonzalez.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3ab226ca22047b10",
+      "rel_path": "State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779992249416 - Melissa Lara.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "17edd65558574ea6",
+      "rel_path": "Student List_TAFE Nationals_D.O.B..pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "22875dd2ede8be9d",
+      "rel_path": "Student+Code+of+Conduct.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0a81718528113e23",
+      "rel_path": "Summer PD Schedule 2026.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "837d77eb3fb76518",
+      "rel_path": "Supplemental_form.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "71ee61ffc65b898f",
+      "rel_path": "TIVA Conferece expenses.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3d9bb51b66071369",
+      "rel_path": "TIVA SIGNED TRAVEL AUTH. - WOOD.jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "176f8f5abec49e50",
+      "rel_path": "TOSA Site agreement.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ac0df308ec342247",
+      "rel_path": "Tiva Milage (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7451e90a067bbd98",
+      "rel_path": "Tiva classes.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2aceb7adefd85a6a",
+      "rel_path": "Townview Floor Plan (1).jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8599c33377cea730",
+      "rel_path": "Townview Floor Plan.jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2de3fed9de9624a6",
+      "rel_path": "Transportation Receipt 1 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e0c9ef8011d0c4a7",
+      "rel_path": "Transportation Receipt 1.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0274f1e624afe578",
+      "rel_path": "Transportation Receipt 2.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "18d465fd58f19866",
+      "rel_path": "Travel Authorization Form_Demars Officer Training Camp_4.10.25.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "66f610e2fec07f40",
+      "rel_path": "Travel Reconcile NLSC - Agenda.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5b8adbfdca88aa65",
+      "rel_path": "Travel Reconcile NLSC - Arta.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "04d8ba81cefdf4f7",
+      "rel_path": "Travel Reconcile NLSC - Badge.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ffdff35fd449cc79",
+      "rel_path": "Travel Reconcile NLSC - Lodging.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c93846aa0f3223a7",
+      "rel_path": "Travel Reconcile NLSC- Justification.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d1082c82049865e8",
+      "rel_path": "Triptracker Cheat Sheet.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5f7937b784db4b1d",
+      "rel_path": "Trustee_CTE_Pathway_Tracker 25-26.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "04ff172c64276b0d",
+      "rel_path": "TurboTaxReturn (1).tax2024",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "e756ffd9323078ee",
+      "rel_path": "TurboTaxReturn (2).tax2024",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "aa8509ac9b679237",
+      "rel_path": "TurboTaxReturn (3).tax2024",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "d59c0d1c211b4e4d",
+      "rel_path": "TurboTaxReturn (4).tax2024",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "6af7122c741ac204",
+      "rel_path": "TurboTaxReturn (5).tax2024",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "f460af9ba2d4ba3b",
+      "rel_path": "TurboTaxReturn (6).tax2024",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "b95f89b95f3225af",
+      "rel_path": "TurboTaxReturn 2.tax2024",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "74e5ec4ca005ecb0",
+      "rel_path": "TurboTaxReturn.tax2024",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "5e22544b65363ad5",
+      "rel_path": "Untitled document.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "31d31d65b18fe610",
+      "rel_path": "Untitled presentation.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "614f5f7c9be7c6ba",
+      "rel_path": "Vehicle Check Out Form.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d7e6603d2ede22a2",
+      "rel_path": "Virtual-Background copy.jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7877edfaa0d8c07a",
+      "rel_path": "Virtual-Background2.jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e4db22b39d5ff9c2",
+      "rel_path": "Vitals-Childrens-Testing Route.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6bc46726aea8f185",
+      "rel_path": "WBL.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "fe59ee23ae1cfe92",
+      "rel_path": "Workscopes_ Step #1_ Stop_and_Jot_Reflection.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5c3509f24e1fdfdb",
+      "rel_path": "Workshop Title： ＂The First 10： Maximizing Every Minute for Career Success＂.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "473626ab3e19e549",
+      "rel_path": "Wrestling.jpeg",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "6b137b4c4fd37011",
+      "rel_path": "Zoom (1).pkg",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "926d059e3dd69838",
+      "rel_path": "Zoom (2).pkg",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "6de425e79fe4ab19",
+      "rel_path": "Zoom.pkg",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "cf9166622b38b9ab",
+      "rel_path": "add_to_calendar.ics",
+      "status": "pass2_done"
+    },
+    {
+      "doc_id": "d287c07a61283e5e",
+      "rel_path": "aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2a3dfcfc475e0218",
+      "rel_path": "aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6fff020aec20671a",
+      "rel_path": "aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (3).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "96c15d711b643321",
+      "rel_path": "aligned-ibcs-to-programs-of-study-crosswalk-2025-2030-3.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f3a339ee75e7b6ca",
+      "rel_path": "aligned-ibcs-to-programs-of-study-crosswalk-2025-2030.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "13ec17b0ea8eb4f0",
+      "rel_path": "cte-indicator-auto-coder.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b2e916940a705bec",
+      "rel_path": "cte-wbl-training-plan-0.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4a33388cf767facd",
+      "rel_path": "cte-wbl-training-plan.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "857032197711be2d",
+      "rel_path": "dallasisd-04a77c5d-4e48-4ef3-9e22-e37ca674eb59_SessionUsersTemplate.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "857032197711be2d",
+      "rel_path": "dallasisd-30192c52-0abc-4d11-8ff6-b622ad0766da_SessionUsersTemplate.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "857032197711be2d",
+      "rel_path": "dallasisd-48c7a429-5968-47b5-a142-3d8ffc900a0e_SessionUsersTemplate.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "857032197711be2d",
+      "rel_path": "dallasisd-c62186c3-6d83-472f-bc28-51c2d83d4ed9_SessionUsersTemplate.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "58f18ba585eb4408",
+      "rel_path": "dallasisd-c806afc9-2f9e-49cd-ac0e-ef32f1f8d951_SessionUsersTemplate.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a95fb79223eee110",
+      "rel_path": "download (1).pdf",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "65ac7e0a1d033dd3",
+      "rel_path": "download.pdf",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "a8a5daa1fa48de68",
+      "rel_path": "eDynamic Quote - Principles of IT - 3YR - R. Howard_V1.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "46f01dd596d869fe",
+      "rel_path": "edit.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c4c82f54c9baa8c4",
+      "rel_path": "googlechrome.dmg",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "fbb127d3237959a0",
+      "rel_path": "hourlysupplementaltimecard.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9a2b129bfff50119",
+      "rel_path": "ibc-advisory-council-inventory-twc (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3bb7151f81b3be42",
+      "rel_path": "ibc-advisory-council-inventory-twc.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "999a63ea4781f2ed",
+      "rel_path": "image.png",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "d82f5871f2c1adbd",
+      "rel_path": "industry-based-certifications-earned-sy2022-23.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ca8a846fb1af6094",
+      "rel_path": "invite (1).ics",
+      "status": "pass2_done"
+    },
+    {
+      "doc_id": "138dc837090df3c2",
+      "rel_path": "invite.ics",
+      "status": "pass2_done"
+    },
+    {
+      "doc_id": "c44b1c2f333691a8",
+      "rel_path": "outlook (1).vcs",
+      "status": "pass2_done"
+    },
+    {
+      "doc_id": "2a513c675011b822",
+      "rel_path": "outlook.vcs",
+      "status": "pass2_done"
+    },
+    {
+      "doc_id": "4f76634d980365b0",
+      "rel_path": "p2024-list-of-materials-adopted-by-sboe.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f1f6fab4b15b3e0c",
+      "rel_path": "perkinsplanupdatefinalrevised.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7d839ff722369970",
+      "rel_path": "preliminary-2025-2030-ibc-to-program-of-study-crosswalk (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7d839ff722369970",
+      "rel_path": "preliminary-2025-2030-ibc-to-program-of-study-crosswalk (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7d839ff722369970",
+      "rel_path": "preliminary-2025-2030-ibc-to-program-of-study-crosswalk (3).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7d839ff722369970",
+      "rel_path": "preliminary-2025-2030-ibc-to-program-of-study-crosswalk (4).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7d839ff722369970",
+      "rel_path": "preliminary-2025-2030-ibc-to-program-of-study-crosswalk (5).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7d839ff722369970",
+      "rel_path": "preliminary-2025-2030-ibc-to-program-of-study-crosswalk (6).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c7632a425f065dbe",
+      "rel_path": "preliminary-2025-2030-ibc-to-program-of-study-crosswalk.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "59252650d7ba974f",
+      "rel_path": "receipt_3753bb7b-ce7f-4d0d-aa08-a0855cc82eb2.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a31f6752183df075",
+      "rel_path": "receipt_794bfc62-f72b-4f6c-af27-9092300445dc (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0eb48e5f8e507a6e",
+      "rel_path": "receipt_c88da51b-4d66-4f7d-93a2-a76e949fab6c (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "cc966a9283d8a904",
+      "rel_path": "regional-labor-market-information-wda-5.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b4852d730c811fba",
+      "rel_path": "regional-labor-market-information-wda-6.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "840e664223ba31df",
+      "rel_path": "scan_carmalone_2025-07-31-09-22-17.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "cd9736d34eb3fec6",
+      "rel_path": "scan_carmalone_2025-07-31-11-27-56 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b40e26802eb6a9ab",
+      "rel_path": "scan_carmalone_2025-07-31-11-27-56.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "af4187c9136846f0",
+      "rel_path": "scan_lealittle_2025-12-03-13-39-47 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "cf54d7998d6b2db8",
+      "rel_path": "scan_lealittle_2025-12-03-13-39-47 (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2f89582ec75a72da",
+      "rel_path": "scan_lealittle_2025-12-03-13-39-47.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8983d196465a71c4",
+      "rel_path": "tiva/2025 Summer Certificicate (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "23dc5f69c7be7a66",
+      "rel_path": "tiva/7-13-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9b6f2d1add543778",
+      "rel_path": "tiva/7-14-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "09a119fc43e57cfd",
+      "rel_path": "tiva/7-15-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e2e69026540ca2b8",
+      "rel_path": "tiva/7-16-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5950f7cd5d4f3b3f",
+      "rel_path": "tiva/7-17-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7e5b37597292d6be",
+      "rel_path": "tiva/7-18-2025 (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "39a0327deba69473",
+      "rel_path": "tiva/7-18-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "80c3072261471353",
+      "rel_path": "tiva 2/2025 Summer Certificicate (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "273be5b0f7181fcb",
+      "rel_path": "tiva 2/7-13-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "022f2d1e0476fcc6",
+      "rel_path": "tiva 2/7-14-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "386bb24a57d06b32",
+      "rel_path": "tiva 2/7-15-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "92b23fb8cbfaa8cb",
+      "rel_path": "tiva 2/7-16-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "edef399723a790ff",
+      "rel_path": "tiva 2/7-17-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7e5b37597292d6be",
+      "rel_path": "tiva 2/7-18-2025 (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4362b79b51b49745",
+      "rel_path": "tiva 2/7-18-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b357746c161da52d",
+      "rel_path": "tiva 3/2025 Summer Certificicate (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0422ea1378ab4098",
+      "rel_path": "tiva 3/7-13-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f720274cd5b19c3c",
+      "rel_path": "tiva 3/7-14-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "754e5221751d9262",
+      "rel_path": "tiva 3/7-15-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "91d6681ec43aa11f",
+      "rel_path": "tiva 3/7-16-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3c1650d2c8a2deb2",
+      "rel_path": "tiva 3/7-17-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7e5b37597292d6be",
+      "rel_path": "tiva 3/7-18-2025 (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8b5fa78979ef311e",
+      "rel_path": "tiva 3/7-18-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "42dd148f015b8748",
+      "rel_path": "tiva 4/2025 Summer Certificicate (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2010d86a39e00628",
+      "rel_path": "tiva 4/7-13-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "099be650bdf3c16b",
+      "rel_path": "tiva 4/7-14-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8ff95585ca194a1c",
+      "rel_path": "tiva 4/7-15-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "18e0897c4e4d5f3d",
+      "rel_path": "tiva 4/7-16-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1bd2395b580313f2",
+      "rel_path": "tiva 4/7-17-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "a937e269f0583715",
+      "rel_path": "tiva 4/7-18-2025 (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "dd1f1fbe1d06e6e8",
+      "rel_path": "tiva 4/7-18-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "96e500a3fdb17913",
+      "rel_path": "tiva.zip.unpacked/2025 Summer Certificicate (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "110119246360e77e",
+      "rel_path": "tiva.zip.unpacked/7-13-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "89bfae4ec99631b4",
+      "rel_path": "tiva.zip.unpacked/7-14-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8813305ea547c295",
+      "rel_path": "tiva.zip.unpacked/7-15-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "110119246360e77e",
+      "rel_path": "tiva.zip.unpacked/7-16-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b34323eb3edfe428",
+      "rel_path": "tiva.zip.unpacked/7-17-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7e5b37597292d6be",
+      "rel_path": "tiva.zip.unpacked/7-18-2025 (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "fbe61b311dc332b6",
+      "rel_path": "tiva.zip.unpacked/7-18-2025.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "7c15199c4a1e1058",
+      "rel_path": "wallpaperB.jpg",
+      "status": "extracted"
+    }
+  ]
+}

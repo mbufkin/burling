@@ -1,0 +1,707 @@
+{
+  "map_id": "burling-cte-handoff-map",
+  "map_version": "0.1.0",
+  "count": 28,
+  "placements": [
+    {
+      "doc_id": "ec811a14875574e6",
+      "rel_path": "Copy of Mobile Lab Compliance Checklist.docx",
+      "ext": ".docx",
+      "program": [
+        "compliance"
+      ],
+      "function": [
+        "compliance-checklist"
+      ],
+      "audience": [
+        "teachers"
+      ],
+      "record_type": [
+        "checklist-form"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a compliance checklist for mobile lab practicum requirements, including training plans, site visits, and documentation storage, which directly maps to the compliance program and function.",
+      "handoff_note": "This checklist is essential for ensuring mobile lab practicum compliance; the successor should verify all site visit and training plan deadlines are met at the start of the school year.",
+      "status": "done"
+    },
+    {
+      "doc_id": "d14b8180c110fb4e",
+      "rel_path": "Copy of [EXTERNAL FACING] MS CTE Technology Tracking - August 18, 10_33 AM.xlsx",
+      "ext": ".xlsx",
+      "program": [
+        "technology-inventory"
+      ],
+      "function": [
+        "inventory-tracking"
+      ],
+      "audience": [
+        "central-cte-staff"
+      ],
+      "record_type": [
+        "spreadsheet-tracker"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a spreadsheet that tracks CTE technology assets (device type, condition, ownership, IT ticket numbers) for the current school year.",
+      "handoff_note": "This active technology inventory tracker is essential for day-to-day CTE operations and asset accountability.",
+      "status": "done"
+    },
+    {
+      "doc_id": "0ca68f3217ac40e5",
+      "rel_path": "Dallas ISD CTE MS Technology_Check-in (Responses).xlsx",
+      "ext": ".xlsx",
+      "program": [
+        "technology-inventory"
+      ],
+      "function": [
+        "inventory-tracking"
+      ],
+      "audience": [
+        "teachers"
+      ],
+      "record_type": [
+        "spreadsheet-tracker"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a technology check-in form for CTE teachers documenting device ownership, campus 1:1 status, and staffing assignments, which directly matches the technology-inventory and inventory-tracking terms.",
+      "handoff_note": "This file tracks which CTE teachers have school- or CTE-provided technology and device ownership, essential for planning campus-level tech deployments and ensuring compliance with 1:1 requirements.",
+      "status": "done"
+    },
+    {
+      "doc_id": "87b1273a61af3724",
+      "rel_path": "EIF- Pathful/DISD_Full_Year_Course_Overview (1).docx",
+      "ext": ".docx",
+      "program": [
+        "pathful-eif"
+      ],
+      "function": [
+        "course-overview"
+      ],
+      "audience": [
+        "teachers"
+      ],
+      "record_type": [
+        "word-procedure"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a full-year CTE course overview explicitly mapping Pathful tools and EIF units, matching the pathful-eip program and course-overview function.",
+      "handoff_note": "This file defines the full-year pacing, unit structure, and Pathful integration for the EIF course; the successor should use it to align lesson delivery and assessment schedules.",
+      "status": "done"
+    },
+    {
+      "doc_id": "8cd312cc2a8ba088",
+      "rel_path": "EIF- Pathful/DISD_Semester_Course_Overview.docx",
+      "ext": ".docx",
+      "program": [
+        "pathful-eif"
+      ],
+      "function": [
+        "course-overview"
+      ],
+      "audience": [
+        "teachers"
+      ],
+      "record_type": [
+        "word-procedure"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a semester-long college and career exploration course outline with embedded Pathful integration, directly matching the pathful-eif program and course-overview function.",
+      "handoff_note": "This file provides the official semester pacing and Pathful tool integration for the college and career exploration course; successors should use it to align lesson delivery and assessment schedules.",
+      "status": "done"
+    },
+    {
+      "doc_id": "2cd8f94d8c4401a3",
+      "rel_path": "EIF- Pathful/Pathful_Integration_Overview.docx",
+      "ext": ".docx",
+      "program": [
+        "pathful-eif"
+      ],
+      "function": [
+        "course-overview"
+      ],
+      "audience": [
+        "teachers"
+      ],
+      "record_type": [
+        "word-procedure"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document provides a structured overview of Pathful platform integration across the 2026-27 CTE curriculum, detailing modules, touchpoints, and curriculum tracks, which aligns with the pathful-eif program and course-overview function.",
+      "handoff_note": "This file defines how Pathful is embedded into the 2026-27 CTE curriculum across three tracks; the successor should use it to maintain consistent platform touchpoints and module alignment.",
+      "status": "done"
+    },
+    {
+      "doc_id": "b6ae7af5493f82f8",
+      "rel_path": "EIF- Pathful/Program_Changes_2025-26_to_2026-27.docx",
+      "ext": ".docx",
+      "program": [
+        "pathful-eif"
+      ],
+      "function": [
+        "course-overview"
+      ],
+      "audience": [
+        "central-cte-staff"
+      ],
+      "record_type": [
+        "word-procedure"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document details curriculum revisions, platform migration from SchoolLinks to Pathful, TEKS alignment updates, assessment rebuilds, and Spanish-language additions for the College & Career Exploration course across multiple tracks for 2026-27.",
+      "handoff_note": "This file captures the full scope of the 2026-27 College & Career Exploration curriculum revisions and Pathful platform migration, ensuring the successor has a complete record of changes, standards alignment, and assessment updates across all tracks.",
+      "status": "done"
+    },
+    {
+      "doc_id": "88f278617a24c3ce",
+      "rel_path": "Engine Room-Need to know docs for MS/2026-2027 MS Engine Room.xlsx",
+      "ext": ".xlsx",
+      "program": [
+        "engine-room"
+      ],
+      "function": [
+        "inventory-tracking"
+      ],
+      "audience": [
+        "central-cte-staff"
+      ],
+      "record_type": [
+        "spreadsheet-tracker"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a detailed spreadsheet tracking CTE budget allocations, mobile lab scheduling, and trailer assignments for the 2026-2027 academic year, matching the engine-room program and inventory-tracking function.",
+      "handoff_note": "This file contains the live 2026-2027 engine room operational tracker for mobile lab assignments, budget lines, and campus assignments; the successor should use it to verify trailer schedules and budget balances before the new school year begins.",
+      "status": "done"
+    },
+    {
+      "doc_id": "91c9c4001399b977",
+      "rel_path": "Engine Room-Need to know docs for MS/2026-2027 Teacher_Campus List - 7_29_2026.xlsx",
+      "ext": ".xlsx",
+      "program": [
+        "engine-room"
+      ],
+      "function": [
+        "registration-roster"
+      ],
+      "audience": [
+        "central-cte-staff"
+      ],
+      "record_type": [
+        "spreadsheet-tracker"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a staffing roster listing teachers, course assignments, and campus placements for the 2026-2027 academic year, which directly maps to engine-room need-to-know docs and the registration-roster function.",
+      "handoff_note": "This roster is the authoritative source for 2026-2027 teacher-campus assignments; the successor should verify campus placements and course loads before the school year begins.",
+      "status": "done"
+    },
+    {
+      "doc_id": "092746ffbaf3f798",
+      "rel_path": "MS Co-Hort/Framework_ MS Path to College & Career Co-Hort.docx",
+      "ext": ".docx",
+      "program": [
+        "ms-cohort"
+      ],
+      "function": [
+        "planning-framework"
+      ],
+      "audience": [
+        "teachers"
+      ],
+      "record_type": [
+        "word-procedure"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a formal Dallas ISD CTE agreement for a summer 2026 curriculum standardization project, defining scope, deliverables, pacing, and compensation for teachers developing 7th grade Path to College and Career Framework materials.",
+      "handoff_note": "This file contains the official scope and deliverables for the 7th grade Path to College and Career Framework revision; the successor should use it to align pacing, syllabi, and assessments with TEKS and industry standards for the upcoming school year.",
+      "status": "done"
+    },
+    {
+      "doc_id": "52975c50133ad6f6",
+      "rel_path": "Mobile Lab Documents/2026 - 2027_ Dallas ISD CTE Mobile Lab Video Scripts.docx",
+      "ext": ".docx",
+      "program": [
+        "mobile-lab"
+      ],
+      "function": [
+        "video-script"
+      ],
+      "audience": [
+        "students-families"
+      ],
+      "record_type": [
+        "word-procedure"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document contains three detailed instructional scripts (zSpace dental, 3D pen challenge, flight simulator) created for CTE mobile lab activities, clearly fitting the mobile-lab program and video-script function.",
+      "handoff_note": "This file provides the official scripts for all three mobile lab activities; successors should use these to train staff and run the zSpace, 3D pen, and flight simulator stations consistently.",
+      "status": "done"
+    },
+    {
+      "doc_id": "fb19ccc19d6a97f6",
+      "rel_path": "Mobile Lab Documents/Campus Mobile Lab Meeting Slide Deck.pptx",
+      "ext": ".pptx",
+      "program": [
+        "mobile-lab"
+      ],
+      "function": [
+        "meeting-deck"
+      ],
+      "audience": [
+        "teachers"
+      ],
+      "record_type": [
+        "slide-deck"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a slide deck outlining operational policies, responsibilities, and schedules for the Dallas ISD Career Exploration Mobile Lab, clearly matching the mobile-lab program and meeting-deck function.",
+      "handoff_note": "This slide deck provides the essential operational policies, responsibilities, and schedule for the 2026-2027 Mobile Lab year; the successor should use it to ensure campus commitments, inclement weather protocols, and student experience standards are consistently communicated and executed.",
+      "status": "done"
+    },
+    {
+      "doc_id": "5b7cffbe05e34978",
+      "rel_path": "Mobile Lab Documents/Trailer Acknowledgment_.docx",
+      "ext": ".docx",
+      "program": [
+        "compliance"
+      ],
+      "function": [
+        "compliance-checklist"
+      ],
+      "audience": [
+        "campus-admin"
+      ],
+      "record_type": [
+        "checklist-form"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is an official acknowledgment form requiring campus administrator initials on safety, scheduling, and operational requirements for the mobile lab.",
+      "handoff_note": "This checklist ensures the successor knows which campus administrative duties and safety protocols must be confirmed before each mobile lab visit.",
+      "status": "done"
+    },
+    {
+      "doc_id": "9862eb158e8715be",
+      "rel_path": "PD/August 6, 2026, Dallas ISD CTE Middle School Professional Development & Back to School (1).pdf",
+      "ext": ".pdf",
+      "program": [
+        "professional-development"
+      ],
+      "function": [
+        "pd-delivery"
+      ],
+      "audience": [
+        "teachers"
+      ],
+      "record_type": [
+        "slide-deck"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.92,
+      "needs_review": false,
+      "rationale": "The document is a structured agenda for a back-to-school professional development session, covering curriculum pacing, budget deadlines, and PLC schedules for the 2026-2027 school year.",
+      "handoff_note": "This file contains the live PD agenda, key dates, and budget spend deadlines for the upcoming school year; successors should use it to align teacher training and resource allocation from day one.",
+      "status": "done"
+    },
+    {
+      "doc_id": "ab22847ddc9fb763",
+      "rel_path": "PD/August 6, 2026, Dallas ISD CTE Middle School Professional Development & Back to School.pptx",
+      "ext": ".pptx",
+      "program": [
+        "professional-development"
+      ],
+      "function": [
+        "pd-delivery"
+      ],
+      "audience": [
+        "teachers"
+      ],
+      "record_type": [
+        "slide-deck"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a structured agenda for a back-to-school professional development session, covering curriculum pacing, budget deadlines, and key dates for the 2026-2027 school year.",
+      "handoff_note": "This file contains the critical 2026-2027 school year PD agenda, budget deadlines, and key dates that successors need to operationalize the year's CTE programming from day one.",
+      "status": "done"
+    },
+    {
+      "doc_id": "2a38b4a477a9dad6",
+      "rel_path": "PD/CTE 26-27 Summer PD_ 7th Grade Career Readiness Experiences.pptx",
+      "ext": ".pptx",
+      "program": [
+        "showcase-events"
+      ],
+      "function": [
+        "meeting-deck"
+      ],
+      "audience": [
+        "teachers"
+      ],
+      "record_type": [
+        "slide-deck"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a PowerPoint presentation outlining logistics, teacher pre-work, student activities, and scheduling for the 7th grade career readiness showcase event, fitting the showcase-events program and meeting-deck function.",
+      "handoff_note": "This file contains the operational plan and teacher pre-work for the 7th grade career readiness showcase; the successor should use it to maintain consistent student group sizes, vendor timing, and campus logistics for future events.",
+      "status": "done"
+    },
+    {
+      "doc_id": "944635169d0cc90a",
+      "rel_path": "PD/CTE 26-27 Summer PD_ Middle School Spending.pptx",
+      "ext": ".pptx",
+      "program": [
+        "professional-development"
+      ],
+      "function": [
+        "pd-delivery"
+      ],
+      "audience": [
+        "teachers"
+      ],
+      "record_type": [
+        "slide-deck"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.92,
+      "needs_review": false,
+      "rationale": "The document is a PowerPoint presentation (slide-deck) used to deliver summer professional development training on middle school CTE budget management and procurement procedures.",
+      "handoff_note": "This file contains the budget thresholds, spending deadlines, and vendor processes that new teachers need to know before the school year starts.",
+      "status": "done"
+    },
+    {
+      "doc_id": "edfc22b1a0a1e4c7",
+      "rel_path": "Purchasing/MSTees 3600 #50410.pdf",
+      "ext": ".pdf",
+      "program": [
+        "purchasing"
+      ],
+      "function": [
+        "purchasing-quote"
+      ],
+      "audience": [
+        "central-cte-staff"
+      ],
+      "record_type": [
+        "pdf-packet"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a vendor quote for CTE t-shirts with pricing, sizes, and approval requirements, fitting the purchasing function and pdf-packet record type.",
+      "handoff_note": "This quote documents the purchase of 3600 CTE t-shirts for department distribution; the successor should verify approval and PO processing before the 30-day quote validity expires.",
+      "status": "done"
+    },
+    {
+      "doc_id": "cb7dbfa8460ca39b",
+      "rel_path": "Purchasing/Quote #50401 (1).pdf",
+      "ext": ".pdf",
+      "program": [
+        "showcase-events"
+      ],
+      "function": [
+        "purchasing-quote"
+      ],
+      "audience": [
+        "central-cte-staff"
+      ],
+      "record_type": [
+        "pdf-packet"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a formal vendor quote for printed booklets tied to the CTE Exploration Showcase 2026 event, matching the showcase-events program and purchasing-quote function.",
+      "handoff_note": "This quote documents the procurement of showcase booklets; retain for budget tracking and event production reference.",
+      "status": "done"
+    },
+    {
+      "doc_id": "6a41c633f659ae21",
+      "rel_path": "Purchasing/School Specialty Purchasing List.docx",
+      "ext": ".docx",
+      "program": [
+        "unmapped"
+      ],
+      "function": [
+        "unmapped"
+      ],
+      "audience": [
+        "unmapped"
+      ],
+      "record_type": [
+        "unmapped"
+      ],
+      "lifecycle": [
+        "unmapped"
+      ],
+      "confidence": 0.0,
+      "needs_review": true,
+      "rationale": "Extract failed: no text extracted",
+      "handoff_note": "",
+      "status": "skipped"
+    },
+    {
+      "doc_id": "96cffb236da3c047",
+      "rel_path": "Purchasing/Trailer Activity Guide - Print Ready (1).pdf",
+      "ext": ".pdf",
+      "program": [
+        "mobile-lab"
+      ],
+      "function": [
+        "video-script"
+      ],
+      "audience": [
+        "students-families"
+      ],
+      "record_type": [
+        "pdf-packet"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a print-ready student guide for CTE Mobile Lab activities covering 3D pen design and AR dental modules, clearly fitting the mobile-lab program and video-script function for student-facing instructional content.",
+      "handoff_note": "This student guide documents the CTE Mobile Lab's hands-on activities for 3D pen construction and dental care modules; it is the primary reference for teachers and students preparing for the mobile lab visit.",
+      "status": "done"
+    },
+    {
+      "doc_id": "4da7d5458f277a5c",
+      "rel_path": "Showcase/2026 - 2027 Career Exploration Parking Tags.pptx",
+      "ext": ".pptx",
+      "program": [
+        "showcase-events"
+      ],
+      "function": [
+        "communications-outreach"
+      ],
+      "audience": [
+        "partners-external"
+      ],
+      "record_type": [
+        "slide-deck"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a PowerPoint file containing a parking layout for a career exploration showcase event, clearly aligning with the showcase-events program and communications-outreach function for external partners.",
+      "handoff_note": "This file provides the essential parking logistics for the upcoming career exploration showcase, ensuring smooth arrival and setup for buses, vendors, and volunteers.",
+      "status": "done"
+    },
+    {
+      "doc_id": "049a89afd8e0bde3",
+      "rel_path": "Showcase/2026-2027 Showcase - Partner Flyer (2).pdf",
+      "ext": ".pdf",
+      "program": [
+        "showcase-events"
+      ],
+      "function": [
+        "communications-outreach"
+      ],
+      "audience": [
+        "partners-external"
+      ],
+      "record_type": [
+        "pdf-packet"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a PDF promotional flyer for a middle school career exploration showcase event, detailing logistics, partner exhibitors, and event specifics for external industry engagement.",
+      "handoff_note": "This flyer is the primary outreach material for the 2026-2027 showcase; ensure the successor confirms venue setup, partner confirmations, and registration logistics before the October event window.",
+      "status": "done"
+    },
+    {
+      "doc_id": "1177aa6fc1c22b64",
+      "rel_path": "Showcase/2026-2027 Showcase Invite List.xlsx",
+      "ext": ".xlsx",
+      "program": [
+        "showcase-events"
+      ],
+      "function": [
+        "registration-roster"
+      ],
+      "audience": [
+        "partners-external"
+      ],
+      "record_type": [
+        "spreadsheet-tracker"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a structured invitation list for a CTE career exploration showcase, compiling partner contacts by career cluster for event logistics and outreach.",
+      "handoff_note": "This file is the master partner roster for the upcoming showcase; the successor should use it to confirm invitations, manage RSVPs, and coordinate logistics with industry and education partners.",
+      "status": "done"
+    },
+    {
+      "doc_id": "6ad0cc94a59e279b",
+      "rel_path": "Showcase/Parking.pptx",
+      "ext": ".pptx",
+      "program": [
+        "showcase-events"
+      ],
+      "function": [
+        "meeting-deck"
+      ],
+      "audience": [
+        "partners-external"
+      ],
+      "record_type": [
+        "slide-deck"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a planning slide deck for the MS CTE Showcase event, detailing parking assignments, loading zones, vendor check-in, and booth assignments for CTE programs.",
+      "handoff_note": "This file contains the parking and logistics plan for the 2026-2027 MS CTE Showcase; the successor should use it to assign booth zones and manage vendor/volunteer parking on event days.",
+      "status": "done"
+    },
+    {
+      "doc_id": "2acdc633e79c763c",
+      "rel_path": "Summe Conference Tracker 2026.xlsx",
+      "ext": ".xlsx",
+      "program": [
+        "conference-travel"
+      ],
+      "function": [
+        "spending-budget"
+      ],
+      "audience": [
+        "central-cte-staff"
+      ],
+      "record_type": [
+        "spreadsheet-tracker"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a conference travel tracker listing attendees, destinations, dates, payment status, and approval signatures for a CTE association event.",
+      "handoff_note": "This tracker captures all staff travel authorizations and reimbursements for the 2026 CTE conference season; the successor should use it to verify grant-funded travel compliance and outstanding approvals.",
+      "status": "done"
+    },
+    {
+      "doc_id": "bed3855b8250ca56",
+      "rel_path": "WAIP/2026 - 2027_ Middle School Career Exploration Experience Registrations.docx",
+      "ext": ".docx",
+      "program": [
+        "waip-experiences"
+      ],
+      "function": [
+        "registration-roster"
+      ],
+      "audience": [
+        "campus-admin"
+      ],
+      "record_type": [
+        "word-procedure"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a district memo outlining registration procedures and dates for middle school career exploration experiences, clearly matching the WAIP-experiences program and registration-roster function.",
+      "handoff_note": "This file contains the 2026-2027 registration deadlines and date selections for the Career Exploration Showcase and Mobile Lab; the successor should ensure campuses confirm their chosen experience and dates by the August 27 deadline.",
+      "status": "done"
+    },
+    {
+      "doc_id": "436c890945db09b8",
+      "rel_path": "[EXTERNAL FACING] MS CTE Technology Tracking.xlsx",
+      "ext": ".xlsx",
+      "program": [
+        "technology-inventory"
+      ],
+      "function": [
+        "inventory-tracking"
+      ],
+      "audience": [
+        "teachers"
+      ],
+      "record_type": [
+        "spreadsheet-tracker"
+      ],
+      "lifecycle": [
+        "active-ops"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "rationale": "The document is a campus-level spreadsheet used to track CTE technology assets (device condition, ownership, service tickets) across multiple campuses for specific courses.",
+      "handoff_note": "This file captures the current technology asset state for CTE courses; the successor should verify device conditions and ticket statuses at the start of the school year to ensure 1:1 readiness.",
+      "status": "done"
+    }
+  ]
+}

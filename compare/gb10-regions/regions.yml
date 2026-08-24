@@ -1,0 +1,305 @@
+# Auto-stitched from Pass A tags. Edit freely; this becomes the handoff map seed.
+# built_at: 2026-08-18T23:27:41+00:00
+regions:
+  - id: curriculum-administration
+    label: "Curriculum Administration"
+    description: "Oversight of curriculum standards, pacing, and administrative dashboards."
+    tags:
+      - "curriculum_admin"
+      - "curriculum-admin"
+      - "curriculum-admin-dashboard"
+      - "curriculum_standardization"
+      - "curriculum_lesson"
+      - "curriculum-overview-2026-27"
+      - "curriculum_pacing"
+      - "curriculum-script"
+      - "curriculum-resource"
+      - "curriculum-administration"
+    children:
+      - id: pacing-guide
+        label: "Pacing Guide"
+        description: "Sequencing and timing of curriculum delivery across terms."
+        tags:
+          - "pacing-guide"
+          - "pacing_guide_update"
+        children: []
+      - id: scope-and-sequence
+        label: "Scope & Sequence"
+        description: "Development of multi-year curriculum roadmaps and course ordering."
+        tags:
+          - "scope-and-sequence"
+          - "scope_and_sequence_development"
+        children: []
+  - id: mobile-lab-deployment
+    label: "Mobile Lab Deployment"
+    description: "Physical trailer logistics, compliance, and scheduling for the CTE mobile lab."
+    tags:
+      - "mobile-lab"
+      - "mobile-lab-2026-2027"
+      - "mobile-lab-calendar-2026-2027"
+      - "mobile-lab-deployment-2026-2027"
+      - "trailer-assignment-2026-2027"
+      - "trailer-compliance-field-trip"
+      - "trailer-acknowledgment"
+      - "trailer-visit-logistics"
+      - "mobile-lab-script"
+      - "mobile-lab-instructions"
+      - "mobile-lab-showcase"
+      - "mobile-lab-practicum"
+    children:
+      - id: trailer-compliance
+        label: "Trailer Compliance"
+        description: "Regulatory and safety checks for mobile lab operations."
+        tags:
+          - "mobile-lab-compliance"
+          - "compliance-checklist"
+          - "cte-framework"
+          - "inclement-weather-policy"
+          - "safety-protocols"
+        children: []
+      - id: trailer-pd
+        label: "Trailer Professional Development"
+        description: "Training and pre‑work for staff operating the mobile lab."
+        tags:
+          - "teacher-pre-work"
+          - "teacher-substitute-requirements"
+        children: []
+      - id: trailer-scripts
+        label: "Trailer Scripts & Activities"
+        description: "Lesson scripts, hands‑on activities, and equipment guides loaded in the trailer."
+        tags:
+          - "mobile-lab-script"
+          - "curriculum-script"
+          - "hands-on-cte-activity"
+          - "grade-level-modules"
+          - "mobile-lab-instructions"
+        children: []
+      - id: trailer-ops
+        label: "Trailer Operations"
+        description: "Scheduling, site visits, and on‑campus coordination for lab stops."
+        tags:
+          - "site-visit-tracking"
+          - "trailer-assignment-2026-2027"
+          - "showcase-scheduling"
+          - "mobile-lab-scheduling"
+          - "trailer-compliance-field-trip"
+        children: []
+  - id: showcase-events
+    label: "Showcase & Events"
+    description: "Career exploration showcases, partner engagement, and event logistics."
+    tags:
+      - "showcase-2026-2027"
+      - "showcase-2026"
+      - "showcase-2025-2026"
+      - "showcase-preparation-2026-2027"
+      - "showcase-preparation"
+      - "showcase-scheduling"
+      - "showcase-evaluation-feedback"
+      - "showcase-invite-list-2026-2027"
+      - "showcase-invitation"
+      - "showcase-october-6-2026"
+      - "event-logistics"
+      - "event-scheduling-2026-2027"
+      - "event-planning-contact-list"
+      - "registration-showcase2026"
+      - "registration-memo"
+      - "showcase-2026-2027-cte-showcase"
+      - "career-exploration-showcase"
+      - "career-exploration-mobile-lab"
+      - "showcase-2026"
+    children:
+      - id: parking-and-logistics
+        label: "Parking & Logistics"
+        description: "Parking assignments, loading zones, and vendor/student flow."
+        tags:
+          - "showcase-2026-2027"
+          - "parking-assignments"
+          - "loading-zone-management"
+          - "bus-drop-off"
+          - "vendor-check-in"
+          - "volunteer-check-in"
+          - "transportation-planning"
+        children: []
+      - id: partner-engagement
+        label: "Partner Engagement"
+        description: "Industry partner outreach, invitations, and database management."
+        tags:
+          - "industry-partnership"
+          - "partner-outreach"
+          - "partner-contact-list"
+          - "external-stakeholder-mapping"
+          - "cte-industry-partners"
+          - "event-promotion"
+        children: []
+      - id: career-exploration
+        label: "Career Exploration"
+        description: "Modules, parking tags, and student-facing exploration activities."
+        tags:
+          - "career-exploration"
+          - "career-exploration-parking"
+          - "career-clusters"
+          - "career-cluster-mapping"
+          - "hands-on-activities"
+          - "hands-on-cte"
+        children: []
+  - id: purchasing-procurement
+    label: "Purchasing & Procurement"
+    description: "Quotes, vendor management, and material budgeting for CTE programs."
+    tags:
+      - "purchasing-quote"
+      - "purchasing-quote-2026-2027"
+      - "purchasing-guidance"
+      - "purchasing_guidance"
+      - "budget-tracker-2026-2027"
+      - "budget-management"
+      - "spending-categories"
+      - "budget-deadlines"
+      - "budget-deadline"
+      - "consumables-supplies"
+      - "materials-budget"
+      - "three-quotes-policy"
+      - "po-reference"
+      - "price-breakdown"
+      - "shipping-delivery-truck"
+      - "terms-net-15"
+      - "district-vendor-list"
+      - "punch-out-procedure"
+      - "curriculum-admin-dashboard"
+    children:
+      - id: cte-apparel-and-supplies
+        label: "CTE Apparel & Supplies"
+        description: "T‑shirts, cotton apparel, screen‑printing, and printed materials."
+        tags:
+          - "cte-t-shirts"
+          - "cotton-apparel"
+          - "screen-printing"
+          - "decoration-front"
+          - "10-day-production"
+          - "quote-50410"
+          - "quote-50401"
+          - "fmb-promoproducts"
+          - "port-co-easy-cotton-tee"
+          - "orange-and-navy-colors"
+          - "size-breakdown-s-m-l-xl-2xl-3xl-4xl"
+          - "booklet-printing"
+          - "saddle-stitched-binding"
+          - "full-color-printing"
+          - "materials-budget"
+        children: []
+      - id: equipment-and-gear
+        label: "Equipment & Gear"
+        description: "3D pens, dental modules, simulators, and hands‑on activity kits."
+        tags:
+          - "3d-pen-challenge"
+          - "3d-pen-design"
+          - "3d-house-construction"
+          - "dental-care-module"
+          - "tooth-anatomy"
+          - "virtual-dental-procedures"
+          - "computer-science-cryptography"
+          - "welding-simulation"
+          - "aviation-flight-training"
+          - "hands-on-cte-activity"
+          - "printable-worksheets"
+          - "check-for-understanding"
+        children: []
+  - id: technology-inventory
+    label: "Technology Inventory"
+    description: "Device tracking, service desk, and asset management for CTE classrooms."
+    tags:
+      - "cte-technology-tracking"
+      - "asset-inventory"
+      - "device-condition"
+      - "it-service-now"
+      - "ownership-status"
+      - "rm-number"
+      - "technology_check_in"
+      - "campus_1to1"
+      - "device_ownership"
+      - "device_type_laptops"
+      - "campus_provided_vs_cte_provided"
+      - "spreadsheet-tracker"
+      - "multi-campus-cte"
+      - "1-1-device-deployment"
+    children: []
+  - id: professional-development
+    label: "Professional Development"
+    description: "Summer PD, back‑to‑school training, and educator role definitions."
+    tags:
+      - "professional_development"
+      - "professional-development"
+      - "back_to_school"
+      - "back-to-school"
+      - "2026-2027_school_year"
+      - "2026-summer-pd"
+      - "summer-professional-development"
+      - "PLC_schedule"
+      - "curriculum_pacing"
+      - "scope-and-sequence"
+      - "budget-deadlines"
+      - "education-is-freedom-eif"
+      - "pathful"
+      - "everfi"
+      - "pathful-integration"
+      - "pathful-platform-integration"
+      - "clever-integration"
+      - "mobile-lab-showcase"
+      - "cte-summer-pd-2026"
+      - "teacher-onboarding"
+      - "teacher-of-record-accountability"
+    children: []
+  - id: pathful-integration
+    label: "Pathful Integration"
+    description: "Curriculum mapping and platform integration for Pathful CTE courses."
+    tags:
+      - "pathful-integration"
+      - "pathful-platform-integration"
+      - "pathful"
+      - "path_to_college_career_framework"
+      - "cte-curriculum-mapping"
+      - "curriculum-overview-2026-27"
+      - "workforce-readiness"
+      - "lesson-touchpoints"
+      - "career-exploration-modules"
+      - "employability-skills"
+      - "work-based-learning"
+      - "student-tracker-goals"
+      - "13-touchpoint-map"
+      - "6-pathful-modules"
+      - "3-curriculum-tracks"
+      - "digital-cte-resources"
+      - "curriculum_lesson"
+      - "curriculum-admin"
+    children: []
+  - id: showcase-preparation-2026-27
+    label: "Showcase Preparation 2026‑2027"
+    description: "Pre‑event planning, invitations, and partner coordination for the annual showcase."
+    tags:
+      - "showcase-preparation-2026-2027"
+      - "showcase-2026-2027"
+      - "showcase-2026"
+      - "showcase-2025-2026"
+      - "showcase-october-6-2026"
+      - "showcase-evaluation-feedback"
+      - "registration-showcase2026"
+      - "showcase-invite-list-2026-2027"
+      - "showcase-invitation"
+      - "event-logistics"
+      - "event-scheduling-2026-2027"
+      - "event-planning-contact-list"
+      - "registration-memo"
+      - "2026-2027-cte-showcase"
+      - "career-exploration-showcase"
+      - "career-exploration-mobile-lab"
+      - "trailer-visit-logistics"
+      - "teacher-pre-work"
+      - "student-pre-sorted-groups"
+      - "vendor-interaction-rotation"
+      - "principal-signup-campus-selection"
+      - "transportation-request"
+      - "post-trailer-survey"
+      - "booklet-completion"
+      - "catalyst-grouping-A-B"
+      - "recap-video-analysis"
+      - "showcase-preparation"
+    children: []

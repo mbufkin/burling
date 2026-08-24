@@ -103,8 +103,16 @@ Actions:
   category.
 
 Rules:
-- Prefer reuse over invent when an existing child already fits.
+- Decide in this order: (1) Is there any existing child that could hold
+  this file, even loosely? Reuse it. (2) Only if NO existing child covers
+  the subject at all, invent.
+- One-file drawers are a filing failure. Before inventing, ask: "would a
+  clerk filing ten similar documents put them here again?" If not,
+  reuse the closest existing child instead.
 - Do not invent a near-duplicate of an existing child; reuse the closest name.
+- Two files about neighboring subjects share a drawer; the drawer name is
+  the broader category (e.g. invoices, incidents, policies), never the
+  specific document.
 - Year, email, usenet, unmapped, and the approved mains are not child names.
 - Hardware may be a child of facilities or technology. It is never a main.
 """
@@ -203,6 +211,46 @@ class WalkState:
                     "from": members,
                     "merge": members,
                     "into": into,
+                    "reasoning": (reasoning or "")[:800],
+                    "moved": moved,
+                }
+            )
+        return moved
+
+    def promote(self, prefix: list[str], child: str, *, reasoning: str = "") -> int:
+        """Dissolve drawer prefix+child: its files move up to prefix.
+
+        The combine sweep's answer to one-file drawers — navigation depth
+        without retrieval value. Guarded by the caller (thin drawers only).
+        """
+        child = kebab(child)
+        if not child or not prefix:
+            return 0
+        depth = len(prefix)
+        moved = 0
+        for rel, home in list(self.homes.items()):
+            if len(home) <= depth or home[:depth] != list(prefix):
+                continue
+            if home[depth] != child:
+                continue
+            self.homes[rel] = home[:depth] + home[depth + 1 :]
+            rec = self.records.get(rel) or {}
+            new = self.homes[rel]
+            rec["main"] = new[0] if new else ""
+            rec["sub"] = new[1] if len(new) > 1 else ""
+            rec["detail"] = new[2] if len(new) > 2 else ""
+            rec["facet"] = self.facets.get(rel) or rec.get("facet") or ""
+            self.records[rel] = rec
+            moved += 1
+        if moved:
+            self.combines.append(
+                {
+                    "at": utc_now(),
+                    "prefix": list(prefix),
+                    "from": [child],
+                    "merge": [child],
+                    "into": "/".join(prefix) or "(root)",
+                    "dissolve": True,
                     "reasoning": (reasoning or "")[:800],
                     "moved": moved,
                 }
@@ -596,6 +644,49 @@ def _log_walk_call(
         from burling.progress import console_safe
 
         print(console_safe(f"  NOTED [walk-log] {step}: {exc}"), flush=True)
+
+
+DISSOLVE_MAX_FILES = 1
+
+
+def _split_proposal(
+    raw: object,
+    prefix: list[str],
+    children: list[tuple[str, int]],
+) -> tuple[list[dict], list[str]]:
+    """Split raw combine groups into sideways merges and dissolves.
+
+    A group whose `into` names the folder itself means "these drawers are
+    thinner than the tree needs — promote their files up here." Only thin
+    drawers (<= DISSOLVE_MAX_FILES files) may dissolve; fat ones stay put.
+    """
+    obj = raw if isinstance(raw, dict) else {}
+    raw_groups = obj.get("groups")
+    if not isinstance(raw_groups, list):
+        if obj.get("merge") or obj.get("into"):
+            raw_groups = [obj]
+        else:
+            raw_groups = []
+    sibling_names = {kebab(n) for n, _c in children}
+    counts = {kebab(n): c for n, c in children}
+    parent_name = kebab(prefix[-1]) if prefix else ""
+
+    merges_raw: list[dict] = []
+    dissolves: set[str] = set()
+    for group in raw_groups:
+        if not isinstance(group, dict):
+            continue
+        into = kebab(group.get("into") or group.get("name"))
+        merge = [kebab(c) for c in (group.get("merge") or []) if kebab(c) in sibling_names]
+        merge = list(dict.fromkeys(merge))
+        if into == parent_name and parent_name:
+            # Dissolve request. Thin drawers only; fat ones are refused.
+            for child in merge:
+                if counts.get(child, 0) <= DISSOLVE_MAX_FILES:
+                    dissolves.add(child)
+        elif merge:
+            merges_raw.append(group)
+    return merges_raw, sorted(dissolves)
 
 
 def _ask(cfg: dict, messages: list[dict], step: str) -> dict:

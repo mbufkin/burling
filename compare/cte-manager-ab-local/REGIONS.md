@@ -1,0 +1,1710 @@
+# Regions (Pass B stitch)
+
+Nested groups stitched from Pass A free-form tags. Docs may appear in multiple regions.
+
+**Documents:** 670
+**Top-level regions:** 8
+**Total nodes:** 22
+**Tag coverage:** 3515/3515 (100.0%)
+**Docs with ≥1 region:** 410
+
+## Tree
+
+- **Curriculum & Instruction** (`curriculum-and-instruction`) — 256 docs
+  - tags: `curriculum-admin`, `curriculum-pacing`, `programs-of-study`, `course-mapping`, `cte-program-planning`, `comprehensive-local-needs-assessment`
+  - **Curriculum Alignment** (`curriculum-alignment`) — 36 docs
+    - tags: `curriculum-alignment`
+  - **Classroom Management** (`classroom-management`) — 50 docs
+    - tags: `classroom-management`, `bell-schedule`
+  - **Career Clusters** (`career-clusters`) — 64 docs
+    - tags: `career-clusters`, `career-exploration`
+- **Professional Development** (`professional-development`) — 154 docs
+  - tags: `professional-development`, `summer-2026-cte`, `7-hour-training`, `conference-attendance`, `ai-integration`, `technology-integration`
+  - **EIF & Pathful Training** (`eif-pathful-training`) — 31 docs
+    - tags: `eif-pathful-training`, `training-hours-7`
+- **Health & Compliance** (`health-and-compliance`) — 136 docs
+  - tags: `student-record`, `dallas-isd-health-services`, `quantiferon-gold-plus`, `tb-testing`, `vaccination-history`, `imm-trac`
+  - **Lab Results & Reports** (`lab-results`) — 41 docs
+    - tags: `lab-results`, `medical-record`
+  - **School Entry Compliance** (`school-entry-compliance`) — 75 docs
+    - tags: `school-entry-compliance`, `medical-compliance`
+- **Procurement & Vendors** (`procurement-and-vendors`) — 104 docs
+  - tags: `purchasing-quote`, `non-awarded-vendor-request-form`, `procurement-justification`, `vendor-approval`, `trailer-compliance`, `mobile-lab`
+  - **Quote Management** (`quote-2025`) — 22 docs
+    - tags: `quote-2025`, `approved-vendor-form`
+  - **District Agreements** (`agreements-dallasisd-org`) — 30 docs
+    - tags: `agreements-dallasisd-org`, `vendor-request-form`
+- **Finance & Grants** (`finance-and-grants`) — 114 docs
+  - tags: `perkins-grant`, `stipend-2025-2026`, `expenditure-justification-form`, `travel-authorization`, `timecard-documentation`, `special-revenue-funds`
+  - **Budget Tracking** (`budget-tracker`) — 52 docs
+    - tags: `budget-tracker`, `supplemental-compensation`
+  - **Reimbursements & Travel** (`reimbursement-voucher`) — 21 docs
+    - tags: `reimbursement-voucher`, `mileage-log`
+- **Student Pathways & WBL** (`student-pathways-and-wbl`) — 153 docs
+  - tags: `work-based-learning`, `industry-based-certification`, `career-institute-north`, `high-school-cte`, `employability-skills`, `cooperative-learning`
+  - **Middle School CTE** (`middle-school-cte`) — 22 docs
+    - tags: `middle-school-cte`, `career-readiness`
+  - **Advisory Councils** (`advisory-council`) — 30 docs
+    - tags: `advisory-council`, `stakeholder-engagement`
+- **Events & Showcase** (`events-and-showcase`) — 86 docs
+  - tags: `showcase-2026`, `conference-2025`, `board-agenda-item-2026`, `ctso-fundraising`, `year-of-planning`, `conference-travel`
+  - **Session Tracking** (`session-attendance`) — 45 docs
+    - tags: `session-attendance`, `program-evaluation`
+  - **Reporting Cycles** (`reporting-cycles`) — 49 docs
+    - tags: `2026-report-date`, `ctso-best-practices`, `needs-assessment`
+- **Needs review** (`needs-review`) — 404 docs
+  - tags: `scheduling`, `pd-kickoff`, `keynote-speaker`, `wbl-what-does-this-look-like`, `ai-lessons`, `google-gemini-notebooklm`, `certiport`, `everfi`, `icev`, `eduthings`, `mad-learn`, `internship-dos-donts` (+28)
+
+## Documents by top-level region
+
+### Curriculum & Instruction (290)
+
+- `2018_TaxReturn (1).pdf` → `needs-review`, `classroom-management`, `health-and-compliance`
+- `2023_TaxReturn (2).pdf` → `needs-review`, `classroom-management`
+- `2024-2025-clna-guidebook.pdf` → `finance-and-grants`, `needs-review`, `health-and-compliance`, `curriculum-alignment`, `session-attendance`, `advisory-council`
+- `2025 CTE Summer PD Feedback.pdf` → `professional-development`, `needs-review`, `events-and-showcase`, `eif-pathful-training`, `procurement-and-vendors`, `session-attendance`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ASE.pdf` → `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`, `health-and-compliance`, `school-entry-compliance`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Certiport.pdf` → `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`, `health-and-compliance`, `career-clusters`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ESCO Institute.pdf` → `procurement-and-vendors`, `student-pathways-and-wbl`, `school-entry-compliance`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Gaumard.pdf` → `procurement-and-vendors`, `needs-review`, `health-and-compliance`, `school-entry-compliance`, `professional-development`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NCCER.pdf` → `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`, `career-clusters`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NOCTI.pdf` → `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Nasco.pdf` → `procurement-and-vendors`, `health-and-compliance`, `needs-review`, `professional-development`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SACA.pdf` → `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SolidProfessor.pdf` → `procurement-and-vendors`, `needs-review`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_American Medical Technologists (AMT).pdf` → `procurement-and-vendors`, `health-and-compliance`, `lab-results`, `student-pathways-and-wbl`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Assessment Technologies.pdf` → `procurement-and-vendors`, `student-pathways-and-wbl`, `health-and-compliance`, `needs-review`, `agreements-dallasisd-org`
+- `2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `needs-review`, `student-pathways-and-wbl`, `budget-tracker`
+- `2026-27 DRAFT[98].pdf` → `finance-and-grants`, `needs-review`, `career-clusters`, `student-pathways-and-wbl`
+- `25-26 CI North .pdf` → `student-pathways-and-wbl`, `needs-review`, `health-and-compliance`, `reporting-cycles`
+- `25-26 SEC 11028Y1N2-2022 Early Childhood.pdf` → `needs-review`, `student-pathways-and-wbl`, `lab-results`, `procurement-and-vendors`
+- `26-27 Campus CTE Nonposition Realignment Datasource V4.pdf` → `needs-review`, `budget-tracker`, `student-pathways-and-wbl`, `health-and-compliance`
+- `26-27 Campus CTE Nonposition Realignment Datasource V5.pdf` → `needs-review`, `budget-tracker`, `student-pathways-and-wbl`, `agreements-dallasisd-org`
+- `3. Board Document 250357-version 2.pdf` → `events-and-showcase`, `student-pathways-and-wbl`, `health-and-compliance`, `career-clusters`, `finance-and-grants`, `needs-review`
+- `3. Board Document 250357[69].pdf` → `events-and-showcase`, `student-pathways-and-wbl`, `health-and-compliance`, `career-clusters`, `professional-development`, `needs-review`
+- `ACTE HQ Frameworks.pdf` → `needs-review`, `session-attendance`, `student-pathways-and-wbl`
+- `ACTE Vision 2025 Agenda.pdf` → `events-and-showcase`, `professional-development`, `needs-review`, `session-attendance`, `middle-school-cte`, `student-pathways-and-wbl`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf` → `lab-results`, `professional-development`, `finance-and-grants`, `events-and-showcase`, `needs-review`, `reporting-cycles`
+- `ACTE-Membership-Application-Jeremy Spence.pdf` → `needs-review`, `professional-development`, `student-pathways-and-wbl`
+- `Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf (SECURED).pdf` → `health-and-compliance`, `needs-review`, `lab-results`, `school-entry-compliance`
+- `August 6th PD.pdf` → `needs-review`, `middle-school-cte`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768501134.7069674.pdf` → `eif-pathful-training`, `career-clusters`, `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`, `health-and-compliance`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768502080.5657754.pdf` → `eif-pathful-training`, `career-clusters`, `needs-review`, `student-pathways-and-wbl`, `procurement-and-vendors`, `events-and-showcase`
+- `CLNA 2026-27-clna-guidebook[55].pdf` → `finance-and-grants`, `needs-review`, `advisory-council`, `session-attendance`, `curriculum-alignment`
+- `CLNA 26-27/2025-26 Application.pdf (SECURED).pdf` → `finance-and-grants`, `needs-review`, `career-clusters`, `professional-development`, `procurement-and-vendors`, `student-pathways-and-wbl`
+- `CLNA DALLAS ISD Working Doc.pdf` → `needs-review`, `finance-and-grants`, `health-and-compliance`, `curriculum-alignment`
+- `CLNA Guiding Questions.pdf` → `needs-review`, `session-attendance`, `health-and-compliance`, `curriculum-alignment`, `professional-development`, `finance-and-grants`
+- `CLNA_26_27 App.pdf` → `needs-review`, `finance-and-grants`, `reporting-cycles`, `curriculum-alignment`, `events-and-showcase`
+- `COZART_TIVA GRANT TRAVEL DOCS - signed (1).pdf` → `finance-and-grants`, `needs-review`, `reporting-cycles`, `agreements-dallasisd-org`, `school-entry-compliance`
+- `CPAL_DISD_MOU_SowingSeeds (3).pdf` → `needs-review`, `professional-development`, `student-pathways-and-wbl`, `lab-results`
+- `CTAT Summer 26_Agenda_062926.pdf` → `professional-development`, `events-and-showcase`, `needs-review`, `student-pathways-and-wbl`, `middle-school-cte`, `session-attendance`
+- `CTE Admin 101-Slide Deck.pdf` → `needs-review`, `professional-development`, `student-pathways-and-wbl`, `advisory-council`, `classroom-management`
+- `CTE Admin 102-Slide Deck.pdf` → `finance-and-grants`, `needs-review`, `professional-development`, `curriculum-alignment`
+- `CTE CTSO Sponsorship Guidelines 25-26.pdf` → `events-and-showcase`, `finance-and-grants`, `needs-review`
+- `CTE Form Mule Email Preview — CELIS _ Graphic Design I.pdf` → `needs-review`, `professional-development`, `lab-results`, `student-pathways-and-wbl`, `events-and-showcase`
+- `CTE Framework 2 slides.pdf` → `student-pathways-and-wbl`, `needs-review`, `career-clusters`, `advisory-council`, `eif-pathful-training`
+- `CTE PD 6.1.26.pdf` → `professional-development`, `budget-tracker`, `session-attendance`, `student-pathways-and-wbl`, `needs-review`
+- `CTE PLC October 29, 2024 (Responses).pdf` → `eif-pathful-training`, `needs-review`, `agreements-dallasisd-org`
+- `CTE Summer PD 2026/Copy of Cooperative Learning in CTE.pdf` → `professional-development`, `student-pathways-and-wbl`, `needs-review`, `classroom-management`
+- `CTE Summer PD 2026/We are CTE.pdf` → `professional-development`, `needs-review`, `career-clusters`, `student-pathways-and-wbl`, `events-and-showcase`
+- `CTE Survey Dashboard — One Pager.pdf` → `needs-review`
+- `CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf` → `professional-development`, `needs-review`, `eif-pathful-training`, `procurement-and-vendors`, `middle-school-cte`, `events-and-showcase`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1).pdf` → `professional-development`, `student-pathways-and-wbl`, `needs-review`, `procurement-and-vendors`
+- `CTE- SUM26 Summer Learning Site Signage  Template (2).pdf` → `professional-development`, `needs-review`, `eif-pathful-training`, `middle-school-cte`, `events-and-showcase`, `reporting-cycles`
+- `CTE- SUM26 Summer Learning Site Signage  Template.pdf` → `professional-development`, `needs-review`, `eif-pathful-training`, `procurement-and-vendors`, `middle-school-cte`, `events-and-showcase`
+- `CTE-Standard Operating Procedures/CTE Vehicles.pdf` → `needs-review`, `classroom-management`, `reimbursement-voucher`, `procurement-and-vendors`, `finance-and-grants`, `events-and-showcase`
+- `CTE-Standard Operating Procedures/Campus Lead Teacher Program.pdf` → `needs-review`, `finance-and-grants`, `student-pathways-and-wbl`, `eif-pathful-training`, `session-attendance`, `school-entry-compliance`
+- `CTE-Standard Operating Procedures/Standard Operting Procedures-Perkins.pdf` → `finance-and-grants`, `needs-review`, `procurement-and-vendors`, `budget-tracker`, `classroom-management`, `professional-development`
+- `CTE_Meeting_Agenda_Updated.pdf` → `events-and-showcase`, `professional-development`, `student-pathways-and-wbl`, `classroom-management`, `needs-review`
+- `CTX_Berkner HS_ED02.pdf` → `needs-review`, `health-and-compliance`, `classroom-management`, `school-entry-compliance`, `student-pathways-and-wbl`
+- `Career Exploration in IT.pdf` → `career-clusters`, `middle-school-cte`, `needs-review`
+- `Career Institute North - Raw Data Entries.pdf` → `needs-review`, `health-and-compliance`, `budget-tracker`, `student-pathways-and-wbl`
+- `Carlson June hourlysupplementaltimecard.pdf` → `needs-review`, `finance-and-grants`, `career-clusters`, `eif-pathful-training`, `school-entry-compliance`
+- `Considerations for 2026–27 and Future Cohorts  CCMR Notecatcher.pdf` → `events-and-showcase`, `needs-review`, `middle-school-cte`, `professional-development`, `curriculum-alignment`, `advisory-council`
+- `Cooperative Learning in CTE.pdf` → `professional-development`, `student-pathways-and-wbl`, `needs-review`, `classroom-management`
+- `Copy of 26-27 Academic Services Deck Template .pdf` → `professional-development`, `needs-review`, `health-and-compliance`, `advisory-council`
+- `Copy of CTE PLC Agendas (1).pdf` → `events-and-showcase`, `needs-review`, `student-pathways-and-wbl`, `school-entry-compliance`, `eif-pathful-training`, `health-and-compliance`
+- `Copy of EXPO Attendance Roster for CTE.pdf` → `professional-development`, `needs-review`
+- `Copy of Spring Stipend CTE-additions 2026.pdf` → `finance-and-grants`, `needs-review`, `events-and-showcase`, `budget-tracker`
+- `Cornerstone_Session_Roster_Report_7_20_12 AM.pdf` → `needs-review`, `professional-development`, `session-attendance`, `reporting-cycles`, `student-pathways-and-wbl`
+- `Cornerstone_Session_Signin-10_12_2025 (1).pdf` → `needs-review`, `professional-development`, `student-pathways-and-wbl`, `session-attendance`, `eif-pathful-training`
+- `Cornerstone_Session_Signin-10_12_2025.pdf` → `needs-review`, `professional-development`, `session-attendance`, `student-pathways-and-wbl`, `eif-pathful-training`
+- `Cornerstone_Session_Signin-1_14_2026.pdf` → `needs-review`, `professional-development`, `career-clusters`
+- `Cornerstone_Session_Signin-1_5_2026 (1).pdf` → `needs-review`, `student-pathways-and-wbl`, `professional-development`, `session-attendance`, `career-clusters`
+- `Cornerstone_Session_Signin-1_5_2026 (3).pdf` → `needs-review`, `middle-school-cte`, `professional-development`, `eif-pathful-training`, `session-attendance`
+- `Cornerstone_Session_Signin-1_5_2026 (4).pdf` → `professional-development`, `student-pathways-and-wbl`, `needs-review`, `session-attendance`, `eif-pathful-training`
+- `Cornerstone_Session_Signin-5_26_2026 (1).pdf` → `professional-development`, `needs-review`, `student-pathways-and-wbl`, `session-attendance`
+- `Cornerstone_Session_Signin-5_26_2026 (2).pdf` → `professional-development`, `needs-review`, `session-attendance`, `student-pathways-and-wbl`
+- `Cornerstone_Session_Signin-5_26_2026 (3).pdf` → `professional-development`, `needs-review`, `session-attendance`, `student-pathways-and-wbl`, `eif-pathful-training`, `health-and-compliance`
+- `Cornerstone_Session_Signin-5_26_2026 (4).pdf` → `professional-development`, `needs-review`, `session-attendance`, `student-pathways-and-wbl`
+- `Cornerstone_Session_Signin-5_26_2026 (5).pdf` → `professional-development`, `needs-review`, `student-pathways-and-wbl`, `session-attendance`
+- `Cornerstone_Session_Signin-5_26_2026 (6).pdf` → `professional-development`, `needs-review`, `student-pathways-and-wbl`, `session-attendance`
+- `Cornerstone_Session_Signin-5_26_2026 (7).pdf` → `professional-development`, `needs-review`, `session-attendance`, `student-pathways-and-wbl`
+- `Cornerstone_Session_Signin-5_26_2026.pdf` → `professional-development`, `needs-review`, `student-pathways-and-wbl`, `session-attendance`, `career-clusters`
+- `Cornerstone_Session_Signin-5_29_2026.pdf` → `professional-development`, `needs-review`, `student-pathways-and-wbl`, `health-and-compliance`
+- `Cornerstone_Session_Signin-6_10_2026.pdf` → `professional-development`, `needs-review`, `student-pathways-and-wbl`, `eif-pathful-training`, `session-attendance`
+- `Cornerstone_Session_Signin-6_9_2026.pdf` → `professional-development`, `needs-review`, `student-pathways-and-wbl`, `session-attendance`
+- `D. Johnson complete naf documents .pdf` → `finance-and-grants`, `professional-development`, `events-and-showcase`, `procurement-and-vendors`, `needs-review`
+- `DISD_EMS_Student_Profile_5_26_26.pdf` → `needs-review`, `student-pathways-and-wbl`, `health-and-compliance`, `school-entry-compliance`
+- `DISD_Purchasing_Analysis 208023.pdf` → `procurement-and-vendors`, `events-and-showcase`, `career-clusters`, `health-and-compliance`, `student-pathways-and-wbl`, `needs-review`
+- `DRAFT Vehicle Intake & Liability Waiver Form.pdf` → `needs-review`, `health-and-compliance`, `finance-and-grants`, `procurement-and-vendors`
+- `Dallas ISD 2026-2027 Comprehensive Local Needs Assessment.pdf` → `finance-and-grants`, `needs-review`, `reporting-cycles`, `curriculum-alignment`, `career-clusters`
+- `Dallas ISD — NAF Membership Agreement 2026-27[57].pdf` → `needs-review`, `student-pathways-and-wbl`, `advisory-council`, `events-and-showcase`
+- `Dallas_ISD_CLNA_2026-2027_DRAFT.pdf` → `needs-review`, `finance-and-grants`, `health-and-compliance`, `curriculum-alignment`, `career-clusters`, `budget-tracker`
+- `Dallas_ISD_CTE_Industry_Partner_Quarterly_Meeting_One_Pager.pdf` → `needs-review`, `advisory-council`, `professional-development`, `career-clusters`, `student-pathways-and-wbl`, `events-and-showcase`
+- `Dee July hourlysupplementaltimecard.pdf` → `needs-review`
+- `Department Supplemental Pay Approval Memo.pdf` → `budget-tracker`, `professional-development`, `needs-review`, `curriculum-alignment`, `student-pathways-and-wbl`, `procurement-and-vendors`
+- `Digitial Citizenship PSA[7].pdf` → `needs-review`, `professional-development`, `middle-school-cte`, `eif-pathful-training`, `student-pathways-and-wbl`
+- `Documents/12-month weightlifitng Plan.pdf` → `needs-review`, `professional-development`, `classroom-management`
+- `Documents/12.21  CTE Lead Teacher.pdf` → `needs-review`, `finance-and-grants`, `budget-tracker`
+- `Documents/2024-25 Bell Schedule_CI South.docx.pdf` → `classroom-management`, `needs-review`, `student-pathways-and-wbl`
+- `Documents/244 Sitipend 2026/Copy of CTE Lead Teacher Stipends (Fall 2025).pdf` → `finance-and-grants`, `needs-review`, `school-entry-compliance`
+- `Documents/244 Sitipend 2026/Hamilton-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `professional-development`, `school-entry-compliance`, `needs-review`, `career-clusters`, `finance-and-grants`
+- `Documents/244 Sitipend 2026/Jones-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `finance-and-grants`, `budget-tracker`, `professional-development`, `career-clusters`, `needs-review`, `student-pathways-and-wbl`
+- `Documents/244 Sitipend 2026/Kalat-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `finance-and-grants`, `professional-development`, `needs-review`, `career-clusters`
+- `Documents/244 Sitipend 2026/MRodriguez-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `finance-and-grants`, `professional-development`, `school-entry-compliance`, `needs-review`
+- `Documents/244 Sitipend 2026/Maxwell-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `finance-and-grants`, `budget-tracker`, `professional-development`, `career-clusters`, `student-pathways-and-wbl`, `needs-review`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.2.pdf` → `finance-and-grants`, `needs-review`, `events-and-showcase`, `budget-tracker`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.pdf` → `finance-and-grants`, `budget-tracker`, `needs-review`
+- `Documents/244 Sitipend 2026/Williams-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `finance-and-grants`, `budget-tracker`, `professional-development`, `needs-review`, `career-clusters`
+- `Documents/26-27 Campus CTE Nonposition Realignment Datasource Updated.pdf` → `needs-review`, `budget-tracker`, `student-pathways-and-wbl`, `school-entry-compliance`
+- `Documents/26-27 TraditionalCalendar-Traditional2026-2027.pdf` → `needs-review`, `classroom-management`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf` → `needs-review`, `student-pathways-and-wbl`, `professional-development`, `reporting-cycles`, `classroom-management`, `health-and-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/ACTE Advisory Council Support Menu.pdf` → `advisory-council`, `career-clusters`, `student-pathways-and-wbl`, `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Council.pdf` → `advisory-council`, `needs-review`, `career-clusters`, `student-pathways-and-wbl`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1.pdf` → `advisory-council`, `needs-review`, `student-pathways-and-wbl`, `curriculum-alignment`, `events-and-showcase`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Mentor Sample Program.pdf` → `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/CTE New Teacher Professional Development Plan (1).pdf` → `needs-review`, `student-pathways-and-wbl`, `professional-development`, `classroom-management`, `events-and-showcase`, `advisory-council`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Prof Growth Plan.pdf` → `professional-development`, `student-pathways-and-wbl`, `needs-review`, `events-and-showcase`, `advisory-council`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Program Coherent Sequence.pdf` → `curriculum-alignment`, `student-pathways-and-wbl`, `finance-and-grants`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Required Certification by Program.pdf` → `student-pathways-and-wbl`, `needs-review`, `health-and-compliance`, `school-entry-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/Directions for High School Scope  Sequence (2).pdf` → `needs-review`, `events-and-showcase`, `student-pathways-and-wbl`, `curriculum-alignment`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf` → `advisory-council`, `needs-review`, `student-pathways-and-wbl`, `professional-development`, `health-and-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf` → `needs-review`, `curriculum-alignment`, `student-pathways-and-wbl`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/WBL-why it patters.pdf` → `student-pathways-and-wbl`, `finance-and-grants`, `eif-pathful-training`, `middle-school-cte`
+- `Documents/ACTE Vision 2025/Admin 101/request.pdf` → `needs-review`, `finance-and-grants`, `career-clusters`, `student-pathways-and-wbl`, `events-and-showcase`, `school-entry-compliance`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `needs-review`, `school-entry-compliance`, `session-attendance`, `health-and-compliance`, `curriculum-alignment`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool-Example.pdf` → `events-and-showcase`, `needs-review`, `curriculum-alignment`, `advisory-council`, `school-entry-compliance`, `finance-and-grants`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf` → `events-and-showcase`, `session-attendance`, `advisory-council`, `needs-review`, `school-entry-compliance`, `reporting-cycles`
+- `Documents/ACTE Vision 2025/Admin 201/CTE Admin 102-Slide Deck.pptx.pdf` → `finance-and-grants`, `needs-review`, `reporting-cycles`, `advisory-council`
+- `Documents/ACTE Vision 2025/Admin 201/Improving_CTE_Performance_Measurement_Data_Collection_09-11-2024.pdf` → `finance-and-grants`, `needs-review`, `curriculum-alignment`, `student-pathways-and-wbl`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf` → `finance-and-grants`, `school-entry-compliance`, `needs-review`, `curriculum-alignment`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Data Analysis Template.pdf` → `finance-and-grants`, `needs-review`, `session-attendance`
+- `Documents/ACTE Vision 2025/CLNA/73459750-E17B-83F6-D59C-631B116DBF582025121022091676.pdf` → `needs-review`, `session-attendance`, `advisory-council`, `curriculum-alignment`, `events-and-showcase`, `reporting-cycles`
+- `Documents/ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf` → `professional-development`, `needs-review`, `student-pathways-and-wbl`, `classroom-management`, `agreements-dallasisd-org`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Do we Need a Team.pdf` → `needs-review`, `student-pathways-and-wbl`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Example of a Team's Communication Agreements.pdf` → `agreements-dallasisd-org`, `needs-review`, `professional-development`, `reporting-cycles`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of a Team's Emotional Intelligence.pdf` → `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of an Effective Team.pdf` → `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Small Group Activity- Modeling Team Coaching in Action.pdf` → `professional-development`, `needs-review`, `finance-and-grants`, `curriculum-alignment`, `health-and-compliance`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Member Roles and Responsibilities.pdf` → `needs-review`, `professional-development`, `agreements-dallasisd-org`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Temperature Check.pdf` → `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf` → `needs-review`, `professional-development`
+- `Documents/Adopted Materiall Quotes␠/CodeHS Proclamation 2024 titles.pdf` → `needs-review`, `professional-development`, `student-pathways-and-wbl`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD A&P revised seat number Estimate_316614.pdf` → `procurement-and-vendors`, `needs-review`, `quote-2025`, `student-pathways-and-wbl`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Garner A&P 1 year Estimate_316614.pdf` → `procurement-and-vendors`, `needs-review`, `health-and-compliance`, `quote-2025`, `student-pathways-and-wbl`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 1 year Estimate_375613.pdf` → `procurement-and-vendors`, `needs-review`, `lab-results`, `quote-2025`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 4 year  Estimate_375616.pdf` → `procurement-and-vendors`, `needs-review`, `lab-results`, `quote-2025`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Video Game Design Estimate_375603.pdf` → `needs-review`, `procurement-and-vendors`, `lab-results`, `quote-2025`
+- `Documents/Adopted Materiall Quotes␠/Human Services-Cengage quote 2025.pdf` → `student-pathways-and-wbl`, `needs-review`, `procurement-and-vendors`, `quote-2025`
+- `Documents/Affiliated Agreements/Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2)[18].pdf` → `needs-review`, `lab-results`, `school-entry-compliance`, `health-and-compliance`
+- `Documents/Affiliated Agreements/ESCO Institute LTD - approved for one time use.pdf` → `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`, `agreements-dallasisd-org`, `events-and-showcase`
+- `Documents/Baylor Scott & Whote MAA 2028 08.09.23.pdf` → `needs-review`, `health-and-compliance`, `school-entry-compliance`, `events-and-showcase`, `reporting-cycles`
+- `Documents/Bell Schedule CI East.pdf` → `classroom-management`, `needs-review`, `student-pathways-and-wbl`
+- `Documents/Bell Schedule CI North.pdf` → `classroom-management`, `student-pathways-and-wbl`, `needs-review`
+- `Documents/CLNA Tools-ACTE Vision.pdf` → `needs-review`
+- `Documents/CTE Lead Teacher Stipends (Fall 2025).pdf` → `finance-and-grants`, `budget-tracker`
+- `Documents/CompTIA Non Awarded Vendor Request Form 7.2025.pdf` → `procurement-and-vendors`, `student-pathways-and-wbl`, `needs-review`, `agreements-dallasisd-org`
+- `Documents/Conference Travel/CTE CTSO Sponsorship Guidelines 25-26.pdf` → `events-and-showcase`, `finance-and-grants`, `needs-review`, `career-clusters`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.pdf` → `needs-review`, `finance-and-grants`, `professional-development`, `student-pathways-and-wbl`
+- `Documents/Conference Travel/Expenditure Justification Form_September 2025[86] copy.pdf` → `finance-and-grants`, `professional-development`, `needs-review`, `school-entry-compliance`, `events-and-showcase`
+- `Documents/Conference Travel/Moore Norman Agenda_MNTC_Dallas_ISD_Visit_Agenda.pdf` → `events-and-showcase`, `needs-review`, `professional-development`, `student-pathways-and-wbl`, `curriculum-alignment`, `health-and-compliance`
+- `Documents/Conference Travel/Moore Norman Campus Mileage.pdf` → `reimbursement-voucher`, `events-and-showcase`, `needs-review`, `finance-and-grants`
+- `Documents/Conference Travel/SRFM Travel Expense Report Checklist.pdf` → `finance-and-grants`, `needs-review`, `events-and-showcase`, `procurement-and-vendors`
+- `Documents/Conference Travel/Schedule At-A-Glance ACTE Vision 2025.pdf` → `events-and-showcase`, `needs-review`, `professional-development`, `eif-pathful-training`, `career-clusters`
+- `Documents/Copy of 12.21  CTE Lead Teacher.pdf` → `finance-and-grants`, `budget-tracker`, `needs-review`
+- `Documents/Cornerstone_Session_Signin-1_5_2026 (2).pdf` → `needs-review`, `middle-school-cte`, `professional-development`, `session-attendance`, `lab-results`, `eif-pathful-training`
+- `Documents/DALLASISDGOOGLECOURSECATALOG.pdf` → `middle-school-cte`, `needs-review`, `career-clusters`
+- `Documents/DallasISDTravel - ACTE Best Practices - JS.pdf` → `finance-and-grants`, `events-and-showcase`, `needs-review`, `professional-development`, `procurement-and-vendors`, `school-entry-compliance`
+- `Documents/Five Foundations of Ramsey.pdf` → `needs-review`, `classroom-management`, `middle-school-cte`
+- `Documents/How to Request a Trip (2).pdf` → `needs-review`, `budget-tracker`, `procurement-and-vendors`, `school-entry-compliance`, `events-and-showcase`
+- `Documents/January 2026 Lunch and Learn.pdf` → `needs-review`, `professional-development`, `procurement-and-vendors`, `reporting-cycles`
+- `Documents/JeremySpenceCoverLetter AA.pdf` → `needs-review`, `career-clusters`, `advisory-council`
+- `Documents/Mackenna Spence 12-21-BASC 3 Teacher.pdf` → `reporting-cycles`, `needs-review`, `health-and-compliance`, `classroom-management`, `events-and-showcase`
+- `Documents/New Stipend Request Form[29].pdf` → `finance-and-grants`, `budget-tracker`, `needs-review`, `procurement-and-vendors`
+- `Documents/New Stipend Request Form[81].pdf` → `finance-and-grants`, `budget-tracker`, `procurement-and-vendors`
+- `Documents/Personal/Everlake- Beneficiary Change Lincoln Benefit copy.pdf` → `needs-review`, `health-and-compliance`
+- `Documents/Prelimonary 25-30 IBC Certifying List .pdf` → `needs-review`, `student-pathways-and-wbl`, `career-clusters`
+- `Documents/Proclamation 2024_Preliminary Findings of the State Review Panel.pdf` → `needs-review`, `health-and-compliance`, `career-clusters`, `school-entry-compliance`, `session-attendance`
+- `Documents/Procurement Codes .pdf` → `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`, `health-and-compliance`, `professional-development`, `lab-results`
+- `Documents/Purchase Orders：Lince Codes/ContactList_ProcurementServices_21_2.pdf` → `needs-review`, `health-and-compliance`, `classroom-management`, `professional-development`
+- `Documents/Showcase Promo 2026[5].pdf` → `events-and-showcase`, `career-clusters`, `needs-review`, `health-and-compliance`
+- `Documents/TEKS/130.-subchapter-d-business-management-and-administration.pdf` → `classroom-management`, `needs-review`, `health-and-compliance`, `student-pathways-and-wbl`
+- `Documents/Townview Business School Leadership Campus Field Trip Proposal[17].pdf` → `needs-review`, `events-and-showcase`, `health-and-compliance`, `curriculum-alignment`
+- `Documents/Welding -Alpha Group.pdf` → `professional-development`, `needs-review`, `student-pathways-and-wbl`, `procurement-and-vendors`, `events-and-showcase`
+- `Documents/untitled folder/Travel Forms/Expenditure Justification Form_September 2025.pdf` → `finance-and-grants`, `school-entry-compliance`, `needs-review`, `curriculum-alignment`
+- `EMT：EMR/26-27 CI Copy of Bell Schedule.docx.pdf` → `classroom-management`, `needs-review`, `career-clusters`
+- `EMT：EMR/26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `needs-review`, `classroom-management`, `student-pathways-and-wbl`, `career-clusters`, `professional-development`, `events-and-showcase`
+- `EMT：EMR/Dallas ISD_First Amendment  to extend term (1) - signed.pdf` → `health-and-compliance`, `lab-results`, `needs-review`
+- `Early Childhood Education.pdf` → `needs-review`, `career-clusters`, `professional-development`, `classroom-management`, `health-and-compliance`, `student-pathways-and-wbl`
+- `Ed Rising Conference Itinerary.pdf` → `needs-review`, `events-and-showcase`, `professional-development`, `eif-pathful-training`, `health-and-compliance`
+- `Elementary.pdf` → `needs-review`, `student-pathways-and-wbl`
+- `Employability_Skills_Framework_OnePager_20180212.pdf` → `student-pathways-and-wbl`, `middle-school-cte`, `professional-development`, `needs-review`
+- `EnrollmentByCourse.pdf` → `needs-review`, `budget-tracker`, `student-pathways-and-wbl`
+- `Estimate_3377_from_Alpha_Education_Group[48].pdf` → `quote-2025`, `professional-development`, `budget-tracker`, `needs-review`, `events-and-showcase`, `career-clusters`
+- `Ewing June hourlysupplementaltimecard.pdf` → `needs-review`, `professional-development`, `budget-tracker`
+- `Final Divorce Decree Jeremy & kelli Spence.pdf` → `needs-review`, `classroom-management`
+- `Hicks Bio.pdf` → `needs-review`
+- `Hubbard June hourlysupplementaltimecard.pdf` → `needs-review`, `finance-and-grants`, `student-pathways-and-wbl`, `career-clusters`, `eif-pathful-training`
+- `Intership Student Names.pdf` → `health-and-compliance`, `needs-review`, `student-pathways-and-wbl`
+- `Jeremy Spence Cover Letter NAF 2026 (1).pdf` → `needs-review`, `professional-development`, `career-clusters`, `advisory-council`, `classroom-management`, `finance-and-grants`
+- `JeremySpenceresume 04.2026.pdf` → `needs-review`, `classroom-management`, `career-clusters`, `professional-development`
+- `JeremySpenceresume 06.2024.docx.pdf` → `needs-review`, `classroom-management`, `middle-school-cte`, `professional-development`
+- `Johnson July hourlysupplementaltimecard.pdf` → `needs-review`, `student-pathways-and-wbl`, `finance-and-grants`
+- `Jones-Gunter THOA Travel Mileage.pdf` → `finance-and-grants`, `reimbursement-voucher`, `needs-review`
+- `K. Jennings SkillsUsa Nationals 2025 - signed (1).pdf` → `needs-review`, `reporting-cycles`, `procurement-and-vendors`
+- `KGeorge 25-26 Woodrow CTE Business PLC Minutes.pdf` → `eif-pathful-training`, `needs-review`, `student-pathways-and-wbl`, `professional-development`, `budget-tracker`
+- `KGeorgeTrainingIBCs3.25.26.pdf` → `student-pathways-and-wbl`, `needs-review`, `health-and-compliance`
+- `Lead Teacher/SOP Materials/Federal Spend & Cooperative Contract Use.pdf` → `school-entry-compliance`, `student-pathways-and-wbl`, `health-and-compliance`, `needs-review`, `quote-2025`, `procurement-and-vendors`
+- `Lesson Plan - Digitial Citizenship Part I.pdf` → `needs-review`, `middle-school-cte`, `professional-development`, `classroom-management`, `student-pathways-and-wbl`
+- `Lockley NAF Internship Expo Attendance and Updates 2026.pdf` → `needs-review`, `professional-development`, `middle-school-cte`
+- `M. Johnson June hourlysupplementaltimecard.pdf` → `needs-review`, `budget-tracker`, `student-pathways-and-wbl`, `career-clusters`, `finance-and-grants`
+- `M. Spence 504 Plan.pdf` → `needs-review`, `health-and-compliance`, `classroom-management`, `session-attendance`, `finance-and-grants`
+- `Mental+Health+Services+Notification.pdf` → `health-and-compliance`, `needs-review`
+- `Minor Testing Packet.pdf` → `lab-results`, `needs-review`, `classroom-management`, `session-attendance`
+- `NAF Cover Letter.pdf` → `needs-review`, `professional-development`, `career-clusters`, `classroom-management`
+- `NAF Next 2026.pdf` → `needs-review`, `events-and-showcase`, `professional-development`, `procurement-and-vendors`
+- `NAF Next Meeting (1).pdf` → `needs-review`, `professional-development`, `student-pathways-and-wbl`, `events-and-showcase`, `eif-pathful-training`
+- `NAF Next Meeting.pdf` → `needs-review`, `professional-development`, `student-pathways-and-wbl`, `events-and-showcase`
+- `NAF Paperwork/Board Document 250357[69].pdf` → `events-and-showcase`, `student-pathways-and-wbl`, `procurement-and-vendors`, `career-clusters`, `school-entry-compliance`, `professional-development`
+- `NICHQ Teacher.pdf` → `reporting-cycles`, `needs-review`, `classroom-management`, `health-and-compliance`
+- `Non Awarded Vendor Quotes/BE Publishing Non Awarded Vendor Approved.pdf` → `procurement-and-vendors`, `needs-review`
+- `Non Awarded Vendor Quotes/CTE QUOTE Dallas ISD Aug 26 2025 Digital 1 year with teacher tools MW.pdf` → `procurement-and-vendors`, `needs-review`, `quote-2025`
+- `Non Awarded Vendor Quotes/Certiport Non Vendor form Approved .pdf` → `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`
+- `Non Awarded Vendor Quotes/Code HS Approved.pdf` → `procurement-and-vendors`, `needs-review`, `quote-2025`, `classroom-management`, `budget-tracker`
+- `Non Awarded Vendor Quotes/Davis Publications Non Awarded Vendor Approved.pdf` → `procurement-and-vendors`, `needs-review`, `school-entry-compliance`, `quote-2025`
+- `Non Awarded Vendor Quotes/Goodheart Wilcox Non Awarded approved.pdf` → `needs-review`, `procurement-and-vendors`, `career-clusters`
+- `Non Awarded Vendor Quotes/Non Awarded Vendor Request McGraw Hill Approved.pdf` → `procurement-and-vendors`, `needs-review`, `events-and-showcase`
+- `Non Awarded Vendor Quotes/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf` → `needs-review`, `procurement-and-vendors`, `career-clusters`
+- `Non Awarded Vendor Quotes/Pearson Non Awarded Approved.pdf` → `procurement-and-vendors`, `student-pathways-and-wbl`, `needs-review`, `school-entry-compliance`, `quote-2025`
+- `Non Awarded Vendor Quotes/SACA_09-08-2025 Approved.pdf` → `quote-2025`, `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`, `events-and-showcase`
+- `Non-Awarded Vendor Forms approved 3/NCCER_Approved 09-12-2025.pdf` → `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`, `quote-2025`, `agreements-dallasisd-org`, `events-and-showcase`
+- `Non-Awarded Vendor Forms approved/CLNA␠/2026-27-clna-guidebook.pdf` → `finance-and-grants`, `needs-review`, `school-entry-compliance`, `advisory-council`, `session-attendance`, `career-clusters`
+- `Non-Awarded Vendor Forms approved/CLNA␠/SC5600 Comprehensive Local Needs Assessment blank.pdf (SECURED).pdf` → `needs-review`, `finance-and-grants`, `reporting-cycles`, `curriculum-alignment`, `session-attendance`
+- `Non-Awarded Vendor Forms approved/Career Safe-approval[30].pdf` → `procurement-and-vendors`, `career-clusters`, `student-pathways-and-wbl`, `needs-review`, `agreements-dallasisd-org`, `events-and-showcase`
+- `Non-Awarded Vendor Forms approved/CareerSafe Approved.pdf` → `career-clusters`, `procurement-and-vendors`, `needs-review`
+- `Non-Awarded Vendor Forms approved/CompTia.pdf` → `procurement-and-vendors`, `needs-review`, `career-clusters`
+- `Non-Awarded Vendor Forms approved/TPSA non awarded vendor form - approved for competitions[16].pdf` → `needs-review`, `quote-2025`, `procurement-and-vendors`
+- `Non-Awarded Vendor Requests Log.pdf` → `agreements-dallasisd-org`, `procurement-and-vendors`, `needs-review`, `career-clusters`
+- `Oswaldo_IBC_Completer_Report_2024.pdf` → `reporting-cycles`, `student-pathways-and-wbl`, `needs-review`
+- `PD Creation Department Supplemental Pay Approval Memo .pdf` → `budget-tracker`, `professional-development`, `needs-review`, `curriculum-alignment`, `procurement-and-vendors`, `finance-and-grants`
+- `Perkins Travel/2025-2026 Financial Services Activity Calendar[2].pdf` → `health-and-compliance`, `procurement-and-vendors`, `needs-review`, `finance-and-grants`, `school-entry-compliance`, `budget-tracker`
+- `Perkins Travel/2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `needs-review`, `student-pathways-and-wbl`, `budget-tracker`, `procurement-and-vendors`
+- `Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `session-attendance`, `needs-review`, `health-and-compliance`, `budget-tracker`
+- `Perkins Travel/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf` → `budget-tracker`, `needs-review`, `finance-and-grants`, `health-and-compliance`, `session-attendance`, `professional-development`
+- `Perkins Travel/SRFM Meal Reimbursement Guide - Revised.10.14.2025[38].pdf` → `reimbursement-voucher`, `needs-review`, `finance-and-grants`
+- `Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf` → `finance-and-grants`, `school-entry-compliance`, `reimbursement-voucher`, `needs-review`, `professional-development`, `procurement-and-vendors`
+- `Perkins-V-Funding-Distribution.pdf` → `finance-and-grants`, `needs-review`, `professional-development`, `school-entry-compliance`
+- `PerkinsV_CLNA_Template_ Guide.pdf` → `finance-and-grants`, `needs-review`, `events-and-showcase`, `reporting-cycles`, `advisory-council`, `curriculum-alignment`
+- `Procurement Services Training.pdf` → `professional-development`, `needs-review`, `quote-2025`, `classroom-management`, `school-entry-compliance`, `procurement-and-vendors`
+- `Program Coherent Sequence.pdf` → `needs-review`, `curriculum-alignment`, `student-pathways-and-wbl`, `finance-and-grants`
+- `Proposal_ Student-Run Financial Center at Townview.pdf` → `needs-review`, `health-and-compliance`, `procurement-and-vendors`, `classroom-management`, `school-entry-compliance`
+- `QR Sheet 2a_Stakeholder Involvement by Program-1.pdf` → `advisory-council`, `needs-review`
+- `Receipt _ DALLAS ISD.pdf` → `needs-review`, `finance-and-grants`, `reimbursement-voucher`
+- `Sample AI Prompt for Intervention Planning.pdf` → `needs-review`, `events-and-showcase`
+- `Sample CTE Equipment Request Form.pdf` → `procurement-and-vendors`, `curriculum-alignment`, `needs-review`, `quote-2025`, `agreements-dallasisd-org`, `advisory-council`
+- `Sample CTE Instructional Coaching Guidelines.pdf` → `needs-review`, `professional-development`
+- `Sample CW Day.pdf` → `needs-review`, `student-pathways-and-wbl`, `events-and-showcase`, `advisory-council`, `career-clusters`
+- `Scope and Sequence Template.pdf` → `needs-review`, `curriculum-alignment`, `student-pathways-and-wbl`, `middle-school-cte`
+- `Spring Stipend CTE-additions 2026.pdf` → `finance-and-grants`, `needs-review`, `budget-tracker`, `events-and-showcase`
+- `Standard Operting Procedures-Perkins.pdf` → `finance-and-grants`, `school-entry-compliance`, `procurement-and-vendors`, `budget-tracker`, `classroom-management`, `professional-development`
+- `StartProcess.pdf` → `needs-review`, `classroom-management`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779988804972 - Melissa Alonso.pdf` → `health-and-compliance`, `needs-review`, `classroom-management`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989208523 - Jennifer Carpio.pdf` → `health-and-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990647956 - Gabriella Nunez 2.pdf` → `health-and-compliance`, `needs-review`, `reporting-cycles`, `classroom-management`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991060777 - Jayde Morales.pdf` → `health-and-compliance`, `needs-review`, `classroom-management`
+- `Summer PD Schedule 2026.pdf` → `professional-development`, `student-pathways-and-wbl`, `needs-review`, `procurement-and-vendors`, `classroom-management`, `events-and-showcase`
+- `TOSA Site agreement.pdf` → `health-and-compliance`, `needs-review`, `student-pathways-and-wbl`, `school-entry-compliance`, `quote-2025`, `professional-development`
+- `Tiva classes.pdf` → `professional-development`, `events-and-showcase`, `needs-review`
+- `Trustee_CTE_Pathway_Tracker 25-26.pdf` → `needs-review`, `budget-tracker`, `career-clusters`, `events-and-showcase`
+- `Vehicle Check Out Form.pdf` → `needs-review`, `reimbursement-voucher`, `student-pathways-and-wbl`, `classroom-management`
+- `Vitals-Childrens-Testing Route.pdf` → `health-and-compliance`, `classroom-management`, `needs-review`
+- `WBL.pdf` → `needs-review`, `career-clusters`, `student-pathways-and-wbl`, `advisory-council`, `professional-development`, `health-and-compliance`
+- `Workscopes_ Step #1_ Stop_and_Jot_Reflection.pdf` → `events-and-showcase`, `needs-review`, `advisory-council`
+- `Workshop Title： ＂The First 10： Maximizing Every Minute for Career Success＂.pdf` → `classroom-management`, `professional-development`, `curriculum-alignment`, `student-pathways-and-wbl`, `needs-review`
+- `add_to_calendar.ics` → `needs-review`, `finance-and-grants`, `professional-development`, `classroom-management`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (2).pdf` → `curriculum-alignment`, `student-pathways-and-wbl`, `needs-review`, `eif-pathful-training`, `health-and-compliance`, `events-and-showcase`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030-3.pdf` → `needs-review`, `health-and-compliance`, `professional-development`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030.pdf` → `needs-review`, `health-and-compliance`, `professional-development`, `classroom-management`, `curriculum-alignment`, `student-pathways-and-wbl`
+- `cte-indicator-auto-coder.pdf` → `needs-review`, `school-entry-compliance`, `health-and-compliance`
+- `cte-wbl-training-plan.pdf` → `professional-development`, `student-pathways-and-wbl`, `eif-pathful-training`, `needs-review`, `curriculum-alignment`, `school-entry-compliance`
+- `eDynamic Quote - Principles of IT - 3YR - R. Howard_V1.pdf` → `quote-2025`, `student-pathways-and-wbl`, `needs-review`, `professional-development`, `career-clusters`, `procurement-and-vendors`
+- `industry-based-certifications-earned-sy2022-23.pdf` → `student-pathways-and-wbl`, `needs-review`
+- `invite (1).ics` → `needs-review`, `classroom-management`
+- `invite.ics` → `needs-review`, `student-pathways-and-wbl`
+- `outlook (1).vcs` → `professional-development`, `needs-review`, `session-attendance`
+- `outlook.vcs` → `needs-review`, `student-pathways-and-wbl`, `professional-development`, `classroom-management`
+- `p2024-list-of-materials-adopted-by-sboe.pdf` → `needs-review`, `student-pathways-and-wbl`, `curriculum-alignment`, `reporting-cycles`
+- `perkinsplanupdatefinalrevised.pdf` → `finance-and-grants`, `needs-review`, `professional-development`, `advisory-council`, `budget-tracker`, `student-pathways-and-wbl`
+- `preliminary-2025-2030-ibc-to-program-of-study-crosswalk.pdf` → `needs-review`, `student-pathways-and-wbl`, `career-clusters`
+- `regional-labor-market-information-wda-5.pdf` → `reporting-cycles`, `needs-review`, `career-clusters`, `health-and-compliance`, `student-pathways-and-wbl`, `events-and-showcase`
+- `regional-labor-market-information-wda-6.pdf` → `reporting-cycles`, `professional-development`, `needs-review`, `career-clusters`, `budget-tracker`, `student-pathways-and-wbl`
+
+### Professional Development (164)
+
+- ` PD Summer Schedule.pdf` → `school-entry-compliance`, `student-pathways-and-wbl`, `events-and-showcase`, `needs-review`, `reporting-cycles`, `health-and-compliance`
+- `2025 CTE Summer PD Feedback.pdf` → `curriculum-and-instruction`, `needs-review`, `events-and-showcase`, `eif-pathful-training`, `procurement-and-vendors`, `session-attendance`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Gaumard.pdf` → `procurement-and-vendors`, `needs-review`, `health-and-compliance`, `curriculum-and-instruction`, `school-entry-compliance`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Nasco.pdf` → `procurement-and-vendors`, `health-and-compliance`, `curriculum-and-instruction`, `needs-review`
+- `2026-27 Perkins Application — Filled Tentative (PS3350).pdf` → `finance-and-grants`, `needs-review`, `advisory-council`, `session-attendance`
+- `3. Board Document 250357[69].pdf` → `events-and-showcase`, `student-pathways-and-wbl`, `health-and-compliance`, `career-clusters`, `needs-review`, `finance-and-grants`
+- `ACTE Vision 2025 Agenda.pdf` → `events-and-showcase`, `curriculum-and-instruction`, `needs-review`, `session-attendance`, `middle-school-cte`, `student-pathways-and-wbl`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf` → `curriculum-and-instruction`, `lab-results`, `finance-and-grants`, `events-and-showcase`, `needs-review`, `reporting-cycles`
+- `ACTE-Membership-Application-Jeremy Spence.pdf` → `needs-review`, `curriculum-and-instruction`, `student-pathways-and-wbl`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768501134.7069674.pdf` → `curriculum-and-instruction`, `eif-pathful-training`, `career-clusters`, `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768502080.5657754.pdf` → `curriculum-and-instruction`, `eif-pathful-training`, `career-clusters`, `needs-review`, `student-pathways-and-wbl`, `procurement-and-vendors`
+- `CLNA 26-27/2025-26 Application.pdf (SECURED).pdf` → `finance-and-grants`, `needs-review`, `curriculum-and-instruction`, `career-clusters`, `procurement-and-vendors`, `student-pathways-and-wbl`
+- `CLNA Guiding Questions.pdf` → `needs-review`, `curriculum-and-instruction`, `session-attendance`, `health-and-compliance`, `curriculum-alignment`, `finance-and-grants`
+- `CPAL_DISD_MOU_SowingSeeds (3).pdf` → `needs-review`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `lab-results`
+- `CTAT Summer 26_Agenda_062926.pdf` → `events-and-showcase`, `needs-review`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `middle-school-cte`, `session-attendance`
+- `CTE Admin 101-Slide Deck.pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `advisory-council`, `classroom-management`
+- `CTE Admin 102-Slide Deck.pdf` → `curriculum-and-instruction`, `finance-and-grants`, `needs-review`, `curriculum-alignment`
+- `CTE Form Mule Email Preview — CELIS _ Graphic Design I.pdf` → `needs-review`, `lab-results`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `events-and-showcase`
+- `CTE Framework 2 slides.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `needs-review`, `career-clusters`, `advisory-council`, `eif-pathful-training`
+- `CTE PD 6.1.26.pdf` → `budget-tracker`, `session-attendance`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `needs-review`
+- `CTE PLC October 29, 2024 (Responses).pdf` → `eif-pathful-training`, `needs-review`, `curriculum-and-instruction`, `agreements-dallasisd-org`
+- `CTE Summer PD 2026/Copy of Cooperative Learning in CTE.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `needs-review`, `classroom-management`
+- `CTE Summer PD 2026/We are CTE.pdf` → `needs-review`, `career-clusters`, `student-pathways-and-wbl`, `events-and-showcase`, `curriculum-and-instruction`
+- `CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf` → `curriculum-and-instruction`, `needs-review`, `eif-pathful-training`, `procurement-and-vendors`, `middle-school-cte`, `events-and-showcase`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1).pdf` → `student-pathways-and-wbl`, `curriculum-and-instruction`, `needs-review`, `procurement-and-vendors`
+- `CTE- SUM26 Summer Learning Site Signage  Template (2).pdf` → `needs-review`, `eif-pathful-training`, `middle-school-cte`, `events-and-showcase`, `reporting-cycles`, `procurement-and-vendors`
+- `CTE- SUM26 Summer Learning Site Signage  Template.pdf` → `curriculum-and-instruction`, `needs-review`, `eif-pathful-training`, `procurement-and-vendors`, `middle-school-cte`, `events-and-showcase`
+- `CTE-Standard Operating Procedures/2026-27 Dallas ISD CTE CTSO Handbook.docx` → `events-and-showcase`, `needs-review`, `finance-and-grants`, `health-and-compliance`, `school-entry-compliance`
+- `CTE-Standard Operating Procedures/Campus Lead Teacher Program.pdf` → `curriculum-and-instruction`, `needs-review`, `finance-and-grants`, `student-pathways-and-wbl`, `eif-pathful-training`, `session-attendance`
+- `CTE-Standard Operating Procedures/Standard Operting Procedures-Perkins.pdf` → `finance-and-grants`, `needs-review`, `procurement-and-vendors`, `budget-tracker`, `classroom-management`, `events-and-showcase`
+- `CTE_Meeting_Agenda_Updated.pdf` → `events-and-showcase`, `student-pathways-and-wbl`, `classroom-management`, `needs-review`, `curriculum-and-instruction`
+- `Carlson June hourlysupplementaltimecard.pdf` → `needs-review`, `finance-and-grants`, `career-clusters`, `eif-pathful-training`, `school-entry-compliance`
+- `Considerations for 2026–27 and Future Cohorts  CCMR Notecatcher.pdf` → `events-and-showcase`, `needs-review`, `middle-school-cte`, `curriculum-alignment`, `advisory-council`
+- `Cooperative Learning in CTE.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `needs-review`, `classroom-management`
+- `Copy of 26-27 Academic Services Deck Template .pdf` → `curriculum-and-instruction`, `needs-review`, `health-and-compliance`, `advisory-council`
+- `Copy of CTE PLC Agendas (1).pdf` → `events-and-showcase`, `needs-review`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `school-entry-compliance`, `eif-pathful-training`
+- `Copy of EXPO Attendance Roster for CTE.pdf` → `needs-review`, `curriculum-and-instruction`
+- `Cornerstone_Session_Roster_Report_7_20_12 AM.pdf` → `needs-review`, `session-attendance`, `reporting-cycles`, `curriculum-and-instruction`, `student-pathways-and-wbl`
+- `Cornerstone_Session_Signin-10_12_2025 (1).pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `session-attendance`, `eif-pathful-training`
+- `Cornerstone_Session_Signin-10_12_2025.pdf` → `curriculum-and-instruction`, `needs-review`, `session-attendance`, `student-pathways-and-wbl`, `eif-pathful-training`
+- `Cornerstone_Session_Signin-1_14_2026.pdf` → `curriculum-and-instruction`, `needs-review`, `career-clusters`
+- `Cornerstone_Session_Signin-1_5_2026 (1).pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `session-attendance`, `career-clusters`
+- `Cornerstone_Session_Signin-1_5_2026 (3).pdf` → `curriculum-and-instruction`, `needs-review`, `middle-school-cte`, `eif-pathful-training`, `session-attendance`
+- `Cornerstone_Session_Signin-1_5_2026 (4).pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `needs-review`, `session-attendance`, `eif-pathful-training`
+- `Cornerstone_Session_Signin-5_26_2026 (1).pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `session-attendance`
+- `Cornerstone_Session_Signin-5_26_2026 (2).pdf` → `curriculum-and-instruction`, `needs-review`, `session-attendance`, `student-pathways-and-wbl`
+- `Cornerstone_Session_Signin-5_26_2026 (3).pdf` → `curriculum-and-instruction`, `needs-review`, `session-attendance`, `student-pathways-and-wbl`, `eif-pathful-training`, `health-and-compliance`
+- `Cornerstone_Session_Signin-5_26_2026 (4).pdf` → `curriculum-and-instruction`, `needs-review`, `session-attendance`, `student-pathways-and-wbl`
+- `Cornerstone_Session_Signin-5_26_2026 (5).pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `session-attendance`
+- `Cornerstone_Session_Signin-5_26_2026 (6).pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `session-attendance`
+- `Cornerstone_Session_Signin-5_26_2026 (7).pdf` → `curriculum-and-instruction`, `needs-review`, `session-attendance`, `student-pathways-and-wbl`
+- `Cornerstone_Session_Signin-5_26_2026.pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `session-attendance`, `career-clusters`
+- `Cornerstone_Session_Signin-5_29_2026.pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `health-and-compliance`
+- `Cornerstone_Session_Signin-6_10_2026.pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `eif-pathful-training`, `session-attendance`
+- `Cornerstone_Session_Signin-6_9_2026.pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `session-attendance`
+- `Coyle June hourlysupplementaltimecard.pdf` → `finance-and-grants`, `needs-review`, `middle-school-cte`, `budget-tracker`, `reimbursement-voucher`
+- `D. Enderle Travel Form ATAT - signed.pdf` → `finance-and-grants`, `school-entry-compliance`, `needs-review`, `procurement-and-vendors`
+- `D. Johnson complete naf documents .pdf` → `finance-and-grants`, `events-and-showcase`, `procurement-and-vendors`, `needs-review`, `curriculum-and-instruction`
+- `Dallas_ISD_CTE_Industry_Partner_Quarterly_Meeting_One_Pager.pdf` → `needs-review`, `advisory-council`, `curriculum-and-instruction`, `career-clusters`, `student-pathways-and-wbl`, `events-and-showcase`
+- `Department Supplemental Pay Approval Memo.pdf` → `budget-tracker`, `curriculum-and-instruction`, `needs-review`, `curriculum-alignment`, `student-pathways-and-wbl`, `procurement-and-vendors`
+- `Digitial Citizenship PSA[7].pdf` → `curriculum-and-instruction`, `needs-review`, `middle-school-cte`, `eif-pathful-training`, `student-pathways-and-wbl`
+- `Disability+Severe+Food+Allergy+Request+Form.pdf` → `health-and-compliance`, `needs-review`, `reporting-cycles`
+- `Documents/12-month weightlifitng Plan.pdf` → `needs-review`, `classroom-management`
+- `Documents/2025-2026 CTE Oracle iExpense Travel Training.pdf` → `finance-and-grants`, `needs-review`, `reimbursement-voucher`, `school-entry-compliance`, `procurement-and-vendors`
+- `Documents/244 Sitipend 2026/Amaning-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `needs-review`, `finance-and-grants`
+- `Documents/244 Sitipend 2026/Archie-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `needs-review`, `finance-and-grants`, `session-attendance`
+- `Documents/244 Sitipend 2026/Coyle-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `needs-review`, `school-entry-compliance`, `session-attendance`
+- `Documents/244 Sitipend 2026/Hamilton-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `school-entry-compliance`, `needs-review`, `career-clusters`, `finance-and-grants`, `student-pathways-and-wbl`
+- `Documents/244 Sitipend 2026/Jones-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `finance-and-grants`, `budget-tracker`, `career-clusters`, `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`
+- `Documents/244 Sitipend 2026/Kalat-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `finance-and-grants`, `curriculum-and-instruction`, `needs-review`, `career-clusters`
+- `Documents/244 Sitipend 2026/MRodriguez-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `finance-and-grants`, `school-entry-compliance`, `needs-review`, `curriculum-and-instruction`
+- `Documents/244 Sitipend 2026/Maxwell-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `finance-and-grants`, `budget-tracker`, `career-clusters`, `student-pathways-and-wbl`, `curriculum-and-instruction`, `needs-review`
+- `Documents/244 Sitipend 2026/SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `needs-review`, `school-entry-compliance`, `finance-and-grants`, `session-attendance`
+- `Documents/244 Sitipend 2026/Williams-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `curriculum-and-instruction`, `finance-and-grants`, `budget-tracker`, `needs-review`, `career-clusters`
+- `Documents/26-27 TraditionalCalendar-Traditional2026-2027.pdf` → `needs-review`, `classroom-management`
+- `Documents/ACTE Nashville AA.pdf` → `finance-and-grants`, `needs-review`, `events-and-showcase`
+- `Documents/ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `reporting-cycles`, `classroom-management`, `health-and-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/ACTE Advisory Council Support Menu.pdf` → `curriculum-and-instruction`, `advisory-council`, `career-clusters`, `student-pathways-and-wbl`, `needs-review`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Mentor Sample Program.pdf` → `curriculum-and-instruction`, `needs-review`
+- `Documents/ACTE Vision 2025/Admin 101/CTE New Teacher Professional Development Plan (1).pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `classroom-management`, `events-and-showcase`, `advisory-council`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Prof Growth Plan.pdf` → `student-pathways-and-wbl`, `curriculum-and-instruction`, `needs-review`, `events-and-showcase`, `advisory-council`
+- `Documents/ACTE Vision 2025/Admin 101/Directions for High School Scope  Sequence (2).pdf` → `curriculum-and-instruction`, `needs-review`, `events-and-showcase`, `student-pathways-and-wbl`, `curriculum-alignment`
+- `Documents/ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf` → `curriculum-and-instruction`, `advisory-council`, `needs-review`, `student-pathways-and-wbl`, `health-and-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf` → `curriculum-and-instruction`, `needs-review`, `curriculum-alignment`, `student-pathways-and-wbl`
+- `Documents/ACTE Vision 2025/Admin 101/WBL-why it patters.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `finance-and-grants`, `eif-pathful-training`, `middle-school-cte`
+- `Documents/ACTE Vision 2025/CLNA/73459750-E17B-83F6-D59C-631B116DBF582025121022091676.pdf` → `needs-review`, `curriculum-and-instruction`, `session-attendance`, `advisory-council`, `curriculum-alignment`, `events-and-showcase`
+- `Documents/ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `classroom-management`, `agreements-dallasisd-org`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Example of a Team's Communication Agreements.pdf` → `agreements-dallasisd-org`, `needs-review`, `curriculum-and-instruction`, `reporting-cycles`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of a Team's Emotional Intelligence.pdf` → `needs-review`, `curriculum-and-instruction`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of an Effective Team.pdf` → `curriculum-and-instruction`, `needs-review`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Small Group Activity- Modeling Team Coaching in Action.pdf` → `curriculum-and-instruction`, `needs-review`, `finance-and-grants`, `curriculum-alignment`, `health-and-compliance`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Member Roles and Responsibilities.pdf` → `curriculum-and-instruction`, `needs-review`, `agreements-dallasisd-org`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Temperature Check.pdf` → `curriculum-and-instruction`, `needs-review`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf` → `curriculum-and-instruction`, `needs-review`
+- `Documents/Adopted Materiall Quotes␠/ACTE Visin 2025 Grant_Funded Travel Authorization Form- ACTE 2025 copy.pdf` → `finance-and-grants`, `needs-review`, `procurement-and-vendors`, `reimbursement-voucher`, `events-and-showcase`
+- `Documents/Adopted Materiall Quotes␠/CodeHS Proclamation 2024 titles.pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.pdf` → `needs-review`, `finance-and-grants`, `curriculum-and-instruction`, `student-pathways-and-wbl`
+- `Documents/Conference Travel/Expenditure Justification Form_September 2025[86] copy.pdf` → `finance-and-grants`, `needs-review`, `school-entry-compliance`, `curriculum-and-instruction`, `events-and-showcase`
+- `Documents/Conference Travel/JEREMY SPENCE_ACTE VISION 2025_TRAVEL AUTHORIZATION - signed.pdf` → `finance-and-grants`, `reimbursement-voucher`, `needs-review`, `events-and-showcase`, `reporting-cycles`
+- `Documents/Conference Travel/Moore Norman Agenda_MNTC_Dallas_ISD_Visit_Agenda.pdf` → `curriculum-and-instruction`, `events-and-showcase`, `needs-review`, `student-pathways-and-wbl`, `curriculum-alignment`, `health-and-compliance`
+- `Documents/Conference Travel/Moore Norman Name Tent.pdf` → `events-and-showcase`, `session-attendance`, `needs-review`
+- `Documents/Conference Travel/Schedule At-A-Glance ACTE Vision 2025.pdf` → `events-and-showcase`, `needs-review`, `eif-pathful-training`, `career-clusters`
+- `Documents/Cornerstone_Session_Signin-1_5_2026 (2).pdf` → `curriculum-and-instruction`, `needs-review`, `middle-school-cte`, `session-attendance`, `lab-results`, `eif-pathful-training`
+- `Documents/DallasISDTravel - ACTE Best Practice - JB.pdf` → `finance-and-grants`, `reporting-cycles`, `needs-review`, `procurement-and-vendors`, `events-and-showcase`
+- `Documents/DallasISDTravel - ACTE Best Practices - JS.pdf` → `finance-and-grants`, `curriculum-and-instruction`, `events-and-showcase`, `needs-review`, `procurement-and-vendors`, `school-entry-compliance`
+- `Documents/January 2026 Lunch and Learn.pdf` → `needs-review`, `procurement-and-vendors`, `reporting-cycles`, `curriculum-and-instruction`
+- `Documents/Norman Moore Grant_Funded Travel Authorization Form.pdf` → `finance-and-grants`, `procurement-and-vendors`, `reimbursement-voucher`, `needs-review`, `events-and-showcase`
+- `Documents/Procurement Codes .pdf` → `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`, `health-and-compliance`, `lab-results`, `career-clusters`
+- `Documents/Purchase Orders：Lince Codes/ContactList_ProcurementServices_21_2.pdf` → `needs-review`, `health-and-compliance`, `classroom-management`, `curriculum-and-instruction`
+- `Documents/Triptracker 101 2025-26.pptx.pdf` → `needs-review`, `procurement-and-vendors`, `school-entry-compliance`
+- `Documents/WT WHite PD Roster Dallas ISD.pdf` → `needs-review`
+- `Documents/Welding -Alpha Group.pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `procurement-and-vendors`, `events-and-showcase`
+- `EMT：EMR/26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `curriculum-and-instruction`, `needs-review`, `classroom-management`, `student-pathways-and-wbl`, `career-clusters`, `events-and-showcase`
+- `EMT：EMR/Signed NAF Forms 26.pdf` → `finance-and-grants`, `reimbursement-voucher`, `needs-review`, `procurement-and-vendors`, `school-entry-compliance`
+- `Early Childhood Education.pdf` → `curriculum-and-instruction`, `needs-review`, `career-clusters`, `classroom-management`, `health-and-compliance`, `student-pathways-and-wbl`
+- `Ed Rising Conference Itinerary.pdf` → `curriculum-and-instruction`, `needs-review`, `events-and-showcase`, `eif-pathful-training`, `health-and-compliance`
+- `Employability_Skills_Framework_OnePager_20180212.pdf` → `student-pathways-and-wbl`, `curriculum-and-instruction`, `middle-school-cte`, `needs-review`
+- `Estimate_3377_from_Alpha_Education_Group[48].pdf` → `quote-2025`, `budget-tracker`, `needs-review`, `curriculum-and-instruction`, `events-and-showcase`, `career-clusters`
+- `Ewing June hourlysupplementaltimecard.pdf` → `needs-review`, `budget-tracker`, `curriculum-and-instruction`
+- `Hubbard June hourlysupplementaltimecard.pdf` → `needs-review`, `finance-and-grants`, `student-pathways-and-wbl`, `career-clusters`, `eif-pathful-training`
+- `J. Spann.pdf` → `finance-and-grants`, `needs-review`, `procurement-and-vendors`
+- `Jeremy Spence Cover Letter NAF 2026 (1).pdf` → `needs-review`, `curriculum-and-instruction`, `career-clusters`, `advisory-council`, `classroom-management`, `finance-and-grants`
+- `Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED).pdf` → `finance-and-grants`, `reimbursement-voucher`, `needs-review`, `session-attendance`, `events-and-showcase`
+- `JeremySpenceresume 04.2026.pdf` → `curriculum-and-instruction`, `needs-review`, `classroom-management`, `career-clusters`
+- `JeremySpenceresume 06.2024.docx.pdf` → `needs-review`, `curriculum-and-instruction`, `classroom-management`, `middle-school-cte`
+- `KGeorge 25-26 Woodrow CTE Business PLC Minutes.pdf` → `curriculum-and-instruction`, `eif-pathful-training`, `needs-review`, `student-pathways-and-wbl`, `budget-tracker`
+- `L. Sanchez-Munoz Travel form - signed.pdf` → `needs-review`, `finance-and-grants`, `health-and-compliance`
+- `Lesson Plan - Digitial Citizenship Part I.pdf` → `curriculum-and-instruction`, `needs-review`, `middle-school-cte`, `classroom-management`, `student-pathways-and-wbl`
+- `Lockley NAF Internship Expo Attendance and Updates 2026.pdf` → `curriculum-and-instruction`, `needs-review`, `middle-school-cte`
+- `NAF 2026/NAF NEXT 2026 Grant_Funded Travel Authorization Form Updated.pdf` → `finance-and-grants`, `reimbursement-voucher`, `needs-review`, `procurement-and-vendors`
+- `NAF Cover Letter.pdf` → `needs-review`, `career-clusters`, `classroom-management`
+- `NAF Next 2026.pdf` → `needs-review`, `events-and-showcase`, `curriculum-and-instruction`, `procurement-and-vendors`
+- `NAF Next Meeting (1).pdf` → `needs-review`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `events-and-showcase`, `eif-pathful-training`
+- `NAF Next Meeting.pdf` → `needs-review`, `student-pathways-and-wbl`, `events-and-showcase`, `curriculum-and-instruction`
+- `NAF Paperwork/Board Document 250357[69].pdf` → `events-and-showcase`, `student-pathways-and-wbl`, `procurement-and-vendors`, `career-clusters`, `school-entry-compliance`, `needs-review`
+- `PD Creation Department Supplemental Pay Approval Memo .pdf` → `curriculum-and-instruction`, `budget-tracker`, `needs-review`, `curriculum-alignment`, `procurement-and-vendors`, `finance-and-grants`
+- `Perkins Travel/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf` → `budget-tracker`, `needs-review`, `curriculum-and-instruction`, `finance-and-grants`, `health-and-compliance`, `session-attendance`
+- `Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf` → `finance-and-grants`, `curriculum-and-instruction`, `school-entry-compliance`, `reimbursement-voucher`, `needs-review`, `procurement-and-vendors`
+- `Perkins-V-Funding-Distribution.pdf` → `finance-and-grants`, `needs-review`, `curriculum-and-instruction`, `school-entry-compliance`
+- `Procurement Services Training.pdf` → `needs-review`, `quote-2025`, `classroom-management`, `school-entry-compliance`, `procurement-and-vendors`
+- `Sample CTE Instructional Coaching Guidelines.pdf` → `curriculum-and-instruction`, `needs-review`
+- `SampleEmail.pdf` → `needs-review`, `quote-2025`, `procurement-and-vendors`
+- `Spence-NAF Employment Application (1).pdf` → `needs-review`
+- `Spence-Uber-NAF Conference (1).pdf` → `needs-review`, `budget-tracker`
+- `Standard Operting Procedures-Perkins.pdf` → `finance-and-grants`, `school-entry-compliance`, `procurement-and-vendors`, `budget-tracker`, `classroom-management`, `events-and-showcase`
+- `Summer PD Schedule 2026.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `needs-review`, `procurement-and-vendors`, `classroom-management`, `events-and-showcase`
+- `Supplemental_form.pdf` → `budget-tracker`, `finance-and-grants`, `school-entry-compliance`, `needs-review`
+- `TOSA Site agreement.pdf` → `health-and-compliance`, `needs-review`, `student-pathways-and-wbl`, `school-entry-compliance`, `quote-2025`, `curriculum-and-instruction`
+- `Tiva classes.pdf` → `curriculum-and-instruction`, `events-and-showcase`, `needs-review`
+- `Transportation Receipt 2.pdf` → `needs-review`, `events-and-showcase`, `finance-and-grants`
+- `Triptracker Cheat Sheet.pdf` → `needs-review`, `agreements-dallasisd-org`, `health-and-compliance`
+- `WBL.pdf` → `needs-review`, `career-clusters`, `student-pathways-and-wbl`, `advisory-council`, `curriculum-and-instruction`, `health-and-compliance`
+- `Workshop Title： ＂The First 10： Maximizing Every Minute for Career Success＂.pdf` → `classroom-management`, `curriculum-alignment`, `student-pathways-and-wbl`, `needs-review`
+- `add_to_calendar.ics` → `needs-review`, `finance-and-grants`, `classroom-management`, `curriculum-and-instruction`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (2).pdf` → `curriculum-and-instruction`, `curriculum-alignment`, `student-pathways-and-wbl`, `needs-review`, `eif-pathful-training`, `health-and-compliance`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030-3.pdf` → `curriculum-and-instruction`, `needs-review`, `health-and-compliance`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030.pdf` → `needs-review`, `curriculum-and-instruction`, `health-and-compliance`, `classroom-management`, `curriculum-alignment`, `student-pathways-and-wbl`
+- `cte-wbl-training-plan.pdf` → `student-pathways-and-wbl`, `eif-pathful-training`, `curriculum-and-instruction`, `needs-review`, `curriculum-alignment`, `school-entry-compliance`
+- `eDynamic Quote - Principles of IT - 3YR - R. Howard_V1.pdf` → `quote-2025`, `student-pathways-and-wbl`, `needs-review`, `career-clusters`, `procurement-and-vendors`
+- `hourlysupplementaltimecard.pdf` → `finance-and-grants`, `needs-review`, `eif-pathful-training`, `student-pathways-and-wbl`
+- `outlook (1).vcs` → `curriculum-and-instruction`, `needs-review`, `session-attendance`
+- `outlook.vcs` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `classroom-management`
+- `perkinsplanupdatefinalrevised.pdf` → `finance-and-grants`, `needs-review`, `advisory-council`, `curriculum-and-instruction`, `budget-tracker`, `student-pathways-and-wbl`
+- `regional-labor-market-information-wda-6.pdf` → `reporting-cycles`, `needs-review`, `curriculum-and-instruction`, `career-clusters`, `budget-tracker`, `student-pathways-and-wbl`
+
+### Health & Compliance (180)
+
+- ` PD Summer Schedule.pdf` → `professional-development`, `school-entry-compliance`, `student-pathways-and-wbl`, `events-and-showcase`, `needs-review`, `reporting-cycles`
+- `2018_TaxReturn (1).pdf` → `needs-review`, `classroom-management`
+- `2024-2025-clna-guidebook.pdf` → `finance-and-grants`, `needs-review`, `curriculum-and-instruction`, `curriculum-alignment`, `session-attendance`, `advisory-council`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ASE.pdf` → `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`, `curriculum-and-instruction`, `school-entry-compliance`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - BACE.pdf` → `procurement-and-vendors`, `student-pathways-and-wbl`, `needs-review`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Certiport.pdf` → `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`, `curriculum-and-instruction`, `career-clusters`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ESCO Institute.pdf` → `procurement-and-vendors`, `student-pathways-and-wbl`, `curriculum-and-instruction`, `school-entry-compliance`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Gaumard.pdf` → `procurement-and-vendors`, `needs-review`, `curriculum-and-instruction`, `school-entry-compliance`, `professional-development`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Nasco.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`, `needs-review`, `professional-development`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_American Medical Technologists (AMT).pdf` → `procurement-and-vendors`, `lab-results`, `student-pathways-and-wbl`, `agreements-dallasisd-org`, `curriculum-and-instruction`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Assessment Technologies.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `needs-review`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Platinum Consulting.pdf` → `procurement-and-vendors`, `needs-review`, `finance-and-grants`, `events-and-showcase`
+- `2026 Graduation Cord Rosters.pdf` → `needs-review`, `student-pathways-and-wbl`
+- `25-26 CI North .pdf` → `student-pathways-and-wbl`, `needs-review`, `curriculum-and-instruction`, `reporting-cycles`
+- `25-26 SEC 11028Y1N2-2022 Early Childhood.pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `lab-results`, `procurement-and-vendors`
+- `26-27 Campus CTE Nonposition Realignment Datasource V4.pdf` → `needs-review`, `curriculum-and-instruction`, `budget-tracker`, `student-pathways-and-wbl`
+- `3. Board Document 250357-version 2.pdf` → `events-and-showcase`, `student-pathways-and-wbl`, `career-clusters`, `finance-and-grants`, `needs-review`, `procurement-and-vendors`
+- `3. Board Document 250357[69].pdf` → `events-and-showcase`, `student-pathways-and-wbl`, `career-clusters`, `professional-development`, `needs-review`, `finance-and-grants`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf` → `curriculum-and-instruction`, `lab-results`, `professional-development`, `finance-and-grants`, `events-and-showcase`, `needs-review`
+- `Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf (SECURED).pdf` → `needs-review`, `lab-results`, `curriculum-and-instruction`, `school-entry-compliance`
+- `BAUTISTA_TIVA GRANT TRAVEL DOCS.pdf` → `finance-and-grants`, `reporting-cycles`, `school-entry-compliance`, `needs-review`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768501134.7069674.pdf` → `curriculum-and-instruction`, `eif-pathful-training`, `career-clusters`, `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`
+- `CLNA DALLAS ISD Working Doc.pdf` → `needs-review`, `finance-and-grants`, `curriculum-alignment`, `curriculum-and-instruction`
+- `CLNA Guiding Questions.pdf` → `needs-review`, `curriculum-and-instruction`, `session-attendance`, `curriculum-alignment`, `professional-development`, `finance-and-grants`
+- `COZART_TIVA GRANT TRAVEL DOCS - signed (1).pdf` → `finance-and-grants`, `needs-review`, `curriculum-and-instruction`, `reporting-cycles`, `agreements-dallasisd-org`, `school-entry-compliance`
+- `CPAL_DISD_MOU_SowingSeeds (3).pdf` → `needs-review`, `professional-development`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `lab-results`
+- `CTE Form Mule Email Preview — CELIS _ Graphic Design I.pdf` → `needs-review`, `professional-development`, `lab-results`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `events-and-showcase`
+- `CTE-Standard Operating Procedures/2026-27 Dallas ISD CTE CTSO Handbook.docx` → `events-and-showcase`, `needs-review`, `finance-and-grants`, `professional-development`, `school-entry-compliance`
+- `CTE-Standard Operating Procedures/Campus Lead Teacher Program.pdf` → `curriculum-and-instruction`, `needs-review`, `finance-and-grants`, `student-pathways-and-wbl`, `eif-pathful-training`, `session-attendance`
+- `CTX_Berkner HS_ED02.pdf` → `needs-review`, `classroom-management`, `school-entry-compliance`, `student-pathways-and-wbl`
+- `Career Institute North - Raw Data Entries.pdf` → `curriculum-and-instruction`, `needs-review`, `budget-tracker`, `student-pathways-and-wbl`
+- `Carlson June hourlysupplementaltimecard.pdf` → `needs-review`, `finance-and-grants`, `career-clusters`, `eif-pathful-training`, `school-entry-compliance`
+- `Copy of 26-27 Academic Services Deck Template .pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `advisory-council`
+- `Copy of CTE PLC Agendas (1).pdf` → `events-and-showcase`, `needs-review`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `school-entry-compliance`, `eif-pathful-training`
+- `Cornerstone_Session_Signin-5_26_2026 (3).pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `session-attendance`, `student-pathways-and-wbl`, `eif-pathful-training`
+- `Cornerstone_Session_Signin-5_29_2026.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `student-pathways-and-wbl`
+- `D. Enderle Travel Form ATAT - signed.pdf` → `finance-and-grants`, `school-entry-compliance`, `needs-review`, `procurement-and-vendors`, `professional-development`
+- `DISD_EMS_Student_Profile_5_26_26.pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `school-entry-compliance`
+- `DISD_Purchasing_Analysis 208023.pdf` → `procurement-and-vendors`, `events-and-showcase`, `career-clusters`, `student-pathways-and-wbl`, `needs-review`, `budget-tracker`
+- `DRAFT Vehicle Intake & Liability Waiver Form.pdf` → `needs-review`, `curriculum-and-instruction`, `finance-and-grants`, `procurement-and-vendors`
+- `Dallas ISD TB Results/ALEXIS GUERECA 01.13.2010   TB LAB RESULTS.pdf` → `lab-results`, `needs-review`
+- `Dallas ISD TB Results/ALLISON GARCIAGUIRRE 07.16.2009 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`
+- `Dallas ISD TB Results/ANA RIVERA 12.09.2008 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`
+- `Dallas ISD TB Results/ANGIE GONZALEZ 07.23.2010 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`, `school-entry-compliance`
+- `Dallas ISD TB Results/ARIANA GOMEZ 02.16.2011 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`
+- `Dallas ISD TB Results/CARLA MELGAR 09.22.1992 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`, `reporting-cycles`
+- `Dallas ISD TB Results/CINTHIA SANTOYO 06.08.2009 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`
+- `Dallas ISD TB Results/EDGAR VASQUEZ 09.10.2010 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`
+- `Dallas ISD TB Results/EMILY COLLINS 06.10.2009 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`
+- `Dallas ISD TB Results/GABRIELA GURROLA 11.13.2009 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`
+- `Dallas ISD TB Results/GABRIELLA NUNEZ 12.28.2009 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`
+- `Dallas ISD TB Results/ISABELLA GUERRERO 10.02.2009 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`
+- `Dallas ISD TB Results/JENNIFER CARPIO 09.30.2009 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`
+- `Dallas ISD TB Results/JUVE NOE MATEOS MENDOZA 06.04.2008 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`, `school-entry-compliance`
+- `Dallas ISD TB Results/LYLA CAMERENA 04.16.2008 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`
+- `Dallas ISD TB Results/MARILYN ALMONACI 12.14.2009 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`
+- `Dallas ISD TB Results/MARLEY MARROQUIN 07.08.2008 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`
+- `Dallas ISD TB Results/MELISSA ALONSO 10.23.2008 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`
+- `Dallas ISD TB Results/MELISSA LARA 02.19.2011 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`
+- `Dallas ISD TB Results/NATALIA BLAS 05.21.2010 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`
+- `Dallas ISD TB Results/PAULA ROCABRUNO TORRALBA 11.16.2010 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`, `school-entry-compliance`
+- `Dallas ISD TB Results/TREYNAHDEE WASHINGTON 08.07.2009 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`, `school-entry-compliance`
+- `Dallas ISD TB Results/YVONNE MORGAN 07.14.1980 TB LABRESULTS.pdf` → `lab-results`, `needs-review`, `school-entry-compliance`
+- `Dallas_ISD_CLNA_2026-2027_DRAFT.pdf` → `needs-review`, `finance-and-grants`, `curriculum-and-instruction`, `curriculum-alignment`, `career-clusters`, `budget-tracker`
+- `Disability+Severe+Food+Allergy+Request+Form.pdf` → `needs-review`, `professional-development`, `reporting-cycles`
+- `Documents/2025-2026 CTE Oracle iExpense Travel Training.pdf` → `professional-development`, `finance-and-grants`, `needs-review`, `reimbursement-voucher`, `school-entry-compliance`, `procurement-and-vendors`
+- `Documents/244 Sitipend 2026/Copy of CTE Lead Teacher Stipends (Fall 2025).pdf` → `finance-and-grants`, `needs-review`, `curriculum-and-instruction`, `school-entry-compliance`
+- `Documents/244 Sitipend 2026/Coyle-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `needs-review`, `professional-development`, `school-entry-compliance`, `session-attendance`
+- `Documents/244 Sitipend 2026/Hamilton-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `professional-development`, `school-entry-compliance`, `needs-review`, `career-clusters`, `finance-and-grants`
+- `Documents/244 Sitipend 2026/MRodriguez-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `finance-and-grants`, `professional-development`, `school-entry-compliance`, `needs-review`, `curriculum-and-instruction`
+- `Documents/244 Sitipend 2026/SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `needs-review`, `professional-development`, `school-entry-compliance`, `finance-and-grants`, `session-attendance`
+- `Documents/26-27 Campus CTE Nonposition Realignment Datasource Updated.pdf` → `needs-review`, `budget-tracker`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `school-entry-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `professional-development`, `reporting-cycles`, `classroom-management`
+- `Documents/ACTE Vision 2025/Admin 101/CTE New Teacher Professional Development Plan (1).pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `professional-development`, `classroom-management`, `events-and-showcase`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Required Certification by Program.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `needs-review`, `school-entry-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf` → `curriculum-and-instruction`, `advisory-council`, `needs-review`, `student-pathways-and-wbl`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/request.pdf` → `curriculum-and-instruction`, `needs-review`, `finance-and-grants`, `career-clusters`, `student-pathways-and-wbl`, `events-and-showcase`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `needs-review`, `curriculum-and-instruction`, `school-entry-compliance`, `session-attendance`, `curriculum-alignment`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool-Example.pdf` → `events-and-showcase`, `curriculum-and-instruction`, `needs-review`, `curriculum-alignment`, `advisory-council`, `school-entry-compliance`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf` → `events-and-showcase`, `curriculum-and-instruction`, `session-attendance`, `advisory-council`, `needs-review`, `school-entry-compliance`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf` → `finance-and-grants`, `curriculum-and-instruction`, `school-entry-compliance`, `needs-review`, `curriculum-alignment`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Small Group Activity- Modeling Team Coaching in Action.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `finance-and-grants`, `curriculum-alignment`
+- `Documents/ANG-DISD Adamson HS Air Compressor Equipment Repairs_Quote_20262603AD.pdf` → `quote-2025`, `needs-review`, `school-entry-compliance`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Garner A&P 1 year Estimate_316614.pdf` → `curriculum-and-instruction`, `procurement-and-vendors`, `needs-review`, `quote-2025`, `student-pathways-and-wbl`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 1 year Estimate_375613.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`, `needs-review`, `lab-results`, `quote-2025`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 4 year  Estimate_375616.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`, `needs-review`, `lab-results`, `quote-2025`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Video Game Design Estimate_375603.pdf` → `curriculum-and-instruction`, `needs-review`, `procurement-and-vendors`, `lab-results`, `quote-2025`
+- `Documents/Affiliated Agreements/Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2)[18].pdf` → `needs-review`, `lab-results`, `curriculum-and-instruction`, `school-entry-compliance`
+- `Documents/Affiliated Agreements/Automotive Service Excellence - Approved for one time purchase[5].pdf` → `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`, `school-entry-compliance`
+- `Documents/Affiliated Agreements/Dallas ISD_First Amendment  to extend term[31].pdf` → `needs-review`, `lab-results`
+- `Documents/Baylor Scott & Whote MAA 2028 08.09.23.pdf` → `needs-review`, `school-entry-compliance`, `curriculum-and-instruction`, `events-and-showcase`, `reporting-cycles`
+- `Documents/Conference Travel/Expenditure Justification Form_September 2025[86] copy.pdf` → `finance-and-grants`, `professional-development`, `needs-review`, `school-entry-compliance`, `curriculum-and-instruction`, `events-and-showcase`
+- `Documents/Conference Travel/Moore Norman Agenda_MNTC_Dallas_ISD_Visit_Agenda.pdf` → `curriculum-and-instruction`, `events-and-showcase`, `needs-review`, `professional-development`, `student-pathways-and-wbl`, `curriculum-alignment`
+- `Documents/Conference Travel/Uber 2 Nashville.pdf` → `needs-review`, `events-and-showcase`, `student-pathways-and-wbl`, `reimbursement-voucher`
+- `Documents/Cornerstone_Session_Signin-1_5_2026 (2).pdf` → `curriculum-and-instruction`, `needs-review`, `middle-school-cte`, `professional-development`, `session-attendance`, `lab-results`
+- `Documents/DallasISDTravel - ACTE Best Practices - JS.pdf` → `finance-and-grants`, `curriculum-and-instruction`, `events-and-showcase`, `needs-review`, `professional-development`, `procurement-and-vendors`
+- `Documents/How to Request a Trip (2).pdf` → `needs-review`, `budget-tracker`, `procurement-and-vendors`, `school-entry-compliance`, `events-and-showcase`, `curriculum-and-instruction`
+- `Documents/M. Spence Initial Parent Referral Packet[16].pdf` → `needs-review`, `session-attendance`, `student-pathways-and-wbl`
+- `Documents/Mackenna Spence 12-21-BASC 3 Teacher.pdf` → `reporting-cycles`, `needs-review`, `classroom-management`, `events-and-showcase`
+- `Documents/Non-AwardedVendorRequestForm copy.pdf` → `procurement-and-vendors`, `school-entry-compliance`, `agreements-dallasisd-org`, `needs-review`
+- `Documents/Personal/Everlake- Beneficiary Change Lincoln Benefit copy.pdf` → `needs-review`, `curriculum-and-instruction`
+- `Documents/Proclamation 2024_Preliminary Findings of the State Review Panel.pdf` → `needs-review`, `curriculum-and-instruction`, `career-clusters`, `school-entry-compliance`, `session-attendance`
+- `Documents/Procurement Codes .pdf` → `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`, `professional-development`, `lab-results`, `career-clusters`
+- `Documents/Purchase Orders：Lince Codes/ContactList_ProcurementServices_21_2.pdf` → `needs-review`, `classroom-management`, `professional-development`, `curriculum-and-instruction`
+- `Documents/Showcase Promo 2026[5].pdf` → `events-and-showcase`, `career-clusters`, `needs-review`
+- `Documents/TEKS/130.-subchapter-d-business-management-and-administration.pdf` → `curriculum-and-instruction`, `classroom-management`, `needs-review`, `student-pathways-and-wbl`
+- `Documents/Townview Business School Leadership Campus Field Trip Proposal[17].pdf` → `needs-review`, `events-and-showcase`, `curriculum-and-instruction`, `curriculum-alignment`
+- `Documents/Triptracker 101 2025-26.pptx.pdf` → `professional-development`, `needs-review`, `procurement-and-vendors`, `school-entry-compliance`
+- `Documents/untitled folder/Travel Forms/Expenditure Justification Form_September 2025.pdf` → `finance-and-grants`, `school-entry-compliance`, `needs-review`, `curriculum-alignment`
+- `EMT：EMR/26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `curriculum-and-instruction`, `needs-review`, `classroom-management`, `student-pathways-and-wbl`, `career-clusters`, `professional-development`
+- `EMT：EMR/Dallas ISD_First Amendment  to extend term (1) - signed.pdf` → `lab-results`, `curriculum-and-instruction`, `needs-review`
+- `EMT：EMR/FOR_YOUR_SIGNATURE_Affiliation_Agreement(One[79].pdf` → `needs-review`, `school-entry-compliance`, `reporting-cycles`, `lab-results`
+- `EMT：EMR/Signed NAF Forms 26.pdf` → `finance-and-grants`, `reimbursement-voucher`, `needs-review`, `professional-development`, `procurement-and-vendors`, `school-entry-compliance`
+- `Early Childhood Education.pdf` → `curriculum-and-instruction`, `needs-review`, `career-clusters`, `professional-development`, `classroom-management`, `student-pathways-and-wbl`
+- `Ed Rising Conference Itinerary.pdf` → `curriculum-and-instruction`, `needs-review`, `events-and-showcase`, `professional-development`, `eif-pathful-training`
+- `Editable_Non Awarded Vendor Request Form 7.2025.pdf` → `procurement-and-vendors`, `school-entry-compliance`, `needs-review`, `agreements-dallasisd-org`, `finance-and-grants`
+- `Intership Student Names.pdf` → `needs-review`, `curriculum-and-instruction`, `student-pathways-and-wbl`
+- `JAYDE MORALES 03.13.2009 TB LAB RESULTS.pdf` → `lab-results`, `needs-review`
+- `JOSEPH_THOA_GRANT TRAVEL FORM-REVISED - signed.pdf` → `finance-and-grants`, `agreements-dallasisd-org`, `needs-review`
+- `KGeorgeTrainingIBCs3.25.26.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `needs-review`
+- `L. Sanchez-Munoz Travel form - signed.pdf` → `needs-review`, `finance-and-grants`, `professional-development`
+- `Lead Teacher/SOP Materials/Federal Spend & Cooperative Contract Use.pdf` → `school-entry-compliance`, `student-pathways-and-wbl`, `needs-review`, `quote-2025`, `curriculum-and-instruction`, `procurement-and-vendors`
+- `M. Spence 504 Plan.pdf` → `needs-review`, `classroom-management`, `session-attendance`, `finance-and-grants`
+- `Mental+Health+Services+Notification.pdf` → `curriculum-and-instruction`, `needs-review`
+- `Minor Testing Packet.pdf` → `lab-results`, `curriculum-and-instruction`, `needs-review`, `classroom-management`, `session-attendance`
+- `NAF Employment Application.pdf` → `needs-review`
+- `NAF Paperwork/Board Document 250357[69].pdf` → `events-and-showcase`, `student-pathways-and-wbl`, `procurement-and-vendors`, `career-clusters`, `school-entry-compliance`, `professional-development`
+- `NICHQ Teacher.pdf` → `reporting-cycles`, `needs-review`, `classroom-management`, `curriculum-and-instruction`
+- `Non Awarded Vendor Quotes/Davis Publications Non Awarded Vendor Approved.pdf` → `curriculum-and-instruction`, `procurement-and-vendors`, `needs-review`, `school-entry-compliance`, `quote-2025`
+- `Non Awarded Vendor Quotes/Pearson Non Awarded Approved.pdf` → `procurement-and-vendors`, `student-pathways-and-wbl`, `curriculum-and-instruction`, `needs-review`, `school-entry-compliance`, `quote-2025`
+- `Non-Awarded Vendor Forms approved/Alpha Education Group_Non-AwardedVendorRequestForm - signed.pdf (SECURED).pdf` → `procurement-and-vendors`, `needs-review`, `agreements-dallasisd-org`
+- `Non-Awarded Vendor Forms approved/CLNA␠/2026-27-clna-guidebook.pdf` → `finance-and-grants`, `needs-review`, `school-entry-compliance`, `advisory-council`, `session-attendance`, `curriculum-and-instruction`
+- `Non-Awarded Vendor Forms approved/Career Safe-approval[30].pdf` → `procurement-and-vendors`, `career-clusters`, `student-pathways-and-wbl`, `needs-review`, `agreements-dallasisd-org`, `events-and-showcase`
+- `PATIN_TIVA-GRANT TRAVEL FORM-REVISED - signed.pdf (SECURED).pdf` → `finance-and-grants`, `needs-review`, `agreements-dallasisd-org`
+- `Parent consent Dallas ISD.docx[18].pdf` → `needs-review`, `lab-results`, `finance-and-grants`
+- `Perkins Travel/2025-2026 Financial Services Activity Calendar[2].pdf` → `procurement-and-vendors`, `needs-review`, `finance-and-grants`, `school-entry-compliance`, `budget-tracker`, `classroom-management`
+- `Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `session-attendance`, `curriculum-and-instruction`, `needs-review`, `budget-tracker`
+- `Perkins Travel/Expenditure Justification Form_September 2025[72].pdf` → `finance-and-grants`, `school-entry-compliance`, `procurement-and-vendors`, `needs-review`
+- `Perkins Travel/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf` → `budget-tracker`, `needs-review`, `curriculum-and-instruction`, `finance-and-grants`, `session-attendance`, `professional-development`
+- `Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf` → `finance-and-grants`, `curriculum-and-instruction`, `school-entry-compliance`, `reimbursement-voucher`, `needs-review`, `professional-development`
+- `Perkins-V-Funding-Distribution.pdf` → `finance-and-grants`, `needs-review`, `curriculum-and-instruction`, `professional-development`, `school-entry-compliance`
+- `PerkinsV_CLNA_Template_ Guide.pdf` → `finance-and-grants`, `curriculum-and-instruction`, `needs-review`, `events-and-showcase`, `reporting-cycles`, `advisory-council`
+- `Procurement Services Training.pdf` → `professional-development`, `needs-review`, `quote-2025`, `classroom-management`, `school-entry-compliance`, `procurement-and-vendors`
+- `Proposal_ Student-Run Financial Center at Townview.pdf` → `needs-review`, `procurement-and-vendors`, `classroom-management`, `school-entry-compliance`, `curriculum-and-instruction`
+- `SouthwestReturnCollabTripAustin (2).pdf` → `needs-review`, `finance-and-grants`
+- `Standard Operting Procedures-Perkins.pdf` → `finance-and-grants`, `school-entry-compliance`, `procurement-and-vendors`, `budget-tracker`, `classroom-management`, `professional-development`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779987132611 - Marilyn Almonaci.pdf` → `needs-review`, `school-entry-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779988804972 - Melissa Alonso.pdf` → `needs-review`, `classroom-management`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779988892711 - Natalia Blas.pdf` → `needs-review`, `school-entry-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989208523 - Jennifer Carpio.pdf` → `needs-review`, `curriculum-and-instruction`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989270536 - Emily Collins.pdf` → `needs-review`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989419214 - Allison Garcia.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989820280 - Ariana Gomez Artica.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990127878 - Alexis Guereca.pdf` → `needs-review`, `budget-tracker`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990207966 - Ana Rivera.pdf` → `needs-review`, `school-entry-compliance`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990494836 - Paula Rocabruno Torralba.pdf` → `school-entry-compliance`, `needs-review`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990589182 - Gabriella Nunez 1.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990647956 - Gabriella Nunez 2.pdf` → `needs-review`, `reporting-cycles`, `classroom-management`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990990829 - Cinthia Santoyo.pdf` → `needs-review`, `school-entry-compliance`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991060777 - Jayde Morales.pdf` → `needs-review`, `classroom-management`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991144994 - Juve Mateos Mendoza.pdf` → `needs-review`, `school-entry-compliance`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991243234 - Isabella Guerrero.pdf` → `school-entry-compliance`, `needs-review`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991314944 - Treynahdee Washington.pdf` → `needs-review`, `school-entry-compliance`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991580729 - Gabriela Gurrola.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991987508 - Angie Gonzalez.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779992249416 - Melissa Lara.pdf` → `needs-review`, `reporting-cycles`
+- `Student List_TAFE Nationals_D.O.B..pdf` → `needs-review`, `finance-and-grants`
+- `Student+Code+of+Conduct.pdf` → `needs-review`, `school-entry-compliance`
+- `Supplemental_form.pdf` → `budget-tracker`, `finance-and-grants`, `professional-development`, `school-entry-compliance`, `needs-review`
+- `TOSA Site agreement.pdf` → `needs-review`, `student-pathways-and-wbl`, `school-entry-compliance`, `quote-2025`, `curriculum-and-instruction`, `professional-development`
+- `Triptracker Cheat Sheet.pdf` → `needs-review`, `agreements-dallasisd-org`, `professional-development`
+- `Vitals-Childrens-Testing Route.pdf` → `classroom-management`, `needs-review`
+- `WBL.pdf` → `needs-review`, `career-clusters`, `student-pathways-and-wbl`, `advisory-council`, `professional-development`, `curriculum-and-instruction`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (2).pdf` → `curriculum-and-instruction`, `curriculum-alignment`, `student-pathways-and-wbl`, `needs-review`, `eif-pathful-training`, `events-and-showcase`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030-3.pdf` → `curriculum-and-instruction`, `needs-review`, `professional-development`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030.pdf` → `needs-review`, `curriculum-and-instruction`, `professional-development`, `classroom-management`, `curriculum-alignment`, `student-pathways-and-wbl`
+- `cte-indicator-auto-coder.pdf` → `needs-review`, `curriculum-and-instruction`, `school-entry-compliance`
+- `cte-wbl-training-plan.pdf` → `professional-development`, `student-pathways-and-wbl`, `eif-pathful-training`, `curriculum-and-instruction`, `needs-review`, `curriculum-alignment`
+- `receipt_3753bb7b-ce7f-4d0d-aa08-a0855cc82eb2.pdf` → `needs-review`, `reimbursement-voucher`, `finance-and-grants`
+- `regional-labor-market-information-wda-5.pdf` → `reporting-cycles`, `needs-review`, `career-clusters`, `student-pathways-and-wbl`, `curriculum-and-instruction`, `events-and-showcase`
+
+### Procurement & Vendors (117)
+
+- ` PD Summer Schedule.pdf` → `professional-development`, `school-entry-compliance`, `student-pathways-and-wbl`, `events-and-showcase`, `needs-review`, `reporting-cycles`
+- `2025 CTE Summer PD Feedback.pdf` → `professional-development`, `curriculum-and-instruction`, `needs-review`, `events-and-showcase`, `eif-pathful-training`, `session-attendance`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ASE.pdf` → `needs-review`, `student-pathways-and-wbl`, `health-and-compliance`, `curriculum-and-instruction`, `school-entry-compliance`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - BACE.pdf` → `student-pathways-and-wbl`, `needs-review`, `health-and-compliance`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Certiport.pdf` → `needs-review`, `student-pathways-and-wbl`, `health-and-compliance`, `curriculum-and-instruction`, `career-clusters`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ESCO Institute.pdf` → `student-pathways-and-wbl`, `curriculum-and-instruction`, `school-entry-compliance`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Gaumard.pdf` → `needs-review`, `health-and-compliance`, `curriculum-and-instruction`, `school-entry-compliance`, `professional-development`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NCCER.pdf` → `needs-review`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `career-clusters`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NOCTI.pdf` → `needs-review`, `student-pathways-and-wbl`, `agreements-dallasisd-org`, `curriculum-and-instruction`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Nasco.pdf` → `health-and-compliance`, `curriculum-and-instruction`, `needs-review`, `professional-development`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SACA.pdf` → `needs-review`, `student-pathways-and-wbl`, `curriculum-and-instruction`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SolidProfessor.pdf` → `curriculum-and-instruction`, `needs-review`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_American Medical Technologists (AMT).pdf` → `health-and-compliance`, `lab-results`, `student-pathways-and-wbl`, `agreements-dallasisd-org`, `curriculum-and-instruction`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Assessment Technologies.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `health-and-compliance`, `needs-review`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Platinum Consulting.pdf` → `health-and-compliance`, `needs-review`, `finance-and-grants`, `events-and-showcase`
+- `25-26 SEC 11028Y1N2-2022 Early Childhood.pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `lab-results`
+- `26-27 Campus CTE Nonposition Realignment Datasource V5.pdf` → `needs-review`, `curriculum-and-instruction`, `budget-tracker`, `student-pathways-and-wbl`, `agreements-dallasisd-org`
+- `3. Board Document 250357-version 2.pdf` → `events-and-showcase`, `student-pathways-and-wbl`, `health-and-compliance`, `career-clusters`, `finance-and-grants`, `needs-review`
+- `A Goodson Travel form - signed.pdf` → `needs-review`, `finance-and-grants`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768501134.7069674.pdf` → `curriculum-and-instruction`, `eif-pathful-training`, `career-clusters`, `needs-review`, `student-pathways-and-wbl`, `health-and-compliance`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768502080.5657754.pdf` → `curriculum-and-instruction`, `eif-pathful-training`, `career-clusters`, `needs-review`, `student-pathways-and-wbl`, `events-and-showcase`
+- `CLNA 26-27/2025-26 Application.pdf (SECURED).pdf` → `finance-and-grants`, `needs-review`, `curriculum-and-instruction`, `career-clusters`, `professional-development`, `student-pathways-and-wbl`
+- `COZART_TIVA GRANT TRAVEL DOCS - signed (1).pdf` → `finance-and-grants`, `needs-review`, `curriculum-and-instruction`, `reporting-cycles`, `agreements-dallasisd-org`, `school-entry-compliance`
+- `CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf` → `needs-review`, `student-pathways-and-wbl`
+- `CTE PLC October 29, 2024 (Responses).pdf` → `eif-pathful-training`, `needs-review`, `curriculum-and-instruction`, `agreements-dallasisd-org`
+- `CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `eif-pathful-training`, `middle-school-cte`, `events-and-showcase`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1).pdf` → `professional-development`, `student-pathways-and-wbl`, `curriculum-and-instruction`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template (2).pdf` → `professional-development`, `needs-review`, `eif-pathful-training`, `middle-school-cte`, `events-and-showcase`, `reporting-cycles`
+- `CTE- SUM26 Summer Learning Site Signage  Template.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `eif-pathful-training`, `middle-school-cte`, `events-and-showcase`
+- `CTE-Standard Operating Procedures/CTE Vehicle Protocol.pdf` → `needs-review`
+- `CTE-Standard Operating Procedures/CTE Vehicles.pdf` → `needs-review`, `classroom-management`, `reimbursement-voucher`, `finance-and-grants`, `events-and-showcase`
+- `CTE-Standard Operating Procedures/Standard Operting Procedures-Perkins.pdf` → `finance-and-grants`, `needs-review`, `budget-tracker`, `classroom-management`, `professional-development`, `events-and-showcase`
+- `D. Enderle Travel Form ATAT - signed.pdf` → `finance-and-grants`, `school-entry-compliance`, `needs-review`, `professional-development`
+- `D. Johnson complete naf documents .pdf` → `finance-and-grants`, `professional-development`, `events-and-showcase`, `needs-review`, `curriculum-and-instruction`
+- `DISD_Purchasing_Analysis 208023.pdf` → `events-and-showcase`, `career-clusters`, `health-and-compliance`, `student-pathways-and-wbl`, `needs-review`, `budget-tracker`
+- `DRAFT Vehicle Intake & Liability Waiver Form.pdf` → `needs-review`, `curriculum-and-instruction`, `health-and-compliance`, `finance-and-grants`
+- `Dallas_ISD_CTE_Industry_Partner_Quarterly_Meeting_One_Pager.pdf` → `needs-review`, `advisory-council`, `professional-development`, `curriculum-and-instruction`, `career-clusters`, `student-pathways-and-wbl`
+- `Department Supplemental Pay Approval Memo.pdf` → `budget-tracker`, `professional-development`, `curriculum-and-instruction`, `needs-review`, `curriculum-alignment`, `student-pathways-and-wbl`
+- `Documents/2025-2026 CTE Oracle iExpense Travel Training.pdf` → `professional-development`, `finance-and-grants`, `needs-review`, `reimbursement-voucher`, `school-entry-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1.pdf` → `curriculum-and-instruction`, `advisory-council`, `needs-review`, `student-pathways-and-wbl`, `curriculum-alignment`, `events-and-showcase`
+- `Documents/ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `student-pathways-and-wbl`, `classroom-management`, `agreements-dallasisd-org`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Example of a Team's Communication Agreements.pdf` → `agreements-dallasisd-org`, `needs-review`, `professional-development`, `curriculum-and-instruction`, `reporting-cycles`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Member Roles and Responsibilities.pdf` → `curriculum-and-instruction`, `needs-review`, `professional-development`, `agreements-dallasisd-org`
+- `Documents/ANG-DISD Adamson HS Air Compressor Equipment Repairs_Quote_20262603AD.pdf` → `quote-2025`, `needs-review`, `health-and-compliance`, `school-entry-compliance`
+- `Documents/Adopted Materiall Quotes␠/ACTE Visin 2025 Grant_Funded Travel Authorization Form- ACTE 2025 copy.pdf` → `finance-and-grants`, `needs-review`, `professional-development`, `reimbursement-voucher`, `events-and-showcase`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD A&P revised seat number Estimate_316614.pdf` → `curriculum-and-instruction`, `needs-review`, `quote-2025`, `student-pathways-and-wbl`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Garner A&P 1 year Estimate_316614.pdf` → `curriculum-and-instruction`, `needs-review`, `health-and-compliance`, `quote-2025`, `student-pathways-and-wbl`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 1 year Estimate_375613.pdf` → `curriculum-and-instruction`, `needs-review`, `lab-results`, `quote-2025`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 4 year  Estimate_375616.pdf` → `curriculum-and-instruction`, `needs-review`, `lab-results`, `quote-2025`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Video Game Design Estimate_375603.pdf` → `curriculum-and-instruction`, `needs-review`, `lab-results`, `quote-2025`
+- `Documents/Adopted Materiall Quotes␠/Human Services-Cengage quote 2025.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `needs-review`, `quote-2025`
+- `Documents/Affiliated Agreements/Automotive Service Excellence - Approved for one time purchase[5].pdf` → `needs-review`, `student-pathways-and-wbl`, `health-and-compliance`, `school-entry-compliance`
+- `Documents/Affiliated Agreements/ESCO Institute LTD - approved for one time use.pdf` → `needs-review`, `student-pathways-and-wbl`, `agreements-dallasisd-org`, `curriculum-and-instruction`, `events-and-showcase`
+- `Documents/CompTIA Non Awarded Vendor Request Form 7.2025.pdf` → `student-pathways-and-wbl`, `curriculum-and-instruction`, `needs-review`, `agreements-dallasisd-org`
+- `Documents/Conference Travel/Jspence Hotel.pdf` → `needs-review`, `finance-and-grants`, `student-pathways-and-wbl`
+- `Documents/Conference Travel/SRFM Travel Expense Report Checklist.pdf` → `finance-and-grants`, `curriculum-and-instruction`, `needs-review`, `events-and-showcase`
+- `Documents/DallasISDTravel - ACTE Best Practice - JB.pdf` → `finance-and-grants`, `professional-development`, `reporting-cycles`, `needs-review`, `events-and-showcase`
+- `Documents/DallasISDTravel - ACTE Best Practices - JS.pdf` → `finance-and-grants`, `curriculum-and-instruction`, `events-and-showcase`, `needs-review`, `professional-development`, `school-entry-compliance`
+- `Documents/How to Request a Trip (2).pdf` → `needs-review`, `budget-tracker`, `school-entry-compliance`, `events-and-showcase`, `curriculum-and-instruction`
+- `Documents/January 2026 Lunch and Learn.pdf` → `needs-review`, `professional-development`, `reporting-cycles`, `curriculum-and-instruction`
+- `Documents/New Stipend Request Form[29].pdf` → `finance-and-grants`, `budget-tracker`, `needs-review`, `curriculum-and-instruction`
+- `Documents/New Stipend Request Form[81].pdf` → `finance-and-grants`, `curriculum-and-instruction`, `budget-tracker`
+- `Documents/Non-AwardedVendorRequestForm copy.pdf` → `school-entry-compliance`, `agreements-dallasisd-org`, `health-and-compliance`, `needs-review`
+- `Documents/Norman Moore Grant_Funded Travel Authorization Form.pdf` → `finance-and-grants`, `professional-development`, `reimbursement-voucher`, `needs-review`, `events-and-showcase`
+- `Documents/Procurement Codes .pdf` → `needs-review`, `student-pathways-and-wbl`, `health-and-compliance`, `professional-development`, `lab-results`, `career-clusters`
+- `Documents/Quotes 25-26/Trailer Outlet Quote_.pdf` → `needs-review`, `quote-2025`
+- `Documents/Triptracker 101 2025-26.pptx.pdf` → `professional-development`, `needs-review`, `school-entry-compliance`
+- `Documents/Welding -Alpha Group.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `student-pathways-and-wbl`, `events-and-showcase`
+- `Documents/iSupplierPortalQuickReferenceCard-NewProspectiveSuppliersRegistration.pdf` → `needs-review`
+- `EMT：EMR/Signed NAF Forms 26.pdf` → `finance-and-grants`, `reimbursement-voucher`, `needs-review`, `professional-development`, `school-entry-compliance`
+- `Editable_Non Awarded Vendor Request Form 7.2025.pdf` → `school-entry-compliance`, `needs-review`, `agreements-dallasisd-org`, `finance-and-grants`, `health-and-compliance`
+- `Estimate_3377_from_Alpha_Education_Group[48].pdf` → `quote-2025`, `professional-development`, `budget-tracker`, `needs-review`, `curriculum-and-instruction`, `events-and-showcase`
+- `J. Spann.pdf` → `finance-and-grants`, `professional-development`, `needs-review`
+- `JOSEPH_THOA_GRANT TRAVEL FORM-REVISED - signed.pdf` → `finance-and-grants`, `agreements-dallasisd-org`, `health-and-compliance`, `needs-review`
+- `K. Jennings SkillsUsa Nationals 2025 - signed (1).pdf` → `needs-review`, `reporting-cycles`, `curriculum-and-instruction`
+- `Lead Teacher/SOP Materials/Federal Spend & Cooperative Contract Use.pdf` → `school-entry-compliance`, `student-pathways-and-wbl`, `health-and-compliance`, `needs-review`, `quote-2025`, `curriculum-and-instruction`
+- `NAF 2026/NAF NEXT 2026 Grant_Funded Travel Authorization Form Updated.pdf` → `finance-and-grants`, `reimbursement-voucher`, `needs-review`, `professional-development`
+- `NAF Next 2026.pdf` → `needs-review`, `events-and-showcase`, `curriculum-and-instruction`, `professional-development`
+- `NAF Paperwork/Board Document 250357[69].pdf` → `events-and-showcase`, `student-pathways-and-wbl`, `career-clusters`, `school-entry-compliance`, `professional-development`, `needs-review`
+- `Non Awarded Vendor Quotes/BE Publishing Non Awarded Vendor Approved.pdf` → `curriculum-and-instruction`, `needs-review`
+- `Non Awarded Vendor Quotes/CTE QUOTE Dallas ISD Aug 26 2025 Digital 1 year with teacher tools MW.pdf` → `curriculum-and-instruction`, `needs-review`, `quote-2025`
+- `Non Awarded Vendor Quotes/Certiport Non Vendor form Approved .pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`
+- `Non Awarded Vendor Quotes/Code HS Approved.pdf` → `curriculum-and-instruction`, `needs-review`, `quote-2025`, `classroom-management`, `budget-tracker`
+- `Non Awarded Vendor Quotes/Davis Publications Non Awarded Vendor Approved.pdf` → `curriculum-and-instruction`, `needs-review`, `school-entry-compliance`, `quote-2025`
+- `Non Awarded Vendor Quotes/Goodheart Wilcox Non Awarded approved.pdf` → `curriculum-and-instruction`, `needs-review`, `career-clusters`
+- `Non Awarded Vendor Quotes/National Restraunt Association Approved Quote.pdf` → `needs-review`, `student-pathways-and-wbl`, `agreements-dallasisd-org`
+- `Non Awarded Vendor Quotes/Non Awarded Vendor Request McGraw Hill Approved.pdf` → `curriculum-and-instruction`, `needs-review`, `events-and-showcase`
+- `Non Awarded Vendor Quotes/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf` → `needs-review`, `curriculum-and-instruction`, `career-clusters`
+- `Non Awarded Vendor Quotes/Pearson Non Awarded Approved.pdf` → `student-pathways-and-wbl`, `curriculum-and-instruction`, `needs-review`, `school-entry-compliance`, `quote-2025`
+- `Non Awarded Vendor Quotes/SACA_09-08-2025 Approved.pdf` → `quote-2025`, `needs-review`, `student-pathways-and-wbl`, `curriculum-and-instruction`, `events-and-showcase`
+- `Non-Awarded Vendor Forms approved 3/NCCER_Approved 09-12-2025.pdf` → `needs-review`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `quote-2025`, `agreements-dallasisd-org`, `events-and-showcase`
+- `Non-Awarded Vendor Forms approved/Alpha Education Group_Non-AwardedVendorRequestForm - signed.pdf (SECURED).pdf` → `needs-review`, `health-and-compliance`, `agreements-dallasisd-org`
+- `Non-Awarded Vendor Forms approved/Career Safe-approval[30].pdf` → `career-clusters`, `student-pathways-and-wbl`, `needs-review`, `agreements-dallasisd-org`, `events-and-showcase`, `curriculum-and-instruction`
+- `Non-Awarded Vendor Forms approved/CareerSafe Approved.pdf` → `career-clusters`, `needs-review`
+- `Non-Awarded Vendor Forms approved/CompTia.pdf` → `needs-review`, `curriculum-and-instruction`, `career-clusters`
+- `Non-Awarded Vendor Forms approved/Stone Non-AwardedVendorRequestForm.pdf` → `needs-review`, `agreements-dallasisd-org`
+- `Non-Awarded Vendor Forms approved/TPSA non awarded vendor form - approved for competitions[16].pdf` → `needs-review`, `quote-2025`, `curriculum-and-instruction`
+- `Non-Awarded Vendor Requests Log.pdf` → `agreements-dallasisd-org`, `needs-review`, `curriculum-and-instruction`, `career-clusters`
+- `PATIN_TIVA-GRANT TRAVEL FORM-REVISED - signed.pdf (SECURED).pdf` → `finance-and-grants`, `needs-review`, `agreements-dallasisd-org`, `health-and-compliance`
+- `PD Creation Department Supplemental Pay Approval Memo .pdf` → `curriculum-and-instruction`, `budget-tracker`, `professional-development`, `needs-review`, `curriculum-alignment`, `finance-and-grants`
+- `Perkins Travel/2025-2026 Financial Services Activity Calendar[2].pdf` → `health-and-compliance`, `needs-review`, `finance-and-grants`, `school-entry-compliance`, `budget-tracker`, `classroom-management`
+- `Perkins Travel/2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `needs-review`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `budget-tracker`
+- `Perkins Travel/Expenditure Justification Form_September 2025[72].pdf` → `finance-and-grants`, `school-entry-compliance`, `health-and-compliance`, `needs-review`
+- `Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf` → `finance-and-grants`, `curriculum-and-instruction`, `school-entry-compliance`, `reimbursement-voucher`, `needs-review`, `professional-development`
+- `Procurement Services Training.pdf` → `professional-development`, `needs-review`, `quote-2025`, `classroom-management`, `school-entry-compliance`
+- `Proposal_ Student-Run Financial Center at Townview.pdf` → `needs-review`, `health-and-compliance`, `classroom-management`, `school-entry-compliance`, `curriculum-and-instruction`
+- `Reference Latter-Myra 2026.pdf` → `needs-review`
+- `Sample CTE Equipment Request Form.pdf` → `curriculum-alignment`, `curriculum-and-instruction`, `needs-review`, `quote-2025`, `agreements-dallasisd-org`, `advisory-council`
+- `SampleEmail.pdf` → `needs-review`, `quote-2025`, `professional-development`
+- `Standard Operting Procedures-Perkins.pdf` → `finance-and-grants`, `school-entry-compliance`, `budget-tracker`, `classroom-management`, `professional-development`, `events-and-showcase`
+- `Summer PD Schedule 2026.pdf` → `professional-development`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `needs-review`, `classroom-management`, `events-and-showcase`
+- `TOSA Site agreement.pdf` → `health-and-compliance`, `needs-review`, `student-pathways-and-wbl`, `school-entry-compliance`, `quote-2025`, `curriculum-and-instruction`
+- `Transportation Receipt 1.pdf` → `needs-review`, `finance-and-grants`
+- `Triptracker Cheat Sheet.pdf` → `needs-review`, `agreements-dallasisd-org`, `professional-development`, `health-and-compliance`
+- `dallasisd-c806afc9-2f9e-49cd-ac0e-ef32f1f8d951_SessionUsersTemplate.pdf` → `needs-review`, `agreements-dallasisd-org`
+- `eDynamic Quote - Principles of IT - 3YR - R. Howard_V1.pdf` → `quote-2025`, `student-pathways-and-wbl`, `needs-review`, `professional-development`, `career-clusters`
+- `edit.pdf` → `needs-review`, `agreements-dallasisd-org`
+
+### Finance & Grants (141)
+
+- `2024 Dallas ISD W2.pdf` → `needs-review`, `reporting-cycles`, `budget-tracker`
+- `2024 Kemp ISD W2.pdf` → `needs-review`, `budget-tracker`, `reporting-cycles`
+- `2024-2025-clna-guidebook.pdf` → `needs-review`, `curriculum-and-instruction`, `health-and-compliance`, `curriculum-alignment`, `session-attendance`, `advisory-council`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Platinum Consulting.pdf` → `procurement-and-vendors`, `health-and-compliance`, `needs-review`, `events-and-showcase`
+- `2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `budget-tracker`
+- `2026-27 DRAFT[98].pdf` → `needs-review`, `curriculum-and-instruction`, `career-clusters`, `student-pathways-and-wbl`
+- `2026-27 Perkins Application — Filled Tentative (PS3350).pdf` → `needs-review`, `professional-development`, `advisory-council`, `session-attendance`
+- `26-27 Campus CTE Nonposition Realignment Datasource V4.pdf` → `needs-review`, `curriculum-and-instruction`, `budget-tracker`, `student-pathways-and-wbl`, `health-and-compliance`
+- `26-27 Campus CTE Nonposition Realignment Datasource V5.pdf` → `needs-review`, `curriculum-and-instruction`, `budget-tracker`, `student-pathways-and-wbl`, `agreements-dallasisd-org`
+- `3. Board Document 250357-version 2.pdf` → `events-and-showcase`, `student-pathways-and-wbl`, `health-and-compliance`, `career-clusters`, `needs-review`, `procurement-and-vendors`
+- `3. Board Document 250357[69].pdf` → `events-and-showcase`, `student-pathways-and-wbl`, `health-and-compliance`, `career-clusters`, `professional-development`, `needs-review`
+- `A Goodson Travel form - signed.pdf` → `needs-review`, `procurement-and-vendors`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf` → `curriculum-and-instruction`, `lab-results`, `professional-development`, `events-and-showcase`, `needs-review`, `reporting-cycles`
+- `BAUTISTA_TIVA GRANT TRAVEL DOCS.pdf` → `reporting-cycles`, `school-entry-compliance`, `needs-review`
+- `CLNA 2026-27-clna-guidebook[55].pdf` → `needs-review`, `advisory-council`, `session-attendance`, `curriculum-alignment`, `curriculum-and-instruction`
+- `CLNA 26-27/2025-26 Application.pdf (SECURED).pdf` → `needs-review`, `curriculum-and-instruction`, `career-clusters`, `professional-development`, `procurement-and-vendors`, `student-pathways-and-wbl`
+- `CLNA DALLAS ISD Working Doc.pdf` → `needs-review`, `health-and-compliance`, `curriculum-alignment`, `curriculum-and-instruction`
+- `CLNA Guiding Questions.pdf` → `needs-review`, `curriculum-and-instruction`, `session-attendance`, `health-and-compliance`, `curriculum-alignment`, `professional-development`
+- `CLNA_26_27 App.pdf` → `needs-review`, `reporting-cycles`, `curriculum-alignment`, `curriculum-and-instruction`, `events-and-showcase`
+- `COZART_TIVA GRANT TRAVEL DOCS - signed (1).pdf` → `needs-review`, `curriculum-and-instruction`, `reporting-cycles`, `agreements-dallasisd-org`, `school-entry-compliance`
+- `CTE Admin 102-Slide Deck.pdf` → `curriculum-and-instruction`, `needs-review`, `professional-development`, `curriculum-alignment`
+- `CTE CTSO Sponsorship Guidelines 25-26.pdf` → `events-and-showcase`, `needs-review`, `curriculum-and-instruction`
+- `CTE PD 6.1.26.pdf` → `professional-development`, `budget-tracker`, `session-attendance`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `needs-review`
+- `CTE-Standard Operating Procedures/2026-27 Dallas ISD CTE CTSO Handbook.docx` → `events-and-showcase`, `needs-review`, `health-and-compliance`, `professional-development`, `school-entry-compliance`
+- `CTE-Standard Operating Procedures/CTE Vehicles.pdf` → `needs-review`, `classroom-management`, `reimbursement-voucher`, `procurement-and-vendors`, `events-and-showcase`
+- `CTE-Standard Operating Procedures/Campus Lead Teacher Program.pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `eif-pathful-training`, `session-attendance`, `school-entry-compliance`
+- `CTE-Standard Operating Procedures/Standard Operting Procedures-Perkins.pdf` → `needs-review`, `procurement-and-vendors`, `budget-tracker`, `classroom-management`, `professional-development`, `events-and-showcase`
+- `Career Institute North - Raw Data Entries.pdf` → `curriculum-and-instruction`, `needs-review`, `health-and-compliance`, `budget-tracker`, `student-pathways-and-wbl`
+- `Carlson June hourlysupplementaltimecard.pdf` → `needs-review`, `career-clusters`, `eif-pathful-training`, `school-entry-compliance`
+- `Copy of Spring Stipend CTE-additions 2026.pdf` → `needs-review`, `events-and-showcase`, `budget-tracker`, `curriculum-and-instruction`
+- `Coyle June hourlysupplementaltimecard.pdf` → `needs-review`, `middle-school-cte`, `budget-tracker`, `reimbursement-voucher`, `professional-development`
+- `D. Enderle Travel Form ATAT - signed.pdf` → `school-entry-compliance`, `needs-review`, `procurement-and-vendors`, `professional-development`
+- `D. Johnson complete naf documents .pdf` → `professional-development`, `events-and-showcase`, `procurement-and-vendors`, `needs-review`, `curriculum-and-instruction`
+- `DISD_Purchasing_Analysis 208023.pdf` → `procurement-and-vendors`, `events-and-showcase`, `career-clusters`, `health-and-compliance`, `student-pathways-and-wbl`, `needs-review`
+- `DRAFT Vehicle Intake & Liability Waiver Form.pdf` → `needs-review`, `curriculum-and-instruction`, `health-and-compliance`, `procurement-and-vendors`
+- `Dallas ISD 2026-2027 Comprehensive Local Needs Assessment.pdf` → `needs-review`, `reporting-cycles`, `curriculum-and-instruction`, `curriculum-alignment`, `career-clusters`
+- `Dallas_ISD_CLNA_2026-2027_DRAFT.pdf` → `needs-review`, `curriculum-and-instruction`, `health-and-compliance`, `curriculum-alignment`, `career-clusters`, `budget-tracker`
+- `Department Supplemental Pay Approval Memo.pdf` → `budget-tracker`, `professional-development`, `curriculum-and-instruction`, `needs-review`, `curriculum-alignment`, `student-pathways-and-wbl`
+- `Documents/12.21  CTE Lead Teacher.pdf` → `needs-review`, `budget-tracker`, `curriculum-and-instruction`
+- `Documents/2025-2026 CTE Oracle iExpense Travel Training.pdf` → `professional-development`, `needs-review`, `reimbursement-voucher`, `school-entry-compliance`, `procurement-and-vendors`
+- `Documents/244 Sitipend 2026/Amaning-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `professional-development`, `needs-review`
+- `Documents/244 Sitipend 2026/Archie-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `professional-development`, `needs-review`, `session-attendance`
+- `Documents/244 Sitipend 2026/Copy of CTE Lead Teacher Stipends (Fall 2025).pdf` → `needs-review`, `curriculum-and-instruction`, `school-entry-compliance`
+- `Documents/244 Sitipend 2026/Coyle-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `needs-review`, `professional-development`, `school-entry-compliance`, `session-attendance`
+- `Documents/244 Sitipend 2026/Hamilton-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `professional-development`, `school-entry-compliance`, `needs-review`, `career-clusters`, `student-pathways-and-wbl`
+- `Documents/244 Sitipend 2026/Jones-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `professional-development`, `career-clusters`, `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`
+- `Documents/244 Sitipend 2026/Kalat-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `professional-development`, `curriculum-and-instruction`, `needs-review`, `career-clusters`
+- `Documents/244 Sitipend 2026/MRodriguez-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `professional-development`, `school-entry-compliance`, `needs-review`, `curriculum-and-instruction`
+- `Documents/244 Sitipend 2026/Maxwell-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `professional-development`, `career-clusters`, `student-pathways-and-wbl`, `curriculum-and-instruction`, `needs-review`
+- `Documents/244 Sitipend 2026/SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `needs-review`, `professional-development`, `school-entry-compliance`, `session-attendance`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.2.pdf` → `needs-review`, `events-and-showcase`, `budget-tracker`, `curriculum-and-instruction`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.pdf` → `budget-tracker`, `needs-review`, `curriculum-and-instruction`
+- `Documents/244 Sitipend 2026/Williams-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `curriculum-and-instruction`, `budget-tracker`, `professional-development`, `needs-review`, `career-clusters`
+- `Documents/26-27 Campus CTE Nonposition Realignment Datasource Updated.pdf` → `needs-review`, `budget-tracker`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `school-entry-compliance`
+- `Documents/ACTE Nashville AA.pdf` → `needs-review`, `events-and-showcase`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Program Coherent Sequence.pdf` → `curriculum-and-instruction`, `curriculum-alignment`, `student-pathways-and-wbl`
+- `Documents/ACTE Vision 2025/Admin 101/WBL-why it patters.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `eif-pathful-training`, `middle-school-cte`
+- `Documents/ACTE Vision 2025/Admin 101/request.pdf` → `curriculum-and-instruction`, `needs-review`, `career-clusters`, `student-pathways-and-wbl`, `events-and-showcase`, `school-entry-compliance`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool-Example.pdf` → `events-and-showcase`, `curriculum-and-instruction`, `needs-review`, `curriculum-alignment`, `advisory-council`, `school-entry-compliance`
+- `Documents/ACTE Vision 2025/Admin 201/CTE Admin 102-Slide Deck.pptx.pdf` → `curriculum-and-instruction`, `needs-review`, `reporting-cycles`, `advisory-council`
+- `Documents/ACTE Vision 2025/Admin 201/Improving_CTE_Performance_Measurement_Data_Collection_09-11-2024.pdf` → `needs-review`, `curriculum-alignment`, `student-pathways-and-wbl`, `curriculum-and-instruction`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf` → `curriculum-and-instruction`, `school-entry-compliance`, `needs-review`, `curriculum-alignment`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Data Analysis Template.pdf` → `needs-review`, `session-attendance`, `curriculum-and-instruction`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Small Group Activity- Modeling Team Coaching in Action.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `curriculum-alignment`, `health-and-compliance`
+- `Documents/Adopted Materiall Quotes␠/ACTE Visin 2025 Grant_Funded Travel Authorization Form- ACTE 2025 copy.pdf` → `needs-review`, `professional-development`, `procurement-and-vendors`, `reimbursement-voucher`, `events-and-showcase`
+- `Documents/CTE Lead Teacher Stipends (Fall 2025).pdf` → `curriculum-and-instruction`, `budget-tracker`
+- `Documents/Conference Travel/CTE CTSO Sponsorship Guidelines 25-26.pdf` → `events-and-showcase`, `curriculum-and-instruction`, `needs-review`, `career-clusters`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.pdf` → `needs-review`, `curriculum-and-instruction`, `professional-development`, `student-pathways-and-wbl`
+- `Documents/Conference Travel/Expenditure Justification Form_September 2025[86] copy.pdf` → `professional-development`, `needs-review`, `school-entry-compliance`, `curriculum-and-instruction`, `events-and-showcase`
+- `Documents/Conference Travel/JEREMY SPENCE_ACTE VISION 2025_TRAVEL AUTHORIZATION - signed.pdf` → `reimbursement-voucher`, `needs-review`, `events-and-showcase`, `professional-development`, `reporting-cycles`
+- `Documents/Conference Travel/Jspence Hotel.pdf` → `needs-review`, `student-pathways-and-wbl`, `procurement-and-vendors`
+- `Documents/Conference Travel/Moore Norman Campus Mileage.pdf` → `reimbursement-voucher`, `events-and-showcase`, `needs-review`, `curriculum-and-instruction`
+- `Documents/Conference Travel/SRFM Travel Expense Report Checklist.pdf` → `curriculum-and-instruction`, `needs-review`, `events-and-showcase`, `procurement-and-vendors`
+- `Documents/Conference Travel/Uber 2 Nashville.pdf` → `needs-review`, `events-and-showcase`, `student-pathways-and-wbl`, `reimbursement-voucher`, `health-and-compliance`
+- `Documents/Conference Travel/Uber 4 Nashville.pdf` → `needs-review`, `events-and-showcase`, `reporting-cycles`, `reimbursement-voucher`
+- `Documents/Conference Travel/Uber receipts .pdf` → `needs-review`, `budget-tracker`
+- `Documents/Conference Travel/eInvoice, December 08 for JEREMY SPENCE.eml` → `needs-review`, `events-and-showcase`, `reporting-cycles`, `student-pathways-and-wbl`
+- `Documents/Copy of 12.21  CTE Lead Teacher.pdf` → `curriculum-and-instruction`, `budget-tracker`, `needs-review`
+- `Documents/DallasISDTravel - ACTE Best Practice - JB.pdf` → `professional-development`, `reporting-cycles`, `needs-review`, `procurement-and-vendors`, `events-and-showcase`
+- `Documents/DallasISDTravel - ACTE Best Practices - JS.pdf` → `curriculum-and-instruction`, `events-and-showcase`, `needs-review`, `professional-development`, `procurement-and-vendors`, `school-entry-compliance`
+- `Documents/How to Request a Trip (2).pdf` → `needs-review`, `budget-tracker`, `procurement-and-vendors`, `school-entry-compliance`, `events-and-showcase`, `curriculum-and-instruction`
+- `Documents/New Stipend Request Form[29].pdf` → `budget-tracker`, `needs-review`, `procurement-and-vendors`, `curriculum-and-instruction`
+- `Documents/New Stipend Request Form[81].pdf` → `curriculum-and-instruction`, `budget-tracker`, `procurement-and-vendors`
+- `Documents/Norman Moore Grant_Funded Travel Authorization Form.pdf` → `professional-development`, `procurement-and-vendors`, `reimbursement-voucher`, `needs-review`, `events-and-showcase`
+- `Documents/Your trip – View reservations on aa.com - American Airlines.pdf` → `needs-review`
+- `Documents/untitled folder/Travel Forms/Expenditure Justification Form_September 2025.pdf` → `school-entry-compliance`, `needs-review`, `curriculum-alignment`
+- `EMT：EMR/Signed NAF Forms 26.pdf` → `reimbursement-voucher`, `needs-review`, `professional-development`, `procurement-and-vendors`, `school-entry-compliance`
+- `Editable_Non Awarded Vendor Request Form 7.2025.pdf` → `procurement-and-vendors`, `school-entry-compliance`, `needs-review`, `agreements-dallasisd-org`, `health-and-compliance`
+- `EnrollmentByCourse.pdf` → `curriculum-and-instruction`, `needs-review`, `budget-tracker`, `student-pathways-and-wbl`
+- `Estimate_3377_from_Alpha_Education_Group[48].pdf` → `quote-2025`, `professional-development`, `budget-tracker`, `needs-review`, `curriculum-and-instruction`, `events-and-showcase`
+- `Ewing June hourlysupplementaltimecard.pdf` → `needs-review`, `professional-development`, `budget-tracker`, `curriculum-and-instruction`
+- `Hubbard June hourlysupplementaltimecard.pdf` → `needs-review`, `student-pathways-and-wbl`, `career-clusters`, `eif-pathful-training`
+- `J. Spann.pdf` → `professional-development`, `needs-review`, `procurement-and-vendors`
+- `JOSEPH_THOA_GRANT TRAVEL FORM-REVISED - signed.pdf` → `agreements-dallasisd-org`, `health-and-compliance`, `needs-review`
+- `Jeremy Spence Cover Letter NAF 2026 (1).pdf` → `needs-review`, `professional-development`, `curriculum-and-instruction`, `career-clusters`, `advisory-council`, `classroom-management`
+- `Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED).pdf` → `reimbursement-voucher`, `needs-review`, `professional-development`, `session-attendance`, `events-and-showcase`
+- `Johnson July hourlysupplementaltimecard.pdf` → `needs-review`, `student-pathways-and-wbl`, `curriculum-and-instruction`
+- `Jones-Gunter THOA Travel Mileage.pdf` → `reimbursement-voucher`, `needs-review`, `curriculum-and-instruction`
+- `KGeorge 25-26 Woodrow CTE Business PLC Minutes.pdf` → `curriculum-and-instruction`, `eif-pathful-training`, `needs-review`, `student-pathways-and-wbl`, `professional-development`, `budget-tracker`
+- `L. Sanchez-Munoz Travel form - signed.pdf` → `needs-review`, `professional-development`, `health-and-compliance`
+- `Lead Teacher/SOP Materials/Federal Spend & Cooperative Contract Use.pdf` → `school-entry-compliance`, `student-pathways-and-wbl`, `health-and-compliance`, `needs-review`, `quote-2025`, `curriculum-and-instruction`
+- `M. Johnson June hourlysupplementaltimecard.pdf` → `needs-review`, `budget-tracker`, `student-pathways-and-wbl`, `career-clusters`
+- `M. Spence 504 Plan.pdf` → `needs-review`, `health-and-compliance`, `classroom-management`, `session-attendance`
+- `NAF 2026/NAF NEXT 2026 Grant_Funded Travel Authorization Form Updated.pdf` → `reimbursement-voucher`, `needs-review`, `professional-development`, `procurement-and-vendors`
+- `NAF reciepts (1).pdf` → `needs-review`
+- `Non Awarded Vendor Quotes/Code HS Approved.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`, `needs-review`, `quote-2025`, `classroom-management`, `budget-tracker`
+- `Non-Awarded Vendor Forms approved/CLNA␠/2026-27-clna-guidebook.pdf` → `needs-review`, `school-entry-compliance`, `advisory-council`, `session-attendance`, `curriculum-and-instruction`, `career-clusters`
+- `Non-Awarded Vendor Forms approved/CLNA␠/SC5600 Comprehensive Local Needs Assessment blank.pdf (SECURED).pdf` → `needs-review`, `reporting-cycles`, `curriculum-and-instruction`, `curriculum-alignment`, `session-attendance`
+- `PATIN_TIVA-GRANT TRAVEL FORM-REVISED - signed.pdf (SECURED).pdf` → `needs-review`, `agreements-dallasisd-org`, `health-and-compliance`
+- `PD Creation Department Supplemental Pay Approval Memo .pdf` → `curriculum-and-instruction`, `budget-tracker`, `professional-development`, `needs-review`, `curriculum-alignment`, `procurement-and-vendors`
+- `Parent consent Dallas ISD.docx[18].pdf` → `health-and-compliance`, `needs-review`, `lab-results`
+- `Perkins Travel/2025-2026 Financial Services Activity Calendar[2].pdf` → `health-and-compliance`, `procurement-and-vendors`, `needs-review`, `school-entry-compliance`, `budget-tracker`, `classroom-management`
+- `Perkins Travel/2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `needs-review`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `budget-tracker`, `procurement-and-vendors`
+- `Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `session-attendance`, `curriculum-and-instruction`, `needs-review`, `health-and-compliance`, `budget-tracker`
+- `Perkins Travel/Expenditure Justification Form_September 2025[72].pdf` → `school-entry-compliance`, `health-and-compliance`, `procurement-and-vendors`, `needs-review`
+- `Perkins Travel/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf` → `budget-tracker`, `needs-review`, `curriculum-and-instruction`, `health-and-compliance`, `session-attendance`, `professional-development`
+- `Perkins Travel/SRFM Meal Reimbursement Guide - Revised.10.14.2025[38].pdf` → `reimbursement-voucher`, `curriculum-and-instruction`, `needs-review`
+- `Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf` → `curriculum-and-instruction`, `school-entry-compliance`, `reimbursement-voucher`, `needs-review`, `professional-development`, `procurement-and-vendors`
+- `Perkins-V-Funding-Distribution.pdf` → `needs-review`, `curriculum-and-instruction`, `professional-development`, `school-entry-compliance`
+- `PerkinsV_CLNA_Template_ Guide.pdf` → `curriculum-and-instruction`, `needs-review`, `events-and-showcase`, `reporting-cycles`, `advisory-council`, `curriculum-alignment`
+- `Program Coherent Sequence.pdf` → `curriculum-and-instruction`, `needs-review`, `curriculum-alignment`, `student-pathways-and-wbl`
+- `Receipt _ DALLAS ISD.pdf` → `needs-review`, `curriculum-and-instruction`, `reimbursement-voucher`
+- `SouthwestReturnCollabTripAustin (2).pdf` → `needs-review`, `health-and-compliance`
+- `Spence-Uber-NAF Conference (1).pdf` → `needs-review`, `professional-development`, `budget-tracker`
+- `Spring Stipend CTE-additions 2026.pdf` → `needs-review`, `budget-tracker`, `curriculum-and-instruction`, `events-and-showcase`
+- `Standard Operting Procedures-Perkins.pdf` → `school-entry-compliance`, `procurement-and-vendors`, `budget-tracker`, `classroom-management`, `professional-development`, `events-and-showcase`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990127878 - Alexis Guereca.pdf` → `health-and-compliance`, `needs-review`, `budget-tracker`
+- `Student List_TAFE Nationals_D.O.B..pdf` → `health-and-compliance`, `needs-review`
+- `Supplemental_form.pdf` → `budget-tracker`, `professional-development`, `school-entry-compliance`, `needs-review`
+- `Tiva Milage (1).pdf` → `needs-review`, `reimbursement-voucher`
+- `Transportation Receipt 1.pdf` → `needs-review`, `procurement-and-vendors`
+- `Transportation Receipt 2.pdf` → `needs-review`, `events-and-showcase`, `professional-development`
+- `Trustee_CTE_Pathway_Tracker 25-26.pdf` → `needs-review`, `budget-tracker`, `curriculum-and-instruction`, `career-clusters`, `events-and-showcase`
+- `Vehicle Check Out Form.pdf` → `needs-review`, `reimbursement-voucher`, `student-pathways-and-wbl`, `classroom-management`
+- `add_to_calendar.ics` → `needs-review`, `professional-development`, `classroom-management`, `curriculum-and-instruction`
+- `hourlysupplementaltimecard.pdf` → `needs-review`, `eif-pathful-training`, `student-pathways-and-wbl`
+- `perkinsplanupdatefinalrevised.pdf` → `needs-review`, `professional-development`, `advisory-council`, `curriculum-and-instruction`, `budget-tracker`, `student-pathways-and-wbl`
+- `receipt_3753bb7b-ce7f-4d0d-aa08-a0855cc82eb2.pdf` → `needs-review`, `health-and-compliance`, `reimbursement-voucher`
+- `receipt_794bfc62-f72b-4f6c-af27-9092300445dc (1).pdf` → `needs-review`, `reimbursement-voucher`
+- `receipt_c88da51b-4d66-4f7d-93a2-a76e949fab6c (1).pdf` → `needs-review`, `reimbursement-voucher`
+- `regional-labor-market-information-wda-6.pdf` → `reporting-cycles`, `professional-development`, `needs-review`, `curriculum-and-instruction`, `career-clusters`, `budget-tracker`
+
+### Student Pathways & WBL (179)
+
+- ` PD Summer Schedule.pdf` → `professional-development`, `school-entry-compliance`, `events-and-showcase`, `needs-review`, `reporting-cycles`, `health-and-compliance`
+- `2024-2025-clna-guidebook.pdf` → `finance-and-grants`, `needs-review`, `curriculum-and-instruction`, `health-and-compliance`, `curriculum-alignment`, `session-attendance`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ASE.pdf` → `procurement-and-vendors`, `needs-review`, `health-and-compliance`, `curriculum-and-instruction`, `school-entry-compliance`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - BACE.pdf` → `procurement-and-vendors`, `needs-review`, `health-and-compliance`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Certiport.pdf` → `procurement-and-vendors`, `needs-review`, `health-and-compliance`, `curriculum-and-instruction`, `career-clusters`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ESCO Institute.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`, `school-entry-compliance`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NCCER.pdf` → `procurement-and-vendors`, `needs-review`, `curriculum-and-instruction`, `career-clusters`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NOCTI.pdf` → `procurement-and-vendors`, `needs-review`, `agreements-dallasisd-org`, `curriculum-and-instruction`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SACA.pdf` → `procurement-and-vendors`, `needs-review`, `curriculum-and-instruction`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_American Medical Technologists (AMT).pdf` → `procurement-and-vendors`, `health-and-compliance`, `lab-results`, `agreements-dallasisd-org`, `curriculum-and-instruction`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Assessment Technologies.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`, `health-and-compliance`, `needs-review`, `agreements-dallasisd-org`
+- `2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `curriculum-and-instruction`, `needs-review`, `budget-tracker`
+- `2026 Graduation Cord Rosters.pdf` → `needs-review`, `health-and-compliance`
+- `2026-27 DRAFT[98].pdf` → `finance-and-grants`, `needs-review`, `curriculum-and-instruction`, `career-clusters`
+- `2026-27 Perkins Application — Filled Tentative (PS3350).pdf` → `finance-and-grants`, `needs-review`, `professional-development`, `advisory-council`, `session-attendance`
+- `25-26 CI North .pdf` → `needs-review`, `health-and-compliance`, `curriculum-and-instruction`, `reporting-cycles`
+- `25-26 SEC 11028Y1N2-2022 Early Childhood.pdf` → `curriculum-and-instruction`, `needs-review`, `lab-results`, `procurement-and-vendors`
+- `26-27 Campus CTE Nonposition Realignment Datasource V4.pdf` → `needs-review`, `curriculum-and-instruction`, `budget-tracker`, `health-and-compliance`
+- `26-27 Campus CTE Nonposition Realignment Datasource V5.pdf` → `needs-review`, `curriculum-and-instruction`, `budget-tracker`, `agreements-dallasisd-org`
+- `3. Board Document 250357-version 2.pdf` → `events-and-showcase`, `health-and-compliance`, `career-clusters`, `finance-and-grants`, `needs-review`, `procurement-and-vendors`
+- `3. Board Document 250357[69].pdf` → `events-and-showcase`, `health-and-compliance`, `career-clusters`, `professional-development`, `needs-review`, `finance-and-grants`
+- `ACTE HQ Frameworks.pdf` → `curriculum-and-instruction`, `needs-review`, `session-attendance`
+- `ACTE Vision 2025 Agenda.pdf` → `events-and-showcase`, `curriculum-and-instruction`, `professional-development`, `needs-review`, `session-attendance`, `middle-school-cte`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf` → `curriculum-and-instruction`, `lab-results`, `professional-development`, `finance-and-grants`, `events-and-showcase`, `needs-review`
+- `ACTE-Membership-Application-Jeremy Spence.pdf` → `needs-review`, `professional-development`, `curriculum-and-instruction`
+- `August 6th PD.pdf` → `curriculum-and-instruction`, `needs-review`, `middle-school-cte`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768501134.7069674.pdf` → `curriculum-and-instruction`, `eif-pathful-training`, `career-clusters`, `procurement-and-vendors`, `needs-review`, `health-and-compliance`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768502080.5657754.pdf` → `curriculum-and-instruction`, `eif-pathful-training`, `career-clusters`, `needs-review`, `procurement-and-vendors`, `events-and-showcase`
+- `CLNA 2026-27-clna-guidebook[55].pdf` → `finance-and-grants`, `needs-review`, `advisory-council`, `session-attendance`, `curriculum-alignment`, `curriculum-and-instruction`
+- `CLNA 26-27/2025-26 Application.pdf (SECURED).pdf` → `finance-and-grants`, `needs-review`, `curriculum-and-instruction`, `career-clusters`, `professional-development`, `procurement-and-vendors`
+- `CLNA Guiding Questions.pdf` → `needs-review`, `curriculum-and-instruction`, `session-attendance`, `health-and-compliance`, `curriculum-alignment`, `professional-development`
+- `CPAL_DISD_MOU_SowingSeeds (3).pdf` → `needs-review`, `professional-development`, `curriculum-and-instruction`, `lab-results`
+- `CTAT Summer 26_Agenda_062926.pdf` → `professional-development`, `events-and-showcase`, `needs-review`, `curriculum-and-instruction`, `middle-school-cte`, `session-attendance`
+- `CTE Admin 101-Slide Deck.pdf` → `curriculum-and-instruction`, `needs-review`, `professional-development`, `advisory-council`, `classroom-management`
+- `CTE Form Mule Email Preview — CELIS _ Graphic Design I.pdf` → `needs-review`, `professional-development`, `lab-results`, `curriculum-and-instruction`, `events-and-showcase`
+- `CTE Framework 2 slides.pdf` → `curriculum-and-instruction`, `needs-review`, `career-clusters`, `advisory-council`, `eif-pathful-training`
+- `CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf` → `needs-review`, `procurement-and-vendors`
+- `CTE PD 6.1.26.pdf` → `professional-development`, `budget-tracker`, `session-attendance`, `curriculum-and-instruction`, `needs-review`
+- `CTE Summer PD 2026/Copy of Cooperative Learning in CTE.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `classroom-management`
+- `CTE Summer PD 2026/We are CTE.pdf` → `professional-development`, `needs-review`, `career-clusters`, `events-and-showcase`, `curriculum-and-instruction`
+- `CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `eif-pathful-training`, `procurement-and-vendors`, `middle-school-cte`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1).pdf` → `professional-development`, `curriculum-and-instruction`, `needs-review`, `procurement-and-vendors`
+- `CTE- SUM26 Summer Learning Site Signage  Template (2).pdf` → `professional-development`, `needs-review`, `eif-pathful-training`, `middle-school-cte`, `events-and-showcase`, `reporting-cycles`
+- `CTE- SUM26 Summer Learning Site Signage  Template.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `eif-pathful-training`, `procurement-and-vendors`, `middle-school-cte`
+- `CTE-Standard Operating Procedures/Campus Lead Teacher Program.pdf` → `curriculum-and-instruction`, `needs-review`, `finance-and-grants`, `eif-pathful-training`, `session-attendance`, `school-entry-compliance`
+- `CTE_Meeting_Agenda_Updated.pdf` → `events-and-showcase`, `professional-development`, `classroom-management`, `needs-review`, `curriculum-and-instruction`
+- `CTX_Berkner HS_ED02.pdf` → `needs-review`, `health-and-compliance`, `classroom-management`, `school-entry-compliance`
+- `Career Exploration in IT.pdf` → `curriculum-and-instruction`, `career-clusters`, `middle-school-cte`, `needs-review`
+- `Career Institute North - Raw Data Entries.pdf` → `curriculum-and-instruction`, `needs-review`, `health-and-compliance`, `budget-tracker`
+- `Considerations for 2026–27 and Future Cohorts  CCMR Notecatcher.pdf` → `events-and-showcase`, `needs-review`, `middle-school-cte`, `professional-development`, `curriculum-alignment`, `advisory-council`
+- `Cooperative Learning in CTE.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `classroom-management`
+- `Copy of 26-27 Academic Services Deck Template .pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `health-and-compliance`, `advisory-council`
+- `Copy of CTE PLC Agendas (1).pdf` → `events-and-showcase`, `needs-review`, `curriculum-and-instruction`, `school-entry-compliance`, `eif-pathful-training`, `health-and-compliance`
+- `Cornerstone_Session_Roster_Report_7_20_12 AM.pdf` → `needs-review`, `professional-development`, `session-attendance`, `reporting-cycles`, `curriculum-and-instruction`
+- `Cornerstone_Session_Signin-10_12_2025 (1).pdf` → `curriculum-and-instruction`, `needs-review`, `professional-development`, `session-attendance`, `eif-pathful-training`
+- `Cornerstone_Session_Signin-10_12_2025.pdf` → `curriculum-and-instruction`, `needs-review`, `professional-development`, `session-attendance`, `eif-pathful-training`
+- `Cornerstone_Session_Signin-1_5_2026 (1).pdf` → `curriculum-and-instruction`, `needs-review`, `professional-development`, `session-attendance`, `career-clusters`
+- `Cornerstone_Session_Signin-1_5_2026 (3).pdf` → `curriculum-and-instruction`, `needs-review`, `middle-school-cte`, `professional-development`, `eif-pathful-training`, `session-attendance`
+- `Cornerstone_Session_Signin-1_5_2026 (4).pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `session-attendance`, `eif-pathful-training`
+- `Cornerstone_Session_Signin-5_26_2026 (1).pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `session-attendance`
+- `Cornerstone_Session_Signin-5_26_2026 (2).pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `session-attendance`
+- `Cornerstone_Session_Signin-5_26_2026 (3).pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `session-attendance`, `eif-pathful-training`, `health-and-compliance`
+- `Cornerstone_Session_Signin-5_26_2026 (4).pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `session-attendance`
+- `Cornerstone_Session_Signin-5_26_2026 (5).pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `session-attendance`
+- `Cornerstone_Session_Signin-5_26_2026 (6).pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `session-attendance`
+- `Cornerstone_Session_Signin-5_26_2026 (7).pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `session-attendance`
+- `Cornerstone_Session_Signin-5_26_2026.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `session-attendance`, `career-clusters`
+- `Cornerstone_Session_Signin-5_29_2026.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `health-and-compliance`
+- `Cornerstone_Session_Signin-6_10_2026.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `eif-pathful-training`, `session-attendance`
+- `Cornerstone_Session_Signin-6_9_2026.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `session-attendance`
+- `Coyle June hourlysupplementaltimecard.pdf` → `finance-and-grants`, `needs-review`, `middle-school-cte`, `budget-tracker`, `reimbursement-voucher`, `professional-development`
+- `DISD_EMS_Student_Profile_5_26_26.pdf` → `curriculum-and-instruction`, `needs-review`, `health-and-compliance`, `school-entry-compliance`
+- `DISD_Purchasing_Analysis 208023.pdf` → `procurement-and-vendors`, `events-and-showcase`, `career-clusters`, `health-and-compliance`, `needs-review`, `budget-tracker`
+- `Dallas ISD — NAF Membership Agreement 2026-27[57].pdf` → `needs-review`, `curriculum-and-instruction`, `advisory-council`, `events-and-showcase`
+- `Dallas_ISD_CTE_Industry_Partner_Quarterly_Meeting_One_Pager.pdf` → `needs-review`, `advisory-council`, `professional-development`, `curriculum-and-instruction`, `career-clusters`, `events-and-showcase`
+- `Department Supplemental Pay Approval Memo.pdf` → `budget-tracker`, `professional-development`, `curriculum-and-instruction`, `needs-review`, `curriculum-alignment`, `procurement-and-vendors`
+- `Digitial Citizenship PSA[7].pdf` → `curriculum-and-instruction`, `needs-review`, `professional-development`, `middle-school-cte`, `eif-pathful-training`
+- `Documents/2024-25 Bell Schedule_CI South.docx.pdf` → `classroom-management`, `needs-review`, `curriculum-and-instruction`
+- `Documents/244 Sitipend 2026/Hamilton-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `professional-development`, `school-entry-compliance`, `needs-review`, `career-clusters`, `finance-and-grants`
+- `Documents/244 Sitipend 2026/Jones-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `finance-and-grants`, `budget-tracker`, `professional-development`, `career-clusters`, `curriculum-and-instruction`, `needs-review`
+- `Documents/244 Sitipend 2026/Maxwell-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `finance-and-grants`, `budget-tracker`, `professional-development`, `career-clusters`, `curriculum-and-instruction`, `needs-review`
+- `Documents/26-27 Campus CTE Nonposition Realignment Datasource Updated.pdf` → `needs-review`, `budget-tracker`, `curriculum-and-instruction`, `school-entry-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf` → `curriculum-and-instruction`, `needs-review`, `professional-development`, `reporting-cycles`, `classroom-management`, `health-and-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/ACTE Advisory Council Support Menu.pdf` → `curriculum-and-instruction`, `advisory-council`, `career-clusters`, `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Council.pdf` → `advisory-council`, `needs-review`, `career-clusters`, `curriculum-and-instruction`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1.pdf` → `curriculum-and-instruction`, `advisory-council`, `needs-review`, `curriculum-alignment`, `events-and-showcase`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 101/CTE New Teacher Professional Development Plan (1).pdf` → `curriculum-and-instruction`, `needs-review`, `professional-development`, `classroom-management`, `events-and-showcase`, `advisory-council`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Prof Growth Plan.pdf` → `professional-development`, `curriculum-and-instruction`, `needs-review`, `events-and-showcase`, `advisory-council`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Program Coherent Sequence.pdf` → `curriculum-and-instruction`, `curriculum-alignment`, `finance-and-grants`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Required Certification by Program.pdf` → `curriculum-and-instruction`, `needs-review`, `health-and-compliance`, `school-entry-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/Directions for High School Scope  Sequence (2).pdf` → `curriculum-and-instruction`, `needs-review`, `events-and-showcase`, `curriculum-alignment`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf` → `curriculum-and-instruction`, `advisory-council`, `needs-review`, `professional-development`, `health-and-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf` → `curriculum-and-instruction`, `needs-review`, `curriculum-alignment`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/WBL-why it patters.pdf` → `curriculum-and-instruction`, `finance-and-grants`, `eif-pathful-training`, `middle-school-cte`
+- `Documents/ACTE Vision 2025/Admin 101/request.pdf` → `curriculum-and-instruction`, `needs-review`, `finance-and-grants`, `career-clusters`, `events-and-showcase`, `school-entry-compliance`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool-Example.pdf` → `events-and-showcase`, `curriculum-and-instruction`, `needs-review`, `curriculum-alignment`, `advisory-council`, `school-entry-compliance`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf` → `events-and-showcase`, `curriculum-and-instruction`, `session-attendance`, `advisory-council`, `needs-review`, `school-entry-compliance`
+- `Documents/ACTE Vision 2025/Admin 201/CTE Admin 102-Slide Deck.pptx.pdf` → `curriculum-and-instruction`, `finance-and-grants`, `needs-review`, `reporting-cycles`, `advisory-council`
+- `Documents/ACTE Vision 2025/Admin 201/Improving_CTE_Performance_Measurement_Data_Collection_09-11-2024.pdf` → `finance-and-grants`, `needs-review`, `curriculum-alignment`, `curriculum-and-instruction`
+- `Documents/ACTE Vision 2025/BFE8C233-C2D9-EA8C-9D7B-E8680DA0FD882025121209522347.pdf` → `needs-review`, `advisory-council`, `middle-school-cte`
+- `Documents/ACTE Vision 2025/CLNA/73459750-E17B-83F6-D59C-631B116DBF582025121022091676.pdf` → `needs-review`, `curriculum-and-instruction`, `session-attendance`, `advisory-council`, `curriculum-alignment`, `events-and-showcase`
+- `Documents/ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `classroom-management`, `agreements-dallasisd-org`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Do we Need a Team.pdf` → `curriculum-and-instruction`, `needs-review`
+- `Documents/Adopted Materiall Quotes␠/CodeHS Proclamation 2024 titles.pdf` → `curriculum-and-instruction`, `needs-review`, `professional-development`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD A&P revised seat number Estimate_316614.pdf` → `curriculum-and-instruction`, `procurement-and-vendors`, `needs-review`, `quote-2025`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Garner A&P 1 year Estimate_316614.pdf` → `curriculum-and-instruction`, `procurement-and-vendors`, `needs-review`, `health-and-compliance`, `quote-2025`
+- `Documents/Adopted Materiall Quotes␠/Human Services-Cengage quote 2025.pdf` → `curriculum-and-instruction`, `needs-review`, `procurement-and-vendors`, `quote-2025`
+- `Documents/Affiliated Agreements/Automotive Service Excellence - Approved for one time purchase[5].pdf` → `procurement-and-vendors`, `needs-review`, `health-and-compliance`, `school-entry-compliance`
+- `Documents/Affiliated Agreements/ESCO Institute LTD - approved for one time use.pdf` → `procurement-and-vendors`, `needs-review`, `agreements-dallasisd-org`, `curriculum-and-instruction`, `events-and-showcase`
+- `Documents/Bell Schedule CI East.pdf` → `classroom-management`, `needs-review`, `curriculum-and-instruction`
+- `Documents/Bell Schedule CI North.pdf` → `classroom-management`, `needs-review`, `curriculum-and-instruction`
+- `Documents/CompTIA Non Awarded Vendor Request Form 7.2025.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`, `needs-review`, `agreements-dallasisd-org`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.pdf` → `needs-review`, `finance-and-grants`, `curriculum-and-instruction`, `professional-development`
+- `Documents/Conference Travel/Jspence Hotel.pdf` → `needs-review`, `finance-and-grants`, `procurement-and-vendors`
+- `Documents/Conference Travel/Moore Norman Agenda_MNTC_Dallas_ISD_Visit_Agenda.pdf` → `curriculum-and-instruction`, `events-and-showcase`, `needs-review`, `professional-development`, `curriculum-alignment`, `health-and-compliance`
+- `Documents/Conference Travel/Uber 2 Nashville.pdf` → `needs-review`, `events-and-showcase`, `reimbursement-voucher`, `health-and-compliance`
+- `Documents/Conference Travel/eInvoice, December 08 for JEREMY SPENCE.eml` → `needs-review`, `events-and-showcase`, `finance-and-grants`, `reporting-cycles`
+- `Documents/Cornerstone_Session_Signin-1_5_2026 (2).pdf` → `curriculum-and-instruction`, `needs-review`, `middle-school-cte`, `professional-development`, `session-attendance`, `lab-results`
+- `Documents/DALLASISDGOOGLECOURSECATALOG.pdf` → `curriculum-and-instruction`, `middle-school-cte`, `needs-review`, `career-clusters`
+- `Documents/Five Foundations of Ramsey.pdf` → `needs-review`, `classroom-management`, `middle-school-cte`
+- `Documents/JeremySpenceCoverLetter AA.pdf` → `needs-review`, `curriculum-and-instruction`, `career-clusters`, `advisory-council`
+- `Documents/M. Spence Initial Parent Referral Packet[16].pdf` → `needs-review`, `session-attendance`, `health-and-compliance`
+- `Documents/Prelimonary 25-30 IBC Certifying List .pdf` → `curriculum-and-instruction`, `needs-review`, `career-clusters`
+- `Documents/Procurement Codes .pdf` → `procurement-and-vendors`, `needs-review`, `health-and-compliance`, `professional-development`, `lab-results`, `career-clusters`
+- `Documents/TEKS/130.-subchapter-d-business-management-and-administration.pdf` → `curriculum-and-instruction`, `classroom-management`, `needs-review`, `health-and-compliance`
+- `Documents/Welding -Alpha Group.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `procurement-and-vendors`, `events-and-showcase`
+- `EMT：EMR/26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `curriculum-and-instruction`, `needs-review`, `classroom-management`, `career-clusters`, `professional-development`, `events-and-showcase`
+- `Early Childhood Education.pdf` → `curriculum-and-instruction`, `needs-review`, `career-clusters`, `professional-development`, `classroom-management`, `health-and-compliance`
+- `Elementary.pdf` → `curriculum-and-instruction`, `needs-review`
+- `Employability_Skills_Framework_OnePager_20180212.pdf` → `curriculum-and-instruction`, `middle-school-cte`, `professional-development`, `needs-review`
+- `EnrollmentByCourse.pdf` → `curriculum-and-instruction`, `needs-review`, `budget-tracker`
+- `Hubbard June hourlysupplementaltimecard.pdf` → `needs-review`, `finance-and-grants`, `career-clusters`, `eif-pathful-training`
+- `Intership Student Names.pdf` → `health-and-compliance`, `needs-review`, `curriculum-and-instruction`
+- `Jeremy Spence Cover Letter NAF 2026 (1).pdf` → `needs-review`, `professional-development`, `curriculum-and-instruction`, `career-clusters`, `advisory-council`, `classroom-management`
+- `JeremySpenceresume 06.2024.docx.pdf` → `needs-review`, `curriculum-and-instruction`, `classroom-management`, `middle-school-cte`, `professional-development`
+- `Johnson July hourlysupplementaltimecard.pdf` → `needs-review`, `finance-and-grants`, `curriculum-and-instruction`
+- `KGeorge 25-26 Woodrow CTE Business PLC Minutes.pdf` → `curriculum-and-instruction`, `eif-pathful-training`, `needs-review`, `professional-development`, `budget-tracker`
+- `KGeorgeTrainingIBCs3.25.26.pdf` → `curriculum-and-instruction`, `needs-review`, `health-and-compliance`
+- `Lead Teacher/SOP Materials/Federal Spend & Cooperative Contract Use.pdf` → `school-entry-compliance`, `health-and-compliance`, `needs-review`, `quote-2025`, `curriculum-and-instruction`, `procurement-and-vendors`
+- `Lesson Plan - Digitial Citizenship Part I.pdf` → `curriculum-and-instruction`, `needs-review`, `middle-school-cte`, `professional-development`, `classroom-management`
+- `Lockley NAF Internship Expo Attendance and Updates 2026.pdf` → `curriculum-and-instruction`, `needs-review`, `professional-development`, `middle-school-cte`
+- `M. Johnson June hourlysupplementaltimecard.pdf` → `needs-review`, `budget-tracker`, `career-clusters`, `finance-and-grants`
+- `NAF Next Meeting (1).pdf` → `needs-review`, `professional-development`, `curriculum-and-instruction`, `events-and-showcase`, `eif-pathful-training`
+- `NAF Next Meeting.pdf` → `needs-review`, `professional-development`, `events-and-showcase`, `curriculum-and-instruction`
+- `NAF Paperwork/Board Document 250357[69].pdf` → `events-and-showcase`, `procurement-and-vendors`, `career-clusters`, `school-entry-compliance`, `professional-development`, `needs-review`
+- `Non Awarded Vendor Quotes/Certiport Non Vendor form Approved .pdf` → `curriculum-and-instruction`, `procurement-and-vendors`, `needs-review`
+- `Non Awarded Vendor Quotes/National Restraunt Association Approved Quote.pdf` → `procurement-and-vendors`, `needs-review`, `agreements-dallasisd-org`
+- `Non Awarded Vendor Quotes/Pearson Non Awarded Approved.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`, `needs-review`, `school-entry-compliance`, `quote-2025`
+- `Non Awarded Vendor Quotes/SACA_09-08-2025 Approved.pdf` → `quote-2025`, `procurement-and-vendors`, `needs-review`, `curriculum-and-instruction`, `events-and-showcase`
+- `Non-Awarded Vendor Forms approved 3/NCCER_Approved 09-12-2025.pdf` → `procurement-and-vendors`, `needs-review`, `curriculum-and-instruction`, `quote-2025`, `agreements-dallasisd-org`, `events-and-showcase`
+- `Non-Awarded Vendor Forms approved/CLNA␠/2026-27-clna-guidebook.pdf` → `finance-and-grants`, `needs-review`, `school-entry-compliance`, `advisory-council`, `session-attendance`, `curriculum-and-instruction`
+- `Non-Awarded Vendor Forms approved/Career Safe-approval[30].pdf` → `procurement-and-vendors`, `career-clusters`, `needs-review`, `agreements-dallasisd-org`, `events-and-showcase`, `curriculum-and-instruction`
+- `Oswaldo_IBC_Completer_Report_2024.pdf` → `reporting-cycles`, `needs-review`, `curriculum-and-instruction`
+- `Perkins Travel/2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `needs-review`, `curriculum-and-instruction`, `budget-tracker`, `procurement-and-vendors`
+- `PerkinsV_CLNA_Template_ Guide.pdf` → `finance-and-grants`, `curriculum-and-instruction`, `needs-review`, `events-and-showcase`, `reporting-cycles`, `advisory-council`
+- `Program Coherent Sequence.pdf` → `curriculum-and-instruction`, `needs-review`, `curriculum-alignment`, `finance-and-grants`
+- `QR Sheet 2a_Stakeholder Involvement by Program-1.pdf` → `curriculum-and-instruction`, `advisory-council`, `needs-review`
+- `Sample CTE Equipment Request Form.pdf` → `procurement-and-vendors`, `curriculum-alignment`, `curriculum-and-instruction`, `needs-review`, `quote-2025`, `agreements-dallasisd-org`
+- `Sample CW Day.pdf` → `curriculum-and-instruction`, `needs-review`, `events-and-showcase`, `advisory-council`, `career-clusters`
+- `Scope and Sequence Template.pdf` → `curriculum-and-instruction`, `needs-review`, `curriculum-alignment`, `middle-school-cte`
+- `Summer PD Schedule 2026.pdf` → `professional-development`, `curriculum-and-instruction`, `needs-review`, `procurement-and-vendors`, `classroom-management`, `events-and-showcase`
+- `TOSA Site agreement.pdf` → `health-and-compliance`, `needs-review`, `school-entry-compliance`, `quote-2025`, `curriculum-and-instruction`, `professional-development`
+- `Vehicle Check Out Form.pdf` → `needs-review`, `reimbursement-voucher`, `classroom-management`
+- `WBL.pdf` → `needs-review`, `career-clusters`, `advisory-council`, `professional-development`, `curriculum-and-instruction`, `health-and-compliance`
+- `Workscopes_ Step #1_ Stop_and_Jot_Reflection.pdf` → `curriculum-and-instruction`, `events-and-showcase`, `needs-review`, `advisory-council`
+- `Workshop Title： ＂The First 10： Maximizing Every Minute for Career Success＂.pdf` → `classroom-management`, `professional-development`, `curriculum-alignment`, `needs-review`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (2).pdf` → `curriculum-and-instruction`, `curriculum-alignment`, `needs-review`, `eif-pathful-training`, `health-and-compliance`, `events-and-showcase`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030.pdf` → `needs-review`, `curriculum-and-instruction`, `health-and-compliance`, `professional-development`, `classroom-management`, `curriculum-alignment`
+- `cte-wbl-training-plan.pdf` → `professional-development`, `eif-pathful-training`, `curriculum-and-instruction`, `needs-review`, `curriculum-alignment`, `school-entry-compliance`
+- `eDynamic Quote - Principles of IT - 3YR - R. Howard_V1.pdf` → `quote-2025`, `needs-review`, `professional-development`, `career-clusters`, `procurement-and-vendors`
+- `hourlysupplementaltimecard.pdf` → `finance-and-grants`, `needs-review`, `eif-pathful-training`
+- `industry-based-certifications-earned-sy2022-23.pdf` → `curriculum-and-instruction`, `needs-review`
+- `invite.ics` → `needs-review`, `curriculum-and-instruction`
+- `outlook.vcs` → `curriculum-and-instruction`, `needs-review`, `professional-development`, `classroom-management`
+- `p2024-list-of-materials-adopted-by-sboe.pdf` → `curriculum-and-instruction`, `needs-review`, `curriculum-alignment`, `reporting-cycles`
+- `perkinsplanupdatefinalrevised.pdf` → `finance-and-grants`, `needs-review`, `professional-development`, `advisory-council`, `curriculum-and-instruction`, `budget-tracker`
+- `preliminary-2025-2030-ibc-to-program-of-study-crosswalk.pdf` → `needs-review`, `curriculum-and-instruction`, `career-clusters`
+- `regional-labor-market-information-wda-5.pdf` → `reporting-cycles`, `needs-review`, `career-clusters`, `health-and-compliance`, `curriculum-and-instruction`, `events-and-showcase`
+- `regional-labor-market-information-wda-6.pdf` → `reporting-cycles`, `professional-development`, `needs-review`, `curriculum-and-instruction`, `career-clusters`, `budget-tracker`
+
+### Events & Showcase (153)
+
+- ` PD Summer Schedule.pdf` → `professional-development`, `school-entry-compliance`, `student-pathways-and-wbl`, `needs-review`, `reporting-cycles`, `health-and-compliance`
+- `2024 Dallas ISD W2.pdf` → `needs-review`, `reporting-cycles`, `budget-tracker`
+- `2024 Kemp ISD W2.pdf` → `needs-review`, `budget-tracker`, `reporting-cycles`
+- `2024-2025-clna-guidebook.pdf` → `finance-and-grants`, `needs-review`, `curriculum-and-instruction`, `health-and-compliance`, `curriculum-alignment`, `session-attendance`
+- `2025 CTE Summer PD Feedback.pdf` → `professional-development`, `curriculum-and-instruction`, `needs-review`, `eif-pathful-training`, `procurement-and-vendors`, `session-attendance`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Platinum Consulting.pdf` → `procurement-and-vendors`, `health-and-compliance`, `needs-review`, `finance-and-grants`
+- `2026-27 Perkins Application — Filled Tentative (PS3350).pdf` → `finance-and-grants`, `needs-review`, `professional-development`, `advisory-council`, `session-attendance`
+- `25-26 CI North .pdf` → `student-pathways-and-wbl`, `needs-review`, `health-and-compliance`, `curriculum-and-instruction`, `reporting-cycles`
+- `3. Board Document 250357-version 2.pdf` → `student-pathways-and-wbl`, `health-and-compliance`, `career-clusters`, `finance-and-grants`, `needs-review`, `procurement-and-vendors`
+- `3. Board Document 250357[69].pdf` → `student-pathways-and-wbl`, `health-and-compliance`, `career-clusters`, `professional-development`, `needs-review`, `finance-and-grants`
+- `ACTE HQ Frameworks.pdf` → `curriculum-and-instruction`, `needs-review`, `session-attendance`, `student-pathways-and-wbl`
+- `ACTE Vision 2025 Agenda.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `session-attendance`, `middle-school-cte`, `student-pathways-and-wbl`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf` → `curriculum-and-instruction`, `lab-results`, `professional-development`, `finance-and-grants`, `needs-review`, `reporting-cycles`
+- `BAUTISTA_TIVA GRANT TRAVEL DOCS.pdf` → `finance-and-grants`, `reporting-cycles`, `school-entry-compliance`, `needs-review`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768502080.5657754.pdf` → `curriculum-and-instruction`, `eif-pathful-training`, `career-clusters`, `needs-review`, `student-pathways-and-wbl`, `procurement-and-vendors`
+- `C.Seay- 2025 Certified Educator Conference - signed.pdf` → `needs-review`, `reporting-cycles`
+- `CLNA 2026-27-clna-guidebook[55].pdf` → `finance-and-grants`, `needs-review`, `advisory-council`, `session-attendance`, `curriculum-alignment`, `curriculum-and-instruction`
+- `CLNA Guiding Questions.pdf` → `needs-review`, `curriculum-and-instruction`, `session-attendance`, `health-and-compliance`, `curriculum-alignment`, `professional-development`
+- `CLNA_26_27 App.pdf` → `needs-review`, `finance-and-grants`, `reporting-cycles`, `curriculum-alignment`, `curriculum-and-instruction`
+- `COZART_TIVA GRANT TRAVEL DOCS - signed (1).pdf` → `finance-and-grants`, `needs-review`, `curriculum-and-instruction`, `reporting-cycles`, `agreements-dallasisd-org`, `school-entry-compliance`
+- `CTAT Summer 26_Agenda_062926.pdf` → `professional-development`, `needs-review`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `middle-school-cte`, `session-attendance`
+- `CTE CTSO Sponsorship Guidelines 25-26.pdf` → `finance-and-grants`, `needs-review`, `curriculum-and-instruction`
+- `CTE Form Mule Email Preview — CELIS _ Graphic Design I.pdf` → `needs-review`, `professional-development`, `lab-results`, `curriculum-and-instruction`, `student-pathways-and-wbl`
+- `CTE PD 6.1.26.pdf` → `professional-development`, `budget-tracker`, `session-attendance`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `needs-review`
+- `CTE Summer PD 2026/We are CTE.pdf` → `professional-development`, `needs-review`, `career-clusters`, `student-pathways-and-wbl`, `curriculum-and-instruction`
+- `CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `eif-pathful-training`, `procurement-and-vendors`, `middle-school-cte`
+- `CTE- SUM26 Summer Learning Site Signage  Template (2).pdf` → `professional-development`, `needs-review`, `eif-pathful-training`, `middle-school-cte`, `reporting-cycles`, `procurement-and-vendors`
+- `CTE- SUM26 Summer Learning Site Signage  Template.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `eif-pathful-training`, `procurement-and-vendors`, `middle-school-cte`
+- `CTE-Standard Operating Procedures/2026-27 Dallas ISD CTE CTSO Handbook.docx` → `needs-review`, `finance-and-grants`, `health-and-compliance`, `professional-development`, `school-entry-compliance`
+- `CTE-Standard Operating Procedures/CTE Vehicles.pdf` → `needs-review`, `classroom-management`, `reimbursement-voucher`, `procurement-and-vendors`, `finance-and-grants`
+- `CTE-Standard Operating Procedures/Campus Lead Teacher Program.pdf` → `curriculum-and-instruction`, `needs-review`, `finance-and-grants`, `student-pathways-and-wbl`, `eif-pathful-training`, `session-attendance`
+- `CTE-Standard Operating Procedures/Standard Operting Procedures-Perkins.pdf` → `finance-and-grants`, `needs-review`, `procurement-and-vendors`, `budget-tracker`, `classroom-management`, `professional-development`
+- `CTE_Meeting_Agenda_Updated.pdf` → `professional-development`, `student-pathways-and-wbl`, `classroom-management`, `needs-review`, `curriculum-and-instruction`
+- `Considerations for 2026–27 and Future Cohorts  CCMR Notecatcher.pdf` → `needs-review`, `middle-school-cte`, `professional-development`, `curriculum-alignment`, `advisory-council`
+- `Copy of CTE PLC Agendas (1).pdf` → `needs-review`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `school-entry-compliance`, `eif-pathful-training`, `health-and-compliance`
+- `Copy of Spring Stipend CTE-additions 2026.pdf` → `finance-and-grants`, `needs-review`, `budget-tracker`, `curriculum-and-instruction`
+- `Cornerstone_Session_Roster_Report_7_20_12 AM.pdf` → `needs-review`, `professional-development`, `session-attendance`, `reporting-cycles`, `curriculum-and-instruction`, `student-pathways-and-wbl`
+- `Cornerstone_Session_Signin-10_12_2025 (1).pdf` → `curriculum-and-instruction`, `needs-review`, `professional-development`, `student-pathways-and-wbl`, `session-attendance`, `eif-pathful-training`
+- `Cornerstone_Session_Signin-10_12_2025.pdf` → `curriculum-and-instruction`, `needs-review`, `professional-development`, `session-attendance`, `student-pathways-and-wbl`, `eif-pathful-training`
+- `Cornerstone_Session_Signin-1_5_2026 (1).pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `professional-development`, `session-attendance`, `career-clusters`
+- `Cornerstone_Session_Signin-1_5_2026 (3).pdf` → `curriculum-and-instruction`, `needs-review`, `middle-school-cte`, `professional-development`, `eif-pathful-training`, `session-attendance`
+- `Cornerstone_Session_Signin-1_5_2026 (4).pdf` → `curriculum-and-instruction`, `professional-development`, `student-pathways-and-wbl`, `needs-review`, `session-attendance`, `eif-pathful-training`
+- `Cornerstone_Session_Signin-5_26_2026 (1).pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `student-pathways-and-wbl`, `session-attendance`
+- `Cornerstone_Session_Signin-5_26_2026 (2).pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `session-attendance`, `student-pathways-and-wbl`
+- `Cornerstone_Session_Signin-5_26_2026 (3).pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `session-attendance`, `student-pathways-and-wbl`, `eif-pathful-training`
+- `Cornerstone_Session_Signin-5_26_2026 (4).pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `session-attendance`, `student-pathways-and-wbl`
+- `Cornerstone_Session_Signin-5_26_2026 (5).pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `student-pathways-and-wbl`, `session-attendance`
+- `Cornerstone_Session_Signin-5_26_2026 (6).pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `student-pathways-and-wbl`, `session-attendance`
+- `Cornerstone_Session_Signin-5_26_2026 (7).pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `session-attendance`, `student-pathways-and-wbl`
+- `Cornerstone_Session_Signin-5_26_2026.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `student-pathways-and-wbl`, `session-attendance`, `career-clusters`
+- `Cornerstone_Session_Signin-6_10_2026.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `student-pathways-and-wbl`, `eif-pathful-training`, `session-attendance`
+- `Cornerstone_Session_Signin-6_9_2026.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `student-pathways-and-wbl`, `session-attendance`
+- `D. Johnson complete naf documents .pdf` → `finance-and-grants`, `professional-development`, `procurement-and-vendors`, `needs-review`, `curriculum-and-instruction`
+- `DISD_Purchasing_Analysis 208023.pdf` → `procurement-and-vendors`, `career-clusters`, `health-and-compliance`, `student-pathways-and-wbl`, `needs-review`, `budget-tracker`
+- `Dallas ISD 2026-2027 Comprehensive Local Needs Assessment.pdf` → `finance-and-grants`, `needs-review`, `reporting-cycles`, `curriculum-and-instruction`, `curriculum-alignment`, `career-clusters`
+- `Dallas ISD TB Results/CARLA MELGAR 09.22.1992 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`, `needs-review`, `reporting-cycles`
+- `Dallas ISD — NAF Membership Agreement 2026-27[57].pdf` → `needs-review`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `advisory-council`
+- `Dallas_ISD_CTE_Industry_Partner_Quarterly_Meeting_One_Pager.pdf` → `needs-review`, `advisory-council`, `professional-development`, `curriculum-and-instruction`, `career-clusters`, `student-pathways-and-wbl`
+- `Disability+Severe+Food+Allergy+Request+Form.pdf` → `health-and-compliance`, `needs-review`, `professional-development`, `reporting-cycles`
+- `Documents/244 Sitipend 2026/Archie-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `professional-development`, `needs-review`, `finance-and-grants`, `session-attendance`
+- `Documents/244 Sitipend 2026/Coyle-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `needs-review`, `professional-development`, `school-entry-compliance`, `session-attendance`
+- `Documents/244 Sitipend 2026/SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `needs-review`, `professional-development`, `school-entry-compliance`, `finance-and-grants`, `session-attendance`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.2.pdf` → `finance-and-grants`, `needs-review`, `budget-tracker`, `curriculum-and-instruction`
+- `Documents/ACTE Nashville AA.pdf` → `finance-and-grants`, `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `professional-development`, `reporting-cycles`, `classroom-management`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1.pdf` → `curriculum-and-instruction`, `advisory-council`, `needs-review`, `student-pathways-and-wbl`, `curriculum-alignment`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 101/CTE New Teacher Professional Development Plan (1).pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `professional-development`, `classroom-management`, `advisory-council`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Prof Growth Plan.pdf` → `professional-development`, `student-pathways-and-wbl`, `curriculum-and-instruction`, `needs-review`, `advisory-council`
+- `Documents/ACTE Vision 2025/Admin 101/Directions for High School Scope  Sequence (2).pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `curriculum-alignment`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/request.pdf` → `curriculum-and-instruction`, `needs-review`, `finance-and-grants`, `career-clusters`, `student-pathways-and-wbl`, `school-entry-compliance`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `needs-review`, `curriculum-and-instruction`, `school-entry-compliance`, `session-attendance`, `health-and-compliance`, `curriculum-alignment`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool-Example.pdf` → `curriculum-and-instruction`, `needs-review`, `curriculum-alignment`, `advisory-council`, `school-entry-compliance`, `finance-and-grants`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf` → `curriculum-and-instruction`, `session-attendance`, `advisory-council`, `needs-review`, `school-entry-compliance`, `reporting-cycles`
+- `Documents/ACTE Vision 2025/Admin 201/CTE Admin 102-Slide Deck.pptx.pdf` → `curriculum-and-instruction`, `finance-and-grants`, `needs-review`, `reporting-cycles`, `advisory-council`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Data Analysis Template.pdf` → `finance-and-grants`, `needs-review`, `session-attendance`, `curriculum-and-instruction`
+- `Documents/ACTE Vision 2025/CLNA/73459750-E17B-83F6-D59C-631B116DBF582025121022091676.pdf` → `needs-review`, `curriculum-and-instruction`, `session-attendance`, `advisory-council`, `curriculum-alignment`, `reporting-cycles`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Example of a Team's Communication Agreements.pdf` → `agreements-dallasisd-org`, `needs-review`, `professional-development`, `curriculum-and-instruction`, `reporting-cycles`
+- `Documents/Adopted Materiall Quotes␠/ACTE Visin 2025 Grant_Funded Travel Authorization Form- ACTE 2025 copy.pdf` → `finance-and-grants`, `needs-review`, `professional-development`, `procurement-and-vendors`, `reimbursement-voucher`
+- `Documents/Affiliated Agreements/ESCO Institute LTD - approved for one time use.pdf` → `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`, `agreements-dallasisd-org`, `curriculum-and-instruction`
+- `Documents/Baylor Scott & Whote MAA 2028 08.09.23.pdf` → `needs-review`, `health-and-compliance`, `school-entry-compliance`, `curriculum-and-instruction`, `reporting-cycles`
+- `Documents/Conference Travel/CTE CTSO Sponsorship Guidelines 25-26.pdf` → `finance-and-grants`, `curriculum-and-instruction`, `needs-review`, `career-clusters`
+- `Documents/Conference Travel/Expenditure Justification Form_September 2025[86] copy.pdf` → `finance-and-grants`, `professional-development`, `needs-review`, `school-entry-compliance`, `curriculum-and-instruction`
+- `Documents/Conference Travel/JEREMY SPENCE_ACTE VISION 2025_TRAVEL AUTHORIZATION - signed.pdf` → `finance-and-grants`, `reimbursement-voucher`, `needs-review`, `professional-development`, `reporting-cycles`
+- `Documents/Conference Travel/Moore Norman Agenda_MNTC_Dallas_ISD_Visit_Agenda.pdf` → `curriculum-and-instruction`, `needs-review`, `professional-development`, `student-pathways-and-wbl`, `curriculum-alignment`, `health-and-compliance`
+- `Documents/Conference Travel/Moore Norman Campus Mileage.pdf` → `reimbursement-voucher`, `needs-review`, `finance-and-grants`, `curriculum-and-instruction`
+- `Documents/Conference Travel/Moore Norman Name Tent.pdf` → `professional-development`, `session-attendance`, `needs-review`
+- `Documents/Conference Travel/SRFM Travel Expense Report Checklist.pdf` → `finance-and-grants`, `curriculum-and-instruction`, `needs-review`, `procurement-and-vendors`
+- `Documents/Conference Travel/Schedule At-A-Glance ACTE Vision 2025.pdf` → `needs-review`, `professional-development`, `eif-pathful-training`, `career-clusters`
+- `Documents/Conference Travel/Uber 2 Nashville.pdf` → `needs-review`, `student-pathways-and-wbl`, `reimbursement-voucher`, `health-and-compliance`
+- `Documents/Conference Travel/Uber 4 Nashville.pdf` → `needs-review`, `finance-and-grants`, `reporting-cycles`, `reimbursement-voucher`
+- `Documents/Conference Travel/eInvoice, December 08 for JEREMY SPENCE.eml` → `needs-review`, `finance-and-grants`, `reporting-cycles`, `student-pathways-and-wbl`
+- `Documents/Cornerstone_Session_Signin-1_5_2026 (2).pdf` → `curriculum-and-instruction`, `needs-review`, `middle-school-cte`, `professional-development`, `session-attendance`, `lab-results`
+- `Documents/DallasISDTravel - ACTE Best Practice - JB.pdf` → `finance-and-grants`, `professional-development`, `reporting-cycles`, `needs-review`, `procurement-and-vendors`
+- `Documents/DallasISDTravel - ACTE Best Practices - JS.pdf` → `finance-and-grants`, `curriculum-and-instruction`, `needs-review`, `professional-development`, `procurement-and-vendors`, `school-entry-compliance`
+- `Documents/How to Request a Trip (2).pdf` → `needs-review`, `budget-tracker`, `procurement-and-vendors`, `school-entry-compliance`, `curriculum-and-instruction`
+- `Documents/January 2026 Lunch and Learn.pdf` → `needs-review`, `professional-development`, `procurement-and-vendors`, `reporting-cycles`, `curriculum-and-instruction`
+- `Documents/M. Spence Initial Parent Referral Packet[16].pdf` → `needs-review`, `session-attendance`, `health-and-compliance`, `student-pathways-and-wbl`
+- `Documents/Mackenna Spence 12-21-BASC 3 Teacher.pdf` → `reporting-cycles`, `needs-review`, `health-and-compliance`, `classroom-management`
+- `Documents/Norman Moore Grant_Funded Travel Authorization Form.pdf` → `finance-and-grants`, `professional-development`, `procurement-and-vendors`, `reimbursement-voucher`, `needs-review`
+- `Documents/Proclamation 2024_Preliminary Findings of the State Review Panel.pdf` → `needs-review`, `curriculum-and-instruction`, `health-and-compliance`, `career-clusters`, `school-entry-compliance`, `session-attendance`
+- `Documents/Procurement Codes .pdf` → `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`, `health-and-compliance`, `professional-development`, `lab-results`
+- `Documents/Showcase Promo 2026[5].pdf` → `career-clusters`, `needs-review`, `health-and-compliance`
+- `Documents/Townview Business School Leadership Campus Field Trip Proposal[17].pdf` → `needs-review`, `curriculum-and-instruction`, `health-and-compliance`, `curriculum-alignment`
+- `Documents/Welding -Alpha Group.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `student-pathways-and-wbl`, `procurement-and-vendors`
+- `EMT：EMR/26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `curriculum-and-instruction`, `needs-review`, `classroom-management`, `student-pathways-and-wbl`, `career-clusters`, `professional-development`
+- `EMT：EMR/FOR_YOUR_SIGNATURE_Affiliation_Agreement(One[79].pdf` → `needs-review`, `health-and-compliance`, `school-entry-compliance`, `reporting-cycles`, `lab-results`
+- `Ed Rising Conference Itinerary.pdf` → `curriculum-and-instruction`, `needs-review`, `professional-development`, `eif-pathful-training`, `health-and-compliance`
+- `Estimate_3377_from_Alpha_Education_Group[48].pdf` → `quote-2025`, `professional-development`, `budget-tracker`, `needs-review`, `curriculum-and-instruction`, `career-clusters`
+- `Goal_Details_Report_9_39_20_AM.pdf` → `reporting-cycles`, `needs-review`
+- `Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED).pdf` → `finance-and-grants`, `reimbursement-voucher`, `needs-review`, `professional-development`, `session-attendance`
+- `K. Jennings SkillsUsa Nationals 2025 - signed (1).pdf` → `needs-review`, `reporting-cycles`, `procurement-and-vendors`, `curriculum-and-instruction`
+- `M. Spence 504 Plan.pdf` → `needs-review`, `health-and-compliance`, `classroom-management`, `session-attendance`, `finance-and-grants`
+- `Minor Testing Packet.pdf` → `lab-results`, `curriculum-and-instruction`, `needs-review`, `classroom-management`, `session-attendance`
+- `NAF Next 2026.pdf` → `needs-review`, `curriculum-and-instruction`, `professional-development`, `procurement-and-vendors`
+- `NAF Next Meeting (1).pdf` → `needs-review`, `professional-development`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `eif-pathful-training`
+- `NAF Next Meeting.pdf` → `needs-review`, `professional-development`, `student-pathways-and-wbl`, `curriculum-and-instruction`
+- `NAF Paperwork/Board Document 250357[69].pdf` → `student-pathways-and-wbl`, `procurement-and-vendors`, `career-clusters`, `school-entry-compliance`, `professional-development`, `needs-review`
+- `NICHQ Teacher.pdf` → `reporting-cycles`, `needs-review`, `classroom-management`, `health-and-compliance`, `curriculum-and-instruction`
+- `Non Awarded Vendor Quotes/Non Awarded Vendor Request McGraw Hill Approved.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`, `needs-review`
+- `Non Awarded Vendor Quotes/SACA_09-08-2025 Approved.pdf` → `quote-2025`, `procurement-and-vendors`, `needs-review`, `student-pathways-and-wbl`, `curriculum-and-instruction`
+- `Non-Awarded Vendor Forms approved 3/NCCER_Approved 09-12-2025.pdf` → `procurement-and-vendors`, `needs-review`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `quote-2025`, `agreements-dallasisd-org`
+- `Non-Awarded Vendor Forms approved/CLNA␠/2026-27-clna-guidebook.pdf` → `finance-and-grants`, `needs-review`, `school-entry-compliance`, `advisory-council`, `session-attendance`, `curriculum-and-instruction`
+- `Non-Awarded Vendor Forms approved/CLNA␠/SC5600 Comprehensive Local Needs Assessment blank.pdf (SECURED).pdf` → `needs-review`, `finance-and-grants`, `reporting-cycles`, `curriculum-and-instruction`, `curriculum-alignment`, `session-attendance`
+- `Non-Awarded Vendor Forms approved/Career Safe-approval[30].pdf` → `procurement-and-vendors`, `career-clusters`, `student-pathways-and-wbl`, `needs-review`, `agreements-dallasisd-org`, `curriculum-and-instruction`
+- `Oswaldo_IBC_Completer_Report_2024.pdf` → `reporting-cycles`, `student-pathways-and-wbl`, `needs-review`, `curriculum-and-instruction`
+- `Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `session-attendance`, `curriculum-and-instruction`, `needs-review`, `health-and-compliance`, `budget-tracker`
+- `Perkins Travel/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf` → `budget-tracker`, `needs-review`, `curriculum-and-instruction`, `finance-and-grants`, `health-and-compliance`, `session-attendance`
+- `PerkinsV_CLNA_Template_ Guide.pdf` → `finance-and-grants`, `curriculum-and-instruction`, `needs-review`, `reporting-cycles`, `advisory-council`, `curriculum-alignment`
+- `Sample AI Prompt for Intervention Planning.pdf` → `curriculum-and-instruction`, `needs-review`
+- `Sample CW Day.pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `advisory-council`, `career-clusters`
+- `Spring Stipend CTE-additions 2026.pdf` → `finance-and-grants`, `needs-review`, `budget-tracker`, `curriculum-and-instruction`
+- `Standard Operting Procedures-Perkins.pdf` → `finance-and-grants`, `school-entry-compliance`, `procurement-and-vendors`, `budget-tracker`, `classroom-management`, `professional-development`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779988804972 - Melissa Alonso.pdf` → `health-and-compliance`, `needs-review`, `classroom-management`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989270536 - Emily Collins.pdf` → `health-and-compliance`, `needs-review`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990207966 - Ana Rivera.pdf` → `health-and-compliance`, `needs-review`, `school-entry-compliance`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990494836 - Paula Rocabruno Torralba.pdf` → `health-and-compliance`, `school-entry-compliance`, `needs-review`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990647956 - Gabriella Nunez 2.pdf` → `health-and-compliance`, `needs-review`, `reporting-cycles`, `classroom-management`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990990829 - Cinthia Santoyo.pdf` → `health-and-compliance`, `needs-review`, `school-entry-compliance`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991144994 - Juve Mateos Mendoza.pdf` → `health-and-compliance`, `needs-review`, `school-entry-compliance`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991243234 - Isabella Guerrero.pdf` → `health-and-compliance`, `school-entry-compliance`, `needs-review`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991314944 - Treynahdee Washington.pdf` → `health-and-compliance`, `needs-review`, `school-entry-compliance`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779992249416 - Melissa Lara.pdf` → `health-and-compliance`, `needs-review`, `reporting-cycles`
+- `Summer PD Schedule 2026.pdf` → `professional-development`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `needs-review`, `procurement-and-vendors`, `classroom-management`
+- `Tiva classes.pdf` → `curriculum-and-instruction`, `professional-development`, `needs-review`
+- `Transportation Receipt 2.pdf` → `needs-review`, `professional-development`, `finance-and-grants`
+- `Trustee_CTE_Pathway_Tracker 25-26.pdf` → `needs-review`, `budget-tracker`, `curriculum-and-instruction`, `career-clusters`
+- `Workscopes_ Step #1_ Stop_and_Jot_Reflection.pdf` → `curriculum-and-instruction`, `needs-review`, `advisory-council`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (2).pdf` → `curriculum-and-instruction`, `curriculum-alignment`, `student-pathways-and-wbl`, `needs-review`, `eif-pathful-training`, `health-and-compliance`
+- `cte-wbl-training-plan.pdf` → `professional-development`, `student-pathways-and-wbl`, `eif-pathful-training`, `curriculum-and-instruction`, `needs-review`, `curriculum-alignment`
+- `outlook (1).vcs` → `curriculum-and-instruction`, `professional-development`, `needs-review`, `session-attendance`
+- `p2024-list-of-materials-adopted-by-sboe.pdf` → `curriculum-and-instruction`, `needs-review`, `student-pathways-and-wbl`, `curriculum-alignment`, `reporting-cycles`
+- `regional-labor-market-information-wda-5.pdf` → `reporting-cycles`, `needs-review`, `career-clusters`, `health-and-compliance`, `student-pathways-and-wbl`, `curriculum-and-instruction`
+- `regional-labor-market-information-wda-6.pdf` → `reporting-cycles`, `professional-development`, `needs-review`, `curriculum-and-instruction`, `career-clusters`, `budget-tracker`
+
+### Needs review (404)
+
+- ` PD Summer Schedule.pdf` → `professional-development`, `school-entry-compliance`, `student-pathways-and-wbl`, `events-and-showcase`, `reporting-cycles`, `health-and-compliance`
+- `2018_TaxReturn (1).pdf` → `classroom-management`, `health-and-compliance`
+- `2023_TaxReturn (2).pdf` → `classroom-management`
+- `2024 Dallas ISD W2.pdf` → `reporting-cycles`, `budget-tracker`
+- `2024 Kemp ISD W2.pdf` → `budget-tracker`, `reporting-cycles`
+- `2024-2025-clna-guidebook.pdf` → `finance-and-grants`, `curriculum-and-instruction`, `health-and-compliance`, `curriculum-alignment`, `session-attendance`, `advisory-council`
+- `2025 CTE Summer PD Feedback.pdf` → `professional-development`, `curriculum-and-instruction`, `events-and-showcase`, `eif-pathful-training`, `procurement-and-vendors`, `session-attendance`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ASE.pdf` → `procurement-and-vendors`, `student-pathways-and-wbl`, `health-and-compliance`, `curriculum-and-instruction`, `school-entry-compliance`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - BACE.pdf` → `procurement-and-vendors`, `student-pathways-and-wbl`, `health-and-compliance`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Certiport.pdf` → `procurement-and-vendors`, `student-pathways-and-wbl`, `health-and-compliance`, `curriculum-and-instruction`, `career-clusters`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Gaumard.pdf` → `procurement-and-vendors`, `health-and-compliance`, `curriculum-and-instruction`, `school-entry-compliance`, `professional-development`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NCCER.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `career-clusters`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NOCTI.pdf` → `procurement-and-vendors`, `student-pathways-and-wbl`, `agreements-dallasisd-org`, `curriculum-and-instruction`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Nasco.pdf` → `procurement-and-vendors`, `health-and-compliance`, `curriculum-and-instruction`, `professional-development`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SACA.pdf` → `procurement-and-vendors`, `student-pathways-and-wbl`, `curriculum-and-instruction`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SolidProfessor.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Assessment Technologies.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `health-and-compliance`, `agreements-dallasisd-org`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Platinum Consulting.pdf` → `procurement-and-vendors`, `health-and-compliance`, `finance-and-grants`, `events-and-showcase`
+- `2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `budget-tracker`
+- `2026 Graduation Cord Rosters.pdf` → `health-and-compliance`, `student-pathways-and-wbl`
+- `2026-27 DRAFT[98].pdf` → `finance-and-grants`, `curriculum-and-instruction`, `career-clusters`, `student-pathways-and-wbl`
+- `2026-27 Perkins Application — Filled Tentative (PS3350).pdf` → `finance-and-grants`, `professional-development`, `advisory-council`, `session-attendance`
+- `25-26 CI North .pdf` → `student-pathways-and-wbl`, `health-and-compliance`, `curriculum-and-instruction`, `reporting-cycles`
+- `25-26 SEC 11028Y1N2-2022 Early Childhood.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `lab-results`, `procurement-and-vendors`
+- `26-27 Campus CTE Nonposition Realignment Datasource V4.pdf` → `curriculum-and-instruction`, `budget-tracker`, `student-pathways-and-wbl`, `health-and-compliance`
+- `26-27 Campus CTE Nonposition Realignment Datasource V5.pdf` → `curriculum-and-instruction`, `budget-tracker`, `student-pathways-and-wbl`, `agreements-dallasisd-org`
+- `3. Board Document 250357-version 2.pdf` → `events-and-showcase`, `student-pathways-and-wbl`, `health-and-compliance`, `career-clusters`, `finance-and-grants`, `procurement-and-vendors`
+- `3. Board Document 250357[69].pdf` → `events-and-showcase`, `student-pathways-and-wbl`, `health-and-compliance`, `career-clusters`, `professional-development`, `finance-and-grants`
+- `A Goodson Travel form - signed.pdf` → `finance-and-grants`, `procurement-and-vendors`
+- `ACTE HQ Frameworks.pdf` → `curriculum-and-instruction`, `session-attendance`, `student-pathways-and-wbl`
+- `ACTE Vision 2025 Agenda.pdf` → `events-and-showcase`, `curriculum-and-instruction`, `professional-development`, `session-attendance`, `middle-school-cte`, `student-pathways-and-wbl`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf` → `curriculum-and-instruction`, `lab-results`, `professional-development`, `finance-and-grants`, `events-and-showcase`, `reporting-cycles`
+- `ACTE-Membership-Application-Jeremy Spence.pdf` → `professional-development`, `curriculum-and-instruction`, `student-pathways-and-wbl`
+- `Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf (SECURED).pdf` → `health-and-compliance`, `lab-results`, `curriculum-and-instruction`, `school-entry-compliance`
+- `August 6th PD.pdf` → `curriculum-and-instruction`, `middle-school-cte`
+- `BAUTISTA_TIVA GRANT TRAVEL DOCS.pdf` → `finance-and-grants`, `reporting-cycles`, `school-entry-compliance`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768501134.7069674.pdf` → `curriculum-and-instruction`, `eif-pathful-training`, `career-clusters`, `procurement-and-vendors`, `student-pathways-and-wbl`, `health-and-compliance`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768502080.5657754.pdf` → `curriculum-and-instruction`, `eif-pathful-training`, `career-clusters`, `student-pathways-and-wbl`, `procurement-and-vendors`, `events-and-showcase`
+- `C.Seay- 2025 Certified Educator Conference - signed.pdf` → `events-and-showcase`, `reporting-cycles`
+- `CLNA 2026-27-clna-guidebook[55].pdf` → `finance-and-grants`, `advisory-council`, `session-attendance`, `curriculum-alignment`, `curriculum-and-instruction`
+- `CLNA 26-27/2025-26 Application.pdf (SECURED).pdf` → `finance-and-grants`, `curriculum-and-instruction`, `career-clusters`, `professional-development`, `procurement-and-vendors`, `student-pathways-and-wbl`
+- `CLNA DALLAS ISD Working Doc.pdf` → `finance-and-grants`, `health-and-compliance`, `curriculum-alignment`, `curriculum-and-instruction`
+- `CLNA Guiding Questions.pdf` → `curriculum-and-instruction`, `session-attendance`, `health-and-compliance`, `curriculum-alignment`, `professional-development`, `finance-and-grants`
+- `CLNA_26_27 App.pdf` → `finance-and-grants`, `reporting-cycles`, `curriculum-alignment`, `curriculum-and-instruction`, `events-and-showcase`
+- `COZART_TIVA GRANT TRAVEL DOCS - signed (1).pdf` → `finance-and-grants`, `curriculum-and-instruction`, `reporting-cycles`, `agreements-dallasisd-org`, `school-entry-compliance`
+- `CPAL_DISD_MOU_SowingSeeds (3).pdf` → `professional-development`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `lab-results`
+- `CTAT Summer 26_Agenda_062926.pdf` → `professional-development`, `events-and-showcase`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `middle-school-cte`, `session-attendance`
+- `CTE Admin 101-Slide Deck.pdf` → `curriculum-and-instruction`, `professional-development`, `student-pathways-and-wbl`, `advisory-council`, `classroom-management`
+- `CTE Admin 102-Slide Deck.pdf` → `curriculum-and-instruction`, `finance-and-grants`, `professional-development`, `curriculum-alignment`
+- `CTE CTSO Sponsorship Guidelines 25-26.pdf` → `events-and-showcase`, `finance-and-grants`, `curriculum-and-instruction`
+- `CTE Form Mule Email Preview — CELIS _ Graphic Design I.pdf` → `professional-development`, `lab-results`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `events-and-showcase`
+- `CTE Framework 2 slides.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `career-clusters`, `advisory-council`, `eif-pathful-training`
+- `CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf` → `procurement-and-vendors`, `student-pathways-and-wbl`
+- `CTE PD 6.1.26.pdf` → `professional-development`, `budget-tracker`, `session-attendance`, `curriculum-and-instruction`, `student-pathways-and-wbl`
+- `CTE PLC October 29, 2024 (Responses).pdf` → `eif-pathful-training`, `curriculum-and-instruction`, `agreements-dallasisd-org`
+- `CTE Summer PD 2026/Copy of Cooperative Learning in CTE.pdf` → `curriculum-and-instruction`, `professional-development`, `student-pathways-and-wbl`, `classroom-management`
+- `CTE Summer PD 2026/We are CTE.pdf` → `professional-development`, `career-clusters`, `student-pathways-and-wbl`, `events-and-showcase`, `curriculum-and-instruction`
+- `CTE Survey Dashboard — One Pager.pdf` → `curriculum-and-instruction`
+- `CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf` → `curriculum-and-instruction`, `professional-development`, `eif-pathful-training`, `procurement-and-vendors`, `middle-school-cte`, `events-and-showcase`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1).pdf` → `professional-development`, `student-pathways-and-wbl`, `curriculum-and-instruction`, `procurement-and-vendors`
+- `CTE- SUM26 Summer Learning Site Signage  Template (2).pdf` → `professional-development`, `eif-pathful-training`, `middle-school-cte`, `events-and-showcase`, `reporting-cycles`, `procurement-and-vendors`
+- `CTE- SUM26 Summer Learning Site Signage  Template.pdf` → `curriculum-and-instruction`, `professional-development`, `eif-pathful-training`, `procurement-and-vendors`, `middle-school-cte`, `events-and-showcase`
+- `CTE-Standard Operating Procedures/2026-27 Dallas ISD CTE CTSO Handbook.docx` → `events-and-showcase`, `finance-and-grants`, `health-and-compliance`, `professional-development`, `school-entry-compliance`
+- `CTE-Standard Operating Procedures/CTE Vehicle Protocol.pdf` → `procurement-and-vendors`
+- `CTE-Standard Operating Procedures/CTE Vehicles.pdf` → `classroom-management`, `reimbursement-voucher`, `procurement-and-vendors`, `finance-and-grants`, `events-and-showcase`
+- `CTE-Standard Operating Procedures/Campus Lead Teacher Program.pdf` → `curriculum-and-instruction`, `finance-and-grants`, `student-pathways-and-wbl`, `eif-pathful-training`, `session-attendance`, `school-entry-compliance`
+- `CTE-Standard Operating Procedures/Standard Operting Procedures-Perkins.pdf` → `finance-and-grants`, `procurement-and-vendors`, `budget-tracker`, `classroom-management`, `professional-development`, `events-and-showcase`
+- `CTE_Meeting_Agenda_Updated.pdf` → `events-and-showcase`, `professional-development`, `student-pathways-and-wbl`, `classroom-management`, `curriculum-and-instruction`
+- `CTX_Berkner HS_ED02.pdf` → `health-and-compliance`, `classroom-management`, `school-entry-compliance`, `student-pathways-and-wbl`
+- `Career Exploration in IT.pdf` → `curriculum-and-instruction`, `career-clusters`, `middle-school-cte`
+- `Career Institute North - Raw Data Entries.pdf` → `curriculum-and-instruction`, `health-and-compliance`, `budget-tracker`, `student-pathways-and-wbl`
+- `Carlson June hourlysupplementaltimecard.pdf` → `finance-and-grants`, `career-clusters`, `eif-pathful-training`, `school-entry-compliance`
+- `Complete_with_Docusign_3902_San_Miguel_Ct_PS.pdf` → —
+- `Considerations for 2026–27 and Future Cohorts  CCMR Notecatcher.pdf` → `events-and-showcase`, `middle-school-cte`, `professional-development`, `curriculum-alignment`, `advisory-council`
+- `Cooperative Learning in CTE.pdf` → `curriculum-and-instruction`, `professional-development`, `student-pathways-and-wbl`, `classroom-management`
+- `Copy of 26-27 Academic Services Deck Template .pdf` → `curriculum-and-instruction`, `professional-development`, `health-and-compliance`, `advisory-council`
+- `Copy of CTE PLC Agendas (1).pdf` → `events-and-showcase`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `school-entry-compliance`, `eif-pathful-training`, `health-and-compliance`
+- `Copy of EXPO Attendance Roster for CTE.pdf` → `professional-development`, `curriculum-and-instruction`
+- `Copy of Spring Stipend CTE-additions 2026.pdf` → `finance-and-grants`, `events-and-showcase`, `budget-tracker`, `curriculum-and-instruction`
+- `Cornerstone_Session_Roster_Report_7_20_12 AM.pdf` → `professional-development`, `session-attendance`, `reporting-cycles`, `curriculum-and-instruction`, `student-pathways-and-wbl`
+- `Cornerstone_Session_Signin-10_12_2025 (1).pdf` → `curriculum-and-instruction`, `professional-development`, `student-pathways-and-wbl`, `session-attendance`, `eif-pathful-training`
+- `Cornerstone_Session_Signin-10_12_2025.pdf` → `curriculum-and-instruction`, `professional-development`, `session-attendance`, `student-pathways-and-wbl`, `eif-pathful-training`
+- `Cornerstone_Session_Signin-1_14_2026.pdf` → `curriculum-and-instruction`, `professional-development`, `career-clusters`
+- `Cornerstone_Session_Signin-1_5_2026 (1).pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `professional-development`, `session-attendance`, `career-clusters`
+- `Cornerstone_Session_Signin-1_5_2026 (3).pdf` → `curriculum-and-instruction`, `middle-school-cte`, `professional-development`, `eif-pathful-training`, `session-attendance`
+- `Cornerstone_Session_Signin-1_5_2026 (4).pdf` → `curriculum-and-instruction`, `professional-development`, `student-pathways-and-wbl`, `session-attendance`, `eif-pathful-training`
+- `Cornerstone_Session_Signin-5_26_2026 (1).pdf` → `curriculum-and-instruction`, `professional-development`, `student-pathways-and-wbl`, `session-attendance`
+- `Cornerstone_Session_Signin-5_26_2026 (2).pdf` → `curriculum-and-instruction`, `professional-development`, `session-attendance`, `student-pathways-and-wbl`
+- `Cornerstone_Session_Signin-5_26_2026 (3).pdf` → `curriculum-and-instruction`, `professional-development`, `session-attendance`, `student-pathways-and-wbl`, `eif-pathful-training`, `health-and-compliance`
+- `Cornerstone_Session_Signin-5_26_2026 (4).pdf` → `curriculum-and-instruction`, `professional-development`, `session-attendance`, `student-pathways-and-wbl`
+- `Cornerstone_Session_Signin-5_26_2026 (5).pdf` → `curriculum-and-instruction`, `professional-development`, `student-pathways-and-wbl`, `session-attendance`
+- `Cornerstone_Session_Signin-5_26_2026 (6).pdf` → `curriculum-and-instruction`, `professional-development`, `student-pathways-and-wbl`, `session-attendance`
+- `Cornerstone_Session_Signin-5_26_2026 (7).pdf` → `curriculum-and-instruction`, `professional-development`, `session-attendance`, `student-pathways-and-wbl`
+- `Cornerstone_Session_Signin-5_26_2026.pdf` → `curriculum-and-instruction`, `professional-development`, `student-pathways-and-wbl`, `session-attendance`, `career-clusters`
+- `Cornerstone_Session_Signin-5_29_2026.pdf` → `curriculum-and-instruction`, `professional-development`, `student-pathways-and-wbl`, `health-and-compliance`
+- `Cornerstone_Session_Signin-6_10_2026.pdf` → `curriculum-and-instruction`, `professional-development`, `student-pathways-and-wbl`, `eif-pathful-training`, `session-attendance`
+- `Cornerstone_Session_Signin-6_9_2026.pdf` → `curriculum-and-instruction`, `professional-development`, `student-pathways-and-wbl`, `session-attendance`
+- `Coyle June hourlysupplementaltimecard.pdf` → `finance-and-grants`, `middle-school-cte`, `budget-tracker`, `reimbursement-voucher`, `professional-development`
+- `D. Enderle Travel Form ATAT - signed.pdf` → `finance-and-grants`, `school-entry-compliance`, `procurement-and-vendors`, `professional-development`
+- `D. Johnson complete naf documents .pdf` → `finance-and-grants`, `professional-development`, `events-and-showcase`, `procurement-and-vendors`, `curriculum-and-instruction`
+- `DISD_EMS_Student_Profile_5_26_26.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `health-and-compliance`, `school-entry-compliance`
+- `DISD_Purchasing_Analysis 208023.pdf` → `procurement-and-vendors`, `events-and-showcase`, `career-clusters`, `health-and-compliance`, `student-pathways-and-wbl`, `budget-tracker`
+- `DRAFT Vehicle Intake & Liability Waiver Form.pdf` → `curriculum-and-instruction`, `health-and-compliance`, `finance-and-grants`, `procurement-and-vendors`
+- `Dallas ISD 2026-2027 Comprehensive Local Needs Assessment.pdf` → `finance-and-grants`, `reporting-cycles`, `curriculum-and-instruction`, `curriculum-alignment`, `career-clusters`
+- `Dallas ISD TB Results/ALEXIS GUERECA 01.13.2010   TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`
+- `Dallas ISD TB Results/ALLISON GARCIAGUIRRE 07.16.2009 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`
+- `Dallas ISD TB Results/ANA RIVERA 12.09.2008 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`
+- `Dallas ISD TB Results/ANGIE GONZALEZ 07.23.2010 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`, `school-entry-compliance`
+- `Dallas ISD TB Results/ARIANA GOMEZ 02.16.2011 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`
+- `Dallas ISD TB Results/CARLA MELGAR 09.22.1992 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`, `reporting-cycles`
+- `Dallas ISD TB Results/CINTHIA SANTOYO 06.08.2009 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`
+- `Dallas ISD TB Results/EDGAR VASQUEZ 09.10.2010 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`
+- `Dallas ISD TB Results/EMILY COLLINS 06.10.2009 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`
+- `Dallas ISD TB Results/GABRIELA GURROLA 11.13.2009 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`
+- `Dallas ISD TB Results/GABRIELLA NUNEZ 12.28.2009 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`
+- `Dallas ISD TB Results/ISABELLA GUERRERO 10.02.2009 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`
+- `Dallas ISD TB Results/JENNIFER CARPIO 09.30.2009 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`
+- `Dallas ISD TB Results/JUVE NOE MATEOS MENDOZA 06.04.2008 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`, `school-entry-compliance`
+- `Dallas ISD TB Results/LYLA CAMERENA 04.16.2008 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`
+- `Dallas ISD TB Results/MARILYN ALMONACI 12.14.2009 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`
+- `Dallas ISD TB Results/MARLEY MARROQUIN 07.08.2008 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`
+- `Dallas ISD TB Results/MELISSA ALONSO 10.23.2008 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`
+- `Dallas ISD TB Results/MELISSA LARA 02.19.2011 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`
+- `Dallas ISD TB Results/NATALIA BLAS 05.21.2010 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`
+- `Dallas ISD TB Results/PAULA ROCABRUNO TORRALBA 11.16.2010 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`, `school-entry-compliance`
+- `Dallas ISD TB Results/TREYNAHDEE WASHINGTON 08.07.2009 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`, `school-entry-compliance`
+- `Dallas ISD TB Results/YVONNE MORGAN 07.14.1980 TB LABRESULTS.pdf` → `lab-results`, `health-and-compliance`, `school-entry-compliance`
+- `Dallas ISD — NAF Membership Agreement 2026-27[57].pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `advisory-council`, `events-and-showcase`
+- `Dallas_ISD_CLNA_2026-2027_DRAFT.pdf` → `finance-and-grants`, `curriculum-and-instruction`, `health-and-compliance`, `curriculum-alignment`, `career-clusters`, `budget-tracker`
+- `Dallas_ISD_CTE_Industry_Partner_Quarterly_Meeting_One_Pager.pdf` → `advisory-council`, `professional-development`, `curriculum-and-instruction`, `career-clusters`, `student-pathways-and-wbl`, `events-and-showcase`
+- `Dee July hourlysupplementaltimecard.pdf` → `curriculum-and-instruction`
+- `Department Supplemental Pay Approval Memo.pdf` → `budget-tracker`, `professional-development`, `curriculum-and-instruction`, `curriculum-alignment`, `student-pathways-and-wbl`, `procurement-and-vendors`
+- `Digitial Citizenship PSA[7].pdf` → `curriculum-and-instruction`, `professional-development`, `middle-school-cte`, `eif-pathful-training`, `student-pathways-and-wbl`
+- `Disability+Severe+Food+Allergy+Request+Form.pdf` → `health-and-compliance`, `professional-development`, `reporting-cycles`
+- `Documents/12-month weightlifitng Plan.pdf` → `professional-development`, `classroom-management`
+- `Documents/12.21  CTE Lead Teacher.pdf` → `finance-and-grants`, `budget-tracker`, `curriculum-and-instruction`
+- `Documents/2024-25 Bell Schedule_CI South.docx.pdf` → `classroom-management`, `student-pathways-and-wbl`, `curriculum-and-instruction`
+- `Documents/2025-2026 CTE Oracle iExpense Travel Training.pdf` → `professional-development`, `finance-and-grants`, `reimbursement-voucher`, `school-entry-compliance`, `procurement-and-vendors`
+- `Documents/244 Sitipend 2026/Amaning-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `professional-development`, `finance-and-grants`
+- `Documents/244 Sitipend 2026/Archie-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `professional-development`, `finance-and-grants`, `session-attendance`
+- `Documents/244 Sitipend 2026/Copy of CTE Lead Teacher Stipends (Fall 2025).pdf` → `finance-and-grants`, `curriculum-and-instruction`, `school-entry-compliance`
+- `Documents/244 Sitipend 2026/Coyle-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `professional-development`, `school-entry-compliance`, `session-attendance`
+- `Documents/244 Sitipend 2026/Hamilton-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `professional-development`, `school-entry-compliance`, `career-clusters`, `finance-and-grants`, `student-pathways-and-wbl`
+- `Documents/244 Sitipend 2026/Jones-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `finance-and-grants`, `budget-tracker`, `professional-development`, `career-clusters`, `curriculum-and-instruction`, `student-pathways-and-wbl`
+- `Documents/244 Sitipend 2026/Kalat-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `finance-and-grants`, `professional-development`, `curriculum-and-instruction`, `career-clusters`
+- `Documents/244 Sitipend 2026/MRodriguez-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `finance-and-grants`, `professional-development`, `school-entry-compliance`, `curriculum-and-instruction`
+- `Documents/244 Sitipend 2026/Maxwell-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `finance-and-grants`, `budget-tracker`, `professional-development`, `career-clusters`, `student-pathways-and-wbl`, `curriculum-and-instruction`
+- `Documents/244 Sitipend 2026/SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `budget-tracker`, `professional-development`, `school-entry-compliance`, `finance-and-grants`, `session-attendance`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.2.pdf` → `finance-and-grants`, `events-and-showcase`, `budget-tracker`, `curriculum-and-instruction`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.pdf` → `finance-and-grants`, `budget-tracker`, `curriculum-and-instruction`
+- `Documents/244 Sitipend 2026/Williams-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `curriculum-and-instruction`, `finance-and-grants`, `budget-tracker`, `professional-development`, `career-clusters`
+- `Documents/26-27 Campus CTE Nonposition Realignment Datasource Updated.pdf` → `budget-tracker`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `school-entry-compliance`
+- `Documents/26-27 TraditionalCalendar-Traditional2026-2027.pdf` → `classroom-management`, `professional-development`
+- `Documents/ACTE Nashville AA.pdf` → `finance-and-grants`, `events-and-showcase`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `professional-development`, `reporting-cycles`, `classroom-management`, `health-and-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/ACTE Advisory Council Support Menu.pdf` → `curriculum-and-instruction`, `advisory-council`, `career-clusters`, `student-pathways-and-wbl`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Council.pdf` → `advisory-council`, `career-clusters`, `student-pathways-and-wbl`, `curriculum-and-instruction`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1.pdf` → `curriculum-and-instruction`, `advisory-council`, `student-pathways-and-wbl`, `curriculum-alignment`, `events-and-showcase`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Mentor Sample Program.pdf` → `curriculum-and-instruction`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/CTE New Teacher Professional Development Plan (1).pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `professional-development`, `classroom-management`, `events-and-showcase`, `advisory-council`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Prof Growth Plan.pdf` → `professional-development`, `student-pathways-and-wbl`, `curriculum-and-instruction`, `events-and-showcase`, `advisory-council`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Required Certification by Program.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `health-and-compliance`, `school-entry-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/Directions for High School Scope  Sequence (2).pdf` → `curriculum-and-instruction`, `events-and-showcase`, `student-pathways-and-wbl`, `curriculum-alignment`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf` → `curriculum-and-instruction`, `advisory-council`, `student-pathways-and-wbl`, `professional-development`, `health-and-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf` → `curriculum-and-instruction`, `curriculum-alignment`, `student-pathways-and-wbl`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/request.pdf` → `curriculum-and-instruction`, `finance-and-grants`, `career-clusters`, `student-pathways-and-wbl`, `events-and-showcase`, `school-entry-compliance`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `curriculum-and-instruction`, `school-entry-compliance`, `session-attendance`, `health-and-compliance`, `curriculum-alignment`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool-Example.pdf` → `events-and-showcase`, `curriculum-and-instruction`, `curriculum-alignment`, `advisory-council`, `school-entry-compliance`, `finance-and-grants`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf` → `events-and-showcase`, `curriculum-and-instruction`, `session-attendance`, `advisory-council`, `school-entry-compliance`, `reporting-cycles`
+- `Documents/ACTE Vision 2025/Admin 201/CTE Admin 102-Slide Deck.pptx.pdf` → `curriculum-and-instruction`, `finance-and-grants`, `reporting-cycles`, `advisory-council`
+- `Documents/ACTE Vision 2025/Admin 201/Improving_CTE_Performance_Measurement_Data_Collection_09-11-2024.pdf` → `finance-and-grants`, `curriculum-alignment`, `student-pathways-and-wbl`, `curriculum-and-instruction`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf` → `finance-and-grants`, `curriculum-and-instruction`, `school-entry-compliance`, `curriculum-alignment`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Data Analysis Template.pdf` → `finance-and-grants`, `session-attendance`, `curriculum-and-instruction`
+- `Documents/ACTE Vision 2025/BFE8C233-C2D9-EA8C-9D7B-E8680DA0FD882025121209522347.pdf` → `advisory-council`, `middle-school-cte`
+- `Documents/ACTE Vision 2025/CLNA/73459750-E17B-83F6-D59C-631B116DBF582025121022091676.pdf` → `curriculum-and-instruction`, `session-attendance`, `advisory-council`, `curriculum-alignment`, `events-and-showcase`, `reporting-cycles`
+- `Documents/ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf` → `curriculum-and-instruction`, `professional-development`, `student-pathways-and-wbl`, `classroom-management`, `agreements-dallasisd-org`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Do we Need a Team.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Example of a Team's Communication Agreements.pdf` → `agreements-dallasisd-org`, `professional-development`, `curriculum-and-instruction`, `reporting-cycles`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of a Team's Emotional Intelligence.pdf` → `professional-development`, `curriculum-and-instruction`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of an Effective Team.pdf` → `curriculum-and-instruction`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Small Group Activity- Modeling Team Coaching in Action.pdf` → `curriculum-and-instruction`, `professional-development`, `finance-and-grants`, `curriculum-alignment`, `health-and-compliance`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Member Roles and Responsibilities.pdf` → `curriculum-and-instruction`, `professional-development`, `agreements-dallasisd-org`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Temperature Check.pdf` → `curriculum-and-instruction`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf` → `curriculum-and-instruction`, `professional-development`
+- `Documents/ANG-DISD Adamson HS Air Compressor Equipment Repairs_Quote_20262603AD.pdf` → `quote-2025`, `health-and-compliance`, `school-entry-compliance`
+- `Documents/Adopted Materiall Quotes␠/ACTE Visin 2025 Grant_Funded Travel Authorization Form- ACTE 2025 copy.pdf` → `finance-and-grants`, `professional-development`, `procurement-and-vendors`, `reimbursement-voucher`, `events-and-showcase`
+- `Documents/Adopted Materiall Quotes␠/CodeHS Proclamation 2024 titles.pdf` → `curriculum-and-instruction`, `professional-development`, `student-pathways-and-wbl`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD A&P revised seat number Estimate_316614.pdf` → `curriculum-and-instruction`, `procurement-and-vendors`, `quote-2025`, `student-pathways-and-wbl`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Garner A&P 1 year Estimate_316614.pdf` → `curriculum-and-instruction`, `procurement-and-vendors`, `health-and-compliance`, `quote-2025`, `student-pathways-and-wbl`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 1 year Estimate_375613.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`, `lab-results`, `quote-2025`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 4 year  Estimate_375616.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`, `lab-results`, `quote-2025`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Video Game Design Estimate_375603.pdf` → `curriculum-and-instruction`, `procurement-and-vendors`, `lab-results`, `quote-2025`
+- `Documents/Adopted Materiall Quotes␠/Human Services-Cengage quote 2025.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `procurement-and-vendors`, `quote-2025`
+- `Documents/Affiliated Agreements/Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2)[18].pdf` → `lab-results`, `curriculum-and-instruction`, `school-entry-compliance`, `health-and-compliance`
+- `Documents/Affiliated Agreements/Automotive Service Excellence - Approved for one time purchase[5].pdf` → `procurement-and-vendors`, `student-pathways-and-wbl`, `health-and-compliance`, `school-entry-compliance`
+- `Documents/Affiliated Agreements/Dallas ISD_First Amendment  to extend term[31].pdf` → `health-and-compliance`, `lab-results`
+- `Documents/Affiliated Agreements/ESCO Institute LTD - approved for one time use.pdf` → `procurement-and-vendors`, `student-pathways-and-wbl`, `agreements-dallasisd-org`, `curriculum-and-instruction`, `events-and-showcase`
+- `Documents/Baylor Scott & Whote MAA 2028 08.09.23.pdf` → `health-and-compliance`, `school-entry-compliance`, `curriculum-and-instruction`, `events-and-showcase`, `reporting-cycles`
+- `Documents/Bell Schedule CI East.pdf` → `classroom-management`, `student-pathways-and-wbl`, `curriculum-and-instruction`
+- `Documents/Bell Schedule CI North.pdf` → `classroom-management`, `student-pathways-and-wbl`, `curriculum-and-instruction`
+- `Documents/CLNA Tools-ACTE Vision.pdf` → `curriculum-and-instruction`
+- `Documents/CompTIA Non Awarded Vendor Request Form 7.2025.pdf` → `procurement-and-vendors`, `student-pathways-and-wbl`, `curriculum-and-instruction`, `agreements-dallasisd-org`
+- `Documents/Conference Travel/CTE CTSO Sponsorship Guidelines 25-26.pdf` → `events-and-showcase`, `finance-and-grants`, `curriculum-and-instruction`, `career-clusters`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.pdf` → `finance-and-grants`, `curriculum-and-instruction`, `professional-development`, `student-pathways-and-wbl`
+- `Documents/Conference Travel/Expenditure Justification Form_September 2025[86] copy.pdf` → `finance-and-grants`, `professional-development`, `school-entry-compliance`, `curriculum-and-instruction`, `events-and-showcase`
+- `Documents/Conference Travel/JEREMY SPENCE_ACTE VISION 2025_TRAVEL AUTHORIZATION - signed.pdf` → `finance-and-grants`, `reimbursement-voucher`, `events-and-showcase`, `professional-development`, `reporting-cycles`
+- `Documents/Conference Travel/Jspence Hotel.pdf` → `finance-and-grants`, `student-pathways-and-wbl`, `procurement-and-vendors`
+- `Documents/Conference Travel/Moore Norman Agenda_MNTC_Dallas_ISD_Visit_Agenda.pdf` → `curriculum-and-instruction`, `events-and-showcase`, `professional-development`, `student-pathways-and-wbl`, `curriculum-alignment`, `health-and-compliance`
+- `Documents/Conference Travel/Moore Norman Campus Mileage.pdf` → `reimbursement-voucher`, `events-and-showcase`, `finance-and-grants`, `curriculum-and-instruction`
+- `Documents/Conference Travel/Moore Norman Name Tent.pdf` → `events-and-showcase`, `professional-development`, `session-attendance`
+- `Documents/Conference Travel/SRFM Travel Expense Report Checklist.pdf` → `finance-and-grants`, `curriculum-and-instruction`, `events-and-showcase`, `procurement-and-vendors`
+- `Documents/Conference Travel/Schedule At-A-Glance ACTE Vision 2025.pdf` → `events-and-showcase`, `professional-development`, `eif-pathful-training`, `career-clusters`
+- `Documents/Conference Travel/Uber 2 Nashville.pdf` → `events-and-showcase`, `student-pathways-and-wbl`, `reimbursement-voucher`, `health-and-compliance`
+- `Documents/Conference Travel/Uber 4 Nashville.pdf` → `events-and-showcase`, `finance-and-grants`, `reporting-cycles`, `reimbursement-voucher`
+- `Documents/Conference Travel/Uber receipts .pdf` → `budget-tracker`, `finance-and-grants`
+- `Documents/Conference Travel/eInvoice, December 08 for JEREMY SPENCE.eml` → `events-and-showcase`, `finance-and-grants`, `reporting-cycles`, `student-pathways-and-wbl`
+- `Documents/Copy of 12.21  CTE Lead Teacher.pdf` → `curriculum-and-instruction`, `finance-and-grants`, `budget-tracker`
+- `Documents/Cornerstone_Session_Signin-1_5_2026 (2).pdf` → `curriculum-and-instruction`, `middle-school-cte`, `professional-development`, `session-attendance`, `lab-results`, `eif-pathful-training`
+- `Documents/DALLASISDGOOGLECOURSECATALOG.pdf` → `curriculum-and-instruction`, `middle-school-cte`, `career-clusters`
+- `Documents/DallasISDTravel - ACTE Best Practice - JB.pdf` → `finance-and-grants`, `professional-development`, `reporting-cycles`, `procurement-and-vendors`, `events-and-showcase`
+- `Documents/DallasISDTravel - ACTE Best Practices - JS.pdf` → `finance-and-grants`, `curriculum-and-instruction`, `events-and-showcase`, `professional-development`, `procurement-and-vendors`, `school-entry-compliance`
+- `Documents/Five Foundations of Ramsey.pdf` → `classroom-management`, `middle-school-cte`
+- `Documents/How to Request a Trip (2).pdf` → `budget-tracker`, `procurement-and-vendors`, `school-entry-compliance`, `events-and-showcase`, `curriculum-and-instruction`
+- `Documents/January 2026 Lunch and Learn.pdf` → `professional-development`, `procurement-and-vendors`, `reporting-cycles`, `curriculum-and-instruction`
+- `Documents/JeremySpenceCoverLetter AA.pdf` → `curriculum-and-instruction`, `career-clusters`, `advisory-council`
+- `Documents/M. Spence Initial Parent Referral Packet[16].pdf` → `session-attendance`, `health-and-compliance`, `student-pathways-and-wbl`
+- `Documents/Mackenna Spence 12-21-BASC 3 Teacher.pdf` → `reporting-cycles`, `health-and-compliance`, `classroom-management`, `events-and-showcase`
+- `Documents/New Stipend Request Form[29].pdf` → `finance-and-grants`, `budget-tracker`, `procurement-and-vendors`, `curriculum-and-instruction`
+- `Documents/Non-AwardedVendorRequestForm copy.pdf` → `procurement-and-vendors`, `school-entry-compliance`, `agreements-dallasisd-org`, `health-and-compliance`
+- `Documents/Norman Moore Grant_Funded Travel Authorization Form.pdf` → `finance-and-grants`, `professional-development`, `procurement-and-vendors`, `reimbursement-voucher`, `events-and-showcase`
+- `Documents/Personal/Everlake- Beneficiary Change Lincoln Benefit copy.pdf` → `curriculum-and-instruction`, `health-and-compliance`
+- `Documents/Prelimonary 25-30 IBC Certifying List .pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `career-clusters`
+- `Documents/Proclamation 2024_Preliminary Findings of the State Review Panel.pdf` → `curriculum-and-instruction`, `health-and-compliance`, `career-clusters`, `school-entry-compliance`, `session-attendance`
+- `Documents/Procurement Codes .pdf` → `procurement-and-vendors`, `student-pathways-and-wbl`, `health-and-compliance`, `professional-development`, `lab-results`, `career-clusters`
+- `Documents/Purchase Orders：Lince Codes/ContactList_ProcurementServices_21_2.pdf` → `health-and-compliance`, `classroom-management`, `professional-development`, `curriculum-and-instruction`
+- `Documents/Quotes 25-26/Trailer Outlet Quote_.pdf` → `procurement-and-vendors`, `quote-2025`
+- `Documents/Showcase Promo 2026[5].pdf` → `events-and-showcase`, `career-clusters`, `health-and-compliance`
+- `Documents/TEKS/130.-subchapter-d-business-management-and-administration.pdf` → `curriculum-and-instruction`, `classroom-management`, `health-and-compliance`, `student-pathways-and-wbl`
+- `Documents/Townview Business School Leadership Campus Field Trip Proposal[17].pdf` → `events-and-showcase`, `curriculum-and-instruction`, `health-and-compliance`, `curriculum-alignment`
+- `Documents/Triptracker 101 2025-26.pptx.pdf` → `professional-development`, `procurement-and-vendors`, `school-entry-compliance`
+- `Documents/WT WHite PD Roster Dallas ISD.pdf` → `professional-development`
+- `Documents/Welding -Alpha Group.pdf` → `curriculum-and-instruction`, `professional-development`, `student-pathways-and-wbl`, `procurement-and-vendors`, `events-and-showcase`
+- `Documents/Your trip – View reservations on aa.com - American Airlines.pdf` → `finance-and-grants`
+- `Documents/iSupplierPortalQuickReferenceCard-NewProspectiveSuppliersRegistration.pdf` → `procurement-and-vendors`
+- `Documents/untitled folder/Travel Forms/Expenditure Justification Form_September 2025.pdf` → `finance-and-grants`, `school-entry-compliance`, `curriculum-alignment`
+- `EMT：EMR/26-27 CI Copy of Bell Schedule.docx.pdf` → `classroom-management`, `curriculum-and-instruction`, `career-clusters`
+- `EMT：EMR/26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `curriculum-and-instruction`, `classroom-management`, `student-pathways-and-wbl`, `career-clusters`, `professional-development`, `events-and-showcase`
+- `EMT：EMR/Dallas ISD_First Amendment  to extend term (1) - signed.pdf` → `health-and-compliance`, `lab-results`, `curriculum-and-instruction`
+- `EMT：EMR/FOR_YOUR_SIGNATURE_Affiliation_Agreement(One[79].pdf` → `health-and-compliance`, `school-entry-compliance`, `reporting-cycles`, `lab-results`
+- `EMT：EMR/Signed NAF Forms 26.pdf` → `finance-and-grants`, `reimbursement-voucher`, `professional-development`, `procurement-and-vendors`, `school-entry-compliance`
+- `Early Childhood Education.pdf` → `curriculum-and-instruction`, `career-clusters`, `professional-development`, `classroom-management`, `health-and-compliance`, `student-pathways-and-wbl`
+- `Ed Rising Conference Itinerary.pdf` → `curriculum-and-instruction`, `events-and-showcase`, `professional-development`, `eif-pathful-training`, `health-and-compliance`
+- `Editable_Non Awarded Vendor Request Form 7.2025.pdf` → `procurement-and-vendors`, `school-entry-compliance`, `agreements-dallasisd-org`, `finance-and-grants`, `health-and-compliance`
+- `Elementary.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`
+- `Employability_Skills_Framework_OnePager_20180212.pdf` → `student-pathways-and-wbl`, `curriculum-and-instruction`, `middle-school-cte`, `professional-development`
+- `EnrollmentByCourse.pdf` → `curriculum-and-instruction`, `budget-tracker`, `student-pathways-and-wbl`
+- `Estimate_3377_from_Alpha_Education_Group[48].pdf` → `quote-2025`, `professional-development`, `budget-tracker`, `curriculum-and-instruction`, `events-and-showcase`, `career-clusters`
+- `Ewing June hourlysupplementaltimecard.pdf` → `professional-development`, `budget-tracker`, `curriculum-and-instruction`
+- `Final Divorce Decree Jeremy & kelli Spence.pdf` → `classroom-management`
+- `Goal_Details_Report_9_39_20_AM.pdf` → `reporting-cycles`
+- `Hicks Bio.pdf` → `curriculum-and-instruction`
+- `Hubbard June hourlysupplementaltimecard.pdf` → `finance-and-grants`, `student-pathways-and-wbl`, `career-clusters`, `eif-pathful-training`
+- `Intership Student Names.pdf` → `health-and-compliance`, `curriculum-and-instruction`, `student-pathways-and-wbl`
+- `J. Spann.pdf` → `finance-and-grants`, `professional-development`, `procurement-and-vendors`
+- `JAYDE MORALES 03.13.2009 TB LAB RESULTS.pdf` → `lab-results`, `health-and-compliance`
+- `JOSEPH_THOA_GRANT TRAVEL FORM-REVISED - signed.pdf` → `finance-and-grants`, `agreements-dallasisd-org`, `health-and-compliance`
+- `Jeremy Spence Cover Letter NAF 2026 (1).pdf` → `professional-development`, `curriculum-and-instruction`, `career-clusters`, `advisory-council`, `classroom-management`, `finance-and-grants`
+- `Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED).pdf` → `finance-and-grants`, `reimbursement-voucher`, `professional-development`, `session-attendance`, `events-and-showcase`
+- `JeremySpenceresume 04.2026.pdf` → `curriculum-and-instruction`, `classroom-management`, `career-clusters`, `professional-development`
+- `JeremySpenceresume 06.2024.docx.pdf` → `curriculum-and-instruction`, `classroom-management`, `middle-school-cte`, `professional-development`
+- `Johnson July hourlysupplementaltimecard.pdf` → `student-pathways-and-wbl`, `finance-and-grants`, `curriculum-and-instruction`
+- `Jones-Gunter THOA Travel Mileage.pdf` → `finance-and-grants`, `reimbursement-voucher`, `curriculum-and-instruction`
+- `K. Jennings SkillsUsa Nationals 2025 - signed (1).pdf` → `reporting-cycles`, `procurement-and-vendors`, `curriculum-and-instruction`
+- `KGeorge 25-26 Woodrow CTE Business PLC Minutes.pdf` → `curriculum-and-instruction`, `eif-pathful-training`, `student-pathways-and-wbl`, `professional-development`, `budget-tracker`
+- `KGeorgeTrainingIBCs3.25.26.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `health-and-compliance`
+- `L. Sanchez-Munoz Travel form - signed.pdf` → `finance-and-grants`, `professional-development`, `health-and-compliance`
+- `Lead Teacher/SOP Materials/Federal Spend & Cooperative Contract Use.pdf` → `school-entry-compliance`, `student-pathways-and-wbl`, `health-and-compliance`, `quote-2025`, `curriculum-and-instruction`, `procurement-and-vendors`
+- `Lesson Plan - Digitial Citizenship Part I.pdf` → `curriculum-and-instruction`, `middle-school-cte`, `professional-development`, `classroom-management`, `student-pathways-and-wbl`
+- `Lockley NAF Internship Expo Attendance and Updates 2026.pdf` → `curriculum-and-instruction`, `professional-development`, `middle-school-cte`
+- `M. Johnson June hourlysupplementaltimecard.pdf` → `budget-tracker`, `student-pathways-and-wbl`, `career-clusters`, `finance-and-grants`
+- `M. Spence 504 Plan.pdf` → `health-and-compliance`, `classroom-management`, `session-attendance`, `finance-and-grants`
+- `Mental+Health+Services+Notification.pdf` → `curriculum-and-instruction`, `health-and-compliance`
+- `Minor Testing Packet.pdf` → `lab-results`, `curriculum-and-instruction`, `classroom-management`, `session-attendance`
+- `NAF 2026/NAF NEXT 2026 Grant_Funded Travel Authorization Form Updated.pdf` → `finance-and-grants`, `reimbursement-voucher`, `professional-development`, `procurement-and-vendors`
+- `NAF Cover Letter.pdf` → `professional-development`, `career-clusters`, `classroom-management`
+- `NAF Employment Application.pdf` → `health-and-compliance`
+- `NAF Next 2026.pdf` → `events-and-showcase`, `curriculum-and-instruction`, `professional-development`, `procurement-and-vendors`
+- `NAF Next Meeting (1).pdf` → `professional-development`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `events-and-showcase`, `eif-pathful-training`
+- `NAF Next Meeting.pdf` → `professional-development`, `student-pathways-and-wbl`, `events-and-showcase`, `curriculum-and-instruction`
+- `NAF Paperwork/Board Document 250357[69].pdf` → `events-and-showcase`, `student-pathways-and-wbl`, `procurement-and-vendors`, `career-clusters`, `school-entry-compliance`, `professional-development`
+- `NAF reciepts (1).pdf` → `finance-and-grants`
+- `NICHQ Teacher.pdf` → `reporting-cycles`, `classroom-management`, `health-and-compliance`, `curriculum-and-instruction`
+- `Non Awarded Vendor Quotes/BE Publishing Non Awarded Vendor Approved.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`
+- `Non Awarded Vendor Quotes/CTE QUOTE Dallas ISD Aug 26 2025 Digital 1 year with teacher tools MW.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`, `quote-2025`
+- `Non Awarded Vendor Quotes/Certiport Non Vendor form Approved .pdf` → `curriculum-and-instruction`, `procurement-and-vendors`, `student-pathways-and-wbl`
+- `Non Awarded Vendor Quotes/Code HS Approved.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`, `quote-2025`, `classroom-management`, `budget-tracker`
+- `Non Awarded Vendor Quotes/Davis Publications Non Awarded Vendor Approved.pdf` → `curriculum-and-instruction`, `procurement-and-vendors`, `school-entry-compliance`, `quote-2025`
+- `Non Awarded Vendor Quotes/Goodheart Wilcox Non Awarded approved.pdf` → `curriculum-and-instruction`, `procurement-and-vendors`, `career-clusters`
+- `Non Awarded Vendor Quotes/National Restraunt Association Approved Quote.pdf` → `procurement-and-vendors`, `student-pathways-and-wbl`, `agreements-dallasisd-org`
+- `Non Awarded Vendor Quotes/Non Awarded Vendor Request McGraw Hill Approved.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`, `events-and-showcase`
+- `Non Awarded Vendor Quotes/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf` → `curriculum-and-instruction`, `procurement-and-vendors`, `career-clusters`
+- `Non Awarded Vendor Quotes/Pearson Non Awarded Approved.pdf` → `procurement-and-vendors`, `student-pathways-and-wbl`, `curriculum-and-instruction`, `school-entry-compliance`, `quote-2025`
+- `Non Awarded Vendor Quotes/SACA_09-08-2025 Approved.pdf` → `quote-2025`, `procurement-and-vendors`, `student-pathways-and-wbl`, `curriculum-and-instruction`, `events-and-showcase`
+- `Non-Awarded Vendor Forms approved 3/NCCER_Approved 09-12-2025.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `quote-2025`, `agreements-dallasisd-org`, `events-and-showcase`
+- `Non-Awarded Vendor Forms approved/Alpha Education Group_Non-AwardedVendorRequestForm - signed.pdf (SECURED).pdf` → `procurement-and-vendors`, `health-and-compliance`, `agreements-dallasisd-org`
+- `Non-Awarded Vendor Forms approved/CLNA␠/2026-27-clna-guidebook.pdf` → `finance-and-grants`, `school-entry-compliance`, `advisory-council`, `session-attendance`, `curriculum-and-instruction`, `career-clusters`
+- `Non-Awarded Vendor Forms approved/CLNA␠/SC5600 Comprehensive Local Needs Assessment blank.pdf (SECURED).pdf` → `finance-and-grants`, `reporting-cycles`, `curriculum-and-instruction`, `curriculum-alignment`, `session-attendance`
+- `Non-Awarded Vendor Forms approved/Career Safe-approval[30].pdf` → `procurement-and-vendors`, `career-clusters`, `student-pathways-and-wbl`, `agreements-dallasisd-org`, `events-and-showcase`, `curriculum-and-instruction`
+- `Non-Awarded Vendor Forms approved/CareerSafe Approved.pdf` → `career-clusters`, `procurement-and-vendors`
+- `Non-Awarded Vendor Forms approved/CompTia.pdf` → `procurement-and-vendors`, `curriculum-and-instruction`, `career-clusters`
+- `Non-Awarded Vendor Forms approved/Stone Non-AwardedVendorRequestForm.pdf` → `procurement-and-vendors`, `agreements-dallasisd-org`
+- `Non-Awarded Vendor Forms approved/TPSA non awarded vendor form - approved for competitions[16].pdf` → `quote-2025`, `procurement-and-vendors`, `curriculum-and-instruction`
+- `Non-Awarded Vendor Requests Log.pdf` → `agreements-dallasisd-org`, `procurement-and-vendors`, `curriculum-and-instruction`, `career-clusters`
+- `Oswaldo_IBC_Completer_Report_2024.pdf` → `reporting-cycles`, `student-pathways-and-wbl`, `curriculum-and-instruction`
+- `PATIN_TIVA-GRANT TRAVEL FORM-REVISED - signed.pdf (SECURED).pdf` → `finance-and-grants`, `agreements-dallasisd-org`, `health-and-compliance`
+- `PD Creation Department Supplemental Pay Approval Memo .pdf` → `curriculum-and-instruction`, `budget-tracker`, `professional-development`, `curriculum-alignment`, `procurement-and-vendors`, `finance-and-grants`
+- `Parent consent Dallas ISD.docx[18].pdf` → `health-and-compliance`, `lab-results`, `finance-and-grants`
+- `Perkins Travel/2025-2026 Financial Services Activity Calendar[2].pdf` → `health-and-compliance`, `procurement-and-vendors`, `finance-and-grants`, `school-entry-compliance`, `budget-tracker`, `classroom-management`
+- `Perkins Travel/2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `budget-tracker`, `procurement-and-vendors`
+- `Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `session-attendance`, `curriculum-and-instruction`, `health-and-compliance`, `budget-tracker`
+- `Perkins Travel/Expenditure Justification Form_September 2025[72].pdf` → `finance-and-grants`, `school-entry-compliance`, `health-and-compliance`, `procurement-and-vendors`
+- `Perkins Travel/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf` → `budget-tracker`, `curriculum-and-instruction`, `finance-and-grants`, `health-and-compliance`, `session-attendance`, `professional-development`
+- `Perkins Travel/SRFM Meal Reimbursement Guide - Revised.10.14.2025[38].pdf` → `reimbursement-voucher`, `curriculum-and-instruction`, `finance-and-grants`
+- `Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf` → `finance-and-grants`, `curriculum-and-instruction`, `school-entry-compliance`, `reimbursement-voucher`, `professional-development`, `procurement-and-vendors`
+- `Perkins-V-Funding-Distribution.pdf` → `finance-and-grants`, `curriculum-and-instruction`, `professional-development`, `school-entry-compliance`
+- `PerkinsV_CLNA_Template_ Guide.pdf` → `finance-and-grants`, `curriculum-and-instruction`, `events-and-showcase`, `reporting-cycles`, `advisory-council`, `curriculum-alignment`
+- `Procurement Services Training.pdf` → `professional-development`, `quote-2025`, `classroom-management`, `school-entry-compliance`, `procurement-and-vendors`
+- `Program Coherent Sequence.pdf` → `curriculum-and-instruction`, `curriculum-alignment`, `student-pathways-and-wbl`, `finance-and-grants`
+- `Proposal_ Student-Run Financial Center at Townview.pdf` → `health-and-compliance`, `procurement-and-vendors`, `classroom-management`, `school-entry-compliance`, `curriculum-and-instruction`
+- `QR Sheet 2a_Stakeholder Involvement by Program-1.pdf` → `curriculum-and-instruction`, `advisory-council`
+- `Receipt _ DALLAS ISD.pdf` → `finance-and-grants`, `curriculum-and-instruction`, `reimbursement-voucher`
+- `Reference Latter-Myra 2026.pdf` → `procurement-and-vendors`
+- `Sample AI Prompt for Intervention Planning.pdf` → `curriculum-and-instruction`, `events-and-showcase`
+- `Sample CTE Equipment Request Form.pdf` → `procurement-and-vendors`, `curriculum-alignment`, `curriculum-and-instruction`, `quote-2025`, `agreements-dallasisd-org`, `advisory-council`
+- `Sample CTE Instructional Coaching Guidelines.pdf` → `curriculum-and-instruction`, `professional-development`
+- `Sample CW Day.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `events-and-showcase`, `advisory-council`, `career-clusters`
+- `SampleEmail.pdf` → `quote-2025`, `professional-development`, `procurement-and-vendors`
+- `Scope and Sequence Template.pdf` → `curriculum-and-instruction`, `curriculum-alignment`, `student-pathways-and-wbl`, `middle-school-cte`
+- `SouthwestReturnCollabTripAustin (2).pdf` → `finance-and-grants`, `health-and-compliance`
+- `Spence-NAF Employment Application (1).pdf` → `professional-development`
+- `Spence-Uber-NAF Conference (1).pdf` → `professional-development`, `budget-tracker`
+- `Spring Stipend CTE-additions 2026.pdf` → `finance-and-grants`, `budget-tracker`, `curriculum-and-instruction`, `events-and-showcase`
+- `Standard Operting Procedures-Perkins.pdf` → `finance-and-grants`, `school-entry-compliance`, `procurement-and-vendors`, `budget-tracker`, `classroom-management`, `professional-development`
+- `StartProcess.pdf` → `classroom-management`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779987132611 - Marilyn Almonaci.pdf` → `health-and-compliance`, `school-entry-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779988804972 - Melissa Alonso.pdf` → `health-and-compliance`, `classroom-management`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779988892711 - Natalia Blas.pdf` → `health-and-compliance`, `school-entry-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989208523 - Jennifer Carpio.pdf` → `health-and-compliance`, `curriculum-and-instruction`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989270536 - Emily Collins.pdf` → `health-and-compliance`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989419214 - Allison Garcia.pdf` → `health-and-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989820280 - Ariana Gomez Artica.pdf` → `health-and-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990127878 - Alexis Guereca.pdf` → `health-and-compliance`, `budget-tracker`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990207966 - Ana Rivera.pdf` → `health-and-compliance`, `school-entry-compliance`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990494836 - Paula Rocabruno Torralba.pdf` → `health-and-compliance`, `school-entry-compliance`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990589182 - Gabriella Nunez 1.pdf` → `health-and-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990647956 - Gabriella Nunez 2.pdf` → `health-and-compliance`, `reporting-cycles`, `classroom-management`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990990829 - Cinthia Santoyo.pdf` → `health-and-compliance`, `school-entry-compliance`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991060777 - Jayde Morales.pdf` → `health-and-compliance`, `classroom-management`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991144994 - Juve Mateos Mendoza.pdf` → `health-and-compliance`, `school-entry-compliance`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991243234 - Isabella Guerrero.pdf` → `health-and-compliance`, `school-entry-compliance`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991314944 - Treynahdee Washington.pdf` → `health-and-compliance`, `school-entry-compliance`, `reporting-cycles`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991580729 - Gabriela Gurrola.pdf` → `health-and-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991987508 - Angie Gonzalez.pdf` → `health-and-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779992249416 - Melissa Lara.pdf` → `health-and-compliance`, `reporting-cycles`
+- `Student List_TAFE Nationals_D.O.B..pdf` → `health-and-compliance`, `finance-and-grants`
+- `Student+Code+of+Conduct.pdf` → `health-and-compliance`, `school-entry-compliance`
+- `Summer PD Schedule 2026.pdf` → `professional-development`, `curriculum-and-instruction`, `student-pathways-and-wbl`, `procurement-and-vendors`, `classroom-management`, `events-and-showcase`
+- `Supplemental_form.pdf` → `budget-tracker`, `finance-and-grants`, `professional-development`, `school-entry-compliance`
+- `TOSA Site agreement.pdf` → `health-and-compliance`, `student-pathways-and-wbl`, `school-entry-compliance`, `quote-2025`, `curriculum-and-instruction`, `professional-development`
+- `Tiva Milage (1).pdf` → `reimbursement-voucher`, `finance-and-grants`
+- `Tiva classes.pdf` → `curriculum-and-instruction`, `professional-development`, `events-and-showcase`
+- `Transportation Receipt 1.pdf` → `finance-and-grants`, `procurement-and-vendors`
+- `Transportation Receipt 2.pdf` → `events-and-showcase`, `professional-development`, `finance-and-grants`
+- `Triptracker Cheat Sheet.pdf` → `agreements-dallasisd-org`, `professional-development`, `health-and-compliance`
+- `Trustee_CTE_Pathway_Tracker 25-26.pdf` → `budget-tracker`, `curriculum-and-instruction`, `career-clusters`, `events-and-showcase`
+- `Vehicle Check Out Form.pdf` → `reimbursement-voucher`, `student-pathways-and-wbl`, `classroom-management`
+- `Vitals-Childrens-Testing Route.pdf` → `health-and-compliance`, `classroom-management`
+- `WBL.pdf` → `career-clusters`, `student-pathways-and-wbl`, `advisory-council`, `professional-development`, `curriculum-and-instruction`, `health-and-compliance`
+- `Workscopes_ Step #1_ Stop_and_Jot_Reflection.pdf` → `curriculum-and-instruction`, `events-and-showcase`, `advisory-council`
+- `Workshop Title： ＂The First 10： Maximizing Every Minute for Career Success＂.pdf` → `classroom-management`, `professional-development`, `curriculum-alignment`, `student-pathways-and-wbl`
+- `add_to_calendar.ics` → `finance-and-grants`, `professional-development`, `classroom-management`, `curriculum-and-instruction`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (2).pdf` → `curriculum-and-instruction`, `curriculum-alignment`, `student-pathways-and-wbl`, `eif-pathful-training`, `health-and-compliance`, `events-and-showcase`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030-3.pdf` → `curriculum-and-instruction`, `health-and-compliance`, `professional-development`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030.pdf` → `curriculum-and-instruction`, `health-and-compliance`, `professional-development`, `classroom-management`, `curriculum-alignment`, `student-pathways-and-wbl`
+- `cte-indicator-auto-coder.pdf` → `curriculum-and-instruction`, `school-entry-compliance`, `health-and-compliance`
+- `cte-wbl-training-plan.pdf` → `professional-development`, `student-pathways-and-wbl`, `eif-pathful-training`, `curriculum-and-instruction`, `curriculum-alignment`, `school-entry-compliance`
+- `dallasisd-c806afc9-2f9e-49cd-ac0e-ef32f1f8d951_SessionUsersTemplate.pdf` → `agreements-dallasisd-org`
+- `eDynamic Quote - Principles of IT - 3YR - R. Howard_V1.pdf` → `quote-2025`, `student-pathways-and-wbl`, `professional-development`, `career-clusters`, `procurement-and-vendors`
+- `edit.pdf` → `agreements-dallasisd-org`
+- `hourlysupplementaltimecard.pdf` → `finance-and-grants`, `eif-pathful-training`, `student-pathways-and-wbl`
+- `industry-based-certifications-earned-sy2022-23.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`
+- `invite (1).ics` → `classroom-management`
+- `invite.ics` → `curriculum-and-instruction`, `student-pathways-and-wbl`
+- `outlook (1).vcs` → `curriculum-and-instruction`, `professional-development`, `session-attendance`
+- `outlook.vcs` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `professional-development`, `classroom-management`
+- `p2024-list-of-materials-adopted-by-sboe.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `curriculum-alignment`, `reporting-cycles`
+- `perkinsplanupdatefinalrevised.pdf` → `finance-and-grants`, `professional-development`, `advisory-council`, `curriculum-and-instruction`, `budget-tracker`, `student-pathways-and-wbl`
+- `preliminary-2025-2030-ibc-to-program-of-study-crosswalk.pdf` → `curriculum-and-instruction`, `student-pathways-and-wbl`, `career-clusters`
+- `receipt_3753bb7b-ce7f-4d0d-aa08-a0855cc82eb2.pdf` → `health-and-compliance`, `reimbursement-voucher`, `finance-and-grants`
+- `receipt_794bfc62-f72b-4f6c-af27-9092300445dc (1).pdf` → `reimbursement-voucher`
+- `receipt_c88da51b-4d66-4f7d-93a2-a76e949fab6c (1).pdf` → `reimbursement-voucher`
+- `regional-labor-market-information-wda-5.pdf` → `reporting-cycles`, `career-clusters`, `health-and-compliance`, `student-pathways-and-wbl`, `curriculum-and-instruction`, `events-and-showcase`
+- `regional-labor-market-information-wda-6.pdf` → `reporting-cycles`, `professional-development`, `curriculum-and-instruction`, `career-clusters`, `budget-tracker`, `student-pathways-and-wbl`
+- `tiva 4/7-18-2025 (2).pdf` → —

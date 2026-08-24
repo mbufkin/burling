@@ -1,0 +1,329 @@
+{
+  "count": 9,
+  "documents": [
+    {
+      "doc_id": "a07df45eb31b2293",
+      "rel_path": "12-21-BASC 3 Teacher.pdf",
+      "ext": ".pdf",
+      "tags": [
+        "basc-3",
+        "teacher-assessment",
+        "behavior-rating-scales",
+        "adolescent",
+        "psychological-assessment",
+        "school-behavior",
+        "mental-health",
+        "behavioral-screening",
+        "instructional-material",
+        "student-evaluation",
+        "special-education",
+        "regular-education",
+        "behavioral-concerns",
+        "psychological-testing"
+      ],
+      "entities": [
+        "BASC3",
+        "TRS-A",
+        "Pearson",
+        "PsychCorp"
+      ],
+      "audiences": [
+        "teachers",
+        "special-education-teachers",
+        "regular-education-teachers"
+      ],
+      "artifact_types": [
+        "form",
+        "assessment-tool",
+        "behavior-rating-scales"
+      ],
+      "years": [],
+      "summary": "This document is a BASC-3 Teacher form used to assess the behavior and emotional state of adolescents aged 12-21. It is an important tool for teachers and special education professionals to identify behavioral and emotional concerns in students, aiding in the development of appropriate interventions and support strategies.",
+      "focus_flags": [
+        "contains-address-shaped-text"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "status": "done"
+    },
+    {
+      "doc_id": "3a0ac35663b4bf67",
+      "rel_path": "2nd floor map.png",
+      "ext": ".png",
+      "tags": [
+        "2nd-floor-map",
+        "school-layout",
+        "building-plan",
+        "middle-school",
+        "dallasisd",
+        "campus-design",
+        "space-organization",
+        "facility-management"
+      ],
+      "entities": [],
+      "audiences": [
+        "central-admin",
+        "campus-admin",
+        "facility-maintenance"
+      ],
+      "artifact_types": [
+        "map"
+      ],
+      "years": [],
+      "summary": "This is a 2nd floor map of a Dallas ISD middle school, detailing the layout and space organization for various areas such as boys and girls restrooms, classrooms, and other facilities. It is useful for facility management and administrative planning.",
+      "focus_flags": [],
+      "confidence": 0.9,
+      "needs_review": false,
+      "status": "done"
+    },
+    {
+      "doc_id": "bd38e46176898520",
+      "rel_path": "318703661.pdf",
+      "ext": ".pdf",
+      "tags": [
+        "pslf",
+        "loan-forgiveness",
+        "application",
+        "employment-certification",
+        "direct-loan",
+        "federal-direct-loan-program",
+        "certification-form",
+        "student-loan",
+        "form-completion",
+        "dallasisd",
+        "education-department"
+      ],
+      "entities": [
+        "Jeremy Spence",
+        "Anahi Rodriguez",
+        "Mohela",
+        "Tamika Bowens",
+        "Dallas Independent School District"
+      ],
+      "audiences": [
+        "central-cte",
+        "campus-admin"
+      ],
+      "artifact_types": [
+        "application",
+        "form"
+      ],
+      "years": [
+        "2023"
+      ],
+      "summary": "This document is a PSLF (Public Service Loan Forgiveness) application form for Jeremy Spence, a direct loan borrower employed by Dallas Independent School District. It includes borrower and employment information, and requires certification from the employer. The form is part of the William D. Ford Federal Direct Loan Program.",
+      "focus_flags": [
+        "contains-address-shaped-text"
+      ],
+      "confidence": 0.95,
+      "needs_review": false,
+      "status": "done"
+    },
+    {
+      "doc_id": "bd57f2af62221d71",
+      "rel_path": "ACTE-scan-1.pdf",
+      "ext": ".pdf",
+      "tags": [
+        "team-convening",
+        "committee-working",
+        "work-adaptive",
+        "work-technical",
+        "work-episodic",
+        "ongoing-existence",
+        "resource-intensive",
+        "organizational-support",
+        "trust-development",
+        "skill-diversity"
+      ],
+      "entities": [
+        "Bright Morning Team",
+        "Elena Aguilar"
+      ],
+      "audiences": [
+        "central-cte",
+        "campus-admin"
+      ],
+      "artifact_types": [
+        "quote",
+        "exhibit"
+      ],
+      "years": [],
+      "summary": "This document discusses the characteristics and formation of a team or working group, emphasizing the need for diverse skills, ongoing trust development, and resource-intensive tasks. It is relevant for central CTE and campus administrators in understanding effective team dynamics.",
+      "focus_flags": [
+        "contains-address-shaped-text"
+      ],
+      "confidence": 0.85,
+      "needs_review": false,
+      "status": "done"
+    },
+    {
+      "doc_id": "d919e4cc4b832684",
+      "rel_path": "ACTE-scan-2.pdf",
+      "ext": ".pdf",
+      "tags": [
+        "communication-agreement",
+        "team-agreement",
+        "email-policy",
+        "google-drive",
+        "shared-document",
+        "conflict-resolution",
+        "work-email",
+        "team-meeting-notes"
+      ],
+      "entities": [
+        "BrightMorningTeam",
+        "Google Drive"
+      ],
+      "audiences": [
+        "teachers",
+        "central-cte"
+      ],
+      "artifact_types": [
+        "policy-document"
+      ],
+      "years": [],
+      "summary": "This document outlines a communication agreement for a team, emphasizing email use for logistical information and shared document management on Google Drive. It includes guidelines for responding to emails, respecting team members' time, and handling conflicts in person. The document references a book by Elena Aguilar for further reading.",
+      "focus_flags": [
+        "contains-address-shaped-text"
+      ],
+      "confidence": 0.9,
+      "needs_review": false,
+      "status": "done"
+    },
+    {
+      "doc_id": "66b78a4456a54100",
+      "rel_path": "CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf 1.zip.unpacked/CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf",
+      "ext": ".pdf",
+      "tags": [
+        "pdf-document",
+        "grant-application",
+        "cte-naf",
+        "software-recommendation",
+        "adobe-reader"
+      ],
+      "entities": [],
+      "audiences": [
+        "central-cte"
+      ],
+      "artifact_types": [
+        "portfolio"
+      ],
+      "years": [],
+      "summary": "This PDF document is part of a CTE NAF grant application portfolio. It recommends using Adobe Acrobat X or later for optimal viewing. The document is intended for central CTE officials.",
+      "focus_flags": [
+        "contains-address-shaped-text"
+      ],
+      "confidence": 0.8,
+      "needs_review": true,
+      "status": "done"
+    },
+    {
+      "doc_id": "0644b69eb1d70884",
+      "rel_path": "Classroom Photo.jpg",
+      "ext": ".jpg",
+      "tags": [
+        "naf-academy",
+        "2022",
+        "distinguished-academy",
+        "school-year-2022",
+        "photo",
+        "classroom",
+        "middle-school",
+        "cte"
+      ],
+      "entities": [
+        "KATHERINEBLASIK"
+      ],
+      "audiences": [
+        "central-cte"
+      ],
+      "artifact_types": [
+        "photo"
+      ],
+      "years": [
+        "2022"
+      ],
+      "summary": "This is a photo from the 2022 NAF Distinguished Academy, likely used for documentation or promotional purposes. It highlights the classroom setting and possibly features a distinguished academy program.",
+      "focus_flags": [
+        "contains-address-shaped-text"
+      ],
+      "confidence": 0.8,
+      "needs_review": false,
+      "status": "done"
+    },
+    {
+      "doc_id": "28ac23b08bbd872d",
+      "rel_path": "scan-3.pdf",
+      "ext": ".pdf",
+      "tags": [
+        "tuberculosis-screening",
+        "student-health",
+        "annual-screening",
+        "observer-program",
+        "health-screening-form",
+        "medical-history",
+        "immunosuppression",
+        "symptom-checklist",
+        "student-health-check"
+      ],
+      "entities": [
+        "ObserverProgram@childrens.com",
+        "ana P9821920@gmail.com"
+      ],
+      "audiences": [
+        "central-cte",
+        "campus-admin"
+      ],
+      "artifact_types": [
+        "form",
+        "screening-document"
+      ],
+      "years": [],
+      "summary": "This document is a tuberculosis screening form for students, requiring information on health history and symptoms. It is used by the Observer Program at Children's Health to ensure compliance with health regulations and monitor student health.",
+      "focus_flags": [
+        "contains-address-shaped-text"
+      ],
+      "confidence": 0.9,
+      "needs_review": false,
+      "status": "done"
+    },
+    {
+      "doc_id": "e3f9d8e0ebd6b844",
+      "rel_path": "scan-4.pdf",
+      "ext": ".pdf",
+      "tags": [
+        "assessment-form",
+        "therapy-form",
+        "mental-health",
+        "patient-info",
+        "symptom-checklist",
+        "family-relationships",
+        "school-performance",
+        "behavioral-issues",
+        "suicidal-thoughts"
+      ],
+      "entities": [
+        "MackennaSpence",
+        "OJCCTA"
+      ],
+      "audiences": [
+        "therapists",
+        "guardians"
+      ],
+      "artifact_types": [
+        "form",
+        "assessment"
+      ],
+      "years": [
+        "2024"
+      ],
+      "summary": "This form is used to gather information from patients and guardians for therapy and assessment purposes, covering mental health symptoms, family and school relationships, and behavioral issues. It is important for understanding the patient's needs and providing appropriate support.",
+      "focus_flags": [
+        "contains-address-shaped-text"
+      ],
+      "confidence": 0.9,
+      "needs_review": false,
+      "status": "done"
+    }
+  ]
+}

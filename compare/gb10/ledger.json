@@ -1,0 +1,2274 @@
+{
+  "version": 1,
+  "documents": {
+    "ec811a14875574e6": {
+      "doc_id": "ec811a14875574e6",
+      "rel_path": "Copy of Mobile Lab Compliance Checklist.docx",
+      "ext": ".docx",
+      "size_bytes": 356766,
+      "content_hash": "ec811a14875574e625c47e7cebf93ef5eba48e37648470cb324bba59255a8572",
+      "char_count": 2163,
+      "extraction": {
+        "ok": true,
+        "method": "docx",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-18T22:09:14+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_admin",
+          "curriculum_pacing",
+          "curriculum_lesson"
+        ],
+        "primary_tag": "curriculum_admin",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A compliance checklist for a mobile lab practicum program, detailing requirements for teacher-student interaction time, training plans, site visits, and documentation storage within a Career and Technical Education framework.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:09:17+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "rationale": "A compliance checklist for a mobile lab practicum program within a Career and Technical Education framework, detailing requirements for teacher-student interaction, training plans, and site visits.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:10:33+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops",
+          "need-to-know-handoff"
+        ],
+        "confidence": 0.95,
+        "needs_review": true,
+        "rationale": "The document is a compliance checklist for mobile lab practicum requirements including teacher interaction time, training plans, and site visits, fitting the mobile-lab program and compliance-checklist function.",
+        "handoff_note": "This checklist is essential for successor onboarding to verify mobile lab practicum compliance, training plan deadlines, and site visit documentation requirements.",
+        "status": "done",
+        "at": "2026-08-18T22:11:30+00:00"
+      }
+    },
+    "d14b8180c110fb4e": {
+      "doc_id": "d14b8180c110fb4e",
+      "rel_path": "Copy of [EXTERNAL FACING] MS CTE Technology Tracking - August 18, 10_33 AM.xlsx",
+      "ext": ".xlsx",
+      "size_bytes": 149534,
+      "content_hash": "d14b8180c110fb4e7351797e57ba05a0404b5ae81f35f7ff8fbe9f0ca5c12aef",
+      "char_count": 179,
+      "extraction": {
+        "ok": true,
+        "method": "xlsx",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-18T22:09:14+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_admin"
+        ],
+        "primary_tag": "curriculum_admin",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A spreadsheet tracking CTE technology assets including device type, condition, ownership status, and IT ticket tracking numbers.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:09:19+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum"
+        ],
+        "rationale": "Asset tracking spreadsheet for CTE technology inventory.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:10:34+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "technology-inventory"
+        ],
+        "function": [
+          "inventory-tracking"
+        ],
+        "audience": [
+          "central-cte-staff"
+        ],
+        "record_type": [
+          "spreadsheet-tracker"
+        ],
+        "lifecycle": [
+          "active-ops"
+        ],
+        "confidence": 0.95,
+        "needs_review": false,
+        "rationale": "The document is a spreadsheet that tracks CTE technology assets, device condition, ownership, and IT ticket numbers for the current school year.",
+        "handoff_note": "This live technology inventory tracker is essential for the successor to maintain asset accountability and IT support continuity.",
+        "status": "done",
+        "at": "2026-08-18T22:11:33+00:00"
+      }
+    },
+    "0ca68f3217ac40e5": {
+      "doc_id": "0ca68f3217ac40e5",
+      "rel_path": "Dallas ISD CTE MS Technology_Check-in (Responses).xlsx",
+      "ext": ".xlsx",
+      "size_bytes": 9530,
+      "content_hash": "0ca68f3217ac40e588ca69df65ba4ac370faf1a9c153b948735bf53355c955cf",
+      "char_count": 2110,
+      "extraction": {
+        "ok": true,
+        "method": "xlsx",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-18T22:09:14+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_admin",
+          "work_email_or_memo"
+        ],
+        "primary_tag": "curriculum_admin",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A technology check-in form for CTE teachers across multiple middle school campuses, documenting device ownership, campus 1:1 status, and staffing assignments for college and career courses.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:09:21+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "rationale": "This is a technology check-in form documenting CTE teacher device ownership, campus 1:1 status, and staffing assignments for college and career courses. It is a legitimate work file for curriculum and administrative tracking.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:10:36+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops"
+        ],
+        "confidence": 0.95,
+        "needs_review": true,
+        "rationale": "The document is a technology check-in form for CTE teachers documenting device ownership, campus 1:1 status, and staffing assignments across multiple middle school campuses.",
+        "handoff_note": "This file captures the current technology inventory and staffing assignments for CTE college and career courses across middle schools; the successor should use it to verify device ownership and campus 1:1 status before the next school year.",
+        "status": "done",
+        "at": "2026-08-18T22:11:36+00:00"
+      }
+    },
+    "87b1273a61af3724": {
+      "doc_id": "87b1273a61af3724",
+      "rel_path": "EIF- Pathful/DISD_Full_Year_Course_Overview (1).docx",
+      "ext": ".docx",
+      "size_bytes": 63748,
+      "content_hash": "87b1273a61af3724f9b53bec90b8cb9e87d848967b9ebbe9b2c5b45eaa7a73aa",
+      "char_count": 3251,
+      "extraction": {
+        "ok": true,
+        "method": "docx",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-18T22:09:14+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_lesson",
+          "curriculum_pacing",
+          "curriculum_admin"
+        ],
+        "primary_tag": "curriculum_lesson",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A full-year CTE course overview mapping 4 units from self-discovery through career readiness, including lesson titles, assessment schedules, and integrated Pathful tools for student career planning and post-secondary exploration.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:09:23+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum"
+        ],
+        "rationale": "A full-year CTE course overview with lesson plans, pacing, and integrated career planning tools. This is instructional material the district holds for student delivery.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:10:37+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops"
+        ],
+        "confidence": 0.95,
+        "needs_review": true,
+        "rationale": "The document is a full-year CTE course overview with unit breakdowns, lesson titles, and Pathful integration details, fitting the pathful-eif program and course-overview function.",
+        "handoff_note": "This file provides the complete year-long course structure and Pathful tool integration needed for a successor to set up and deliver the course consistently.",
+        "status": "done",
+        "at": "2026-08-18T22:11:39+00:00"
+      }
+    },
+    "8cd312cc2a8ba088": {
+      "doc_id": "8cd312cc2a8ba088",
+      "rel_path": "EIF- Pathful/DISD_Semester_Course_Overview.docx",
+      "ext": ".docx",
+      "size_bytes": 63572,
+      "content_hash": "8cd312cc2a8ba08816a271d873775b249eded95996f6fd5ad0818ffb37e62b73",
+      "char_count": 3116,
+      "extraction": {
+        "ok": true,
+        "method": "docx",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-18T22:09:14+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_lesson",
+          "curriculum_pacing",
+          "curriculum_admin"
+        ],
+        "primary_tag": "curriculum_lesson",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A semester-long college and career exploration course outline with 4 units, 18 lessons, and embedded Pathful integration covering self-discovery, career research, post-secondary planning, and career readiness capstone projects.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:09:25+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum"
+        ],
+        "rationale": "A semester-long college and career exploration course outline with integrated curriculum, pacing, and assessments. This is instructional material.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:10:39+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops"
+        ],
+        "confidence": 0.95,
+        "needs_review": true,
+        "rationale": "The document is a semester-long college and career exploration course outline with embedded Pathful integration, structured into 4 units and 18 lessons, directly matching the pathful-eif program and course-overview function.",
+        "handoff_note": "This file provides the official semester pacing and Pathful tool integration map for teachers delivering the college and career exploration course; it ensures successors can align lessons and assessments to the correct Pathful modules from day one.",
+        "status": "done",
+        "at": "2026-08-18T22:11:42+00:00"
+      }
+    },
+    "2cd8f94d8c4401a3": {
+      "doc_id": "2cd8f94d8c4401a3",
+      "rel_path": "EIF- Pathful/Pathful_Integration_Overview.docx",
+      "ext": ".docx",
+      "size_bytes": 56509,
+      "content_hash": "2cd8f94d8c4401a3870eb446c9bf7c57b80af2715a4682d71c8e28068d2bade8",
+      "char_count": 3202,
+      "extraction": {
+        "ok": true,
+        "method": "docx",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-18T22:09:14+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_lesson",
+          "curriculum_pacing",
+          "curriculum_admin"
+        ],
+        "primary_tag": "curriculum_lesson",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A detailed overview of how the Pathful platform is integrated into the 2026-27 CTE curriculum across multiple workforce-readiness tracks, specifying 13 distinct touchpoints, 6 modules, and 3 curriculum tracks with descriptions of where and why each feature is used.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:09:28+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum"
+        ],
+        "rationale": "This document details the integration of the Pathful platform into the 2026-27 CTE curriculum, including lesson guides, pacing, and administrative touchpoints. It is a core curriculum resource.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:10:41+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops"
+        ],
+        "confidence": 0.95,
+        "needs_review": true,
+        "rationale": "The document provides a structured overview of Pathful platform integration across the 2026-27 CTE curriculum, detailing modules, touchpoints, and curriculum tracks for teacher implementation.",
+        "handoff_note": "This file defines how Pathful is embedded into the 2026-27 curriculum across 13 touchpoints and 6 modules; the successor should use it to align lesson guides and platform features with course pacing.",
+        "status": "done",
+        "at": "2026-08-18T22:11:45+00:00"
+      }
+    },
+    "b6ae7af5493f82f8": {
+      "doc_id": "b6ae7af5493f82f8",
+      "rel_path": "EIF- Pathful/Program_Changes_2025-26_to_2026-27.docx",
+      "ext": ".docx",
+      "size_bytes": 56352,
+      "content_hash": "b6ae7af5493f82f8fbc55cd94cd64a98a643c21a4ec245efdc0e437c19d6d9e9",
+      "char_count": 4769,
+      "extraction": {
+        "ok": true,
+        "method": "docx",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-18T22:09:14+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_lesson",
+          "curriculum_assessment",
+          "curriculum_pacing",
+          "curriculum_admin",
+          "work_email_or_memo"
+        ],
+        "primary_tag": "curriculum_lesson",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A detailed curriculum revision document for College & Career Exploration, documenting the migration from SchoolLinks to Pathful, alignment updates to TEKS §127.2, assessment rebuilds, Spanish-language additions, hands-on activity inserts, and quality-assurance checks across three school district tracks for the 2026-27 school year.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:09:31+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "rationale": "Curriculum revision document for College & Career Exploration covering platform migration, TEKS alignment, assessment rebuilds, and language accessibility for the 2026-27 school year.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:10:43+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops",
+          "need-to-know-handoff"
+        ],
+        "confidence": 0.95,
+        "needs_review": true,
+        "rationale": "The document is a comprehensive summary of curriculum revisions for the College & Career Exploration course, detailing platform migration, standards alignment, assessment rebuilds, and accessibility updates for the 2026-27 school year.",
+        "handoff_note": "This file captures the full scope of the SchoolLinks to Pathful migration and associated curriculum changes; the successor needs this to maintain alignment, assessment rigor, and Spanish-language accessibility across all tracks.",
+        "status": "done",
+        "at": "2026-08-18T22:11:49+00:00"
+      }
+    },
+    "88f278617a24c3ce": {
+      "doc_id": "88f278617a24c3ce",
+      "rel_path": "Engine Room-Need to know docs for MS/2026-2027 MS Engine Room.xlsx",
+      "ext": ".xlsx",
+      "size_bytes": 347073,
+      "content_hash": "88f278617a24c3ce5b619106e1a3f713655225d60e0b9270ad0e4a0ae0527cf4",
+      "char_count": 14523,
+      "extraction": {
+        "ok": true,
+        "method": "xlsx",
+        "error": null
+      },
+      "priors": {
+        "address": {
+          "count": 3,
+          "redacted_samples": [
+            "[street]"
+          ]
+        }
+      },
+      "filename_tags": [],
+      "prior_severity": "medium",
+      "queued_at": "2026-08-18T22:09:14+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_admin",
+          "curriculum_pacing",
+          "curriculum_lesson",
+          "curriculum_assessment",
+          "work_email_or_memo"
+        ],
+        "primary_tag": "curriculum_admin",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A spreadsheet tracking CTE (Career and Technical Education) budget allocations, mobile lab scheduling, and trailer assignments for middle schools across the 2026-2027 academic year, including budget line items, enrollment projections, and event scheduling. A mobile lab calendar and course assignment sheet for the 2026-2027 school year listing campus visits, field trips, and CTE course offerings with teacher certifications and approval status.",
+        "confidence": "high",
+        "chunk_count": 2,
+        "chunk_custodies": "work|work",
+        "status": "done",
+        "at": "2026-08-18T22:09:37+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "rationale": "The file contains CTE budget allocations, mobile lab scheduling, course assignments, and campus-level operational data for the 2026-2027 academic year. It supports district CTE administration and student programming.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:10:47+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops",
+          "need-to-know-handoff"
+        ],
+        "confidence": 0.95,
+        "needs_review": true,
+        "rationale": "The document is a master spreadsheet tracking 2026-2027 budget allocations, mobile lab scheduling, and trailer assignments across middle schools, with budget lines, enrollment projections, and event scheduling.",
+        "handoff_note": "This file is the authoritative budget and mobile lab calendar for the 2026-2027 school year; the successor must reference it to assign trailers, verify spend, and schedule campus visits.",
+        "status": "done",
+        "at": "2026-08-18T22:11:54+00:00"
+      }
+    },
+    "91c9c4001399b977": {
+      "doc_id": "91c9c4001399b977",
+      "rel_path": "Engine Room-Need to know docs for MS/2026-2027 Teacher_Campus List - 7_29_2026.xlsx",
+      "ext": ".xlsx",
+      "size_bytes": 21876,
+      "content_hash": "91c9c4001399b977117c7a0628b4496394835b921f163241d50a1273582d1f60",
+      "char_count": 5090,
+      "extraction": {
+        "ok": true,
+        "method": "xlsx",
+        "error": null
+      },
+      "priors": {
+        "email": {
+          "count": 1,
+          "redacted_samples": [
+            "J***@dallasisd.org"
+          ]
+        }
+      },
+      "filename_tags": [],
+      "prior_severity": "medium",
+      "queued_at": "2026-08-18T22:09:14+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_admin",
+          "student_record"
+        ],
+        "primary_tag": "curriculum_admin",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A staffing roster for middle school CTE and exploratory courses across multiple campuses for the 2026-2027 academic year, listing teachers, course assignments, and campus placements.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:09:40+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "rationale": "Staffing roster for middle school CTE and exploratory courses across multiple campuses for the 2026-2027 academic year. Contains teacher assignments and campus placements essential for curriculum administration.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:10:49+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops",
+          "need-to-know-handoff"
+        ],
+        "confidence": 0.95,
+        "needs_review": true,
+        "rationale": "The document is a staffing roster listing teachers, course assignments, and campus placements for MS CTE and exploratory courses for the 2026-2027 academic year.",
+        "handoff_note": "This roster is critical for successor onboarding to understand teacher assignments and campus placements for the upcoming school year.",
+        "status": "done",
+        "at": "2026-08-18T22:11:57+00:00"
+      }
+    },
+    "092746ffbaf3f798": {
+      "doc_id": "092746ffbaf3f798",
+      "rel_path": "MS Co-Hort/Framework_ MS Path to College & Career Co-Hort.docx",
+      "ext": ".docx",
+      "size_bytes": 110066,
+      "content_hash": "092746ffbaf3f798ddd739773b8359a6448752ab5522bd7af9b8ea9530afcc19",
+      "char_count": 7477,
+      "extraction": {
+        "ok": true,
+        "method": "docx",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-18T22:09:14+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_admin",
+          "curriculum_pacing",
+          "curriculum_lesson",
+          "curriculum_assessment"
+        ],
+        "primary_tag": "curriculum_admin",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A Dallas ISD CTE agreement for a summer 2026 curriculum standardization project, outlining scope, deliverables, pacing, and compensation for teachers developing 7th grade Path to College and Career Framework materials.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:09:43+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "rationale": "This is a Dallas ISD CTE curriculum development agreement for 7th grade Path to College and Career Framework materials, outlining scope, deliverables, pacing, and compensation for teachers. It is a legitimate work document despite containing stipend and travel details.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:10:52+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops",
+          "need-to-know-handoff"
+        ],
+        "confidence": 0.95,
+        "needs_review": true,
+        "rationale": "This document is a formal curriculum development agreement for the MS Path to College and Career Framework, defining scope, deliverables, and compensation for teacher participants.",
+        "handoff_note": "This file contains the official scope and deliverables for the 7th grade Path to College and Career Framework revision; the successor needs this to understand the project timeline, required artifacts, and compensation structure for the summer 2026 cohort.",
+        "status": "done",
+        "at": "2026-08-18T22:12:01+00:00"
+      }
+    },
+    "52975c50133ad6f6": {
+      "doc_id": "52975c50133ad6f6",
+      "rel_path": "Mobile Lab Documents/2026 - 2027_ Dallas ISD CTE Mobile Lab Video Scripts.docx",
+      "ext": ".docx",
+      "size_bytes": 18016,
+      "content_hash": "52975c50133ad6f6bbb09ea8dee3bd709a956389f156babc1ccc05bd9278d088",
+      "char_count": 13893,
+      "extraction": {
+        "ok": true,
+        "method": "docx",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-18T22:09:14+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_lesson",
+          "curriculum_assessment",
+          "curriculum_pacing",
+          "work_email_or_memo"
+        ],
+        "primary_tag": "curriculum_lesson",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A set of instructional scripts for three CTE Mobile Lab activities: a zSpace dental filling simulation, a 3D pen challenge, and a flight simulator exercise, all designed for career exploration in Health Science and related pathways. Two lesson plan scripts for a CTE mobile lab: a flight simulator activity introducing aviation careers and a Code Breaker challenge teaching coding and problem-solving skills aligned with cybersecurity and IT pathways.",
+        "confidence": "high",
+        "chunk_count": 2,
+        "chunk_custodies": "work|work",
+        "status": "done",
+        "at": "2026-08-18T22:09:48+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum"
+        ],
+        "rationale": "Instructional scripts for CTE Mobile Lab activities (dental, 3D pen, flight simulator) designed for student career exploration.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:10:54+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops",
+          "need-to-know-handoff"
+        ],
+        "confidence": 0.93,
+        "needs_review": true,
+        "rationale": "The document contains three detailed instructional scripts for CTE Mobile Lab activities (zSpace dental, 3D pen, flight simulator) used for career exploration.",
+        "handoff_note": "This file provides the official scripts for all three Mobile Lab activities; successors need these to train staff and run student sessions consistently.",
+        "status": "done",
+        "at": "2026-08-18T22:12:05+00:00"
+      }
+    },
+    "fb19ccc19d6a97f6": {
+      "doc_id": "fb19ccc19d6a97f6",
+      "rel_path": "Mobile Lab Documents/Campus Mobile Lab Meeting Slide Deck.pptx",
+      "ext": ".pptx",
+      "size_bytes": 6521540,
+      "content_hash": "fb19ccc19d6a97f677c13a2580b93c8a25d5990ee06c4622d043036b38c4bf03",
+      "char_count": 4259,
+      "extraction": {
+        "ok": true,
+        "method": "pptx",
+        "error": null
+      },
+      "priors": {
+        "email": {
+          "count": 2,
+          "redacted_samples": [
+            "I***@dallasisd.org",
+            "M***@dallasisd.org"
+          ]
+        },
+        "phone": {
+          "count": 2,
+          "redacted_samples": [
+            "***-***-2346",
+            "***-***-0964"
+          ]
+        }
+      },
+      "filename_tags": [],
+      "prior_severity": "medium",
+      "queued_at": "2026-08-18T22:09:14+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_admin",
+          "work_email_or_memo"
+        ],
+        "primary_tag": "curriculum_admin",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A slide deck outlining the operational policies, responsibilities, and schedule for the Dallas ISD Career Exploration Mobile Lab during the 2026-2027 school year, including inclement weather protocols and campus commitments.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:09:50+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "rationale": "This slide deck outlines operational policies, schedules, and responsibilities for the district's Career Exploration Mobile Lab program. It contains logistical details for campus coordination and student experiences, consistent with work records despite containing redacted PII.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:10:56+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops",
+          "need-to-know-handoff"
+        ],
+        "confidence": 0.95,
+        "needs_review": true,
+        "rationale": "The document is a slide deck outlining operational policies, responsibilities, and schedules for the Dallas ISD Career Exploration Mobile Lab, fitting the mobile-lab program and meeting-deck function.",
+        "handoff_note": "This slide deck contains the official 2026-2027 Mobile Lab policies, schedules, and inclement weather protocols; the successor must review it to ensure campus administrators and teachers are briefed on responsibilities, substitute requirements, and safety cancellations.",
+        "status": "done",
+        "at": "2026-08-18T22:12:08+00:00"
+      }
+    },
+    "5b7cffbe05e34978": {
+      "doc_id": "5b7cffbe05e34978",
+      "rel_path": "Mobile Lab Documents/Trailer Acknowledgment_.docx",
+      "ext": ".docx",
+      "size_bytes": 551619,
+      "content_hash": "5b7cffbe05e3497881d7bcef5c2c26aa0194fb38710c06ac762a11e34876cf9a",
+      "char_count": 4370,
+      "extraction": {
+        "ok": true,
+        "method": "docx",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-18T22:09:14+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_admin",
+          "work_email_or_memo"
+        ],
+        "primary_tag": "curriculum_admin",
+        "custody": "work",
+        "work_related": true,
+        "summary": "Acknowledgment form for Dallas ISD Career Exploration Mobile Lab outlining campus responsibilities including scheduling, student preparation, safety protocols, and administrative requirements for a CTE on-campus field trip experience.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:09:52+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "rationale": "This is a CTE curriculum acknowledgment form for a district mobile lab field trip, outlining scheduling, safety protocols, and administrative requirements. It supports student programming and campus operations.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:10:58+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops",
+          "need-to-know-handoff"
+        ],
+        "confidence": 0.95,
+        "needs_review": true,
+        "rationale": "The document is an official acknowledgment form requiring campus administrator initials on safety, scheduling, and operational requirements for the mobile lab.",
+        "handoff_note": "This form defines the campus's legal and logistical commitments for hosting the mobile lab; the successor must ensure every initialed item is tracked and communicated before the event date.",
+        "status": "done",
+        "at": "2026-08-18T22:12:11+00:00"
+      }
+    },
+    "9862eb158e8715be": {
+      "doc_id": "9862eb158e8715be",
+      "rel_path": "PD/August 6, 2026, Dallas ISD CTE Middle School Professional Development & Back to School (1).pdf",
+      "ext": ".pdf",
+      "size_bytes": 607345,
+      "content_hash": "9862eb158e8715beae93611bcb411d29608f19e124b2f7f21b8fc8d0dcdd5ba5",
+      "char_count": 1994,
+      "extraction": {
+        "ok": true,
+        "method": "pypdf",
+        "error": null
+      },
+      "priors": {
+        "email": {
+          "count": 3,
+          "redacted_samples": [
+            "M***@dallasisd.org",
+            "I***@dallasisd.org"
+          ]
+        },
+        "phone": {
+          "count": 2,
+          "redacted_samples": [
+            "***-***-5021",
+            "***-***-2346"
+          ]
+        },
+        "address": {
+          "count": 2,
+          "redacted_samples": [
+            "[street]",
+            "[st-zip]"
+          ]
+        }
+      },
+      "filename_tags": [],
+      "prior_severity": "medium",
+      "queued_at": "2026-08-18T22:09:14+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_pacing",
+          "curriculum_admin",
+          "work_email_or_memo"
+        ],
+        "primary_tag": "curriculum_pacing",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A professional development agenda for Dallas ISD CTE Middle School staff covering pacing guides, scope and sequence, budget deadlines, and scheduled PLCs for the 2026-2027 school year.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:09:54+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "rationale": "Professional development agenda for CTE Middle School staff covering pacing guides, scope and sequence, and budget deadlines for the upcoming school year.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:11:00+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops",
+          "need-to-know-handoff"
+        ],
+        "confidence": 0.95,
+        "needs_review": true,
+        "rationale": "The document is a structured agenda for a back-to-school professional development session, containing session times, required materials, pacing guides, and key dates for CTE teachers.",
+        "handoff_note": "This file captures the 2026-2027 school year PD calendar, pacing guides, and budget deadlines essential for new CTE staff onboarding.",
+        "status": "done",
+        "at": "2026-08-18T22:12:15+00:00"
+      }
+    },
+    "ab22847ddc9fb763": {
+      "doc_id": "ab22847ddc9fb763",
+      "rel_path": "PD/August 6, 2026, Dallas ISD CTE Middle School Professional Development & Back to School.pptx",
+      "ext": ".pptx",
+      "size_bytes": 429683,
+      "content_hash": "ab22847ddc9fb763380829a95652d3540197fc631a3c26acee85307422544cd3",
+      "char_count": 1935,
+      "extraction": {
+        "ok": true,
+        "method": "pptx",
+        "error": null
+      },
+      "priors": {
+        "email": {
+          "count": 3,
+          "redacted_samples": [
+            "M***@dallasisd.org",
+            "I***@dallasisd.org"
+          ]
+        },
+        "phone": {
+          "count": 2,
+          "redacted_samples": [
+            "***-***-5021",
+            "***-***-2346"
+          ]
+        },
+        "address": {
+          "count": 2,
+          "redacted_samples": [
+            "[street]",
+            "[st-zip]"
+          ]
+        }
+      },
+      "filename_tags": [],
+      "prior_severity": "medium",
+      "queued_at": "2026-08-18T22:09:14+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_admin",
+          "work_email_or_memo"
+        ],
+        "primary_tag": "curriculum_admin",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A professional development agenda for Dallas ISD CTE Middle School staff covering curriculum pacing, budget deadlines, and key dates for the 2026-2027 school year.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:09:57+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "rationale": "Professional development agenda for CTE Middle School staff covering curriculum pacing, budget deadlines, and key dates for the upcoming school year. Contains operational details and staff contact information for district business.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:11:02+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops"
+        ],
+        "confidence": 0.95,
+        "needs_review": true,
+        "rationale": "The document is a structured agenda slide deck for a mandatory back-to-school professional development session, covering curriculum pacing, budget deadlines, and key operational dates for the 2026-2027 school year.",
+        "handoff_note": "This file captures the required pacing, budget spend deadlines, and key dates for the 2026-2027 school year; the successor should use it to align staff on curriculum delivery and financial compliance timelines from day one.",
+        "status": "done",
+        "at": "2026-08-18T22:12:18+00:00"
+      }
+    },
+    "2a38b4a477a9dad6": {
+      "doc_id": "2a38b4a477a9dad6",
+      "rel_path": "PD/CTE 26-27 Summer PD_ 7th Grade Career Readiness Experiences.pptx",
+      "ext": ".pptx",
+      "size_bytes": 37087077,
+      "content_hash": "2a38b4a477a9dad69cbbe6c15779001184a75fcefc276b487d842af348c02852",
+      "char_count": 3023,
+      "extraction": {
+        "ok": true,
+        "method": "pptx",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-18T22:09:14+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_admin",
+          "curriculum_pacing",
+          "curriculum_lesson",
+          "work_email_or_memo"
+        ],
+        "primary_tag": "curriculum_admin",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A planning document for a 7th grade career readiness showcase event, detailing logistics, teacher pre-work, student activities, vendor interactions, and scheduling for the 2025-2026 and 2026-2027 school years.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:09:59+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "rationale": "Planning document for career readiness showcase event covering logistics, scheduling, and teacher/student activities for multiple school years.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:11:04+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops",
+          "need-to-know-handoff"
+        ],
+        "confidence": 0.92,
+        "needs_review": true,
+        "rationale": "The document is a planning slide deck for a 7th grade career readiness showcase, detailing logistics, teacher pre-work, student activities, and scheduling for the upcoming school years.",
+        "handoff_note": "This file contains the live operational plan and teacher pre-work requirements for the 7th grade career readiness showcase; the successor must ensure all campus principals are contacted and pre-work is completed before trailer visits.",
+        "status": "done",
+        "at": "2026-08-18T22:12:22+00:00"
+      }
+    },
+    "944635169d0cc90a": {
+      "doc_id": "944635169d0cc90a",
+      "rel_path": "PD/CTE 26-27 Summer PD_ Middle School Spending.pptx",
+      "ext": ".pptx",
+      "size_bytes": 36585334,
+      "content_hash": "944635169d0cc90aa122cbe8ed3ec6faf09f0065d876c5d145f403f68990c9f3",
+      "char_count": 2846,
+      "extraction": {
+        "ok": true,
+        "method": "pptx",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-18T22:09:14+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_admin",
+          "work_email_or_memo"
+        ],
+        "primary_tag": "curriculum_admin",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A presentation document outlining middle school budget management, spending categories (consumables, classroom supplies, teacher supplies), procurement procedures, and key deadlines for CTE summer professional development.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:10:01+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "rationale": "A presentation on middle school budget management, spending categories, and procurement procedures for CTE summer professional development. Contains operational guidance for staff.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:11:06+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops",
+          "need-to-know-handoff"
+        ],
+        "confidence": 0.92,
+        "needs_review": true,
+        "rationale": "The document is a presentation (PPTX) used to deliver budget management training to middle school CTE teachers during summer PD, covering spending categories and procurement procedures.",
+        "handoff_note": "This file contains the budget thresholds and procurement workflow that successors need to replicate the summer PD session for new teachers.",
+        "status": "done",
+        "at": "2026-08-18T22:12:25+00:00"
+      }
+    },
+    "edfc22b1a0a1e4c7": {
+      "doc_id": "edfc22b1a0a1e4c7",
+      "rel_path": "Purchasing/MSTees 3600 #50410.pdf",
+      "ext": ".pdf",
+      "size_bytes": 293412,
+      "content_hash": "edfc22b1a0a1e4c750182c6f2a8b98c502fbcb3f90f99556f474a604cf84e1c7",
+      "char_count": 2208,
+      "extraction": {
+        "ok": true,
+        "method": "pypdf",
+        "error": null
+      },
+      "priors": {
+        "email": {
+          "count": 2,
+          "redacted_samples": [
+            "f***@yahoo.com",
+            "m***@dallasisd.org"
+          ]
+        },
+        "phone": {
+          "count": 3,
+          "redacted_samples": [
+            "***-***-1524",
+            "***-***-6792",
+            "***-***-5021"
+          ]
+        },
+        "address": {
+          "count": 3,
+          "redacted_samples": [
+            "[po-box]",
+            "[st-zip]"
+          ]
+        }
+      },
+      "filename_tags": [],
+      "prior_severity": "medium",
+      "queued_at": "2026-08-18T22:09:14+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_admin",
+          "work_email_or_memo"
+        ],
+        "primary_tag": "curriculum_admin",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A purchase order request for 3600 cotton t-shirts for Career and Technical Education departments, including pricing breakdown, shipping details, and approval requirements.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:10:03+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "rationale": "Purchase order for CTE department supplies (cotton t-shirts) with pricing and shipping. Legitimate work document despite presence of vendor and school contact details that are already redacted.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:11:08+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops"
+        ],
+        "confidence": 0.95,
+        "needs_review": true,
+        "rationale": "A formal vendor quote with pricing, sizes, and approval requirements for CTE apparel.",
+        "handoff_note": "This quote documents the approved purchase of 3600 CTE t-shirts; the successor should verify approval and PO before ordering.",
+        "status": "done",
+        "at": "2026-08-18T22:12:27+00:00"
+      }
+    },
+    "cb7dbfa8460ca39b": {
+      "doc_id": "cb7dbfa8460ca39b",
+      "rel_path": "Purchasing/Quote #50401 (1).pdf",
+      "ext": ".pdf",
+      "size_bytes": 288836,
+      "content_hash": "cb7dbfa8460ca39b4446089c050e9ef8d5532b0767453f8fb9c088c839de951d",
+      "char_count": 1698,
+      "extraction": {
+        "ok": true,
+        "method": "pypdf",
+        "error": null
+      },
+      "priors": {
+        "email": {
+          "count": 2,
+          "redacted_samples": [
+            "f***@yahoo.com",
+            "m***@dallasisd.org"
+          ]
+        },
+        "phone": {
+          "count": 4,
+          "redacted_samples": [
+            "***-***-1448",
+            "***-***-1524",
+            "***-***-6792",
+            "***-***-5021"
+          ]
+        },
+        "address": {
+          "count": 3,
+          "redacted_samples": [
+            "[po-box]",
+            "[st-zip]"
+          ]
+        }
+      },
+      "filename_tags": [],
+      "prior_severity": "medium",
+      "queued_at": "2026-08-18T22:09:14+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_admin",
+          "work_email_or_memo"
+        ],
+        "primary_tag": "curriculum_admin",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A purchasing quote for CTE Exploration Showcase 2026 booklets, including product specs, pricing, and district shipping details.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:10:05+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "rationale": "Purchasing quote for CTE Exploration Showcase 2026 booklets with district shipping details and staff approval workflow. Contains vendor and staff contact info but is a legitimate work procurement document.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:11:10+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops",
+          "external-facing"
+        ],
+        "confidence": 0.95,
+        "needs_review": true,
+        "rationale": "A formal vendor quote for printed booklets supporting the CTE Exploration Showcase 2026 event, containing product specs, pricing, and shipping details.",
+        "handoff_note": "This quote documents the approved vendor and budget for the 2026 showcase booklets; the successor should verify delivery and distribution logistics before the event.",
+        "status": "done",
+        "at": "2026-08-18T22:12:30+00:00"
+      }
+    },
+    "6a41c633f659ae21": {
+      "doc_id": "6a41c633f659ae21",
+      "rel_path": "Purchasing/School Specialty Purchasing List.docx",
+      "ext": ".docx",
+      "size_bytes": 71817,
+      "content_hash": "6a41c633f659ae21",
+      "char_count": 0,
+      "extraction": {
+        "ok": false,
+        "method": "docx",
+        "error": "no text extracted"
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-18T22:09:14+00:00",
+      "pass1": null,
+      "pass2": null,
+      "queue_status": "extract_failed",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "unmapped"
+        ],
+        "confidence": 0.0,
+        "needs_review": true,
+        "rationale": "Extract failed: no text extracted",
+        "handoff_note": "",
+        "status": "skipped",
+        "at": "2026-08-18T22:12:30+00:00"
+      }
+    },
+    "96cffb236da3c047": {
+      "doc_id": "96cffb236da3c047",
+      "rel_path": "Purchasing/Trailer Activity Guide - Print Ready (1).pdf",
+      "ext": ".pdf",
+      "size_bytes": 7523532,
+      "content_hash": "96cffb236da3c047c083ddb432207541b6a3bfa1532d1bae415a5bedeae6376d",
+      "char_count": 22590,
+      "extraction": {
+        "ok": true,
+        "method": "pypdf",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-18T22:09:15+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_lesson",
+          "curriculum_assessment",
+          "curriculum_pacing",
+          "curriculum_admin"
+        ],
+        "primary_tag": "curriculum_lesson",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A student guide for a CTE Mobile Lab unit covering two modules: 3D pen design and construction of a 3D house structure, and a dental care module introducing tooth anatomy, decay prevention, and virtual dental procedures. Includes learning objectives, step-by-step activities, check-for-understanding questions, and printable worksheets. A CTE program guide containing multi-station learning activities across health sciences (dental X-ray interpretation), computer science (cryptography/code breaking), welding simulation, and aviation/flight training. Includes student worksheets, check-for-understanding questions, and mobile lab instructions organized by grade level or module (pages 12-22). A training guide for a mobile lab activity covering flight simulator landing procedures and drone operati",
+        "confidence": "high",
+        "chunk_count": 3,
+        "chunk_custodies": "work|work|work",
+        "status": "done",
+        "at": "2026-08-18T22:10:15+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_student_record"
+        ],
+        "rationale": "Contains CTE curriculum materials for student activities including 3D pen construction and dental health lessons. The district holds student health and immunization records as work, and this document is part of the approved CTE program guide.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_student_record"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:11:13+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops"
+        ],
+        "confidence": 0.92,
+        "needs_review": true,
+        "rationale": "The PDF is a student-facing guide for CTE Mobile Lab activities covering 3D pen construction and dental care modules, organized with worksheets and step-by-step instructions.",
+        "handoff_note": "This file contains the print-ready student guide for the mobile lab's 3D pen and dental modules; the successor should use it to prepare materials and brief teachers before campus visits.",
+        "status": "done",
+        "at": "2026-08-18T22:12:35+00:00"
+      }
+    },
+    "4da7d5458f277a5c": {
+      "doc_id": "4da7d5458f277a5c",
+      "rel_path": "Showcase/2026 - 2027 Career Exploration Parking Tags.pptx",
+      "ext": ".pptx",
+      "size_bytes": 844115,
+      "content_hash": "4da7d5458f277a5cbcf15675fa44418fcf5e48e5845927879eccedfd3b4e21fd",
+      "char_count": 311,
+      "extraction": {
+        "ok": true,
+        "method": "pptx",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-18T22:09:15+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_admin"
+        ],
+        "primary_tag": "curriculum_admin",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A parking layout document for a career exploration showcase event, designating bus parking lots and vendor/volunteer parking areas.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:10:17+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum"
+        ],
+        "rationale": "A parking layout document for a career exploration showcase event, designating bus and vendor/volunteer parking areas.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:11:15+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops",
+          "external-facing"
+        ],
+        "confidence": 0.95,
+        "needs_review": true,
+        "rationale": "Document is a parking layout for a career exploration showcase event, intended for external partners and vendors.",
+        "handoff_note": "This file defines parking logistics for the upcoming career exploration showcase; the successor should verify campus names and pick-up locations before distribution.",
+        "status": "done",
+        "at": "2026-08-18T22:12:37+00:00"
+      }
+    },
+    "049a89afd8e0bde3": {
+      "doc_id": "049a89afd8e0bde3",
+      "rel_path": "Showcase/2026-2027 Showcase - Partner Flyer (2).pdf",
+      "ext": ".pdf",
+      "size_bytes": 4182275,
+      "content_hash": "049a89afd8e0bde3377b6f198cff145478a0035a2310553dd93e953bd563eeb5",
+      "char_count": 1127,
+      "extraction": {
+        "ok": true,
+        "method": "pypdf",
+        "error": null
+      },
+      "priors": {
+        "email": {
+          "count": 3,
+          "redacted_samples": [
+            "M***@dallasisd.org",
+            "I***@dallasisd.org"
+          ]
+        },
+        "address": {
+          "count": 1,
+          "redacted_samples": [
+            "[st-zip]"
+          ]
+        }
+      },
+      "filename_tags": [],
+      "prior_severity": "medium",
+      "queued_at": "2026-08-18T22:09:15+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_admin",
+          "work_email_or_memo"
+        ],
+        "primary_tag": "curriculum_admin",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A promotional flyer for a middle school career exploration showcase event, detailing student participation, partner exhibitors, career clusters, and logistical information for industry engagement.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:10:19+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "rationale": "Promotional flyer for a district career exploration event detailing student participation, partner exhibitors, and logistical information for industry engagement.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:11:16+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops",
+          "external-facing"
+        ],
+        "confidence": 0.95,
+        "needs_review": true,
+        "rationale": "The document is a PDF promotional flyer for a middle school career exploration showcase, detailing event logistics, partner exhibitors, and career clusters for external industry engagement.",
+        "handoff_note": "This flyer is the primary outreach piece for the 2026-2027 showcase; the successor should use it to confirm partner commitments, update logistics, and communicate event details to industry exhibitors.",
+        "status": "done",
+        "at": "2026-08-18T22:12:41+00:00"
+      }
+    },
+    "1177aa6fc1c22b64": {
+      "doc_id": "1177aa6fc1c22b64",
+      "rel_path": "Showcase/2026-2027 Showcase Invite List.xlsx",
+      "ext": ".xlsx",
+      "size_bytes": 16947,
+      "content_hash": "1177aa6fc1c22b642943ca2fed344ed98bda175c3f71cc68c1ee2d5b8d7d238c",
+      "char_count": 3538,
+      "extraction": {
+        "ok": true,
+        "method": "xlsx",
+        "error": null
+      },
+      "priors": {
+        "email": {
+          "count": 38,
+          "redacted_samples": [
+            "L***@rayburnelectric.com",
+            "c***@adobe.com",
+            "j***@aa.com",
+            "d***@breakingdownbarriers.org",
+            "r***@dallas.gov"
+          ]
+        },
+        "phone": {
+          "count": 14,
+          "redacted_samples": [
+            "***-***-9922",
+            "***-***-5304",
+            "***-***-0269",
+            "***-***-1077",
+            "***-***-1571"
+          ]
+        }
+      },
+      "filename_tags": [],
+      "prior_severity": "medium",
+      "queued_at": "2026-08-18T22:09:15+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_admin",
+          "work_email_or_memo",
+          "student_record"
+        ],
+        "primary_tag": "curriculum_admin",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A showcase invitation list compiling industry partners, educational institutions, and community organizations aligned with various CTE career clusters. Contains contact information for points of contact across education, industry, and government sectors.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:10:21+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "rationale": "This is a showcase invitation list compiling industry partners, educational institutions, and community organizations aligned with CTE career clusters. It serves as legitimate work records for curriculum and administrative purposes.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:11:18+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops",
+          "external-facing"
+        ],
+        "confidence": 0.92,
+        "needs_review": true,
+        "rationale": "The file is an invitation list for a CTE career exploration showcase, compiling partner contacts for event logistics and outreach.",
+        "handoff_note": "This roster is the primary reference for event-day partner coordination, contact flow, and cluster-aligned logistics.",
+        "status": "done",
+        "at": "2026-08-18T22:12:43+00:00"
+      }
+    },
+    "6ad0cc94a59e279b": {
+      "doc_id": "6ad0cc94a59e279b",
+      "rel_path": "Showcase/Parking.pptx",
+      "ext": ".pptx",
+      "size_bytes": 701639,
+      "content_hash": "6ad0cc94a59e279b1adb2462fef974775e67a83b764f8a3f21f39ee7189d12a0",
+      "char_count": 1569,
+      "extraction": {
+        "ok": true,
+        "method": "pptx",
+        "error": null
+      },
+      "priors": {
+        "email": {
+          "count": 3,
+          "redacted_samples": [
+            "M***@dallasisd.org",
+            "I***@dallasisd.org"
+          ]
+        },
+        "address": {
+          "count": 2,
+          "redacted_samples": [
+            "[street]"
+          ]
+        }
+      },
+      "filename_tags": [],
+      "prior_severity": "medium",
+      "queued_at": "2026-08-18T22:09:15+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_admin",
+          "work_email_or_memo"
+        ],
+        "primary_tag": "curriculum_admin",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A planning document for a school showcase event, detailing parking assignments, loading zones, vendor check-in procedures, and booth assignments for various CTE programs. Includes logistical notes for setup, food service deadlines, and staff contact information.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:10:23+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "rationale": "A planning document for a school showcase event detailing logistics, parking assignments, and vendor procedures for CTE programs. Contains staff contact information and scheduling details necessary for district operations.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:11:20+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops",
+          "external-facing"
+        ],
+        "confidence": 0.92,
+        "needs_review": true,
+        "rationale": "The file is a planning slide deck for a CTE showcase event, detailing parking, loading zones, vendor check-in, and booth assignments for programs.",
+        "handoff_note": "This file maps parking, loading zones, and booth assignments for the MS Showcase 2026-2027; the successor needs it to direct vendors, volunteers, and buses and to confirm food counts by the September 14 deadline.",
+        "status": "done",
+        "at": "2026-08-18T22:12:47+00:00"
+      }
+    },
+    "2acdc633e79c763c": {
+      "doc_id": "2acdc633e79c763c",
+      "rel_path": "Summe Conference Tracker 2026.xlsx",
+      "ext": ".xlsx",
+      "size_bytes": 25194,
+      "content_hash": "2acdc633e79c763cac80a7274b40a20892cbb7e735093a81256fb98307e3ee2a",
+      "char_count": 6005,
+      "extraction": {
+        "ok": true,
+        "method": "xlsx",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-18T22:09:15+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_admin",
+          "work_email_or_memo"
+        ],
+        "primary_tag": "curriculum_admin",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A conference travel tracker for a CTE association event, listing attendee names, destinations, dates, payment status, and attached signature/approval documents. The file tracks travel paperwork, membership invoices, and grant-funded travel authorizations for multiple staff members.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:10:26+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_travel"
+        ],
+        "rationale": "This file is a conference travel tracker for CTE association events, containing staff travel authorizations, grant-funded travel records, and approval documentation. It is a legitimate work record despite containing PII that has already been redacted.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_travel"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:11:23+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops",
+          "need-to-know-handoff"
+        ],
+        "confidence": 0.95,
+        "needs_review": true,
+        "rationale": "The file is a conference travel tracker listing attendees, destinations, dates, payment status, and approval documents for a CTE association event.",
+        "handoff_note": "This tracker is essential for successor onboarding to manage CTE conference travel authorizations, reimbursements, and grant-funded travel records for the upcoming cycle.",
+        "status": "done",
+        "at": "2026-08-18T22:12:50+00:00"
+      }
+    },
+    "bed3855b8250ca56": {
+      "doc_id": "bed3855b8250ca56",
+      "rel_path": "WAIP/2026 - 2027_ Middle School Career Exploration Experience Registrations.docx",
+      "ext": ".docx",
+      "size_bytes": 368080,
+      "content_hash": "bed3855b8250ca5699fcd2fd21ed8400d52c4023bbbb9f6b74458059ba23c9be",
+      "char_count": 1809,
+      "extraction": {
+        "ok": true,
+        "method": "docx",
+        "error": null
+      },
+      "priors": {
+        "email": {
+          "count": 1,
+          "redacted_samples": [
+            "m***@dallasisd.org"
+          ]
+        }
+      },
+      "filename_tags": [],
+      "prior_severity": "medium",
+      "queued_at": "2026-08-18T22:09:15+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_admin",
+          "work_email_or_memo"
+        ],
+        "primary_tag": "curriculum_admin",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A district memo outlining registration procedures and dates for middle school career exploration experiences for the 2026-2027 school year, including options for a showcase event or mobile lab.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:10:28+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "rationale": "District memo outlining registration procedures and dates for middle school career exploration experiences. Contains administrative instructions and scheduling information for CTE programs.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:11:25+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops",
+          "need-to-know-handoff"
+        ],
+        "confidence": 0.95,
+        "needs_review": true,
+        "rationale": "The document is a district memo with registration procedures and dates for middle school career exploration experiences, structured as a form for campus administrators to confirm selections.",
+        "handoff_note": "This file contains the official registration deadlines and date confirmations for the 2026-2027 middle school career exploration experiences; the successor must ensure campuses select and confirm their experience dates by August 27, 2026.",
+        "status": "done",
+        "at": "2026-08-18T22:12:54+00:00"
+      }
+    },
+    "436c890945db09b8": {
+      "doc_id": "436c890945db09b8",
+      "rel_path": "[EXTERNAL FACING] MS CTE Technology Tracking.xlsx",
+      "ext": ".xlsx",
+      "size_bytes": 159471,
+      "content_hash": "436c890945db09b8b8f01112b6a78df19d8e1abcc46acc7fa1518f55fa93e838",
+      "char_count": 3006,
+      "extraction": {
+        "ok": true,
+        "method": "xlsx",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-18T22:09:15+00:00",
+      "pass1": {
+        "tags": [
+          "curriculum_admin",
+          "work_email_or_memo"
+        ],
+        "primary_tag": "curriculum_admin",
+        "custody": "work",
+        "work_related": true,
+        "summary": "A tracking spreadsheet for CTE technology assets across multiple campuses, documenting device condition, ownership, and service ticket status for courses including College and Career, Professional Communications, and Principles of Business. Includes instructions for teachers to report device issues and campus IT coordination.",
+        "confidence": "high",
+        "chunk_count": 1,
+        "chunk_custodies": "work",
+        "status": "done",
+        "at": "2026-08-18T22:10:30+00:00"
+      },
+      "pass2": {
+        "custody": "work",
+        "recommendation": "keep",
+        "reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "rationale": "A CTE technology tracking spreadsheet documenting device condition, ownership, and service tickets across multiple campuses. This is an operational asset for curriculum and IT coordination.",
+        "confidence": "high",
+        "model_recommendation": "keep",
+        "model_custody": "work",
+        "model_reasons": [
+          "keep_work_curriculum",
+          "keep_work_admin"
+        ],
+        "code_override": null,
+        "status": "done",
+        "at": "2026-08-18T22:11:27+00:00"
+      },
+      "queue_status": "pass2_done",
+      "placement": {
+        "program": [
+          "unmapped"
+        ],
+        "function": [
+          "unmapped"
+        ],
+        "audience": [
+          "unmapped"
+        ],
+        "record_type": [
+          "unmapped"
+        ],
+        "lifecycle": [
+          "active-ops"
+        ],
+        "confidence": 0.95,
+        "needs_review": true,
+        "rationale": "The document is a campus-level tracking spreadsheet for CTE technology assets, explicitly listing device condition, ownership, and IT ticket status for courses.",
+        "handoff_note": "This file captures the current technology asset state across campuses; the successor must ensure teachers complete device condition and ticket fields to maintain continuity of asset tracking.",
+        "status": "done",
+        "at": "2026-08-18T22:12:56+00:00"
+      }
+    }
+  },
+  "intake": "/home/lenovo/meg-intake"
+}

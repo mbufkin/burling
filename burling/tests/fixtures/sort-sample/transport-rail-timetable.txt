@@ -1,0 +1,6 @@
+City rail timetable, weekday peak.
+
+The north line runs every 12 minutes from 06:30 to 09:30. Platform 3
+serves express trains that skip the two innermost suburban stops.
+A weekend engineering blockade is scheduled for the river bridge;
+replacement buses will use the service road beside the freight yard.

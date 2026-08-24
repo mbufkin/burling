@@ -1,0 +1,463 @@
+# Regions (Pass B stitch)
+
+Nested groups stitched from Pass A free-form tags. Docs may appear in multiple regions.
+
+**Documents:** 400
+**Top-level regions:** 10
+**Total nodes:** 10
+**Tag coverage:** 3249/3249 (100.0%)
+**Docs with ≥1 region:** 398
+
+## Tree
+
+- **Religious discussion** (`religious-discussion`) — 42 docs
+  - tags: `religious-discussion`, `religious-debate`, `theology`, `christianity`, `christian-debate`, `christian-apologetics`, `biblical-interpretation`, `biblical-study`, `scriptural-interpretation`, `scripture-interpretation`, `faith-dialogue`, `religious-philosophy` (+9)
+- **Hardware compatibility** (`hardware-compatibility`) — 80 docs
+  - tags: `hardware-compatibility`, `computer-hardware`, `computer-hardware-upgrade`, `isa-bus`, `mac-compatibility`, `vintage-hardware`, `1990s-hardware`, `dos`, `config-sys`, `emm386`, `windows-3.1`, `dec-486` (+6)
+- **Cryptography** (`cryptography`) — 23 docs
+  - tags: `cryptography`, `clipper-chip`, `encryption-policy`, `des-encryption`, `crypto-export-controls`, `pgp-encryption-software`, `1990s-cryptography`, `government-surveillance`, `law-enforcement-wiretap`, `serial-number-identification`, `phone-security`, `clipper-chip-controversy`
+- **Vintage computing** (`vintage-computing`) — 13 docs
+  - tags: `retro-computing`, `1990s-computing`, `vintage-computing`, `1990s-internet-culture`, `1990s-internet`, `early-internet`, `usenet-1990s`, `usenet-archive`, `alt.atheism`, `newsgroup-archives`, `computer-history`, `internet-history` (+3)
+- **Political debate** (`political-debate`) — 70 docs
+  - tags: `political-commentary`, `political-debate`, `political-discourse`, `political-philosophy`, `constitutional-law`, `policy-debate`, `government-surveillance`, `hate-speech`, `free-speech`, `bill-of-rights`, `academic-freedom`, `privacy-concerns`
+- **Sports discussion** (`sports-discussion`) — 43 docs
+  - tags: `sports-discussion`, `baseball`, `hockey`, `canadian-hockey`, `toronto-blue-jays`, `pittsburgh-penguins`, `nhl-playoffs`, `nhl-broadcast-schedule`, `sports-media`, `sports-fandom`, `sports-forum-post`, `goalies-safety` (+4)
+- **Motorcycle maintenance** (`motorcycle-maintenance`) — 27 docs
+  - tags: `motorcycle-maintenance`, `bike-maintenance`, `carburetor-repair`, `mikuni-hs40`, `vintage-bike`, `technical-discussion`, `bicycle-maintenance`, `chain-wax`, `chain-cleaning`, `goalie-safety`
+- **Hardware troubleshooting** (`hardware-troubleshooting`) — 41 docs
+  - tags: `hardware-troubleshooting`, `tech-support`, `tech-support-1990s`, `troubleshooting`, `computer-accessories`, `computer-architecture`, `system-administration`, `config-sys`, `dos-fonts`, `windows-fonts`, `full-screen-dos`, `alt-tab` (+2)
+- **Unmapped** (`unmapped`) — 61 docs
+- **Needs review** (`needs-review`) — 0 docs
+  - tags: `college-life`, `superstition-smoking-trends`, `ivy-league-poll`, `student-beliefs`, `srebrenica-bosnia-war-1992-1995`, `medical-relief-bosnia-1993`, `msf-medecins-sans-frontieres-intervention-1993`, `surgical-field-conditions-bosnia-1993`, `civilian-medical-crisis-bosnia`, `war-survivor-testimony-1993`, `healthcare-deprivation-bosnia-1993`, `reuter-news-feature-1993` (+28)
+
+## Documents by top-level region
+
+### Religious discussion (42)
+
+- `00451f0d5bb2.txt` → —
+- `031eec8e9946.txt` → —
+- `0ac897bc0304.txt` → —
+- `101f3b5b0ed7.txt` → —
+- `12feaf793354.txt` → —
+- `19207f4b9d0b.txt` → —
+- `1af8a3893e40.txt` → —
+- `1cb93321f53f.txt` → —
+- `1ef3aa68b172.txt` → —
+- `2d8f608ca51e.txt` → —
+- `2e23beacca49.txt` → —
+- `2f57d2f18fff.txt` → —
+- `4372a083cb6b.txt` → —
+- `4b777701c155.txt` → —
+- `56ea37cfcad7.txt` → —
+- `5ae7b2c91089.txt` → —
+- `5f753a9724bb.txt` → —
+- `67ea1492ad74.txt` → —
+- `6c259b5f9db0.txt` → —
+- `6d10cc1a023b.txt` → —
+- `7127d9f968ed.txt` → —
+- `75fdea43909c.txt` → —
+- `76ae28fe39dd.txt` → —
+- `7a9ed41cb610.txt` → —
+- `7ce8d4d1b4c0.txt` → —
+- `8709b689ae78.txt` → —
+- `8d1bd4abc361.txt` → —
+- `a00f0db1c484.txt` → —
+- `a02ee617bc3a.txt` → —
+- `a5e64b7e491c.txt` → —
+- `b216f3f57239.txt` → —
+- `b51bb359abf3.txt` → —
+- `bb6df7217bd6.txt` → —
+- `be3053f542e2.txt` → —
+- `c928f648f751.txt` → —
+- `deed3d720da4.txt` → —
+- `df091ccf7375.txt` → —
+- `e63be39e0b11.txt` → —
+- `ebf8066e0d26.txt` → —
+- `f04eb1b8fe96.txt` → —
+- `ff9628503479.txt` → —
+- `ffb857fa951f.txt` → —
+
+### Hardware compatibility (80)
+
+- `04de7ed90592.txt` → —
+- `0b16f545c6d4.txt` → —
+- `0c2f6c8a1315.txt` → —
+- `0d2495cd8f2a.txt` → —
+- `12fe59ae8380.txt` → —
+- `22fa9ee3f9ab.txt` → —
+- `2c0f1044d7ba.txt` → —
+- `2c7f1f0b9463.txt` → —
+- `30f8e92fd05f.txt` → —
+- `325e5975659b.txt` → —
+- `3e17f04abe7c.txt` → —
+- `3f95444d055d.txt` → —
+- `3fe26e3e29f8.txt` → —
+- `4723773f2b82.txt` → —
+- `4a4ba79e4cf2.txt` → —
+- `4bdc0d958258.txt` → —
+- `4bf0c2adc21a.txt` → —
+- `4c61f7ba421d.txt` → —
+- `502e3e88b260.txt` → —
+- `54812555ccc3.txt` → —
+- `577cc05270cb.txt` → —
+- `5f1ea0306489.txt` → —
+- `6344ff6f0cb9.txt` → —
+- `635ccac2762b.txt` → —
+- `638223a2be4f.txt` → —
+- `63b3a0a783cf.txt` → —
+- `66e5ecb00646.txt` → —
+- `66e946668fc1.txt` → —
+- `6b529026c431.txt` → —
+- `6c7115595699.txt` → —
+- `6eea732ee8ed.txt` → —
+- `702a4d40331b.txt` → —
+- `731241c782f5.txt` → —
+- `76f606ed3e71.txt` → —
+- `787b1c92deae.txt` → —
+- `79729015e965.txt` → —
+- `7c06a6b0226f.txt` → —
+- `7e8cd5c075eb.txt` → —
+- `7ebba23d6f04.txt` → —
+- `7fbb2765b839.txt` → —
+- `7fcc399f0f56.txt` → —
+- `861f20c930ef.txt` → —
+- `8943b84b7f0a.txt` → —
+- `8945fef4df21.txt` → —
+- `8bdc956ed094.txt` → —
+- `8f181d8084d9.txt` → —
+- `920042a47724.txt` → —
+- `95083151bfa7.txt` → —
+- `9dd5f14accf8.txt` → —
+- `a09a2e11470a.txt` → —
+- `a44b6026af63.txt` → —
+- `a548dbc40fbd.txt` → —
+- `a5e9ebc91f03.txt` → —
+- `bb3057039455.txt` → —
+- `bbd1db4cdd43.txt` → —
+- `c3f9843cde94.txt` → —
+- `c40a4718f6f8.txt` → —
+- `c7d150d35492.txt` → —
+- `cfc9c23286dc.txt` → —
+- `d0171b1bb0ea.txt` → —
+- `d1424cb57aaf.txt` → —
+- `d5428337b467.txt` → —
+- `d7ed483cb8b4.txt` → —
+- `d94d75be788c.txt` → —
+- `dce9a081bcf0.txt` → —
+- `def3cd0e8c06.txt` → —
+- `e141bca26bf1.txt` → —
+- `e55378ba8fb0.txt` → —
+- `e6a6330e84af.txt` → —
+- `e6ca687daba2.txt` → —
+- `e811fc2723fd.txt` → —
+- `ed4aadd156c6.txt` → —
+- `eda0d1f98c96.txt` → —
+- `ee943e1ac2c7.txt` → —
+- `f0a137ec57f0.txt` → —
+- `f34b90b74466.txt` → —
+- `f37817f97e7d.txt` → —
+- `f6743efca239.txt` → —
+- `f86155252f33.txt` → —
+- `f9c6be533077.txt` → —
+
+### Cryptography (23)
+
+- `062579a4c417.txt` → —
+- `083c67d9ed96.txt` → —
+- `0e86744c74b3.txt` → —
+- `15497a692642.txt` → —
+- `20a9a9aeeb7f.txt` → —
+- `2c3ba8cebf80.txt` → —
+- `411379216a16.txt` → —
+- `4838ba2e9189.txt` → —
+- `495d2443528b.txt` → —
+- `5feb69fbba6f.txt` → —
+- `62d269ab7c3b.txt` → —
+- `7c2e45b4bdb0.txt` → —
+- `7f01258c5a2b.txt` → —
+- `880862b9c1e3.txt` → —
+- `a7431fadba19.txt` → —
+- `c962f6c0c296.txt` → —
+- `caa4231c61e4.txt` → —
+- `d68c93f4f36a.txt` → —
+- `dca25b71d3ff.txt` → —
+- `e9d6912a54a9.txt` → —
+- `ee13c832b6fc.txt` → —
+- `f8a1290e499a.txt` → —
+- `ffc93d0071b8.txt` → —
+
+### Vintage computing (13)
+
+- `204ac41f5ac6.txt` → —
+- `2df54fb1e742.txt` → —
+- `6d2bb18806b7.txt` → —
+- `9366b929f51d.txt` → —
+- `a55d531b4a04.txt` → —
+- `afdae1f44abc.txt` → —
+- `be9c4dab9fdd.txt` → —
+- `c22984c7e970.txt` → —
+- `c9b1c6a79918.txt` → —
+- `cd67efd6c3c9.txt` → —
+- `e4bc6d8281fc.txt` → —
+- `e52a2dc507a6.txt` → —
+- `fc70294bac4a.txt` → —
+
+### Political debate (70)
+
+- `0107c8a47796.txt` → —
+- `012574603c93.txt` → —
+- `0b6a03918499.txt` → —
+- `0f54ba337323.txt` → —
+- `13d34c59b246.txt` → —
+- `159ffa849051.txt` → —
+- `196c1d3c8293.txt` → —
+- `1af2abd3d98c.txt` → —
+- `291cc80701f7.txt` → —
+- `2c93424c28d8.txt` → —
+- `31097479def6.txt` → —
+- `32fb80cc48e1.txt` → —
+- `3632908b5049.txt` → —
+- `38327765a90b.txt` → —
+- `3952a352844b.txt` → —
+- `3a66d5a10244.txt` → —
+- `3c96049b086d.txt` → —
+- `3d958c175d22.txt` → —
+- `46b160b2a6a7.txt` → —
+- `4f9630f9fd6d.txt` → —
+- `522cb8f57cd0.txt` → —
+- `5354f08aefdf.txt` → —
+- `537663e0b12b.txt` → —
+- `59d6904f6499.txt` → —
+- `5ab11b1561d4.txt` → —
+- `5bf5fc1888e5.txt` → —
+- `62feaaaba7ee.txt` → —
+- `646326b31bd4.txt` → —
+- `64c38b972066.txt` → —
+- `6815be8618ae.txt` → —
+- `689c1414c9c3.txt` → —
+- `6920021f8b2e.txt` → —
+- `6a28a76c65b7.txt` → —
+- `6ea87ecdd773.txt` → —
+- `6ec46115177a.txt` → —
+- `76390ba2c95d.txt` → —
+- `7931534b9313.txt` → —
+- `7a53805eab30.txt` → —
+- `7e3ab26a2894.txt` → —
+- `7f884529f739.txt` → —
+- `944eb721e946.txt` → —
+- `94d23dc1176e.txt` → —
+- `98073b704042.txt` → —
+- `9d77e057b421.txt` → —
+- `a44dcfd49324.txt` → —
+- `a7da390e36fe.txt` → —
+- `a807421662be.txt` → —
+- `a92fa3c2ac21.txt` → —
+- `abd0308d49e9.txt` → —
+- `b6644180bf7f.txt` → —
+- `b78d03a8438a.txt` → —
+- `bfb78531cf23.txt` → —
+- `c04d0107dbcc.txt` → —
+- `cb5b471670f3.txt` → —
+- `cb9ee99ecc45.txt` → —
+- `cc841db28b0b.txt` → —
+- `d2ac94148609.txt` → —
+- `d3879175d75c.txt` → —
+- `d4121c6cb66e.txt` → —
+- `d57f6004befc.txt` → —
+- `d6c193038fd1.txt` → —
+- `d8339bf32004.txt` → —
+- `d995d655edae.txt` → —
+- `da4b63f45b6e.txt` → —
+- `e0493be82d07.txt` → —
+- `e08ff9b990d8.txt` → —
+- `f4b05f3728fb.txt` → —
+- `fe06826326f0.txt` → —
+- `fedf2274add0.txt` → —
+- `ff9d26a58fb2.txt` → —
+
+### Sports discussion (43)
+
+- `1082c63f1ac0.txt` → —
+- `155d222cae74.txt` → —
+- `1ce6ab024488.txt` → —
+- `2580cf2d3ed7.txt` → —
+- `28c024284db4.txt` → —
+- `2da9b4b9e17d.txt` → —
+- `34c7ea6de457.txt` → —
+- `34d041bfd790.txt` → —
+- `37fa34399255.txt` → —
+- `3c9393bccda6.txt` → —
+- `3e6e1f84c0b2.txt` → —
+- `40fed99e9e2f.txt` → —
+- `4468f273d21e.txt` → —
+- `4645f5a0d383.txt` → —
+- `468ba03928e3.txt` → —
+- `4bc3e011f694.txt` → —
+- `66b3f056b496.txt` → —
+- `6a7f0077177a.txt` → —
+- `6c6e6a8edba8.txt` → —
+- `7a8089fc47f1.txt` → —
+- `806d46020930.txt` → —
+- `86f808773087.txt` → —
+- `87573abee718.txt` → —
+- `9192060a8c1f.txt` → —
+- `927f2b0f0c98.txt` → —
+- `9a9917b255f5.txt` → —
+- `9b14ff232566.txt` → —
+- `9cb15fbd995e.txt` → —
+- `9cd29e5faf6e.txt` → —
+- `9ed7a0e50cf9.txt` → —
+- `ad0d02ff4e6b.txt` → —
+- `b92996fe1555.txt` → —
+- `bc49b6c670a9.txt` → —
+- `c70427243f9a.txt` → —
+- `cb56cc9d800d.txt` → —
+- `d03c94ddd937.txt` → —
+- `d9321f5f93e0.txt` → —
+- `dcfd838e8cc9.txt` → —
+- `eb0fe4c2db85.txt` → —
+- `f032f4ade75c.txt` → —
+- `f03812e396f1.txt` → —
+- `f0e2108023d3.txt` → —
+- `f8cc49908b10.txt` → —
+
+### Motorcycle maintenance (27)
+
+- `054397f7ae50.txt` → —
+- `0848dded9a9a.txt` → —
+- `1234d75efd5f.txt` → —
+- `1d7af052afac.txt` → —
+- `2927f48e5903.txt` → —
+- `36c924a148ac.txt` → —
+- `39a39d8864d1.txt` → —
+- `3ac440c6d66f.txt` → —
+- `3bb0139159de.txt` → —
+- `3e164e244896.txt` → —
+- `45eaf2f08a7a.txt` → —
+- `46f5c365bed6.txt` → —
+- `480a2d71e62d.txt` → —
+- `5bde9607ffb1.txt` → —
+- `7acd8423edd5.txt` → —
+- `7bec8d988e30.txt` → —
+- `823b8267dcaf.txt` → —
+- `9e8c2a49130d.txt` → —
+- `b308c2ed5dbc.txt` → —
+- `c8f5303abb2c.txt` → —
+- `cbce031a0d7b.txt` → —
+- `cf9ee19cefbd.txt` → —
+- `d79852f35199.txt` → —
+- `dd844bf286b7.txt` → —
+- `e888d06e2924.txt` → —
+- `e99dd362211e.txt` → —
+- `ec85a4cd1a2e.txt` → —
+
+### Hardware troubleshooting (41)
+
+- `0337e2cd525c.txt` → —
+- `083d39c20c65.txt` → —
+- `091dcacfd13e.txt` → —
+- `116a1c9ddc58.txt` → —
+- `12ab86265cf2.txt` → —
+- `17a56222f82b.txt` → —
+- `1dad60dd8bf4.txt` → —
+- `2088c2fc954e.txt` → —
+- `24bb5965b3cd.txt` → —
+- `2ceb83238a02.txt` → —
+- `37fe4ae2f746.txt` → —
+- `3f7722349918.txt` → —
+- `4c694c6a72b4.txt` → —
+- `6a5173d88a48.txt` → —
+- `6aca42696555.txt` → —
+- `7516eeb766f5.txt` → —
+- `75d5d15661c2.txt` → —
+- `76f1cc08963f.txt` → —
+- `7d35f4c46215.txt` → —
+- `7ee397bea97a.txt` → —
+- `818356957510.txt` → —
+- `81c304a9beb5.txt` → —
+- `8a653a7ec1b1.txt` → —
+- `8ae86fd168b8.txt` → —
+- `8f4ccd6d8ac0.txt` → —
+- `9c6d3097ad81.txt` → —
+- `a1dd45f49464.txt` → —
+- `a6fe6541e8ac.txt` → —
+- `adf8106a5c99.txt` → —
+- `b6997cf717cb.txt` → —
+- `b6f35b6a62d7.txt` → —
+- `c28d51055511.txt` → —
+- `c2b8ba4b5f18.txt` → —
+- `c98c8e07a393.txt` → —
+- `d13fba59ee12.txt` → —
+- `d8563e36711e.txt` → —
+- `d95a46d1b83e.txt` → —
+- `df3448ad0419.txt` → —
+- `e40217eb046c.txt` → —
+- `e852337db140.txt` → —
+- `f7b8f2199650.txt` → —
+
+### Unmapped (61)
+
+- `00a227b3d9e5.txt` → —
+- `07ce45ff4824.txt` → —
+- `091f168828de.txt` → —
+- `0cf16beba3a4.txt` → —
+- `1047ab42f3e9.txt` → —
+- `1bc6517b7e39.txt` → —
+- `1c940c1ed648.txt` → —
+- `1ccb843d9801.txt` → —
+- `2b06b1c9090f.txt` → —
+- `2c73e94bc1bc.txt` → —
+- `3026f7e4447c.txt` → —
+- `317dffb5650b.txt` → —
+- `39d82e39de67.txt` → —
+- `3d2d961c1aa9.txt` → —
+- `3dccf55815a0.txt` → —
+- `3e274da5d0a3.txt` → —
+- `4dde1234ecbb.txt` → —
+- `4e6cdeda0af4.txt` → —
+- `50d5eb000272.txt` → —
+- `53777e19c751.txt` → —
+- `53b71aa2e676.txt` → —
+- `5418ebece9dc.txt` → —
+- `5821cbdf9f46.txt` → —
+- `5c2d5040b540.txt` → —
+- `5f96f3089969.txt` → —
+- `6480bdee5af5.txt` → —
+- `68d3b9314f9e.txt` → —
+- `6bb97acbf53b.txt` → —
+- `801d8d83b7eb.txt` → —
+- `803edb5ca807.txt` → —
+- `81c7b03e2f2d.txt` → —
+- `82e33e1b8747.txt` → —
+- `8597f7bf084a.txt` → —
+- `87a8e0b30761.txt` → —
+- `8aecff5e073c.txt` → —
+- `8d54139207e8.txt` → —
+- `97157e24396f.txt` → —
+- `9768e547bf72.txt` → —
+- `a03501fabfc6.txt` → —
+- `a5d6af9175eb.txt` → —
+- `a6d9949450dc.txt` → —
+- `a8dcdc5b7565.txt` → —
+- `b157b1a4624c.txt` → —
+- `b4e9e298809c.txt` → —
+- `b7a6053cdd53.txt` → —
+- `bd7eac9c79e0.txt` → —
+- `c0054e660225.txt` → —
+- `c39cb0b8b8d0.txt` → —
+- `c721d2b1b312.txt` → —
+- `c7b06a66a891.txt` → —
+- `c8aca71779db.txt` → —
+- `ca5dc46bbb93.txt` → —
+- `cb83bcb410e9.txt` → —
+- `d4e4e3c801bd.txt` → —
+- `d92c817f0431.txt` → —
+- `dc3e3cc02811.txt` → —
+- `dd7ef6cbb916.txt` → —
+- `dd8652760988.txt` → —
+- `e8a7aec0742f.txt` → —
+- `f78658234ef4.txt` → —
+- `fd2f5ffd7f2b.txt` → —
+
+### Needs review (0)
+

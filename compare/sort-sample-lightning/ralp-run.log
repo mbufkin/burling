@@ -1,0 +1,54 @@
+RALP 0b: organize (cluster + name/rule)
+stitch: 7 top-level / 20 nodes, tag coverage 100.0%, 18/18 docs mapped → /home/lenovo/burling/burling/output-sort-sample/REGIONS.md
+RALP 0c: folded 9 thin children into parents
+RALP 1: audit
+[audit 1/8  12.5%]  elapsed 0s  eta 0s  0s/file  Agriculture & Farming 1/1
+[audit 2/8  25.0%]  elapsed 6s  eta 18s  3s/file  Environment & Ecology 1/1
+[audit 3/8  37.5%]  elapsed 9s  eta 15s  3s/file  Health & Wellness 1/1
+[audit 4/8  50.0%]  elapsed 13s  eta 13s  3s/file  Personal Finance 1/1
+[audit 5/8  62.5%]  elapsed 18s  eta 10s  4s/file  Facility & Race Support 1/1
+[audit 6/8  75.0%]  elapsed 21s  eta 7s  4s/file  League & Tournament Operations 1/1
+[audit 7/8  87.5%]  elapsed 24s  eta 3s  3s/file  Bike Infrastructure 1/1
+[audit 8/8 100.0%]  elapsed 26s  eta 0s  3s/file  Rail & Harbor Operations 1/1
+[audit done]  8/8 this run  elapsed 29s
+audit: 8 chunks this run, 8 planned, 2 L1 flags → /home/lenovo/burling/burling/output-sort-sample/AUDIT.md
+RALP 1: revise mixed group agriculture
+RALP 1: revise mixed group environment
+RALP 1: revise mixed group sports-facility
+RALP 1: revise mixed group sports-league
+RALP 1: revise mixed group transport-rail
+RALP 1: flags=7 rate=39% applied=7 stop=continue
+RALP 2: audit
+[audit 1/12   8.3%]  elapsed 0s  eta 0s  0s/file  Agriculture & Farming 1/1
+[audit 2/12  16.7%]  elapsed 2s  eta 10s  1s/file  Environment & Conservation 1/1
+[audit 3/12  25.0%]  elapsed 4s  eta 13s  2s/file  Soil & Irrigation 1/1
+[audit 4/12  33.3%]  elapsed 8s  eta 17s  2s/file  Air Quality 1/1
+[audit 5/12  41.7%]  elapsed 11s  eta 15s  2s/file  Waste Management 1/1
+[audit 6/12  50.0%]  elapsed 14s  eta 14s  2s/file  Health & Wellness 1/1
+[audit 7/12  58.3%]  elapsed 18s  eta 13s  3s/file  Personal Finance 1/1
+[audit 8/12  66.7%]  elapsed 23s  eta 11s  3s/file  Sports & Recreation 1/1
+[audit 9/12  75.0%]  elapsed 26s  eta 8s  3s/file  League Standings 1/1
+[audit 10/12  83.3%]  elapsed 28s  eta 5s  3s/file  Bike Infrastructure 1/1
+[audit 11/12  91.7%]  elapsed 30s  eta 2s  3s/file  Harbor Operations 1/1
+[audit 12/12 100.0%]  elapsed 33s  eta 0s  3s/file  Rail Operations 1/1
+[audit done]  12/12 this run  elapsed 36s
+audit: 12 chunks this run, 12 planned, 13 L1 flags → /home/lenovo/burling/burling/output-sort-sample/AUDIT.md
+RALP 2: revise mixed group agriculture
+RALP 2: revise mixed group agriculture-environment
+RALP 2: revise mixed group agriculture-soil-irrigation
+RALP 2: revise mixed group rail-operations
+RALP 2: revise mixed group waste-management
+RALP 2: flags=5 rate=28% applied=5 stop=continue
+RALP 3: audit
+[audit 1/8  12.5%]  elapsed 0s  eta 0s  0s/file  Environment & Ecology 1/1
+[audit 2/8  25.0%]  elapsed 5s  eta 15s  3s/file  Health & Wellness 1/1
+[audit 3/8  37.5%]  elapsed 9s  eta 16s  3s/file  Personal Finance 1/1
+[audit 4/8  50.0%]  elapsed 14s  eta 14s  4s/file  Sports & Recreation 1/1
+[audit 5/8  62.5%]  elapsed 17s  eta 10s  4s/file  League & Tournament Operations 1/1
+[audit 6/8  75.0%]  elapsed 21s  eta 7s  4s/file  Bike Infrastructure 1/1
+[audit 7/8  87.5%]  elapsed 23s  eta 3s  3s/file  Rail & Harbor Operations 1/1
+[audit 8/8 100.0%]  elapsed 26s  eta 0s  3s/file  Unassigned 1/1
+[audit done]  8/8 this run  elapsed 31s
+audit: 8 chunks this run, 8 planned, 1 L1 flags → /home/lenovo/burling/burling/output-sort-sample/AUDIT.md
+RALP 3: flags=7 rate=39% applied=0 stop=flags-rose
+RALP done (flags-rose) → /home/lenovo/burling/burling/output-sort-sample/RALP.md

@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dallas ISD CTE — Topic map</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;500&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #0b3a5b;
+      --navy-deep: #07263d;
+      --navy-ink: #051828;
+      --blue: #003366;
+      --blue-mid: #1a6fa8;
+      --red: #b91c1c;
+      --paper: #f3ead8;
+      --paper-soft: #c4b8a0;
+      --paper-muted: #8a8070;
+      --rule: #1a4460;
+      --alert: #e8b4b4;
+      --sans: "Source Sans 3", "Segoe UI", sans-serif;
+      --serif: "Newsreader", Georgia, serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body { margin: 0; min-height: 100%; }
+
+    html { color-scheme: dark; }
+
+    body {
+      font-family: var(--sans);
+      background: var(--navy-deep);
+      color: var(--paper);
+      line-height: 1.5;
+    }
+
+    /* Paper grain: texture, not decoration. Opacity stays low so type wins. */
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 40;
+      opacity: 0.04;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+      background-size: 400px 400px;
+    }
+
+    /* Edge-to-edge product chrome. Institution first, then the tool. */
+    .brandbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 16px;
+      padding: 14px clamp(20px, 3vw, 48px);
+      border-bottom: 1px solid var(--rule);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--paper-soft);
+    }
+
+    .brandbar span:last-child { color: var(--paper-muted); }
+
+    /*
+      Off the 1180px rail. The page uses the viewport; only prose
+      keeps a measure. Butterick: 45–90 characters. Few: size regions
+      by importance, not a rigid column.
+    */
+    .page {
+      width: 100%;
+      max-width: none;
+      margin: 0;
+      padding: 40px clamp(20px, 3vw, 48px) 64px;
+    }
+
+    .masthead {
+      display: grid;
+      grid-template-columns: minmax(20rem, 38rem) minmax(16rem, 1fr);
+      column-gap: clamp(40px, 6vw, 96px);
+      row-gap: 36px;
+      align-items: start;
+    }
+
+    .eyebrow {
+      margin: 0 0 16px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--paper-muted);
+    }
+
+    h1 {
+      margin: 0 0 24px;
+      font-family: var(--serif);
+      font-size: clamp(40px, 4.2vw, 64px);
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.08;
+    }
+
+    h1 em {
+      font-style: italic;
+      color: var(--blue-mid);
+    }
+
+    /*
+      Hierarchy: one fact owns the page. Brand --red fails on navy
+      (~2.4:1); --alert stays readable.
+    */
+    .lead-stat {
+      display: flex;
+      align-items: baseline;
+      gap: 20px;
+      margin: 0 0 20px;
+      padding: 0;
+    }
+
+    .lead-stat-figure {
+      font-family: var(--serif);
+      font-size: clamp(48px, 7vw, 72px);
+      font-weight: 400;
+      line-height: 0.9;
+      letter-spacing: -0.03em;
+      color: var(--alert);
+    }
+
+    .lead-stat-copy {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .lead-stat-copy strong {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--paper);
+    }
+
+    .lead-stat-copy span {
+      font-size: 14px;
+      color: var(--paper-muted);
+    }
+
+    .lede {
+      margin: 0;
+      max-width: 66ch;
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--paper-soft);
+    }
+
+    .placements {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      max-width: 28rem;
+      width: 100%;
+      justify-self: end;
+    }
+
+    .programs {
+      display: grid;
+      gap: 0;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .programs li {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 16px;
+      align-items: baseline;
+      padding: 9px 0;
+      border-bottom: 1px solid var(--rule);
+      font-size: 14px;
+      color: var(--paper-soft);
+    }
+
+    .programs li.is-lead { color: var(--paper); }
+
+    .programs b {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: 18px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .stage {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(260px, 22rem);
+      gap: 32px clamp(28px, 3vw, 48px);
+      margin-top: 40px;
+      padding-top: 28px;
+      border-top: 1px solid var(--rule);
+    }
+
+    .stage-label {
+      margin: 0 0 14px;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--paper-muted);
+    }
+
+    .facets {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 28px;
+      margin-bottom: 8px;
+    }
+
+    .facet {
+      appearance: none;
+      background: none;
+      border: 0;
+      border-bottom: 2px solid transparent;
+      padding: 6px 0 8px;
+      margin: 0;
+      color: var(--paper-muted);
+      font-family: var(--sans);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    .facet:hover { color: var(--paper); }
+
+    .facet[aria-selected="true"] {
+      color: var(--paper);
+      border-bottom-color: var(--blue-mid);
+    }
+
+    .facet:focus-visible {
+      outline: 2px solid var(--blue-mid);
+      outline-offset: 4px;
+    }
+
+    /* Circle needs height as well as width or extra pixels just pad the plot. */
+    #sunburst {
+      width: 100%;
+      height: clamp(560px, 78vh, 900px);
+    }
+
+    #sunburst svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    #sunburst .slice {
+      cursor: pointer;
+      transition: opacity 160ms ease;
+    }
+
+    #sunburst .slice.is-dim { opacity: 0.28; }
+
+    #sunburst .slice-label {
+      pointer-events: none;
+      font-family: var(--sans);
+      font-weight: 600;
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
+
+    #sunburst .hub { cursor: pointer; }
+
+    #sunburst .hub circle { fill: var(--navy-ink); }
+
+    #sunburst .hub-title {
+      font-family: var(--serif);
+      font-size: 22px;
+      fill: var(--paper);
+      text-anchor: middle;
+    }
+
+    #sunburst .hub-sub {
+      font-family: var(--sans);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      fill: var(--paper-muted);
+      text-anchor: middle;
+    }
+
+    .crumb {
+      margin: 10px 0 8px;
+      font-size: 12px;
+      color: var(--paper-soft);
+    }
+
+    .crumb b {
+      font-weight: 600;
+      color: var(--paper);
+    }
+
+    .hint {
+      margin: 8px 0 0;
+      font-size: 12px;
+      color: var(--paper-muted);
+    }
+
+    .brief { padding-top: 8px; }
+
+    .brief-kicker {
+      margin: 0 0 10px;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--blue-mid);
+    }
+
+    .brief h2 {
+      margin: 0 0 10px;
+      font-family: var(--serif);
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 1.2;
+    }
+
+    .brief p {
+      margin: 0 0 14px;
+      font-size: 14px;
+      line-height: 1.55;
+      color: var(--paper-soft);
+    }
+
+    .brief dl {
+      margin: 0;
+      display: grid;
+      gap: 10px;
+    }
+
+    .brief dt {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--paper-muted);
+    }
+
+    .brief dd {
+      margin: 3px 0 0;
+      font-size: 14px;
+      color: var(--paper);
+      word-break: break-word;
+    }
+
+    /* Default brief: numbered how-to so the rail is never an empty hole. */
+    .guide {
+      margin: 22px 0 0;
+      padding: 0;
+      list-style: none;
+      counter-reset: guide;
+      border-top: 1px solid var(--rule);
+    }
+
+    .guide li {
+      counter-increment: guide;
+      display: grid;
+      grid-template-columns: 1.4rem 1fr;
+      gap: 10px;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--rule);
+      font-size: 13px;
+      line-height: 1.45;
+      color: var(--paper-soft);
+    }
+
+    .guide li::before {
+      content: counter(guide);
+      font-family: var(--serif);
+      font-size: 16px;
+      color: var(--blue-mid);
+    }
+
+    .flag {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 3px 0;
+      color: var(--alert);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .file-list {
+      margin: 16px 0 0;
+      padding: 0;
+      list-style: none;
+      border-top: 1px solid var(--rule);
+    }
+
+    .file-list li {
+      padding: 8px 0;
+      border-bottom: 1px solid var(--rule);
+      font-size: 14px;
+      line-height: 1.35;
+      color: var(--paper);
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid var(--rule);
+      color: var(--paper-muted);
+      font-size: 12px;
+    }
+
+    footer span { margin: 0 0.4em; color: var(--rule); }
+
+    @media (max-width: 1040px) {
+      .masthead { grid-template-columns: 1fr; }
+      .placements {
+        justify-self: stretch;
+        max-width: 36rem;
+        margin-top: 4px;
+        padding-top: 20px;
+        border-top: 1px solid var(--rule);
+      }
+    }
+
+    @media (max-width: 860px) {
+      .brandbar { padding: 12px 16px; }
+      .page { padding: 28px 16px 48px; }
+      .lead-stat { flex-wrap: wrap; gap: 12px 16px; }
+      .stage { grid-template-columns: 1fr; gap: 20px; }
+      .brief { padding-top: 0; }
+      #sunburst { height: 520px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="brandbar">
+    <span>Dallas ISD</span>
+    <span>Career &amp; Technical Education</span>
+  </div>
+  <div class="page">
+    <header class="masthead">
+      <div class="masthead-copy">
+        <p class="eyebrow">Collection map</p>
+        <h1>Topic <em>map</em></h1>
+        <p class="lead-stat">
+          <span class="lead-stat-figure">8</span>
+          <span class="lead-stat-copy">
+            <strong>Flagged for review</strong>
+            <span>of 18 documents in the collection</span>
+          </span>
+        </p>
+        <p class="lede">
+          Every file in Career &amp; Technical Education, grouped the way
+          the work actually runs. Switch a view to recut the same collection.
+          Ring size is count, not importance.
+        </p>
+      </div>
+
+      <div class="placements">
+        <p class="stage-label">Largest groups</p>
+        <ol class="programs"><li><span>Environment</span><b>3</b></li><li><span>Finance</span><b>3</b></li><li><span>Health</span><b>3</b></li><li><span>Transport</span><b>3</b></li><li class="is-lead"><span>Unmapped</span><b>2</b></li><li class="is-lead"><span>Needs review</span><b>2</b></li></ol>
+      </div>
+    </header>
+
+    <section class="stage">
+      <div>
+        <p class="stage-label">View</p>
+        <div class="facets" role="tablist" aria-label="Collection view"><button class="facet" type="button" role="tab" data-facet="browse" aria-selected="true">Topics</button><button class="facet" type="button" role="tab" data-facet="program" aria-selected="false">Program</button><button class="facet" type="button" role="tab" data-facet="function" aria-selected="false">Function</button><button class="facet" type="button" role="tab" data-facet="audience" aria-selected="false">Audience</button><button class="facet" type="button" role="tab" data-facet="record_type" aria-selected="false">Record</button><button class="facet" type="button" role="tab" data-facet="lifecycle" aria-selected="false">Lifecycle</button></div>
+        <p class="crumb" id="crumb"><b>Full collection</b> · hover a slice to preview</p>
+        <div id="sunburst" role="img" aria-label="Topic sunburst"></div>
+        <p class="hint">Click a slice to open it. Click the center to return.</p>
+      </div>
+      <aside class="brief" id="brief" aria-live="polite"></aside>
+    </section>
+
+    <footer>
+      Dallas ISD Career and Technical Education
+      <span>·</span>
+      Collection map
+    </footer>
+  </div>
+  <script>
+    const FIGURES = {"browse": {"ids": ["root", "topic::sports", "sports/sports-league", "sports/sports-league/sports-league-standings.txt", "sports/sports-league/transport-rail-timetable.txt", "sports/__other", "sports/__other/sports-pool-schedule.txt", "sports/__other/sports-trail-race.txt", "topic::transport", "transport/transport-bike", "transport/transport-bike/transport-bike-lane-memo.txt", "transport/transport-bike/transport-rail-timetable.txt", "transport/transport-rail", "transport/transport-rail/transport-harbor-pilot.txt", "transport/transport-rail/transport-rail-timetable.txt", "transport/__other", "transport/__other/env-recycling-audit.txt", "topic::environment", "environment/__other", "environment/__other/env-air-quality-brief.txt", "environment/__other/env-recycling-audit.txt", "environment/__other/env-wetland-survey.txt", "topic::health", "health/__other", "health/__other/health-clinic-hours.txt", "health/__other/health-heat-advisory.txt", "health/__other/health-vaccine-faq.txt", "topic::finance", "finance/__other", "finance/__other/finance-budget-worksheet.txt", "finance/__other/finance-savings-goal.txt", "finance/__other/finance-tax-checklist.txt"], "parents": ["", "root", "topic::sports", "sports/sports-league", "sports/sports-league", "topic::sports", "sports/__other", "sports/__other", "root", "topic::transport", "transport/transport-bike", "transport/transport-bike", "topic::transport", "transport/transport-rail", "transport/transport-rail", "topic::transport", "transport/__other", "root", "topic::environment", "environment/__other", "environment/__other", "environment/__other", "root", "topic::health", "health/__other", "health/__other", "health/__other", "root", "topic::finance", "finance/__other", "finance/__other", "finance/__other"], "labels": ["CTE", "Sports & Recreation", "League & Tournament Operations", "sports league standings", "transport rail timetable", "Other", "sports pool schedule", "sports trail race", "Transportation & Infrastructure", "Bike Infrastructure", "transport bike lane memo", "transport rail timetable", "Rail & Harbor Operations", "transport harbor pilot", "transport rail timetable", "Other", "env recycling audit", "Environment & Ecology", "Other", "env air quality brief", "env recycling audit", "env wetland survey", "Health & Wellness", "Other", "health clinic hours", "health heat advisory", "health vaccine faq", "Personal Finance", "Other", "finance budget worksheet", "finance savings goal", "finance tax checklist"], "values": [18, 4, 2, 1, 1, 2, 1, 1, 5, 2, 1, 1, 2, 1, 1, 1, 1, 3, 3, 1, 1, 1, 3, 3, 1, 1, 1, 3, 3, 1, 1, 1], "marker": {"colors": ["#051c2e", "#1a6fa8", "#003366", "#efe4ce", "#e4d4b8", "#6e675c", "#efe4ce", "#e4d4b8", "#0b3a5b", "#5a93b0", "#efe4ce", "#e4d4b8", "#5a93b0", "#efe4ce", "#e4d4b8", "#6e675c", "#efe4ce", "#3d7fa8", "#6e675c", "#efe4ce", "#e4d4b8", "#d8c6a6", "#003366", "#6e675c", "#efe4ce", "#e4d4b8", "#d8c6a6", "#5a93b0", "#6e675c", "#efe4ce", "#e4d4b8", "#d8c6a6"], "line": {"width": 2, "color": "#07263d"}}, "textfont": {"family": "Source Sans 3, sans-serif", "size": 15, "color": ["#f3ead8", "#f3ead8", "#f3ead8", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#f3ead8", "#f3ead8", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#f3ead8", "#07263d", "#f3ead8", "#f3ead8", "#07263d", "#07263d", "#07263d", "#f3ead8", "#f3ead8", "#07263d", "#07263d", "#07263d", "#f3ead8", "#f3ead8", "#07263d", "#07263d", "#07263d"]}, "customdata": ["{\"kind\": \"root\", \"facet\": \"browse\", \"count\": 15, \"title\": \"Dallas ISD CTE\", \"note\": \"Some groups appear under more than one topic. Ring size is document count.\"}", "{\"kind\": \"term\", \"facet\": \"browse\", \"term\": \"sports\", \"concept_id\": \"sports\", \"count\": 4, \"title\": \"Sports & Recreation\", \"note\": \"League operations, race events, and facility scheduling\", \"files\": []}", "{\"kind\": \"term\", \"facet\": \"browse\", \"term\": \"sports-league\", \"concept_id\": \"sports-league\", \"count\": 2, \"title\": \"League & Tournament Operations\", \"note\": \"Files concerning the administration, scheduling, and results of organized sports competitions and leagues.\", \"files\": [\"sports league standings\", \"transport rail timetable\"]}", "{\"kind\": \"doc\", \"facet\": \"browse\", \"term\": \"sports-league\", \"concept_id\": \"sports-league\", \"title\": \"sports-league-standings.txt\", \"ring\": \"sports league standings\", \"path\": \"sports-league-standings.txt\", \"note\": \"A brief update on Tuesday night basketball league standings, noting that Harbor Five leads with a 7\\u20131 record and that a protest from week four regarding a late travel call was denied. It also specifies that any makeup games will be played at the elementary gym and that participan\"}", "{\"kind\": \"doc\", \"facet\": \"browse\", \"term\": \"sports-league\", \"concept_id\": \"sports-league\", \"title\": \"transport-rail-timetable.txt\", \"ring\": \"transport rail timetable\", \"path\": \"transport-rail-timetable.txt\", \"note\": \"A weekday peak-hour rail timetable for the city's north line, noting express trains that skip suburban stops and a scheduled weekend engineering blockade on the river bridge that will require replacement bus services via a service road beside the freight yard.\"}", "{\"kind\": \"term\", \"facet\": \"browse\", \"term\": \"sports-other\", \"concept_id\": \"sports\", \"count\": 2, \"title\": \"Other \\u00b7 Sports & Recreation\", \"note\": \"In this topic, not yet in a subtopic.\", \"files\": [\"sports pool schedule\", \"sports trail race\"]}", "{\"kind\": \"doc\", \"facet\": \"browse\", \"term\": \"sports\", \"title\": \"sports-pool-schedule.txt\", \"path\": \"sports-pool-schedule.txt\", \"note\": \"A November schedule for an indoor pool outlining lap swim hours, lane assignments for lessons, and maintenance closures for the dive well, with spectator areas kept clear during adult fitness times.\"}", "{\"kind\": \"doc\", \"facet\": \"browse\", \"term\": \"sports\", \"title\": \"sports-trail-race.txt\", \"path\": \"sports-trail-race.txt\", \"note\": \"A briefing document for trail race volunteers outlining aid station placement at the ridge junction (mile 8.4), requirements for runners to carry their own bottles, sweep crew timing relative to starters, and shared use of the fire road with horses before noon.\"}", "{\"kind\": \"term\", \"facet\": \"browse\", \"term\": \"transport\", \"concept_id\": \"transport\", \"count\": 4, \"title\": \"Transportation & Infrastructure\", \"note\": \"Bike lanes, rail schedules, and harbor operations\", \"files\": []}", "{\"kind\": \"term\", \"facet\": \"browse\", \"term\": \"transport-bike\", \"concept_id\": \"transport-bike\", \"count\": 2, \"title\": \"Bike Infrastructure\", \"note\": \"Protected lanes, cycle tracks, and ridership data\", \"files\": [\"transport bike lane memo\", \"transport rail timetable\"]}", "{\"kind\": \"doc\", \"facet\": \"browse\", \"term\": \"transport-bike\", \"concept_id\": \"transport-bike\", \"title\": \"transport-bike-lane-memo.txt\", \"ring\": \"transport bike lane memo\", \"path\": \"transport-bike-lane-memo.txt\", \"note\": \"A planning memo outlining the conversion of a parking lane on Maple Avenue into a two-way protected bike lane (cycle track), noting the need for signal timing adjustments at 4th Street to prevent conflicts with turning trucks and citing count data showing 1,400 weekday riders.\"}", "{\"kind\": \"doc\", \"facet\": \"browse\", \"term\": \"transport-bike\", \"concept_id\": \"transport-bike\", \"title\": \"transport-rail-timetable.txt\", \"ring\": \"transport rail timetable\", \"path\": \"transport-rail-timetable.txt\", \"note\": \"A weekday peak-hour rail timetable for the city's north line, noting express trains that skip suburban stops and a scheduled weekend engineering blockade on the river bridge that will require replacement bus services via a service road beside the freight yard.\"}", "{\"kind\": \"term\", \"facet\": \"browse\", \"term\": \"transport-rail\", \"concept_id\": \"transport-rail\", \"count\": 2, \"title\": \"Rail & Harbor Operations\", \"note\": \"This group contains two distinct operational domains: rail freight and passenger scheduling, and maritime pilotage and port logistics. Files in this group address either ground-based rail network management or water-based vessel movement and port authority directives.\", \"files\": [\"transport harbor pilot\", \"transport rail timetable\"]}", "{\"kind\": \"doc\", \"facet\": \"browse\", \"term\": \"transport-rail\", \"concept_id\": \"transport-rail\", \"title\": \"transport-harbor-pilot.txt\", \"ring\": \"transport harbor pilot\", \"path\": \"transport-harbor-pilot.txt\", \"note\": \"A port authority notice informing that container ships exceeding 200 meters in length are required to board a licensed harbor pilot at buoy 12. The document records that fog conditions in the estuary during March caused delays at three berths, and clarifies that tug availability \"}", "{\"kind\": \"doc\", \"facet\": \"browse\", \"term\": \"transport-rail\", \"concept_id\": \"transport-rail\", \"title\": \"transport-rail-timetable.txt\", \"ring\": \"transport rail timetable\", \"path\": \"transport-rail-timetable.txt\", \"note\": \"A weekday peak-hour rail timetable for the city's north line, noting express trains that skip suburban stops and a scheduled weekend engineering blockade on the river bridge that will require replacement bus services via a service road beside the freight yard.\"}", "{\"kind\": \"term\", \"facet\": \"browse\", \"term\": \"transport-other\", \"concept_id\": \"transport\", \"count\": 1, \"title\": \"Other \\u00b7 Transportation & Infrastructure\", \"note\": \"In this topic, not yet in a subtopic.\", \"files\": [\"env recycling audit\"]}", "{\"kind\": \"doc\", \"facet\": \"browse\", \"term\": \"transport\", \"title\": \"env-recycling-audit.txt\", \"path\": \"env-recycling-audit.txt\", \"note\": \"A municipal recycling audit report finds 18 percent contamination in blue bins, primarily from food-soiled cardboard and plastic bags, noting the MRF will reject loads exceeding 20 percent contamination. It documents a sticker campaign on pizza boxes that reduced contamination by\"}", "{\"kind\": \"term\", \"facet\": \"browse\", \"term\": \"environment\", \"concept_id\": \"environment\", \"count\": 3, \"title\": \"Environment & Ecology\", \"note\": \"Files concerning natural environment monitoring, waste management, and ecological surveys.\", \"files\": []}", "{\"kind\": \"term\", \"facet\": \"browse\", \"term\": \"environment-other\", \"concept_id\": \"environment\", \"count\": 3, \"title\": \"Other \\u00b7 Environment & Ecology\", \"note\": \"In this topic, not yet in a subtopic.\", \"files\": [\"env air quality brief\", \"env recycling audit\", \"env wetland survey\"]}", "{\"kind\": \"doc\", \"facet\": \"browse\", \"term\": \"environment\", \"title\": \"env-air-quality-brief.txt\", \"path\": \"env-air-quality-brief.txt\", \"note\": \"A morning air quality brief reports that PM2.5 peaked at 38 \\u00b5g/m\\u00b3 between 07:00 and 08:00, affecting the valley floor only. It notes that wood-stove curtailment is currently voluntary but would become mandatory under a Stage 1 alert.\"}", "{\"kind\": \"doc\", \"facet\": \"browse\", \"term\": \"environment\", \"title\": \"env-recycling-audit.txt\", \"path\": \"env-recycling-audit.txt\", \"note\": \"A municipal recycling audit report finds 18 percent contamination in blue bins, primarily from food-soiled cardboard and plastic bags, noting the MRF will reject loads exceeding 20 percent contamination. It documents a sticker campaign on pizza boxes that reduced contamination by\"}", "{\"kind\": \"doc\", \"facet\": \"browse\", \"term\": \"environment\", \"title\": \"env-wetland-survey.txt\", \"path\": \"env-wetland-survey.txt\", \"note\": \"A brief field note documenting an 18-species wetland bird survey at an oxbow marsh, noting a least bittern heard but not seen, elevated water levels from recent rain, and a recommendation to postpone a planned ditch cleanout to protect nesting activity.\"}", "{\"kind\": \"term\", \"facet\": \"browse\", \"term\": \"health\", \"concept_id\": \"health\", \"count\": 3, \"title\": \"Health & Wellness\", \"note\": \"Clinic operations, vaccinations, and heat safety\", \"files\": []}", "{\"kind\": \"term\", \"facet\": \"browse\", \"term\": \"health-other\", \"concept_id\": \"health\", \"count\": 3, \"title\": \"Other \\u00b7 Health & Wellness\", \"note\": \"In this topic, not yet in a subtopic.\", \"files\": [\"health clinic hours\", \"health heat advisory\", \"health vaccine faq\"]}", "{\"kind\": \"doc\", \"facet\": \"browse\", \"term\": \"health\", \"title\": \"health-clinic-hours.txt\", \"path\": \"health-clinic-hours.txt\", \"note\": \"This document lists the walk-in hours for a community health clinic, specifying Tuesday and Thursday evenings and noting that Saturday well-child slots are full through the end of the month. It also informs visitors that flu shots are available in a side room and that an insuranc\"}", "{\"kind\": \"doc\", \"facet\": \"browse\", \"term\": \"health\", \"title\": \"health-heat-advisory.txt\", \"path\": \"health-heat-advisory.txt\", \"note\": \"A heat advisory mandating 15-minute shade breaks hourly and one liter of water per person per hour when the heat index exceeds 103\\u00b0F, with a directive to cancel non-essential roof work after 14:00 to protect outdoor workers from extreme heat.\"}", "{\"kind\": \"doc\", \"facet\": \"browse\", \"term\": \"health\", \"title\": \"health-vaccine-faq.txt\", \"path\": \"health-vaccine-faq.txt\", \"note\": \"A frequently asked questions document outlining school vaccination requirements for sixth grade entry, specifically addressing MMR dose requirements, the limited acceptance of measles history as a substitute for the first dose, and the county board's policy prohibiting philosophi\"}", "{\"kind\": \"term\", \"facet\": \"browse\", \"term\": \"finance\", \"concept_id\": \"finance\", \"count\": 3, \"title\": \"Personal Finance\", \"note\": \"Budgeting, tax preparation, and savings planning\", \"files\": []}", "{\"kind\": \"term\", \"facet\": \"browse\", \"term\": \"finance-other\", \"concept_id\": \"finance\", \"count\": 3, \"title\": \"Other \\u00b7 Personal Finance\", \"note\": \"In this topic, not yet in a subtopic.\", \"files\": [\"finance budget worksheet\", \"finance savings goal\", \"finance tax checklist\"]}", "{\"kind\": \"doc\", \"facet\": \"browse\", \"term\": \"finance\", \"title\": \"finance-budget-worksheet.txt\", \"path\": \"finance-budget-worksheet.txt\", \"note\": \"A personal household monthly budget worksheet tracking fixed expenses (rent, transit, car insurance sinking fund) and variable costs (groceries, streaming), with notes on last month's overspending and adjustments to streaming bundle instead of groceries.\"}", "{\"kind\": \"doc\", \"facet\": \"browse\", \"term\": \"finance\", \"title\": \"finance-savings-goal.txt\", \"path\": \"finance-savings-goal.txt\", \"note\": \"This document outlines a personal emergency-fund savings goal targeting three months of essential bills, currently at $4,200. It establishes an automatic transfer of $150 on the 1st and 15th of each month and explicitly separates a travel envelope from the emergency fund to preve\"}", "{\"kind\": \"doc\", \"facet\": \"browse\", \"term\": \"finance\", \"title\": \"finance-tax-checklist.txt\", \"path\": \"finance-tax-checklist.txt\", \"note\": \"A fictional practice checklist for year-end tax preparation that guides users to gather W-2 forms, mortgage interest statements (1098), and charitable receipts over $250, noting estimated tax payments made in June and September and identifying the filer as single. It is explicitl\"}"], "branchvalues": "total", "hovertemplate": "<b>%{label}</b><br>%{value}<extra></extra>", "textinfo": "label", "insidetextorientation": "auto", "maxdepth": 3, "sort": false, "leaf": {"opacity": 1}}, "program": {"ids": ["root", "term::environment", "doc::program::env-air-quality-brief.txt", "doc::program::env-recycling-audit.txt", "doc::program::env-wetland-survey.txt", "term::finance", "doc::program::finance-budget-worksheet.txt", "doc::program::finance-savings-goal.txt", "doc::program::finance-tax-checklist.txt", "term::health", "doc::program::health-clinic-hours.txt", "doc::program::health-heat-advisory.txt", "doc::program::health-vaccine-faq.txt", "term::transport", "doc::program::transport-bike-lane-memo.txt", "doc::program::transport-harbor-pilot.txt", "doc::program::transport-rail-timetable.txt", "term::needs-review", "doc::program::ag-seed-catalog-notes.txt", "doc::program::sports-pool-schedule.txt", "term::sports", "doc::program::sports-league-standings.txt", "doc::program::sports-trail-race.txt", "term::unmapped", "doc::program::ag-irrigation-schedule.txt", "doc::program::ag-soil-test.txt"], "parents": ["", "root", "term::environment", "term::environment", "term::environment", "root", "term::finance", "term::finance", "term::finance", "root", "term::health", "term::health", "term::health", "root", "term::transport", "term::transport", "term::transport", "root", "term::needs-review", "term::needs-review", "root", "term::sports", "term::sports", "root", "term::unmapped", "term::unmapped"], "labels": ["CTE", "environment", "env air quality brief", "env recycling audit", "env wetland survey", "finance", "finance budget worksheet", "finance savings goal", "finance tax checklist", "health", "health clinic hours", "health heat advisory", "health vaccine faq", "transport", "transport bike lane memo", "transport harbor pilot", "transport rail timetable", "needs review", "ag seed catalog notes", "sports pool schedule", "sports", "sports league standings", "sports trail race", "unmapped", "ag irrigation schedule", "ag soil test"], "values": [18, 3, 1, 1, 1, 3, 1, 1, 1, 3, 1, 1, 1, 3, 1, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1], "marker": {"colors": ["#051c2e", "#1a6fa8", "#efe4ce", "#e4d4b8", "#d8c6a6", "#0b3a5b", "#efe4ce", "#e4d4b8", "#d8c6a6", "#3d7fa8", "#efe4ce", "#e4d4b8", "#d8c6a6", "#003366", "#efe4ce", "#e4d4b8", "#d8c6a6", "#5a93b0", "#efe4ce", "#e4d4b8", "#164866", "#efe4ce", "#e4d4b8", "#6e675c", "#efe4ce", "#e4d4b8"], "line": {"width": 2, "color": "#07263d"}}, "textfont": {"family": "Source Sans 3, sans-serif", "size": 15, "color": ["#f3ead8", "#f3ead8", "#07263d", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d"]}, "customdata": ["{\"kind\": \"root\", \"facet\": \"program\", \"count\": 18, \"title\": \"By program\", \"note\": \"Ring size is document count, not importance.\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"environment\", \"count\": 3, \"title\": \"environment\", \"files\": [\"env air quality brief\", \"env recycling audit\", \"env wetland survey\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"environment\", \"title\": \"env-air-quality-brief.txt\", \"ring\": \"env air quality brief\", \"path\": \"env-air-quality-brief.txt\", \"conf\": 1.0, \"program\": \"environment\", \"function\": \"environment\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A morning air quality brief reports that PM2.5 peaked at 38 \\u00b5g/m\\u00b3 between 07:00 and 08:00, affecting the valley floor only. It notes that wood-stove curtailment is currently voluntary but would become mandatory under a Stage 1 alert.\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"environment\", \"title\": \"env-recycling-audit.txt\", \"ring\": \"env recycling audit\", \"path\": \"env-recycling-audit.txt\", \"conf\": 1.0, \"program\": \"environment\", \"function\": \"environment\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A municipal recycling audit report finds 18 percent contamination in blue bins, primarily from food-soiled cardboard and plastic bags, noting the MRF will reject loads exceeding 20 percent contamination. It documents a sticker campaign on pizza boxes that reduced contamination by\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"environment\", \"title\": \"env-wetland-survey.txt\", \"ring\": \"env wetland survey\", \"path\": \"env-wetland-survey.txt\", \"conf\": 1.0, \"program\": \"environment\", \"function\": \"environment\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A brief field note documenting an 18-species wetland bird survey at an oxbow marsh, noting a least bittern heard but not seen, elevated water levels from recent rain, and a recommendation to postpone a planned ditch cleanout to protect nesting activity.\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"finance\", \"count\": 3, \"title\": \"finance\", \"files\": [\"finance budget worksheet\", \"finance savings goal\", \"finance tax checklist\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"finance\", \"title\": \"finance-budget-worksheet.txt\", \"ring\": \"finance budget worksheet\", \"path\": \"finance-budget-worksheet.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A personal household monthly budget worksheet tracking fixed expenses (rent, transit, car insurance sinking fund) and variable costs (groceries, streaming), with notes on last month's overspending and adjustments to streaming bundle instead of groceries.\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"finance\", \"title\": \"finance-savings-goal.txt\", \"ring\": \"finance savings goal\", \"path\": \"finance-savings-goal.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"This document outlines a personal emergency-fund savings goal targeting three months of essential bills, currently at $4,200. It establishes an automatic transfer of $150 on the 1st and 15th of each month and explicitly separates a travel envelope from the emergency fund to preve\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"finance\", \"title\": \"finance-tax-checklist.txt\", \"ring\": \"finance tax checklist\", \"path\": \"finance-tax-checklist.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A fictional practice checklist for year-end tax preparation that guides users to gather W-2 forms, mortgage interest statements (1098), and charitable receipts over $250, noting estimated tax payments made in June and September and identifying the filer as single. It is explicitl\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"health\", \"count\": 3, \"title\": \"health\", \"files\": [\"health clinic hours\", \"health heat advisory\", \"health vaccine faq\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"health\", \"title\": \"health-clinic-hours.txt\", \"ring\": \"health clinic hours\", \"path\": \"health-clinic-hours.txt\", \"conf\": 1.0, \"program\": \"health\", \"function\": \"health\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"This document lists the walk-in hours for a community health clinic, specifying Tuesday and Thursday evenings and noting that Saturday well-child slots are full through the end of the month. It also informs visitors that flu shots are available in a side room and that an insuranc\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"health\", \"title\": \"health-heat-advisory.txt\", \"ring\": \"health heat advisory\", \"path\": \"health-heat-advisory.txt\", \"conf\": 1.0, \"program\": \"health\", \"function\": \"health\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A heat advisory mandating 15-minute shade breaks hourly and one liter of water per person per hour when the heat index exceeds 103\\u00b0F, with a directive to cancel non-essential roof work after 14:00 to protect outdoor workers from extreme heat.\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"health\", \"title\": \"health-vaccine-faq.txt\", \"ring\": \"health vaccine faq\", \"path\": \"health-vaccine-faq.txt\", \"conf\": 1.0, \"program\": \"health\", \"function\": \"health\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A frequently asked questions document outlining school vaccination requirements for sixth grade entry, specifically addressing MMR dose requirements, the limited acceptance of measles history as a substitute for the first dose, and the county board's policy prohibiting philosophi\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"transport\", \"count\": 3, \"title\": \"transport\", \"files\": [\"transport bike lane memo\", \"transport harbor pilot\", \"transport rail timetable\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"transport\", \"title\": \"transport-bike-lane-memo.txt\", \"ring\": \"transport bike lane memo\", \"path\": \"transport-bike-lane-memo.txt\", \"conf\": 1.0, \"program\": \"transport\", \"function\": \"transport-bike\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A planning memo outlining the conversion of a parking lane on Maple Avenue into a two-way protected bike lane (cycle track), noting the need for signal timing adjustments at 4th Street to prevent conflicts with turning trucks and citing count data showing 1,400 weekday riders.\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"transport\", \"title\": \"transport-harbor-pilot.txt\", \"ring\": \"transport harbor pilot\", \"path\": \"transport-harbor-pilot.txt\", \"conf\": 1.0, \"program\": \"transport\", \"function\": \"transport-rail\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A port authority notice informing that container ships exceeding 200 meters in length are required to board a licensed harbor pilot at buoy 12. The document records that fog conditions in the estuary during March caused delays at three berths, and clarifies that tug availability \"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"transport\", \"title\": \"transport-rail-timetable.txt\", \"ring\": \"transport rail timetable\", \"path\": \"transport-rail-timetable.txt\", \"conf\": 1.0, \"program\": \"transport\", \"function\": \"transport-rail\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A weekday peak-hour rail timetable for the city's north line, noting express trains that skip suburban stops and a scheduled weekend engineering blockade on the river bridge that will require replacement bus services via a service road beside the freight yard.\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"needs-review\", \"count\": 2, \"title\": \"needs review\", \"files\": [\"ag seed catalog notes\", \"sports pool schedule\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"needs-review\", \"title\": \"ag-seed-catalog-notes.txt\", \"ring\": \"ag seed catalog notes\", \"path\": \"ag-seed-catalog-notes.txt\", \"conf\": 0.0, \"program\": \"needs-review\", \"function\": \"needs-review\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A farmer or gardener recorded germination results and ordering reminders from seed packets. The notes track a successful open-pollinated tomato trial, a hybrid sweetcorn packet sold out until March, and a restock order for cover-crop rye to avoid last year's planting delays.\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"needs-review\", \"title\": \"sports-pool-schedule.txt\", \"ring\": \"sports pool schedule\", \"path\": \"sports-pool-schedule.txt\", \"conf\": 1.0, \"program\": \"needs-review\", \"function\": \"needs-review\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A November schedule for an indoor pool outlining lap swim hours, lane assignments for lessons, and maintenance closures for the dive well, with spectator areas kept clear during adult fitness times.\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"sports\", \"count\": 2, \"title\": \"sports\", \"files\": [\"sports league standings\", \"sports trail race\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"sports\", \"title\": \"sports-league-standings.txt\", \"ring\": \"sports league standings\", \"path\": \"sports-league-standings.txt\", \"conf\": 1.0, \"program\": \"sports\", \"function\": \"sports-league\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A brief update on Tuesday night basketball league standings, noting that Harbor Five leads with a 7\\u20131 record and that a protest from week four regarding a late travel call was denied. It also specifies that any makeup games will be played at the elementary gym and that participan\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"sports\", \"title\": \"sports-trail-race.txt\", \"ring\": \"sports trail race\", \"path\": \"sports-trail-race.txt\", \"conf\": 1.0, \"program\": \"sports\", \"function\": \"sports\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A briefing document for trail race volunteers outlining aid station placement at the ridge junction (mile 8.4), requirements for runners to carry their own bottles, sweep crew timing relative to starters, and shared use of the fire road with horses before noon.\"}", "{\"kind\": \"term\", \"facet\": \"program\", \"term\": \"unmapped\", \"count\": 2, \"title\": \"unmapped\", \"files\": [\"ag irrigation schedule\", \"ag soil test\"]}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"unmapped\", \"title\": \"ag-irrigation-schedule.txt\", \"ring\": \"ag irrigation schedule\", \"path\": \"ag-irrigation-schedule.txt\", \"conf\": 0.0, \"program\": \"unmapped\", \"function\": \"unmapped\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A maintenance directive for orchard block B specifying a drip irrigation schedule that runs two hours before dawn on even calendar days, noting a prior sand filter clog in June and observing uneven moisture conditions with the windbreak side being drier.\"}", "{\"kind\": \"doc\", \"facet\": \"program\", \"term\": \"unmapped\", \"title\": \"ag-soil-test.txt\", \"ring\": \"ag soil test\", \"path\": \"ag-soil-test.txt\", \"conf\": 0.0, \"program\": \"unmapped\", \"function\": \"unmapped\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A brief spring soil test summary for an east field, reporting pH 6.2, low phosphorus, adequate potassium, and recommending lime application ahead of maize planting. The south strip is noted to retain last year's clover as a cover crop.\"}"], "branchvalues": "total", "hovertemplate": "<b>%{label}</b><br>%{value}<extra></extra>", "textinfo": "label", "insidetextorientation": "auto", "maxdepth": 2, "sort": false, "leaf": {"opacity": 1}}, "function": {"ids": ["root", "term::environment", "doc::function::env-air-quality-brief.txt", "doc::function::env-recycling-audit.txt", "doc::function::env-wetland-survey.txt", "term::finance", "doc::function::finance-budget-worksheet.txt", "doc::function::finance-savings-goal.txt", "doc::function::finance-tax-checklist.txt", "term::health", "doc::function::health-clinic-hours.txt", "doc::function::health-heat-advisory.txt", "doc::function::health-vaccine-faq.txt", "term::needs-review", "doc::function::ag-seed-catalog-notes.txt", "doc::function::sports-pool-schedule.txt", "term::transport-rail", "doc::function::transport-harbor-pilot.txt", "doc::function::transport-rail-timetable.txt", "term::unmapped", "doc::function::ag-irrigation-schedule.txt", "doc::function::ag-soil-test.txt", "term::sports", "doc::function::sports-trail-race.txt", "term::sports-league", "doc::function::sports-league-standings.txt", "term::transport-bike", "doc::function::transport-bike-lane-memo.txt"], "parents": ["", "root", "term::environment", "term::environment", "term::environment", "root", "term::finance", "term::finance", "term::finance", "root", "term::health", "term::health", "term::health", "root", "term::needs-review", "term::needs-review", "root", "term::transport-rail", "term::transport-rail", "root", "term::unmapped", "term::unmapped", "root", "term::sports", "root", "term::sports-league", "root", "term::transport-bike"], "labels": ["CTE", "environment", "env air quality brief", "env recycling audit", "env wetland survey", "finance", "finance budget worksheet", "finance savings goal", "finance tax checklist", "health", "health clinic hours", "health heat advisory", "health vaccine faq", "needs review", "ag seed catalog notes", "sports pool schedule", "transport rail", "transport harbor pilot", "transport rail timetable", "unmapped", "ag irrigation schedule", "ag soil test", "sports", "sports trail race", "sports league", "sports league standings", "transport bike", "transport bike lane memo"], "values": [18, 3, 1, 1, 1, 3, 1, 1, 1, 3, 1, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1], "marker": {"colors": ["#051c2e", "#1a6fa8", "#efe4ce", "#e4d4b8", "#d8c6a6", "#0b3a5b", "#efe4ce", "#e4d4b8", "#d8c6a6", "#3d7fa8", "#efe4ce", "#e4d4b8", "#d8c6a6", "#003366", "#efe4ce", "#e4d4b8", "#5a93b0", "#efe4ce", "#e4d4b8", "#6e675c", "#efe4ce", "#e4d4b8", "#4a7a94", "#efe4ce", "#2a5a78", "#efe4ce", "#6b8fa3", "#efe4ce"], "line": {"width": 2, "color": "#07263d"}}, "textfont": {"family": "Source Sans 3, sans-serif", "size": 15, "color": ["#f3ead8", "#f3ead8", "#07263d", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#f3ead8", "#07263d", "#07263d", "#f3ead8", "#07263d", "#f3ead8", "#07263d", "#f3ead8", "#07263d"]}, "customdata": ["{\"kind\": \"root\", \"facet\": \"function\", \"count\": 18, \"title\": \"By function\", \"note\": \"Ring size is document count, not importance.\"}", "{\"kind\": \"term\", \"facet\": \"function\", \"term\": \"environment\", \"count\": 3, \"title\": \"environment\", \"files\": [\"env air quality brief\", \"env recycling audit\", \"env wetland survey\"]}", "{\"kind\": \"doc\", \"facet\": \"function\", \"term\": \"environment\", \"title\": \"env-air-quality-brief.txt\", \"ring\": \"env air quality brief\", \"path\": \"env-air-quality-brief.txt\", \"conf\": 1.0, \"program\": \"environment\", \"function\": \"environment\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A morning air quality brief reports that PM2.5 peaked at 38 \\u00b5g/m\\u00b3 between 07:00 and 08:00, affecting the valley floor only. It notes that wood-stove curtailment is currently voluntary but would become mandatory under a Stage 1 alert.\"}", "{\"kind\": \"doc\", \"facet\": \"function\", \"term\": \"environment\", \"title\": \"env-recycling-audit.txt\", \"ring\": \"env recycling audit\", \"path\": \"env-recycling-audit.txt\", \"conf\": 1.0, \"program\": \"environment\", \"function\": \"environment\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A municipal recycling audit report finds 18 percent contamination in blue bins, primarily from food-soiled cardboard and plastic bags, noting the MRF will reject loads exceeding 20 percent contamination. It documents a sticker campaign on pizza boxes that reduced contamination by\"}", "{\"kind\": \"doc\", \"facet\": \"function\", \"term\": \"environment\", \"title\": \"env-wetland-survey.txt\", \"ring\": \"env wetland survey\", \"path\": \"env-wetland-survey.txt\", \"conf\": 1.0, \"program\": \"environment\", \"function\": \"environment\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A brief field note documenting an 18-species wetland bird survey at an oxbow marsh, noting a least bittern heard but not seen, elevated water levels from recent rain, and a recommendation to postpone a planned ditch cleanout to protect nesting activity.\"}", "{\"kind\": \"term\", \"facet\": \"function\", \"term\": \"finance\", \"count\": 3, \"title\": \"finance\", \"files\": [\"finance budget worksheet\", \"finance savings goal\", \"finance tax checklist\"]}", "{\"kind\": \"doc\", \"facet\": \"function\", \"term\": \"finance\", \"title\": \"finance-budget-worksheet.txt\", \"ring\": \"finance budget worksheet\", \"path\": \"finance-budget-worksheet.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A personal household monthly budget worksheet tracking fixed expenses (rent, transit, car insurance sinking fund) and variable costs (groceries, streaming), with notes on last month's overspending and adjustments to streaming bundle instead of groceries.\"}", "{\"kind\": \"doc\", \"facet\": \"function\", \"term\": \"finance\", \"title\": \"finance-savings-goal.txt\", \"ring\": \"finance savings goal\", \"path\": \"finance-savings-goal.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"This document outlines a personal emergency-fund savings goal targeting three months of essential bills, currently at $4,200. It establishes an automatic transfer of $150 on the 1st and 15th of each month and explicitly separates a travel envelope from the emergency fund to preve\"}", "{\"kind\": \"doc\", \"facet\": \"function\", \"term\": \"finance\", \"title\": \"finance-tax-checklist.txt\", \"ring\": \"finance tax checklist\", \"path\": \"finance-tax-checklist.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A fictional practice checklist for year-end tax preparation that guides users to gather W-2 forms, mortgage interest statements (1098), and charitable receipts over $250, noting estimated tax payments made in June and September and identifying the filer as single. It is explicitl\"}", "{\"kind\": \"term\", \"facet\": \"function\", \"term\": \"health\", \"count\": 3, \"title\": \"health\", \"files\": [\"health clinic hours\", \"health heat advisory\", \"health vaccine faq\"]}", "{\"kind\": \"doc\", \"facet\": \"function\", \"term\": \"health\", \"title\": \"health-clinic-hours.txt\", \"ring\": \"health clinic hours\", \"path\": \"health-clinic-hours.txt\", \"conf\": 1.0, \"program\": \"health\", \"function\": \"health\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"This document lists the walk-in hours for a community health clinic, specifying Tuesday and Thursday evenings and noting that Saturday well-child slots are full through the end of the month. It also informs visitors that flu shots are available in a side room and that an insuranc\"}", "{\"kind\": \"doc\", \"facet\": \"function\", \"term\": \"health\", \"title\": \"health-heat-advisory.txt\", \"ring\": \"health heat advisory\", \"path\": \"health-heat-advisory.txt\", \"conf\": 1.0, \"program\": \"health\", \"function\": \"health\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A heat advisory mandating 15-minute shade breaks hourly and one liter of water per person per hour when the heat index exceeds 103\\u00b0F, with a directive to cancel non-essential roof work after 14:00 to protect outdoor workers from extreme heat.\"}", "{\"kind\": \"doc\", \"facet\": \"function\", \"term\": \"health\", \"title\": \"health-vaccine-faq.txt\", \"ring\": \"health vaccine faq\", \"path\": \"health-vaccine-faq.txt\", \"conf\": 1.0, \"program\": \"health\", \"function\": \"health\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A frequently asked questions document outlining school vaccination requirements for sixth grade entry, specifically addressing MMR dose requirements, the limited acceptance of measles history as a substitute for the first dose, and the county board's policy prohibiting philosophi\"}", "{\"kind\": \"term\", \"facet\": \"function\", \"term\": \"needs-review\", \"count\": 2, \"title\": \"needs review\", \"files\": [\"ag seed catalog notes\", \"sports pool schedule\"]}", "{\"kind\": \"doc\", \"facet\": \"function\", \"term\": \"needs-review\", \"title\": \"ag-seed-catalog-notes.txt\", \"ring\": \"ag seed catalog notes\", \"path\": \"ag-seed-catalog-notes.txt\", \"conf\": 0.0, \"program\": \"needs-review\", \"function\": \"needs-review\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A farmer or gardener recorded germination results and ordering reminders from seed packets. The notes track a successful open-pollinated tomato trial, a hybrid sweetcorn packet sold out until March, and a restock order for cover-crop rye to avoid last year's planting delays.\"}", "{\"kind\": \"doc\", \"facet\": \"function\", \"term\": \"needs-review\", \"title\": \"sports-pool-schedule.txt\", \"ring\": \"sports pool schedule\", \"path\": \"sports-pool-schedule.txt\", \"conf\": 1.0, \"program\": \"needs-review\", \"function\": \"needs-review\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A November schedule for an indoor pool outlining lap swim hours, lane assignments for lessons, and maintenance closures for the dive well, with spectator areas kept clear during adult fitness times.\"}", "{\"kind\": \"term\", \"facet\": \"function\", \"term\": \"transport-rail\", \"count\": 2, \"title\": \"transport rail\", \"files\": [\"transport harbor pilot\", \"transport rail timetable\"]}", "{\"kind\": \"doc\", \"facet\": \"function\", \"term\": \"transport-rail\", \"title\": \"transport-harbor-pilot.txt\", \"ring\": \"transport harbor pilot\", \"path\": \"transport-harbor-pilot.txt\", \"conf\": 1.0, \"program\": \"transport\", \"function\": \"transport-rail\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A port authority notice informing that container ships exceeding 200 meters in length are required to board a licensed harbor pilot at buoy 12. The document records that fog conditions in the estuary during March caused delays at three berths, and clarifies that tug availability \"}", "{\"kind\": \"doc\", \"facet\": \"function\", \"term\": \"transport-rail\", \"title\": \"transport-rail-timetable.txt\", \"ring\": \"transport rail timetable\", \"path\": \"transport-rail-timetable.txt\", \"conf\": 1.0, \"program\": \"transport\", \"function\": \"transport-rail\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A weekday peak-hour rail timetable for the city's north line, noting express trains that skip suburban stops and a scheduled weekend engineering blockade on the river bridge that will require replacement bus services via a service road beside the freight yard.\"}", "{\"kind\": \"term\", \"facet\": \"function\", \"term\": \"unmapped\", \"count\": 2, \"title\": \"unmapped\", \"files\": [\"ag irrigation schedule\", \"ag soil test\"]}", "{\"kind\": \"doc\", \"facet\": \"function\", \"term\": \"unmapped\", \"title\": \"ag-irrigation-schedule.txt\", \"ring\": \"ag irrigation schedule\", \"path\": \"ag-irrigation-schedule.txt\", \"conf\": 0.0, \"program\": \"unmapped\", \"function\": \"unmapped\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A maintenance directive for orchard block B specifying a drip irrigation schedule that runs two hours before dawn on even calendar days, noting a prior sand filter clog in June and observing uneven moisture conditions with the windbreak side being drier.\"}", "{\"kind\": \"doc\", \"facet\": \"function\", \"term\": \"unmapped\", \"title\": \"ag-soil-test.txt\", \"ring\": \"ag soil test\", \"path\": \"ag-soil-test.txt\", \"conf\": 0.0, \"program\": \"unmapped\", \"function\": \"unmapped\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A brief spring soil test summary for an east field, reporting pH 6.2, low phosphorus, adequate potassium, and recommending lime application ahead of maize planting. The south strip is noted to retain last year's clover as a cover crop.\"}", "{\"kind\": \"term\", \"facet\": \"function\", \"term\": \"sports\", \"count\": 1, \"title\": \"sports\", \"files\": [\"sports trail race\"]}", "{\"kind\": \"doc\", \"facet\": \"function\", \"term\": \"sports\", \"title\": \"sports-trail-race.txt\", \"ring\": \"sports trail race\", \"path\": \"sports-trail-race.txt\", \"conf\": 1.0, \"program\": \"sports\", \"function\": \"sports\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A briefing document for trail race volunteers outlining aid station placement at the ridge junction (mile 8.4), requirements for runners to carry their own bottles, sweep crew timing relative to starters, and shared use of the fire road with horses before noon.\"}", "{\"kind\": \"term\", \"facet\": \"function\", \"term\": \"sports-league\", \"count\": 1, \"title\": \"sports league\", \"files\": [\"sports league standings\"]}", "{\"kind\": \"doc\", \"facet\": \"function\", \"term\": \"sports-league\", \"title\": \"sports-league-standings.txt\", \"ring\": \"sports league standings\", \"path\": \"sports-league-standings.txt\", \"conf\": 1.0, \"program\": \"sports\", \"function\": \"sports-league\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A brief update on Tuesday night basketball league standings, noting that Harbor Five leads with a 7\\u20131 record and that a protest from week four regarding a late travel call was denied. It also specifies that any makeup games will be played at the elementary gym and that participan\"}", "{\"kind\": \"term\", \"facet\": \"function\", \"term\": \"transport-bike\", \"count\": 1, \"title\": \"transport bike\", \"files\": [\"transport bike lane memo\"]}", "{\"kind\": \"doc\", \"facet\": \"function\", \"term\": \"transport-bike\", \"title\": \"transport-bike-lane-memo.txt\", \"ring\": \"transport bike lane memo\", \"path\": \"transport-bike-lane-memo.txt\", \"conf\": 1.0, \"program\": \"transport\", \"function\": \"transport-bike\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A planning memo outlining the conversion of a parking lane on Maple Avenue into a two-way protected bike lane (cycle track), noting the need for signal timing adjustments at 4th Street to prevent conflicts with turning trucks and citing count data showing 1,400 weekday riders.\"}"], "branchvalues": "total", "hovertemplate": "<b>%{label}</b><br>%{value}<extra></extra>", "textinfo": "label", "insidetextorientation": "auto", "maxdepth": 2, "sort": false, "leaf": {"opacity": 1}}, "audience": {"ids": ["root", "term::unmapped", "doc::audience::ag-irrigation-schedule.txt", "doc::audience::ag-seed-catalog-notes.txt", "doc::audience::ag-soil-test.txt", "doc::audience::env-air-quality-brief.txt", "doc::audience::env-recycling-audit.txt", "doc::audience::env-wetland-survey.txt", "doc::audience::finance-budget-worksheet.txt", "doc::audience::finance-savings-goal.txt", "doc::audience::finance-tax-checklist.txt", "doc::audience::health-clinic-hours.txt", "doc::audience::health-heat-advisory.txt", "doc::audience::health-vaccine-faq.txt", "doc::audience::sports-league-standings.txt", "doc::audience::sports-pool-schedule.txt", "doc::audience::sports-trail-race.txt", "doc::audience::transport-bike-lane-memo.txt", "doc::audience::transport-harbor-pilot.txt", "doc::audience::transport-rail-timetable.txt"], "parents": ["", "root", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped"], "labels": ["CTE", "unmapped", "ag irrigation schedule", "ag seed catalog notes", "ag soil test", "env air quality brief", "env recycling audit", "env wetland survey", "finance budget worksheet", "finance savings goal", "finance tax checklist", "health clinic hours", "health heat advisory", "health vaccine faq", "sports league standings", "sports pool schedule", "sports trail race", "transport bike lane memo", "transport harbor pilot", "transport rail timetable"], "values": [18, 18, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], "marker": {"colors": ["#051c2e", "#6e675c", "#efe4ce", "#e4d4b8", "#d8c6a6", "#f3ead8", "#cfc0a0", "#e8d7b4", "#d2c2a4", "#c4b496", "#efe4ce", "#e4d4b8", "#d8c6a6", "#f3ead8", "#cfc0a0", "#e8d7b4", "#d2c2a4", "#c4b496", "#efe4ce", "#e4d4b8"], "line": {"width": 2, "color": "#07263d"}}, "textfont": {"family": "Source Sans 3, sans-serif", "size": 15, "color": ["#f3ead8", "#f3ead8", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d"]}, "customdata": ["{\"kind\": \"root\", \"facet\": \"audience\", \"count\": 18, \"title\": \"By audience\", \"note\": \"Ring size is document count, not importance.\"}", "{\"kind\": \"term\", \"facet\": \"audience\", \"term\": \"unmapped\", \"count\": 18, \"title\": \"unmapped\", \"files\": [\"ag irrigation schedule\", \"ag seed catalog notes\", \"ag soil test\", \"env air quality brief\", \"env recycling audit\", \"env wetland survey\", \"finance budget worksheet\", \"finance savings goal\", \"finance tax checklist\", \"health clinic hours\", \"health heat advisory\", \"health vaccine faq\", \"sports league standings\", \"sports pool schedule\", \"sports trail race\", \"transport bike lane memo\", \"transport harbor pilot\", \"transport rail timetable\"]}", "{\"kind\": \"doc\", \"facet\": \"audience\", \"term\": \"unmapped\", \"title\": \"ag-irrigation-schedule.txt\", \"ring\": \"ag irrigation schedule\", \"path\": \"ag-irrigation-schedule.txt\", \"conf\": 0.0, \"program\": \"unmapped\", \"function\": \"unmapped\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A maintenance directive for orchard block B specifying a drip irrigation schedule that runs two hours before dawn on even calendar days, noting a prior sand filter clog in June and observing uneven moisture conditions with the windbreak side being drier.\"}", "{\"kind\": \"doc\", \"facet\": \"audience\", \"term\": \"unmapped\", \"title\": \"ag-seed-catalog-notes.txt\", \"ring\": \"ag seed catalog notes\", \"path\": \"ag-seed-catalog-notes.txt\", \"conf\": 0.0, \"program\": \"needs-review\", \"function\": \"needs-review\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A farmer or gardener recorded germination results and ordering reminders from seed packets. The notes track a successful open-pollinated tomato trial, a hybrid sweetcorn packet sold out until March, and a restock order for cover-crop rye to avoid last year's planting delays.\"}", "{\"kind\": \"doc\", \"facet\": \"audience\", \"term\": \"unmapped\", \"title\": \"ag-soil-test.txt\", \"ring\": \"ag soil test\", \"path\": \"ag-soil-test.txt\", \"conf\": 0.0, \"program\": \"unmapped\", \"function\": \"unmapped\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A brief spring soil test summary for an east field, reporting pH 6.2, low phosphorus, adequate potassium, and recommending lime application ahead of maize planting. The south strip is noted to retain last year's clover as a cover crop.\"}", "{\"kind\": \"doc\", \"facet\": \"audience\", \"term\": \"unmapped\", \"title\": \"env-air-quality-brief.txt\", \"ring\": \"env air quality brief\", \"path\": \"env-air-quality-brief.txt\", \"conf\": 1.0, \"program\": \"environment\", \"function\": \"environment\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A morning air quality brief reports that PM2.5 peaked at 38 \\u00b5g/m\\u00b3 between 07:00 and 08:00, affecting the valley floor only. It notes that wood-stove curtailment is currently voluntary but would become mandatory under a Stage 1 alert.\"}", "{\"kind\": \"doc\", \"facet\": \"audience\", \"term\": \"unmapped\", \"title\": \"env-recycling-audit.txt\", \"ring\": \"env recycling audit\", \"path\": \"env-recycling-audit.txt\", \"conf\": 1.0, \"program\": \"environment\", \"function\": \"environment\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A municipal recycling audit report finds 18 percent contamination in blue bins, primarily from food-soiled cardboard and plastic bags, noting the MRF will reject loads exceeding 20 percent contamination. It documents a sticker campaign on pizza boxes that reduced contamination by\"}", "{\"kind\": \"doc\", \"facet\": \"audience\", \"term\": \"unmapped\", \"title\": \"env-wetland-survey.txt\", \"ring\": \"env wetland survey\", \"path\": \"env-wetland-survey.txt\", \"conf\": 1.0, \"program\": \"environment\", \"function\": \"environment\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A brief field note documenting an 18-species wetland bird survey at an oxbow marsh, noting a least bittern heard but not seen, elevated water levels from recent rain, and a recommendation to postpone a planned ditch cleanout to protect nesting activity.\"}", "{\"kind\": \"doc\", \"facet\": \"audience\", \"term\": \"unmapped\", \"title\": \"finance-budget-worksheet.txt\", \"ring\": \"finance budget worksheet\", \"path\": \"finance-budget-worksheet.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A personal household monthly budget worksheet tracking fixed expenses (rent, transit, car insurance sinking fund) and variable costs (groceries, streaming), with notes on last month's overspending and adjustments to streaming bundle instead of groceries.\"}", "{\"kind\": \"doc\", \"facet\": \"audience\", \"term\": \"unmapped\", \"title\": \"finance-savings-goal.txt\", \"ring\": \"finance savings goal\", \"path\": \"finance-savings-goal.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"This document outlines a personal emergency-fund savings goal targeting three months of essential bills, currently at $4,200. It establishes an automatic transfer of $150 on the 1st and 15th of each month and explicitly separates a travel envelope from the emergency fund to preve\"}", "{\"kind\": \"doc\", \"facet\": \"audience\", \"term\": \"unmapped\", \"title\": \"finance-tax-checklist.txt\", \"ring\": \"finance tax checklist\", \"path\": \"finance-tax-checklist.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A fictional practice checklist for year-end tax preparation that guides users to gather W-2 forms, mortgage interest statements (1098), and charitable receipts over $250, noting estimated tax payments made in June and September and identifying the filer as single. It is explicitl\"}", "{\"kind\": \"doc\", \"facet\": \"audience\", \"term\": \"unmapped\", \"title\": \"health-clinic-hours.txt\", \"ring\": \"health clinic hours\", \"path\": \"health-clinic-hours.txt\", \"conf\": 1.0, \"program\": \"health\", \"function\": \"health\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"This document lists the walk-in hours for a community health clinic, specifying Tuesday and Thursday evenings and noting that Saturday well-child slots are full through the end of the month. It also informs visitors that flu shots are available in a side room and that an insuranc\"}", "{\"kind\": \"doc\", \"facet\": \"audience\", \"term\": \"unmapped\", \"title\": \"health-heat-advisory.txt\", \"ring\": \"health heat advisory\", \"path\": \"health-heat-advisory.txt\", \"conf\": 1.0, \"program\": \"health\", \"function\": \"health\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A heat advisory mandating 15-minute shade breaks hourly and one liter of water per person per hour when the heat index exceeds 103\\u00b0F, with a directive to cancel non-essential roof work after 14:00 to protect outdoor workers from extreme heat.\"}", "{\"kind\": \"doc\", \"facet\": \"audience\", \"term\": \"unmapped\", \"title\": \"health-vaccine-faq.txt\", \"ring\": \"health vaccine faq\", \"path\": \"health-vaccine-faq.txt\", \"conf\": 1.0, \"program\": \"health\", \"function\": \"health\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A frequently asked questions document outlining school vaccination requirements for sixth grade entry, specifically addressing MMR dose requirements, the limited acceptance of measles history as a substitute for the first dose, and the county board's policy prohibiting philosophi\"}", "{\"kind\": \"doc\", \"facet\": \"audience\", \"term\": \"unmapped\", \"title\": \"sports-league-standings.txt\", \"ring\": \"sports league standings\", \"path\": \"sports-league-standings.txt\", \"conf\": 1.0, \"program\": \"sports\", \"function\": \"sports-league\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A brief update on Tuesday night basketball league standings, noting that Harbor Five leads with a 7\\u20131 record and that a protest from week four regarding a late travel call was denied. It also specifies that any makeup games will be played at the elementary gym and that participan\"}", "{\"kind\": \"doc\", \"facet\": \"audience\", \"term\": \"unmapped\", \"title\": \"sports-pool-schedule.txt\", \"ring\": \"sports pool schedule\", \"path\": \"sports-pool-schedule.txt\", \"conf\": 1.0, \"program\": \"needs-review\", \"function\": \"needs-review\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A November schedule for an indoor pool outlining lap swim hours, lane assignments for lessons, and maintenance closures for the dive well, with spectator areas kept clear during adult fitness times.\"}", "{\"kind\": \"doc\", \"facet\": \"audience\", \"term\": \"unmapped\", \"title\": \"sports-trail-race.txt\", \"ring\": \"sports trail race\", \"path\": \"sports-trail-race.txt\", \"conf\": 1.0, \"program\": \"sports\", \"function\": \"sports\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A briefing document for trail race volunteers outlining aid station placement at the ridge junction (mile 8.4), requirements for runners to carry their own bottles, sweep crew timing relative to starters, and shared use of the fire road with horses before noon.\"}", "{\"kind\": \"doc\", \"facet\": \"audience\", \"term\": \"unmapped\", \"title\": \"transport-bike-lane-memo.txt\", \"ring\": \"transport bike lane memo\", \"path\": \"transport-bike-lane-memo.txt\", \"conf\": 1.0, \"program\": \"transport\", \"function\": \"transport-bike\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A planning memo outlining the conversion of a parking lane on Maple Avenue into a two-way protected bike lane (cycle track), noting the need for signal timing adjustments at 4th Street to prevent conflicts with turning trucks and citing count data showing 1,400 weekday riders.\"}", "{\"kind\": \"doc\", \"facet\": \"audience\", \"term\": \"unmapped\", \"title\": \"transport-harbor-pilot.txt\", \"ring\": \"transport harbor pilot\", \"path\": \"transport-harbor-pilot.txt\", \"conf\": 1.0, \"program\": \"transport\", \"function\": \"transport-rail\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A port authority notice informing that container ships exceeding 200 meters in length are required to board a licensed harbor pilot at buoy 12. The document records that fog conditions in the estuary during March caused delays at three berths, and clarifies that tug availability \"}", "{\"kind\": \"doc\", \"facet\": \"audience\", \"term\": \"unmapped\", \"title\": \"transport-rail-timetable.txt\", \"ring\": \"transport rail timetable\", \"path\": \"transport-rail-timetable.txt\", \"conf\": 1.0, \"program\": \"transport\", \"function\": \"transport-rail\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A weekday peak-hour rail timetable for the city's north line, noting express trains that skip suburban stops and a scheduled weekend engineering blockade on the river bridge that will require replacement bus services via a service road beside the freight yard.\"}"], "branchvalues": "total", "hovertemplate": "<b>%{label}</b><br>%{value}<extra></extra>", "textinfo": "label", "insidetextorientation": "auto", "maxdepth": 2, "sort": false, "leaf": {"opacity": 1}}, "record_type": {"ids": ["root", "term::unmapped", "doc::record_type::ag-irrigation-schedule.txt", "doc::record_type::ag-seed-catalog-notes.txt", "doc::record_type::ag-soil-test.txt", "doc::record_type::env-air-quality-brief.txt", "doc::record_type::env-recycling-audit.txt", "doc::record_type::env-wetland-survey.txt", "doc::record_type::finance-budget-worksheet.txt", "doc::record_type::finance-savings-goal.txt", "doc::record_type::finance-tax-checklist.txt", "doc::record_type::health-clinic-hours.txt", "doc::record_type::health-heat-advisory.txt", "doc::record_type::health-vaccine-faq.txt", "doc::record_type::sports-league-standings.txt", "doc::record_type::sports-pool-schedule.txt", "doc::record_type::sports-trail-race.txt", "doc::record_type::transport-bike-lane-memo.txt", "doc::record_type::transport-harbor-pilot.txt", "doc::record_type::transport-rail-timetable.txt"], "parents": ["", "root", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped"], "labels": ["CTE", "unmapped", "ag irrigation schedule", "ag seed catalog notes", "ag soil test", "env air quality brief", "env recycling audit", "env wetland survey", "finance budget worksheet", "finance savings goal", "finance tax checklist", "health clinic hours", "health heat advisory", "health vaccine faq", "sports league standings", "sports pool schedule", "sports trail race", "transport bike lane memo", "transport harbor pilot", "transport rail timetable"], "values": [18, 18, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], "marker": {"colors": ["#051c2e", "#6e675c", "#efe4ce", "#e4d4b8", "#d8c6a6", "#f3ead8", "#cfc0a0", "#e8d7b4", "#d2c2a4", "#c4b496", "#efe4ce", "#e4d4b8", "#d8c6a6", "#f3ead8", "#cfc0a0", "#e8d7b4", "#d2c2a4", "#c4b496", "#efe4ce", "#e4d4b8"], "line": {"width": 2, "color": "#07263d"}}, "textfont": {"family": "Source Sans 3, sans-serif", "size": 15, "color": ["#f3ead8", "#f3ead8", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d"]}, "customdata": ["{\"kind\": \"root\", \"facet\": \"record_type\", \"count\": 18, \"title\": \"By record type\", \"note\": \"Ring size is document count, not importance.\"}", "{\"kind\": \"term\", \"facet\": \"record_type\", \"term\": \"unmapped\", \"count\": 18, \"title\": \"unmapped\", \"files\": [\"ag irrigation schedule\", \"ag seed catalog notes\", \"ag soil test\", \"env air quality brief\", \"env recycling audit\", \"env wetland survey\", \"finance budget worksheet\", \"finance savings goal\", \"finance tax checklist\", \"health clinic hours\", \"health heat advisory\", \"health vaccine faq\", \"sports league standings\", \"sports pool schedule\", \"sports trail race\", \"transport bike lane memo\", \"transport harbor pilot\", \"transport rail timetable\"]}", "{\"kind\": \"doc\", \"facet\": \"record_type\", \"term\": \"unmapped\", \"title\": \"ag-irrigation-schedule.txt\", \"ring\": \"ag irrigation schedule\", \"path\": \"ag-irrigation-schedule.txt\", \"conf\": 0.0, \"program\": \"unmapped\", \"function\": \"unmapped\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A maintenance directive for orchard block B specifying a drip irrigation schedule that runs two hours before dawn on even calendar days, noting a prior sand filter clog in June and observing uneven moisture conditions with the windbreak side being drier.\"}", "{\"kind\": \"doc\", \"facet\": \"record_type\", \"term\": \"unmapped\", \"title\": \"ag-seed-catalog-notes.txt\", \"ring\": \"ag seed catalog notes\", \"path\": \"ag-seed-catalog-notes.txt\", \"conf\": 0.0, \"program\": \"needs-review\", \"function\": \"needs-review\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A farmer or gardener recorded germination results and ordering reminders from seed packets. The notes track a successful open-pollinated tomato trial, a hybrid sweetcorn packet sold out until March, and a restock order for cover-crop rye to avoid last year's planting delays.\"}", "{\"kind\": \"doc\", \"facet\": \"record_type\", \"term\": \"unmapped\", \"title\": \"ag-soil-test.txt\", \"ring\": \"ag soil test\", \"path\": \"ag-soil-test.txt\", \"conf\": 0.0, \"program\": \"unmapped\", \"function\": \"unmapped\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A brief spring soil test summary for an east field, reporting pH 6.2, low phosphorus, adequate potassium, and recommending lime application ahead of maize planting. The south strip is noted to retain last year's clover as a cover crop.\"}", "{\"kind\": \"doc\", \"facet\": \"record_type\", \"term\": \"unmapped\", \"title\": \"env-air-quality-brief.txt\", \"ring\": \"env air quality brief\", \"path\": \"env-air-quality-brief.txt\", \"conf\": 1.0, \"program\": \"environment\", \"function\": \"environment\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A morning air quality brief reports that PM2.5 peaked at 38 \\u00b5g/m\\u00b3 between 07:00 and 08:00, affecting the valley floor only. It notes that wood-stove curtailment is currently voluntary but would become mandatory under a Stage 1 alert.\"}", "{\"kind\": \"doc\", \"facet\": \"record_type\", \"term\": \"unmapped\", \"title\": \"env-recycling-audit.txt\", \"ring\": \"env recycling audit\", \"path\": \"env-recycling-audit.txt\", \"conf\": 1.0, \"program\": \"environment\", \"function\": \"environment\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A municipal recycling audit report finds 18 percent contamination in blue bins, primarily from food-soiled cardboard and plastic bags, noting the MRF will reject loads exceeding 20 percent contamination. It documents a sticker campaign on pizza boxes that reduced contamination by\"}", "{\"kind\": \"doc\", \"facet\": \"record_type\", \"term\": \"unmapped\", \"title\": \"env-wetland-survey.txt\", \"ring\": \"env wetland survey\", \"path\": \"env-wetland-survey.txt\", \"conf\": 1.0, \"program\": \"environment\", \"function\": \"environment\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A brief field note documenting an 18-species wetland bird survey at an oxbow marsh, noting a least bittern heard but not seen, elevated water levels from recent rain, and a recommendation to postpone a planned ditch cleanout to protect nesting activity.\"}", "{\"kind\": \"doc\", \"facet\": \"record_type\", \"term\": \"unmapped\", \"title\": \"finance-budget-worksheet.txt\", \"ring\": \"finance budget worksheet\", \"path\": \"finance-budget-worksheet.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A personal household monthly budget worksheet tracking fixed expenses (rent, transit, car insurance sinking fund) and variable costs (groceries, streaming), with notes on last month's overspending and adjustments to streaming bundle instead of groceries.\"}", "{\"kind\": \"doc\", \"facet\": \"record_type\", \"term\": \"unmapped\", \"title\": \"finance-savings-goal.txt\", \"ring\": \"finance savings goal\", \"path\": \"finance-savings-goal.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"This document outlines a personal emergency-fund savings goal targeting three months of essential bills, currently at $4,200. It establishes an automatic transfer of $150 on the 1st and 15th of each month and explicitly separates a travel envelope from the emergency fund to preve\"}", "{\"kind\": \"doc\", \"facet\": \"record_type\", \"term\": \"unmapped\", \"title\": \"finance-tax-checklist.txt\", \"ring\": \"finance tax checklist\", \"path\": \"finance-tax-checklist.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A fictional practice checklist for year-end tax preparation that guides users to gather W-2 forms, mortgage interest statements (1098), and charitable receipts over $250, noting estimated tax payments made in June and September and identifying the filer as single. It is explicitl\"}", "{\"kind\": \"doc\", \"facet\": \"record_type\", \"term\": \"unmapped\", \"title\": \"health-clinic-hours.txt\", \"ring\": \"health clinic hours\", \"path\": \"health-clinic-hours.txt\", \"conf\": 1.0, \"program\": \"health\", \"function\": \"health\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"This document lists the walk-in hours for a community health clinic, specifying Tuesday and Thursday evenings and noting that Saturday well-child slots are full through the end of the month. It also informs visitors that flu shots are available in a side room and that an insuranc\"}", "{\"kind\": \"doc\", \"facet\": \"record_type\", \"term\": \"unmapped\", \"title\": \"health-heat-advisory.txt\", \"ring\": \"health heat advisory\", \"path\": \"health-heat-advisory.txt\", \"conf\": 1.0, \"program\": \"health\", \"function\": \"health\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A heat advisory mandating 15-minute shade breaks hourly and one liter of water per person per hour when the heat index exceeds 103\\u00b0F, with a directive to cancel non-essential roof work after 14:00 to protect outdoor workers from extreme heat.\"}", "{\"kind\": \"doc\", \"facet\": \"record_type\", \"term\": \"unmapped\", \"title\": \"health-vaccine-faq.txt\", \"ring\": \"health vaccine faq\", \"path\": \"health-vaccine-faq.txt\", \"conf\": 1.0, \"program\": \"health\", \"function\": \"health\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A frequently asked questions document outlining school vaccination requirements for sixth grade entry, specifically addressing MMR dose requirements, the limited acceptance of measles history as a substitute for the first dose, and the county board's policy prohibiting philosophi\"}", "{\"kind\": \"doc\", \"facet\": \"record_type\", \"term\": \"unmapped\", \"title\": \"sports-league-standings.txt\", \"ring\": \"sports league standings\", \"path\": \"sports-league-standings.txt\", \"conf\": 1.0, \"program\": \"sports\", \"function\": \"sports-league\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A brief update on Tuesday night basketball league standings, noting that Harbor Five leads with a 7\\u20131 record and that a protest from week four regarding a late travel call was denied. It also specifies that any makeup games will be played at the elementary gym and that participan\"}", "{\"kind\": \"doc\", \"facet\": \"record_type\", \"term\": \"unmapped\", \"title\": \"sports-pool-schedule.txt\", \"ring\": \"sports pool schedule\", \"path\": \"sports-pool-schedule.txt\", \"conf\": 1.0, \"program\": \"needs-review\", \"function\": \"needs-review\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A November schedule for an indoor pool outlining lap swim hours, lane assignments for lessons, and maintenance closures for the dive well, with spectator areas kept clear during adult fitness times.\"}", "{\"kind\": \"doc\", \"facet\": \"record_type\", \"term\": \"unmapped\", \"title\": \"sports-trail-race.txt\", \"ring\": \"sports trail race\", \"path\": \"sports-trail-race.txt\", \"conf\": 1.0, \"program\": \"sports\", \"function\": \"sports\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A briefing document for trail race volunteers outlining aid station placement at the ridge junction (mile 8.4), requirements for runners to carry their own bottles, sweep crew timing relative to starters, and shared use of the fire road with horses before noon.\"}", "{\"kind\": \"doc\", \"facet\": \"record_type\", \"term\": \"unmapped\", \"title\": \"transport-bike-lane-memo.txt\", \"ring\": \"transport bike lane memo\", \"path\": \"transport-bike-lane-memo.txt\", \"conf\": 1.0, \"program\": \"transport\", \"function\": \"transport-bike\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A planning memo outlining the conversion of a parking lane on Maple Avenue into a two-way protected bike lane (cycle track), noting the need for signal timing adjustments at 4th Street to prevent conflicts with turning trucks and citing count data showing 1,400 weekday riders.\"}", "{\"kind\": \"doc\", \"facet\": \"record_type\", \"term\": \"unmapped\", \"title\": \"transport-harbor-pilot.txt\", \"ring\": \"transport harbor pilot\", \"path\": \"transport-harbor-pilot.txt\", \"conf\": 1.0, \"program\": \"transport\", \"function\": \"transport-rail\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A port authority notice informing that container ships exceeding 200 meters in length are required to board a licensed harbor pilot at buoy 12. The document records that fog conditions in the estuary during March caused delays at three berths, and clarifies that tug availability \"}", "{\"kind\": \"doc\", \"facet\": \"record_type\", \"term\": \"unmapped\", \"title\": \"transport-rail-timetable.txt\", \"ring\": \"transport rail timetable\", \"path\": \"transport-rail-timetable.txt\", \"conf\": 1.0, \"program\": \"transport\", \"function\": \"transport-rail\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A weekday peak-hour rail timetable for the city's north line, noting express trains that skip suburban stops and a scheduled weekend engineering blockade on the river bridge that will require replacement bus services via a service road beside the freight yard.\"}"], "branchvalues": "total", "hovertemplate": "<b>%{label}</b><br>%{value}<extra></extra>", "textinfo": "label", "insidetextorientation": "auto", "maxdepth": 2, "sort": false, "leaf": {"opacity": 1}}, "lifecycle": {"ids": ["root", "term::unmapped", "doc::lifecycle::ag-irrigation-schedule.txt", "doc::lifecycle::ag-seed-catalog-notes.txt", "doc::lifecycle::ag-soil-test.txt", "doc::lifecycle::env-air-quality-brief.txt", "doc::lifecycle::env-recycling-audit.txt", "doc::lifecycle::env-wetland-survey.txt", "doc::lifecycle::finance-budget-worksheet.txt", "doc::lifecycle::finance-savings-goal.txt", "doc::lifecycle::finance-tax-checklist.txt", "doc::lifecycle::health-clinic-hours.txt", "doc::lifecycle::health-heat-advisory.txt", "doc::lifecycle::health-vaccine-faq.txt", "doc::lifecycle::sports-league-standings.txt", "doc::lifecycle::sports-pool-schedule.txt", "doc::lifecycle::sports-trail-race.txt", "doc::lifecycle::transport-bike-lane-memo.txt", "doc::lifecycle::transport-harbor-pilot.txt", "doc::lifecycle::transport-rail-timetable.txt"], "parents": ["", "root", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped", "term::unmapped"], "labels": ["CTE", "unmapped", "ag irrigation schedule", "ag seed catalog notes", "ag soil test", "env air quality brief", "env recycling audit", "env wetland survey", "finance budget worksheet", "finance savings goal", "finance tax checklist", "health clinic hours", "health heat advisory", "health vaccine faq", "sports league standings", "sports pool schedule", "sports trail race", "transport bike lane memo", "transport harbor pilot", "transport rail timetable"], "values": [18, 18, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], "marker": {"colors": ["#051c2e", "#6e675c", "#efe4ce", "#e4d4b8", "#d8c6a6", "#f3ead8", "#cfc0a0", "#e8d7b4", "#d2c2a4", "#c4b496", "#efe4ce", "#e4d4b8", "#d8c6a6", "#f3ead8", "#cfc0a0", "#e8d7b4", "#d2c2a4", "#c4b496", "#efe4ce", "#e4d4b8"], "line": {"width": 2, "color": "#07263d"}}, "textfont": {"family": "Source Sans 3, sans-serif", "size": 15, "color": ["#f3ead8", "#f3ead8", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d", "#07263d"]}, "customdata": ["{\"kind\": \"root\", \"facet\": \"lifecycle\", \"count\": 18, \"title\": \"By lifecycle\", \"note\": \"Ring size is document count, not importance.\"}", "{\"kind\": \"term\", \"facet\": \"lifecycle\", \"term\": \"unmapped\", \"count\": 18, \"title\": \"unmapped\", \"files\": [\"ag irrigation schedule\", \"ag seed catalog notes\", \"ag soil test\", \"env air quality brief\", \"env recycling audit\", \"env wetland survey\", \"finance budget worksheet\", \"finance savings goal\", \"finance tax checklist\", \"health clinic hours\", \"health heat advisory\", \"health vaccine faq\", \"sports league standings\", \"sports pool schedule\", \"sports trail race\", \"transport bike lane memo\", \"transport harbor pilot\", \"transport rail timetable\"]}", "{\"kind\": \"doc\", \"facet\": \"lifecycle\", \"term\": \"unmapped\", \"title\": \"ag-irrigation-schedule.txt\", \"ring\": \"ag irrigation schedule\", \"path\": \"ag-irrigation-schedule.txt\", \"conf\": 0.0, \"program\": \"unmapped\", \"function\": \"unmapped\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A maintenance directive for orchard block B specifying a drip irrigation schedule that runs two hours before dawn on even calendar days, noting a prior sand filter clog in June and observing uneven moisture conditions with the windbreak side being drier.\"}", "{\"kind\": \"doc\", \"facet\": \"lifecycle\", \"term\": \"unmapped\", \"title\": \"ag-seed-catalog-notes.txt\", \"ring\": \"ag seed catalog notes\", \"path\": \"ag-seed-catalog-notes.txt\", \"conf\": 0.0, \"program\": \"needs-review\", \"function\": \"needs-review\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A farmer or gardener recorded germination results and ordering reminders from seed packets. The notes track a successful open-pollinated tomato trial, a hybrid sweetcorn packet sold out until March, and a restock order for cover-crop rye to avoid last year's planting delays.\"}", "{\"kind\": \"doc\", \"facet\": \"lifecycle\", \"term\": \"unmapped\", \"title\": \"ag-soil-test.txt\", \"ring\": \"ag soil test\", \"path\": \"ag-soil-test.txt\", \"conf\": 0.0, \"program\": \"unmapped\", \"function\": \"unmapped\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A brief spring soil test summary for an east field, reporting pH 6.2, low phosphorus, adequate potassium, and recommending lime application ahead of maize planting. The south strip is noted to retain last year's clover as a cover crop.\"}", "{\"kind\": \"doc\", \"facet\": \"lifecycle\", \"term\": \"unmapped\", \"title\": \"env-air-quality-brief.txt\", \"ring\": \"env air quality brief\", \"path\": \"env-air-quality-brief.txt\", \"conf\": 1.0, \"program\": \"environment\", \"function\": \"environment\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A morning air quality brief reports that PM2.5 peaked at 38 \\u00b5g/m\\u00b3 between 07:00 and 08:00, affecting the valley floor only. It notes that wood-stove curtailment is currently voluntary but would become mandatory under a Stage 1 alert.\"}", "{\"kind\": \"doc\", \"facet\": \"lifecycle\", \"term\": \"unmapped\", \"title\": \"env-recycling-audit.txt\", \"ring\": \"env recycling audit\", \"path\": \"env-recycling-audit.txt\", \"conf\": 1.0, \"program\": \"environment\", \"function\": \"environment\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A municipal recycling audit report finds 18 percent contamination in blue bins, primarily from food-soiled cardboard and plastic bags, noting the MRF will reject loads exceeding 20 percent contamination. It documents a sticker campaign on pizza boxes that reduced contamination by\"}", "{\"kind\": \"doc\", \"facet\": \"lifecycle\", \"term\": \"unmapped\", \"title\": \"env-wetland-survey.txt\", \"ring\": \"env wetland survey\", \"path\": \"env-wetland-survey.txt\", \"conf\": 1.0, \"program\": \"environment\", \"function\": \"environment\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A brief field note documenting an 18-species wetland bird survey at an oxbow marsh, noting a least bittern heard but not seen, elevated water levels from recent rain, and a recommendation to postpone a planned ditch cleanout to protect nesting activity.\"}", "{\"kind\": \"doc\", \"facet\": \"lifecycle\", \"term\": \"unmapped\", \"title\": \"finance-budget-worksheet.txt\", \"ring\": \"finance budget worksheet\", \"path\": \"finance-budget-worksheet.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A personal household monthly budget worksheet tracking fixed expenses (rent, transit, car insurance sinking fund) and variable costs (groceries, streaming), with notes on last month's overspending and adjustments to streaming bundle instead of groceries.\"}", "{\"kind\": \"doc\", \"facet\": \"lifecycle\", \"term\": \"unmapped\", \"title\": \"finance-savings-goal.txt\", \"ring\": \"finance savings goal\", \"path\": \"finance-savings-goal.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"This document outlines a personal emergency-fund savings goal targeting three months of essential bills, currently at $4,200. It establishes an automatic transfer of $150 on the 1st and 15th of each month and explicitly separates a travel envelope from the emergency fund to preve\"}", "{\"kind\": \"doc\", \"facet\": \"lifecycle\", \"term\": \"unmapped\", \"title\": \"finance-tax-checklist.txt\", \"ring\": \"finance tax checklist\", \"path\": \"finance-tax-checklist.txt\", \"conf\": 1.0, \"program\": \"finance\", \"function\": \"finance\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A fictional practice checklist for year-end tax preparation that guides users to gather W-2 forms, mortgage interest statements (1098), and charitable receipts over $250, noting estimated tax payments made in June and September and identifying the filer as single. It is explicitl\"}", "{\"kind\": \"doc\", \"facet\": \"lifecycle\", \"term\": \"unmapped\", \"title\": \"health-clinic-hours.txt\", \"ring\": \"health clinic hours\", \"path\": \"health-clinic-hours.txt\", \"conf\": 1.0, \"program\": \"health\", \"function\": \"health\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"This document lists the walk-in hours for a community health clinic, specifying Tuesday and Thursday evenings and noting that Saturday well-child slots are full through the end of the month. It also informs visitors that flu shots are available in a side room and that an insuranc\"}", "{\"kind\": \"doc\", \"facet\": \"lifecycle\", \"term\": \"unmapped\", \"title\": \"health-heat-advisory.txt\", \"ring\": \"health heat advisory\", \"path\": \"health-heat-advisory.txt\", \"conf\": 1.0, \"program\": \"health\", \"function\": \"health\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A heat advisory mandating 15-minute shade breaks hourly and one liter of water per person per hour when the heat index exceeds 103\\u00b0F, with a directive to cancel non-essential roof work after 14:00 to protect outdoor workers from extreme heat.\"}", "{\"kind\": \"doc\", \"facet\": \"lifecycle\", \"term\": \"unmapped\", \"title\": \"health-vaccine-faq.txt\", \"ring\": \"health vaccine faq\", \"path\": \"health-vaccine-faq.txt\", \"conf\": 1.0, \"program\": \"health\", \"function\": \"health\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A frequently asked questions document outlining school vaccination requirements for sixth grade entry, specifically addressing MMR dose requirements, the limited acceptance of measles history as a substitute for the first dose, and the county board's policy prohibiting philosophi\"}", "{\"kind\": \"doc\", \"facet\": \"lifecycle\", \"term\": \"unmapped\", \"title\": \"sports-league-standings.txt\", \"ring\": \"sports league standings\", \"path\": \"sports-league-standings.txt\", \"conf\": 1.0, \"program\": \"sports\", \"function\": \"sports-league\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A brief update on Tuesday night basketball league standings, noting that Harbor Five leads with a 7\\u20131 record and that a protest from week four regarding a late travel call was denied. It also specifies that any makeup games will be played at the elementary gym and that participan\"}", "{\"kind\": \"doc\", \"facet\": \"lifecycle\", \"term\": \"unmapped\", \"title\": \"sports-pool-schedule.txt\", \"ring\": \"sports pool schedule\", \"path\": \"sports-pool-schedule.txt\", \"conf\": 1.0, \"program\": \"needs-review\", \"function\": \"needs-review\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A November schedule for an indoor pool outlining lap swim hours, lane assignments for lessons, and maintenance closures for the dive well, with spectator areas kept clear during adult fitness times.\"}", "{\"kind\": \"doc\", \"facet\": \"lifecycle\", \"term\": \"unmapped\", \"title\": \"sports-trail-race.txt\", \"ring\": \"sports trail race\", \"path\": \"sports-trail-race.txt\", \"conf\": 1.0, \"program\": \"sports\", \"function\": \"sports\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A briefing document for trail race volunteers outlining aid station placement at the ridge junction (mile 8.4), requirements for runners to carry their own bottles, sweep crew timing relative to starters, and shared use of the fire road with horses before noon.\"}", "{\"kind\": \"doc\", \"facet\": \"lifecycle\", \"term\": \"unmapped\", \"title\": \"transport-bike-lane-memo.txt\", \"ring\": \"transport bike lane memo\", \"path\": \"transport-bike-lane-memo.txt\", \"conf\": 1.0, \"program\": \"transport\", \"function\": \"transport-bike\", \"audience\": \"unmapped\", \"needs_review\": true, \"note\": \"A planning memo outlining the conversion of a parking lane on Maple Avenue into a two-way protected bike lane (cycle track), noting the need for signal timing adjustments at 4th Street to prevent conflicts with turning trucks and citing count data showing 1,400 weekday riders.\"}", "{\"kind\": \"doc\", \"facet\": \"lifecycle\", \"term\": \"unmapped\", \"title\": \"transport-harbor-pilot.txt\", \"ring\": \"transport harbor pilot\", \"path\": \"transport-harbor-pilot.txt\", \"conf\": 1.0, \"program\": \"transport\", \"function\": \"transport-rail\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A port authority notice informing that container ships exceeding 200 meters in length are required to board a licensed harbor pilot at buoy 12. The document records that fog conditions in the estuary during March caused delays at three berths, and clarifies that tug availability \"}", "{\"kind\": \"doc\", \"facet\": \"lifecycle\", \"term\": \"unmapped\", \"title\": \"transport-rail-timetable.txt\", \"ring\": \"transport rail timetable\", \"path\": \"transport-rail-timetable.txt\", \"conf\": 1.0, \"program\": \"transport\", \"function\": \"transport-rail\", \"audience\": \"unmapped\", \"needs_review\": false, \"note\": \"A weekday peak-hour rail timetable for the city's north line, noting express trains that skip suburban stops and a scheduled weekend engineering blockade on the river bridge that will require replacement bus services via a service road beside the freight yard.\"}"], "branchvalues": "total", "hovertemplate": "<b>%{label}</b><br>%{value}<extra></extra>", "textinfo": "label", "insidetextorientation": "auto", "maxdepth": 2, "sort": false, "leaf": {"opacity": 1}}};
+    const FACET_LABELS = {"browse": "Topics", "program": "Program", "function": "Function", "audience": "Audience", "record_type": "Record", "lifecycle": "Lifecycle"};
+    const DOC_COUNT = 18;
+    const brief = document.getElementById("brief");
+    const crumb = document.getElementById("crumb");
+    let currentFacet = "browse";
+
+    function idleBrief() {
+      return {
+        kind: "root",
+        title: "Dallas ISD CTE",
+        count: DOC_COUNT,
+        facet: currentFacet,
+        note: "Hover a ring to preview a group. Click a slice to open it — the brief stays until you choose another.",
+      };
+    }
+
+    let pinned = idleBrief();
+
+    function parseMeta(raw) {
+      if (raw && typeof raw === "object" && !Array.isArray(raw)) return raw;
+      try { return JSON.parse(raw); } catch (_) { return { title: String(raw || "") }; }
+    }
+
+    function escapeHtml(s) {
+      return String(s || "").replace(/[&<>"]/g, function (c) {
+        return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c];
+      });
+    }
+
+    function rootCrumb() {
+      if (currentFacet === "browse") {
+        return "<b>Full collection</b> · hover a slice to preview";
+      }
+      const label = (FACET_LABELS[currentFacet] || currentFacet).toLowerCase();
+      return "<b>By " + escapeHtml(label) + "</b> · hover a slice to preview";
+    }
+
+    function setCrumb(meta) {
+      const m = meta || idleBrief();
+      if (m.kind === "doc") {
+        crumb.innerHTML = "<b>" + escapeHtml((m.term || "").replace(/-/g, " ")) + "</b> · " + escapeHtml(m.ring || m.title || "");
+      } else if (m.kind === "term") {
+        crumb.innerHTML = "<b>" + escapeHtml(m.title || "") + "</b> · " + (m.count || 0) + " files";
+      } else {
+        crumb.innerHTML = rootCrumb();
+      }
+    }
+
+    function renderBrief(meta) {
+      const m = meta || idleBrief();
+      const isRoot = m.kind === "root";
+      const kicker = m.kind === "doc"
+        ? "Document"
+        : (m.kind === "term" ? (FACET_LABELS[m.facet] || m.facet) : "Collection");
+      const countLine = m.kind === "doc"
+        ? ""
+        : "<p>" + (m.count || 0) + " documents" + (m.facet && !isRoot ? " · " + (FACET_LABELS[m.facet] || m.facet).toLowerCase() : "") + "</p>";
+      const rows = [];
+      if (m.path) rows.push(["Path", m.path]);
+      if (m.program) rows.push(["Program", m.program]);
+      if (m.function) rows.push(["Function", m.function]);
+      if (m.audience) rows.push(["Audience", m.audience]);
+      if (m.conf !== undefined && m.kind === "doc") rows.push(["Confidence", Number(m.conf).toFixed(2)]);
+      const dl = rows.length
+        ? "<dl>" + rows.map(function (r) { return "<div><dt>" + r[0] + "</dt><dd>" + escapeHtml(r[1]) + "</dd></div>"; }).join("") + "</dl>"
+        : "";
+      const flag = m.needs_review ? '<span class="flag">Needs review</span>' : "";
+      const note = m.note ? "<p>" + escapeHtml(m.note) + "</p>" : "";
+      const files = (m.files && m.files.length)
+        ? '<ol class="file-list">' + m.files.map(function (f) { return "<li>" + escapeHtml(f) + "</li>"; }).join("") + "</ol>"
+        : "";
+      const guide = isRoot
+        ? '<ol class="guide"><li>Ring size is document count, not importance.</li><li>The inner ring is the group. The outer ring is the next level.</li><li>Click the center to return to the full map.</li></ol>'
+        : "";
+      brief.innerHTML = '<p class="brief-kicker">' + escapeHtml(kicker) + "</p><h2>" + escapeHtml(m.title || "") + "</h2>" + countLine + note + dl + files + flag + guide;
+      setCrumb(m);
+    }
+
+    const host = document.getElementById("sunburst");
+    const NS = "http://www.w3.org/2000/svg";
+    const trees = {};
+    let focusId = "root";
+
+    function prettyLabel(s) {
+      return String(s || "").replace(/Cte/g, "CTE").replace(/Wbl/g, "WBL");
+    }
+
+    function isDoc(node) {
+      return !!(node.meta && node.meta.kind === "doc");
+    }
+
+    function textColor(hex) {
+      const c = String(hex || "").replace("#", "");
+      if (c.length < 6) return "#f3ead8";
+      const r = parseInt(c.slice(0, 2), 16);
+      const g = parseInt(c.slice(2, 4), 16);
+      const b = parseInt(c.slice(4, 6), 16);
+      const L = (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255;
+      return L > 0.55 ? "#07263d" : "#f3ead8";
+    }
+
+    function buildTree(fig) {
+      const nodes = {};
+      const colors = (fig.marker && fig.marker.colors) || [];
+      const custom = fig.customdata || [];
+      for (let i = 0; i < fig.ids.length; i++) {
+        const id = fig.ids[i];
+        nodes[id] = {
+          id: id,
+          label: fig.labels[i],
+          value: fig.values[i] || 0,
+          color: colors[i] || "#1a6fa8",
+          meta: parseMeta(custom[i]),
+          children: [],
+          parent: null,
+        };
+      }
+      let root = null;
+      for (let i = 0; i < fig.ids.length; i++) {
+        const id = fig.ids[i];
+        const parentId = fig.parents[i];
+        if (!parentId) {
+          root = nodes[id];
+        } else if (nodes[parentId]) {
+          nodes[id].parent = nodes[parentId];
+          nodes[parentId].children.push(nodes[id]);
+        }
+      }
+      return { root: root, nodes: nodes };
+    }
+
+    function treeFor(facet) {
+      if (!trees[facet]) trees[facet] = buildTree(FIGURES[facet]);
+      return trees[facet];
+    }
+
+    // Two rings from the focused node. At the collection root, file
+    // leaves stay hidden — 670 slivers are texture, not a map.
+    function layoutFrom(focus) {
+      const drawn = [];
+      const start = -Math.PI / 2;
+      function rec(node, a0, a1, depth) {
+        node.x0 = a0;
+        node.x1 = a1;
+        node.depth = depth;
+        if (node !== focus) drawn.push(node);
+        if (depth >= 2) return;
+        let kids = node.children || [];
+        // File leaves only when this node is the open group and
+        // every child is a file. Otherwise they read as static.
+        const showingFiles = node === focus && kids.length > 0 && kids.every(isDoc);
+        if (!showingFiles) {
+          kids = kids.filter(function (k) { return !isDoc(k); });
+        }
+        let total = 0;
+        for (let i = 0; i < kids.length; i++) total += kids[i].value || 0;
+        if (!total) return;
+        let a = a0;
+        for (let i = 0; i < kids.length; i++) {
+          const span = (a1 - a0) * ((kids[i].value || 0) / total);
+          rec(kids[i], a, a + span, depth + 1);
+          a += span;
+        }
+      }
+      rec(focus, start, start + Math.PI * 2, 0);
+      return drawn;
+    }
+
+    function sectorPath(cx, cy, r0, r1, a0, a1) {
+      const large = (a1 - a0) > Math.PI ? 1 : 0;
+      function pt(r, a) {
+        return [cx + r * Math.cos(a), cy + r * Math.sin(a)];
+      }
+      const p0 = pt(r1, a0);
+      const p1 = pt(r1, a1);
+      const p2 = pt(r0, a1);
+      const p3 = pt(r0, a0);
+      return "M" + p0[0] + "," + p0[1]
+        + " A" + r1 + "," + r1 + " 0 " + large + " 1 " + p1[0] + "," + p1[1]
+        + " L" + p2[0] + "," + p2[1]
+        + " A" + r0 + "," + r0 + " 0 " + large + " 0 " + p3[0] + "," + p3[1]
+        + " Z";
+    }
+
+    function padded(node) {
+      const span = node.x1 - node.x0;
+      const pad = Math.min(0.016, span * 0.16);
+      if (span - pad < 0.006) return [node.x0, node.x1];
+      return [node.x0 + pad / 2, node.x1 - pad / 2];
+    }
+
+    function setHot(id) {
+      const paths = host.querySelectorAll(".slice");
+      if (!id) {
+        for (let i = 0; i < paths.length; i++) {
+          paths[i].classList.remove("is-dim", "is-hot");
+        }
+        return;
+      }
+      const hot = {};
+      let n = treeFor(currentFacet).nodes[id];
+      while (n) {
+        hot[n.id] = true;
+        n = n.parent;
+      }
+      for (let i = 0; i < paths.length; i++) {
+        const hid = paths[i].getAttribute("data-id");
+        paths[i].classList.toggle("is-hot", !!hot[hid]);
+        paths[i].classList.toggle("is-dim", !hot[hid]);
+      }
+    }
+
+    function addLabel(svg, node, cx, cy, r0, r1, a0, a1) {
+      const span = a1 - a0;
+      const r = (r0 + r1) / 2;
+      const minArc = isDoc(node) ? 58 : 40;
+      if (span * r < minArc) return;
+      const mid = (a0 + a1) / 2;
+      const x = cx + r * Math.cos(mid);
+      const y = cy + r * Math.sin(mid);
+      const deg = mid * 180 / Math.PI;
+      const rot = (deg > 90 || deg < -90) ? deg + 180 : deg;
+      const text = document.createElementNS(NS, "text");
+      text.setAttribute("class", "slice-label");
+      text.setAttribute("transform", "translate(" + x + "," + y + ") rotate(" + rot + ")");
+      text.setAttribute("fill", textColor(node.color));
+      text.setAttribute("font-size", node.depth === 1 ? "12.5" : "11");
+      text.textContent = prettyLabel(node.label);
+      svg.appendChild(text);
+    }
+
+    function zoomTo(node) {
+      if (node && node.children && node.children.length) {
+        focusId = node.id;
+        pinned = node.meta && node.meta.kind ? node.meta : idleBrief();
+      } else if (node) {
+        pinned = node.meta || { title: node.label };
+      }
+      renderWheel();
+      renderBrief(pinned);
+    }
+
+    function zoomOut(focus) {
+      if (focus && focus.parent) {
+        focusId = focus.parent.id;
+        pinned = focus.parent.meta && focus.parent.meta.kind
+          ? focus.parent.meta
+          : idleBrief();
+      } else {
+        focusId = "root";
+        pinned = idleBrief();
+      }
+      renderWheel();
+      renderBrief(pinned);
+    }
+
+    function renderWheel() {
+      const built = treeFor(currentFacet);
+      const focus = (built.nodes[focusId] || built.root);
+      if (!focus) return;
+      const drawn = layoutFrom(focus);
+      let maxD = 1;
+      for (let i = 0; i < drawn.length; i++) {
+        if (drawn[i].depth > maxD) maxD = drawn[i].depth;
+      }
+
+      const rect = host.getBoundingClientRect();
+      const S = Math.max(280, Math.floor(Math.min(rect.width, rect.height)));
+      const cx = S / 2;
+      const cy = S / 2;
+      const R = S / 2 - 6;
+      const hubR = R * 0.30;
+      const rings = maxD <= 1
+        ? { 1: [hubR + 8, R] }
+        : { 1: [hubR + 8, R * 0.62], 2: [R * 0.655, R] };
+
+      host.innerHTML = "";
+      const svg = document.createElementNS(NS, "svg");
+      svg.setAttribute("viewBox", "0 0 " + S + " " + S);
+      svg.setAttribute("width", "100%");
+      svg.setAttribute("height", "100%");
+      svg.setAttribute("aria-hidden", "true");
+
+      for (let i = 0; i < drawn.length; i++) {
+        const node = drawn[i];
+        const rr = rings[node.depth];
+        if (!rr) continue;
+        const ang = padded(node);
+        if (ang[1] - ang[0] < 0.004) continue;
+        const path = document.createElementNS(NS, "path");
+        path.setAttribute("class", "slice");
+        path.setAttribute("data-id", node.id);
+        path.setAttribute("d", sectorPath(cx, cy, rr[0], rr[1], ang[0], ang[1]));
+        path.setAttribute("fill", node.color);
+        path.addEventListener("pointerenter", function () {
+          setHot(node.id);
+          renderBrief(node.meta);
+        });
+        path.addEventListener("pointerleave", function () {
+          setHot(null);
+          renderBrief(pinned);
+        });
+        path.addEventListener("click", function (ev) {
+          ev.stopPropagation();
+          zoomTo(node);
+        });
+        svg.appendChild(path);
+      }
+
+      for (let i = 0; i < drawn.length; i++) {
+        const node = drawn[i];
+        const rr = rings[node.depth];
+        if (!rr) continue;
+        const ang = padded(node);
+        addLabel(svg, node, cx, cy, rr[0], rr[1], ang[0], ang[1]);
+      }
+
+      const hub = document.createElementNS(NS, "g");
+      hub.setAttribute("class", "hub");
+      const disc = document.createElementNS(NS, "circle");
+      disc.setAttribute("cx", cx);
+      disc.setAttribute("cy", cy);
+      disc.setAttribute("r", hubR - 4);
+      hub.appendChild(disc);
+      const title = document.createElementNS(NS, "text");
+      title.setAttribute("class", "hub-title");
+      title.setAttribute("x", cx);
+      const hubLabel = focus.id === "root" ? "CTE" : prettyLabel(focus.label);
+      const words = hubLabel.split(" ");
+      const lines = hubLabel.length <= 14 || words.length < 2
+        ? [hubLabel]
+        : [words.slice(0, Math.ceil(words.length / 2)).join(" "), words.slice(Math.ceil(words.length / 2)).join(" ")];
+      if (lines.join(" ").length > 16) title.setAttribute("font-size", "15");
+      const lineH = lines.length > 1 ? 18 : 0;
+      title.setAttribute("y", cy - 4 - (lineH ? 8 : 0));
+      lines.forEach(function (line, i) {
+        const tspan = document.createElementNS(NS, "tspan");
+        tspan.setAttribute("x", cx);
+        tspan.setAttribute("dy", i === 0 ? "0" : "18");
+        tspan.textContent = line;
+        title.appendChild(tspan);
+      });
+      hub.appendChild(title);
+      const sub = document.createElementNS(NS, "text");
+      sub.setAttribute("class", "hub-sub");
+      sub.setAttribute("x", cx);
+      sub.setAttribute("y", cy + 18);
+      const count = (focus.meta && focus.meta.count) || focus.value || DOC_COUNT;
+      sub.textContent = focus.parent ? "Back" : (count + " files");
+      hub.appendChild(sub);
+      hub.addEventListener("click", function (ev) {
+        ev.stopPropagation();
+        zoomOut(focus);
+      });
+      svg.appendChild(hub);
+
+      host.appendChild(svg);
+    }
+
+    function draw(facet) {
+      currentFacet = facet;
+      focusId = "root";
+      pinned = idleBrief();
+      document.querySelectorAll(".facet").forEach(function (btn) {
+        btn.setAttribute("aria-selected", btn.dataset.facet === facet ? "true" : "false");
+      });
+      renderWheel();
+      renderBrief(pinned);
+    }
+
+    if (window.ResizeObserver) {
+      new ResizeObserver(function () { renderWheel(); }).observe(host);
+    } else {
+      window.addEventListener("resize", function () { renderWheel(); });
+    }
+
+    document.querySelector(".facets").addEventListener("click", function (e) {
+      const btn = e.target.closest(".facet");
+      if (!btn) return;
+      draw(btn.dataset.facet);
+    });
+
+    renderBrief(idleBrief());
+    draw("browse");
+  </script>
+</body>
+</html>

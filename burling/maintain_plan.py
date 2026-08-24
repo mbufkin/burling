@@ -17,7 +17,7 @@ from typing import Callable
 from burling.file_plan import UNMAPPED_ID
 from burling.layer_plan import FAT_MIN, kebab
 from burling.progress import console_safe
-from burling.walk_plan import WalkState, _ask, _valid_child
+from burling.walk_plan import WalkState, _ask, _split_proposal, _valid_child
 
 Chooser = Callable[..., dict]
 
@@ -230,4 +230,63 @@ def maintain_after_place(
             if why:
                 print(console_safe(f"  why: {why[:240]}"), flush=True)
         moved += n
+    return moved
+
+
+def sweep_combines(
+    state,
+    choose_combine: Callable[..., dict],
+    *,
+    min_children: int = 2,
+) -> int:
+    """Post-walk pass: offer EVERY parent with enough children to the combiner.
+
+    Filing-time maintain only fires at FAT_MIN, so on small-to-medium dumps
+    the fragmentation the walk created (one-file drawers) never gets a
+    cleanup window. The sweep walks every depth-1 and depth-2 prefix with
+    >= min_children children and applies whatever merges survive coercion.
+    """
+    prefixes: list[list[str]] = []
+    seen: set[tuple[str, ...]] = set()
+    for home in state.homes.values():
+        for depth in (1, 2):
+            if len(home) > depth:
+                prefix = tuple(home[:depth])
+                if prefix not in seen and prefix[0] != UNMAPPED_ID:
+                    seen.add(prefix)
+                    prefixes.append(list(prefix))
+
+    moved = 0
+    for prefix in sorted(prefixes):
+        children = state.children(prefix)
+        # Re-read after earlier merges may have rehomed these files away.
+        children = [(n, c) for n, c in children if c > 0]
+        if len(children) < min_children:
+            continue
+        raw = choose_combine(prefix=prefix, siblings=children)
+        obj = raw if isinstance(raw, dict) else {}
+        why = str(obj.get("reasoning") or "")[:800]
+        merges_raw, dissolves = _split_proposal(raw, prefix, children)
+        n = 0
+        for child in dissolves:
+            d = state.promote(prefix, child, reasoning=why or "combine sweep")
+            if d:
+                print(
+                    console_safe(
+                        f"  sweep {'/'.join(prefix)}: dissolve {child} ({d} file(s) up)"
+                    ),
+                    flush=True,
+                )
+            n += d
+        groups = coerce_merges({"groups": merges_raw}, [name for name, _n in children])
+        m = apply_merges(state, prefix, groups, reasoning=why or "combine sweep")
+        if m:
+            print(
+                console_safe(
+                    f"  sweep {'/'.join(prefix)}: "
+                    + "; ".join(f"{', '.join(m2)} → {into}" for m2, into in groups)
+                ),
+                flush=True,
+            )
+        moved += n + m
     return moved

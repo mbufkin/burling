@@ -1,0 +1,21 @@
+RALP 0a: extract + rich tags (description pass)
+[queue 1/18   5.6%]  elapsed 0s  eta 0s  0s/file  ag-irrigation-schedule.txt
+[queue 2/18  11.1%]  elapsed 0s  eta 0s  0s/file  ag-seed-catalog-notes.txt
+[queue 3/18  16.7%]  elapsed 0s  eta 0s  0s/file  ag-soil-test.txt
+[queue 4/18  22.2%]  elapsed 0s  eta 0s  0s/file  env-air-quality-brief.txt
+[queue 5/18  27.8%]  elapsed 0s  eta 0s  0s/file  env-recycling-audit.txt
+[queue 6/18  33.3%]  elapsed 0s  eta 0s  0s/file  env-wetland-survey.txt
+[queue 7/18  38.9%]  elapsed 0s  eta 0s  0s/file  finance-budget-worksheet.txt
+[queue 8/18  44.4%]  elapsed 0s  eta 0s  0s/file  finance-savings-goal.txt
+[queue 9/18  50.0%]  elapsed 0s  eta 0s  0s/file  finance-tax-checklist.txt
+[queue 10/18  55.6%]  elapsed 0s  eta 0s  0s/file  health-clinic-hours.txt
+[queue 11/18  61.1%]  elapsed 0s  eta 0s  0s/file  health-heat-advisory.txt
+[queue 12/18  66.7%]  elapsed 0s  eta 0s  0s/file  health-vaccine-faq.txt
+[queue 13/18  72.2%]  elapsed 0s  eta 0s  0s/file  sports-league-standings.txt
+[queue 14/18  77.8%]  elapsed 0s  eta 0s  0s/file  sports-pool-schedule.txt
+[queue 15/18  83.3%]  elapsed 0s  eta 0s  0s/file  sports-trail-race.txt
+[queue 16/18  88.9%]  elapsed 0s  eta 0s  0s/file  transport-bike-lane-memo.txt
+[queue 17/18  94.4%]  elapsed 0s  eta 0s  0s/file  transport-harbor-pilot.txt
+[queue 18/18 100.0%]  elapsed 0s  eta 0s  0s/file  transport-rail-timetable.txt
+[queue done]  18/18 this run  elapsed 0s
+[tags 1/18   5.6%]  elapsed 0s  eta 0s  0s/file  ag-irrigation-schedule.txt

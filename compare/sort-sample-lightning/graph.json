@@ -1,0 +1,251 @@
+{
+  "min_split": 5,
+  "max_broader": 2,
+  "nodes": [
+    {
+      "id": "needs-review",
+      "label": "Needs review",
+      "kind": "topic",
+      "broader": [],
+      "doc_count": 10,
+      "docs": [
+        "ag-seed-catalog-notes.txt",
+        "finance-budget-worksheet.txt",
+        "finance-savings-goal.txt",
+        "health-clinic-hours.txt",
+        "sports-league-standings.txt",
+        "sports-pool-schedule.txt",
+        "sports-trail-race.txt",
+        "transport-bike-lane-memo.txt",
+        "transport-harbor-pilot.txt",
+        "transport-rail-timetable.txt"
+      ],
+      "tags": [
+        "seed-catalog",
+        "open-pollinated",
+        "tomato",
+        "Amish-Paste",
+        "hybrid-sweetcorn",
+        "germination-rate",
+        "order-notes",
+        "personal-finance",
+        "transit",
+        "essential-expenses",
+        "community-health-access",
+        "local-league-results",
+        "indoor-pool",
+        "november",
+        "lap-swim",
+        "adult-fitness",
+        "pool-operations",
+        "running-event",
+        "traffic-signal",
+        "counts-data",
+        "port-operations",
+        "berth-delay",
+        "buoy-12",
+        "north-line",
+        "express-trains",
+        "suburban-stops"
+      ],
+      "description": "Singleton or unmatched tags the compact stitch did not place."
+    },
+    {
+      "id": "sports",
+      "label": "Sports & Recreation",
+      "kind": "topic",
+      "broader": [],
+      "doc_count": 4,
+      "docs": [
+        "sports-league-standings.txt",
+        "sports-pool-schedule.txt",
+        "sports-trail-race.txt",
+        "transport-rail-timetable.txt"
+      ],
+      "tags": [
+        "aid-station",
+        "basketball-standings",
+        "dive-well",
+        "filter-maintenance",
+        "harbor-five",
+        "lessons",
+        "mile-8-4",
+        "recreational-basketball",
+        "sports-facility",
+        "trail-race"
+      ],
+      "description": "League operations, race events, and facility scheduling"
+    },
+    {
+      "id": "transport",
+      "label": "Transportation & Infrastructure",
+      "kind": "topic",
+      "broader": [],
+      "doc_count": 4,
+      "docs": [
+        "env-recycling-audit.txt",
+        "transport-bike-lane-memo.txt",
+        "transport-harbor-pilot.txt",
+        "transport-rail-timetable.txt"
+      ],
+      "tags": [
+        "bike-lane",
+        "container-ship",
+        "corridor-improvement",
+        "cycle-track",
+        "estuary-fog",
+        "harbor-pilot",
+        "leading-interval",
+        "parking-lane-conversion",
+        "rail-timetable",
+        "tug-availability"
+      ],
+      "description": "Bike lanes, rail schedules, and harbor operations"
+    },
+    {
+      "id": "environment",
+      "label": "Environment & Ecology",
+      "kind": "topic",
+      "broader": [],
+      "doc_count": 3,
+      "docs": [
+        "env-air-quality-brief.txt",
+        "env-recycling-audit.txt",
+        "env-wetland-survey.txt"
+      ],
+      "tags": [
+        "air-quality-brief",
+        "contamination-audit",
+        "ditch-cleanout",
+        "environmental-monitoring",
+        "habitat-management",
+        "mrr-rejection-threshold",
+        "nesting-season",
+        "oxbow-marsh",
+        "species-count",
+        "water-level"
+      ],
+      "description": "Files concerning natural environment monitoring, waste management, and ecological surveys."
+    },
+    {
+      "id": "finance",
+      "label": "Personal Finance",
+      "kind": "topic",
+      "broader": [],
+      "doc_count": 3,
+      "docs": [
+        "finance-budget-worksheet.txt",
+        "finance-savings-goal.txt",
+        "finance-tax-checklist.txt"
+      ],
+      "tags": [
+        "automatic-transfer",
+        "budget-adjustment",
+        "budget-planning",
+        "car-insurance-sinking-fund",
+        "expense-management",
+        "estimated-payments",
+        "financial-management",
+        "groceries",
+        "monthly-budget",
+        "rent"
+      ],
+      "description": "Budgeting, tax preparation, and savings planning"
+    },
+    {
+      "id": "health",
+      "label": "Health & Wellness",
+      "kind": "topic",
+      "broader": [],
+      "doc_count": 3,
+      "docs": [
+        "health-clinic-hours.txt",
+        "health-heat-advisory.txt",
+        "health-vaccine-faq.txt"
+      ],
+      "tags": [
+        "after-hours-clinic",
+        "clinic-hours",
+        "extreme-heat",
+        "flu-shot-clinic",
+        "health-vaccine-faq",
+        "heat-advisory",
+        "immunization-clinic",
+        "walk-in-clinic",
+        "well-child-visits",
+        "water-requirement"
+      ],
+      "description": "Clinic operations, vaccinations, and heat safety"
+    },
+    {
+      "id": "sports-league",
+      "label": "League & Tournament Operations",
+      "kind": "subtopic",
+      "broader": [
+        "sports"
+      ],
+      "doc_count": 2,
+      "docs": [
+        "sports-league-standings.txt",
+        "transport-rail-timetable.txt"
+      ],
+      "tags": [
+        "basketball-standings",
+        "makeup-games-elementary-gym",
+        "recreational-basketball",
+        "scorebook-required",
+        "travel-call-dispute",
+        "week-four-protest",
+        "weekend-engineering"
+      ],
+      "description": "Files concerning the administration, scheduling, and results of organized sports competitions and leagues."
+    },
+    {
+      "id": "transport-bike",
+      "label": "Bike Infrastructure",
+      "kind": "subtopic",
+      "broader": [
+        "transport"
+      ],
+      "doc_count": 2,
+      "docs": [
+        "transport-bike-lane-memo.txt",
+        "transport-rail-timetable.txt"
+      ],
+      "tags": [
+        "bike-lane",
+        "cycle-track",
+        "leading-interval",
+        "maple-avenue",
+        "parking-lane-conversion",
+        "protected-bike-lane",
+        "weekday-ridership"
+      ],
+      "description": "Protected lanes, cycle tracks, and ridership data"
+    },
+    {
+      "id": "transport-rail",
+      "label": "Rail & Harbor Operations",
+      "kind": "subtopic",
+      "broader": [
+        "transport"
+      ],
+      "doc_count": 2,
+      "docs": [
+        "transport-harbor-pilot.txt",
+        "transport-rail-timetable.txt"
+      ],
+      "tags": [
+        "bridge-blockade",
+        "container-ship",
+        "estuary-fog",
+        "freight-yard",
+        "licensed-pilot",
+        "rail-timetable",
+        "replacement-buses",
+        "tug-availability"
+      ],
+      "description": "This group contains two distinct operational domains: rail freight and passenger scheduling, and maritime pilotage and port logistics. Files in this group address either ground-based rail network management or water-based vessel movement and port authority directives."
+    }
+  ]
+}

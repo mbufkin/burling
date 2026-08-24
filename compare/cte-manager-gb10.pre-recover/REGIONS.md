@@ -1,0 +1,1526 @@
+# Regions (Pass B stitch)
+
+Nested groups stitched from Pass A free-form tags. Docs may appear in multiple regions.
+
+**Documents:** 670
+**Top-level regions:** 8
+**Total nodes:** 16
+**Tag coverage:** 3515/3515 (100.0%)
+**Docs with ≥1 region:** 410
+
+## Tree
+
+- **Curriculum Administration** (`curriculum-administration`) — 225 docs
+  - tags: `curriculum_admin`, `curriculum-admin`, `curriculum-administration`, `curriculum_lesson`, `curriculum_pacing`, `curriculum-and-instruction`, `curriculum-and-instruction-admin`, `curriculum-integration`
+  - **Curriculum Purchasing** (`curriculum-purchasing`) — 12 docs
+    - tags: `curriculum_purchase`, `curriculum-subscription`, `curriculum-and-instruction-admin`
+- **Professional Development** (`professional-development`) — 182 docs
+  - tags: `professional-development`, `cte-professional-development`, `professional_development`, `pd-2026`, `summer-pd-2026`, `7-hour-training`, `training-attendance`, `lead-summer-program`
+  - **CTE PD Sessions** (`cte-pd-sessions`) — 18 docs
+    - tags: `cte-professional-development`, `cte-flex-day`, `pd-kickoff`, `keynote-speaker`, `ai-lessons`
+- **Procurement and Vendors** (`procurement-and-vendors`) — 143 docs
+  - tags: `purchasing-quote`, `procurement-form`, `procurement-justification`, `procurement-ordering`, `procurement-approval`, `vendor-compliance`, `vendor-approval`, `vendor-justification`
+  - **Non-Awarded Vendor Requests** (`non-awarded-vendor-requests`) — 54 docs
+    - tags: `non-awarded-vendor-request-form`, `non-awarded-vendor-form`, `non-awarded-vendor-request`, `non-awarded-vendor-justification`, `sole-source-procurement`, `vendor-compliance-checklist`, `vendor-request-process`
+  - **Vendor Approvals** (`vendor-approvals`) — 35 docs
+    - tags: `vendor-approval-process`, `approved-vendor-form`, `agreements-dallasisd-org`, `capital-expenditure-2025`
+- **Student Health and Compliance** (`student-health-and-compliance`) — 130 docs
+  - tags: `immunization_record`, `vaccination_history`, `student-health-record`, `student-health`, `tb-testing`, `tuberculosis-screening`, `quantiferon-gold-plus`, `medical-record`, `lab-results`
+  - **Trailer Compliance** (`trailer-compliance`) — 9 docs
+    - tags: `trailer-compliance`, `trailer-pd`, `trailer-scripts`, `trailer-ops`
+- **Work-Based Learning** (`work-based-learning`) — 189 docs
+  - tags: `work-based-learning`, `labor-market-alignment`, `industry-partnerships`, `industry-based-certification`, `industry-based-certifications`, `career-technical-education`, `career-clusters`, `career-institute-north`
+  - **CTSO Events and Fundraising** (`ctso-events`) — 24 docs
+    - tags: `ctso-fundraising`, `ctso-sponsor`, `ctso-best-practices`, `ctso-fundraising`
+- **Technology and Inventory** (`technology-and-inventory`) — 32 docs
+  - tags: `mobile-lab`, `icev`, `google-gemini-notebooklm`, `eduthings`, `solidprofessor`, `goodheart-willcox`, `certiport`, `mad-learn`
+  - **Mobile Lab Equipment** (`mobile-lab-equipment`) — 2 docs
+    - tags: `mobile-lab`, `trailer-compliance`, `mobile-welding-lab-trailer`, `trailer-pd`
+- **Financial and Grants** (`financial-and-grants`) — 94 docs
+  - tags: `perkins-v`, `perkins-v-compliance`, `perkins-v-clna`, `federal-grant-compliance`, `federal-programs-compliance`, `special-revenue-funds`, `funding-source-199`, `tax_financial`
+  - **Perkins Grant Management** (`perkins-management`) — 17 docs
+    - tags: `perkins-v`, `perkins-v-clna`, `perkins-grant`, `perkins-v-strengthening-cte`
+- **Needs review** (`needs-review`) — 407 docs
+  - tags: `showcase-2026`, `scheduling`, `wbl-what-does-this-look-like`, `optimal-ed-vr`, `everfi`, `internship-dos-donts`, `irs_form_1040`, `spence_family`, `wages_business_income`, `schedule_c_ez`, `schedule_4_other_taxes`, `schedule_1_adjustments` (+28)
+
+## Documents by top-level region
+
+### Curriculum Administration (231)
+
+- ` PD Summer Schedule.pdf` → `professional-development`, `procurement-and-vendors`, `work-based-learning`, `needs-review`, `cte-pd-sessions`, `student-health-and-compliance`
+- `2025 CTE Summer PD Feedback.pdf` → `professional-development`, `needs-review`, `ctso-events`, `technology-and-inventory`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ASE.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `needs-review`, `work-based-learning`, `student-health-and-compliance`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Certiport.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `technology-and-inventory`, `work-based-learning`, `student-health-and-compliance`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Gaumard.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `needs-review`, `student-health-and-compliance`, `financial-and-grants`, `professional-development`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NCCER.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `needs-review`, `curriculum-purchasing`, `work-based-learning`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NOCTI.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `needs-review`, `work-based-learning`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Nasco.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `student-health-and-compliance`, `needs-review`, `work-based-learning`, `professional-development`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SACA.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `needs-review`, `work-based-learning`, `financial-and-grants`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SolidProfessor.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `curriculum-purchasing`, `needs-review`, `technology-and-inventory`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_American Medical Technologists (AMT).pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `student-health-and-compliance`, `work-based-learning`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Assessment Technologies.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `needs-review`, `work-based-learning`, `student-health-and-compliance`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Platinum Consulting.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `mobile-lab-equipment`, `needs-review`, `curriculum-purchasing`, `vendor-approvals`
+- `2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `needs-review`, `work-based-learning`
+- `2026-27 Perkins Application — Filled Tentative (PS3350).pdf` → `financial-and-grants`, `needs-review`
+- `25-26 CI North .pdf` → `work-based-learning`, `needs-review`, `student-health-and-compliance`
+- `25-26 SEC 11028Y1N2-2022 Early Childhood.pdf` → `needs-review`, `procurement-and-vendors`
+- `26-27 Campus CTE Nonposition Realignment Datasource V4.pdf` → `needs-review`, `student-health-and-compliance`
+- `26-27 Campus CTE Nonposition Realignment Datasource V5.pdf` → `needs-review`, `vendor-approvals`, `professional-development`
+- `3. Board Document 250357-version 2.pdf` → `needs-review`, `work-based-learning`, `financial-and-grants`, `procurement-and-vendors`
+- `3. Board Document 250357[69].pdf` → `needs-review`, `work-based-learning`, `professional-development`, `financial-and-grants`
+- `ACTE HQ Frameworks.pdf` → `needs-review`, `professional-development`, `work-based-learning`
+- `ACTE Vision 2025 Agenda.pdf` → `needs-review`, `professional-development`, `work-based-learning`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf` → `needs-review`, `professional-development`, `ctso-events`, `student-health-and-compliance`, `financial-and-grants`
+- `August 6th PD.pdf` → `needs-review`, `work-based-learning`, `professional-development`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768501134.7069674.pdf` → `professional-development`, `work-based-learning`, `procurement-and-vendors`, `needs-review`, `student-health-and-compliance`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768502080.5657754.pdf` → `professional-development`, `work-based-learning`, `needs-review`, `procurement-and-vendors`
+- `CLNA Guiding Questions.pdf` → `financial-and-grants`, `professional-development`, `student-health-and-compliance`, `needs-review`, `work-based-learning`, `procurement-and-vendors`
+- `COZART_TIVA GRANT TRAVEL DOCS - signed (1).pdf` → `perkins-management`, `needs-review`, `vendor-approvals`, `financial-and-grants`
+- `CPAL_DISD_MOU_SowingSeeds (3).pdf` → `needs-review`, `professional-development`, `student-health-and-compliance`, `work-based-learning`, `procurement-and-vendors`
+- `CTAT Summer 26_Agenda_062926.pdf` → `professional-development`, `needs-review`, `work-based-learning`, `ctso-events`
+- `CTE Admin 101-Slide Deck.pdf` → `needs-review`, `professional-development`, `work-based-learning`
+- `CTE Admin 102-Slide Deck.pdf` → `financial-and-grants`, `needs-review`, `non-awarded-vendor-requests`, `work-based-learning`, `professional-development`
+- `CTE CTSO Sponsorship Guidelines 25-26.pdf` → `ctso-events`, `needs-review`, `technology-and-inventory`
+- `CTE Form Mule Email Preview — CELIS _ Graphic Design I.pdf` → `needs-review`, `professional-development`, `technology-and-inventory`, `student-health-and-compliance`, `work-based-learning`
+- `CTE Framework 2 slides.pdf` → `work-based-learning`, `needs-review`
+- `CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf` → `needs-review`, `procurement-and-vendors`, `work-based-learning`
+- `CTE PD 6.1.26.pdf` → `professional-development`, `needs-review`, `work-based-learning`
+- `CTE PLC October 29, 2024 (Responses).pdf` → `needs-review`, `vendor-approvals`
+- `CTE Summer PD 2026/Copy of Cooperative Learning in CTE.pdf` → `professional-development`, `work-based-learning`, `needs-review`
+- `CTE Summer PD 2026/We are CTE.pdf` → `professional-development`, `needs-review`, `work-based-learning`
+- `CTE Survey Dashboard — One Pager.pdf` → `needs-review`, `professional-development`
+- `CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf` → `professional-development`, `needs-review`, `student-health-and-compliance`, `technology-and-inventory`, `ctso-events`, `trailer-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template (2).pdf` → `professional-development`, `needs-review`, `ctso-events`, `procurement-and-vendors`, `work-based-learning`, `student-health-and-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template.pdf` → `professional-development`, `needs-review`, `trailer-compliance`, `technology-and-inventory`, `procurement-and-vendors`
+- `CTE-Standard Operating Procedures/2026-27 Dallas ISD CTE CTSO Handbook.docx` → `ctso-events`, `needs-review`, `student-health-and-compliance`, `procurement-and-vendors`
+- `CTE-Standard Operating Procedures/Campus Lead Teacher Program.pdf` → `professional-development`, `needs-review`, `work-based-learning`, `procurement-and-vendors`
+- `CTE_Meeting_Agenda_Updated.pdf` → `needs-review`, `professional-development`, `work-based-learning`
+- `Career Exploration in IT.pdf` → `work-based-learning`, `needs-review`
+- `Career Institute North - Raw Data Entries.pdf` → `needs-review`, `student-health-and-compliance`, `work-based-learning`
+- `Considerations for 2026–27 and Future Cohorts  CCMR Notecatcher.pdf` → `needs-review`, `cte-pd-sessions`
+- `Cooperative Learning in CTE.pdf` → `professional-development`, `work-based-learning`, `needs-review`
+- `Copy of 26-27 Academic Services Deck Template .pdf` → `professional-development`, `needs-review`
+- `Copy of CTE PLC Agendas (1).pdf` → `needs-review`, `work-based-learning`, `procurement-and-vendors`, `student-health-and-compliance`, `technology-and-inventory`, `professional-development`
+- `Copy of Spring Stipend CTE-additions 2026.pdf` → `needs-review`, `professional-development`, `ctso-events`
+- `Cornerstone_Session_Roster_Report_7_20_12 AM.pdf` → `cte-pd-sessions`, `professional-development`, `needs-review`
+- `Cornerstone_Session_Signin-10_12_2025 (1).pdf` → `cte-pd-sessions`, `needs-review`, `professional-development`
+- `Cornerstone_Session_Signin-10_12_2025.pdf` → `cte-pd-sessions`, `needs-review`, `professional-development`
+- `Cornerstone_Session_Signin-1_14_2026.pdf` → `needs-review`, `professional-development`, `technology-and-inventory`, `work-based-learning`
+- `Cornerstone_Session_Signin-1_5_2026 (1).pdf` → `needs-review`, `work-based-learning`, `professional-development`
+- `Cornerstone_Session_Signin-1_5_2026 (3).pdf` → `needs-review`, `cte-pd-sessions`, `professional-development`, `work-based-learning`
+- `Cornerstone_Session_Signin-1_5_2026 (4).pdf` → `professional-development`, `work-based-learning`, `needs-review`
+- `Cornerstone_Session_Signin-5_26_2026 (1).pdf` → `professional-development`, `needs-review`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026 (2).pdf` → `professional-development`, `needs-review`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026 (3).pdf` → `professional-development`, `needs-review`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026 (4).pdf` → `professional-development`, `needs-review`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026 (5).pdf` → `professional-development`, `needs-review`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026 (6).pdf` → `professional-development`, `needs-review`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026 (7).pdf` → `professional-development`, `needs-review`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026.pdf` → `professional-development`, `needs-review`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_29_2026.pdf` → `professional-development`, `needs-review`, `work-based-learning`, `student-health-and-compliance`
+- `Cornerstone_Session_Signin-6_10_2026.pdf` → `professional-development`, `needs-review`, `work-based-learning`
+- `Cornerstone_Session_Signin-6_9_2026.pdf` → `professional-development`, `needs-review`, `work-based-learning`
+- `DISD_EMS_Student_Profile_5_26_26.pdf` → `needs-review`, `student-health-and-compliance`, `procurement-and-vendors`, `work-based-learning`
+- `DRAFT Vehicle Intake & Liability Waiver Form.pdf` → `needs-review`, `professional-development`, `student-health-and-compliance`, `trailer-compliance`
+- `Dallas ISD 2026-2027 Comprehensive Local Needs Assessment.pdf` → `financial-and-grants`, `needs-review`, `work-based-learning`
+- `Dallas ISD — NAF Membership Agreement 2026-27[57].pdf` → `needs-review`, `work-based-learning`
+- `Dallas_ISD_CTE_Industry_Partner_Quarterly_Meeting_One_Pager.pdf` → `needs-review`, `work-based-learning`, `professional-development`, `financial-and-grants`, `procurement-and-vendors`
+- `Dee July hourlysupplementaltimecard.pdf` → `needs-review`
+- `Department Supplemental Pay Approval Memo.pdf` → `needs-review`, `professional-development`, `work-based-learning`, `procurement-and-vendors`
+- `Digitial Citizenship PSA[7].pdf` → `needs-review`, `work-based-learning`
+- `Documents/12.21  CTE Lead Teacher.pdf` → `professional-development`, `needs-review`
+- `Documents/2024-25 Bell Schedule_CI South.docx.pdf` → `needs-review`, `work-based-learning`, `cte-pd-sessions`
+- `Documents/244 Sitipend 2026/Copy of CTE Lead Teacher Stipends (Fall 2025).pdf` → `needs-review`, `procurement-and-vendors`
+- `Documents/244 Sitipend 2026/MRodriguez-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `needs-review`, `financial-and-grants`, `professional-development`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.2.pdf` → `needs-review`, `professional-development`, `ctso-events`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.pdf` → `needs-review`
+- `Documents/244 Sitipend 2026/Williams-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-and-grants`, `needs-review`, `professional-development`, `work-based-learning`
+- `Documents/26-27 Campus CTE Nonposition Realignment Datasource Updated.pdf` → `needs-review`, `financial-and-grants`, `procurement-and-vendors`
+- `Documents/ACTE Nashville AA.pdf` → `work-based-learning`, `curriculum-purchasing`, `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf` → `needs-review`, `work-based-learning`, `ctso-events`, `student-health-and-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/ACTE Advisory Council Support Menu.pdf` → `needs-review`, `work-based-learning`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Council.pdf` → `needs-review`, `work-based-learning`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1.pdf` → `needs-review`, `professional-development`, `work-based-learning`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Mentor Sample Program.pdf` → `professional-development`, `needs-review`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 101/CTE New Teacher Professional Development Plan (1).pdf` → `needs-review`, `work-based-learning`, `professional-development`, `ctso-events`, `student-health-and-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Prof Growth Plan.pdf` → `professional-development`, `work-based-learning`, `needs-review`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Program Coherent Sequence.pdf` → `needs-review`, `professional-development`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Required Certification by Program.pdf` → `work-based-learning`, `professional-development`, `vendor-approvals`, `needs-review`, `student-health-and-compliance`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 101/Directions for High School Scope  Sequence (2).pdf` → `needs-review`, `ctso-events`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf` → `needs-review`, `work-based-learning`, `professional-development`, `student-health-and-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf` → `needs-review`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 101/WBL-why it patters.pdf` → `work-based-learning`, `financial-and-grants`, `needs-review`, `non-awarded-vendor-requests`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/request.pdf` → `needs-review`, `financial-and-grants`, `professional-development`, `work-based-learning`, `ctso-events`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `financial-and-grants`, `procurement-and-vendors`, `professional-development`, `student-health-and-compliance`, `work-based-learning`, `needs-review`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool-Example.pdf` → `financial-and-grants`, `needs-review`, `work-based-learning`, `professional-development`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf` → `financial-and-grants`, `professional-development`, `needs-review`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 201/CTE Admin 102-Slide Deck.pptx.pdf` → `financial-and-grants`, `needs-review`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf` → `financial-and-grants`, `needs-review`, `professional-development`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Data Analysis Template.pdf` → `financial-and-grants`, `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf` → `professional-development`, `needs-review`, `vendor-approvals`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Do we Need a Team.pdf` → `needs-review`, `work-based-learning`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Example of a Team's Communication Agreements.pdf` → `vendor-approvals`, `needs-review`, `ctso-events`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of a Team's Emotional Intelligence.pdf` → `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of an Effective Team.pdf` → `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Small Group Activity- Modeling Team Coaching in Action.pdf` → `professional-development`, `needs-review`, `financial-and-grants`, `student-health-and-compliance`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Member Roles and Responsibilities.pdf` → `needs-review`, `non-awarded-vendor-requests`, `professional-development`, `vendor-approvals`, `work-based-learning`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Temperature Check.pdf` → `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf` → `needs-review`, `work-based-learning`, `professional-development`
+- `Documents/Adopted Materiall Quotes␠/CodeHS Proclamation 2024 titles.pdf` → `needs-review`, `curriculum-purchasing`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD A&P revised seat number Estimate_316614.pdf` → `procurement-and-vendors`, `needs-review`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Garner A&P 1 year Estimate_316614.pdf` → `procurement-and-vendors`, `needs-review`, `student-health-and-compliance`, `technology-and-inventory`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 1 year Estimate_375613.pdf` → `procurement-and-vendors`, `needs-review`, `technology-and-inventory`, `student-health-and-compliance`, `professional-development`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 4 year  Estimate_375616.pdf` → `procurement-and-vendors`, `professional-development`, `technology-and-inventory`, `needs-review`, `student-health-and-compliance`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Video Game Design Estimate_375603.pdf` → `needs-review`, `procurement-and-vendors`, `technology-and-inventory`, `student-health-and-compliance`
+- `Documents/Adopted Materiall Quotes␠/Human Services-Cengage quote 2025.pdf` → `work-based-learning`, `needs-review`, `procurement-and-vendors`
+- `Documents/Affiliated Agreements/Automotive Service Excellence - Approved for one time purchase[5].pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `needs-review`, `work-based-learning`, `student-health-and-compliance`, `curriculum-purchasing`
+- `Documents/Affiliated Agreements/ESCO Institute LTD - approved for one time use.pdf` → `procurement-and-vendors`, `curriculum-purchasing`, `work-based-learning`, `needs-review`, `non-awarded-vendor-requests`, `financial-and-grants`
+- `Documents/Bell Schedule CI East.pdf` → `needs-review`, `work-based-learning`, `cte-pd-sessions`
+- `Documents/Bell Schedule CI North.pdf` → `needs-review`, `work-based-learning`, `cte-pd-sessions`, `non-awarded-vendor-requests`
+- `Documents/CLNA Tools-ACTE Vision.pdf` → `financial-and-grants`, `needs-review`, `non-awarded-vendor-requests`
+- `Documents/CTE Lead Teacher Stipends (Fall 2025).pdf` → `needs-review`, `ctso-events`
+- `Documents/CompTIA Non Awarded Vendor Request Form 7.2025.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `work-based-learning`, `curriculum-purchasing`, `needs-review`, `vendor-approvals`
+- `Documents/Conference Travel/CTE CTSO Sponsorship Guidelines 25-26.pdf` → `ctso-events`, `needs-review`, `work-based-learning`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.pdf` → `needs-review`, `professional-development`, `work-based-learning`, `technology-and-inventory`
+- `Documents/Conference Travel/Moore Norman Agenda_MNTC_Dallas_ISD_Visit_Agenda.pdf` → `needs-review`, `professional-development`, `work-based-learning`, `student-health-and-compliance`, `financial-and-grants`
+- `Documents/Copy of 12.21  CTE Lead Teacher.pdf` → `needs-review`
+- `Documents/Cornerstone_Session_Signin-1_5_2026 (2).pdf` → `needs-review`, `cte-pd-sessions`, `professional-development`, `work-based-learning`, `student-health-and-compliance`
+- `Documents/DALLASISDGOOGLECOURSECATALOG.pdf` → `needs-review`, `work-based-learning`, `financial-and-grants`
+- `Documents/How to Request a Trip (2).pdf` → `needs-review`, `non-awarded-vendor-requests`, `procurement-and-vendors`
+- `Documents/January 2026 Lunch and Learn.pdf` → `technology-and-inventory`, `procurement-and-vendors`, `needs-review`, `ctso-events`
+- `Documents/New Stipend Request Form[29].pdf` → `non-awarded-vendor-requests`, `needs-review`, `procurement-and-vendors`, `financial-and-grants`, `cte-pd-sessions`
+- `Documents/New Stipend Request Form[81].pdf` → `non-awarded-vendor-requests`, `needs-review`, `procurement-and-vendors`, `financial-and-grants`
+- `Documents/Personal/Everlake- Beneficiary Change Lincoln Benefit copy.pdf` → `needs-review`, `student-health-and-compliance`, `financial-and-grants`
+- `Documents/Prelimonary 25-30 IBC Certifying List .pdf` → `needs-review`, `work-based-learning`
+- `Documents/Proclamation 2024_Preliminary Findings of the State Review Panel.pdf` → `needs-review`, `student-health-and-compliance`, `professional-development`, `procurement-and-vendors`
+- `Documents/Purchase Orders：Lince Codes/ContactList_ProcurementServices_21_2.pdf` → `needs-review`, `procurement-and-vendors`
+- `Documents/TEKS/130.-subchapter-d-business-management-and-administration.pdf` → `needs-review`, `work-based-learning`
+- `Documents/Townview Business School Leadership Campus Field Trip Proposal[17].pdf` → `needs-review`, `financial-and-grants`, `student-health-and-compliance`, `work-based-learning`
+- `Documents/Triptracker 101 2025-26.pptx.pdf` → `professional-development`, `needs-review`, `procurement-and-vendors`, `cte-pd-sessions`, `non-awarded-vendor-requests`
+- `Documents/Welding -Alpha Group.pdf` → `professional-development`, `needs-review`, `work-based-learning`, `procurement-and-vendors`
+- `EMT：EMR/26-27 CI Copy of Bell Schedule.docx.pdf` → `needs-review`, `work-based-learning`
+- `EMT：EMR/26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `needs-review`, `cte-pd-sessions`, `work-based-learning`, `professional-development`, `student-health-and-compliance`
+- `EMT：EMR/Dallas ISD_First Amendment  to extend term (1) - signed.pdf` → `student-health-and-compliance`, `professional-development`, `needs-review`
+- `Early Childhood Education.pdf` → `needs-review`, `work-based-learning`, `professional-development`, `student-health-and-compliance`
+- `Ed Rising Conference Itinerary.pdf` → `needs-review`, `professional-development`, `cte-pd-sessions`, `student-health-and-compliance`
+- `Elementary.pdf` → `needs-review`, `technology-and-inventory`, `work-based-learning`
+- `Employability_Skills_Framework_OnePager_20180212.pdf` → `needs-review`, `work-based-learning`, `professional-development`
+- `EnrollmentByCourse.pdf` → `needs-review`
+- `Estimate_3377_from_Alpha_Education_Group[48].pdf` → `procurement-and-vendors`, `professional-development`, `needs-review`, `work-based-learning`
+- `Ewing June hourlysupplementaltimecard.pdf` → `needs-review`, `professional-development`
+- `Jeremy Spence Cover Letter NAF 2026 (1).pdf` → `needs-review`, `professional-development`, `work-based-learning`
+- `JeremySpenceresume 04.2026.pdf` → `needs-review`, `work-based-learning`, `professional-development`
+- `JeremySpenceresume 06.2024.docx.pdf` → `needs-review`, `professional-development`, `work-based-learning`
+- `Johnson July hourlysupplementaltimecard.pdf` → `needs-review`
+- `Jones-Gunter THOA Travel Mileage.pdf` → `needs-review`
+- `K. Jennings SkillsUsa Nationals 2025 - signed (1).pdf` → `needs-review`, `procurement-and-vendors`
+- `KGeorge 25-26 Woodrow CTE Business PLC Minutes.pdf` → `needs-review`, `work-based-learning`, `technology-and-inventory`, `professional-development`
+- `KGeorgeTrainingIBCs3.25.26.pdf` → `work-based-learning`, `needs-review`, `technology-and-inventory`, `student-health-and-compliance`
+- `Lead Teacher/SOP Materials/Federal Spend & Cooperative Contract Use.pdf` → `financial-and-grants`, `needs-review`, `procurement-and-vendors`, `non-awarded-vendor-requests`
+- `Lesson Plan - Digitial Citizenship Part I.pdf` → `needs-review`, `technology-and-inventory`, `work-based-learning`
+- `Lockley NAF Internship Expo Attendance and Updates 2026.pdf` → `needs-review`, `professional-development`, `work-based-learning`
+- `Mental+Health+Services+Notification.pdf` → `student-health-and-compliance`, `needs-review`, `professional-development`
+- `NAF Next 2026.pdf` → `needs-review`, `procurement-and-vendors`, `professional-development`
+- `NAF Next Meeting (1).pdf` → `needs-review`, `professional-development`, `work-based-learning`
+- `NAF Next Meeting.pdf` → `needs-review`, `professional-development`, `work-based-learning`
+- `NAF Paperwork/Board Document 250357[69].pdf` → `needs-review`, `procurement-and-vendors`, `work-based-learning`, `professional-development`
+- `Non Awarded Vendor Quotes/BE Publishing Non Awarded Vendor Approved.pdf` → `non-awarded-vendor-requests`, `needs-review`, `procurement-and-vendors`, `curriculum-purchasing`, `financial-and-grants`
+- `Non Awarded Vendor Quotes/CTE QUOTE Dallas ISD Aug 26 2025 Digital 1 year with teacher tools MW.pdf` → `procurement-and-vendors`, `needs-review`
+- `Non Awarded Vendor Quotes/Certiport Non Vendor form Approved .pdf` → `non-awarded-vendor-requests`, `technology-and-inventory`, `work-based-learning`, `procurement-and-vendors`, `needs-review`
+- `Non Awarded Vendor Quotes/Code HS Approved.pdf` → `non-awarded-vendor-requests`, `needs-review`, `procurement-and-vendors`, `vendor-approvals`
+- `Non Awarded Vendor Quotes/Davis Publications Non Awarded Vendor Approved.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `needs-review`, `vendor-approvals`
+- `Non Awarded Vendor Quotes/Goodheart Wilcox Non Awarded approved.pdf` → `needs-review`, `technology-and-inventory`, `non-awarded-vendor-requests`, `procurement-and-vendors`, `work-based-learning`, `financial-and-grants`
+- `Non Awarded Vendor Quotes/Non Awarded Vendor Request McGraw Hill Approved.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `curriculum-purchasing`, `needs-review`, `financial-and-grants`, `vendor-approvals`
+- `Non Awarded Vendor Quotes/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf` → `technology-and-inventory`, `non-awarded-vendor-requests`, `procurement-and-vendors`, `financial-and-grants`, `needs-review`, `work-based-learning`
+- `Non Awarded Vendor Quotes/Pearson Non Awarded Approved.pdf` → `non-awarded-vendor-requests`, `needs-review`, `curriculum-purchasing`, `work-based-learning`, `procurement-and-vendors`, `vendor-approvals`
+- `Non Awarded Vendor Quotes/SACA_09-08-2025 Approved.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `needs-review`, `work-based-learning`, `professional-development`, `financial-and-grants`
+- `Non-Awarded Vendor Forms approved 3/NCCER_Approved 09-12-2025.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `needs-review`, `work-based-learning`, `vendor-approvals`
+- `Non-Awarded Vendor Forms approved/CLNA␠/SC5600 Comprehensive Local Needs Assessment blank.pdf (SECURED).pdf` → `financial-and-grants`, `needs-review`, `work-based-learning`
+- `Non-Awarded Vendor Forms approved/Career Safe-approval[30].pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `work-based-learning`, `needs-review`
+- `Non-Awarded Vendor Forms approved/CompTia.pdf` → `non-awarded-vendor-requests`, `needs-review`, `procurement-and-vendors`, `work-based-learning`
+- `Non-Awarded Vendor Forms approved/TPSA non awarded vendor form - approved for competitions[16].pdf` → `needs-review`, `vendor-approvals`, `procurement-and-vendors`, `non-awarded-vendor-requests`
+- `Non-Awarded Vendor Requests Log.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `needs-review`, `work-based-learning`
+- `PATIN_TIVA-GRANT TRAVEL FORM-REVISED - signed.pdf (SECURED).pdf` → `needs-review`, `financial-and-grants`, `work-based-learning`, `vendor-approvals`, `student-health-and-compliance`
+- `PD Creation Department Supplemental Pay Approval Memo .pdf` → `needs-review`, `professional-development`, `work-based-learning`, `procurement-and-vendors`
+- `Perkins Travel/2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `needs-review`, `work-based-learning`, `procurement-and-vendors`
+- `Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `needs-review`, `student-health-and-compliance`
+- `Perkins Travel/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf` → `needs-review`, `financial-and-grants`, `vendor-approvals`, `student-health-and-compliance`, `professional-development`
+- `Perkins Travel/SRFM Meal Reimbursement Guide - Revised.10.14.2025[38].pdf` → `needs-review`, `financial-and-grants`
+- `Perkins-V-Funding-Distribution.pdf` → `financial-and-grants`, `needs-review`, `professional-development`, `procurement-and-vendors`
+- `PerkinsV_CLNA_Template_ Guide.pdf` → `financial-and-grants`, `needs-review`, `professional-development`, `work-based-learning`
+- `Program Coherent Sequence.pdf` → `needs-review`, `professional-development`, `work-based-learning`
+- `Proposal_ Student-Run Financial Center at Townview.pdf` → `needs-review`, `student-health-and-compliance`, `financial-and-grants`, `vendor-approvals`, `procurement-and-vendors`
+- `QR Sheet 2a_Stakeholder Involvement by Program-1.pdf` → `needs-review`, `financial-and-grants`
+- `Receipt _ DALLAS ISD.pdf` → `needs-review`
+- `Sample AI Prompt for Intervention Planning.pdf` → `needs-review`, `work-based-learning`
+- `Sample CTE Equipment Request Form.pdf` → `non-awarded-vendor-requests`, `needs-review`, `procurement-and-vendors`, `work-based-learning`
+- `Sample CTE Instructional Coaching Guidelines.pdf` → `needs-review`, `technology-and-inventory`, `professional-development`
+- `Sample CW Day.pdf` → `professional-development`, `needs-review`, `work-based-learning`, `cte-pd-sessions`
+- `Scope and Sequence Template.pdf` → `needs-review`, `work-based-learning`, `technology-and-inventory`, `professional-development`
+- `Spring Stipend CTE-additions 2026.pdf` → `needs-review`, `professional-development`, `ctso-events`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989208523 - Jennifer Carpio.pdf` → `student-health-and-compliance`, `needs-review`
+- `Summer PD Schedule 2026.pdf` → `professional-development`, `work-based-learning`, `procurement-and-vendors`, `needs-review`, `ctso-events`, `technology-and-inventory`
+- `TOSA Site agreement.pdf` → `student-health-and-compliance`, `needs-review`, `procurement-and-vendors`, `vendor-approvals`, `professional-development`, `work-based-learning`
+- `Tiva classes.pdf` → `professional-development`, `needs-review`, `work-based-learning`
+- `Trustee_CTE_Pathway_Tracker 25-26.pdf` → `needs-review`, `professional-development`, `work-based-learning`, `financial-and-grants`
+- `Workscopes_ Step #1_ Stop_and_Jot_Reflection.pdf` → `needs-review`, `professional-development`
+- `Workshop Title： ＂The First 10： Maximizing Every Minute for Career Success＂.pdf` → `needs-review`, `professional-development`, `work-based-learning`
+- `add_to_calendar.ics` → `needs-review`, `financial-and-grants`, `professional-development`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (2).pdf` → `needs-review`, `financial-and-grants`, `work-based-learning`, `mobile-lab-equipment`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030-3.pdf` → `needs-review`, `financial-and-grants`, `work-based-learning`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030.pdf` → `needs-review`, `financial-and-grants`, `work-based-learning`
+- `cte-indicator-auto-coder.pdf` → `needs-review`, `procurement-and-vendors`, `student-health-and-compliance`
+- `cte-wbl-training-plan.pdf` → `professional-development`, `work-based-learning`, `needs-review`, `procurement-and-vendors`
+- `eDynamic Quote - Principles of IT - 3YR - R. Howard_V1.pdf` → `work-based-learning`, `needs-review`, `procurement-and-vendors`
+- `industry-based-certifications-earned-sy2022-23.pdf` → `work-based-learning`, `needs-review`, `professional-development`
+- `outlook (1).vcs` → `professional-development`, `needs-review`
+- `outlook.vcs` → `needs-review`, `work-based-learning`, `professional-development`
+- `p2024-list-of-materials-adopted-by-sboe.pdf` → `needs-review`, `work-based-learning`
+- `preliminary-2025-2030-ibc-to-program-of-study-crosswalk.pdf` → `needs-review`, `work-based-learning`, `professional-development`
+- `regional-labor-market-information-wda-5.pdf` → `work-based-learning`, `needs-review`, `student-health-and-compliance`, `professional-development`
+
+### Professional Development (187)
+
+- ` PD Summer Schedule.pdf` → `curriculum-administration`, `procurement-and-vendors`, `work-based-learning`, `needs-review`, `cte-pd-sessions`, `student-health-and-compliance`
+- `2025 CTE Summer PD Feedback.pdf` → `curriculum-administration`, `needs-review`, `ctso-events`, `technology-and-inventory`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Gaumard.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `needs-review`, `student-health-and-compliance`, `financial-and-grants`, `curriculum-administration`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Nasco.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `student-health-and-compliance`, `needs-review`, `work-based-learning`, `curriculum-administration`
+- `2026-27 DRAFT[98].pdf` → `financial-and-grants`, `needs-review`, `work-based-learning`, `perkins-management`
+- `26-27 Campus CTE Nonposition Realignment Datasource V5.pdf` → `needs-review`, `curriculum-administration`, `vendor-approvals`
+- `3. Board Document 250357[69].pdf` → `needs-review`, `work-based-learning`, `financial-and-grants`, `curriculum-administration`
+- `ACTE HQ Frameworks.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `ACTE Vision 2025 Agenda.pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf` → `curriculum-administration`, `needs-review`, `ctso-events`, `student-health-and-compliance`, `financial-and-grants`
+- `ACTE-Membership-Application-Jeremy Spence.pdf` → `needs-review`
+- `August 6th PD.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768501134.7069674.pdf` → `curriculum-administration`, `work-based-learning`, `procurement-and-vendors`, `needs-review`, `student-health-and-compliance`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768502080.5657754.pdf` → `curriculum-administration`, `work-based-learning`, `needs-review`, `procurement-and-vendors`
+- `CLNA 2026-27-clna-guidebook[55].pdf` → `financial-and-grants`, `needs-review`, `work-based-learning`
+- `CLNA 26-27/2025-26 Application.pdf (SECURED).pdf` → `financial-and-grants`, `needs-review`, `work-based-learning`, `procurement-and-vendors`, `perkins-management`
+- `CLNA Guiding Questions.pdf` → `financial-and-grants`, `curriculum-administration`, `student-health-and-compliance`, `needs-review`, `work-based-learning`, `procurement-and-vendors`
+- `CPAL_DISD_MOU_SowingSeeds (3).pdf` → `needs-review`, `curriculum-administration`, `student-health-and-compliance`, `work-based-learning`, `procurement-and-vendors`
+- `CTAT Summer 26_Agenda_062926.pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`, `ctso-events`
+- `CTE Admin 101-Slide Deck.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `CTE Admin 102-Slide Deck.pdf` → `curriculum-administration`, `financial-and-grants`, `needs-review`, `non-awarded-vendor-requests`, `work-based-learning`
+- `CTE Form Mule Email Preview — CELIS _ Graphic Design I.pdf` → `needs-review`, `technology-and-inventory`, `student-health-and-compliance`, `curriculum-administration`, `work-based-learning`
+- `CTE PD 6.1.26.pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`
+- `CTE Summer PD 2026/Copy of Cooperative Learning in CTE.pdf` → `curriculum-administration`, `work-based-learning`, `needs-review`
+- `CTE Summer PD 2026/We are CTE.pdf` → `needs-review`, `work-based-learning`, `curriculum-administration`
+- `CTE Survey Dashboard — One Pager.pdf` → `needs-review`, `curriculum-administration`
+- `CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf` → `curriculum-administration`, `needs-review`, `student-health-and-compliance`, `technology-and-inventory`, `ctso-events`, `trailer-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1).pdf` → `work-based-learning`, `needs-review`, `technology-and-inventory`
+- `CTE- SUM26 Summer Learning Site Signage  Template (2).pdf` → `needs-review`, `ctso-events`, `procurement-and-vendors`, `curriculum-administration`, `work-based-learning`, `student-health-and-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template.pdf` → `curriculum-administration`, `needs-review`, `trailer-compliance`, `technology-and-inventory`, `procurement-and-vendors`
+- `CTE-Standard Operating Procedures/Campus Lead Teacher Program.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`, `procurement-and-vendors`
+- `CTE-Standard Operating Procedures/Standard Operting Procedures-Perkins.pdf` → `financial-and-grants`, `needs-review`, `procurement-and-vendors`, `perkins-management`
+- `CTE_Meeting_Agenda_Updated.pdf` → `needs-review`, `work-based-learning`, `curriculum-administration`
+- `Considerations for 2026–27 and Future Cohorts  CCMR Notecatcher.pdf` → `needs-review`, `curriculum-administration`, `cte-pd-sessions`
+- `Cooperative Learning in CTE.pdf` → `curriculum-administration`, `work-based-learning`, `needs-review`
+- `Copy of 26-27 Academic Services Deck Template .pdf` → `curriculum-administration`, `needs-review`
+- `Copy of CTE PLC Agendas (1).pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`, `procurement-and-vendors`, `student-health-and-compliance`, `technology-and-inventory`
+- `Copy of EXPO Attendance Roster for CTE.pdf` → `needs-review`
+- `Copy of Spring Stipend CTE-additions 2026.pdf` → `needs-review`, `ctso-events`, `curriculum-administration`
+- `Cornerstone_Session_Roster_Report_7_20_12 AM.pdf` → `cte-pd-sessions`, `needs-review`, `curriculum-administration`
+- `Cornerstone_Session_Signin-10_12_2025 (1).pdf` → `curriculum-administration`, `cte-pd-sessions`, `needs-review`
+- `Cornerstone_Session_Signin-10_12_2025.pdf` → `curriculum-administration`, `cte-pd-sessions`, `needs-review`
+- `Cornerstone_Session_Signin-1_14_2026.pdf` → `curriculum-administration`, `needs-review`, `technology-and-inventory`, `work-based-learning`
+- `Cornerstone_Session_Signin-1_5_2026 (1).pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Cornerstone_Session_Signin-1_5_2026 (3).pdf` → `curriculum-administration`, `needs-review`, `cte-pd-sessions`, `work-based-learning`
+- `Cornerstone_Session_Signin-1_5_2026 (4).pdf` → `curriculum-administration`, `work-based-learning`, `needs-review`
+- `Cornerstone_Session_Signin-5_26_2026 (1).pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026 (2).pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026 (3).pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026 (4).pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026 (5).pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026 (6).pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026 (7).pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_29_2026.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`, `student-health-and-compliance`
+- `Cornerstone_Session_Signin-6_10_2026.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Cornerstone_Session_Signin-6_9_2026.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Coyle June hourlysupplementaltimecard.pdf` → `needs-review`
+- `D. Enderle Travel Form ATAT - signed.pdf` → `needs-review`, `procurement-and-vendors`
+- `D. Johnson complete naf documents .pdf` → `needs-review`, `financial-and-grants`, `procurement-and-vendors`
+- `DRAFT Vehicle Intake & Liability Waiver Form.pdf` → `needs-review`, `student-health-and-compliance`, `trailer-compliance`, `curriculum-administration`
+- `Dallas_ISD_CTE_Industry_Partner_Quarterly_Meeting_One_Pager.pdf` → `needs-review`, `work-based-learning`, `financial-and-grants`, `procurement-and-vendors`, `curriculum-administration`
+- `Department Supplemental Pay Approval Memo.pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`, `procurement-and-vendors`
+- `Disability+Severe+Food+Allergy+Request+Form.pdf` → `student-health-and-compliance`, `needs-review`
+- `Documents/12-month weightlifitng Plan.pdf` → `needs-review`, `cte-pd-sessions`, `technology-and-inventory`
+- `Documents/12.21  CTE Lead Teacher.pdf` → `needs-review`, `curriculum-administration`
+- `Documents/2024-25 Bell Schedule_CI South.docx.pdf` → `needs-review`, `work-based-learning`, `cte-pd-sessions`, `curriculum-administration`
+- `Documents/2025-2026 CTE Oracle iExpense Travel Training.pdf` → `needs-review`, `financial-and-grants`, `procurement-and-vendors`
+- `Documents/244 Sitipend 2026/Amaning-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-and-grants`, `needs-review`
+- `Documents/244 Sitipend 2026/Archie-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-and-grants`, `needs-review`
+- `Documents/244 Sitipend 2026/Coyle-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-and-grants`, `needs-review`
+- `Documents/244 Sitipend 2026/Hamilton-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-and-grants`, `needs-review`, `work-based-learning`
+- `Documents/244 Sitipend 2026/Jones-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `perkins-management`, `needs-review`, `work-based-learning`, `financial-and-grants`
+- `Documents/244 Sitipend 2026/Kalat-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `needs-review`, `perkins-management`, `financial-and-grants`, `work-based-learning`
+- `Documents/244 Sitipend 2026/MRodriguez-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `needs-review`, `financial-and-grants`, `curriculum-administration`
+- `Documents/244 Sitipend 2026/Maxwell-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `perkins-management`, `needs-review`, `work-based-learning`, `financial-and-grants`
+- `Documents/244 Sitipend 2026/SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-and-grants`, `needs-review`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.2.pdf` → `needs-review`, `ctso-events`, `curriculum-administration`
+- `Documents/244 Sitipend 2026/Williams-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `curriculum-administration`, `financial-and-grants`, `needs-review`, `work-based-learning`
+- `Documents/26-27 TraditionalCalendar-Traditional2026-2027.pdf` → `needs-review`, `student-health-and-compliance`
+- `Documents/ACTE Nashville AA.pdf` → `work-based-learning`, `curriculum-purchasing`, `needs-review`
+- `Documents/ACTE Vision 2025/Admin 101/ACTE Advisory Council Support Menu.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Council.pdf` → `needs-review`, `work-based-learning`, `curriculum-administration`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Mentor Sample Program.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 101/CTE New Teacher Professional Development Plan (1).pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`, `ctso-events`, `student-health-and-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Prof Growth Plan.pdf` → `work-based-learning`, `curriculum-administration`, `needs-review`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Program Coherent Sequence.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Required Certification by Program.pdf` → `curriculum-administration`, `work-based-learning`, `vendor-approvals`, `needs-review`, `student-health-and-compliance`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`, `student-health-and-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/WBL-why it patters.pdf` → `curriculum-administration`, `work-based-learning`, `financial-and-grants`, `needs-review`, `non-awarded-vendor-requests`
+- `Documents/ACTE Vision 2025/Admin 101/request.pdf` → `curriculum-administration`, `needs-review`, `financial-and-grants`, `work-based-learning`, `ctso-events`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `financial-and-grants`, `curriculum-administration`, `procurement-and-vendors`, `student-health-and-compliance`, `work-based-learning`, `needs-review`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool-Example.pdf` → `financial-and-grants`, `curriculum-administration`, `needs-review`, `work-based-learning`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf` → `financial-and-grants`, `curriculum-administration`, `needs-review`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf` → `financial-and-grants`, `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Data Analysis Template.pdf` → `financial-and-grants`, `needs-review`, `curriculum-administration`
+- `Documents/ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf` → `curriculum-administration`, `needs-review`, `vendor-approvals`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of a Team's Emotional Intelligence.pdf` → `needs-review`, `curriculum-administration`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of an Effective Team.pdf` → `curriculum-administration`, `needs-review`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Small Group Activity- Modeling Team Coaching in Action.pdf` → `curriculum-administration`, `needs-review`, `financial-and-grants`, `student-health-and-compliance`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Member Roles and Responsibilities.pdf` → `curriculum-administration`, `needs-review`, `non-awarded-vendor-requests`, `vendor-approvals`, `work-based-learning`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Temperature Check.pdf` → `curriculum-administration`, `needs-review`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Documents/Adopted Materiall Quotes␠/ACTE Visin 2025 Grant_Funded Travel Authorization Form- ACTE 2025 copy.pdf` → `needs-review`, `perkins-management`, `procurement-and-vendors`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 1 year Estimate_375613.pdf` → `procurement-and-vendors`, `curriculum-administration`, `needs-review`, `technology-and-inventory`, `student-health-and-compliance`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 4 year  Estimate_375616.pdf` → `procurement-and-vendors`, `curriculum-administration`, `technology-and-inventory`, `needs-review`, `student-health-and-compliance`
+- `Documents/Bell Schedule CI East.pdf` → `needs-review`, `work-based-learning`, `cte-pd-sessions`, `curriculum-administration`
+- `Documents/Bell Schedule CI North.pdf` → `needs-review`, `work-based-learning`, `cte-pd-sessions`, `curriculum-administration`, `non-awarded-vendor-requests`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`, `technology-and-inventory`
+- `Documents/Conference Travel/Expenditure Justification Form_September 2025[86] copy.pdf` → `procurement-and-vendors`, `needs-review`, `financial-and-grants`
+- `Documents/Conference Travel/JEREMY SPENCE_ACTE VISION 2025_TRAVEL AUTHORIZATION - signed.pdf` → `needs-review`, `perkins-management`, `non-awarded-vendor-requests`
+- `Documents/Conference Travel/Moore Norman Agenda_MNTC_Dallas_ISD_Visit_Agenda.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`, `student-health-and-compliance`, `financial-and-grants`
+- `Documents/Conference Travel/Moore Norman Name Tent.pdf` → `needs-review`
+- `Documents/Conference Travel/Schedule At-A-Glance ACTE Vision 2025.pdf` → `needs-review`, `ctso-events`, `work-based-learning`
+- `Documents/Cornerstone_Session_Signin-1_5_2026 (2).pdf` → `curriculum-administration`, `needs-review`, `cte-pd-sessions`, `work-based-learning`, `student-health-and-compliance`
+- `Documents/DallasISDTravel - ACTE Best Practice - JB.pdf` → `needs-review`, `financial-and-grants`, `ctso-events`, `procurement-and-vendors`, `non-awarded-vendor-requests`
+- `Documents/DallasISDTravel - ACTE Best Practices - JS.pdf` → `needs-review`, `ctso-events`, `financial-and-grants`, `procurement-and-vendors`
+- `Documents/JeremySpenceCoverLetter AA.pdf` → `needs-review`, `work-based-learning`
+- `Documents/New Stipend Request Form[29].pdf` → `non-awarded-vendor-requests`, `needs-review`, `procurement-and-vendors`, `financial-and-grants`, `cte-pd-sessions`, `curriculum-administration`
+- `Documents/Norman Moore Grant_Funded Travel Authorization Form.pdf` → `needs-review`, `perkins-management`, `procurement-and-vendors`
+- `Documents/Proclamation 2024_Preliminary Findings of the State Review Panel.pdf` → `needs-review`, `curriculum-administration`, `student-health-and-compliance`, `procurement-and-vendors`
+- `Documents/Procurement Codes .pdf` → `procurement-and-vendors`, `needs-review`, `work-based-learning`, `student-health-and-compliance`
+- `Documents/Triptracker 101 2025-26.pptx.pdf` → `needs-review`, `procurement-and-vendors`, `curriculum-administration`, `cte-pd-sessions`, `non-awarded-vendor-requests`
+- `Documents/WT WHite PD Roster Dallas ISD.pdf` → `needs-review`
+- `Documents/Welding -Alpha Group.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`, `procurement-and-vendors`
+- `EMT：EMR/26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `curriculum-administration`, `needs-review`, `cte-pd-sessions`, `work-based-learning`, `student-health-and-compliance`
+- `EMT：EMR/Dallas ISD_First Amendment  to extend term (1) - signed.pdf` → `student-health-and-compliance`, `needs-review`, `curriculum-administration`
+- `EMT：EMR/Signed NAF Forms 26.pdf` → `needs-review`, `perkins-management`, `procurement-and-vendors`, `financial-and-grants`
+- `Early Childhood Education.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`, `student-health-and-compliance`
+- `Ed Rising Conference Itinerary.pdf` → `curriculum-administration`, `needs-review`, `cte-pd-sessions`, `student-health-and-compliance`
+- `Employability_Skills_Framework_OnePager_20180212.pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`
+- `Estimate_3377_from_Alpha_Education_Group[48].pdf` → `procurement-and-vendors`, `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Ewing June hourlysupplementaltimecard.pdf` → `needs-review`, `curriculum-administration`
+- `Intership Student Names.pdf` → `student-health-and-compliance`, `needs-review`
+- `J. Spann.pdf` → `needs-review`, `procurement-and-vendors`, `financial-and-grants`, `perkins-management`
+- `Jeremy Spence Cover Letter NAF 2026 (1).pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`
+- `Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED).pdf` → `needs-review`, `perkins-management`
+- `JeremySpenceresume 04.2026.pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`
+- `JeremySpenceresume 06.2024.docx.pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`
+- `KGeorge 25-26 Woodrow CTE Business PLC Minutes.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`, `technology-and-inventory`
+- `L. Sanchez-Munoz Travel form - signed.pdf` → `needs-review`, `student-health-and-compliance`
+- `Lockley NAF Internship Expo Attendance and Updates 2026.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Mental+Health+Services+Notification.pdf` → `curriculum-administration`, `student-health-and-compliance`, `needs-review`
+- `NAF 2026/NAF NEXT 2026 Grant_Funded Travel Authorization Form Updated.pdf` → `needs-review`, `financial-and-grants`, `procurement-and-vendors`, `perkins-management`
+- `NAF Cover Letter.pdf` → `needs-review`, `work-based-learning`
+- `NAF Next 2026.pdf` → `needs-review`, `curriculum-administration`, `procurement-and-vendors`
+- `NAF Next Meeting (1).pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`
+- `NAF Next Meeting.pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`
+- `NAF Paperwork/Board Document 250357[69].pdf` → `needs-review`, `procurement-and-vendors`, `work-based-learning`, `curriculum-administration`
+- `Non Awarded Vendor Quotes/SACA_09-08-2025 Approved.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `needs-review`, `work-based-learning`, `financial-and-grants`, `curriculum-purchasing`
+- `Non-Awarded Vendor Forms approved/CLNA␠/2026-27-clna-guidebook.pdf` → `financial-and-grants`, `needs-review`, `procurement-and-vendors`, `work-based-learning`
+- `PD Creation Department Supplemental Pay Approval Memo .pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`, `procurement-and-vendors`
+- `Perkins Travel/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf` → `needs-review`, `financial-and-grants`, `vendor-approvals`, `curriculum-administration`, `student-health-and-compliance`
+- `Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf` → `financial-and-grants`, `procurement-and-vendors`, `non-awarded-vendor-requests`, `needs-review`
+- `Perkins-V-Funding-Distribution.pdf` → `financial-and-grants`, `curriculum-administration`, `needs-review`, `procurement-and-vendors`
+- `PerkinsV_CLNA_Template_ Guide.pdf` → `financial-and-grants`, `needs-review`, `work-based-learning`, `curriculum-administration`
+- `Procurement Services Training.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `needs-review`
+- `Program Coherent Sequence.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Sample CTE Instructional Coaching Guidelines.pdf` → `curriculum-administration`, `needs-review`, `technology-and-inventory`
+- `Sample CW Day.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`, `cte-pd-sessions`
+- `SampleEmail.pdf` → `needs-review`, `procurement-and-vendors`
+- `Scope and Sequence Template.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`, `technology-and-inventory`
+- `Spence-NAF Employment Application (1).pdf` → `needs-review`
+- `Spence-Uber-NAF Conference (1).pdf` → `needs-review`
+- `Spring Stipend CTE-additions 2026.pdf` → `needs-review`, `curriculum-administration`, `ctso-events`
+- `Standard Operting Procedures-Perkins.pdf` → `financial-and-grants`, `procurement-and-vendors`, `needs-review`
+- `Summer PD Schedule 2026.pdf` → `curriculum-administration`, `work-based-learning`, `procurement-and-vendors`, `needs-review`, `ctso-events`, `technology-and-inventory`
+- `Supplemental_form.pdf` → `needs-review`, `perkins-management`, `financial-and-grants`
+- `TOSA Site agreement.pdf` → `student-health-and-compliance`, `needs-review`, `procurement-and-vendors`, `vendor-approvals`, `curriculum-administration`, `work-based-learning`
+- `Tiva classes.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Transportation Receipt 2.pdf` → `needs-review`
+- `Triptracker Cheat Sheet.pdf` → `needs-review`, `cte-pd-sessions`, `student-health-and-compliance`
+- `Trustee_CTE_Pathway_Tracker 25-26.pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`, `financial-and-grants`
+- `WBL.pdf` → `needs-review`, `work-based-learning`, `student-health-and-compliance`
+- `Workscopes_ Step #1_ Stop_and_Jot_Reflection.pdf` → `curriculum-administration`, `needs-review`
+- `Workshop Title： ＂The First 10： Maximizing Every Minute for Career Success＂.pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`
+- `add_to_calendar.ics` → `needs-review`, `financial-and-grants`, `curriculum-administration`
+- `cte-wbl-training-plan.pdf` → `work-based-learning`, `needs-review`, `curriculum-administration`, `procurement-and-vendors`
+- `industry-based-certifications-earned-sy2022-23.pdf` → `curriculum-administration`, `work-based-learning`, `needs-review`
+- `invite.ics` → `needs-review`, `trailer-compliance`, `work-based-learning`
+- `outlook (1).vcs` → `curriculum-administration`, `needs-review`
+- `outlook.vcs` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `perkinsplanupdatefinalrevised.pdf` → `financial-and-grants`, `needs-review`, `work-based-learning`
+- `preliminary-2025-2030-ibc-to-program-of-study-crosswalk.pdf` → `needs-review`, `work-based-learning`, `curriculum-administration`
+- `regional-labor-market-information-wda-5.pdf` → `work-based-learning`, `needs-review`, `student-health-and-compliance`, `curriculum-administration`
+- `regional-labor-market-information-wda-6.pdf` → `work-based-learning`, `needs-review`
+
+### Procurement and Vendors (161)
+
+- ` PD Summer Schedule.pdf` → `professional-development`, `curriculum-administration`, `work-based-learning`, `needs-review`, `cte-pd-sessions`, `student-health-and-compliance`
+- `2024-2025-clna-guidebook.pdf` → `financial-and-grants`, `needs-review`, `student-health-and-compliance`, `work-based-learning`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ASE.pdf` → `non-awarded-vendor-requests`, `needs-review`, `work-based-learning`, `student-health-and-compliance`, `curriculum-administration`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - BACE.pdf` → `non-awarded-vendor-requests`, `work-based-learning`, `needs-review`, `student-health-and-compliance`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Certiport.pdf` → `non-awarded-vendor-requests`, `technology-and-inventory`, `work-based-learning`, `student-health-and-compliance`, `curriculum-administration`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ESCO Institute.pdf` → `non-awarded-vendor-requests`, `work-based-learning`, `financial-and-grants`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Gaumard.pdf` → `non-awarded-vendor-requests`, `needs-review`, `student-health-and-compliance`, `financial-and-grants`, `curriculum-administration`, `professional-development`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NCCER.pdf` → `non-awarded-vendor-requests`, `needs-review`, `curriculum-purchasing`, `work-based-learning`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NOCTI.pdf` → `non-awarded-vendor-requests`, `needs-review`, `work-based-learning`, `vendor-approvals`, `curriculum-administration`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Nasco.pdf` → `non-awarded-vendor-requests`, `student-health-and-compliance`, `needs-review`, `work-based-learning`, `professional-development`, `curriculum-administration`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SACA.pdf` → `non-awarded-vendor-requests`, `needs-review`, `work-based-learning`, `curriculum-administration`, `financial-and-grants`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SolidProfessor.pdf` → `non-awarded-vendor-requests`, `curriculum-purchasing`, `needs-review`, `technology-and-inventory`, `curriculum-administration`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_American Medical Technologists (AMT).pdf` → `non-awarded-vendor-requests`, `student-health-and-compliance`, `work-based-learning`, `curriculum-administration`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Assessment Technologies.pdf` → `non-awarded-vendor-requests`, `curriculum-administration`, `needs-review`, `work-based-learning`, `student-health-and-compliance`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Platinum Consulting.pdf` → `non-awarded-vendor-requests`, `mobile-lab-equipment`, `needs-review`, `curriculum-purchasing`, `vendor-approvals`, `ctso-events`
+- `25-26 SEC 11028Y1N2-2022 Early Childhood.pdf` → `curriculum-administration`, `needs-review`
+- `26-27 Campus CTE Nonposition Realignment Datasource V5.pdf` → `needs-review`, `curriculum-administration`, `vendor-approvals`, `professional-development`
+- `3. Board Document 250357-version 2.pdf` → `needs-review`, `work-based-learning`, `financial-and-grants`, `curriculum-administration`
+- `A Goodson Travel form - signed.pdf` → `needs-review`
+- `Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf (SECURED).pdf` → `student-health-and-compliance`, `needs-review`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768501134.7069674.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`, `needs-review`, `student-health-and-compliance`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768502080.5657754.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`, `needs-review`
+- `CLNA 26-27/2025-26 Application.pdf (SECURED).pdf` → `financial-and-grants`, `needs-review`, `work-based-learning`, `professional-development`, `perkins-management`
+- `CLNA Guiding Questions.pdf` → `financial-and-grants`, `curriculum-administration`, `professional-development`, `student-health-and-compliance`, `needs-review`, `work-based-learning`
+- `COZART_TIVA GRANT TRAVEL DOCS - signed (1).pdf` → `perkins-management`, `needs-review`, `curriculum-administration`, `vendor-approvals`, `financial-and-grants`
+- `CPAL_DISD_MOU_SowingSeeds (3).pdf` → `needs-review`, `professional-development`, `curriculum-administration`, `student-health-and-compliance`, `work-based-learning`
+- `CTE Admin 102-Slide Deck.pdf` → `curriculum-administration`, `financial-and-grants`, `needs-review`, `non-awarded-vendor-requests`, `work-based-learning`, `professional-development`
+- `CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`
+- `CTE PLC October 29, 2024 (Responses).pdf` → `needs-review`, `curriculum-administration`, `vendor-approvals`
+- `CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf` → `curriculum-administration`, `professional-development`, `needs-review`, `student-health-and-compliance`, `technology-and-inventory`, `ctso-events`
+- `CTE- SUM26 Summer Learning Site Signage  Template (2).pdf` → `professional-development`, `needs-review`, `ctso-events`, `curriculum-administration`, `work-based-learning`, `student-health-and-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template.pdf` → `curriculum-administration`, `professional-development`, `needs-review`, `trailer-compliance`, `technology-and-inventory`
+- `CTE-Standard Operating Procedures/2026-27 Dallas ISD CTE CTSO Handbook.docx` → `ctso-events`, `needs-review`, `student-health-and-compliance`, `curriculum-administration`
+- `CTE-Standard Operating Procedures/CTE Vehicle Protocol.pdf` → `needs-review`, `non-awarded-vendor-requests`
+- `CTE-Standard Operating Procedures/CTE Vehicles.pdf` → `needs-review`, `trailer-compliance`
+- `CTE-Standard Operating Procedures/Campus Lead Teacher Program.pdf` → `curriculum-administration`, `professional-development`, `needs-review`, `work-based-learning`
+- `CTE-Standard Operating Procedures/Standard Operting Procedures-Perkins.pdf` → `financial-and-grants`, `needs-review`, `professional-development`, `perkins-management`
+- `CTX_Berkner HS_ED02.pdf` → `needs-review`, `student-health-and-compliance`
+- `Carlson June hourlysupplementaltimecard.pdf` → `needs-review`, `work-based-learning`
+- `Copy of CTE PLC Agendas (1).pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`, `student-health-and-compliance`, `technology-and-inventory`, `professional-development`
+- `D. Enderle Travel Form ATAT - signed.pdf` → `needs-review`, `professional-development`
+- `D. Johnson complete naf documents .pdf` → `needs-review`, `professional-development`, `financial-and-grants`
+- `DISD_EMS_Student_Profile_5_26_26.pdf` → `curriculum-administration`, `needs-review`, `student-health-and-compliance`, `work-based-learning`
+- `DISD_Purchasing_Analysis 208023.pdf` → `needs-review`, `work-based-learning`
+- `Dallas ISD TB Results/ANGIE GONZALEZ 07.23.2010 TB LAB RESULTS.pdf` → `student-health-and-compliance`, `needs-review`
+- `Dallas ISD TB Results/JUVE NOE MATEOS MENDOZA 06.04.2008 TB LAB RESULTS.pdf` → `student-health-and-compliance`, `needs-review`
+- `Dallas ISD TB Results/PAULA ROCABRUNO TORRALBA 11.16.2010 TB LAB RESULTS.pdf` → `student-health-and-compliance`, `needs-review`
+- `Dallas ISD TB Results/TREYNAHDEE WASHINGTON 08.07.2009 TB LAB RESULTS.pdf` → `student-health-and-compliance`, `needs-review`
+- `Dallas ISD TB Results/YVONNE MORGAN 07.14.1980 TB LABRESULTS.pdf` → `student-health-and-compliance`, `needs-review`
+- `Dallas_ISD_CTE_Industry_Partner_Quarterly_Meeting_One_Pager.pdf` → `needs-review`, `work-based-learning`, `professional-development`, `financial-and-grants`, `curriculum-administration`
+- `Department Supplemental Pay Approval Memo.pdf` → `needs-review`, `professional-development`, `curriculum-administration`, `work-based-learning`
+- `Documents/2025-2026 CTE Oracle iExpense Travel Training.pdf` → `professional-development`, `needs-review`, `financial-and-grants`
+- `Documents/244 Sitipend 2026/Copy of CTE Lead Teacher Stipends (Fall 2025).pdf` → `needs-review`, `curriculum-administration`
+- `Documents/26-27 Campus CTE Nonposition Realignment Datasource Updated.pdf` → `needs-review`, `financial-and-grants`, `curriculum-administration`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1.pdf` → `curriculum-administration`, `needs-review`, `professional-development`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Required Certification by Program.pdf` → `curriculum-administration`, `work-based-learning`, `professional-development`, `vendor-approvals`, `needs-review`, `student-health-and-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/WBL-why it patters.pdf` → `curriculum-administration`, `work-based-learning`, `financial-and-grants`, `needs-review`, `non-awarded-vendor-requests`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/request.pdf` → `curriculum-administration`, `needs-review`, `financial-and-grants`, `professional-development`, `work-based-learning`, `ctso-events`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `financial-and-grants`, `curriculum-administration`, `professional-development`, `student-health-and-compliance`, `work-based-learning`, `needs-review`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool-Example.pdf` → `financial-and-grants`, `curriculum-administration`, `needs-review`, `work-based-learning`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf` → `financial-and-grants`, `curriculum-administration`, `professional-development`, `needs-review`
+- `Documents/ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf` → `curriculum-administration`, `professional-development`, `needs-review`, `vendor-approvals`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Example of a Team's Communication Agreements.pdf` → `vendor-approvals`, `needs-review`, `curriculum-administration`, `ctso-events`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Member Roles and Responsibilities.pdf` → `curriculum-administration`, `needs-review`, `non-awarded-vendor-requests`, `professional-development`, `vendor-approvals`, `work-based-learning`
+- `Documents/ANG-DISD Adamson HS Air Compressor Equipment Repairs_Quote_20262603AD.pdf` → `needs-review`
+- `Documents/Adopted Materiall Quotes␠/ACTE Visin 2025 Grant_Funded Travel Authorization Form- ACTE 2025 copy.pdf` → `needs-review`, `perkins-management`, `professional-development`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD A&P revised seat number Estimate_316614.pdf` → `curriculum-administration`, `needs-review`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Garner A&P 1 year Estimate_316614.pdf` → `curriculum-administration`, `needs-review`, `student-health-and-compliance`, `technology-and-inventory`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 1 year Estimate_375613.pdf` → `curriculum-administration`, `needs-review`, `technology-and-inventory`, `student-health-and-compliance`, `professional-development`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 4 year  Estimate_375616.pdf` → `curriculum-administration`, `professional-development`, `technology-and-inventory`, `needs-review`, `student-health-and-compliance`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Video Game Design Estimate_375603.pdf` → `curriculum-administration`, `needs-review`, `technology-and-inventory`, `student-health-and-compliance`
+- `Documents/Adopted Materiall Quotes␠/Human Services-Cengage quote 2025.pdf` → `curriculum-administration`, `work-based-learning`, `needs-review`
+- `Documents/Affiliated Agreements/Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2)[18].pdf` → `needs-review`, `student-health-and-compliance`
+- `Documents/Affiliated Agreements/Automotive Service Excellence - Approved for one time purchase[5].pdf` → `non-awarded-vendor-requests`, `needs-review`, `work-based-learning`, `student-health-and-compliance`, `curriculum-purchasing`
+- `Documents/Affiliated Agreements/ESCO Institute LTD - approved for one time use.pdf` → `curriculum-purchasing`, `work-based-learning`, `needs-review`, `non-awarded-vendor-requests`, `curriculum-administration`, `financial-and-grants`
+- `Documents/Baylor Scott & Whote MAA 2028 08.09.23.pdf` → `needs-review`, `student-health-and-compliance`
+- `Documents/Bell Schedule CI North.pdf` → `needs-review`, `work-based-learning`, `cte-pd-sessions`, `curriculum-administration`, `non-awarded-vendor-requests`
+- `Documents/CLNA Tools-ACTE Vision.pdf` → `financial-and-grants`, `curriculum-administration`, `needs-review`, `non-awarded-vendor-requests`
+- `Documents/CompTIA Non Awarded Vendor Request Form 7.2025.pdf` → `non-awarded-vendor-requests`, `work-based-learning`, `curriculum-purchasing`, `needs-review`, `vendor-approvals`
+- `Documents/Conference Travel/Expenditure Justification Form_September 2025[86] copy.pdf` → `professional-development`, `needs-review`, `financial-and-grants`
+- `Documents/Conference Travel/JEREMY SPENCE_ACTE VISION 2025_TRAVEL AUTHORIZATION - signed.pdf` → `needs-review`, `professional-development`, `perkins-management`, `non-awarded-vendor-requests`
+- `Documents/Conference Travel/SRFM Travel Expense Report Checklist.pdf` → `needs-review`, `financial-and-grants`, `perkins-management`
+- `Documents/DallasISDTravel - ACTE Best Practice - JB.pdf` → `needs-review`, `financial-and-grants`, `professional-development`, `ctso-events`, `non-awarded-vendor-requests`
+- `Documents/DallasISDTravel - ACTE Best Practices - JS.pdf` → `needs-review`, `professional-development`, `ctso-events`, `financial-and-grants`
+- `Documents/How to Request a Trip (2).pdf` → `needs-review`, `non-awarded-vendor-requests`, `curriculum-administration`
+- `Documents/January 2026 Lunch and Learn.pdf` → `technology-and-inventory`, `needs-review`, `ctso-events`, `curriculum-administration`
+- `Documents/New Stipend Request Form[29].pdf` → `non-awarded-vendor-requests`, `needs-review`, `financial-and-grants`, `cte-pd-sessions`, `curriculum-administration`
+- `Documents/New Stipend Request Form[81].pdf` → `non-awarded-vendor-requests`, `needs-review`, `curriculum-administration`, `financial-and-grants`
+- `Documents/Non-AwardedVendorRequestForm copy.pdf` → `non-awarded-vendor-requests`, `vendor-approvals`, `needs-review`
+- `Documents/Norman Moore Grant_Funded Travel Authorization Form.pdf` → `needs-review`, `perkins-management`, `professional-development`
+- `Documents/Proclamation 2024_Preliminary Findings of the State Review Panel.pdf` → `needs-review`, `curriculum-administration`, `student-health-and-compliance`, `professional-development`
+- `Documents/Procurement Codes .pdf` → `needs-review`, `work-based-learning`, `professional-development`, `student-health-and-compliance`
+- `Documents/Purchase Orders：Lince Codes/ContactList_ProcurementServices_21_2.pdf` → `needs-review`, `curriculum-administration`
+- `Documents/Quotes 25-26/Trailer Outlet Quote_.pdf` → `trailer-compliance`, `needs-review`
+- `Documents/Triptracker 101 2025-26.pptx.pdf` → `professional-development`, `needs-review`, `curriculum-administration`, `cte-pd-sessions`, `non-awarded-vendor-requests`
+- `Documents/Welding -Alpha Group.pdf` → `curriculum-administration`, `professional-development`, `needs-review`, `work-based-learning`
+- `Documents/iSupplierPortalQuickReferenceCard-NewProspectiveSuppliersRegistration.pdf` → `needs-review`, `non-awarded-vendor-requests`
+- `Documents/untitled folder/Travel Forms/Expenditure Justification Form_September 2025.pdf` → `financial-and-grants`, `needs-review`, `work-based-learning`
+- `EMT：EMR/FOR_YOUR_SIGNATURE_Affiliation_Agreement(One[79].pdf` → `needs-review`, `student-health-and-compliance`
+- `EMT：EMR/Signed NAF Forms 26.pdf` → `needs-review`, `professional-development`, `perkins-management`, `financial-and-grants`
+- `Editable_Non Awarded Vendor Request Form 7.2025.pdf` → `non-awarded-vendor-requests`, `needs-review`, `vendor-approvals`
+- `Estimate_3377_from_Alpha_Education_Group[48].pdf` → `professional-development`, `curriculum-administration`, `needs-review`, `work-based-learning`
+- `J. Spann.pdf` → `needs-review`, `professional-development`, `financial-and-grants`, `perkins-management`
+- `JOSEPH_THOA_GRANT TRAVEL FORM-REVISED - signed.pdf` → `financial-and-grants`, `needs-review`, `vendor-approvals`, `student-health-and-compliance`
+- `K. Jennings SkillsUsa Nationals 2025 - signed (1).pdf` → `needs-review`, `curriculum-administration`
+- `Lead Teacher/SOP Materials/Federal Spend & Cooperative Contract Use.pdf` → `financial-and-grants`, `needs-review`, `non-awarded-vendor-requests`, `curriculum-administration`
+- `NAF 2026/NAF NEXT 2026 Grant_Funded Travel Authorization Form Updated.pdf` → `needs-review`, `professional-development`, `financial-and-grants`, `perkins-management`
+- `NAF Next 2026.pdf` → `needs-review`, `curriculum-administration`, `professional-development`
+- `NAF Paperwork/Board Document 250357[69].pdf` → `needs-review`, `work-based-learning`, `professional-development`, `curriculum-administration`
+- `NICHQ Teacher.pdf` → `needs-review`, `student-health-and-compliance`
+- `Non Awarded Vendor Quotes/BE Publishing Non Awarded Vendor Approved.pdf` → `non-awarded-vendor-requests`, `curriculum-administration`, `needs-review`, `curriculum-purchasing`, `financial-and-grants`
+- `Non Awarded Vendor Quotes/CTE QUOTE Dallas ISD Aug 26 2025 Digital 1 year with teacher tools MW.pdf` → `curriculum-administration`, `needs-review`
+- `Non Awarded Vendor Quotes/Certiport Non Vendor form Approved .pdf` → `curriculum-administration`, `non-awarded-vendor-requests`, `technology-and-inventory`, `work-based-learning`, `needs-review`
+- `Non Awarded Vendor Quotes/Code HS Approved.pdf` → `non-awarded-vendor-requests`, `curriculum-administration`, `needs-review`, `vendor-approvals`
+- `Non Awarded Vendor Quotes/Davis Publications Non Awarded Vendor Approved.pdf` → `curriculum-administration`, `non-awarded-vendor-requests`, `needs-review`, `vendor-approvals`
+- `Non Awarded Vendor Quotes/Goodheart Wilcox Non Awarded approved.pdf` → `curriculum-administration`, `needs-review`, `technology-and-inventory`, `non-awarded-vendor-requests`, `work-based-learning`, `financial-and-grants`
+- `Non Awarded Vendor Quotes/National Restraunt Association Approved Quote.pdf` → `non-awarded-vendor-requests`, `needs-review`, `work-based-learning`, `vendor-approvals`
+- `Non Awarded Vendor Quotes/Non Awarded Vendor Request McGraw Hill Approved.pdf` → `non-awarded-vendor-requests`, `curriculum-purchasing`, `needs-review`, `financial-and-grants`, `vendor-approvals`
+- `Non Awarded Vendor Quotes/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf` → `technology-and-inventory`, `curriculum-administration`, `non-awarded-vendor-requests`, `financial-and-grants`, `needs-review`, `work-based-learning`
+- `Non Awarded Vendor Quotes/Pearson Non Awarded Approved.pdf` → `non-awarded-vendor-requests`, `needs-review`, `curriculum-purchasing`, `work-based-learning`, `vendor-approvals`, `curriculum-administration`
+- `Non Awarded Vendor Quotes/SACA_09-08-2025 Approved.pdf` → `non-awarded-vendor-requests`, `needs-review`, `work-based-learning`, `professional-development`, `financial-and-grants`, `curriculum-purchasing`
+- `Non-Awarded Vendor Forms approved 3/NCCER_Approved 09-12-2025.pdf` → `non-awarded-vendor-requests`, `needs-review`, `curriculum-administration`, `work-based-learning`, `vendor-approvals`
+- `Non-Awarded Vendor Forms approved/Alpha Education Group_Non-AwardedVendorRequestForm - signed.pdf (SECURED).pdf` → `non-awarded-vendor-requests`, `technology-and-inventory`, `needs-review`, `vendor-approvals`
+- `Non-Awarded Vendor Forms approved/CLNA␠/2026-27-clna-guidebook.pdf` → `financial-and-grants`, `needs-review`, `professional-development`, `work-based-learning`
+- `Non-Awarded Vendor Forms approved/Career Safe-approval[30].pdf` → `non-awarded-vendor-requests`, `work-based-learning`, `needs-review`, `curriculum-administration`
+- `Non-Awarded Vendor Forms approved/CareerSafe Approved.pdf` → `vendor-approvals`, `needs-review`, `non-awarded-vendor-requests`
+- `Non-Awarded Vendor Forms approved/CompTia.pdf` → `non-awarded-vendor-requests`, `needs-review`, `curriculum-administration`, `work-based-learning`
+- `Non-Awarded Vendor Forms approved/Stone Non-AwardedVendorRequestForm.pdf` → `non-awarded-vendor-requests`, `needs-review`, `vendor-approvals`
+- `Non-Awarded Vendor Forms approved/TPSA non awarded vendor form - approved for competitions[16].pdf` → `needs-review`, `vendor-approvals`, `curriculum-administration`, `non-awarded-vendor-requests`
+- `Non-Awarded Vendor Requests Log.pdf` → `non-awarded-vendor-requests`, `needs-review`, `curriculum-administration`, `work-based-learning`
+- `PATIN_TIVA-GRANT TRAVEL FORM-REVISED - signed.pdf (SECURED).pdf` → `needs-review`, `financial-and-grants`, `curriculum-administration`, `work-based-learning`, `vendor-approvals`, `student-health-and-compliance`
+- `PD Creation Department Supplemental Pay Approval Memo .pdf` → `curriculum-administration`, `needs-review`, `professional-development`, `work-based-learning`
+- `Perkins Travel/2025-2026 Financial Services Activity Calendar[2].pdf` → `financial-and-grants`, `needs-review`
+- `Perkins Travel/2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`
+- `Perkins Travel/Expenditure Justification Form_September 2025[72].pdf` → `financial-and-grants`, `needs-review`, `vendor-approvals`, `perkins-management`
+- `Perkins Travel/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf` → `needs-review`, `financial-and-grants`, `vendor-approvals`, `curriculum-administration`, `student-health-and-compliance`, `professional-development`
+- `Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf` → `financial-and-grants`, `non-awarded-vendor-requests`, `needs-review`, `professional-development`
+- `Perkins-V-Funding-Distribution.pdf` → `financial-and-grants`, `curriculum-administration`, `needs-review`, `professional-development`
+- `Procurement Services Training.pdf` → `non-awarded-vendor-requests`, `needs-review`, `professional-development`
+- `Proposal_ Student-Run Financial Center at Townview.pdf` → `needs-review`, `student-health-and-compliance`, `financial-and-grants`, `vendor-approvals`, `curriculum-administration`
+- `Reference Latter-Myra 2026.pdf` → `needs-review`
+- `Sample CTE Equipment Request Form.pdf` → `non-awarded-vendor-requests`, `curriculum-administration`, `needs-review`, `work-based-learning`
+- `SampleEmail.pdf` → `needs-review`, `professional-development`
+- `Standard Operting Procedures-Perkins.pdf` → `financial-and-grants`, `needs-review`, `professional-development`
+- `StartProcess.pdf` → `needs-review`, `non-awarded-vendor-requests`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779987132611 - Marilyn Almonaci.pdf` → `student-health-and-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990207966 - Ana Rivera.pdf` → `student-health-and-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990494836 - Paula Rocabruno Torralba.pdf` → `student-health-and-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990589182 - Gabriella Nunez 1.pdf` → `student-health-and-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990990829 - Cinthia Santoyo.pdf` → `student-health-and-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991243234 - Isabella Guerrero.pdf` → `student-health-and-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991314944 - Treynahdee Washington.pdf` → `student-health-and-compliance`, `needs-review`
+- `Student+Code+of+Conduct.pdf` → `student-health-and-compliance`, `needs-review`
+- `Summer PD Schedule 2026.pdf` → `professional-development`, `curriculum-administration`, `work-based-learning`, `needs-review`, `ctso-events`, `technology-and-inventory`
+- `TOSA Site agreement.pdf` → `student-health-and-compliance`, `needs-review`, `vendor-approvals`, `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Transportation Receipt 1.pdf` → `needs-review`
+- `cte-indicator-auto-coder.pdf` → `needs-review`, `student-health-and-compliance`, `curriculum-administration`
+- `cte-wbl-training-plan.pdf` → `professional-development`, `work-based-learning`, `needs-review`, `curriculum-administration`
+- `dallasisd-c806afc9-2f9e-49cd-ac0e-ef32f1f8d951_SessionUsersTemplate.pdf` → `needs-review`, `vendor-approvals`
+- `eDynamic Quote - Principles of IT - 3YR - R. Howard_V1.pdf` → `curriculum-administration`, `work-based-learning`, `needs-review`
+- `edit.pdf` → `needs-review`, `vendor-approvals`
+
+### Student Health and Compliance (137)
+
+- ` PD Summer Schedule.pdf` → `professional-development`, `curriculum-administration`, `procurement-and-vendors`, `work-based-learning`, `needs-review`, `cte-pd-sessions`
+- `2018_TaxReturn (1).pdf` → `financial-and-grants`, `needs-review`
+- `2024-2025-clna-guidebook.pdf` → `financial-and-grants`, `needs-review`, `work-based-learning`, `procurement-and-vendors`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ASE.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `needs-review`, `work-based-learning`, `curriculum-administration`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - BACE.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `work-based-learning`, `needs-review`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Certiport.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `technology-and-inventory`, `work-based-learning`, `curriculum-administration`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Gaumard.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `needs-review`, `financial-and-grants`, `curriculum-administration`, `professional-development`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Nasco.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `needs-review`, `work-based-learning`, `professional-development`, `curriculum-administration`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_American Medical Technologists (AMT).pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `work-based-learning`, `curriculum-administration`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Assessment Technologies.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `curriculum-administration`, `needs-review`, `work-based-learning`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Platinum Consulting.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `mobile-lab-equipment`, `needs-review`, `curriculum-purchasing`, `vendor-approvals`
+- `2026 Graduation Cord Rosters.pdf` → `needs-review`, `work-based-learning`
+- `25-26 CI North .pdf` → `work-based-learning`, `needs-review`, `curriculum-administration`
+- `26-27 Campus CTE Nonposition Realignment Datasource V4.pdf` → `needs-review`, `curriculum-administration`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf` → `curriculum-administration`, `needs-review`, `professional-development`, `ctso-events`, `financial-and-grants`
+- `Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf (SECURED).pdf` → `needs-review`, `procurement-and-vendors`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768501134.7069674.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`, `procurement-and-vendors`, `needs-review`
+- `CLNA DALLAS ISD Working Doc.pdf` → `financial-and-grants`, `work-based-learning`, `needs-review`
+- `CLNA Guiding Questions.pdf` → `financial-and-grants`, `curriculum-administration`, `professional-development`, `needs-review`, `work-based-learning`, `procurement-and-vendors`
+- `CPAL_DISD_MOU_SowingSeeds (3).pdf` → `needs-review`, `professional-development`, `curriculum-administration`, `work-based-learning`, `procurement-and-vendors`
+- `CTE Form Mule Email Preview — CELIS _ Graphic Design I.pdf` → `needs-review`, `professional-development`, `technology-and-inventory`, `curriculum-administration`, `work-based-learning`
+- `CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf` → `curriculum-administration`, `professional-development`, `needs-review`, `technology-and-inventory`, `ctso-events`, `trailer-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template (2).pdf` → `professional-development`, `needs-review`, `ctso-events`, `procurement-and-vendors`, `curriculum-administration`, `work-based-learning`
+- `CTE- SUM26 Summer Learning Site Signage  Template.pdf` → `curriculum-administration`, `professional-development`, `needs-review`, `trailer-compliance`, `technology-and-inventory`, `procurement-and-vendors`
+- `CTE-Standard Operating Procedures/2026-27 Dallas ISD CTE CTSO Handbook.docx` → `ctso-events`, `needs-review`, `curriculum-administration`, `procurement-and-vendors`
+- `CTE-Standard Operating Procedures/CTE Vehicles.pdf` → `needs-review`, `trailer-compliance`, `procurement-and-vendors`
+- `CTX_Berkner HS_ED02.pdf` → `needs-review`, `procurement-and-vendors`
+- `Career Institute North - Raw Data Entries.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Copy of CTE PLC Agendas (1).pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`, `procurement-and-vendors`, `technology-and-inventory`, `professional-development`
+- `Cornerstone_Session_Signin-5_29_2026.pdf` → `curriculum-administration`, `professional-development`, `needs-review`, `work-based-learning`
+- `DISD_EMS_Student_Profile_5_26_26.pdf` → `curriculum-administration`, `needs-review`, `procurement-and-vendors`, `work-based-learning`
+- `DRAFT Vehicle Intake & Liability Waiver Form.pdf` → `needs-review`, `professional-development`, `trailer-compliance`, `curriculum-administration`
+- `Dallas ISD TB Results/ALEXIS GUERECA 01.13.2010   TB LAB RESULTS.pdf` → `needs-review`
+- `Dallas ISD TB Results/ALLISON GARCIAGUIRRE 07.16.2009 TB LAB RESULTS.pdf` → `needs-review`
+- `Dallas ISD TB Results/ANA RIVERA 12.09.2008 TB LAB RESULTS.pdf` → `needs-review`
+- `Dallas ISD TB Results/ANGIE GONZALEZ 07.23.2010 TB LAB RESULTS.pdf` → `needs-review`, `procurement-and-vendors`
+- `Dallas ISD TB Results/ARIANA GOMEZ 02.16.2011 TB LAB RESULTS.pdf` → `needs-review`
+- `Dallas ISD TB Results/CARLA MELGAR 09.22.1992 TB LAB RESULTS.pdf` → `needs-review`
+- `Dallas ISD TB Results/CINTHIA SANTOYO 06.08.2009 TB LAB RESULTS.pdf` → `needs-review`
+- `Dallas ISD TB Results/EDGAR VASQUEZ 09.10.2010 TB LAB RESULTS.pdf` → `needs-review`
+- `Dallas ISD TB Results/EMILY COLLINS 06.10.2009 TB LAB RESULTS.pdf` → `needs-review`
+- `Dallas ISD TB Results/GABRIELA GURROLA 11.13.2009 TB LAB RESULTS.pdf` → `needs-review`
+- `Dallas ISD TB Results/GABRIELLA NUNEZ 12.28.2009 TB LAB RESULTS.pdf` → `needs-review`
+- `Dallas ISD TB Results/ISABELLA GUERRERO 10.02.2009 TB LAB RESULTS.pdf` → `needs-review`
+- `Dallas ISD TB Results/JENNIFER CARPIO 09.30.2009 TB LAB RESULTS.pdf` → `needs-review`
+- `Dallas ISD TB Results/JUVE NOE MATEOS MENDOZA 06.04.2008 TB LAB RESULTS.pdf` → `needs-review`, `procurement-and-vendors`
+- `Dallas ISD TB Results/LYLA CAMERENA 04.16.2008 TB LAB RESULTS.pdf` → `needs-review`
+- `Dallas ISD TB Results/MARILYN ALMONACI 12.14.2009 TB LAB RESULTS.pdf` → `needs-review`
+- `Dallas ISD TB Results/MARLEY MARROQUIN 07.08.2008 TB LAB RESULTS.pdf` → `needs-review`
+- `Dallas ISD TB Results/MELISSA ALONSO 10.23.2008 TB LAB RESULTS.pdf` → `needs-review`
+- `Dallas ISD TB Results/MELISSA LARA 02.19.2011 TB LAB RESULTS.pdf` → `needs-review`
+- `Dallas ISD TB Results/NATALIA BLAS 05.21.2010 TB LAB RESULTS.pdf` → `needs-review`
+- `Dallas ISD TB Results/PAULA ROCABRUNO TORRALBA 11.16.2010 TB LAB RESULTS.pdf` → `needs-review`, `procurement-and-vendors`
+- `Dallas ISD TB Results/TREYNAHDEE WASHINGTON 08.07.2009 TB LAB RESULTS.pdf` → `needs-review`, `procurement-and-vendors`
+- `Dallas ISD TB Results/YVONNE MORGAN 07.14.1980 TB LABRESULTS.pdf` → `needs-review`, `procurement-and-vendors`
+- `Dallas_ISD_CLNA_2026-2027_DRAFT.pdf` → `financial-and-grants`, `needs-review`, `work-based-learning`
+- `Disability+Severe+Food+Allergy+Request+Form.pdf` → `needs-review`, `professional-development`
+- `Documents/26-27 TraditionalCalendar-Traditional2026-2027.pdf` → `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`, `ctso-events`
+- `Documents/ACTE Vision 2025/Admin 101/CTE New Teacher Professional Development Plan (1).pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`, `professional-development`, `ctso-events`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Required Certification by Program.pdf` → `curriculum-administration`, `work-based-learning`, `professional-development`, `vendor-approvals`, `needs-review`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `financial-and-grants`, `curriculum-administration`, `procurement-and-vendors`, `professional-development`, `work-based-learning`, `needs-review`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Small Group Activity- Modeling Team Coaching in Action.pdf` → `curriculum-administration`, `professional-development`, `needs-review`, `financial-and-grants`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Garner A&P 1 year Estimate_316614.pdf` → `curriculum-administration`, `procurement-and-vendors`, `needs-review`, `technology-and-inventory`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 1 year Estimate_375613.pdf` → `procurement-and-vendors`, `curriculum-administration`, `needs-review`, `technology-and-inventory`, `professional-development`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 4 year  Estimate_375616.pdf` → `procurement-and-vendors`, `curriculum-administration`, `professional-development`, `technology-and-inventory`, `needs-review`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Video Game Design Estimate_375603.pdf` → `curriculum-administration`, `needs-review`, `procurement-and-vendors`, `technology-and-inventory`
+- `Documents/Affiliated Agreements/Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2)[18].pdf` → `needs-review`, `procurement-and-vendors`
+- `Documents/Affiliated Agreements/Automotive Service Excellence - Approved for one time purchase[5].pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `needs-review`, `work-based-learning`, `curriculum-purchasing`
+- `Documents/Affiliated Agreements/Dallas ISD_First Amendment  to extend term[31].pdf` → `needs-review`
+- `Documents/Baylor Scott & Whote MAA 2028 08.09.23.pdf` → `needs-review`, `procurement-and-vendors`
+- `Documents/Conference Travel/Jspence Hotel.pdf` → `needs-review`, `work-based-learning`, `trailer-compliance`
+- `Documents/Conference Travel/Moore Norman Agenda_MNTC_Dallas_ISD_Visit_Agenda.pdf` → `curriculum-administration`, `needs-review`, `professional-development`, `work-based-learning`, `financial-and-grants`
+- `Documents/Conference Travel/Uber 2 Nashville.pdf` → `needs-review`, `work-based-learning`
+- `Documents/Cornerstone_Session_Signin-1_5_2026 (2).pdf` → `curriculum-administration`, `needs-review`, `cte-pd-sessions`, `professional-development`, `work-based-learning`
+- `Documents/Five Foundations of Ramsey.pdf` → `needs-review`, `financial-and-grants`, `work-based-learning`
+- `Documents/M. Spence Initial Parent Referral Packet[16].pdf` → `needs-review`
+- `Documents/Mackenna Spence 12-21-BASC 3 Teacher.pdf` → `needs-review`
+- `Documents/Personal/Everlake- Beneficiary Change Lincoln Benefit copy.pdf` → `needs-review`, `curriculum-administration`, `financial-and-grants`
+- `Documents/Proclamation 2024_Preliminary Findings of the State Review Panel.pdf` → `needs-review`, `curriculum-administration`, `professional-development`, `procurement-and-vendors`
+- `Documents/Procurement Codes .pdf` → `procurement-and-vendors`, `needs-review`, `work-based-learning`, `professional-development`
+- `Documents/Quotes 25-26/Trailer Outlet Quote_.pdf` → `trailer-compliance`, `needs-review`, `procurement-and-vendors`
+- `Documents/Showcase Promo 2026[5].pdf` → `needs-review`, `work-based-learning`
+- `Documents/Townview Business School Leadership Campus Field Trip Proposal[17].pdf` → `needs-review`, `financial-and-grants`, `curriculum-administration`, `work-based-learning`
+- `EMT：EMR/26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `curriculum-administration`, `needs-review`, `cte-pd-sessions`, `work-based-learning`, `professional-development`
+- `EMT：EMR/Dallas ISD_First Amendment  to extend term (1) - signed.pdf` → `professional-development`, `needs-review`, `curriculum-administration`
+- `EMT：EMR/FOR_YOUR_SIGNATURE_Affiliation_Agreement(One[79].pdf` → `needs-review`, `procurement-and-vendors`
+- `Early Childhood Education.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`, `professional-development`
+- `Ed Rising Conference Itinerary.pdf` → `curriculum-administration`, `needs-review`, `professional-development`, `cte-pd-sessions`
+- `Intership Student Names.pdf` → `needs-review`, `professional-development`
+- `JAYDE MORALES 03.13.2009 TB LAB RESULTS.pdf` → `needs-review`
+- `JOSEPH_THOA_GRANT TRAVEL FORM-REVISED - signed.pdf` → `financial-and-grants`, `needs-review`, `vendor-approvals`
+- `KGeorgeTrainingIBCs3.25.26.pdf` → `curriculum-administration`, `work-based-learning`, `needs-review`, `technology-and-inventory`
+- `L. Sanchez-Munoz Travel form - signed.pdf` → `needs-review`, `professional-development`
+- `M. Spence 504 Plan.pdf` → `needs-review`
+- `Mental+Health+Services+Notification.pdf` → `curriculum-administration`, `needs-review`, `professional-development`
+- `Minor Testing Packet.pdf` → `needs-review`
+- `NAF Employment Application.pdf` → `needs-review`, `work-based-learning`
+- `NICHQ Teacher.pdf` → `needs-review`, `procurement-and-vendors`
+- `PATIN_TIVA-GRANT TRAVEL FORM-REVISED - signed.pdf (SECURED).pdf` → `needs-review`, `financial-and-grants`, `curriculum-administration`, `work-based-learning`, `vendor-approvals`
+- `Parent consent Dallas ISD.docx[18].pdf` → `needs-review`
+- `Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `needs-review`, `curriculum-administration`
+- `Perkins Travel/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf` → `needs-review`, `financial-and-grants`, `vendor-approvals`, `curriculum-administration`, `professional-development`
+- `Proposal_ Student-Run Financial Center at Townview.pdf` → `needs-review`, `financial-and-grants`, `vendor-approvals`, `procurement-and-vendors`, `curriculum-administration`
+- `SouthwestReturnCollabTripAustin (2).pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779987132611 - Marilyn Almonaci.pdf` → `needs-review`, `procurement-and-vendors`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779988804972 - Melissa Alonso.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779988892711 - Natalia Blas.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989208523 - Jennifer Carpio.pdf` → `needs-review`, `curriculum-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989270536 - Emily Collins.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989419214 - Allison Garcia.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989820280 - Ariana Gomez Artica.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990127878 - Alexis Guereca.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990207966 - Ana Rivera.pdf` → `needs-review`, `procurement-and-vendors`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990494836 - Paula Rocabruno Torralba.pdf` → `needs-review`, `procurement-and-vendors`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990589182 - Gabriella Nunez 1.pdf` → `needs-review`, `procurement-and-vendors`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990647956 - Gabriella Nunez 2.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990990829 - Cinthia Santoyo.pdf` → `needs-review`, `procurement-and-vendors`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991060777 - Jayde Morales.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991144994 - Juve Mateos Mendoza.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991243234 - Isabella Guerrero.pdf` → `needs-review`, `procurement-and-vendors`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991314944 - Treynahdee Washington.pdf` → `needs-review`, `procurement-and-vendors`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991580729 - Gabriela Gurrola.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991987508 - Angie Gonzalez.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779992249416 - Melissa Lara.pdf` → `needs-review`
+- `Student List_TAFE Nationals_D.O.B..pdf` → `needs-review`
+- `Student+Code+of+Conduct.pdf` → `needs-review`, `procurement-and-vendors`
+- `Summer PD Schedule 2026.pdf` → `professional-development`, `curriculum-administration`, `work-based-learning`, `procurement-and-vendors`, `needs-review`, `ctso-events`
+- `TOSA Site agreement.pdf` → `needs-review`, `procurement-and-vendors`, `vendor-approvals`, `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Triptracker Cheat Sheet.pdf` → `needs-review`, `professional-development`, `cte-pd-sessions`
+- `Vitals-Childrens-Testing Route.pdf` → `needs-review`
+- `WBL.pdf` → `needs-review`, `work-based-learning`, `professional-development`
+- `cte-indicator-auto-coder.pdf` → `needs-review`, `procurement-and-vendors`, `curriculum-administration`
+- `invite.ics` → `needs-review`, `trailer-compliance`, `professional-development`, `work-based-learning`
+- `receipt_3753bb7b-ce7f-4d0d-aa08-a0855cc82eb2.pdf` → `needs-review`
+- `regional-labor-market-information-wda-5.pdf` → `work-based-learning`, `needs-review`, `curriculum-administration`, `professional-development`
+
+### Work-Based Learning (202)
+
+- ` PD Summer Schedule.pdf` → `professional-development`, `curriculum-administration`, `procurement-and-vendors`, `needs-review`, `cte-pd-sessions`, `student-health-and-compliance`
+- `2024-2025-clna-guidebook.pdf` → `financial-and-grants`, `needs-review`, `student-health-and-compliance`, `procurement-and-vendors`
+- `2025 CTE Summer PD Feedback.pdf` → `professional-development`, `curriculum-administration`, `needs-review`, `ctso-events`, `technology-and-inventory`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ASE.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `needs-review`, `student-health-and-compliance`, `curriculum-administration`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - BACE.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `needs-review`, `student-health-and-compliance`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Certiport.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `technology-and-inventory`, `student-health-and-compliance`, `curriculum-administration`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ESCO Institute.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `financial-and-grants`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NCCER.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `needs-review`, `curriculum-purchasing`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NOCTI.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `needs-review`, `vendor-approvals`, `curriculum-administration`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Nasco.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `student-health-and-compliance`, `needs-review`, `professional-development`, `curriculum-administration`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SACA.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `needs-review`, `curriculum-administration`, `financial-and-grants`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_American Medical Technologists (AMT).pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `student-health-and-compliance`, `curriculum-administration`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Assessment Technologies.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `curriculum-administration`, `needs-review`, `student-health-and-compliance`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Platinum Consulting.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `mobile-lab-equipment`, `needs-review`, `curriculum-purchasing`, `vendor-approvals`
+- `2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `curriculum-administration`, `needs-review`
+- `2026 Graduation Cord Rosters.pdf` → `needs-review`, `student-health-and-compliance`
+- `2026-27 DRAFT[98].pdf` → `financial-and-grants`, `needs-review`, `professional-development`, `perkins-management`
+- `25-26 CI North .pdf` → `needs-review`, `student-health-and-compliance`, `curriculum-administration`
+- `3. Board Document 250357-version 2.pdf` → `needs-review`, `financial-and-grants`, `procurement-and-vendors`, `curriculum-administration`
+- `3. Board Document 250357[69].pdf` → `needs-review`, `professional-development`, `financial-and-grants`, `curriculum-administration`
+- `ACTE HQ Frameworks.pdf` → `curriculum-administration`, `needs-review`, `professional-development`
+- `ACTE Vision 2025 Agenda.pdf` → `needs-review`, `curriculum-administration`, `professional-development`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf` → `curriculum-administration`, `needs-review`, `professional-development`, `ctso-events`, `student-health-and-compliance`, `financial-and-grants`
+- `August 6th PD.pdf` → `curriculum-administration`, `needs-review`, `professional-development`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768501134.7069674.pdf` → `curriculum-administration`, `professional-development`, `procurement-and-vendors`, `needs-review`, `student-health-and-compliance`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768502080.5657754.pdf` → `curriculum-administration`, `professional-development`, `needs-review`, `procurement-and-vendors`
+- `CLNA 2026-27-clna-guidebook[55].pdf` → `financial-and-grants`, `needs-review`, `professional-development`
+- `CLNA 26-27/2025-26 Application.pdf (SECURED).pdf` → `financial-and-grants`, `needs-review`, `professional-development`, `procurement-and-vendors`, `perkins-management`
+- `CLNA DALLAS ISD Working Doc.pdf` → `financial-and-grants`, `student-health-and-compliance`, `needs-review`
+- `CLNA Guiding Questions.pdf` → `financial-and-grants`, `curriculum-administration`, `professional-development`, `student-health-and-compliance`, `needs-review`, `procurement-and-vendors`
+- `CLNA_26_27 App.pdf` → `financial-and-grants`, `needs-review`
+- `CPAL_DISD_MOU_SowingSeeds (3).pdf` → `needs-review`, `professional-development`, `curriculum-administration`, `student-health-and-compliance`, `procurement-and-vendors`
+- `CTAT Summer 26_Agenda_062926.pdf` → `professional-development`, `needs-review`, `curriculum-administration`, `ctso-events`
+- `CTE Admin 101-Slide Deck.pdf` → `curriculum-administration`, `needs-review`, `professional-development`
+- `CTE Admin 102-Slide Deck.pdf` → `curriculum-administration`, `financial-and-grants`, `needs-review`, `non-awarded-vendor-requests`, `professional-development`
+- `CTE CTSO Sponsorship Guidelines 25-26.pdf` → `ctso-events`, `needs-review`, `curriculum-administration`, `technology-and-inventory`
+- `CTE Form Mule Email Preview — CELIS _ Graphic Design I.pdf` → `needs-review`, `professional-development`, `technology-and-inventory`, `student-health-and-compliance`, `curriculum-administration`
+- `CTE Framework 2 slides.pdf` → `curriculum-administration`, `needs-review`
+- `CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf` → `needs-review`, `curriculum-administration`, `procurement-and-vendors`
+- `CTE PD 6.1.26.pdf` → `professional-development`, `needs-review`, `curriculum-administration`
+- `CTE Summer PD 2026/Copy of Cooperative Learning in CTE.pdf` → `curriculum-administration`, `professional-development`, `needs-review`
+- `CTE Summer PD 2026/We are CTE.pdf` → `professional-development`, `needs-review`, `curriculum-administration`
+- `CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf` → `curriculum-administration`, `professional-development`, `needs-review`, `student-health-and-compliance`, `technology-and-inventory`, `ctso-events`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1).pdf` → `professional-development`, `needs-review`, `technology-and-inventory`
+- `CTE- SUM26 Summer Learning Site Signage  Template (2).pdf` → `professional-development`, `needs-review`, `ctso-events`, `procurement-and-vendors`, `curriculum-administration`, `student-health-and-compliance`
+- `CTE-Standard Operating Procedures/2026-27 Dallas ISD CTE CTSO Handbook.docx` → `ctso-events`, `needs-review`, `student-health-and-compliance`, `curriculum-administration`, `procurement-and-vendors`
+- `CTE-Standard Operating Procedures/Campus Lead Teacher Program.pdf` → `curriculum-administration`, `professional-development`, `needs-review`, `procurement-and-vendors`
+- `CTE_Meeting_Agenda_Updated.pdf` → `needs-review`, `professional-development`, `curriculum-administration`
+- `Career Exploration in IT.pdf` → `curriculum-administration`, `needs-review`
+- `Career Institute North - Raw Data Entries.pdf` → `curriculum-administration`, `needs-review`, `student-health-and-compliance`
+- `Carlson June hourlysupplementaltimecard.pdf` → `needs-review`, `procurement-and-vendors`
+- `Cooperative Learning in CTE.pdf` → `curriculum-administration`, `professional-development`, `needs-review`
+- `Copy of CTE PLC Agendas (1).pdf` → `needs-review`, `curriculum-administration`, `procurement-and-vendors`, `student-health-and-compliance`, `technology-and-inventory`, `professional-development`
+- `Copy of Spring Stipend CTE-additions 2026.pdf` → `needs-review`, `professional-development`, `ctso-events`, `curriculum-administration`
+- `Cornerstone_Session_Signin-1_14_2026.pdf` → `curriculum-administration`, `needs-review`, `professional-development`, `technology-and-inventory`
+- `Cornerstone_Session_Signin-1_5_2026 (1).pdf` → `curriculum-administration`, `needs-review`, `professional-development`
+- `Cornerstone_Session_Signin-1_5_2026 (3).pdf` → `curriculum-administration`, `needs-review`, `cte-pd-sessions`, `professional-development`
+- `Cornerstone_Session_Signin-1_5_2026 (4).pdf` → `curriculum-administration`, `professional-development`, `needs-review`
+- `Cornerstone_Session_Signin-5_26_2026 (1).pdf` → `curriculum-administration`, `professional-development`, `needs-review`
+- `Cornerstone_Session_Signin-5_26_2026 (2).pdf` → `curriculum-administration`, `professional-development`, `needs-review`
+- `Cornerstone_Session_Signin-5_26_2026 (3).pdf` → `curriculum-administration`, `professional-development`, `needs-review`
+- `Cornerstone_Session_Signin-5_26_2026 (4).pdf` → `curriculum-administration`, `professional-development`, `needs-review`
+- `Cornerstone_Session_Signin-5_26_2026 (5).pdf` → `curriculum-administration`, `professional-development`, `needs-review`
+- `Cornerstone_Session_Signin-5_26_2026 (6).pdf` → `curriculum-administration`, `professional-development`, `needs-review`
+- `Cornerstone_Session_Signin-5_26_2026 (7).pdf` → `curriculum-administration`, `professional-development`, `needs-review`
+- `Cornerstone_Session_Signin-5_26_2026.pdf` → `curriculum-administration`, `professional-development`, `needs-review`
+- `Cornerstone_Session_Signin-5_29_2026.pdf` → `curriculum-administration`, `professional-development`, `needs-review`, `student-health-and-compliance`
+- `Cornerstone_Session_Signin-6_10_2026.pdf` → `curriculum-administration`, `professional-development`, `needs-review`
+- `Cornerstone_Session_Signin-6_9_2026.pdf` → `curriculum-administration`, `professional-development`, `needs-review`
+- `DISD_EMS_Student_Profile_5_26_26.pdf` → `curriculum-administration`, `needs-review`, `student-health-and-compliance`, `procurement-and-vendors`
+- `DISD_Purchasing_Analysis 208023.pdf` → `procurement-and-vendors`, `needs-review`
+- `Dallas ISD 2026-2027 Comprehensive Local Needs Assessment.pdf` → `financial-and-grants`, `needs-review`, `curriculum-administration`
+- `Dallas ISD — NAF Membership Agreement 2026-27[57].pdf` → `needs-review`, `curriculum-administration`
+- `Dallas_ISD_CLNA_2026-2027_DRAFT.pdf` → `financial-and-grants`, `needs-review`, `student-health-and-compliance`
+- `Dallas_ISD_CTE_Industry_Partner_Quarterly_Meeting_One_Pager.pdf` → `needs-review`, `professional-development`, `financial-and-grants`, `procurement-and-vendors`, `curriculum-administration`
+- `Department Supplemental Pay Approval Memo.pdf` → `needs-review`, `professional-development`, `curriculum-administration`, `procurement-and-vendors`
+- `Digitial Citizenship PSA[7].pdf` → `curriculum-administration`, `needs-review`
+- `Documents/2024-25 Bell Schedule_CI South.docx.pdf` → `needs-review`, `cte-pd-sessions`, `curriculum-administration`
+- `Documents/244 Sitipend 2026/Hamilton-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-and-grants`, `professional-development`, `needs-review`
+- `Documents/244 Sitipend 2026/Jones-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `perkins-management`, `needs-review`, `professional-development`, `financial-and-grants`
+- `Documents/244 Sitipend 2026/Kalat-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `needs-review`, `perkins-management`, `professional-development`, `financial-and-grants`
+- `Documents/244 Sitipend 2026/Maxwell-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `perkins-management`, `needs-review`, `professional-development`, `financial-and-grants`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.2.pdf` → `needs-review`, `professional-development`, `ctso-events`, `curriculum-administration`
+- `Documents/244 Sitipend 2026/Williams-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `curriculum-administration`, `financial-and-grants`, `needs-review`, `professional-development`
+- `Documents/ACTE Nashville AA.pdf` → `curriculum-purchasing`, `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf` → `curriculum-administration`, `needs-review`, `ctso-events`, `student-health-and-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/ACTE Advisory Council Support Menu.pdf` → `curriculum-administration`, `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Council.pdf` → `needs-review`, `curriculum-administration`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1.pdf` → `curriculum-administration`, `needs-review`, `professional-development`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Mentor Sample Program.pdf` → `curriculum-administration`, `professional-development`, `needs-review`
+- `Documents/ACTE Vision 2025/Admin 101/CTE New Teacher Professional Development Plan (1).pdf` → `curriculum-administration`, `needs-review`, `professional-development`, `ctso-events`, `student-health-and-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Prof Growth Plan.pdf` → `professional-development`, `curriculum-administration`, `needs-review`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Program Coherent Sequence.pdf` → `curriculum-administration`, `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Required Certification by Program.pdf` → `curriculum-administration`, `professional-development`, `vendor-approvals`, `needs-review`, `student-health-and-compliance`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 101/Directions for High School Scope  Sequence (2).pdf` → `curriculum-administration`, `needs-review`, `ctso-events`
+- `Documents/ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf` → `curriculum-administration`, `needs-review`, `professional-development`, `student-health-and-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf` → `curriculum-administration`, `needs-review`
+- `Documents/ACTE Vision 2025/Admin 101/WBL-why it patters.pdf` → `curriculum-administration`, `financial-and-grants`, `needs-review`, `non-awarded-vendor-requests`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/request.pdf` → `curriculum-administration`, `needs-review`, `financial-and-grants`, `professional-development`, `ctso-events`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `financial-and-grants`, `curriculum-administration`, `procurement-and-vendors`, `professional-development`, `student-health-and-compliance`, `needs-review`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool-Example.pdf` → `financial-and-grants`, `curriculum-administration`, `needs-review`, `professional-development`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 201/CTE Admin 102-Slide Deck.pptx.pdf` → `curriculum-administration`, `financial-and-grants`, `needs-review`
+- `Documents/ACTE Vision 2025/Admin 201/Improving_CTE_Performance_Measurement_Data_Collection_09-11-2024.pdf` → `financial-and-grants`, `needs-review`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf` → `financial-and-grants`, `curriculum-administration`, `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/BFE8C233-C2D9-EA8C-9D7B-E8680DA0FD882025121209522347.pdf` → `needs-review`, `financial-and-grants`
+- `Documents/ACTE Vision 2025/CLNA/73459750-E17B-83F6-D59C-631B116DBF582025121022091676.pdf` → `financial-and-grants`, `needs-review`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Do we Need a Team.pdf` → `curriculum-administration`, `needs-review`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Example of a Team's Communication Agreements.pdf` → `vendor-approvals`, `needs-review`, `curriculum-administration`, `ctso-events`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Member Roles and Responsibilities.pdf` → `curriculum-administration`, `needs-review`, `non-awarded-vendor-requests`, `professional-development`, `vendor-approvals`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf` → `curriculum-administration`, `needs-review`, `professional-development`
+- `Documents/Adopted Materiall Quotes␠/Human Services-Cengage quote 2025.pdf` → `curriculum-administration`, `needs-review`, `procurement-and-vendors`
+- `Documents/Affiliated Agreements/Automotive Service Excellence - Approved for one time purchase[5].pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `needs-review`, `student-health-and-compliance`, `curriculum-purchasing`
+- `Documents/Affiliated Agreements/ESCO Institute LTD - approved for one time use.pdf` → `procurement-and-vendors`, `curriculum-purchasing`, `needs-review`, `non-awarded-vendor-requests`, `curriculum-administration`, `financial-and-grants`
+- `Documents/Bell Schedule CI East.pdf` → `needs-review`, `cte-pd-sessions`, `curriculum-administration`
+- `Documents/Bell Schedule CI North.pdf` → `needs-review`, `cte-pd-sessions`, `curriculum-administration`, `non-awarded-vendor-requests`
+- `Documents/CTE Lead Teacher Stipends (Fall 2025).pdf` → `needs-review`, `ctso-events`, `curriculum-administration`
+- `Documents/CompTIA Non Awarded Vendor Request Form 7.2025.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `curriculum-purchasing`, `needs-review`, `vendor-approvals`
+- `Documents/Conference Travel/CTE CTSO Sponsorship Guidelines 25-26.pdf` → `ctso-events`, `curriculum-administration`, `needs-review`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.pdf` → `needs-review`, `curriculum-administration`, `professional-development`, `technology-and-inventory`
+- `Documents/Conference Travel/Jspence Hotel.pdf` → `needs-review`, `trailer-compliance`
+- `Documents/Conference Travel/Moore Norman Agenda_MNTC_Dallas_ISD_Visit_Agenda.pdf` → `curriculum-administration`, `needs-review`, `professional-development`, `student-health-and-compliance`, `financial-and-grants`
+- `Documents/Conference Travel/Schedule At-A-Glance ACTE Vision 2025.pdf` → `needs-review`, `professional-development`, `ctso-events`
+- `Documents/Conference Travel/Uber 2 Nashville.pdf` → `needs-review`, `student-health-and-compliance`
+- `Documents/Conference Travel/eInvoice, December 08 for JEREMY SPENCE.eml` → `needs-review`
+- `Documents/Cornerstone_Session_Signin-1_5_2026 (2).pdf` → `curriculum-administration`, `needs-review`, `cte-pd-sessions`, `professional-development`, `student-health-and-compliance`
+- `Documents/DALLASISDGOOGLECOURSECATALOG.pdf` → `curriculum-administration`, `needs-review`, `financial-and-grants`
+- `Documents/DallasISDTravel - ACTE Best Practice - JB.pdf` → `needs-review`, `financial-and-grants`, `professional-development`, `ctso-events`, `procurement-and-vendors`, `non-awarded-vendor-requests`
+- `Documents/DallasISDTravel - ACTE Best Practices - JS.pdf` → `needs-review`, `professional-development`, `ctso-events`, `financial-and-grants`, `procurement-and-vendors`
+- `Documents/Five Foundations of Ramsey.pdf` → `needs-review`, `financial-and-grants`, `student-health-and-compliance`
+- `Documents/January 2026 Lunch and Learn.pdf` → `technology-and-inventory`, `procurement-and-vendors`, `needs-review`, `ctso-events`, `curriculum-administration`
+- `Documents/JeremySpenceCoverLetter AA.pdf` → `needs-review`, `professional-development`
+- `Documents/Prelimonary 25-30 IBC Certifying List .pdf` → `curriculum-administration`, `needs-review`
+- `Documents/Procurement Codes .pdf` → `procurement-and-vendors`, `needs-review`, `professional-development`, `student-health-and-compliance`
+- `Documents/Showcase Promo 2026[5].pdf` → `needs-review`, `student-health-and-compliance`
+- `Documents/TEKS/130.-subchapter-d-business-management-and-administration.pdf` → `curriculum-administration`, `needs-review`
+- `Documents/Townview Business School Leadership Campus Field Trip Proposal[17].pdf` → `needs-review`, `financial-and-grants`, `curriculum-administration`, `student-health-and-compliance`
+- `Documents/Welding -Alpha Group.pdf` → `curriculum-administration`, `professional-development`, `needs-review`, `procurement-and-vendors`
+- `Documents/untitled folder/Travel Forms/Expenditure Justification Form_September 2025.pdf` → `procurement-and-vendors`, `financial-and-grants`, `needs-review`
+- `EMT：EMR/26-27 CI Copy of Bell Schedule.docx.pdf` → `needs-review`, `curriculum-administration`
+- `EMT：EMR/26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `curriculum-administration`, `needs-review`, `cte-pd-sessions`, `professional-development`, `student-health-and-compliance`
+- `Early Childhood Education.pdf` → `curriculum-administration`, `needs-review`, `professional-development`, `student-health-and-compliance`
+- `Elementary.pdf` → `curriculum-administration`, `needs-review`, `technology-and-inventory`
+- `Employability_Skills_Framework_OnePager_20180212.pdf` → `needs-review`, `curriculum-administration`, `professional-development`
+- `Estimate_3377_from_Alpha_Education_Group[48].pdf` → `procurement-and-vendors`, `professional-development`, `curriculum-administration`, `needs-review`
+- `Hubbard June hourlysupplementaltimecard.pdf` → `needs-review`
+- `Jeremy Spence Cover Letter NAF 2026 (1).pdf` → `needs-review`, `professional-development`, `curriculum-administration`
+- `JeremySpenceresume 04.2026.pdf` → `needs-review`, `curriculum-administration`, `professional-development`
+- `JeremySpenceresume 06.2024.docx.pdf` → `needs-review`, `professional-development`, `curriculum-administration`
+- `KGeorge 25-26 Woodrow CTE Business PLC Minutes.pdf` → `curriculum-administration`, `needs-review`, `technology-and-inventory`, `professional-development`
+- `KGeorgeTrainingIBCs3.25.26.pdf` → `curriculum-administration`, `needs-review`, `technology-and-inventory`, `student-health-and-compliance`
+- `Lesson Plan - Digitial Citizenship Part I.pdf` → `curriculum-administration`, `needs-review`, `technology-and-inventory`
+- `Lockley NAF Internship Expo Attendance and Updates 2026.pdf` → `curriculum-administration`, `needs-review`, `professional-development`
+- `M. Johnson June hourlysupplementaltimecard.pdf` → `needs-review`
+- `NAF Cover Letter.pdf` → `needs-review`, `professional-development`
+- `NAF Employment Application.pdf` → `needs-review`, `student-health-and-compliance`
+- `NAF Next Meeting (1).pdf` → `needs-review`, `professional-development`, `curriculum-administration`
+- `NAF Next Meeting.pdf` → `needs-review`, `professional-development`, `curriculum-administration`
+- `NAF Paperwork/Board Document 250357[69].pdf` → `needs-review`, `procurement-and-vendors`, `professional-development`, `curriculum-administration`
+- `Non Awarded Vendor Quotes/Certiport Non Vendor form Approved .pdf` → `curriculum-administration`, `non-awarded-vendor-requests`, `technology-and-inventory`, `procurement-and-vendors`, `needs-review`
+- `Non Awarded Vendor Quotes/Goodheart Wilcox Non Awarded approved.pdf` → `curriculum-administration`, `needs-review`, `technology-and-inventory`, `non-awarded-vendor-requests`, `procurement-and-vendors`, `financial-and-grants`
+- `Non Awarded Vendor Quotes/National Restraunt Association Approved Quote.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `needs-review`, `vendor-approvals`
+- `Non Awarded Vendor Quotes/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf` → `technology-and-inventory`, `curriculum-administration`, `non-awarded-vendor-requests`, `procurement-and-vendors`, `financial-and-grants`, `needs-review`
+- `Non Awarded Vendor Quotes/Pearson Non Awarded Approved.pdf` → `non-awarded-vendor-requests`, `needs-review`, `curriculum-purchasing`, `procurement-and-vendors`, `vendor-approvals`, `curriculum-administration`
+- `Non Awarded Vendor Quotes/SACA_09-08-2025 Approved.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `needs-review`, `professional-development`, `financial-and-grants`, `curriculum-purchasing`
+- `Non-Awarded Vendor Forms approved 3/NCCER_Approved 09-12-2025.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `needs-review`, `curriculum-administration`, `vendor-approvals`
+- `Non-Awarded Vendor Forms approved/CLNA␠/2026-27-clna-guidebook.pdf` → `financial-and-grants`, `needs-review`, `procurement-and-vendors`, `professional-development`
+- `Non-Awarded Vendor Forms approved/CLNA␠/SC5600 Comprehensive Local Needs Assessment blank.pdf (SECURED).pdf` → `financial-and-grants`, `needs-review`, `curriculum-administration`
+- `Non-Awarded Vendor Forms approved/Career Safe-approval[30].pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `needs-review`, `curriculum-administration`
+- `Non-Awarded Vendor Forms approved/CompTia.pdf` → `non-awarded-vendor-requests`, `needs-review`, `curriculum-administration`, `procurement-and-vendors`
+- `Non-Awarded Vendor Requests Log.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `needs-review`, `curriculum-administration`
+- `Oswaldo_IBC_Completer_Report_2024.pdf` → `needs-review`
+- `PATIN_TIVA-GRANT TRAVEL FORM-REVISED - signed.pdf (SECURED).pdf` → `needs-review`, `financial-and-grants`, `curriculum-administration`, `vendor-approvals`, `student-health-and-compliance`
+- `PD Creation Department Supplemental Pay Approval Memo .pdf` → `curriculum-administration`, `needs-review`, `professional-development`, `procurement-and-vendors`
+- `Perkins Travel/2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `needs-review`, `curriculum-administration`, `procurement-and-vendors`
+- `PerkinsV_CLNA_Template_ Guide.pdf` → `financial-and-grants`, `needs-review`, `professional-development`, `curriculum-administration`
+- `Program Coherent Sequence.pdf` → `curriculum-administration`, `needs-review`, `professional-development`
+- `Sample AI Prompt for Intervention Planning.pdf` → `curriculum-administration`, `needs-review`
+- `Sample CTE Equipment Request Form.pdf` → `non-awarded-vendor-requests`, `curriculum-administration`, `needs-review`, `procurement-and-vendors`
+- `Sample CW Day.pdf` → `curriculum-administration`, `professional-development`, `needs-review`, `cte-pd-sessions`
+- `Scope and Sequence Template.pdf` → `curriculum-administration`, `needs-review`, `technology-and-inventory`, `professional-development`
+- `Spring Stipend CTE-additions 2026.pdf` → `needs-review`, `professional-development`, `curriculum-administration`, `ctso-events`
+- `Summer PD Schedule 2026.pdf` → `professional-development`, `curriculum-administration`, `procurement-and-vendors`, `needs-review`, `ctso-events`, `technology-and-inventory`
+- `TOSA Site agreement.pdf` → `student-health-and-compliance`, `needs-review`, `procurement-and-vendors`, `vendor-approvals`, `curriculum-administration`, `professional-development`
+- `Tiva classes.pdf` → `curriculum-administration`, `professional-development`, `needs-review`
+- `Trustee_CTE_Pathway_Tracker 25-26.pdf` → `needs-review`, `curriculum-administration`, `professional-development`, `financial-and-grants`
+- `Vehicle Check Out Form.pdf` → `needs-review`
+- `WBL.pdf` → `needs-review`, `professional-development`, `student-health-and-compliance`
+- `Workshop Title： ＂The First 10： Maximizing Every Minute for Career Success＂.pdf` → `needs-review`, `professional-development`, `curriculum-administration`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (2).pdf` → `curriculum-administration`, `needs-review`, `financial-and-grants`, `mobile-lab-equipment`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030-3.pdf` → `curriculum-administration`, `needs-review`, `financial-and-grants`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030.pdf` → `needs-review`, `financial-and-grants`, `curriculum-administration`
+- `cte-wbl-training-plan.pdf` → `professional-development`, `needs-review`, `curriculum-administration`, `procurement-and-vendors`
+- `eDynamic Quote - Principles of IT - 3YR - R. Howard_V1.pdf` → `curriculum-administration`, `needs-review`, `procurement-and-vendors`
+- `hourlysupplementaltimecard.pdf` → `needs-review`
+- `industry-based-certifications-earned-sy2022-23.pdf` → `curriculum-administration`, `needs-review`, `professional-development`
+- `invite.ics` → `needs-review`, `trailer-compliance`, `professional-development`
+- `outlook.vcs` → `curriculum-administration`, `needs-review`, `professional-development`
+- `p2024-list-of-materials-adopted-by-sboe.pdf` → `curriculum-administration`, `needs-review`
+- `perkinsplanupdatefinalrevised.pdf` → `financial-and-grants`, `needs-review`, `professional-development`
+- `preliminary-2025-2030-ibc-to-program-of-study-crosswalk.pdf` → `needs-review`, `professional-development`, `curriculum-administration`
+- `regional-labor-market-information-wda-5.pdf` → `needs-review`, `student-health-and-compliance`, `curriculum-administration`, `professional-development`
+- `regional-labor-market-information-wda-6.pdf` → `professional-development`, `needs-review`
+
+### Technology and Inventory (33)
+
+- ` PD Summer Schedule.pdf` → `professional-development`, `curriculum-administration`, `procurement-and-vendors`, `work-based-learning`, `needs-review`, `cte-pd-sessions`
+- `2025 CTE Summer PD Feedback.pdf` → `professional-development`, `curriculum-administration`, `needs-review`, `ctso-events`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Certiport.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `work-based-learning`, `student-health-and-compliance`, `curriculum-administration`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SolidProfessor.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `curriculum-purchasing`, `needs-review`, `curriculum-administration`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Platinum Consulting.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `mobile-lab-equipment`, `needs-review`, `curriculum-purchasing`, `vendor-approvals`
+- `CTE CTSO Sponsorship Guidelines 25-26.pdf` → `ctso-events`, `needs-review`, `curriculum-administration`
+- `CTE Form Mule Email Preview — CELIS _ Graphic Design I.pdf` → `needs-review`, `professional-development`, `student-health-and-compliance`, `curriculum-administration`, `work-based-learning`
+- `CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf` → `curriculum-administration`, `professional-development`, `needs-review`, `student-health-and-compliance`, `ctso-events`, `trailer-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1).pdf` → `professional-development`, `work-based-learning`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template (2).pdf` → `professional-development`, `needs-review`, `ctso-events`, `procurement-and-vendors`, `curriculum-administration`, `work-based-learning`
+- `CTE- SUM26 Summer Learning Site Signage  Template.pdf` → `curriculum-administration`, `professional-development`, `needs-review`, `trailer-compliance`, `procurement-and-vendors`
+- `Copy of CTE PLC Agendas (1).pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`, `procurement-and-vendors`, `student-health-and-compliance`, `professional-development`
+- `Cornerstone_Session_Signin-1_14_2026.pdf` → `curriculum-administration`, `needs-review`, `professional-development`, `work-based-learning`
+- `Documents/12-month weightlifitng Plan.pdf` → `needs-review`, `professional-development`, `cte-pd-sessions`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Garner A&P 1 year Estimate_316614.pdf` → `curriculum-administration`, `procurement-and-vendors`, `needs-review`, `student-health-and-compliance`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 1 year Estimate_375613.pdf` → `procurement-and-vendors`, `curriculum-administration`, `needs-review`, `student-health-and-compliance`, `professional-development`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 4 year  Estimate_375616.pdf` → `procurement-and-vendors`, `curriculum-administration`, `professional-development`, `needs-review`, `student-health-and-compliance`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Video Game Design Estimate_375603.pdf` → `curriculum-administration`, `needs-review`, `procurement-and-vendors`, `student-health-and-compliance`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.pdf` → `needs-review`, `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Documents/January 2026 Lunch and Learn.pdf` → `procurement-and-vendors`, `needs-review`, `ctso-events`, `curriculum-administration`
+- `Elementary.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `KGeorge 25-26 Woodrow CTE Business PLC Minutes.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`, `professional-development`
+- `KGeorgeTrainingIBCs3.25.26.pdf` → `curriculum-administration`, `work-based-learning`, `needs-review`, `student-health-and-compliance`
+- `Lesson Plan - Digitial Citizenship Part I.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Non Awarded Vendor Quotes/Certiport Non Vendor form Approved .pdf` → `curriculum-administration`, `non-awarded-vendor-requests`, `work-based-learning`, `procurement-and-vendors`, `needs-review`
+- `Non Awarded Vendor Quotes/Goodheart Wilcox Non Awarded approved.pdf` → `curriculum-administration`, `needs-review`, `non-awarded-vendor-requests`, `procurement-and-vendors`, `work-based-learning`, `financial-and-grants`
+- `Non Awarded Vendor Quotes/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf` → `curriculum-administration`, `non-awarded-vendor-requests`, `procurement-and-vendors`, `financial-and-grants`, `needs-review`, `work-based-learning`
+- `Non-Awarded Vendor Forms approved/Alpha Education Group_Non-AwardedVendorRequestForm - signed.pdf (SECURED).pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `needs-review`, `vendor-approvals`
+- `Sample CTE Instructional Coaching Guidelines.pdf` → `curriculum-administration`, `needs-review`, `professional-development`
+- `Scope and Sequence Template.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`, `professional-development`
+- `Summer PD Schedule 2026.pdf` → `professional-development`, `curriculum-administration`, `work-based-learning`, `procurement-and-vendors`, `needs-review`, `ctso-events`
+- `Tiva Milage (1).pdf` → `needs-review`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (2).pdf` → `curriculum-administration`, `needs-review`, `financial-and-grants`, `work-based-learning`, `mobile-lab-equipment`
+
+### Financial and Grants (98)
+
+- `2018_TaxReturn (1).pdf` → `needs-review`, `student-health-and-compliance`
+- `2023_TaxReturn (2).pdf` → `needs-review`
+- `2024 Dallas ISD W2.pdf` → `needs-review`
+- `2024 Kemp ISD W2.pdf` → `needs-review`
+- `2024-2025-clna-guidebook.pdf` → `needs-review`, `student-health-and-compliance`, `work-based-learning`, `procurement-and-vendors`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ESCO Institute.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `work-based-learning`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Gaumard.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `needs-review`, `student-health-and-compliance`, `curriculum-administration`, `professional-development`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SACA.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `needs-review`, `work-based-learning`, `curriculum-administration`, `vendor-approvals`
+- `2026-27 DRAFT[98].pdf` → `needs-review`, `work-based-learning`, `professional-development`, `perkins-management`
+- `2026-27 Perkins Application — Filled Tentative (PS3350).pdf` → `needs-review`, `curriculum-administration`
+- `3. Board Document 250357-version 2.pdf` → `needs-review`, `work-based-learning`, `procurement-and-vendors`, `curriculum-administration`
+- `3. Board Document 250357[69].pdf` → `needs-review`, `work-based-learning`, `professional-development`, `curriculum-administration`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf` → `curriculum-administration`, `needs-review`, `professional-development`, `ctso-events`, `student-health-and-compliance`
+- `BAUTISTA_TIVA GRANT TRAVEL DOCS.pdf` → `needs-review`
+- `CLNA 2026-27-clna-guidebook[55].pdf` → `needs-review`, `professional-development`, `work-based-learning`
+- `CLNA 26-27/2025-26 Application.pdf (SECURED).pdf` → `needs-review`, `work-based-learning`, `professional-development`, `procurement-and-vendors`, `perkins-management`
+- `CLNA DALLAS ISD Working Doc.pdf` → `student-health-and-compliance`, `work-based-learning`, `needs-review`
+- `CLNA Guiding Questions.pdf` → `curriculum-administration`, `professional-development`, `student-health-and-compliance`, `needs-review`, `work-based-learning`, `procurement-and-vendors`
+- `CLNA_26_27 App.pdf` → `needs-review`, `work-based-learning`
+- `COZART_TIVA GRANT TRAVEL DOCS - signed (1).pdf` → `perkins-management`, `needs-review`, `curriculum-administration`, `vendor-approvals`
+- `CTE Admin 102-Slide Deck.pdf` → `curriculum-administration`, `needs-review`, `non-awarded-vendor-requests`, `work-based-learning`, `professional-development`
+- `CTE-Standard Operating Procedures/Standard Operting Procedures-Perkins.pdf` → `needs-review`, `procurement-and-vendors`, `professional-development`, `perkins-management`
+- `D. Johnson complete naf documents .pdf` → `needs-review`, `professional-development`, `procurement-and-vendors`
+- `Dallas ISD 2026-2027 Comprehensive Local Needs Assessment.pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`
+- `Dallas_ISD_CLNA_2026-2027_DRAFT.pdf` → `needs-review`, `student-health-and-compliance`, `work-based-learning`
+- `Dallas_ISD_CTE_Industry_Partner_Quarterly_Meeting_One_Pager.pdf` → `needs-review`, `work-based-learning`, `professional-development`, `procurement-and-vendors`, `curriculum-administration`
+- `Documents/2025-2026 CTE Oracle iExpense Travel Training.pdf` → `professional-development`, `needs-review`, `procurement-and-vendors`
+- `Documents/244 Sitipend 2026/Amaning-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `professional-development`, `needs-review`
+- `Documents/244 Sitipend 2026/Archie-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `professional-development`, `needs-review`
+- `Documents/244 Sitipend 2026/Coyle-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `needs-review`, `professional-development`
+- `Documents/244 Sitipend 2026/Hamilton-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `professional-development`, `needs-review`, `work-based-learning`
+- `Documents/244 Sitipend 2026/Jones-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `perkins-management`, `needs-review`, `professional-development`, `work-based-learning`
+- `Documents/244 Sitipend 2026/Kalat-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `needs-review`, `perkins-management`, `professional-development`, `work-based-learning`
+- `Documents/244 Sitipend 2026/MRodriguez-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `needs-review`, `professional-development`, `curriculum-administration`
+- `Documents/244 Sitipend 2026/Maxwell-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `perkins-management`, `needs-review`, `professional-development`, `work-based-learning`
+- `Documents/244 Sitipend 2026/SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `needs-review`, `professional-development`
+- `Documents/244 Sitipend 2026/Williams-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `curriculum-administration`, `needs-review`, `professional-development`, `work-based-learning`
+- `Documents/26-27 Campus CTE Nonposition Realignment Datasource Updated.pdf` → `needs-review`, `procurement-and-vendors`, `curriculum-administration`
+- `Documents/ACTE Vision 2025/Admin 101/WBL-why it patters.pdf` → `curriculum-administration`, `work-based-learning`, `needs-review`, `non-awarded-vendor-requests`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/request.pdf` → `curriculum-administration`, `needs-review`, `professional-development`, `work-based-learning`, `ctso-events`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `curriculum-administration`, `procurement-and-vendors`, `professional-development`, `student-health-and-compliance`, `work-based-learning`, `needs-review`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool-Example.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`, `professional-development`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf` → `curriculum-administration`, `professional-development`, `needs-review`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 201/CTE Admin 102-Slide Deck.pptx.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 201/Improving_CTE_Performance_Measurement_Data_Collection_09-11-2024.pdf` → `needs-review`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf` → `curriculum-administration`, `needs-review`, `professional-development`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Data Analysis Template.pdf` → `needs-review`, `professional-development`, `curriculum-administration`
+- `Documents/ACTE Vision 2025/BFE8C233-C2D9-EA8C-9D7B-E8680DA0FD882025121209522347.pdf` → `needs-review`, `work-based-learning`
+- `Documents/ACTE Vision 2025/CLNA/73459750-E17B-83F6-D59C-631B116DBF582025121022091676.pdf` → `needs-review`, `work-based-learning`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Small Group Activity- Modeling Team Coaching in Action.pdf` → `curriculum-administration`, `professional-development`, `needs-review`, `student-health-and-compliance`
+- `Documents/Adopted Materiall Quotes␠/ACTE Visin 2025 Grant_Funded Travel Authorization Form- ACTE 2025 copy.pdf` → `needs-review`, `perkins-management`, `professional-development`, `procurement-and-vendors`
+- `Documents/Affiliated Agreements/ESCO Institute LTD - approved for one time use.pdf` → `procurement-and-vendors`, `curriculum-purchasing`, `work-based-learning`, `needs-review`, `non-awarded-vendor-requests`, `curriculum-administration`
+- `Documents/CLNA Tools-ACTE Vision.pdf` → `curriculum-administration`, `needs-review`, `non-awarded-vendor-requests`
+- `Documents/Conference Travel/Expenditure Justification Form_September 2025[86] copy.pdf` → `procurement-and-vendors`, `professional-development`, `needs-review`
+- `Documents/Conference Travel/JEREMY SPENCE_ACTE VISION 2025_TRAVEL AUTHORIZATION - signed.pdf` → `needs-review`, `professional-development`, `perkins-management`, `non-awarded-vendor-requests`
+- `Documents/Conference Travel/Moore Norman Agenda_MNTC_Dallas_ISD_Visit_Agenda.pdf` → `curriculum-administration`, `needs-review`, `professional-development`, `work-based-learning`, `student-health-and-compliance`
+- `Documents/Conference Travel/SRFM Travel Expense Report Checklist.pdf` → `needs-review`, `perkins-management`, `procurement-and-vendors`
+- `Documents/DALLASISDGOOGLECOURSECATALOG.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `Documents/DallasISDTravel - ACTE Best Practice - JB.pdf` → `needs-review`, `professional-development`, `ctso-events`, `procurement-and-vendors`, `non-awarded-vendor-requests`
+- `Documents/DallasISDTravel - ACTE Best Practices - JS.pdf` → `needs-review`, `professional-development`, `ctso-events`, `procurement-and-vendors`
+- `Documents/Five Foundations of Ramsey.pdf` → `needs-review`, `student-health-and-compliance`, `work-based-learning`
+- `Documents/New Stipend Request Form[29].pdf` → `non-awarded-vendor-requests`, `needs-review`, `procurement-and-vendors`, `cte-pd-sessions`, `curriculum-administration`
+- `Documents/New Stipend Request Form[81].pdf` → `non-awarded-vendor-requests`, `needs-review`, `curriculum-administration`, `procurement-and-vendors`
+- `Documents/Norman Moore Grant_Funded Travel Authorization Form.pdf` → `needs-review`, `perkins-management`, `professional-development`, `procurement-and-vendors`
+- `Documents/Personal/Everlake- Beneficiary Change Lincoln Benefit copy.pdf` → `needs-review`, `curriculum-administration`, `student-health-and-compliance`
+- `Documents/Townview Business School Leadership Campus Field Trip Proposal[17].pdf` → `needs-review`, `curriculum-administration`, `student-health-and-compliance`, `work-based-learning`
+- `Documents/untitled folder/Travel Forms/Expenditure Justification Form_September 2025.pdf` → `procurement-and-vendors`, `needs-review`, `work-based-learning`
+- `EMT：EMR/Signed NAF Forms 26.pdf` → `needs-review`, `professional-development`, `perkins-management`, `procurement-and-vendors`
+- `J. Spann.pdf` → `needs-review`, `professional-development`, `procurement-and-vendors`, `perkins-management`
+- `JOSEPH_THOA_GRANT TRAVEL FORM-REVISED - signed.pdf` → `needs-review`, `vendor-approvals`, `student-health-and-compliance`
+- `Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED).pdf` → `needs-review`, `professional-development`, `perkins-management`
+- `Lead Teacher/SOP Materials/Federal Spend & Cooperative Contract Use.pdf` → `needs-review`, `procurement-and-vendors`, `non-awarded-vendor-requests`, `curriculum-administration`
+- `NAF 2026/NAF NEXT 2026 Grant_Funded Travel Authorization Form Updated.pdf` → `needs-review`, `professional-development`, `procurement-and-vendors`, `perkins-management`
+- `Non Awarded Vendor Quotes/BE Publishing Non Awarded Vendor Approved.pdf` → `non-awarded-vendor-requests`, `curriculum-administration`, `needs-review`, `procurement-and-vendors`, `curriculum-purchasing`
+- `Non Awarded Vendor Quotes/Goodheart Wilcox Non Awarded approved.pdf` → `curriculum-administration`, `needs-review`, `technology-and-inventory`, `non-awarded-vendor-requests`, `procurement-and-vendors`, `work-based-learning`
+- `Non Awarded Vendor Quotes/Non Awarded Vendor Request McGraw Hill Approved.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `curriculum-purchasing`, `needs-review`, `vendor-approvals`
+- `Non Awarded Vendor Quotes/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf` → `technology-and-inventory`, `curriculum-administration`, `non-awarded-vendor-requests`, `procurement-and-vendors`, `needs-review`, `work-based-learning`
+- `Non Awarded Vendor Quotes/SACA_09-08-2025 Approved.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `needs-review`, `work-based-learning`, `professional-development`, `curriculum-purchasing`
+- `Non-Awarded Vendor Forms approved/CLNA␠/2026-27-clna-guidebook.pdf` → `needs-review`, `procurement-and-vendors`, `professional-development`, `work-based-learning`
+- `Non-Awarded Vendor Forms approved/CLNA␠/SC5600 Comprehensive Local Needs Assessment blank.pdf (SECURED).pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`
+- `PATIN_TIVA-GRANT TRAVEL FORM-REVISED - signed.pdf (SECURED).pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`, `vendor-approvals`, `student-health-and-compliance`
+- `Perkins Travel/2025-2026 Financial Services Activity Calendar[2].pdf` → `procurement-and-vendors`, `needs-review`
+- `Perkins Travel/Expenditure Justification Form_September 2025[72].pdf` → `procurement-and-vendors`, `needs-review`, `vendor-approvals`, `perkins-management`
+- `Perkins Travel/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf` → `needs-review`, `vendor-approvals`, `curriculum-administration`, `student-health-and-compliance`, `professional-development`
+- `Perkins Travel/SRFM Meal Reimbursement Guide - Revised.10.14.2025[38].pdf` → `needs-review`, `curriculum-administration`
+- `Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `needs-review`, `professional-development`
+- `Perkins-V-Funding-Distribution.pdf` → `curriculum-administration`, `needs-review`, `professional-development`, `procurement-and-vendors`
+- `PerkinsV_CLNA_Template_ Guide.pdf` → `needs-review`, `professional-development`, `work-based-learning`, `curriculum-administration`
+- `Proposal_ Student-Run Financial Center at Townview.pdf` → `needs-review`, `student-health-and-compliance`, `vendor-approvals`, `procurement-and-vendors`, `curriculum-administration`
+- `QR Sheet 2a_Stakeholder Involvement by Program-1.pdf` → `curriculum-administration`, `needs-review`
+- `Standard Operting Procedures-Perkins.pdf` → `procurement-and-vendors`, `needs-review`, `professional-development`
+- `Supplemental_form.pdf` → `needs-review`, `perkins-management`, `professional-development`
+- `Trustee_CTE_Pathway_Tracker 25-26.pdf` → `needs-review`, `curriculum-administration`, `professional-development`, `work-based-learning`
+- `add_to_calendar.ics` → `needs-review`, `professional-development`, `curriculum-administration`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (2).pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`, `mobile-lab-equipment`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030-3.pdf` → `curriculum-administration`, `needs-review`, `work-based-learning`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030.pdf` → `needs-review`, `curriculum-administration`, `work-based-learning`
+- `perkinsplanupdatefinalrevised.pdf` → `needs-review`, `professional-development`, `work-based-learning`
+
+### Needs review (407)
+
+- ` PD Summer Schedule.pdf` → `professional-development`, `curriculum-administration`, `procurement-and-vendors`, `work-based-learning`, `cte-pd-sessions`, `student-health-and-compliance`
+- `2018_TaxReturn (1).pdf` → `financial-and-grants`, `student-health-and-compliance`
+- `2023_TaxReturn (2).pdf` → `financial-and-grants`
+- `2024 Dallas ISD W2.pdf` → `financial-and-grants`
+- `2024 Kemp ISD W2.pdf` → `financial-and-grants`
+- `2024-2025-clna-guidebook.pdf` → `financial-and-grants`, `student-health-and-compliance`, `work-based-learning`, `procurement-and-vendors`
+- `2025 CTE Summer PD Feedback.pdf` → `professional-development`, `curriculum-administration`, `ctso-events`, `technology-and-inventory`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ASE.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `work-based-learning`, `student-health-and-compliance`, `curriculum-administration`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - BACE.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `work-based-learning`, `student-health-and-compliance`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Gaumard.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `student-health-and-compliance`, `financial-and-grants`, `curriculum-administration`, `professional-development`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NCCER.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `curriculum-purchasing`, `work-based-learning`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NOCTI.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `work-based-learning`, `vendor-approvals`, `curriculum-administration`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Nasco.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `student-health-and-compliance`, `work-based-learning`, `professional-development`, `curriculum-administration`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SACA.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `work-based-learning`, `curriculum-administration`, `financial-and-grants`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SolidProfessor.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `curriculum-purchasing`, `technology-and-inventory`, `curriculum-administration`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Assessment Technologies.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `curriculum-administration`, `work-based-learning`, `student-health-and-compliance`, `vendor-approvals`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Platinum Consulting.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `mobile-lab-equipment`, `curriculum-purchasing`, `vendor-approvals`, `ctso-events`
+- `2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `curriculum-administration`, `work-based-learning`
+- `2026 Graduation Cord Rosters.pdf` → `student-health-and-compliance`, `work-based-learning`
+- `2026-27 DRAFT[98].pdf` → `financial-and-grants`, `work-based-learning`, `professional-development`, `perkins-management`
+- `2026-27 Perkins Application — Filled Tentative (PS3350).pdf` → `financial-and-grants`, `curriculum-administration`
+- `25-26 CI North .pdf` → `work-based-learning`, `student-health-and-compliance`, `curriculum-administration`
+- `25-26 SEC 11028Y1N2-2022 Early Childhood.pdf` → `curriculum-administration`, `procurement-and-vendors`
+- `26-27 Campus CTE Nonposition Realignment Datasource V4.pdf` → `curriculum-administration`, `student-health-and-compliance`
+- `26-27 Campus CTE Nonposition Realignment Datasource V5.pdf` → `curriculum-administration`, `vendor-approvals`, `professional-development`
+- `3. Board Document 250357-version 2.pdf` → `work-based-learning`, `financial-and-grants`, `procurement-and-vendors`, `curriculum-administration`
+- `3. Board Document 250357[69].pdf` → `work-based-learning`, `professional-development`, `financial-and-grants`, `curriculum-administration`
+- `A Goodson Travel form - signed.pdf` → `procurement-and-vendors`
+- `ACTE HQ Frameworks.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `ACTE Vision 2025 Agenda.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf` → `curriculum-administration`, `professional-development`, `ctso-events`, `student-health-and-compliance`, `financial-and-grants`
+- `ACTE-Membership-Application-Jeremy Spence.pdf` → `professional-development`
+- `Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf (SECURED).pdf` → `student-health-and-compliance`, `procurement-and-vendors`
+- `August 6th PD.pdf` → `curriculum-administration`, `work-based-learning`, `professional-development`
+- `BAUTISTA_TIVA GRANT TRAVEL DOCS.pdf` → `financial-and-grants`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768501134.7069674.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`, `procurement-and-vendors`, `student-health-and-compliance`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768502080.5657754.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`, `procurement-and-vendors`
+- `C.Seay- 2025 Certified Educator Conference - signed.pdf` → —
+- `CLNA 2026-27-clna-guidebook[55].pdf` → `financial-and-grants`, `professional-development`, `work-based-learning`
+- `CLNA 26-27/2025-26 Application.pdf (SECURED).pdf` → `financial-and-grants`, `work-based-learning`, `professional-development`, `procurement-and-vendors`, `perkins-management`
+- `CLNA DALLAS ISD Working Doc.pdf` → `financial-and-grants`, `student-health-and-compliance`, `work-based-learning`
+- `CLNA Guiding Questions.pdf` → `financial-and-grants`, `curriculum-administration`, `professional-development`, `student-health-and-compliance`, `work-based-learning`, `procurement-and-vendors`
+- `CLNA_26_27 App.pdf` → `financial-and-grants`, `work-based-learning`
+- `COZART_TIVA GRANT TRAVEL DOCS - signed (1).pdf` → `perkins-management`, `curriculum-administration`, `vendor-approvals`, `financial-and-grants`
+- `CPAL_DISD_MOU_SowingSeeds (3).pdf` → `professional-development`, `curriculum-administration`, `student-health-and-compliance`, `work-based-learning`, `procurement-and-vendors`
+- `CTAT Summer 26_Agenda_062926.pdf` → `professional-development`, `curriculum-administration`, `work-based-learning`, `ctso-events`
+- `CTE Admin 101-Slide Deck.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `CTE Admin 102-Slide Deck.pdf` → `curriculum-administration`, `financial-and-grants`, `non-awarded-vendor-requests`, `work-based-learning`, `professional-development`
+- `CTE CTSO Sponsorship Guidelines 25-26.pdf` → `ctso-events`, `curriculum-administration`, `technology-and-inventory`
+- `CTE Form Mule Email Preview — CELIS _ Graphic Design I.pdf` → `professional-development`, `technology-and-inventory`, `student-health-and-compliance`, `curriculum-administration`, `work-based-learning`
+- `CTE Framework 2 slides.pdf` → `curriculum-administration`, `work-based-learning`
+- `CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf` → `curriculum-administration`, `procurement-and-vendors`, `work-based-learning`
+- `CTE PD 6.1.26.pdf` → `professional-development`, `curriculum-administration`, `work-based-learning`
+- `CTE PLC October 29, 2024 (Responses).pdf` → `curriculum-administration`, `vendor-approvals`
+- `CTE Summer PD 2026/Copy of Cooperative Learning in CTE.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `CTE Summer PD 2026/We are CTE.pdf` → `professional-development`, `work-based-learning`, `curriculum-administration`
+- `CTE Survey Dashboard — One Pager.pdf` → `curriculum-administration`, `professional-development`
+- `CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf` → `curriculum-administration`, `professional-development`, `student-health-and-compliance`, `technology-and-inventory`, `ctso-events`, `trailer-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1).pdf` → `professional-development`, `work-based-learning`, `technology-and-inventory`
+- `CTE- SUM26 Summer Learning Site Signage  Template (2).pdf` → `professional-development`, `ctso-events`, `procurement-and-vendors`, `curriculum-administration`, `work-based-learning`, `student-health-and-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template.pdf` → `curriculum-administration`, `professional-development`, `trailer-compliance`, `technology-and-inventory`, `procurement-and-vendors`
+- `CTE-Standard Operating Procedures/2026-27 Dallas ISD CTE CTSO Handbook.docx` → `ctso-events`, `student-health-and-compliance`, `curriculum-administration`, `procurement-and-vendors`
+- `CTE-Standard Operating Procedures/CTE Vehicle Protocol.pdf` → `non-awarded-vendor-requests`
+- `CTE-Standard Operating Procedures/CTE Vehicles.pdf` → `trailer-compliance`, `procurement-and-vendors`
+- `CTE-Standard Operating Procedures/Campus Lead Teacher Program.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`, `procurement-and-vendors`
+- `CTE-Standard Operating Procedures/Standard Operting Procedures-Perkins.pdf` → `financial-and-grants`, `procurement-and-vendors`, `professional-development`, `perkins-management`
+- `CTE_Meeting_Agenda_Updated.pdf` → `professional-development`, `work-based-learning`, `curriculum-administration`
+- `CTX_Berkner HS_ED02.pdf` → `student-health-and-compliance`, `procurement-and-vendors`
+- `Career Exploration in IT.pdf` → `curriculum-administration`, `work-based-learning`
+- `Career Institute North - Raw Data Entries.pdf` → `curriculum-administration`, `student-health-and-compliance`, `work-based-learning`
+- `Carlson June hourlysupplementaltimecard.pdf` → `work-based-learning`, `procurement-and-vendors`
+- `Complete_with_Docusign_3902_San_Miguel_Ct_PS.pdf` → —
+- `Considerations for 2026–27 and Future Cohorts  CCMR Notecatcher.pdf` → `curriculum-administration`, `cte-pd-sessions`
+- `Cooperative Learning in CTE.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Copy of 26-27 Academic Services Deck Template .pdf` → `curriculum-administration`, `professional-development`
+- `Copy of CTE PLC Agendas (1).pdf` → `curriculum-administration`, `work-based-learning`, `procurement-and-vendors`, `student-health-and-compliance`, `technology-and-inventory`, `professional-development`
+- `Copy of EXPO Attendance Roster for CTE.pdf` → `professional-development`
+- `Copy of Spring Stipend CTE-additions 2026.pdf` → `professional-development`, `ctso-events`, `curriculum-administration`
+- `Cornerstone_Session_Roster_Report_7_20_12 AM.pdf` → `cte-pd-sessions`, `professional-development`, `curriculum-administration`
+- `Cornerstone_Session_Signin-10_12_2025 (1).pdf` → `curriculum-administration`, `cte-pd-sessions`, `professional-development`
+- `Cornerstone_Session_Signin-10_12_2025.pdf` → `curriculum-administration`, `cte-pd-sessions`, `professional-development`
+- `Cornerstone_Session_Signin-1_14_2026.pdf` → `curriculum-administration`, `professional-development`, `technology-and-inventory`, `work-based-learning`
+- `Cornerstone_Session_Signin-1_5_2026 (1).pdf` → `curriculum-administration`, `work-based-learning`, `professional-development`
+- `Cornerstone_Session_Signin-1_5_2026 (3).pdf` → `curriculum-administration`, `cte-pd-sessions`, `professional-development`, `work-based-learning`
+- `Cornerstone_Session_Signin-1_5_2026 (4).pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026 (1).pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026 (2).pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026 (3).pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026 (4).pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026 (5).pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026 (6).pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026 (7).pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_26_2026.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Cornerstone_Session_Signin-5_29_2026.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`, `student-health-and-compliance`
+- `Cornerstone_Session_Signin-6_10_2026.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Cornerstone_Session_Signin-6_9_2026.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Coyle June hourlysupplementaltimecard.pdf` → `professional-development`
+- `D. Enderle Travel Form ATAT - signed.pdf` → `procurement-and-vendors`, `professional-development`
+- `D. Johnson complete naf documents .pdf` → `professional-development`, `financial-and-grants`, `procurement-and-vendors`
+- `DISD_EMS_Student_Profile_5_26_26.pdf` → `curriculum-administration`, `student-health-and-compliance`, `procurement-and-vendors`, `work-based-learning`
+- `DISD_Purchasing_Analysis 208023.pdf` → `procurement-and-vendors`, `work-based-learning`
+- `DRAFT Vehicle Intake & Liability Waiver Form.pdf` → `professional-development`, `student-health-and-compliance`, `trailer-compliance`, `curriculum-administration`
+- `Dallas ISD 2026-2027 Comprehensive Local Needs Assessment.pdf` → `financial-and-grants`, `curriculum-administration`, `work-based-learning`
+- `Dallas ISD TB Results/ALEXIS GUERECA 01.13.2010   TB LAB RESULTS.pdf` → `student-health-and-compliance`
+- `Dallas ISD TB Results/ALLISON GARCIAGUIRRE 07.16.2009 TB LAB RESULTS.pdf` → `student-health-and-compliance`
+- `Dallas ISD TB Results/ANA RIVERA 12.09.2008 TB LAB RESULTS.pdf` → `student-health-and-compliance`
+- `Dallas ISD TB Results/ANGIE GONZALEZ 07.23.2010 TB LAB RESULTS.pdf` → `student-health-and-compliance`, `procurement-and-vendors`
+- `Dallas ISD TB Results/ARIANA GOMEZ 02.16.2011 TB LAB RESULTS.pdf` → `student-health-and-compliance`
+- `Dallas ISD TB Results/CARLA MELGAR 09.22.1992 TB LAB RESULTS.pdf` → `student-health-and-compliance`
+- `Dallas ISD TB Results/CINTHIA SANTOYO 06.08.2009 TB LAB RESULTS.pdf` → `student-health-and-compliance`
+- `Dallas ISD TB Results/EDGAR VASQUEZ 09.10.2010 TB LAB RESULTS.pdf` → `student-health-and-compliance`
+- `Dallas ISD TB Results/EMILY COLLINS 06.10.2009 TB LAB RESULTS.pdf` → `student-health-and-compliance`
+- `Dallas ISD TB Results/GABRIELA GURROLA 11.13.2009 TB LAB RESULTS.pdf` → `student-health-and-compliance`
+- `Dallas ISD TB Results/GABRIELLA NUNEZ 12.28.2009 TB LAB RESULTS.pdf` → `student-health-and-compliance`
+- `Dallas ISD TB Results/ISABELLA GUERRERO 10.02.2009 TB LAB RESULTS.pdf` → `student-health-and-compliance`
+- `Dallas ISD TB Results/JENNIFER CARPIO 09.30.2009 TB LAB RESULTS.pdf` → `student-health-and-compliance`
+- `Dallas ISD TB Results/JUVE NOE MATEOS MENDOZA 06.04.2008 TB LAB RESULTS.pdf` → `student-health-and-compliance`, `procurement-and-vendors`
+- `Dallas ISD TB Results/LYLA CAMERENA 04.16.2008 TB LAB RESULTS.pdf` → `student-health-and-compliance`
+- `Dallas ISD TB Results/MARILYN ALMONACI 12.14.2009 TB LAB RESULTS.pdf` → `student-health-and-compliance`
+- `Dallas ISD TB Results/MARLEY MARROQUIN 07.08.2008 TB LAB RESULTS.pdf` → `student-health-and-compliance`
+- `Dallas ISD TB Results/MELISSA ALONSO 10.23.2008 TB LAB RESULTS.pdf` → `student-health-and-compliance`
+- `Dallas ISD TB Results/MELISSA LARA 02.19.2011 TB LAB RESULTS.pdf` → `student-health-and-compliance`
+- `Dallas ISD TB Results/NATALIA BLAS 05.21.2010 TB LAB RESULTS.pdf` → `student-health-and-compliance`
+- `Dallas ISD TB Results/PAULA ROCABRUNO TORRALBA 11.16.2010 TB LAB RESULTS.pdf` → `student-health-and-compliance`, `procurement-and-vendors`
+- `Dallas ISD TB Results/TREYNAHDEE WASHINGTON 08.07.2009 TB LAB RESULTS.pdf` → `student-health-and-compliance`, `procurement-and-vendors`
+- `Dallas ISD TB Results/YVONNE MORGAN 07.14.1980 TB LABRESULTS.pdf` → `student-health-and-compliance`, `procurement-and-vendors`
+- `Dallas ISD — NAF Membership Agreement 2026-27[57].pdf` → `curriculum-administration`, `work-based-learning`
+- `Dallas_ISD_CLNA_2026-2027_DRAFT.pdf` → `financial-and-grants`, `student-health-and-compliance`, `work-based-learning`
+- `Dallas_ISD_CTE_Industry_Partner_Quarterly_Meeting_One_Pager.pdf` → `work-based-learning`, `professional-development`, `financial-and-grants`, `procurement-and-vendors`, `curriculum-administration`
+- `Dee July hourlysupplementaltimecard.pdf` → `curriculum-administration`
+- `Department Supplemental Pay Approval Memo.pdf` → `professional-development`, `curriculum-administration`, `work-based-learning`, `procurement-and-vendors`
+- `Digitial Citizenship PSA[7].pdf` → `curriculum-administration`, `work-based-learning`
+- `Disability+Severe+Food+Allergy+Request+Form.pdf` → `student-health-and-compliance`, `professional-development`
+- `Documents/12-month weightlifitng Plan.pdf` → `professional-development`, `cte-pd-sessions`, `technology-and-inventory`
+- `Documents/12.21  CTE Lead Teacher.pdf` → `professional-development`, `curriculum-administration`
+- `Documents/2024-25 Bell Schedule_CI South.docx.pdf` → `work-based-learning`, `cte-pd-sessions`, `curriculum-administration`
+- `Documents/2025-2026 CTE Oracle iExpense Travel Training.pdf` → `professional-development`, `financial-and-grants`, `procurement-and-vendors`
+- `Documents/244 Sitipend 2026/Amaning-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-and-grants`, `professional-development`
+- `Documents/244 Sitipend 2026/Archie-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-and-grants`, `professional-development`
+- `Documents/244 Sitipend 2026/Copy of CTE Lead Teacher Stipends (Fall 2025).pdf` → `curriculum-administration`, `procurement-and-vendors`
+- `Documents/244 Sitipend 2026/Coyle-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-and-grants`, `professional-development`
+- `Documents/244 Sitipend 2026/Hamilton-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-and-grants`, `professional-development`, `work-based-learning`
+- `Documents/244 Sitipend 2026/Jones-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `perkins-management`, `professional-development`, `work-based-learning`, `financial-and-grants`
+- `Documents/244 Sitipend 2026/Kalat-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `perkins-management`, `professional-development`, `financial-and-grants`, `work-based-learning`
+- `Documents/244 Sitipend 2026/MRodriguez-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-and-grants`, `professional-development`, `curriculum-administration`
+- `Documents/244 Sitipend 2026/Maxwell-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `perkins-management`, `professional-development`, `work-based-learning`, `financial-and-grants`
+- `Documents/244 Sitipend 2026/SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-and-grants`, `professional-development`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.2.pdf` → `professional-development`, `ctso-events`, `curriculum-administration`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.pdf` → `curriculum-administration`
+- `Documents/244 Sitipend 2026/Williams-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `curriculum-administration`, `financial-and-grants`, `professional-development`, `work-based-learning`
+- `Documents/26-27 Campus CTE Nonposition Realignment Datasource Updated.pdf` → `financial-and-grants`, `procurement-and-vendors`, `curriculum-administration`
+- `Documents/26-27 TraditionalCalendar-Traditional2026-2027.pdf` → `professional-development`, `student-health-and-compliance`
+- `Documents/ACTE Nashville AA.pdf` → `work-based-learning`, `curriculum-purchasing`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf` → `curriculum-administration`, `work-based-learning`, `ctso-events`, `student-health-and-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/ACTE Advisory Council Support Menu.pdf` → `curriculum-administration`, `work-based-learning`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Council.pdf` → `work-based-learning`, `curriculum-administration`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Mentor Sample Program.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 101/CTE New Teacher Professional Development Plan (1).pdf` → `curriculum-administration`, `work-based-learning`, `professional-development`, `ctso-events`, `student-health-and-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Prof Growth Plan.pdf` → `professional-development`, `work-based-learning`, `curriculum-administration`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Program Coherent Sequence.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Required Certification by Program.pdf` → `curriculum-administration`, `work-based-learning`, `professional-development`, `vendor-approvals`, `student-health-and-compliance`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 101/Directions for High School Scope  Sequence (2).pdf` → `curriculum-administration`, `ctso-events`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf` → `curriculum-administration`, `work-based-learning`, `professional-development`, `student-health-and-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf` → `curriculum-administration`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 101/WBL-why it patters.pdf` → `curriculum-administration`, `work-based-learning`, `financial-and-grants`, `non-awarded-vendor-requests`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/request.pdf` → `curriculum-administration`, `financial-and-grants`, `professional-development`, `work-based-learning`, `ctso-events`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `financial-and-grants`, `curriculum-administration`, `procurement-and-vendors`, `professional-development`, `student-health-and-compliance`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool-Example.pdf` → `financial-and-grants`, `curriculum-administration`, `work-based-learning`, `professional-development`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf` → `financial-and-grants`, `curriculum-administration`, `professional-development`, `procurement-and-vendors`
+- `Documents/ACTE Vision 2025/Admin 201/CTE Admin 102-Slide Deck.pptx.pdf` → `curriculum-administration`, `financial-and-grants`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 201/Improving_CTE_Performance_Measurement_Data_Collection_09-11-2024.pdf` → `financial-and-grants`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf` → `financial-and-grants`, `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Data Analysis Template.pdf` → `financial-and-grants`, `professional-development`, `curriculum-administration`
+- `Documents/ACTE Vision 2025/BFE8C233-C2D9-EA8C-9D7B-E8680DA0FD882025121209522347.pdf` → `financial-and-grants`, `work-based-learning`
+- `Documents/ACTE Vision 2025/CLNA/73459750-E17B-83F6-D59C-631B116DBF582025121022091676.pdf` → `financial-and-grants`, `work-based-learning`
+- `Documents/ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf` → `curriculum-administration`, `professional-development`, `vendor-approvals`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Do we Need a Team.pdf` → `curriculum-administration`, `work-based-learning`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Example of a Team's Communication Agreements.pdf` → `vendor-approvals`, `curriculum-administration`, `ctso-events`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of a Team's Emotional Intelligence.pdf` → `professional-development`, `curriculum-administration`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of an Effective Team.pdf` → `curriculum-administration`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Small Group Activity- Modeling Team Coaching in Action.pdf` → `curriculum-administration`, `professional-development`, `financial-and-grants`, `student-health-and-compliance`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Member Roles and Responsibilities.pdf` → `curriculum-administration`, `non-awarded-vendor-requests`, `professional-development`, `vendor-approvals`, `work-based-learning`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Temperature Check.pdf` → `curriculum-administration`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf` → `curriculum-administration`, `work-based-learning`, `professional-development`
+- `Documents/ANG-DISD Adamson HS Air Compressor Equipment Repairs_Quote_20262603AD.pdf` → `procurement-and-vendors`
+- `Documents/Adopted Materiall Quotes␠/ACTE Visin 2025 Grant_Funded Travel Authorization Form- ACTE 2025 copy.pdf` → `perkins-management`, `professional-development`, `procurement-and-vendors`
+- `Documents/Adopted Materiall Quotes␠/CodeHS Proclamation 2024 titles.pdf` → `curriculum-administration`, `curriculum-purchasing`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD A&P revised seat number Estimate_316614.pdf` → `curriculum-administration`, `procurement-and-vendors`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Garner A&P 1 year Estimate_316614.pdf` → `curriculum-administration`, `procurement-and-vendors`, `student-health-and-compliance`, `technology-and-inventory`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 1 year Estimate_375613.pdf` → `procurement-and-vendors`, `curriculum-administration`, `technology-and-inventory`, `student-health-and-compliance`, `professional-development`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 4 year  Estimate_375616.pdf` → `procurement-and-vendors`, `curriculum-administration`, `professional-development`, `technology-and-inventory`, `student-health-and-compliance`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Video Game Design Estimate_375603.pdf` → `curriculum-administration`, `procurement-and-vendors`, `technology-and-inventory`, `student-health-and-compliance`
+- `Documents/Adopted Materiall Quotes␠/Human Services-Cengage quote 2025.pdf` → `curriculum-administration`, `work-based-learning`, `procurement-and-vendors`
+- `Documents/Affiliated Agreements/Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2)[18].pdf` → `student-health-and-compliance`, `procurement-and-vendors`
+- `Documents/Affiliated Agreements/Automotive Service Excellence - Approved for one time purchase[5].pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `work-based-learning`, `student-health-and-compliance`, `curriculum-purchasing`
+- `Documents/Affiliated Agreements/Dallas ISD_First Amendment  to extend term[31].pdf` → `student-health-and-compliance`
+- `Documents/Affiliated Agreements/ESCO Institute LTD - approved for one time use.pdf` → `procurement-and-vendors`, `curriculum-purchasing`, `work-based-learning`, `non-awarded-vendor-requests`, `curriculum-administration`, `financial-and-grants`
+- `Documents/Baylor Scott & Whote MAA 2028 08.09.23.pdf` → `student-health-and-compliance`, `procurement-and-vendors`
+- `Documents/Bell Schedule CI East.pdf` → `work-based-learning`, `cte-pd-sessions`, `curriculum-administration`
+- `Documents/Bell Schedule CI North.pdf` → `work-based-learning`, `cte-pd-sessions`, `curriculum-administration`, `non-awarded-vendor-requests`
+- `Documents/CLNA Tools-ACTE Vision.pdf` → `financial-and-grants`, `curriculum-administration`, `non-awarded-vendor-requests`
+- `Documents/CTE Lead Teacher Stipends (Fall 2025).pdf` → `ctso-events`, `curriculum-administration`
+- `Documents/CompTIA Non Awarded Vendor Request Form 7.2025.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `work-based-learning`, `curriculum-purchasing`, `vendor-approvals`
+- `Documents/Conference Travel/CTE CTSO Sponsorship Guidelines 25-26.pdf` → `ctso-events`, `curriculum-administration`, `work-based-learning`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`, `technology-and-inventory`
+- `Documents/Conference Travel/Expenditure Justification Form_September 2025[86] copy.pdf` → `procurement-and-vendors`, `professional-development`, `financial-and-grants`
+- `Documents/Conference Travel/JEREMY SPENCE_ACTE VISION 2025_TRAVEL AUTHORIZATION - signed.pdf` → `professional-development`, `perkins-management`, `non-awarded-vendor-requests`
+- `Documents/Conference Travel/Jspence Hotel.pdf` → `work-based-learning`, `trailer-compliance`
+- `Documents/Conference Travel/Moore Norman Agenda_MNTC_Dallas_ISD_Visit_Agenda.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`, `student-health-and-compliance`, `financial-and-grants`
+- `Documents/Conference Travel/Moore Norman Campus Mileage.pdf` → —
+- `Documents/Conference Travel/Moore Norman Name Tent.pdf` → `professional-development`
+- `Documents/Conference Travel/SRFM Travel Expense Report Checklist.pdf` → `financial-and-grants`, `perkins-management`, `procurement-and-vendors`
+- `Documents/Conference Travel/Schedule At-A-Glance ACTE Vision 2025.pdf` → `professional-development`, `ctso-events`, `work-based-learning`
+- `Documents/Conference Travel/Uber 2 Nashville.pdf` → `work-based-learning`, `student-health-and-compliance`
+- `Documents/Conference Travel/Uber 4 Nashville.pdf` → —
+- `Documents/Conference Travel/Uber receipts .pdf` → —
+- `Documents/Conference Travel/eInvoice, December 08 for JEREMY SPENCE.eml` → `work-based-learning`
+- `Documents/Copy of 12.21  CTE Lead Teacher.pdf` → `curriculum-administration`
+- `Documents/Cornerstone_Session_Signin-1_5_2026 (2).pdf` → `curriculum-administration`, `cte-pd-sessions`, `professional-development`, `work-based-learning`, `student-health-and-compliance`
+- `Documents/DALLASISDGOOGLECOURSECATALOG.pdf` → `curriculum-administration`, `work-based-learning`, `financial-and-grants`
+- `Documents/DallasISDTravel - ACTE Best Practice - JB.pdf` → `financial-and-grants`, `professional-development`, `ctso-events`, `procurement-and-vendors`, `non-awarded-vendor-requests`
+- `Documents/DallasISDTravel - ACTE Best Practices - JS.pdf` → `professional-development`, `ctso-events`, `financial-and-grants`, `procurement-and-vendors`
+- `Documents/Five Foundations of Ramsey.pdf` → `financial-and-grants`, `student-health-and-compliance`, `work-based-learning`
+- `Documents/How to Request a Trip (2).pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `curriculum-administration`
+- `Documents/January 2026 Lunch and Learn.pdf` → `technology-and-inventory`, `procurement-and-vendors`, `ctso-events`, `curriculum-administration`
+- `Documents/JeremySpenceCoverLetter AA.pdf` → `professional-development`, `work-based-learning`
+- `Documents/M. Spence Initial Parent Referral Packet[16].pdf` → `student-health-and-compliance`
+- `Documents/Mackenna Spence 12-21-BASC 3 Teacher.pdf` → `student-health-and-compliance`
+- `Documents/New Stipend Request Form[29].pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `financial-and-grants`, `cte-pd-sessions`, `curriculum-administration`
+- `Documents/New Stipend Request Form[81].pdf` → `non-awarded-vendor-requests`, `curriculum-administration`, `procurement-and-vendors`, `financial-and-grants`
+- `Documents/Non-AwardedVendorRequestForm copy.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `vendor-approvals`
+- `Documents/Norman Moore Grant_Funded Travel Authorization Form.pdf` → `perkins-management`, `professional-development`, `procurement-and-vendors`
+- `Documents/Personal/Everlake- Beneficiary Change Lincoln Benefit copy.pdf` → `curriculum-administration`, `student-health-and-compliance`, `financial-and-grants`
+- `Documents/Prelimonary 25-30 IBC Certifying List .pdf` → `curriculum-administration`, `work-based-learning`
+- `Documents/Proclamation 2024_Preliminary Findings of the State Review Panel.pdf` → `curriculum-administration`, `student-health-and-compliance`, `professional-development`, `procurement-and-vendors`
+- `Documents/Procurement Codes .pdf` → `procurement-and-vendors`, `work-based-learning`, `professional-development`, `student-health-and-compliance`
+- `Documents/Purchase Orders：Lince Codes/ContactList_ProcurementServices_21_2.pdf` → `procurement-and-vendors`, `curriculum-administration`
+- `Documents/Quotes 25-26/Trailer Outlet Quote_.pdf` → `trailer-compliance`, `procurement-and-vendors`
+- `Documents/Showcase Promo 2026[5].pdf` → `work-based-learning`, `student-health-and-compliance`
+- `Documents/TEKS/130.-subchapter-d-business-management-and-administration.pdf` → `curriculum-administration`, `work-based-learning`
+- `Documents/Townview Business School Leadership Campus Field Trip Proposal[17].pdf` → `financial-and-grants`, `curriculum-administration`, `student-health-and-compliance`, `work-based-learning`
+- `Documents/Triptracker 101 2025-26.pptx.pdf` → `professional-development`, `procurement-and-vendors`, `curriculum-administration`, `cte-pd-sessions`, `non-awarded-vendor-requests`
+- `Documents/WT WHite PD Roster Dallas ISD.pdf` → `professional-development`
+- `Documents/Welding -Alpha Group.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`, `procurement-and-vendors`
+- `Documents/Your trip – View reservations on aa.com - American Airlines.pdf` → —
+- `Documents/iSupplierPortalQuickReferenceCard-NewProspectiveSuppliersRegistration.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`
+- `Documents/untitled folder/Travel Forms/Expenditure Justification Form_September 2025.pdf` → `procurement-and-vendors`, `financial-and-grants`, `work-based-learning`
+- `EMT：EMR/26-27 CI Copy of Bell Schedule.docx.pdf` → `curriculum-administration`, `work-based-learning`
+- `EMT：EMR/26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `curriculum-administration`, `cte-pd-sessions`, `work-based-learning`, `professional-development`, `student-health-and-compliance`
+- `EMT：EMR/Dallas ISD_First Amendment  to extend term (1) - signed.pdf` → `student-health-and-compliance`, `professional-development`, `curriculum-administration`
+- `EMT：EMR/FOR_YOUR_SIGNATURE_Affiliation_Agreement(One[79].pdf` → `student-health-and-compliance`, `procurement-and-vendors`
+- `EMT：EMR/Signed NAF Forms 26.pdf` → `professional-development`, `perkins-management`, `procurement-and-vendors`, `financial-and-grants`
+- `Early Childhood Education.pdf` → `curriculum-administration`, `work-based-learning`, `professional-development`, `student-health-and-compliance`
+- `Ed Rising Conference Itinerary.pdf` → `curriculum-administration`, `professional-development`, `cte-pd-sessions`, `student-health-and-compliance`
+- `Editable_Non Awarded Vendor Request Form 7.2025.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `vendor-approvals`
+- `Elementary.pdf` → `curriculum-administration`, `technology-and-inventory`, `work-based-learning`
+- `Employability_Skills_Framework_OnePager_20180212.pdf` → `curriculum-administration`, `work-based-learning`, `professional-development`
+- `EnrollmentByCourse.pdf` → `curriculum-administration`
+- `Estimate_3377_from_Alpha_Education_Group[48].pdf` → `procurement-and-vendors`, `professional-development`, `curriculum-administration`, `work-based-learning`
+- `Ewing June hourlysupplementaltimecard.pdf` → `professional-development`, `curriculum-administration`
+- `Final Divorce Decree Jeremy & kelli Spence.pdf` → —
+- `Goal_Details_Report_9_39_20_AM.pdf` → —
+- `Hicks Bio.pdf` → —
+- `Hubbard June hourlysupplementaltimecard.pdf` → `work-based-learning`
+- `Intership Student Names.pdf` → `student-health-and-compliance`, `professional-development`
+- `J. Spann.pdf` → `professional-development`, `procurement-and-vendors`, `financial-and-grants`, `perkins-management`
+- `JAYDE MORALES 03.13.2009 TB LAB RESULTS.pdf` → `student-health-and-compliance`
+- `JOSEPH_THOA_GRANT TRAVEL FORM-REVISED - signed.pdf` → `financial-and-grants`, `vendor-approvals`, `student-health-and-compliance`
+- `Jeremy Spence Cover Letter NAF 2026 (1).pdf` → `professional-development`, `curriculum-administration`, `work-based-learning`
+- `Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED).pdf` → `professional-development`, `perkins-management`
+- `JeremySpenceresume 04.2026.pdf` → `curriculum-administration`, `work-based-learning`, `professional-development`
+- `JeremySpenceresume 06.2024.docx.pdf` → `professional-development`, `curriculum-administration`, `work-based-learning`
+- `Johnson July hourlysupplementaltimecard.pdf` → `curriculum-administration`
+- `Jones-Gunter THOA Travel Mileage.pdf` → `curriculum-administration`
+- `K. Jennings SkillsUsa Nationals 2025 - signed (1).pdf` → `procurement-and-vendors`, `curriculum-administration`
+- `KGeorge 25-26 Woodrow CTE Business PLC Minutes.pdf` → `curriculum-administration`, `work-based-learning`, `technology-and-inventory`, `professional-development`
+- `KGeorgeTrainingIBCs3.25.26.pdf` → `curriculum-administration`, `work-based-learning`, `technology-and-inventory`, `student-health-and-compliance`
+- `L. Sanchez-Munoz Travel form - signed.pdf` → `professional-development`, `student-health-and-compliance`
+- `Lead Teacher/SOP Materials/Federal Spend & Cooperative Contract Use.pdf` → `financial-and-grants`, `procurement-and-vendors`, `non-awarded-vendor-requests`, `curriculum-administration`
+- `Lesson Plan - Digitial Citizenship Part I.pdf` → `curriculum-administration`, `technology-and-inventory`, `work-based-learning`
+- `Lockley NAF Internship Expo Attendance and Updates 2026.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `M. Johnson June hourlysupplementaltimecard.pdf` → `work-based-learning`
+- `M. Spence 504 Plan.pdf` → `student-health-and-compliance`
+- `Mental+Health+Services+Notification.pdf` → `curriculum-administration`, `student-health-and-compliance`, `professional-development`
+- `Minor Testing Packet.pdf` → `student-health-and-compliance`
+- `NAF 2026/NAF NEXT 2026 Grant_Funded Travel Authorization Form Updated.pdf` → `professional-development`, `financial-and-grants`, `procurement-and-vendors`, `perkins-management`
+- `NAF Cover Letter.pdf` → `professional-development`, `work-based-learning`
+- `NAF Employment Application.pdf` → `work-based-learning`, `student-health-and-compliance`
+- `NAF Next 2026.pdf` → `curriculum-administration`, `procurement-and-vendors`, `professional-development`
+- `NAF Next Meeting (1).pdf` → `professional-development`, `curriculum-administration`, `work-based-learning`
+- `NAF Next Meeting.pdf` → `professional-development`, `curriculum-administration`, `work-based-learning`
+- `NAF Paperwork/Board Document 250357[69].pdf` → `procurement-and-vendors`, `work-based-learning`, `professional-development`, `curriculum-administration`
+- `NAF reciepts (1).pdf` → —
+- `NICHQ Teacher.pdf` → `student-health-and-compliance`, `procurement-and-vendors`
+- `Non Awarded Vendor Quotes/BE Publishing Non Awarded Vendor Approved.pdf` → `non-awarded-vendor-requests`, `curriculum-administration`, `procurement-and-vendors`, `curriculum-purchasing`, `financial-and-grants`
+- `Non Awarded Vendor Quotes/CTE QUOTE Dallas ISD Aug 26 2025 Digital 1 year with teacher tools MW.pdf` → `procurement-and-vendors`, `curriculum-administration`
+- `Non Awarded Vendor Quotes/Certiport Non Vendor form Approved .pdf` → `curriculum-administration`, `non-awarded-vendor-requests`, `technology-and-inventory`, `work-based-learning`, `procurement-and-vendors`
+- `Non Awarded Vendor Quotes/Code HS Approved.pdf` → `non-awarded-vendor-requests`, `curriculum-administration`, `procurement-and-vendors`, `vendor-approvals`
+- `Non Awarded Vendor Quotes/Davis Publications Non Awarded Vendor Approved.pdf` → `curriculum-administration`, `non-awarded-vendor-requests`, `procurement-and-vendors`, `vendor-approvals`
+- `Non Awarded Vendor Quotes/Goodheart Wilcox Non Awarded approved.pdf` → `curriculum-administration`, `technology-and-inventory`, `non-awarded-vendor-requests`, `procurement-and-vendors`, `work-based-learning`, `financial-and-grants`
+- `Non Awarded Vendor Quotes/National Restraunt Association Approved Quote.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `work-based-learning`, `vendor-approvals`
+- `Non Awarded Vendor Quotes/Non Awarded Vendor Request McGraw Hill Approved.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `curriculum-purchasing`, `financial-and-grants`, `vendor-approvals`
+- `Non Awarded Vendor Quotes/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf` → `technology-and-inventory`, `curriculum-administration`, `non-awarded-vendor-requests`, `procurement-and-vendors`, `financial-and-grants`, `work-based-learning`
+- `Non Awarded Vendor Quotes/Pearson Non Awarded Approved.pdf` → `non-awarded-vendor-requests`, `curriculum-purchasing`, `work-based-learning`, `procurement-and-vendors`, `vendor-approvals`, `curriculum-administration`
+- `Non Awarded Vendor Quotes/SACA_09-08-2025 Approved.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `work-based-learning`, `professional-development`, `financial-and-grants`, `curriculum-purchasing`
+- `Non-Awarded Vendor Forms approved 3/NCCER_Approved 09-12-2025.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `curriculum-administration`, `work-based-learning`, `vendor-approvals`
+- `Non-Awarded Vendor Forms approved/Alpha Education Group_Non-AwardedVendorRequestForm - signed.pdf (SECURED).pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `technology-and-inventory`, `vendor-approvals`
+- `Non-Awarded Vendor Forms approved/CLNA␠/2026-27-clna-guidebook.pdf` → `financial-and-grants`, `procurement-and-vendors`, `professional-development`, `work-based-learning`
+- `Non-Awarded Vendor Forms approved/CLNA␠/SC5600 Comprehensive Local Needs Assessment blank.pdf (SECURED).pdf` → `financial-and-grants`, `curriculum-administration`, `work-based-learning`
+- `Non-Awarded Vendor Forms approved/Career Safe-approval[30].pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `work-based-learning`, `curriculum-administration`
+- `Non-Awarded Vendor Forms approved/CareerSafe Approved.pdf` → `vendor-approvals`, `procurement-and-vendors`, `non-awarded-vendor-requests`
+- `Non-Awarded Vendor Forms approved/CompTia.pdf` → `non-awarded-vendor-requests`, `curriculum-administration`, `procurement-and-vendors`, `work-based-learning`
+- `Non-Awarded Vendor Forms approved/Stone Non-AwardedVendorRequestForm.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `vendor-approvals`
+- `Non-Awarded Vendor Forms approved/TPSA non awarded vendor form - approved for competitions[16].pdf` → `vendor-approvals`, `procurement-and-vendors`, `curriculum-administration`, `non-awarded-vendor-requests`
+- `Non-Awarded Vendor Requests Log.pdf` → `non-awarded-vendor-requests`, `procurement-and-vendors`, `curriculum-administration`, `work-based-learning`
+- `Oswaldo_IBC_Completer_Report_2024.pdf` → `work-based-learning`
+- `PATIN_TIVA-GRANT TRAVEL FORM-REVISED - signed.pdf (SECURED).pdf` → `financial-and-grants`, `curriculum-administration`, `work-based-learning`, `vendor-approvals`, `student-health-and-compliance`
+- `PD Creation Department Supplemental Pay Approval Memo .pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`, `procurement-and-vendors`
+- `Parent consent Dallas ISD.docx[18].pdf` → `student-health-and-compliance`
+- `Perkins Travel/2025-2026 Financial Services Activity Calendar[2].pdf` → `financial-and-grants`, `procurement-and-vendors`
+- `Perkins Travel/2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `curriculum-administration`, `work-based-learning`, `procurement-and-vendors`
+- `Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `curriculum-administration`, `student-health-and-compliance`
+- `Perkins Travel/Expenditure Justification Form_September 2025[72].pdf` → `procurement-and-vendors`, `financial-and-grants`, `vendor-approvals`, `perkins-management`
+- `Perkins Travel/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf` → `financial-and-grants`, `vendor-approvals`, `curriculum-administration`, `student-health-and-compliance`, `professional-development`
+- `Perkins Travel/SRFM Meal Reimbursement Guide - Revised.10.14.2025[38].pdf` → `financial-and-grants`, `curriculum-administration`
+- `Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf` → `financial-and-grants`, `procurement-and-vendors`, `non-awarded-vendor-requests`, `professional-development`
+- `Perkins-V-Funding-Distribution.pdf` → `financial-and-grants`, `curriculum-administration`, `professional-development`, `procurement-and-vendors`
+- `PerkinsV_CLNA_Template_ Guide.pdf` → `financial-and-grants`, `professional-development`, `work-based-learning`, `curriculum-administration`
+- `Procurement Services Training.pdf` → `procurement-and-vendors`, `non-awarded-vendor-requests`, `professional-development`
+- `Program Coherent Sequence.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Proposal_ Student-Run Financial Center at Townview.pdf` → `student-health-and-compliance`, `financial-and-grants`, `vendor-approvals`, `procurement-and-vendors`, `curriculum-administration`
+- `QR Sheet 2a_Stakeholder Involvement by Program-1.pdf` → `curriculum-administration`, `financial-and-grants`
+- `Receipt _ DALLAS ISD.pdf` → `curriculum-administration`
+- `Reference Latter-Myra 2026.pdf` → `procurement-and-vendors`
+- `Sample AI Prompt for Intervention Planning.pdf` → `curriculum-administration`, `work-based-learning`
+- `Sample CTE Equipment Request Form.pdf` → `non-awarded-vendor-requests`, `curriculum-administration`, `procurement-and-vendors`, `work-based-learning`
+- `Sample CTE Instructional Coaching Guidelines.pdf` → `curriculum-administration`, `technology-and-inventory`, `professional-development`
+- `Sample CW Day.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`, `cte-pd-sessions`
+- `SampleEmail.pdf` → `procurement-and-vendors`, `professional-development`
+- `Scope and Sequence Template.pdf` → `curriculum-administration`, `work-based-learning`, `technology-and-inventory`, `professional-development`
+- `SouthwestReturnCollabTripAustin (2).pdf` → `student-health-and-compliance`
+- `Spence-NAF Employment Application (1).pdf` → `professional-development`
+- `Spence-Uber-NAF Conference (1).pdf` → `professional-development`
+- `Spring Stipend CTE-additions 2026.pdf` → `professional-development`, `curriculum-administration`, `ctso-events`
+- `Standard Operting Procedures-Perkins.pdf` → `financial-and-grants`, `procurement-and-vendors`, `professional-development`
+- `StartProcess.pdf` → `non-awarded-vendor-requests`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779987132611 - Marilyn Almonaci.pdf` → `student-health-and-compliance`, `procurement-and-vendors`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779988804972 - Melissa Alonso.pdf` → `student-health-and-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779988892711 - Natalia Blas.pdf` → `student-health-and-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989208523 - Jennifer Carpio.pdf` → `student-health-and-compliance`, `curriculum-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989270536 - Emily Collins.pdf` → `student-health-and-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989419214 - Allison Garcia.pdf` → `student-health-and-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989820280 - Ariana Gomez Artica.pdf` → `student-health-and-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990127878 - Alexis Guereca.pdf` → `student-health-and-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990207966 - Ana Rivera.pdf` → `student-health-and-compliance`, `procurement-and-vendors`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990494836 - Paula Rocabruno Torralba.pdf` → `student-health-and-compliance`, `procurement-and-vendors`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990589182 - Gabriella Nunez 1.pdf` → `student-health-and-compliance`, `procurement-and-vendors`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990647956 - Gabriella Nunez 2.pdf` → `student-health-and-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990990829 - Cinthia Santoyo.pdf` → `student-health-and-compliance`, `procurement-and-vendors`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991060777 - Jayde Morales.pdf` → `student-health-and-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991144994 - Juve Mateos Mendoza.pdf` → `student-health-and-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991243234 - Isabella Guerrero.pdf` → `student-health-and-compliance`, `procurement-and-vendors`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991314944 - Treynahdee Washington.pdf` → `student-health-and-compliance`, `procurement-and-vendors`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991580729 - Gabriela Gurrola.pdf` → `student-health-and-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991987508 - Angie Gonzalez.pdf` → `student-health-and-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779992249416 - Melissa Lara.pdf` → `student-health-and-compliance`
+- `Student List_TAFE Nationals_D.O.B..pdf` → `student-health-and-compliance`
+- `Student+Code+of+Conduct.pdf` → `student-health-and-compliance`, `procurement-and-vendors`
+- `Summer PD Schedule 2026.pdf` → `professional-development`, `curriculum-administration`, `work-based-learning`, `procurement-and-vendors`, `ctso-events`, `technology-and-inventory`
+- `Supplemental_form.pdf` → `perkins-management`, `professional-development`, `financial-and-grants`
+- `TOSA Site agreement.pdf` → `student-health-and-compliance`, `procurement-and-vendors`, `vendor-approvals`, `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Tiva Milage (1).pdf` → `technology-and-inventory`
+- `Tiva classes.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`
+- `Transportation Receipt 1.pdf` → `procurement-and-vendors`
+- `Transportation Receipt 2.pdf` → `professional-development`
+- `Triptracker Cheat Sheet.pdf` → `professional-development`, `cte-pd-sessions`, `student-health-and-compliance`
+- `Trustee_CTE_Pathway_Tracker 25-26.pdf` → `curriculum-administration`, `professional-development`, `work-based-learning`, `financial-and-grants`
+- `Vehicle Check Out Form.pdf` → `work-based-learning`
+- `Vitals-Childrens-Testing Route.pdf` → `student-health-and-compliance`
+- `WBL.pdf` → `work-based-learning`, `professional-development`, `student-health-and-compliance`
+- `Workscopes_ Step #1_ Stop_and_Jot_Reflection.pdf` → `curriculum-administration`, `professional-development`
+- `Workshop Title： ＂The First 10： Maximizing Every Minute for Career Success＂.pdf` → `professional-development`, `curriculum-administration`, `work-based-learning`
+- `add_to_calendar.ics` → `financial-and-grants`, `professional-development`, `curriculum-administration`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (2).pdf` → `curriculum-administration`, `financial-and-grants`, `work-based-learning`, `mobile-lab-equipment`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030-3.pdf` → `curriculum-administration`, `financial-and-grants`, `work-based-learning`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030.pdf` → `financial-and-grants`, `curriculum-administration`, `work-based-learning`
+- `cte-indicator-auto-coder.pdf` → `procurement-and-vendors`, `student-health-and-compliance`, `curriculum-administration`
+- `cte-wbl-training-plan.pdf` → `professional-development`, `work-based-learning`, `curriculum-administration`, `procurement-and-vendors`
+- `dallasisd-c806afc9-2f9e-49cd-ac0e-ef32f1f8d951_SessionUsersTemplate.pdf` → `vendor-approvals`
+- `eDynamic Quote - Principles of IT - 3YR - R. Howard_V1.pdf` → `curriculum-administration`, `work-based-learning`, `procurement-and-vendors`
+- `edit.pdf` → `vendor-approvals`
+- `hourlysupplementaltimecard.pdf` → `work-based-learning`
+- `industry-based-certifications-earned-sy2022-23.pdf` → `curriculum-administration`, `work-based-learning`, `professional-development`
+- `invite (1).ics` → —
+- `invite.ics` → `trailer-compliance`, `professional-development`, `work-based-learning`
+- `outlook (1).vcs` → `curriculum-administration`, `professional-development`
+- `outlook.vcs` → `curriculum-administration`, `work-based-learning`, `professional-development`
+- `p2024-list-of-materials-adopted-by-sboe.pdf` → `curriculum-administration`, `work-based-learning`
+- `perkinsplanupdatefinalrevised.pdf` → `financial-and-grants`, `professional-development`, `work-based-learning`
+- `preliminary-2025-2030-ibc-to-program-of-study-crosswalk.pdf` → `work-based-learning`, `professional-development`, `curriculum-administration`
+- `receipt_3753bb7b-ce7f-4d0d-aa08-a0855cc82eb2.pdf` → `student-health-and-compliance`
+- `receipt_794bfc62-f72b-4f6c-af27-9092300445dc (1).pdf` → —
+- `receipt_c88da51b-4d66-4f7d-93a2-a76e949fab6c (1).pdf` → —
+- `regional-labor-market-information-wda-5.pdf` → `work-based-learning`, `student-health-and-compliance`, `curriculum-administration`, `professional-development`
+- `regional-labor-market-information-wda-6.pdf` → `work-based-learning`, `professional-development`
+- `tiva 4/7-18-2025 (2).pdf` → —

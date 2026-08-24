@@ -1,0 +1,223 @@
+# Auto-stitched from Pass A tags. Edit freely; this becomes the handoff map seed.
+# built_at: 2026-08-20T14:40:08+00:00
+regions:
+  - id: curriculum-and-instruction
+    label: "Curriculum & Instruction"
+    description: "Core planning, pacing, alignment, and program mapping documents."
+    tags:
+      - "curriculum-admin"
+      - "curriculum-pacing"
+      - "programs-of-study"
+      - "course-mapping"
+      - "cte-program-planning"
+      - "comprehensive-local-needs-assessment"
+    children:
+      - id: curriculum-alignment
+        label: "Curriculum Alignment"
+        description: "Cross-referencing standards and scope."
+        tags:
+          - "curriculum-alignment"
+        children: []
+      - id: classroom-management
+        label: "Classroom Management"
+        description: "Behavioral frameworks and bell schedules."
+        tags:
+          - "classroom-management"
+          - "bell-schedule"
+        children: []
+      - id: career-clusters
+        label: "Career Clusters"
+        description: "Pathway grouping and exploration materials."
+        tags:
+          - "career-clusters"
+          - "career-exploration"
+        children: []
+  - id: professional-development
+    label: "Professional Development"
+    description: "Training schedules, conference logistics, and instructional technology integration."
+    tags:
+      - "professional-development"
+      - "summer-2026-cte"
+      - "7-hour-training"
+      - "conference-attendance"
+      - "ai-integration"
+      - "technology-integration"
+    children:
+      - id: eif-pathful-training
+        label: "EIF & Pathful Training"
+        description: "Platform onboarding and VR lab simulations."
+        tags:
+          - "eif-pathful-training"
+          - "training-hours-7"
+        children: []
+  - id: health-and-compliance
+    label: "Health & Compliance"
+    description: "Student immunization records, TB screening protocols, and medical verification."
+    tags:
+      - "student-record"
+      - "dallas-isd-health-services"
+      - "quantiferon-gold-plus"
+      - "tb-testing"
+      - "vaccination-history"
+      - "imm-trac"
+    children:
+      - id: lab-results
+        label: "Lab Results & Reports"
+        description: "Medical lab PDFs and screening outcomes."
+        tags:
+          - "lab-results"
+          - "medical-record"
+        children: []
+      - id: school-entry-compliance
+        label: "School Entry Compliance"
+        description: "Mandatory health forms for new enrollments."
+        tags:
+          - "school-entry-compliance"
+          - "medical-compliance"
+        children: []
+  - id: procurement-and-vendors
+    label: "Procurement & Vendors"
+    description: "Purchase requests, vendor approvals, and mobile lab trailer logistics."
+    tags:
+      - "purchasing-quote"
+      - "non-awarded-vendor-request-form"
+      - "procurement-justification"
+      - "vendor-approval"
+      - "trailer-compliance"
+      - "mobile-lab"
+    children:
+      - id: quote-2025
+        label: "Quote Management"
+        description: "Vendor pricing and sole-source justifications."
+        tags:
+          - "quote-2025"
+          - "approved-vendor-form"
+        children: []
+      - id: agreements-dallasisd-org
+        label: "District Agreements"
+        description: "Formal vendor contracts and compliance submissions."
+        tags:
+          - "agreements-dallasisd-org"
+          - "vendor-request-form"
+        children: []
+  - id: finance-and-grants
+    label: "Finance & Grants"
+    description: "Perkins funding allocations, stipend tracking, and travel reimbursement."
+    tags:
+      - "perkins-grant"
+      - "stipend-2025-2026"
+      - "expenditure-justification-form"
+      - "travel-authorization"
+      - "timecard-documentation"
+      - "special-revenue-funds"
+    children:
+      - id: budget-tracker
+        label: "Budget Tracking"
+        description: "Fund allocation spreadsheets and expenditure logs."
+        tags:
+          - "budget-tracker"
+          - "supplemental-compensation"
+        children: []
+      - id: reimbursement-voucher
+        label: "Reimbursements & Travel"
+        description: "Mileage logs, travel forms, and voucher processing."
+        tags:
+          - "reimbursement-voucher"
+          - "mileage-log"
+        children: []
+  - id: student-pathways-and-wbl
+    label: "Student Pathways & WBL"
+    description: "Career institute operations, industry certifications, and work-based learning coordination."
+    tags:
+      - "work-based-learning"
+      - "industry-based-certification"
+      - "career-institute-north"
+      - "high-school-cte"
+      - "employability-skills"
+      - "cooperative-learning"
+    children:
+      - id: middle-school-cte
+        label: "Middle School CTE"
+        description: "Early pathway exposure and course codes."
+        tags:
+          - "middle-school-cte"
+          - "career-readiness"
+        children: []
+      - id: advisory-council
+        label: "Advisory Councils"
+        description: "Industry partner meetings and stakeholder feedback."
+        tags:
+          - "advisory-council"
+          - "stakeholder-engagement"
+        children: []
+  - id: events-and-showcase
+    label: "Events & Showcase"
+    description: "Annual CTE showcases, conference logistics, and board reporting cycles."
+    tags:
+      - "showcase-2026"
+      - "conference-2025"
+      - "board-agenda-item-2026"
+      - "ctso-fundraising"
+      - "year-of-planning"
+      - "conference-travel"
+    children:
+      - id: session-attendance
+        label: "Session Tracking"
+        description: "Event sign-ins and attendance logs."
+        tags:
+          - "session-attendance"
+          - "program-evaluation"
+        children: []
+      - id: reporting-cycles
+        label: "Reporting Cycles"
+        description: "Annual performance metrics and deadline tracking."
+        tags:
+          - "2026-report-date"
+          - "ctso-best-practices"
+          - "needs-assessment"
+        children: []
+  - id: needs-review
+    label: "Needs review"
+    description: "Singleton or unmatched tags the compact stitch did not place."
+    tags:
+      - "scheduling"
+      - "pd-kickoff"
+      - "keynote-speaker"
+      - "wbl-what-does-this-look-like"
+      - "ai-lessons"
+      - "google-gemini-notebooklm"
+      - "certiport"
+      - "everfi"
+      - "icev"
+      - "eduthings"
+      - "mad-learn"
+      - "internship-dos-donts"
+      - "tax_financial"
+      - "2018_tax_return"
+      - "irs_form_1040"
+      - "spence_family"
+      - "wages_business_income"
+      - "self_employment_tax"
+      - "filing_status_married_jointly"
+      - "taxpayer_ssn_present"
+      - "dependents_claimed"
+      - "tax_preparation_2018"
+      - "internal_revenue_service"
+      - "2023_tax_return"
+      - "individual_income_tax"
+      - "wage_income"
+      - "child_tax_credit"
+      - "clean_energy_credit"
+      - "dependent_care_expenses"
+      - "tax_preparation"
+      - "filing_status_single"
+      - "tax_owed"
+      - "refundable_credits"
+      - "irs_2023"
+      - "w2_form"
+      - "2024_tax_year"
+      - "withholding_statement"
+      - "ssn_present"
+      - "payroll_document"
+      - "disd_employer"
+    children: []

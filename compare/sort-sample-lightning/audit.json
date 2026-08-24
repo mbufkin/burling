@@ -1,0 +1,288 @@
+{
+  "meta": {
+    "built_at": "2026-08-20T19:31:23+00:00",
+    "group_max": 12,
+    "chunks": 8,
+    "findings": 1
+  },
+  "findings": [
+    {
+      "kind": "unassigned",
+      "region_id": "__unassigned__",
+      "detail": "3 files have no region_ids",
+      "docs": 3
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "environment#00",
+      "region_id": "environment",
+      "label": "Environment & Ecology",
+      "chunked": false,
+      "group_file_count": 3,
+      "chunk_index": 0,
+      "chunk_count": 1,
+      "paths": [
+        "env-air-quality-brief.txt",
+        "env-recycling-audit.txt",
+        "env-wetland-survey.txt"
+      ],
+      "result": {
+        "status": "done",
+        "at": "2026-08-20T19:30:57+00:00",
+        "group_notes": "The three files are loosely related to environmental monitoring, but two have strong secondary associations that create grouping friction. The air quality brief is a clean fit, while the recycling audit and wetland survey each reference other domains (transport and agriculture-environment respectively), making the group feel mixed rather than cohesive.",
+        "files": [
+          {
+            "rel_path": "env-air-quality-brief.txt",
+            "verdict": "confirm",
+            "better_home": "",
+            "reason": "The air quality brief focuses on PM2.5 monitoring and wood-stove regulations, which aligns directly with environment monitoring."
+          },
+          {
+            "rel_path": "env-recycling-audit.txt",
+            "verdict": "wrong-parent",
+            "better_home": "transport",
+            "reason": "The recycling audit’s primary focus is contamination rates and MRF operations, and its tags explicitly list transport as a secondary category, indicating it belongs in the transport group."
+          },
+          {
+            "rel_path": "env-wetland-survey.txt",
+            "verdict": "wrong-parent",
+            "better_home": "agriculture-environment",
+            "reason": "The wetland survey documents bird observations and ditch management for nesting protection, and its tags reference agriculture-environment, showing it is better suited to that subtopic."
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "health#00",
+      "region_id": "health",
+      "label": "Health & Wellness",
+      "chunked": false,
+      "group_file_count": 3,
+      "chunk_index": 0,
+      "chunk_count": 1,
+      "paths": [
+        "health-clinic-hours.txt",
+        "health-heat-advisory.txt",
+        "health-vaccine-faq.txt"
+      ],
+      "result": {
+        "status": "done",
+        "at": "2026-08-20T19:31:02+00:00",
+        "group_notes": "This group is coherent and well-aligned. All three files directly relate to clinic operations, vaccinations, and heat safety as described in the group summary. The files cover administrative hours, heat safety for workers, and vaccination requirements, which are all core topics for a Health & Wellness section.",
+        "files": [
+          {
+            "rel_path": "health-clinic-hours.txt",
+            "verdict": "confirm",
+            "better_home": "",
+            "reason": "The file documents walk-in hours and flu shot availability for a community health clinic, which fits squarely within the Health & Wellness group."
+          },
+          {
+            "rel_path": "health-heat-advisory.txt",
+            "verdict": "confirm",
+            "better_home": "",
+            "reason": "The file provides a heat advisory with safety protocols for outdoor workers, directly matching the heat safety topic in the group description."
+          },
+          {
+            "rel_path": "health-vaccine-faq.txt",
+            "verdict": "confirm",
+            "better_home": "",
+            "reason": "The file outlines school vaccination requirements and immunization records, which aligns with the vaccination topic in the group description."
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "finance#00",
+      "region_id": "finance",
+      "label": "Personal Finance",
+      "chunked": false,
+      "group_file_count": 3,
+      "chunk_index": 0,
+      "chunk_count": 1,
+      "paths": [
+        "finance-budget-worksheet.txt",
+        "finance-savings-goal.txt",
+        "finance-tax-checklist.txt"
+      ],
+      "result": {
+        "status": "done",
+        "at": "2026-08-20T19:31:06+00:00",
+        "group_notes": "This group is coherent and well-placed. All three files are explicitly about personal finance topics—budgeting, savings goals, and tax preparation—matching the group description. No files appear misplaced or in need of relocation.",
+        "files": [
+          {
+            "rel_path": "finance-budget-worksheet.txt",
+            "verdict": "confirm",
+            "better_home": "",
+            "reason": "The file's focus on household budgeting and personal finance aligns directly with the group's purpose."
+          },
+          {
+            "rel_path": "finance-savings-goal.txt",
+            "verdict": "confirm",
+            "better_home": "",
+            "reason": "The emergency-fund and savings goal content is a core personal finance topic fitting this group."
+          },
+          {
+            "rel_path": "finance-tax-checklist.txt",
+            "verdict": "confirm",
+            "better_home": "",
+            "reason": "The tax preparation checklist is a standard personal finance document appropriate for this group."
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "sports#00",
+      "region_id": "sports",
+      "label": "Sports & Recreation",
+      "chunked": false,
+      "group_file_count": 2,
+      "chunk_index": 0,
+      "chunk_count": 1,
+      "paths": [
+        "sports-pool-schedule.txt",
+        "sports-trail-race.txt"
+      ],
+      "result": {
+        "status": "done",
+        "at": "2026-08-20T19:31:10+00:00",
+        "group_notes": "This group contains two files that are both directly related to sports and recreation, but they cover distinct sub-areas: one focuses on facility scheduling for an indoor pool, and the other on volunteer coordination for a trail race. Together they fit the 'Sports & Recreation' theme, though they represent different types of activities (facility management vs. event volunteering).",
+        "files": [
+          {
+            "rel_path": "sports-pool-schedule.txt",
+            "verdict": "confirm",
+            "better_home": "",
+            "reason": "The file's focus on indoor pool scheduling and lessons is a appropriate fit for the Sports & Recreation group."
+          },
+          {
+            "rel_path": "sports-trail-race.txt",
+            "verdict": "confirm",
+            "better_home": "",
+            "reason": "The file's content about trail race volunteer briefings and running events is a appropriate fit for the Sports & Recreation group."
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "sports-league#00",
+      "region_id": "sports-league",
+      "label": "League & Tournament Operations",
+      "chunked": false,
+      "group_file_count": 2,
+      "chunk_index": 0,
+      "chunk_count": 1,
+      "paths": [
+        "sports-league-standings.txt",
+        "transport-rail-timetable.txt"
+      ],
+      "result": {
+        "status": "done",
+        "at": "2026-08-20T19:31:13+00:00",
+        "group_notes": "The group contains two files with unrelated content. One is a sports league standings update, while the other is a rail timetable with engineering blockades. Together they do not form a coherent administrative unit for league operations.",
+        "files": [
+          {
+            "rel_path": "sports-league-standings.txt",
+            "verdict": "confirm",
+            "better_home": "",
+            "reason": "This file contains basketball league standings and protest details, which aligns with the group's focus on organized sports competition administration."
+          },
+          {
+            "rel_path": "transport-rail-timetable.txt",
+            "verdict": "wrong-parent",
+            "better_home": "transport-rail",
+            "reason": "This file is a rail timetable with engineering information; it belongs in the transport-rail branch rather than sports league operations."
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "transport-bike#00",
+      "region_id": "transport-bike",
+      "label": "Bike Infrastructure",
+      "chunked": false,
+      "group_file_count": 1,
+      "chunk_index": 0,
+      "chunk_count": 1,
+      "paths": [
+        "transport-bike-lane-memo.txt"
+      ],
+      "result": {
+        "status": "done",
+        "at": "2026-08-20T19:31:15+00:00",
+        "group_notes": "The single file in this group is a planning memo about a protected bike lane, which aligns directly with the group's focus on protected lanes and cycle tracks. It is a correct home for this content.",
+        "files": [
+          {
+            "rel_path": "transport-bike-lane-memo.txt",
+            "verdict": "confirm",
+            "better_home": "",
+            "reason": "The memo details a protected bike lane conversion and rider counts, fitting the group's purpose."
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "transport-rail#00",
+      "region_id": "transport-rail",
+      "label": "Rail & Harbor Operations",
+      "chunked": false,
+      "group_file_count": 1,
+      "chunk_index": 0,
+      "chunk_count": 1,
+      "paths": [
+        "transport-harbor-pilot.txt"
+      ],
+      "result": {
+        "status": "done",
+        "at": "2026-08-20T19:31:18+00:00",
+        "group_notes": "The single file in this group is about harbor pilotage and port operations, which falls squarely under maritime domain. The group label 'Rail & Harbor Operations' is too broad and conflates rail and maritime topics, making this placement a mismatch.",
+        "files": [
+          {
+            "rel_path": "transport-harbor-pilot.txt",
+            "verdict": "wrong-parent",
+            "better_home": "transport",
+            "reason": "This file covers harbor pilotage and port logistics, which is maritime, not rail operations."
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "__unassigned__#00",
+      "region_id": "__unassigned__",
+      "label": "Unassigned",
+      "chunked": false,
+      "group_file_count": 3,
+      "chunk_index": 0,
+      "chunk_count": 1,
+      "paths": [
+        "ag-irrigation-schedule.txt",
+        "ag-seed-catalog-notes.txt",
+        "ag-soil-test.txt"
+      ],
+      "result": {
+        "status": "done",
+        "at": "2026-08-20T19:31:23+00:00",
+        "group_notes": "This group is the designated unassigned bucket for files that do not fit into the defined topic categories. All three files are agriculture-related but lack a clear primary category among the available options, making them appropriate placeholders here pending further classification.",
+        "files": [
+          {
+            "rel_path": "ag-irrigation-schedule.txt",
+            "verdict": "wrong-parent",
+            "better_home": "environment",
+            "reason": "The file focuses on drip irrigation scheduling and moisture management, which aligns more closely with environmental stewardship and resource management than the other available categories."
+          },
+          {
+            "rel_path": "ag-seed-catalog-notes.txt",
+            "verdict": "wrong-parent",
+            "better_home": "environment",
+            "reason": "The notes document germination results and cover-crop ordering, which are fundamentally about plant biology and ecological growing practices, fitting better under environment than the other listed topics."
+          },
+          {
+            "rel_path": "ag-soil-test.txt",
+            "verdict": "wrong-parent",
+            "better_home": "environment",
+            "reason": "The soil test summary and lime recommendation are agricultural practices, but soil health and testing are core environmental science topics that belong in the environment category rather than the other available options."
+          }
+        ]
+      }
+    }
+  ]
+}
