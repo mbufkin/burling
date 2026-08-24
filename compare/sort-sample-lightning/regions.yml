@@ -1,0 +1,291 @@
+# Auto-stitched from Pass A tags. Edit freely; this becomes the browse-map seed.
+# built_at: 2026-08-20T19:29:24+00:00
+regions:
+  - id: agriculture
+    label: "Agriculture & Farming"
+    description: "Farm operations, soil management, and irrigation systems"
+    tags:
+      - "agricultural-soil-test"
+      - "cover-crop"
+      - "drip-irrigation"
+      - "even-days"
+      - "filter-flush"
+      - "fruit-set-observation"
+      - "harvest-management"
+      - "orchard-maintenance"
+      - "planting-log"
+      - "watering-schedule"
+    children:
+      - id: agriculture-soil
+        label: "Soil & Amendments"
+        description: "Soil testing, amendments, and cover cropping"
+        tags:
+          - "agricultural-soil-test"
+          - "cover-crop"
+          - "clover"
+          - "east-field"
+          - "lime-application"
+          - "maize"
+          - "organic-matter"
+          - "phosphorus-low"
+          - "potassium-adequate"
+          - "south-strip"
+        children: []
+      - id: agriculture-irrigation
+        label: "Irrigation & Water Management"
+        description: "Drip systems, scheduling, and water conservation"
+        tags:
+          - "drip-irrigation"
+          - "even-days"
+          - "filter-flush"
+          - "fruit-set-observation"
+          - "orchard-maintenance"
+          - "watering-schedule"
+          - "windbreak-management"
+        children: []
+  - id: environment
+    label: "Environment & Ecology"
+    description: "Air quality, recycling, and wetland monitoring"
+    tags:
+      - "air-quality-brief"
+      - "contamination-audit"
+      - "ditch-cleanout"
+      - "environmental-monitoring"
+      - "habitat-management"
+      - "mrr-rejection-threshold"
+      - "nesting-season"
+      - "oxbow-marsh"
+      - "species-count"
+      - "water-level"
+    children:
+      - id: environment-air
+        label: "Air Quality"
+        description: "Monitoring, alerts, and pollution control"
+        tags:
+          - "air-quality-brief"
+          - "pm25"
+          - "inversion-morning"
+          - "valley-floor-advisory"
+          - "wood-stove-curtailment"
+          - "stage-1-alert"
+          - "environmental-monitoring"
+          - "air-pollution"
+        children: []
+      - id: environment-recycling
+        label: "Recycling & Waste"
+        description: "Municipal recycling, contamination, and MRF operations"
+        tags:
+          - "blue-bin-recycling"
+          - "contamination-audit"
+          - "food-soiled-cardboard"
+          - "mrf-rejection-threshold"
+          - "municipal-recycling"
+          - "plastic-bags-recycling"
+          - "sticker-campaign"
+        children: []
+      - id: environment-wetland
+        label: "Wetland & Wildlife"
+        description: "Wetland surveys, bird monitoring, and habitat management"
+        tags:
+          - "ditch-cleanout"
+          - "habitat-management"
+          - "nesting-season"
+          - "oxbow-marsh"
+          - "species-count"
+          - "water-level"
+          - "wetland-bird-survey"
+          - "wetland-ecology"
+          - "wildlife-survey"
+        children: []
+  - id: finance
+    label: "Personal Finance"
+    description: "Budgeting, tax preparation, and savings planning"
+    tags:
+      - "automatic-transfer"
+      - "budget-adjustment"
+      - "budget-planning"
+      - "car-insurance-sinking-fund"
+      - "expense-management"
+      - "estimated-payments"
+      - "financial-management"
+      - "groceries"
+      - "monthly-budget"
+      - "rent"
+    children:
+      - id: finance-tax
+        label: "Tax Preparation"
+        description: "Checklists, forms, and year-end tax filing"
+        tags:
+          - "1098-mortgage-interest"
+          - "charitable-receipts"
+          - "estimated-payments"
+          - "practice-list"
+          - "single-filing-status"
+          - "tax-checklist"
+          - "tax-preparation"
+          - "w-2-lookalikes"
+          - "year-end-tax"
+        children: []
+      - id: finance-savings
+        label: "Savings & Planning"
+        description: "Emergency funds, goal setting, and budget tracking"
+        tags:
+          - "automatic-transfer"
+          - "budget-planning"
+          - "emergency-fund"
+          - "financial-management"
+          - "monthly-budget"
+          - "savings-goal"
+          - "travel-envelope"
+        children: []
+  - id: health
+    label: "Health & Wellness"
+    description: "Clinic operations, vaccinations, and heat safety"
+    tags:
+      - "after-hours-clinic"
+      - "clinic-hours"
+      - "extreme-heat"
+      - "flu-shot-clinic"
+      - "health-vaccine-faq"
+      - "heat-advisory"
+      - "immunization-clinic"
+      - "walk-in-clinic"
+      - "well-child-visits"
+      - "water-requirement"
+    children:
+      - id: health-vaccines
+        label: "Vaccination & Immunization"
+        description: "FAQs, school policies, and immunization records"
+        tags:
+          - "county-board-policy"
+          - "health-vaccine-faq"
+          - "immunization-record"
+          - "measles-mumps-rubella"
+          - "philosophical-exemption"
+          - "sixth-grade-entry"
+          - "two-dose-schedule"
+        children: []
+      - id: health-safety
+        label: "Heat & Worker Safety"
+        description: "Advisories, mandatory breaks, and outdoor-work protocols"
+        tags:
+          - "extreme-heat"
+          - "heat-advisory"
+          - "heat-index"
+          - "mandatory-breaks"
+          - "outdoor-workers"
+          - "roof-work-cancellation"
+          - "water-requirement"
+          - "worker-safety"
+        children: []
+  - id: sports
+    label: "Sports & Recreation"
+    description: "League operations, race events, and facility scheduling"
+    tags:
+      - "aid-station"
+      - "basketball-standings"
+      - "dive-well"
+      - "filter-maintenance"
+      - "harbor-five"
+      - "lessons"
+      - "mile-8-4"
+      - "recreational-basketball"
+      - "sports-facility"
+      - "trail-race"
+    children:
+      - id: sports-league
+        label: "League & Tournament Operations"
+        description: "Standings, scheduling, and game management"
+        tags:
+          - "basketball-standings"
+          - "makeup-games-elementary-gym"
+          - "recreational-basketball"
+          - "scorebook-required"
+          - "travel-call-dispute"
+          - "week-four-protest"
+          - "weekend-engineering"
+        children: []
+      - id: sports-facility
+        label: "Facility & Race Support"
+        description: "Course logistics, aid stations, and volunteer coordination"
+        tags:
+          - "aid-station"
+          - "aid-station-2"
+          - "fire-road-shared-use"
+          - "horse-share"
+          - "mile-8-4"
+          - "sweep-crew"
+          - "trail-race-volunteer-brief"
+          - "volunteer-guidance"
+        children: []
+  - id: transport
+    label: "Transportation & Infrastructure"
+    description: "Bike lanes, rail schedules, and harbor operations"
+    tags:
+      - "bike-lane"
+      - "container-ship"
+      - "corridor-improvement"
+      - "cycle-track"
+      - "estuary-fog"
+      - "harbor-pilot"
+      - "leading-interval"
+      - "parking-lane-conversion"
+      - "rail-timetable"
+      - "tug-availability"
+    children:
+      - id: transport-bike
+        label: "Bike Infrastructure"
+        description: "Protected lanes, cycle tracks, and ridership data"
+        tags:
+          - "bike-lane"
+          - "cycle-track"
+          - "leading-interval"
+          - "maple-avenue"
+          - "parking-lane-conversion"
+          - "protected-bike-lane"
+          - "weekday-ridership"
+        children: []
+      - id: transport-rail
+        label: "Rail & Harbor Operations"
+        description: "Timetables, ferry operations, and freight coordination"
+        tags:
+          - "bridge-blockade"
+          - "container-ship"
+          - "estuary-fog"
+          - "freight-yard"
+          - "licensed-pilot"
+          - "rail-timetable"
+          - "replacement-buses"
+          - "tug-availability"
+        children: []
+  - id: needs-review
+    label: "Needs review"
+    description: "Singleton or unmatched tags the compact stitch did not place."
+    tags:
+      - "seed-catalog"
+      - "open-pollinated"
+      - "tomato"
+      - "Amish-Paste"
+      - "hybrid-sweetcorn"
+      - "germination-rate"
+      - "order-notes"
+      - "personal-finance"
+      - "transit"
+      - "essential-expenses"
+      - "community-health-access"
+      - "local-league-results"
+      - "indoor-pool"
+      - "november"
+      - "lap-swim"
+      - "adult-fitness"
+      - "pool-operations"
+      - "running-event"
+      - "traffic-signal"
+      - "counts-data"
+      - "port-operations"
+      - "berth-delay"
+      - "buoy-12"
+      - "north-line"
+      - "express-trains"
+      - "suburban-stops"
+    children: []

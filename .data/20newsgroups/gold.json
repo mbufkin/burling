@@ -1,0 +1,2402 @@
+{
+  "a5e64b7e491c.txt": {
+    "gold_rel": "belief/atheism/54126.txt",
+    "paths": [
+      "belief/atheism"
+    ]
+  },
+  "f04eb1b8fe96.txt": {
+    "gold_rel": "belief/atheism/53455.txt",
+    "paths": [
+      "belief/atheism"
+    ]
+  },
+  "bb6df7217bd6.txt": {
+    "gold_rel": "belief/atheism/54164.txt",
+    "paths": [
+      "belief/atheism"
+    ]
+  },
+  "b216f3f57239.txt": {
+    "gold_rel": "belief/atheism/53319.txt",
+    "paths": [
+      "belief/atheism"
+    ]
+  },
+  "fd2f5ffd7f2b.txt": {
+    "gold_rel": "belief/atheism/54137.txt",
+    "paths": [
+      "belief/atheism"
+    ]
+  },
+  "101f3b5b0ed7.txt": {
+    "gold_rel": "belief/atheism/53677.txt",
+    "paths": [
+      "belief/atheism"
+    ]
+  },
+  "32fb80cc48e1.txt": {
+    "gold_rel": "belief/atheism/53791.txt",
+    "paths": [
+      "belief/atheism"
+    ]
+  },
+  "8d1bd4abc361.txt": {
+    "gold_rel": "belief/atheism/53424.txt",
+    "paths": [
+      "belief/atheism"
+    ]
+  },
+  "5f753a9724bb.txt": {
+    "gold_rel": "belief/atheism/54259.txt",
+    "paths": [
+      "belief/atheism"
+    ]
+  },
+  "6ec46115177a.txt": {
+    "gold_rel": "belief/atheism/53496.txt",
+    "paths": [
+      "belief/atheism"
+    ]
+  },
+  "00451f0d5bb2.txt": {
+    "gold_rel": "belief/atheism/53540.txt",
+    "paths": [
+      "belief/atheism"
+    ]
+  },
+  "53777e19c751.txt": {
+    "gold_rel": "belief/atheism/53632.txt",
+    "paths": [
+      "belief/atheism"
+    ]
+  },
+  "3e274da5d0a3.txt": {
+    "gold_rel": "belief/atheism/54143.txt",
+    "paths": [
+      "belief/atheism"
+    ]
+  },
+  "1cb93321f53f.txt": {
+    "gold_rel": "belief/atheism/53473.txt",
+    "paths": [
+      "belief/atheism"
+    ]
+  },
+  "803edb5ca807.txt": {
+    "gold_rel": "belief/atheism/54253.txt",
+    "paths": [
+      "belief/atheism"
+    ]
+  },
+  "c928f648f751.txt": {
+    "gold_rel": "belief/atheism/53581.txt",
+    "paths": [
+      "belief/atheism"
+    ]
+  },
+  "b6644180bf7f.txt": {
+    "gold_rel": "belief/atheism/53589.txt",
+    "paths": [
+      "belief/atheism"
+    ]
+  },
+  "2f57d2f18fff.txt": {
+    "gold_rel": "belief/atheism/53598.txt",
+    "paths": [
+      "belief/atheism"
+    ]
+  },
+  "a02ee617bc3a.txt": {
+    "gold_rel": "belief/atheism/53068.txt",
+    "paths": [
+      "belief/atheism"
+    ]
+  },
+  "7e3ab26a2894.txt": {
+    "gold_rel": "belief/atheism/53676.txt",
+    "paths": [
+      "belief/atheism"
+    ]
+  },
+  "66e5ecb00646.txt": {
+    "gold_rel": "computing/graphics/38902.txt",
+    "paths": [
+      "computing/graphics"
+    ]
+  },
+  "79729015e965.txt": {
+    "gold_rel": "computing/graphics/39004.txt",
+    "paths": [
+      "computing/graphics"
+    ]
+  },
+  "ca5dc46bbb93.txt": {
+    "gold_rel": "computing/graphics/38838.txt",
+    "paths": [
+      "computing/graphics"
+    ]
+  },
+  "30f8e92fd05f.txt": {
+    "gold_rel": "computing/graphics/39050.txt",
+    "paths": [
+      "computing/graphics"
+    ]
+  },
+  "d8563e36711e.txt": {
+    "gold_rel": "computing/graphics/39496.txt",
+    "paths": [
+      "computing/graphics"
+    ]
+  },
+  "6eea732ee8ed.txt": {
+    "gold_rel": "computing/graphics/39048.txt",
+    "paths": [
+      "computing/graphics"
+    ]
+  },
+  "62d269ab7c3b.txt": {
+    "gold_rel": "computing/graphics/39674.txt",
+    "paths": [
+      "computing/graphics"
+    ]
+  },
+  "66e946668fc1.txt": {
+    "gold_rel": "computing/graphics/38949.txt",
+    "paths": [
+      "computing/graphics"
+    ]
+  },
+  "495d2443528b.txt": {
+    "gold_rel": "computing/graphics/39673.txt",
+    "paths": [
+      "computing/graphics"
+    ]
+  },
+  "bb3057039455.txt": {
+    "gold_rel": "computing/graphics/39626.txt",
+    "paths": [
+      "computing/graphics"
+    ]
+  },
+  "eda0d1f98c96.txt": {
+    "gold_rel": "computing/graphics/38960.txt",
+    "paths": [
+      "computing/graphics"
+    ]
+  },
+  "4372a083cb6b.txt": {
+    "gold_rel": "computing/graphics/38808.txt",
+    "paths": [
+      "computing/graphics"
+    ]
+  },
+  "dca25b71d3ff.txt": {
+    "gold_rel": "computing/graphics/39667.txt",
+    "paths": [
+      "computing/graphics"
+    ]
+  },
+  "4dde1234ecbb.txt": {
+    "gold_rel": "computing/graphics/38800.txt",
+    "paths": [
+      "computing/graphics"
+    ]
+  },
+  "5f96f3089969.txt": {
+    "gold_rel": "computing/graphics/38833.txt",
+    "paths": [
+      "computing/graphics"
+    ]
+  },
+  "4c694c6a72b4.txt": {
+    "gold_rel": "computing/graphics/39049.txt",
+    "paths": [
+      "computing/graphics"
+    ]
+  },
+  "6bb97acbf53b.txt": {
+    "gold_rel": "computing/graphics/38848.txt",
+    "paths": [
+      "computing/graphics"
+    ]
+  },
+  "d1424cb57aaf.txt": {
+    "gold_rel": "computing/graphics/38804.txt",
+    "paths": [
+      "computing/graphics"
+    ]
+  },
+  "b157b1a4624c.txt": {
+    "gold_rel": "computing/graphics/38863.txt",
+    "paths": [
+      "computing/graphics"
+    ]
+  },
+  "8f181d8084d9.txt": {
+    "gold_rel": "computing/graphics/38776.txt",
+    "paths": [
+      "computing/graphics"
+    ]
+  },
+  "3026f7e4447c.txt": {
+    "gold_rel": "computing/os-ms-windows-misc/10019.txt",
+    "paths": [
+      "computing/os-ms-windows-misc"
+    ]
+  },
+  "325e5975659b.txt": {
+    "gold_rel": "computing/os-ms-windows-misc/10647.txt",
+    "paths": [
+      "computing/os-ms-windows-misc"
+    ]
+  },
+  "d94d75be788c.txt": {
+    "gold_rel": "computing/os-ms-windows-misc/10602.txt",
+    "paths": [
+      "computing/os-ms-windows-misc"
+    ]
+  },
+  "81c7b03e2f2d.txt": {
+    "gold_rel": "computing/os-ms-windows-misc/10072.txt",
+    "paths": [
+      "computing/os-ms-windows-misc"
+    ]
+  },
+  "1dad60dd8bf4.txt": {
+    "gold_rel": "computing/os-ms-windows-misc/10037.txt",
+    "paths": [
+      "computing/os-ms-windows-misc"
+    ]
+  },
+  "07ce45ff4824.txt": {
+    "gold_rel": "computing/os-ms-windows-misc/10097.txt",
+    "paths": [
+      "computing/os-ms-windows-misc"
+    ]
+  },
+  "7516eeb766f5.txt": {
+    "gold_rel": "computing/os-ms-windows-misc/10065.txt",
+    "paths": [
+      "computing/os-ms-windows-misc"
+    ]
+  },
+  "4bdc0d958258.txt": {
+    "gold_rel": "computing/os-ms-windows-misc/10818.txt",
+    "paths": [
+      "computing/os-ms-windows-misc"
+    ]
+  },
+  "0b16f545c6d4.txt": {
+    "gold_rel": "computing/os-ms-windows-misc/10152.txt",
+    "paths": [
+      "computing/os-ms-windows-misc"
+    ]
+  },
+  "091dcacfd13e.txt": {
+    "gold_rel": "computing/os-ms-windows-misc/10935.txt",
+    "paths": [
+      "computing/os-ms-windows-misc"
+    ]
+  },
+  "75fdea43909c.txt": {
+    "gold_rel": "computing/os-ms-windows-misc/10799.txt",
+    "paths": [
+      "computing/os-ms-windows-misc"
+    ]
+  },
+  "76f606ed3e71.txt": {
+    "gold_rel": "computing/os-ms-windows-misc/10841.txt",
+    "paths": [
+      "computing/os-ms-windows-misc"
+    ]
+  },
+  "9dd5f14accf8.txt": {
+    "gold_rel": "computing/os-ms-windows-misc/10673.txt",
+    "paths": [
+      "computing/os-ms-windows-misc"
+    ]
+  },
+  "f86155252f33.txt": {
+    "gold_rel": "computing/os-ms-windows-misc/10742.txt",
+    "paths": [
+      "computing/os-ms-windows-misc"
+    ]
+  },
+  "083d39c20c65.txt": {
+    "gold_rel": "computing/os-ms-windows-misc/10144.txt",
+    "paths": [
+      "computing/os-ms-windows-misc"
+    ]
+  },
+  "091f168828de.txt": {
+    "gold_rel": "computing/os-ms-windows-misc/10866.txt",
+    "paths": [
+      "computing/os-ms-windows-misc"
+    ]
+  },
+  "f34b90b74466.txt": {
+    "gold_rel": "computing/os-ms-windows-misc/10029.txt",
+    "paths": [
+      "computing/os-ms-windows-misc"
+    ]
+  },
+  "f9c6be533077.txt": {
+    "gold_rel": "computing/os-ms-windows-misc/10061.txt",
+    "paths": [
+      "computing/os-ms-windows-misc"
+    ]
+  },
+  "638223a2be4f.txt": {
+    "gold_rel": "computing/os-ms-windows-misc/10906.txt",
+    "paths": [
+      "computing/os-ms-windows-misc"
+    ]
+  },
+  "3e17f04abe7c.txt": {
+    "gold_rel": "computing/os-ms-windows-misc/10202.txt",
+    "paths": [
+      "computing/os-ms-windows-misc"
+    ]
+  },
+  "8bdc956ed094.txt": {
+    "gold_rel": "computing/sys-ibm-pc-hardware/61096.txt",
+    "paths": [
+      "computing/sys-ibm-pc-hardware"
+    ]
+  },
+  "24bb5965b3cd.txt": {
+    "gold_rel": "computing/sys-ibm-pc-hardware/61091.txt",
+    "paths": [
+      "computing/sys-ibm-pc-hardware"
+    ]
+  },
+  "ed4aadd156c6.txt": {
+    "gold_rel": "computing/sys-ibm-pc-hardware/60969.txt",
+    "paths": [
+      "computing/sys-ibm-pc-hardware"
+    ]
+  },
+  "577cc05270cb.txt": {
+    "gold_rel": "computing/sys-ibm-pc-hardware/61165.txt",
+    "paths": [
+      "computing/sys-ibm-pc-hardware"
+    ]
+  },
+  "5f1ea0306489.txt": {
+    "gold_rel": "computing/sys-ibm-pc-hardware/61083.txt",
+    "paths": [
+      "computing/sys-ibm-pc-hardware"
+    ]
+  },
+  "cfc9c23286dc.txt": {
+    "gold_rel": "computing/sys-ibm-pc-hardware/60884.txt",
+    "paths": [
+      "computing/sys-ibm-pc-hardware"
+    ]
+  },
+  "7ee397bea97a.txt": {
+    "gold_rel": "computing/sys-ibm-pc-hardware/60776.txt",
+    "paths": [
+      "computing/sys-ibm-pc-hardware"
+    ]
+  },
+  "e55378ba8fb0.txt": {
+    "gold_rel": "computing/sys-ibm-pc-hardware/60799.txt",
+    "paths": [
+      "computing/sys-ibm-pc-hardware"
+    ]
+  },
+  "7fcc399f0f56.txt": {
+    "gold_rel": "computing/sys-ibm-pc-hardware/60875.txt",
+    "paths": [
+      "computing/sys-ibm-pc-hardware"
+    ]
+  },
+  "75d5d15661c2.txt": {
+    "gold_rel": "computing/sys-ibm-pc-hardware/61169.txt",
+    "paths": [
+      "computing/sys-ibm-pc-hardware"
+    ]
+  },
+  "8943b84b7f0a.txt": {
+    "gold_rel": "computing/sys-ibm-pc-hardware/60815.txt",
+    "paths": [
+      "computing/sys-ibm-pc-hardware"
+    ]
+  },
+  "4c61f7ba421d.txt": {
+    "gold_rel": "computing/sys-ibm-pc-hardware/61110.txt",
+    "paths": [
+      "computing/sys-ibm-pc-hardware"
+    ]
+  },
+  "a548dbc40fbd.txt": {
+    "gold_rel": "computing/sys-ibm-pc-hardware/60968.txt",
+    "paths": [
+      "computing/sys-ibm-pc-hardware"
+    ]
+  },
+  "adf8106a5c99.txt": {
+    "gold_rel": "computing/sys-ibm-pc-hardware/61024.txt",
+    "paths": [
+      "computing/sys-ibm-pc-hardware"
+    ]
+  },
+  "8a653a7ec1b1.txt": {
+    "gold_rel": "computing/sys-ibm-pc-hardware/60792.txt",
+    "paths": [
+      "computing/sys-ibm-pc-hardware"
+    ]
+  },
+  "6344ff6f0cb9.txt": {
+    "gold_rel": "computing/sys-ibm-pc-hardware/60865.txt",
+    "paths": [
+      "computing/sys-ibm-pc-hardware"
+    ]
+  },
+  "d5428337b467.txt": {
+    "gold_rel": "computing/sys-ibm-pc-hardware/61141.txt",
+    "paths": [
+      "computing/sys-ibm-pc-hardware"
+    ]
+  },
+  "635ccac2762b.txt": {
+    "gold_rel": "computing/sys-ibm-pc-hardware/60866.txt",
+    "paths": [
+      "computing/sys-ibm-pc-hardware"
+    ]
+  },
+  "e141bca26bf1.txt": {
+    "gold_rel": "computing/sys-ibm-pc-hardware/60946.txt",
+    "paths": [
+      "computing/sys-ibm-pc-hardware"
+    ]
+  },
+  "f0a137ec57f0.txt": {
+    "gold_rel": "computing/sys-ibm-pc-hardware/60994.txt",
+    "paths": [
+      "computing/sys-ibm-pc-hardware"
+    ]
+  },
+  "c28d51055511.txt": {
+    "gold_rel": "computing/sys-mac-hardware/52193.txt",
+    "paths": [
+      "computing/sys-mac-hardware"
+    ]
+  },
+  "04de7ed90592.txt": {
+    "gold_rel": "computing/sys-mac-hardware/52089.txt",
+    "paths": [
+      "computing/sys-mac-hardware"
+    ]
+  },
+  "17a56222f82b.txt": {
+    "gold_rel": "computing/sys-mac-hardware/52227.txt",
+    "paths": [
+      "computing/sys-mac-hardware"
+    ]
+  },
+  "731241c782f5.txt": {
+    "gold_rel": "computing/sys-mac-hardware/52105.txt",
+    "paths": [
+      "computing/sys-mac-hardware"
+    ]
+  },
+  "a44b6026af63.txt": {
+    "gold_rel": "computing/sys-mac-hardware/51955.txt",
+    "paths": [
+      "computing/sys-mac-hardware"
+    ]
+  },
+  "6a5173d88a48.txt": {
+    "gold_rel": "computing/sys-mac-hardware/52283.txt",
+    "paths": [
+      "computing/sys-mac-hardware"
+    ]
+  },
+  "c22984c7e970.txt": {
+    "gold_rel": "computing/sys-mac-hardware/52219.txt",
+    "paths": [
+      "computing/sys-mac-hardware"
+    ]
+  },
+  "ee943e1ac2c7.txt": {
+    "gold_rel": "computing/sys-mac-hardware/51965.txt",
+    "paths": [
+      "computing/sys-mac-hardware"
+    ]
+  },
+  "e4bc6d8281fc.txt": {
+    "gold_rel": "computing/sys-mac-hardware/52071.txt",
+    "paths": [
+      "computing/sys-mac-hardware"
+    ]
+  },
+  "a1dd45f49464.txt": {
+    "gold_rel": "computing/sys-mac-hardware/52347.txt",
+    "paths": [
+      "computing/sys-mac-hardware"
+    ]
+  },
+  "7c06a6b0226f.txt": {
+    "gold_rel": "computing/sys-mac-hardware/52027.txt",
+    "paths": [
+      "computing/sys-mac-hardware"
+    ]
+  },
+  "204ac41f5ac6.txt": {
+    "gold_rel": "computing/sys-mac-hardware/52149.txt",
+    "paths": [
+      "computing/sys-mac-hardware"
+    ]
+  },
+  "3f7722349918.txt": {
+    "gold_rel": "computing/sys-mac-hardware/52191.txt",
+    "paths": [
+      "computing/sys-mac-hardware"
+    ]
+  },
+  "fc70294bac4a.txt": {
+    "gold_rel": "computing/sys-mac-hardware/52146.txt",
+    "paths": [
+      "computing/sys-mac-hardware"
+    ]
+  },
+  "bbd1db4cdd43.txt": {
+    "gold_rel": "computing/sys-mac-hardware/52305.txt",
+    "paths": [
+      "computing/sys-mac-hardware"
+    ]
+  },
+  "a09a2e11470a.txt": {
+    "gold_rel": "computing/sys-mac-hardware/52021.txt",
+    "paths": [
+      "computing/sys-mac-hardware"
+    ]
+  },
+  "6c7115595699.txt": {
+    "gold_rel": "computing/sys-mac-hardware/52059.txt",
+    "paths": [
+      "computing/sys-mac-hardware"
+    ]
+  },
+  "d92c817f0431.txt": {
+    "gold_rel": "computing/sys-mac-hardware/52004.txt",
+    "paths": [
+      "computing/sys-mac-hardware"
+    ]
+  },
+  "39d82e39de67.txt": {
+    "gold_rel": "computing/sys-mac-hardware/52344.txt",
+    "paths": [
+      "computing/sys-mac-hardware"
+    ]
+  },
+  "6d2bb18806b7.txt": {
+    "gold_rel": "computing/sys-mac-hardware/52113.txt",
+    "paths": [
+      "computing/sys-mac-hardware"
+    ]
+  },
+  "50d5eb000272.txt": {
+    "gold_rel": "computing/windows-x/67571.txt",
+    "paths": [
+      "computing/windows-x"
+    ]
+  },
+  "dd7ef6cbb916.txt": {
+    "gold_rel": "computing/windows-x/67468.txt",
+    "paths": [
+      "computing/windows-x"
+    ]
+  },
+  "8ae86fd168b8.txt": {
+    "gold_rel": "computing/windows-x/68078.txt",
+    "paths": [
+      "computing/windows-x"
+    ]
+  },
+  "e8a7aec0742f.txt": {
+    "gold_rel": "computing/windows-x/67557.txt",
+    "paths": [
+      "computing/windows-x"
+    ]
+  },
+  "87a8e0b30761.txt": {
+    "gold_rel": "computing/windows-x/67502.txt",
+    "paths": [
+      "computing/windows-x"
+    ]
+  },
+  "1bc6517b7e39.txt": {
+    "gold_rel": "computing/windows-x/67437.txt",
+    "paths": [
+      "computing/windows-x"
+    ]
+  },
+  "e6a6330e84af.txt": {
+    "gold_rel": "computing/windows-x/68002.txt",
+    "paths": [
+      "computing/windows-x"
+    ]
+  },
+  "e6ca687daba2.txt": {
+    "gold_rel": "computing/windows-x/67426.txt",
+    "paths": [
+      "computing/windows-x"
+    ]
+  },
+  "c98c8e07a393.txt": {
+    "gold_rel": "computing/windows-x/67450.txt",
+    "paths": [
+      "computing/windows-x"
+    ]
+  },
+  "7d35f4c46215.txt": {
+    "gold_rel": "computing/windows-x/67477.txt",
+    "paths": [
+      "computing/windows-x"
+    ]
+  },
+  "9c6d3097ad81.txt": {
+    "gold_rel": "computing/windows-x/68312.txt",
+    "paths": [
+      "computing/windows-x"
+    ]
+  },
+  "6b529026c431.txt": {
+    "gold_rel": "computing/windows-x/67972.txt",
+    "paths": [
+      "computing/windows-x"
+    ]
+  },
+  "76f1cc08963f.txt": {
+    "gold_rel": "computing/windows-x/67435.txt",
+    "paths": [
+      "computing/windows-x"
+    ]
+  },
+  "b6997cf717cb.txt": {
+    "gold_rel": "computing/windows-x/67532.txt",
+    "paths": [
+      "computing/windows-x"
+    ]
+  },
+  "d95a46d1b83e.txt": {
+    "gold_rel": "computing/windows-x/68019.txt",
+    "paths": [
+      "computing/windows-x"
+    ]
+  },
+  "95083151bfa7.txt": {
+    "gold_rel": "computing/windows-x/68274.txt",
+    "paths": [
+      "computing/windows-x"
+    ]
+  },
+  "37fe4ae2f746.txt": {
+    "gold_rel": "computing/windows-x/68237.txt",
+    "paths": [
+      "computing/windows-x"
+    ]
+  },
+  "0c2f6c8a1315.txt": {
+    "gold_rel": "computing/windows-x/67454.txt",
+    "paths": [
+      "computing/windows-x"
+    ]
+  },
+  "2088c2fc954e.txt": {
+    "gold_rel": "computing/windows-x/67448.txt",
+    "paths": [
+      "computing/windows-x"
+    ]
+  },
+  "12ab86265cf2.txt": {
+    "gold_rel": "computing/windows-x/68235.txt",
+    "paths": [
+      "computing/windows-x"
+    ]
+  },
+  "cd67efd6c3c9.txt": {
+    "gold_rel": "marketplace/forsale/76241.txt",
+    "paths": [
+      "marketplace/forsale"
+    ]
+  },
+  "8597f7bf084a.txt": {
+    "gold_rel": "marketplace/forsale/76478.txt",
+    "paths": [
+      "marketplace/forsale"
+    ]
+  },
+  "def3cd0e8c06.txt": {
+    "gold_rel": "marketplace/forsale/76364.txt",
+    "paths": [
+      "marketplace/forsale"
+    ]
+  },
+  "4723773f2b82.txt": {
+    "gold_rel": "marketplace/forsale/76602.txt",
+    "paths": [
+      "marketplace/forsale"
+    ]
+  },
+  "4bf0c2adc21a.txt": {
+    "gold_rel": "marketplace/forsale/76862.txt",
+    "paths": [
+      "marketplace/forsale"
+    ]
+  },
+  "dce9a081bcf0.txt": {
+    "gold_rel": "marketplace/forsale/76563.txt",
+    "paths": [
+      "marketplace/forsale"
+    ]
+  },
+  "702a4d40331b.txt": {
+    "gold_rel": "marketplace/forsale/76314.txt",
+    "paths": [
+      "marketplace/forsale"
+    ]
+  },
+  "1d7af052afac.txt": {
+    "gold_rel": "marketplace/forsale/76231.txt",
+    "paths": [
+      "marketplace/forsale"
+    ]
+  },
+  "f0e2108023d3.txt": {
+    "gold_rel": "marketplace/forsale/76405.txt",
+    "paths": [
+      "marketplace/forsale"
+    ]
+  },
+  "b7a6053cdd53.txt": {
+    "gold_rel": "marketplace/forsale/76682.txt",
+    "paths": [
+      "marketplace/forsale"
+    ]
+  },
+  "afdae1f44abc.txt": {
+    "gold_rel": "marketplace/forsale/76379.txt",
+    "paths": [
+      "marketplace/forsale"
+    ]
+  },
+  "e811fc2723fd.txt": {
+    "gold_rel": "marketplace/forsale/76589.txt",
+    "paths": [
+      "marketplace/forsale"
+    ]
+  },
+  "861f20c930ef.txt": {
+    "gold_rel": "marketplace/forsale/76565.txt",
+    "paths": [
+      "marketplace/forsale"
+    ]
+  },
+  "787b1c92deae.txt": {
+    "gold_rel": "marketplace/forsale/76468.txt",
+    "paths": [
+      "marketplace/forsale"
+    ]
+  },
+  "5418ebece9dc.txt": {
+    "gold_rel": "marketplace/forsale/76428.txt",
+    "paths": [
+      "marketplace/forsale"
+    ]
+  },
+  "f78658234ef4.txt": {
+    "gold_rel": "marketplace/forsale/76310.txt",
+    "paths": [
+      "marketplace/forsale"
+    ]
+  },
+  "68d3b9314f9e.txt": {
+    "gold_rel": "marketplace/forsale/76566.txt",
+    "paths": [
+      "marketplace/forsale"
+    ]
+  },
+  "c40a4718f6f8.txt": {
+    "gold_rel": "marketplace/forsale/76785.txt",
+    "paths": [
+      "marketplace/forsale"
+    ]
+  },
+  "12fe59ae8380.txt": {
+    "gold_rel": "marketplace/forsale/76120.txt",
+    "paths": [
+      "marketplace/forsale"
+    ]
+  },
+  "cf9ee19cefbd.txt": {
+    "gold_rel": "marketplace/forsale/76441.txt",
+    "paths": [
+      "marketplace/forsale"
+    ]
+  },
+  "b308c2ed5dbc.txt": {
+    "gold_rel": "recreation/autos/103057.txt",
+    "paths": [
+      "recreation/autos"
+    ]
+  },
+  "c7b06a66a891.txt": {
+    "gold_rel": "recreation/autos/103122.txt",
+    "paths": [
+      "recreation/autos"
+    ]
+  },
+  "0848dded9a9a.txt": {
+    "gold_rel": "recreation/autos/103082.txt",
+    "paths": [
+      "recreation/autos"
+    ]
+  },
+  "63b3a0a783cf.txt": {
+    "gold_rel": "recreation/autos/103155.txt",
+    "paths": [
+      "recreation/autos"
+    ]
+  },
+  "8d54139207e8.txt": {
+    "gold_rel": "recreation/autos/103403.txt",
+    "paths": [
+      "recreation/autos"
+    ]
+  },
+  "46f5c365bed6.txt": {
+    "gold_rel": "recreation/autos/103240.txt",
+    "paths": [
+      "recreation/autos"
+    ]
+  },
+  "8945fef4df21.txt": {
+    "gold_rel": "recreation/autos/103135.txt",
+    "paths": [
+      "recreation/autos"
+    ]
+  },
+  "cbce031a0d7b.txt": {
+    "gold_rel": "recreation/autos/103707.txt",
+    "paths": [
+      "recreation/autos"
+    ]
+  },
+  "45eaf2f08a7a.txt": {
+    "gold_rel": "recreation/autos/103727.txt",
+    "paths": [
+      "recreation/autos"
+    ]
+  },
+  "5821cbdf9f46.txt": {
+    "gold_rel": "recreation/autos/103425.txt",
+    "paths": [
+      "recreation/autos"
+    ]
+  },
+  "3bb0139159de.txt": {
+    "gold_rel": "recreation/autos/103138.txt",
+    "paths": [
+      "recreation/autos"
+    ]
+  },
+  "480a2d71e62d.txt": {
+    "gold_rel": "recreation/autos/103458.txt",
+    "paths": [
+      "recreation/autos"
+    ]
+  },
+  "7e8cd5c075eb.txt": {
+    "gold_rel": "recreation/autos/103007.txt",
+    "paths": [
+      "recreation/autos"
+    ]
+  },
+  "3fe26e3e29f8.txt": {
+    "gold_rel": "recreation/autos/103449.txt",
+    "paths": [
+      "recreation/autos"
+    ]
+  },
+  "ec85a4cd1a2e.txt": {
+    "gold_rel": "recreation/autos/103081.txt",
+    "paths": [
+      "recreation/autos"
+    ]
+  },
+  "c70427243f9a.txt": {
+    "gold_rel": "recreation/autos/103779.txt",
+    "paths": [
+      "recreation/autos"
+    ]
+  },
+  "a6fe6541e8ac.txt": {
+    "gold_rel": "recreation/autos/103504.txt",
+    "paths": [
+      "recreation/autos"
+    ]
+  },
+  "0337e2cd525c.txt": {
+    "gold_rel": "recreation/autos/103676.txt",
+    "paths": [
+      "recreation/autos"
+    ]
+  },
+  "7bec8d988e30.txt": {
+    "gold_rel": "recreation/autos/103153.txt",
+    "paths": [
+      "recreation/autos"
+    ]
+  },
+  "2927f48e5903.txt": {
+    "gold_rel": "recreation/autos/103433.txt",
+    "paths": [
+      "recreation/autos"
+    ]
+  },
+  "39a39d8864d1.txt": {
+    "gold_rel": "recreation/motorcycles/104890.txt",
+    "paths": [
+      "recreation/motorcycles"
+    ]
+  },
+  "e99dd362211e.txt": {
+    "gold_rel": "recreation/motorcycles/105235.txt",
+    "paths": [
+      "recreation/motorcycles"
+    ]
+  },
+  "6a28a76c65b7.txt": {
+    "gold_rel": "recreation/motorcycles/105158.txt",
+    "paths": [
+      "recreation/motorcycles"
+    ]
+  },
+  "d79852f35199.txt": {
+    "gold_rel": "recreation/motorcycles/104829.txt",
+    "paths": [
+      "recreation/motorcycles"
+    ]
+  },
+  "36c924a148ac.txt": {
+    "gold_rel": "recreation/motorcycles/105239.txt",
+    "paths": [
+      "recreation/motorcycles"
+    ]
+  },
+  "3e164e244896.txt": {
+    "gold_rel": "recreation/motorcycles/105226.txt",
+    "paths": [
+      "recreation/motorcycles"
+    ]
+  },
+  "5bde9607ffb1.txt": {
+    "gold_rel": "recreation/motorcycles/105211.txt",
+    "paths": [
+      "recreation/motorcycles"
+    ]
+  },
+  "e888d06e2924.txt": {
+    "gold_rel": "recreation/motorcycles/104739.txt",
+    "paths": [
+      "recreation/motorcycles"
+    ]
+  },
+  "d4e4e3c801bd.txt": {
+    "gold_rel": "recreation/motorcycles/105111.txt",
+    "paths": [
+      "recreation/motorcycles"
+    ]
+  },
+  "7acd8423edd5.txt": {
+    "gold_rel": "recreation/motorcycles/104915.txt",
+    "paths": [
+      "recreation/motorcycles"
+    ]
+  },
+  "e40217eb046c.txt": {
+    "gold_rel": "recreation/motorcycles/105150.txt",
+    "paths": [
+      "recreation/motorcycles"
+    ]
+  },
+  "c8f5303abb2c.txt": {
+    "gold_rel": "recreation/motorcycles/104980.txt",
+    "paths": [
+      "recreation/motorcycles"
+    ]
+  },
+  "823b8267dcaf.txt": {
+    "gold_rel": "recreation/motorcycles/104830.txt",
+    "paths": [
+      "recreation/motorcycles"
+    ]
+  },
+  "9e8c2a49130d.txt": {
+    "gold_rel": "recreation/motorcycles/104777.txt",
+    "paths": [
+      "recreation/motorcycles"
+    ]
+  },
+  "7c2e45b4bdb0.txt": {
+    "gold_rel": "recreation/motorcycles/104800.txt",
+    "paths": [
+      "recreation/motorcycles"
+    ]
+  },
+  "054397f7ae50.txt": {
+    "gold_rel": "recreation/motorcycles/104882.txt",
+    "paths": [
+      "recreation/motorcycles"
+    ]
+  },
+  "dd844bf286b7.txt": {
+    "gold_rel": "recreation/motorcycles/105263.txt",
+    "paths": [
+      "recreation/motorcycles"
+    ]
+  },
+  "1234d75efd5f.txt": {
+    "gold_rel": "recreation/motorcycles/104812.txt",
+    "paths": [
+      "recreation/motorcycles"
+    ]
+  },
+  "3ac440c6d66f.txt": {
+    "gold_rel": "recreation/motorcycles/105260.txt",
+    "paths": [
+      "recreation/motorcycles"
+    ]
+  },
+  "116a1c9ddc58.txt": {
+    "gold_rel": "recreation/motorcycles/105162.txt",
+    "paths": [
+      "recreation/motorcycles"
+    ]
+  },
+  "f03812e396f1.txt": {
+    "gold_rel": "recreation/sport-baseball/104681.txt",
+    "paths": [
+      "recreation/sport-baseball"
+    ]
+  },
+  "f032f4ade75c.txt": {
+    "gold_rel": "recreation/sport-baseball/104728.txt",
+    "paths": [
+      "recreation/sport-baseball"
+    ]
+  },
+  "37fa34399255.txt": {
+    "gold_rel": "recreation/sport-baseball/104732.txt",
+    "paths": [
+      "recreation/sport-baseball"
+    ]
+  },
+  "d03c94ddd937.txt": {
+    "gold_rel": "recreation/sport-baseball/104710.txt",
+    "paths": [
+      "recreation/sport-baseball"
+    ]
+  },
+  "2580cf2d3ed7.txt": {
+    "gold_rel": "recreation/sport-baseball/105065.txt",
+    "paths": [
+      "recreation/sport-baseball"
+    ]
+  },
+  "b92996fe1555.txt": {
+    "gold_rel": "recreation/sport-baseball/104986.txt",
+    "paths": [
+      "recreation/sport-baseball"
+    ]
+  },
+  "bc49b6c670a9.txt": {
+    "gold_rel": "recreation/sport-baseball/104647.txt",
+    "paths": [
+      "recreation/sport-baseball"
+    ]
+  },
+  "34c7ea6de457.txt": {
+    "gold_rel": "recreation/sport-baseball/105156.txt",
+    "paths": [
+      "recreation/sport-baseball"
+    ]
+  },
+  "cb56cc9d800d.txt": {
+    "gold_rel": "recreation/sport-baseball/105098.txt",
+    "paths": [
+      "recreation/sport-baseball"
+    ]
+  },
+  "927f2b0f0c98.txt": {
+    "gold_rel": "recreation/sport-baseball/104721.txt",
+    "paths": [
+      "recreation/sport-baseball"
+    ]
+  },
+  "468ba03928e3.txt": {
+    "gold_rel": "recreation/sport-baseball/105052.txt",
+    "paths": [
+      "recreation/sport-baseball"
+    ]
+  },
+  "4bc3e011f694.txt": {
+    "gold_rel": "recreation/sport-baseball/104943.txt",
+    "paths": [
+      "recreation/sport-baseball"
+    ]
+  },
+  "eb0fe4c2db85.txt": {
+    "gold_rel": "recreation/sport-baseball/105060.txt",
+    "paths": [
+      "recreation/sport-baseball"
+    ]
+  },
+  "1082c63f1ac0.txt": {
+    "gold_rel": "recreation/sport-baseball/104826.txt",
+    "paths": [
+      "recreation/sport-baseball"
+    ]
+  },
+  "9192060a8c1f.txt": {
+    "gold_rel": "recreation/sport-baseball/104828.txt",
+    "paths": [
+      "recreation/sport-baseball"
+    ]
+  },
+  "4468f273d21e.txt": {
+    "gold_rel": "recreation/sport-baseball/104847.txt",
+    "paths": [
+      "recreation/sport-baseball"
+    ]
+  },
+  "9cb15fbd995e.txt": {
+    "gold_rel": "recreation/sport-baseball/104999.txt",
+    "paths": [
+      "recreation/sport-baseball"
+    ]
+  },
+  "7a8089fc47f1.txt": {
+    "gold_rel": "recreation/sport-baseball/104680.txt",
+    "paths": [
+      "recreation/sport-baseball"
+    ]
+  },
+  "9cd29e5faf6e.txt": {
+    "gold_rel": "recreation/sport-baseball/105071.txt",
+    "paths": [
+      "recreation/sport-baseball"
+    ]
+  },
+  "f8cc49908b10.txt": {
+    "gold_rel": "recreation/sport-baseball/104705.txt",
+    "paths": [
+      "recreation/sport-baseball"
+    ]
+  },
+  "ad0d02ff4e6b.txt": {
+    "gold_rel": "recreation/sport-hockey/53952.txt",
+    "paths": [
+      "recreation/sport-hockey"
+    ]
+  },
+  "3e6e1f84c0b2.txt": {
+    "gold_rel": "recreation/sport-hockey/54739.txt",
+    "paths": [
+      "recreation/sport-hockey"
+    ]
+  },
+  "86f808773087.txt": {
+    "gold_rel": "recreation/sport-hockey/54060.txt",
+    "paths": [
+      "recreation/sport-hockey"
+    ]
+  },
+  "2da9b4b9e17d.txt": {
+    "gold_rel": "recreation/sport-hockey/54749.txt",
+    "paths": [
+      "recreation/sport-hockey"
+    ]
+  },
+  "d9321f5f93e0.txt": {
+    "gold_rel": "recreation/sport-hockey/53958.txt",
+    "paths": [
+      "recreation/sport-hockey"
+    ]
+  },
+  "155d222cae74.txt": {
+    "gold_rel": "recreation/sport-hockey/54742.txt",
+    "paths": [
+      "recreation/sport-hockey"
+    ]
+  },
+  "34d041bfd790.txt": {
+    "gold_rel": "recreation/sport-hockey/54709.txt",
+    "paths": [
+      "recreation/sport-hockey"
+    ]
+  },
+  "66b3f056b496.txt": {
+    "gold_rel": "recreation/sport-hockey/54007.txt",
+    "paths": [
+      "recreation/sport-hockey"
+    ]
+  },
+  "28c024284db4.txt": {
+    "gold_rel": "recreation/sport-hockey/53997.txt",
+    "paths": [
+      "recreation/sport-hockey"
+    ]
+  },
+  "dcfd838e8cc9.txt": {
+    "gold_rel": "recreation/sport-hockey/54078.txt",
+    "paths": [
+      "recreation/sport-hockey"
+    ]
+  },
+  "87573abee718.txt": {
+    "gold_rel": "recreation/sport-hockey/54524.txt",
+    "paths": [
+      "recreation/sport-hockey"
+    ]
+  },
+  "9a9917b255f5.txt": {
+    "gold_rel": "recreation/sport-hockey/54175.txt",
+    "paths": [
+      "recreation/sport-hockey"
+    ]
+  },
+  "1ce6ab024488.txt": {
+    "gold_rel": "recreation/sport-hockey/54261.txt",
+    "paths": [
+      "recreation/sport-hockey"
+    ]
+  },
+  "4645f5a0d383.txt": {
+    "gold_rel": "recreation/sport-hockey/54083.txt",
+    "paths": [
+      "recreation/sport-hockey"
+    ]
+  },
+  "40fed99e9e2f.txt": {
+    "gold_rel": "recreation/sport-hockey/54002.txt",
+    "paths": [
+      "recreation/sport-hockey"
+    ]
+  },
+  "6c6e6a8edba8.txt": {
+    "gold_rel": "recreation/sport-hockey/54120.txt",
+    "paths": [
+      "recreation/sport-hockey"
+    ]
+  },
+  "9b14ff232566.txt": {
+    "gold_rel": "recreation/sport-hockey/53934.txt",
+    "paths": [
+      "recreation/sport-hockey"
+    ]
+  },
+  "806d46020930.txt": {
+    "gold_rel": "recreation/sport-hockey/53998.txt",
+    "paths": [
+      "recreation/sport-hockey"
+    ]
+  },
+  "6a7f0077177a.txt": {
+    "gold_rel": "recreation/sport-hockey/53989.txt",
+    "paths": [
+      "recreation/sport-hockey"
+    ]
+  },
+  "9ed7a0e50cf9.txt": {
+    "gold_rel": "recreation/sport-hockey/54763.txt",
+    "paths": [
+      "recreation/sport-hockey"
+    ]
+  },
+  "20a9a9aeeb7f.txt": {
+    "gold_rel": "science/crypt/15770.txt",
+    "paths": [
+      "science/crypt"
+    ]
+  },
+  "0d2495cd8f2a.txt": {
+    "gold_rel": "science/crypt/15988.txt",
+    "paths": [
+      "science/crypt"
+    ]
+  },
+  "0cf16beba3a4.txt": {
+    "gold_rel": "science/crypt/16044.txt",
+    "paths": [
+      "science/crypt"
+    ]
+  },
+  "0e86744c74b3.txt": {
+    "gold_rel": "science/crypt/16069.txt",
+    "paths": [
+      "science/crypt"
+    ]
+  },
+  "7f01258c5a2b.txt": {
+    "gold_rel": "science/crypt/16066.txt",
+    "paths": [
+      "science/crypt"
+    ]
+  },
+  "76390ba2c95d.txt": {
+    "gold_rel": "science/crypt/15860.txt",
+    "paths": [
+      "science/crypt"
+    ]
+  },
+  "c7d150d35492.txt": {
+    "gold_rel": "science/crypt/15949.txt",
+    "paths": [
+      "science/crypt"
+    ]
+  },
+  "5feb69fbba6f.txt": {
+    "gold_rel": "science/crypt/16134.txt",
+    "paths": [
+      "science/crypt"
+    ]
+  },
+  "c0054e660225.txt": {
+    "gold_rel": "science/crypt/15874.txt",
+    "paths": [
+      "science/crypt"
+    ]
+  },
+  "15497a692642.txt": {
+    "gold_rel": "science/crypt/15899.txt",
+    "paths": [
+      "science/crypt"
+    ]
+  },
+  "ffc93d0071b8.txt": {
+    "gold_rel": "science/crypt/16125.txt",
+    "paths": [
+      "science/crypt"
+    ]
+  },
+  "083c67d9ed96.txt": {
+    "gold_rel": "science/crypt/16078.txt",
+    "paths": [
+      "science/crypt"
+    ]
+  },
+  "e9d6912a54a9.txt": {
+    "gold_rel": "science/crypt/15993.txt",
+    "paths": [
+      "science/crypt"
+    ]
+  },
+  "c962f6c0c296.txt": {
+    "gold_rel": "science/crypt/16152.txt",
+    "paths": [
+      "science/crypt"
+    ]
+  },
+  "fedf2274add0.txt": {
+    "gold_rel": "science/crypt/16137.txt",
+    "paths": [
+      "science/crypt"
+    ]
+  },
+  "880862b9c1e3.txt": {
+    "gold_rel": "science/crypt/15830.txt",
+    "paths": [
+      "science/crypt"
+    ]
+  },
+  "caa4231c61e4.txt": {
+    "gold_rel": "science/crypt/15906.txt",
+    "paths": [
+      "science/crypt"
+    ]
+  },
+  "f8a1290e499a.txt": {
+    "gold_rel": "science/crypt/15970.txt",
+    "paths": [
+      "science/crypt"
+    ]
+  },
+  "ee13c832b6fc.txt": {
+    "gold_rel": "science/crypt/16344.txt",
+    "paths": [
+      "science/crypt"
+    ]
+  },
+  "4838ba2e9189.txt": {
+    "gold_rel": "science/crypt/15946.txt",
+    "paths": [
+      "science/crypt"
+    ]
+  },
+  "d7ed483cb8b4.txt": {
+    "gold_rel": "science/electronics/54138.txt",
+    "paths": [
+      "science/electronics"
+    ]
+  },
+  "dc3e3cc02811.txt": {
+    "gold_rel": "science/electronics/54163.txt",
+    "paths": [
+      "science/electronics"
+    ]
+  },
+  "82e33e1b8747.txt": {
+    "gold_rel": "science/electronics/54149.txt",
+    "paths": [
+      "science/electronics"
+    ]
+  },
+  "2ceb83238a02.txt": {
+    "gold_rel": "science/electronics/54095.txt",
+    "paths": [
+      "science/electronics"
+    ]
+  },
+  "2c0f1044d7ba.txt": {
+    "gold_rel": "science/electronics/54070.txt",
+    "paths": [
+      "science/electronics"
+    ]
+  },
+  "54812555ccc3.txt": {
+    "gold_rel": "science/electronics/54184.txt",
+    "paths": [
+      "science/electronics"
+    ]
+  },
+  "d13fba59ee12.txt": {
+    "gold_rel": "science/electronics/54248.txt",
+    "paths": [
+      "science/electronics"
+    ]
+  },
+  "a5e9ebc91f03.txt": {
+    "gold_rel": "science/electronics/54027.txt",
+    "paths": [
+      "science/electronics"
+    ]
+  },
+  "4a4ba79e4cf2.txt": {
+    "gold_rel": "science/electronics/54202.txt",
+    "paths": [
+      "science/electronics"
+    ]
+  },
+  "920042a47724.txt": {
+    "gold_rel": "science/electronics/54278.txt",
+    "paths": [
+      "science/electronics"
+    ]
+  },
+  "6480bdee5af5.txt": {
+    "gold_rel": "science/electronics/54177.txt",
+    "paths": [
+      "science/electronics"
+    ]
+  },
+  "8f4ccd6d8ac0.txt": {
+    "gold_rel": "science/electronics/54088.txt",
+    "paths": [
+      "science/electronics"
+    ]
+  },
+  "2c7f1f0b9463.txt": {
+    "gold_rel": "science/electronics/54263.txt",
+    "paths": [
+      "science/electronics"
+    ]
+  },
+  "f6743efca239.txt": {
+    "gold_rel": "science/electronics/54020.txt",
+    "paths": [
+      "science/electronics"
+    ]
+  },
+  "b6f35b6a62d7.txt": {
+    "gold_rel": "science/electronics/54178.txt",
+    "paths": [
+      "science/electronics"
+    ]
+  },
+  "81c304a9beb5.txt": {
+    "gold_rel": "science/electronics/54353.txt",
+    "paths": [
+      "science/electronics"
+    ]
+  },
+  "3f95444d055d.txt": {
+    "gold_rel": "science/electronics/54053.txt",
+    "paths": [
+      "science/electronics"
+    ]
+  },
+  "3952a352844b.txt": {
+    "gold_rel": "science/electronics/54204.txt",
+    "paths": [
+      "science/electronics"
+    ]
+  },
+  "c3f9843cde94.txt": {
+    "gold_rel": "science/electronics/54298.txt",
+    "paths": [
+      "science/electronics"
+    ]
+  },
+  "f37817f97e7d.txt": {
+    "gold_rel": "science/electronics/54058.txt",
+    "paths": [
+      "science/electronics"
+    ]
+  },
+  "3dccf55815a0.txt": {
+    "gold_rel": "science/med/59432.txt",
+    "paths": [
+      "science/med"
+    ]
+  },
+  "9768e547bf72.txt": {
+    "gold_rel": "science/med/59262.txt",
+    "paths": [
+      "science/med"
+    ]
+  },
+  "bd7eac9c79e0.txt": {
+    "gold_rel": "science/med/59492.txt",
+    "paths": [
+      "science/med"
+    ]
+  },
+  "a03501fabfc6.txt": {
+    "gold_rel": "science/med/59406.txt",
+    "paths": [
+      "science/med"
+    ]
+  },
+  "411379216a16.txt": {
+    "gold_rel": "science/med/59605.txt",
+    "paths": [
+      "science/med"
+    ]
+  },
+  "1ef3aa68b172.txt": {
+    "gold_rel": "science/med/59462.txt",
+    "paths": [
+      "science/med"
+    ]
+  },
+  "c39cb0b8b8d0.txt": {
+    "gold_rel": "science/med/59628.txt",
+    "paths": [
+      "science/med"
+    ]
+  },
+  "2df54fb1e742.txt": {
+    "gold_rel": "science/med/59592.txt",
+    "paths": [
+      "science/med"
+    ]
+  },
+  "3d2d961c1aa9.txt": {
+    "gold_rel": "science/med/59633.txt",
+    "paths": [
+      "science/med"
+    ]
+  },
+  "c2b8ba4b5f18.txt": {
+    "gold_rel": "science/med/59290.txt",
+    "paths": [
+      "science/med"
+    ]
+  },
+  "c8aca71779db.txt": {
+    "gold_rel": "science/med/59579.txt",
+    "paths": [
+      "science/med"
+    ]
+  },
+  "2c73e94bc1bc.txt": {
+    "gold_rel": "science/med/59567.txt",
+    "paths": [
+      "science/med"
+    ]
+  },
+  "c721d2b1b312.txt": {
+    "gold_rel": "science/med/59420.txt",
+    "paths": [
+      "science/med"
+    ]
+  },
+  "8aecff5e073c.txt": {
+    "gold_rel": "science/med/59563.txt",
+    "paths": [
+      "science/med"
+    ]
+  },
+  "1047ab42f3e9.txt": {
+    "gold_rel": "science/med/59581.txt",
+    "paths": [
+      "science/med"
+    ]
+  },
+  "801d8d83b7eb.txt": {
+    "gold_rel": "science/med/59570.txt",
+    "paths": [
+      "science/med"
+    ]
+  },
+  "5c2d5040b540.txt": {
+    "gold_rel": "science/med/59476.txt",
+    "paths": [
+      "science/med"
+    ]
+  },
+  "00a227b3d9e5.txt": {
+    "gold_rel": "science/med/59245.txt",
+    "paths": [
+      "science/med"
+    ]
+  },
+  "2c3ba8cebf80.txt": {
+    "gold_rel": "science/med/59302.txt",
+    "paths": [
+      "science/med"
+    ]
+  },
+  "97157e24396f.txt": {
+    "gold_rel": "science/med/59429.txt",
+    "paths": [
+      "science/med"
+    ]
+  },
+  "7ebba23d6f04.txt": {
+    "gold_rel": "science/space/62373.txt",
+    "paths": [
+      "science/space"
+    ]
+  },
+  "be9c4dab9fdd.txt": {
+    "gold_rel": "science/space/61547.txt",
+    "paths": [
+      "science/space"
+    ]
+  },
+  "502e3e88b260.txt": {
+    "gold_rel": "science/space/61513.txt",
+    "paths": [
+      "science/space"
+    ]
+  },
+  "1ccb843d9801.txt": {
+    "gold_rel": "science/space/61402.txt",
+    "paths": [
+      "science/space"
+    ]
+  },
+  "6815be8618ae.txt": {
+    "gold_rel": "science/space/62616.txt",
+    "paths": [
+      "science/space"
+    ]
+  },
+  "e52a2dc507a6.txt": {
+    "gold_rel": "science/space/62394.txt",
+    "paths": [
+      "science/space"
+    ]
+  },
+  "7fbb2765b839.txt": {
+    "gold_rel": "science/space/61246.txt",
+    "paths": [
+      "science/space"
+    ]
+  },
+  "291cc80701f7.txt": {
+    "gold_rel": "science/space/62401.txt",
+    "paths": [
+      "science/space"
+    ]
+  },
+  "df3448ad0419.txt": {
+    "gold_rel": "science/space/61486.txt",
+    "paths": [
+      "science/space"
+    ]
+  },
+  "22fa9ee3f9ab.txt": {
+    "gold_rel": "science/space/61516.txt",
+    "paths": [
+      "science/space"
+    ]
+  },
+  "818356957510.txt": {
+    "gold_rel": "science/space/61545.txt",
+    "paths": [
+      "science/space"
+    ]
+  },
+  "317dffb5650b.txt": {
+    "gold_rel": "science/space/61336.txt",
+    "paths": [
+      "science/space"
+    ]
+  },
+  "a7431fadba19.txt": {
+    "gold_rel": "science/space/61544.txt",
+    "paths": [
+      "science/space"
+    ]
+  },
+  "6aca42696555.txt": {
+    "gold_rel": "science/space/61481.txt",
+    "paths": [
+      "science/space"
+    ]
+  },
+  "062579a4c417.txt": {
+    "gold_rel": "science/space/61401.txt",
+    "paths": [
+      "science/space"
+    ]
+  },
+  "3c9393bccda6.txt": {
+    "gold_rel": "science/space/61471.txt",
+    "paths": [
+      "science/space"
+    ]
+  },
+  "a55d531b4a04.txt": {
+    "gold_rel": "science/space/61474.txt",
+    "paths": [
+      "science/space"
+    ]
+  },
+  "9366b929f51d.txt": {
+    "gold_rel": "science/space/61512.txt",
+    "paths": [
+      "science/space"
+    ]
+  },
+  "d0171b1bb0ea.txt": {
+    "gold_rel": "science/space/61553.txt",
+    "paths": [
+      "science/space"
+    ]
+  },
+  "c9b1c6a79918.txt": {
+    "gold_rel": "science/space/61491.txt",
+    "paths": [
+      "science/space"
+    ]
+  },
+  "67ea1492ad74.txt": {
+    "gold_rel": "society/religion-christian/21737.txt",
+    "paths": [
+      "society/religion-christian"
+    ]
+  },
+  "8709b689ae78.txt": {
+    "gold_rel": "society/religion-christian/21516.txt",
+    "paths": [
+      "society/religion-christian"
+    ]
+  },
+  "ff9628503479.txt": {
+    "gold_rel": "society/religion-christian/21483.txt",
+    "paths": [
+      "society/religion-christian"
+    ]
+  },
+  "5ae7b2c91089.txt": {
+    "gold_rel": "society/religion-christian/21612.txt",
+    "paths": [
+      "society/religion-christian"
+    ]
+  },
+  "6c259b5f9db0.txt": {
+    "gold_rel": "society/religion-christian/21805.txt",
+    "paths": [
+      "society/religion-christian"
+    ]
+  },
+  "2e23beacca49.txt": {
+    "gold_rel": "society/religion-christian/21447.txt",
+    "paths": [
+      "society/religion-christian"
+    ]
+  },
+  "cb83bcb410e9.txt": {
+    "gold_rel": "society/religion-christian/21505.txt",
+    "paths": [
+      "society/religion-christian"
+    ]
+  },
+  "56ea37cfcad7.txt": {
+    "gold_rel": "society/religion-christian/21553.txt",
+    "paths": [
+      "society/religion-christian"
+    ]
+  },
+  "031eec8e9946.txt": {
+    "gold_rel": "society/religion-christian/21541.txt",
+    "paths": [
+      "society/religion-christian"
+    ]
+  },
+  "b51bb359abf3.txt": {
+    "gold_rel": "society/religion-christian/21559.txt",
+    "paths": [
+      "society/religion-christian"
+    ]
+  },
+  "7a9ed41cb610.txt": {
+    "gold_rel": "society/religion-christian/21436.txt",
+    "paths": [
+      "society/religion-christian"
+    ]
+  },
+  "12feaf793354.txt": {
+    "gold_rel": "society/religion-christian/21632.txt",
+    "paths": [
+      "society/religion-christian"
+    ]
+  },
+  "a6d9949450dc.txt": {
+    "gold_rel": "society/religion-christian/21702.txt",
+    "paths": [
+      "society/religion-christian"
+    ]
+  },
+  "a00f0db1c484.txt": {
+    "gold_rel": "society/religion-christian/21476.txt",
+    "paths": [
+      "society/religion-christian"
+    ]
+  },
+  "deed3d720da4.txt": {
+    "gold_rel": "society/religion-christian/21681.txt",
+    "paths": [
+      "society/religion-christian"
+    ]
+  },
+  "19207f4b9d0b.txt": {
+    "gold_rel": "society/religion-christian/21465.txt",
+    "paths": [
+      "society/religion-christian"
+    ]
+  },
+  "ebf8066e0d26.txt": {
+    "gold_rel": "society/religion-christian/21517.txt",
+    "paths": [
+      "society/religion-christian"
+    ]
+  },
+  "7127d9f968ed.txt": {
+    "gold_rel": "society/religion-christian/21514.txt",
+    "paths": [
+      "society/religion-christian"
+    ]
+  },
+  "9d77e057b421.txt": {
+    "gold_rel": "society/religion-christian/21583.txt",
+    "paths": [
+      "society/religion-christian"
+    ]
+  },
+  "7ce8d4d1b4c0.txt": {
+    "gold_rel": "society/religion-christian/21707.txt",
+    "paths": [
+      "society/religion-christian"
+    ]
+  },
+  "e852337db140.txt": {
+    "gold_rel": "debate/politics-guns/54624.txt",
+    "paths": [
+      "debate/politics-guns"
+    ]
+  },
+  "1c940c1ed648.txt": {
+    "gold_rel": "debate/politics-guns/55274.txt",
+    "paths": [
+      "debate/politics-guns"
+    ]
+  },
+  "4f9630f9fd6d.txt": {
+    "gold_rel": "debate/politics-guns/54736.txt",
+    "paths": [
+      "debate/politics-guns"
+    ]
+  },
+  "31097479def6.txt": {
+    "gold_rel": "debate/politics-guns/54546.txt",
+    "paths": [
+      "debate/politics-guns"
+    ]
+  },
+  "3a66d5a10244.txt": {
+    "gold_rel": "debate/politics-guns/54559.txt",
+    "paths": [
+      "debate/politics-guns"
+    ]
+  },
+  "2c93424c28d8.txt": {
+    "gold_rel": "debate/politics-guns/54623.txt",
+    "paths": [
+      "debate/politics-guns"
+    ]
+  },
+  "b78d03a8438a.txt": {
+    "gold_rel": "debate/politics-guns/55038.txt",
+    "paths": [
+      "debate/politics-guns"
+    ]
+  },
+  "7a53805eab30.txt": {
+    "gold_rel": "debate/politics-guns/54824.txt",
+    "paths": [
+      "debate/politics-guns"
+    ]
+  },
+  "0f54ba337323.txt": {
+    "gold_rel": "debate/politics-guns/54835.txt",
+    "paths": [
+      "debate/politics-guns"
+    ]
+  },
+  "bfb78531cf23.txt": {
+    "gold_rel": "debate/politics-guns/55078.txt",
+    "paths": [
+      "debate/politics-guns"
+    ]
+  },
+  "6ea87ecdd773.txt": {
+    "gold_rel": "debate/politics-guns/54951.txt",
+    "paths": [
+      "debate/politics-guns"
+    ]
+  },
+  "4e6cdeda0af4.txt": {
+    "gold_rel": "debate/politics-guns/54897.txt",
+    "paths": [
+      "debate/politics-guns"
+    ]
+  },
+  "cc841db28b0b.txt": {
+    "gold_rel": "debate/politics-guns/55483.txt",
+    "paths": [
+      "debate/politics-guns"
+    ]
+  },
+  "0107c8a47796.txt": {
+    "gold_rel": "debate/politics-guns/54552.txt",
+    "paths": [
+      "debate/politics-guns"
+    ]
+  },
+  "38327765a90b.txt": {
+    "gold_rel": "debate/politics-guns/55276.txt",
+    "paths": [
+      "debate/politics-guns"
+    ]
+  },
+  "a44dcfd49324.txt": {
+    "gold_rel": "debate/politics-guns/54625.txt",
+    "paths": [
+      "debate/politics-guns"
+    ]
+  },
+  "012574603c93.txt": {
+    "gold_rel": "debate/politics-guns/55487.txt",
+    "paths": [
+      "debate/politics-guns"
+    ]
+  },
+  "dd8652760988.txt": {
+    "gold_rel": "debate/politics-guns/55102.txt",
+    "paths": [
+      "debate/politics-guns"
+    ]
+  },
+  "d4121c6cb66e.txt": {
+    "gold_rel": "debate/politics-guns/54578.txt",
+    "paths": [
+      "debate/politics-guns"
+    ]
+  },
+  "f7b8f2199650.txt": {
+    "gold_rel": "debate/politics-guns/54580.txt",
+    "paths": [
+      "debate/politics-guns"
+    ]
+  },
+  "5354f08aefdf.txt": {
+    "gold_rel": "debate/politics-mideast/77373.txt",
+    "paths": [
+      "debate/politics-mideast"
+    ]
+  },
+  "646326b31bd4.txt": {
+    "gold_rel": "debate/politics-mideast/77180.txt",
+    "paths": [
+      "debate/politics-mideast"
+    ]
+  },
+  "13d34c59b246.txt": {
+    "gold_rel": "debate/politics-mideast/76373.txt",
+    "paths": [
+      "debate/politics-mideast"
+    ]
+  },
+  "944eb721e946.txt": {
+    "gold_rel": "debate/politics-mideast/77272.txt",
+    "paths": [
+      "debate/politics-mideast"
+    ]
+  },
+  "a7da390e36fe.txt": {
+    "gold_rel": "debate/politics-mideast/76419.txt",
+    "paths": [
+      "debate/politics-mideast"
+    ]
+  },
+  "64c38b972066.txt": {
+    "gold_rel": "debate/politics-mideast/77244.txt",
+    "paths": [
+      "debate/politics-mideast"
+    ]
+  },
+  "d3879175d75c.txt": {
+    "gold_rel": "debate/politics-mideast/77368.txt",
+    "paths": [
+      "debate/politics-mideast"
+    ]
+  },
+  "7f884529f739.txt": {
+    "gold_rel": "debate/politics-mideast/77336.txt",
+    "paths": [
+      "debate/politics-mideast"
+    ]
+  },
+  "196c1d3c8293.txt": {
+    "gold_rel": "debate/politics-mideast/76448.txt",
+    "paths": [
+      "debate/politics-mideast"
+    ]
+  },
+  "da4b63f45b6e.txt": {
+    "gold_rel": "debate/politics-mideast/76440.txt",
+    "paths": [
+      "debate/politics-mideast"
+    ]
+  },
+  "3632908b5049.txt": {
+    "gold_rel": "debate/politics-mideast/77212.txt",
+    "paths": [
+      "debate/politics-mideast"
+    ]
+  },
+  "d6c193038fd1.txt": {
+    "gold_rel": "debate/politics-mideast/76480.txt",
+    "paths": [
+      "debate/politics-mideast"
+    ]
+  },
+  "c04d0107dbcc.txt": {
+    "gold_rel": "debate/politics-mideast/77279.txt",
+    "paths": [
+      "debate/politics-mideast"
+    ]
+  },
+  "689c1414c9c3.txt": {
+    "gold_rel": "debate/politics-mideast/76466.txt",
+    "paths": [
+      "debate/politics-mideast"
+    ]
+  },
+  "53b71aa2e676.txt": {
+    "gold_rel": "debate/politics-mideast/77308.txt",
+    "paths": [
+      "debate/politics-mideast"
+    ]
+  },
+  "d57f6004befc.txt": {
+    "gold_rel": "debate/politics-mideast/76537.txt",
+    "paths": [
+      "debate/politics-mideast"
+    ]
+  },
+  "537663e0b12b.txt": {
+    "gold_rel": "debate/politics-mideast/77823.txt",
+    "paths": [
+      "debate/politics-mideast"
+    ]
+  },
+  "d2ac94148609.txt": {
+    "gold_rel": "debate/politics-mideast/76549.txt",
+    "paths": [
+      "debate/politics-mideast"
+    ]
+  },
+  "ff9d26a58fb2.txt": {
+    "gold_rel": "debate/politics-mideast/77229.txt",
+    "paths": [
+      "debate/politics-mideast"
+    ]
+  },
+  "d995d655edae.txt": {
+    "gold_rel": "debate/politics-mideast/76474.txt",
+    "paths": [
+      "debate/politics-mideast"
+    ]
+  },
+  "5bf5fc1888e5.txt": {
+    "gold_rel": "debate/politics-misc/178724.txt",
+    "paths": [
+      "debate/politics-misc"
+    ]
+  },
+  "46b160b2a6a7.txt": {
+    "gold_rel": "debate/politics-misc/178778.txt",
+    "paths": [
+      "debate/politics-misc"
+    ]
+  },
+  "59d6904f6499.txt": {
+    "gold_rel": "debate/politics-misc/179060.txt",
+    "paths": [
+      "debate/politics-misc"
+    ]
+  },
+  "f4b05f3728fb.txt": {
+    "gold_rel": "debate/politics-misc/178862.txt",
+    "paths": [
+      "debate/politics-misc"
+    ]
+  },
+  "a8dcdc5b7565.txt": {
+    "gold_rel": "debate/politics-misc/178914.txt",
+    "paths": [
+      "debate/politics-misc"
+    ]
+  },
+  "abd0308d49e9.txt": {
+    "gold_rel": "debate/politics-misc/178711.txt",
+    "paths": [
+      "debate/politics-misc"
+    ]
+  },
+  "3c96049b086d.txt": {
+    "gold_rel": "debate/politics-misc/179069.txt",
+    "paths": [
+      "debate/politics-misc"
+    ]
+  },
+  "d8339bf32004.txt": {
+    "gold_rel": "debate/politics-misc/178994.txt",
+    "paths": [
+      "debate/politics-misc"
+    ]
+  },
+  "e08ff9b990d8.txt": {
+    "gold_rel": "debate/politics-misc/178725.txt",
+    "paths": [
+      "debate/politics-misc"
+    ]
+  },
+  "98073b704042.txt": {
+    "gold_rel": "debate/politics-misc/179092.txt",
+    "paths": [
+      "debate/politics-misc"
+    ]
+  },
+  "0b6a03918499.txt": {
+    "gold_rel": "debate/politics-misc/178905.txt",
+    "paths": [
+      "debate/politics-misc"
+    ]
+  },
+  "522cb8f57cd0.txt": {
+    "gold_rel": "debate/politics-misc/178673.txt",
+    "paths": [
+      "debate/politics-misc"
+    ]
+  },
+  "7931534b9313.txt": {
+    "gold_rel": "debate/politics-misc/178786.txt",
+    "paths": [
+      "debate/politics-misc"
+    ]
+  },
+  "94d23dc1176e.txt": {
+    "gold_rel": "debate/politics-misc/178860.txt",
+    "paths": [
+      "debate/politics-misc"
+    ]
+  },
+  "fe06826326f0.txt": {
+    "gold_rel": "debate/politics-misc/178709.txt",
+    "paths": [
+      "debate/politics-misc"
+    ]
+  },
+  "5ab11b1561d4.txt": {
+    "gold_rel": "debate/politics-misc/178624.txt",
+    "paths": [
+      "debate/politics-misc"
+    ]
+  },
+  "a5d6af9175eb.txt": {
+    "gold_rel": "debate/politics-misc/178599.txt",
+    "paths": [
+      "debate/politics-misc"
+    ]
+  },
+  "2b06b1c9090f.txt": {
+    "gold_rel": "debate/politics-misc/178784.txt",
+    "paths": [
+      "debate/politics-misc"
+    ]
+  },
+  "62feaaaba7ee.txt": {
+    "gold_rel": "debate/politics-misc/179042.txt",
+    "paths": [
+      "debate/politics-misc"
+    ]
+  },
+  "6920021f8b2e.txt": {
+    "gold_rel": "debate/politics-misc/178866.txt",
+    "paths": [
+      "debate/politics-misc"
+    ]
+  },
+  "a807421662be.txt": {
+    "gold_rel": "debate/religion-misc/84223.txt",
+    "paths": [
+      "debate/religion-misc"
+    ]
+  },
+  "df091ccf7375.txt": {
+    "gold_rel": "debate/religion-misc/84224.txt",
+    "paths": [
+      "debate/religion-misc"
+    ]
+  },
+  "159ffa849051.txt": {
+    "gold_rel": "debate/religion-misc/84250.txt",
+    "paths": [
+      "debate/religion-misc"
+    ]
+  },
+  "3d958c175d22.txt": {
+    "gold_rel": "debate/religion-misc/84127.txt",
+    "paths": [
+      "debate/religion-misc"
+    ]
+  },
+  "4b777701c155.txt": {
+    "gold_rel": "debate/religion-misc/84239.txt",
+    "paths": [
+      "debate/religion-misc"
+    ]
+  },
+  "0ac897bc0304.txt": {
+    "gold_rel": "debate/religion-misc/84210.txt",
+    "paths": [
+      "debate/religion-misc"
+    ]
+  },
+  "d68c93f4f36a.txt": {
+    "gold_rel": "debate/religion-misc/84065.txt",
+    "paths": [
+      "debate/religion-misc"
+    ]
+  },
+  "1af2abd3d98c.txt": {
+    "gold_rel": "debate/religion-misc/84401.txt",
+    "paths": [
+      "debate/religion-misc"
+    ]
+  },
+  "e0493be82d07.txt": {
+    "gold_rel": "debate/religion-misc/84007.txt",
+    "paths": [
+      "debate/religion-misc"
+    ]
+  },
+  "a92fa3c2ac21.txt": {
+    "gold_rel": "debate/religion-misc/84310.txt",
+    "paths": [
+      "debate/religion-misc"
+    ]
+  },
+  "b4e9e298809c.txt": {
+    "gold_rel": "debate/religion-misc/84354.txt",
+    "paths": [
+      "debate/religion-misc"
+    ]
+  },
+  "2d8f608ca51e.txt": {
+    "gold_rel": "debate/religion-misc/84232.txt",
+    "paths": [
+      "debate/religion-misc"
+    ]
+  },
+  "be3053f542e2.txt": {
+    "gold_rel": "debate/religion-misc/83931.txt",
+    "paths": [
+      "debate/religion-misc"
+    ]
+  },
+  "cb5b471670f3.txt": {
+    "gold_rel": "debate/religion-misc/84024.txt",
+    "paths": [
+      "debate/religion-misc"
+    ]
+  },
+  "cb9ee99ecc45.txt": {
+    "gold_rel": "debate/religion-misc/84059.txt",
+    "paths": [
+      "debate/religion-misc"
+    ]
+  },
+  "e63be39e0b11.txt": {
+    "gold_rel": "debate/religion-misc/84084.txt",
+    "paths": [
+      "debate/religion-misc"
+    ]
+  },
+  "6d10cc1a023b.txt": {
+    "gold_rel": "debate/religion-misc/84334.txt",
+    "paths": [
+      "debate/religion-misc"
+    ]
+  },
+  "76ae28fe39dd.txt": {
+    "gold_rel": "debate/religion-misc/84264.txt",
+    "paths": [
+      "debate/religion-misc"
+    ]
+  },
+  "ffb857fa951f.txt": {
+    "gold_rel": "debate/religion-misc/84208.txt",
+    "paths": [
+      "debate/religion-misc"
+    ]
+  },
+  "1af8a3893e40.txt": {
+    "gold_rel": "debate/religion-misc/84139.txt",
+    "paths": [
+      "debate/religion-misc"
+    ]
+  }
+}

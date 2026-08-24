@@ -1,0 +1,3088 @@
+# Regions (Pass B stitch)
+
+Nested groups stitched from Pass A free-form tags. Docs may appear in multiple regions.
+
+**Documents:** 871
+**Top-level regions:** 9
+**Total nodes:** 26
+**Tag coverage:** 5031/5031 (100.0%)
+**Docs with ≥1 region:** 809
+
+## Tree
+
+- **Professional Development** (`professional-development`) — 166 docs
+  - tags: `professional-development`, `cte-professional-development`, `dallas-isd-cte-professional-development`, `2025-cte-professional-development`, `2025-professional-development`, `professional-development-2026`, `professional-development-cte`
+  - **Summer Professional Development** (`summer-pd`) — 103 docs
+    - tags: `summer-learning-site-signage`, `summer-2026`, `summer-2026-cte`, `dallas-isd-cte-summer-2026`, `2025-cte-summer-pd`, `2025-summer`, `cte-2026-summer`, `cte-summer-2026`
+  - **CTE Summer Programs** (`cte-summer-program`) — 153 docs
+    - tags: `cte-summer-program-2026`, `cte-summer-program-materials`, `summer-program-materials`
+- **Procurement & Vendor Compliance** (`procurement-compliance`) — 272 docs
+  - tags: `non-awarded-vendor-request`, `non-awarded-vendor-form`, `non-awarded-vendor-process`, `procurement-justification`, `procurement-services`, `procurement-form`, `procurement-compliance`, `purchasing-guidelines`, `vendor-approval`, `vendor-approval-process`, `goods-and-services-request`, `district-contract-requirements`
+  - **Vendor Approval & Compliance** (`vendor-management`) — 35 docs
+    - tags: `vendor-approval`, `vendor-approval-process`, `non-awarded-vendor-form`, `procurement-compliance`, `vendor-compliance`, `goods-and-services-purchasing`
+  - **Purchasing Operations** (`purchasing-operations`) — 77 docs
+    - tags: `purchasing-quote`, `purchasing-services`, `purchasing-guidelines`, `procurement-form`, `dallas-isd-purchasing`, `procurement-services-form`
+- **health-compliance** (`health-compliance`) — 272 docs
+  - tags: `cte-student-health`, `immunization-record`, `imm-trac`, `vaccination-history`, `vaccination-compliance`, `tb-screening-2026`, `tb-screening`, `tuberculosis-screening`, `lab-results-2026`, `lab-results`, `lab-results-2009`, `lab-results-2008` (+13)
+  - **Immunization Records** (`immunization`) — 13 docs
+    - tags: `immunization-record`, `immunization-records`, `imm-trac`, `imm-trac-2026`, `imm-trac-150879262`, `vaccination-history`, `vaccination-history-2026`, `vaccination-compliance`
+  - **Tuberculosis Screening** (`tb-screening`) — 50 docs
+    - tags: `tb-screening-2026`, `tb-screening`, `screening-form`, `2010-tb-screening`, `2026-tb-screening`, `quantiferon-tb-gold-plus`, `quantiferon-gold-plus`, `quantifiFERON-TB-Gold-Plus`, `quantifiFERON-TB-GOLD-PLUS`
+  - **Lab Results & Medical Testing** (`lab-results`) — 3 docs
+    - tags: `lab-results-2026`, `lab-results`, `lab-results-2009`, `lab-results-2008`, `tb-lab-results`, `2026-lab-results`, `lab-results-2010`, `lab-results-2011`, `medical-testing`, `medical-testing-2026`, `medical-testing-document`, `medical-testing-1980` (+1)
+- **Workforce Development & Career Pathways** (`workforce-pathways`) — 271 docs
+  - tags: `workforce-development`, `career-and-technical-education`, `career-clusters`, `career-exploration`, `labor-market-alignment`, `career-readiness`, `career-readiness-2025-26`, `industry-partnerships`, `industry-based-certifications`, `industry-certifications`, `industry-based-certification`, `certiport` (+3)
+  - **Industry Certifications** (`industry-certifications`) — 40 docs
+    - tags: `industry-based-certifications`, `industry-based-certification`, `industry-certifications`, `industry-certification`, `cte-industry-certifications`, `certiport`
+  - **Career Exploration** (`career-exploration`) — 73 docs
+    - tags: `career-exploration`, `career-clusters`, `career-institutes`, `career-institutes-cte`, `career-institute-north`
+- **events-and-conferences** (`events-and-conferences`) — 290 docs
+  - tags: `conference-travel`, `2025-conference-travel`, `2025-cte-conference-travel`, `travel-authorization`, `travel-authorization-form`, `conference-attendance`, `conference-attendance-2025`, `cte-conference-attendance`, `naf-conference-2026`, `naf-next-2026`, `naf-next-2026-agenda`, `showcase-2026` (+10)
+  - **CTSO Activities & Fundraising** (`ctso-activities`) — 10 docs
+    - tags: `ctso`, `ctso-fundraising`, `ctso-fundraising-signage`, `ctso-sponsorship-guidelines-25-26`, `ctso-chapter-requirements`, `ctso-chapter-requirements-2025-26`, `ctso-stipend-structure`
+  - **Conference Travel & Authorization** (`conference-travel`) — 60 docs
+    - tags: `conference-travel`, `2025-conference-travel`, `2025-cte-conference-travel`, `travel-authorization`, `travel-authorization-form`, `grant-funded-travel`, `cte-department-travel`
+- **academic-programs** (`academic-programs`) — 196 docs
+  - tags: `academic-services`, `academic-services-cte`, `cte-academic-services`, `dallas-academic-services`, `curriculum-materials`, `programs-of-study`, `cte-programs-of-study`, `cte-program-planning`, `cte-unit-planning`, `cte-program-assessment`, `program-assessment`, `program-quality-framework` (+3)
+  - **Program Planning & Planning** (`program-planning`) — 65 docs
+    - tags: `cte-program-planning`, `program-planning`, `cte-unit-planning`, `unit-planning`, `2025-2030-cte-planning`, `2025-26-cte-planning`, `2026-2027-cte-planning`, `2026-27-cte-planning`, `4-year-planning`, `year-of-planning`
+  - **Curriculum & Materials** (`curriculum`) — 58 docs
+    - tags: `curriculum-materials`, `site-signage`, `academic-services-signage`, `campus-room-signage`, `site-signage-template`
+- **financial-administration** (`financial-administration`) — 215 docs
+  - tags: `reimbursement-voucher`, `reimbursement-voucher`, `stipend-2025-2026`, `stipend-2026`, `cte-stipend`, `stipend`, `stipend-amount-up-to-2000`, `stipend-amount-2000`, `supplemental-compensation-certification`, `payment-receipt`, `payment-receipt-2025`, `ride-receipt` (+35)
+  - **Tax & Financial Documents** (`tax-documents`) — 0 docs
+    - tags: `2024-tax-year`, `tax-8-25`, `tax-185`, `tax-9-75`, `tax-document-2018`, `tax-document-2024`, `wage-and-tax-statement`, `w2-form`, `w2-form`, `irs-form-1040`, `irs-form`, `irs-form-w2`
+  - **Receipts and Payments** (`receipts-payments`) — 0 docs
+    - tags: `reimbursement-voucher`, `payment-receipt`, `payment-receipt-2025`, `ride-receipt`, `ride-receipt-2025`, `mastercard-payment`, `mastercard-payment-2025`, `mastercard-payment-4236`, `credit-card-payment`, `credit-card-payment-2025`, `amex-payment`, `amex-payment-2025` (+3)
+- **student-services** (`student-services`) — 180 docs
+  - tags: `birth-certificate`, `certificate-of-birth`, `certification-of-birth`, `mackenna-birth-certificate`, `student-affiliation-agreement`, `affiliation-agreement`, `affiliation-agreement-2024`, `preceptor-student-ratio`, `clinical-rotation-agreement`, `special-revenue-funds`, `session-attendance`, `session-attendance-2026` (+5)
+  - **Student Records & Affiliation** (`student-records`) — 0 docs
+    - tags: `birth-certificate`, `certificate-of-birth`, `certification-of-birth`, `mackenna-birth-certificate`, `student-affiliation-agreement`, `affiliation-agreement`, `affiliation-agreement-2024`
+  - **Session Attendance & Records** (`session-attendance`) — 0 docs
+    - tags: `session-attendance`, `session-attendance-2026`, `pd-session-attendance`
+- **Needs review** (`needs-review`) — 773 docs
+  - tags: `endorse-form-7.2025`, `work-based-learning`, `digital-tools-onboarding`, `adobe-creative-cloud`, `high-school-pathful`, `ai-lessons-gemini-notebooklm`, `basc3`, `teacher-rating-scale`, `rating-scale-form`, `classroom-observation-tool`, `self-employment-income`, `spence-family-filing` (+28)
+
+## Documents by top-level region
+
+### Professional Development (336)
+
+- ` PD Summer Schedule.pdf` → `summer-pd`, `events-and-conferences`, `academic-programs`, `procurement-compliance`, `industry-certifications`, `needs-review`
+- `12-21-BASC 3 Teacher.pdf` → `needs-review`, `academic-programs`, `health-compliance`, `events-and-conferences`
+- `2025 CTE Summer PD Feedback.pdf` → `summer-pd`, `workforce-pathways`, `student-services`, `needs-review`, `events-and-conferences`, `health-compliance`
+- `2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `workforce-pathways`, `needs-review`
+- `2026-27 DRAFT[98].pdf` → `needs-review`, `program-planning`, `cte-summer-program`, `workforce-pathways`
+- `25-26 SEC 11028Y1N2-2022 Early Childhood (1).pdf` → `events-and-conferences`, `needs-review`, `academic-programs`, `cte-summer-program`
+- `25-26 SEC 11028Y1N2-2022 Early Childhood.pdf` → `events-and-conferences`, `needs-review`, `academic-programs`, `cte-summer-program`, `workforce-pathways`, `procurement-compliance`
+- `26-27 Campus CTE Nonposition Realignment Datasource V2 (1).pdf` → `needs-review`, `cte-summer-program`, `program-planning`, `workforce-pathways`
+- `26-27 Campus CTE Nonposition Realignment Datasource V4.pdf` → `needs-review`, `cte-summer-program`, `workforce-pathways`, `health-compliance`
+- `26-27 Campus CTE Nonposition Realignment Datasource V5 (1).pdf` → `needs-review`, `cte-summer-program`, `curriculum`, `workforce-pathways`
+- `26-27 Campus CTE Nonposition Realignment Datasource V5.pdf` → `needs-review`, `cte-summer-program`, `workforce-pathways`
+- `26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `financial-administration`, `needs-review`, `career-exploration`, `student-services`, `health-compliance`
+- `2nd floor map.png` → `needs-review`, `curriculum`, `student-services`, `summer-pd`
+- `3. Board Document 250357[69].pdf` → `needs-review`, `student-services`, `workforce-pathways`, `cte-summer-program`, `procurement-compliance`, `career-exploration`
+- `ACTE Vision 2025 Agenda.pdf` → `needs-review`, `cte-summer-program`, `workforce-pathways`, `events-and-conferences`
+- `ACTE Vision 2025/65684178-BD76-0A08-B60B-BE1C34BFECD62025121015413396.pdf` → `student-services`, `needs-review`
+- `ACTE Vision 2025/656A76EE-B68A-D444-6762-21010FD3F29C2025121015414842.pdf` → `needs-review`, `student-services`
+- `ACTE Vision 2025/656EE0EE-B956-47AB-F3B8-A54C3E8E641B20251210154217363.pdf` → `student-services`, `procurement-compliance`, `needs-review`, `health-compliance`, `academic-programs`
+- `ACTE Vision 2025/65716A4D-B4E2-7383-94EF-7EDF54BFC4E120251210154233987.pdf` → `needs-review`, `student-services`
+- `ACTE Vision 2025/6579DB74-F008-599E-5ED8-2CEC15E80EA820251210154329313.pdf` → `student-services`, `needs-review`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf` → `needs-review`, `academic-programs`, `cte-summer-program`, `financial-administration`, `events-and-conferences`, `student-services`
+- `ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf` → `student-services`, `needs-review`, `summer-pd`, `academic-programs`, `events-and-conferences`
+- `ACTE Vision 2025/Admin 101/CTE Program Coherent Sequence.pdf` → `cte-summer-program`, `needs-review`, `industry-certifications`, `academic-programs`, `program-planning`
+- `ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf` → `needs-review`, `workforce-pathways`, `academic-programs`, `program-planning`, `cte-summer-program`, `events-and-conferences`
+- `ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf` → `program-planning`, `academic-programs`, `cte-summer-program`, `workforce-pathways`, `needs-review`
+- `ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf` → `needs-review`, `financial-administration`, `cte-summer-program`, `academic-programs`, `procurement-compliance`
+- `ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf` → `needs-review`, `student-services`, `events-and-conferences`
+- `ACTE Vision 2025/The Art of Coaching/Do we Need a Team.pdf` → `student-services`, `needs-review`, `workforce-pathways`
+- `ACTE Vision 2025/The Art of Coaching/Example of a Team's Communication Agreements.pdf` → `needs-review`, `procurement-compliance`, `student-services`
+- `ACTE Vision 2025/The Art of Coaching/Indicators of a Team's Emotional Intelligence.pdf` → `needs-review`, `student-services`
+- `ACTE Vision 2025/The Art of Coaching/Indicators of an Effective Team.pdf` → `student-services`, `needs-review`, `academic-programs`
+- `ACTE Vision 2025/The Art of Coaching/Team Temperature Check.pdf` → `student-services`, `health-compliance`, `needs-review`, `academic-programs`
+- `ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf` → `student-services`, `needs-review`, `workforce-pathways`, `events-and-conferences`
+- `ACTE-Membership-Application-Jeremy Spence.pdf` → `needs-review`, `workforce-pathways`, `cte-summer-program`
+- `Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf` → `student-services`, `needs-review`, `health-compliance`, `financial-administration`, `procurement-compliance`, `workforce-pathways`
+- `Alpha Education Group_Non-AwardedVendorRequestForm - signed.pdf (SECURED).pdf` → `procurement-compliance`, `vendor-management`, `cte-summer-program`, `events-and-conferences`, `purchasing-operations`, `needs-review`
+- `August 6th PD.pdf` → `needs-review`, `ctso-activities`, `cte-summer-program`, `events-and-conferences`
+- `Baylor Scott & Whote MAA 2028 08.09.23.pdf` → `student-services`, `needs-review`, `health-compliance`, `procurement-compliance`, `cte-summer-program`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768501134.7069674.pdf` → `purchasing-operations`, `needs-review`, `workforce-pathways`, `industry-certifications`, `health-compliance`, `procurement-compliance`
+- `CI North Remote Parking (1).pdf` → `needs-review`, `summer-pd`, `health-compliance`, `cte-summer-program`
+- `CLNA 26-27/2025-26 Application.pdf (SECURED).pdf` → `needs-review`, `academic-programs`, `workforce-pathways`
+- `CLNA 26-27/regional-labor-market-information-wda-6.pdf` → `workforce-pathways`, `needs-review`, `cte-summer-program`, `events-and-conferences`
+- `CLNA Guiding Questions (2).pdf` → `needs-review`, `health-compliance`, `academic-programs`, `workforce-pathways`, `student-services`, `cte-summer-program`
+- `CLNA Guiding Questions.pdf` → `needs-review`, `health-compliance`, `academic-programs`, `workforce-pathways`, `student-services`, `cte-summer-program`
+- `CLNA Planning Tool-Example.pdf` → `program-planning`, `academic-programs`, `needs-review`, `workforce-pathways`, `cte-summer-program`, `health-compliance`
+- `CTAT Summer 26_Agenda_062926.pdf` → `summer-pd`, `events-and-conferences`, `cte-summer-program`, `needs-review`, `student-services`
+- `CTE Admin 101-Slide Deck.pdf` → `needs-review`, `academic-programs`, `events-and-conferences`, `workforce-pathways`, `procurement-compliance`
+- `CTE Admin 102-Slide Deck.pdf` → `needs-review`, `cte-summer-program`, `student-services`
+- `CTE Lead.pdf` → `procurement-compliance`, `financial-administration`, `needs-review`, `cte-summer-program`, `industry-certifications`
+- `CTE PD 6.1.26.pdf` → `needs-review`, `events-and-conferences`, `summer-pd`, `student-services`
+- `CTE PLC October 29, 2024 (Responses).pdf` → `needs-review`, `events-and-conferences`, `cte-summer-program`, `procurement-compliance`
+- `CTE PLC.png` → `needs-review`, `workforce-pathways`
+- `CTE Required Certification by Program.pdf` → `procurement-compliance`, `academic-programs`, `cte-summer-program`, `industry-certifications`, `workforce-pathways`
+- `CTE Summer PD 2026/Copy of Cooperative Learning in CTE.pdf` → `summer-pd`, `needs-review`, `student-services`
+- `CTE Summer PD 2026/We are CTE.pdf` → `student-services`, `needs-review`, `career-exploration`, `workforce-pathways`
+- `CTE Survey Dashboard — One Pager (1).pdf` → `needs-review`, `cte-summer-program`, `workforce-pathways`
+- `CTE Survey Dashboard — One Pager.pdf` → `needs-review`, `cte-summer-program`, `career-exploration`
+- `CTE TEAM (1).png` → `student-services`, `needs-review`, `cte-summer-program`, `workforce-pathways`, `health-compliance`, `academic-programs`
+- `CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf` → `summer-pd`, `cte-summer-program`, `curriculum`, `needs-review`, `health-compliance`, `events-and-conferences`
+- `CTE- SUM26 CIN Summer Learning Site Signage Template.pdf` → `summer-pd`, `cte-summer-program`, `health-compliance`, `needs-review`, `procurement-compliance`, `workforce-pathways`
+- `CTE- SUM26 CIS Summer Learning Site Signage Template (2).pdf` → `summer-pd`, `curriculum`, `needs-review`, `events-and-conferences`, `workforce-pathways`, `health-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (2).png` → `summer-pd`, `career-exploration`, `academic-programs`, `needs-review`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (3).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (4).png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `needs-review`, `events-and-conferences`, `workforce-pathways`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (5).png` → `summer-pd`, `career-exploration`, `workforce-pathways`, `needs-review`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (6).png` → `summer-pd`, `career-exploration`, `academic-programs`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (7).png` → `summer-pd`, `career-exploration`, `needs-review`, `academic-programs`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (8).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `academic-programs`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (9).png` → `summer-pd`, `career-exploration`, `needs-review`, `events-and-conferences`, `curriculum`, `workforce-pathways`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary.png` → `summer-pd`, `career-exploration`, `needs-review`, `academic-programs`, `procurement-compliance`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1).pdf` → `summer-pd`, `cte-summer-program`, `curriculum`, `needs-review`, `health-compliance`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (2).png` → `summer-pd`, `career-exploration`, `needs-review`, `academic-programs`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (3).png` → `summer-pd`, `career-exploration`, `needs-review`, `academic-programs`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (4).png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `needs-review`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (5).png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `workforce-pathways`, `needs-review`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (6).png` → `summer-pd`, `career-exploration`, `curriculum`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (7).png` → `summer-pd`, `career-exploration`, `needs-review`, `events-and-conferences`, `academic-programs`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (8).png` → `summer-pd`, `career-exploration`, `curriculum`, `needs-review`, `procurement-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (9).png` → `summer-pd`, `financial-administration`, `procurement-compliance`, `needs-review`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary.png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `events-and-conferences`, `cte-summer-program`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (2).pdf` → `summer-pd`, `events-and-conferences`, `curriculum`, `academic-programs`, `workforce-pathways`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (2).png` → `summer-pd`, `career-exploration`, `academic-programs`, `needs-review`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (3).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (4).png` → `summer-pd`, `curriculum`, `workforce-pathways`, `events-and-conferences`, `needs-review`, `career-exploration`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (5).png` → `summer-pd`, `career-exploration`, `workforce-pathways`, `needs-review`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (6).png` → `summer-pd`, `career-exploration`, `academic-programs`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (7).png` → `summer-pd`, `career-exploration`, `needs-review`, `academic-programs`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (8).png` → `summer-pd`, `career-exploration`, `curriculum`, `events-and-conferences`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (9).png` → `summer-pd`, `cte-summer-program`, `events-and-conferences`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary.png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `needs-review`, `events-and-conferences`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template.pdf` → `summer-pd`, `curriculum`, `cte-summer-program`, `health-compliance`, `events-and-conferences`, `procurement-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (2).png` → `summer-pd`, `career-exploration`, `events-and-conferences`, `needs-review`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (3).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `academic-programs`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (4).png` → `summer-pd`, `curriculum`, `events-and-conferences`, `needs-review`, `career-exploration`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (5).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `workforce-pathways`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (6).png` → `summer-pd`, `career-exploration`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (7).png` → `summer-pd`, `career-exploration`, `cte-summer-program`, `curriculum`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (8).png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `events-and-conferences`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (9).png` → `summer-pd`, `curriculum`, `career-exploration`, `financial-administration`, `needs-review`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary.png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `procurement-compliance`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (2).png` → `summer-pd`, `career-exploration`, `events-and-conferences`, `needs-review`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (3).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (4).png` → `summer-pd`, `curriculum`, `events-and-conferences`, `needs-review`, `career-exploration`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (5).png` → `summer-pd`, `career-exploration`, `workforce-pathways`, `needs-review`, `curriculum`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (6).png` → `summer-pd`, `career-exploration`, `academic-programs`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (7).png` → `summer-pd`, `career-exploration`, `needs-review`, `academic-programs`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (8).png` → `summer-pd`, `career-exploration`, `curriculum`, `events-and-conferences`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (9).png` → `summer-pd`, `financial-administration`, `procurement-compliance`, `events-and-conferences`, `needs-review`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary.png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `procurement-compliance`, `events-and-conferences`
+- `CTE-Standard Operating Procedures/Campus Lead Teacher Program.pdf` → `needs-review`, `cte-summer-program`, `financial-administration`, `procurement-compliance`, `academic-programs`
+- `CTE-Standard Operating Procedures/Standard Operting Procedures-Perkins.pdf` → `needs-review`, `procurement-compliance`, `purchasing-operations`, `financial-administration`, `conference-travel`, `program-planning`
+- `CTE_Meeting_Agenda_Updated (1).pdf` → `summer-pd`, `events-and-conferences`, `needs-review`, `student-services`
+- `CTE_Meeting_Agenda_Updated.pdf` → `summer-pd`, `needs-review`, `events-and-conferences`, `student-services`
+- `Carlson June hourlysupplementaltimecard.pdf` → `needs-review`, `workforce-pathways`
+- `Certiport Conference Preauthorization, Agenda, Badge, Parking Receipts, and bank statement-Palmer.pdf` → `events-and-conferences`, `workforce-pathways`, `conference-travel`, `financial-administration`, `needs-review`
+- `ChatGPT Image Jul 17, 2026, 09_53_55 AM.png` → `needs-review`, `workforce-pathways`, `program-planning`
+- `CodeHS Proclamation 2024 titles.pdf` → `needs-review`, `procurement-compliance`, `academic-programs`, `cte-summer-program`
+- `CollabBadge.pdf` → `needs-review`, `workforce-pathways`, `health-compliance`, `cte-summer-program`
+- `Cooperative Learning in CTE.pdf` → `summer-pd`, `needs-review`
+- `Copy of 26-27 Academic Services Deck Template  (1).pdf` → `academic-programs`, `curriculum`, `summer-pd`, `needs-review`, `student-services`
+- `Copy of 26-27 Academic Services Deck Template .pdf` → `academic-programs`, `curriculum`, `summer-pd`, `needs-review`, `student-services`
+- `Copy of CTE PLC Agendas (1) (1).pdf` → `events-and-conferences`, `conference-travel`, `workforce-pathways`, `student-services`, `needs-review`, `program-planning`
+- `Copy of CTE PLC Agendas (1).pdf` → `events-and-conferences`, `conference-travel`, `workforce-pathways`, `student-services`, `needs-review`, `industry-certifications`
+- `Copy of EXPO Attendance Roster for CTE.pdf` → `events-and-conferences`, `needs-review`, `workforce-pathways`, `health-compliance`, `cte-summer-program`
+- `Cornerstone_Session_Roster_Report_7_20_12 AM.pdf` → `needs-review`, `student-services`, `events-and-conferences`
+- `Cornerstone_Session_Signin-10_12_2025 (1).pdf` → `needs-review`, `student-services`, `academic-programs`, `events-and-conferences`
+- `Cornerstone_Session_Signin-10_12_2025.pdf` → `needs-review`, `student-services`, `academic-programs`, `events-and-conferences`
+- `Cornerstone_Session_Signin-1_14_2026.pdf` → `events-and-conferences`, `workforce-pathways`, `student-services`, `needs-review`, `academic-programs`
+- `Cornerstone_Session_Signin-1_5_2026 (1).pdf` → `needs-review`, `summer-pd`, `workforce-pathways`, `student-services`
+- `Cornerstone_Session_Signin-1_5_2026 (3).pdf` → `needs-review`, `workforce-pathways`, `student-services`, `academic-programs`, `events-and-conferences`
+- `Cornerstone_Session_Signin-1_5_2026 (4).pdf` → `student-services`, `summer-pd`, `events-and-conferences`, `needs-review`, `workforce-pathways`
+- `Cornerstone_Session_Signin-1_5_2026.pdf` → `student-services`, `needs-review`, `workforce-pathways`, `health-compliance`, `academic-programs`
+- `Cornerstone_Session_Signin-5_26_2026 (1).pdf` → `student-services`, `workforce-pathways`, `events-and-conferences`, `needs-review`, `career-exploration`, `summer-pd`
+- `Cornerstone_Session_Signin-5_26_2026 (2).pdf` → `needs-review`, `workforce-pathways`, `student-services`, `events-and-conferences`
+- `Cornerstone_Session_Signin-5_26_2026 (3).pdf` → `needs-review`, `events-and-conferences`, `workforce-pathways`, `student-services`, `career-exploration`, `academic-programs`
+- `Cornerstone_Session_Signin-5_26_2026 (4).pdf` → `needs-review`, `events-and-conferences`, `workforce-pathways`, `student-services`, `career-exploration`
+- `Cornerstone_Session_Signin-5_26_2026 (5).pdf` → `student-services`, `workforce-pathways`, `events-and-conferences`, `career-exploration`, `needs-review`
+- `Cornerstone_Session_Signin-5_26_2026 (6).pdf` → `student-services`, `workforce-pathways`, `events-and-conferences`, `career-exploration`, `needs-review`
+- `Cornerstone_Session_Signin-5_26_2026 (7).pdf` → `needs-review`, `events-and-conferences`, `workforce-pathways`, `student-services`
+- `Cornerstone_Session_Signin-5_26_2026.pdf` → `needs-review`, `workforce-pathways`, `student-services`, `events-and-conferences`, `career-exploration`, `summer-pd`
+- `Cornerstone_Session_Signin-5_29_2026.pdf` → `needs-review`, `events-and-conferences`, `workforce-pathways`, `student-services`, `career-exploration`
+- `Cornerstone_Session_Signin-6_10_2026.pdf` → `needs-review`, `career-exploration`, `summer-pd`, `academic-programs`, `student-services`, `events-and-conferences`
+- `Cornerstone_Session_Signin-6_9_2026.pdf` → `needs-review`, `events-and-conferences`, `career-exploration`, `summer-pd`, `academic-programs`, `student-services`
+- `Coyle June hourlysupplementaltimecard.pdf` → `needs-review`, `events-and-conferences`
+- `D. Johnson complete naf documents .pdf` → `events-and-conferences`, `financial-administration`, `conference-travel`, `needs-review`, `procurement-compliance`, `student-services`
+- `DIAZ_TIVA_GRANT TRAVEL FORMS _SIGNED.pdf` → `summer-pd`, `events-and-conferences`, `career-exploration`, `conference-travel`, `financial-administration`, `student-services`
+- `DISD_EMS_Student_Profile_5_26_26.pdf` → `cte-summer-program`, `health-compliance`, `needs-review`, `procurement-compliance`, `career-exploration`, `workforce-pathways`
+- `DRAFT Vehicle Intake & Liability Waiver Form.pdf` → `needs-review`, `cte-summer-program`, `health-compliance`, `academic-programs`
+- `DSC_6946-Enhanced-NR.jpg` → `cte-summer-program`, `health-compliance`, `needs-review`, `procurement-compliance`, `financial-administration`, `events-and-conferences`
+- `DSC_7006-Enhanced-NR.jpg` → `needs-review`, `summer-pd`
+- `Dallas ISD CTE_ Work-Based Learning Continuum.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `cte-summer-program`, `health-compliance`, `program-planning`
+- `Dallas ISD Garner A&P 1 year Estimate_316614.pdf` → `purchasing-operations`, `needs-review`, `health-compliance`, `academic-programs`, `cte-summer-program`, `financial-administration`
+- `Dallas_ISD_CLNA_2026-2027_DRAFT.pdf` → `needs-review`, `academic-programs`, `health-compliance`, `workforce-pathways`, `career-exploration`, `cte-summer-program`
+- `Dee July hourlysupplementaltimecard.pdf` → `needs-review`, `conference-travel`, `curriculum`
+- `Department Supplemental Pay Approval Memo.pdf` → `procurement-compliance`, `summer-pd`, `workforce-pathways`, `conference-travel`, `academic-programs`
+- `Documents/12-month weightlifitng Plan.pdf` → `needs-review`, `events-and-conferences`, `cte-summer-program`, `procurement-compliance`
+- `Documents/2025-2026 CTE Oracle iExpense Travel Training.pdf` → `needs-review`, `events-and-conferences`, `procurement-compliance`, `health-compliance`
+- `Documents/244 Sitipend 2026/Amaning Completed-Supplemental_form.pdf (SECURED).pdf` → `financial-administration`, `procurement-compliance`, `academic-programs`, `workforce-pathways`, `summer-pd`, `needs-review`
+- `Documents/244 Sitipend 2026/Amaning-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `academic-programs`, `conference-travel`, `summer-pd`
+- `Documents/244 Sitipend 2026/Archie-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `academic-programs`, `summer-pd`, `conference-travel`
+- `Documents/244 Sitipend 2026/Benagh-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `student-services`, `conference-travel`, `workforce-pathways`
+- `Documents/244 Sitipend 2026/Copy of CTE Lead Teacher Stipends (Fall 2025).pdf` → `needs-review`, `financial-administration`, `cte-summer-program`
+- `Documents/244 Sitipend 2026/Coyle-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `academic-programs`, `conference-travel`
+- `Documents/244 Sitipend 2026/Jones-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `academic-programs`, `summer-pd`, `conference-travel`
+- `Documents/244 Sitipend 2026/MRodriguez-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `needs-review`, `workforce-pathways`, `conference-travel`, `summer-pd`, `procurement-compliance`
+- `Documents/244 Sitipend 2026/Maxwell-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `academic-programs`, `workforce-pathways`, `summer-pd`
+- `Documents/244 Sitipend 2026/SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `needs-review`, `conference-travel`, `procurement-compliance`, `events-and-conferences`
+- `Documents/26-27 Campus CTE Nonposition Realignment Datasource Updated.pdf` → `needs-review`, `cte-summer-program`, `program-planning`, `health-compliance`
+- `Documents/26-27 TraditionalCalendar-Traditional2026-2027.pdf` → `financial-administration`, `events-and-conferences`, `needs-review`, `health-compliance`, `summer-pd`
+- `Documents/ACTE Vision 2025/65684178-BD76-0A08-B60B-BE1C34BFECD62025121015413396.pdf` → `student-services`, `needs-review`, `procurement-compliance`
+- `Documents/ACTE Vision 2025/656A76EE-B68A-D444-6762-21010FD3F29C2025121015414842.pdf` → `needs-review`, `student-services`
+- `Documents/ACTE Vision 2025/656EE0EE-B956-47AB-F3B8-A54C3E8E641B20251210154217363.pdf` → `student-services`, `needs-review`, `academic-programs`
+- `Documents/ACTE Vision 2025/65716A4D-B4E2-7383-94EF-7EDF54BFC4E120251210154233987.pdf` → `needs-review`, `student-services`
+- `Documents/ACTE Vision 2025/65734697-0BED-B7C1-727E-DB1AA7193B0820251210154246197.pdf` → `student-services`, `needs-review`, `conference-travel`, `health-compliance`
+- `Documents/ACTE Vision 2025/6579DB74-F008-599E-5ED8-2CEC15E80EA820251210154329313.pdf` → `student-services`, `needs-review`
+- `Documents/ACTE Vision 2025/Admin 101/ACTE Advisory Council Support Menu.pdf` → `needs-review`, `workforce-pathways`, `student-services`, `cte-summer-program`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1.pdf` → `needs-review`, `cte-summer-program`, `workforce-pathways`, `program-planning`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Mentor Sample Program.pdf` → `cte-summer-program`, `needs-review`, `financial-administration`, `events-and-conferences`, `program-planning`
+- `Documents/ACTE Vision 2025/Admin 101/CTE New Teacher Professional Development Plan (1).pdf` → `needs-review`, `workforce-pathways`, `academic-programs`, `cte-summer-program`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Prof Growth Plan.pdf` → `needs-review`, `workforce-pathways`, `industry-certifications`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Program Coherent Sequence.pdf` → `cte-summer-program`, `needs-review`, `industry-certifications`, `curriculum`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Required Certification by Program.pdf` → `procurement-compliance`, `academic-programs`, `cte-summer-program`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf` → `needs-review`, `workforce-pathways`, `cte-summer-program`, `program-planning`, `health-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf` → `needs-review`, `academic-programs`, `student-services`, `program-planning`, `workforce-pathways`, `financial-administration`
+- `Documents/ACTE Vision 2025/Admin 101/WBL Cheat Sheet.pdf` → `needs-review`, `cte-summer-program`, `academic-programs`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/Admin 101/WBL-why it patters.pdf` → `needs-review`, `procurement-compliance`, `academic-programs`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/Admin 101/request.pdf` → `needs-review`, `workforce-pathways`, `cte-summer-program`, `academic-programs`, `health-compliance`, `student-services`
+- `Documents/ACTE Vision 2025/Admin 201/CTE Admin 102-Slide Deck.pptx.pdf` → `needs-review`, `cte-summer-program`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf` → `needs-review`, `financial-administration`, `cte-summer-program`, `academic-programs`, `procurement-compliance`
+- `Documents/ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf` → `needs-review`, `student-services`, `events-and-conferences`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Do we Need a Team.pdf` → `student-services`, `needs-review`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Example of a Team's Communication Agreements.pdf` → `needs-review`, `student-services`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of a Team's Emotional Intelligence.pdf` → `needs-review`, `student-services`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of an Effective Team.pdf` → `student-services`, `needs-review`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Small Group Activity- Modeling Team Coaching in Action.pdf` → `needs-review`, `student-services`, `conference-travel`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Temperature Check.pdf` → `student-services`, `health-compliance`, `needs-review`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf` → `student-services`, `needs-review`, `workforce-pathways`, `events-and-conferences`, `cte-summer-program`
+- `Documents/Adopted Materiall Quotes␠/ACTE Visin 2025 Grant_Funded Travel Authorization Form- ACTE 2025 copy.pdf` → `events-and-conferences`, `conference-travel`, `needs-review`, `financial-administration`, `procurement-compliance`
+- `Documents/Adopted Materiall Quotes␠/CTE QUOTE Dallas ISD Aug 26 2025 Digital 1 year with teacher tools MW.pdf` → `purchasing-operations`, `needs-review`, `financial-administration`, `cte-summer-program`, `events-and-conferences`
+- `Documents/Adopted Materiall Quotes␠/CodeHS Proclamation 2024 titles.pdf` → `needs-review`, `academic-programs`, `purchasing-operations`, `cte-summer-program`, `procurement-compliance`
+- `Documents/Affiliated Agreements/Dallas ISD_First Amendment  to extend term[31].pdf` → `needs-review`, `student-services`, `health-compliance`, `cte-summer-program`
+- `Documents/Affiliated Agreements/ESCO Institute LTD - approved for one time use.pdf` → `procurement-compliance`, `needs-review`, `cte-summer-program`, `health-compliance`, `conference-travel`, `events-and-conferences`
+- `Documents/Affiliated Agreements/Sgtar Wars Table mats[6].pdf` → `needs-review`, `summer-pd`, `health-compliance`
+- `Documents/Baylor Scott & Whote MAA 2028 08.09.23.pdf` → `student-services`, `needs-review`, `health-compliance`, `procurement-compliance`, `cte-summer-program`
+- `Documents/CNA QR Sheet 2a_Stakeholder Involvement by Program-1.pdf` → `needs-review`, `cte-summer-program`, `events-and-conferences`, `academic-programs`, `financial-administration`
+- `Documents/CTE Proclamation 2024.pdf` → `needs-review`, `academic-programs`, `events-and-conferences`, `workforce-pathways`, `health-compliance`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.docx.pdf` → `procurement-compliance`, `financial-administration`, `cte-summer-program`, `needs-review`, `workforce-pathways`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.pdf` → `procurement-compliance`, `financial-administration`, `cte-summer-program`, `needs-review`, `events-and-conferences`, `workforce-pathways`
+- `Documents/Conference Travel/Expenditure Justification Form_September 2025[86] copy.pdf` → `procurement-compliance`, `needs-review`, `cte-summer-program`, `health-compliance`
+- `Documents/Conference Travel/JEREMY SPENCE_ACTE VISION 2025_TRAVEL AUTHORIZATION - signed.pdf` → `events-and-conferences`, `needs-review`, `conference-travel`, `financial-administration`
+- `Documents/Conference Travel/Moore Norman Name Tent.pdf` → `needs-review`, `events-and-conferences`, `student-services`, `cte-summer-program`
+- `Documents/Conference Travel/Schedule At-A-Glance ACTE Vision 2025.pdf` → `events-and-conferences`, `needs-review`
+- `Documents/Cornerstone_Session_Signin-1_5_2026 (2).pdf` → `student-services`, `needs-review`, `workforce-pathways`, `events-and-conferences`, `academic-programs`
+- `Documents/DALLASISDGOOGLECOURSECATALOG.pdf` → `needs-review`, `workforce-pathways`, `academic-programs`, `career-exploration`, `cte-summer-program`, `program-planning`
+- `Documents/Estimate_3377_from_Alpha_Education_Group[48].pdf` → `purchasing-operations`, `cte-summer-program`, `academic-programs`, `events-and-conferences`, `conference-travel`, `workforce-pathways`
+- `Documents/JeremySpenceCoverLetter AA.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `cte-summer-program`
+- `Documents/Norman Moore Grant_Funded Travel Authorization Form.pdf` → `events-and-conferences`, `financial-administration`, `needs-review`, `procurement-compliance`, `student-services`
+- `Documents/Perkins Travel/Expenditure Justification Form_September 2025[72].pdf` → `procurement-compliance`, `events-and-conferences`, `needs-review`, `cte-summer-program`
+- `Documents/Proclamation 2024_Preliminary Findings of the State Review Panel.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `health-compliance`, `events-and-conferences`
+- `Documents/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf` → `needs-review`, `cte-summer-program`, `procurement-compliance`
+- `Documents/Townview Business School Leadership Campus Field Trip Proposal[17].pdf` → `needs-review`, `events-and-conferences`, `cte-summer-program`, `student-services`, `financial-administration`
+- `Documents/WT WHite PD Roster Dallas ISD.pdf` → `needs-review`, `student-services`, `events-and-conferences`
+- `Documents/scan_jspence-Life insurance.pdf` → `needs-review`, `cte-summer-program`, `procurement-compliance`
+- `Documents/untitled folder/Travel Forms/Expenditure Justification Form_September 2025.pdf` → `procurement-compliance`, `events-and-conferences`, `needs-review`, `health-compliance`, `cte-summer-program`
+- `EMT：EMR/26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `needs-review`, `career-exploration`, `financial-administration`, `health-compliance`, `procurement-compliance`
+- `EMT：EMR/Dallas ISD_First Amendment  to extend term (1) - signed.pdf` → `student-services`, `cte-summer-program`, `needs-review`, `health-compliance`
+- `EMT：EMR/Signed NAF Forms 26.pdf` → `events-and-conferences`, `conference-travel`, `financial-administration`, `student-services`, `procurement-compliance`, `needs-review`
+- `Early Childhood Education.pdf` → `events-and-conferences`, `workforce-pathways`, `cte-summer-program`, `academic-programs`, `needs-review`, `summer-pd`
+- `Ed Rising Conference Badge-Demars (1).pdf` → `needs-review`, `events-and-conferences`
+- `Ed Rising Conference Badge-Demars.pdf` → `events-and-conferences`, `needs-review`
+- `Ed Rising Conference Itinerary (1).pdf` → `events-and-conferences`, `summer-pd`, `needs-review`, `health-compliance`, `academic-programs`, `workforce-pathways`
+- `Elementary (1).pdf` → `summer-pd`, `curriculum`, `academic-programs`, `needs-review`
+- `Elementary.pdf` → `summer-pd`, `needs-review`, `curriculum`, `academic-programs`, `workforce-pathways`
+- `Ewing June hourlysupplementaltimecard.pdf` → `needs-review`, `conference-travel`
+- `Hubbard June hourlysupplementaltimecard.pdf` → `needs-review`, `conference-travel`, `events-and-conferences`
+- `IMG_0900.jpg` → `workforce-pathways`, `needs-review`, `events-and-conferences`, `industry-certifications`
+- `IMG_4509.jpeg` → `events-and-conferences`, `needs-review`, `health-compliance`
+- `Ihope explanation TIVA (1).pdf` → `financial-administration`, `needs-review`, `cte-summer-program`
+- `Ihope explanation TIVA.pdf` → `financial-administration`, `needs-review`, `cte-summer-program`
+- `Image_20250918_151210_207.jpeg` → `needs-review`, `summer-pd`
+- `Intership Students.png` → `health-compliance`, `needs-review`, `cte-summer-program`, `workforce-pathways`
+- `J. Spann.pdf` → `events-and-conferences`, `financial-administration`, `workforce-pathways`, `needs-review`, `student-services`, `procurement-compliance`
+- `Jeremy Spence Cover Letter NAF 2026 (1).pdf` → `needs-review`, `events-and-conferences`, `cte-summer-program`, `workforce-pathways`, `curriculum`
+- `Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED) (3).pdf` → `events-and-conferences`, `financial-administration`, `conference-travel`, `procurement-compliance`
+- `Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED).pdf` → `events-and-conferences`, `financial-administration`, `conference-travel`, `needs-review`
+- `JeremySpenceresume 04.2026.pdf` → `needs-review`, `cte-summer-program`, `workforce-pathways`, `events-and-conferences`
+- `JeremySpenceresume 06.2024.docx.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `events-and-conferences`
+- `Johnson July hourlysupplementaltimecard.pdf` → `needs-review`, `financial-administration`, `health-compliance`
+- `KGeorgeCTELeadTeacherStipendAgreement11.13.25 (1).pdf` → `financial-administration`, `procurement-compliance`, `workforce-pathways`, `needs-review`, `program-planning`, `cte-summer-program`
+- `KGeorgeCTELeadTeacherStipendAgreement11.13.25.pdf` → `financial-administration`, `procurement-compliance`, `workforce-pathways`, `needs-review`, `cte-summer-program`
+- `KGeorgeIBCTrainingSignIn3.25.26.pdf` → `needs-review`, `workforce-pathways`, `financial-administration`, `events-and-conferences`, `cte-summer-program`
+- `Lead Teacher/CTE Lead Teacher Agreement.pdf` → `student-services`, `financial-administration`, `procurement-compliance`, `cte-summer-program`, `needs-review`, `industry-certifications`
+- `Lead Teacher/CTE Lead Teacher.pdf` → `procurement-compliance`, `financial-administration`, `cte-summer-program`, `needs-review`, `workforce-pathways`
+- `Lincoln Culinaryjpg.jpeg` → `needs-review`, `cte-summer-program`, `workforce-pathways`, `events-and-conferences`
+- `Lyla Camarena- Vitals Camp- Children's Health.pdf` → `needs-review`, `health-compliance`, `summer-pd`
+- `M. Johnson June hourlysupplementaltimecard.pdf` → `needs-review`, `workforce-pathways`, `health-compliance`
+- `M. Spence 504 Plan.pdf` → `needs-review`, `vendor-management`, `health-compliance`, `cte-summer-program`
+- `Mental+Health+Services+Notification.pdf` → `health-compliance`, `cte-summer-program`, `needs-review`, `events-and-conferences`
+- `Minor Testing Packet (1).pdf` → `needs-review`, `procurement-compliance`, `academic-programs`
+- `Minor Testing Packet.pdf` → `needs-review`, `procurement-compliance`, `academic-programs`, `health-compliance`
+- `NAF 2026/NAF NEXT 2026 Grant_Funded Travel Authorization Form Updated.pdf` → `events-and-conferences`, `procurement-compliance`, `needs-review`, `student-services`
+- `NAF 2026/NAF NEXT agenda page 2.jpg` → `events-and-conferences`, `needs-review`
+- `NAF 2026/NAF NEXT agenda page 3.jpg` → `events-and-conferences`, `needs-review`
+- `NAF 2026/NAF NEXT agenda page 4.jpg` → `events-and-conferences`, `needs-review`, `summer-pd`
+- `NAF Cover Letter.pdf` → `events-and-conferences`, `needs-review`, `workforce-pathways`, `cte-summer-program`
+- `NAF Employment Application.pdf` → `needs-review`, `events-and-conferences`, `procurement-compliance`, `workforce-pathways`
+- `NAF Next 2026.pdf` → `events-and-conferences`, `needs-review`, `program-planning`, `purchasing-operations`, `financial-administration`, `workforce-pathways`
+- `NAF Next Meeting.pdf` → `events-and-conferences`, `needs-review`, `workforce-pathways`
+- `NAF Paperwork/Board Document 250357[69].pdf` → `events-and-conferences`, `procurement-compliance`, `workforce-pathways`, `cte-summer-program`, `needs-review`, `career-exploration`
+- `Non Awarded Vendor Quotes/BE Publishing Non Awarded Vendor Approved.pdf` → `procurement-compliance`, `conference-travel`, `purchasing-operations`, `cte-summer-program`, `needs-review`, `academic-programs`
+- `Non-Awarded Vendor Forms approved/Alpha Education Group_Non-AwardedVendorRequestForm - signed.pdf (SECURED).pdf` → `procurement-compliance`, `vendor-management`, `cte-summer-program`, `events-and-conferences`, `purchasing-operations`, `needs-review`
+- `Non-Awarded Vendor Forms approved/Stone Non-AwardedVendorRequestForm.pdf` → `procurement-compliance`, `vendor-management`, `purchasing-operations`, `cte-summer-program`, `needs-review`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Admin 101_CTE Terms Glossary.docx` → `needs-review`, `workforce-pathways`, `cte-summer-program`, `health-compliance`, `student-services`, `industry-certifications`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Advisory Council Resources/Advisory Council Support Menu.docx` → `needs-review`, `workforce-pathways`, `student-services`, `cte-summer-program`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/CTE Admin 101-Slide Deck.pptx` → `needs-review`, `health-compliance`, `workforce-pathways`, `procurement-compliance`, `program-planning`, `academic-programs`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Program Management/ACTE HQ Frameworks.pdf` → `academic-programs`, `needs-review`, `health-compliance`, `cte-summer-program`, `student-services`, `workforce-pathways`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Mentor Sample Program.pdf` → `cte-summer-program`, `needs-review`, `financial-administration`, `events-and-conferences`, `program-planning`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE New Teacher Professional Development Plan.pdf` → `needs-review`, `program-planning`, `events-and-conferences`, `workforce-pathways`, `procurement-compliance`, `summer-pd`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Prof Growth Plan.pdf` → `needs-review`, `program-planning`, `workforce-pathways`, `events-and-conferences`, `cte-summer-program`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Required Certification by Program.xlsx` → `procurement-compliance`, `academic-programs`, `cte-summer-program`, `workforce-pathways`, `needs-review`, `health-compliance`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/Sample CTE Instructional Coaching Guidelines.pdf` → `student-services`, `events-and-conferences`, `needs-review`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/ACTE Advisory Council Support Menu.pdf` → `needs-review`, `workforce-pathways`, `student-services`, `cte-summer-program`, `financial-administration`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/Advisory Councils from Year 1.pdf` → `needs-review`, `program-planning`, `workforce-pathways`, `cte-summer-program`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/Sample CTE Equipment Request Form.pdf` → `procurement-compliance`, `needs-review`, `cte-summer-program`, `purchasing-operations`, `academic-programs`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/What is and what isn't work-based learning.pdf` → `needs-review`, `cte-summer-program`, `workforce-pathways`
+- `OneDrive_2_12-9-2025.zip.unpacked/12 Effective Tier 1 Instructional Strategies.docx` → `student-services`, `needs-review`, `academic-programs`, `events-and-conferences`, `summer-pd`, `workforce-pathways`
+- `OneDrive_2_12-9-2025.zip.unpacked/Program Coherent Sequence.docx` → `cte-summer-program`, `needs-review`, `financial-administration`, `industry-certifications`, `procurement-compliance`
+- `OneDrive_2_12-9-2025.zip.unpacked/Sample CW Day.pdf` → `needs-review`, `cte-summer-program`, `program-planning`, `vendor-management`, `workforce-pathways`
+- `OneDrive_2_12-9-2025.zip.unpacked/Scope and Sequence Template.xlsx` → `needs-review`, `academic-programs`, `student-services`, `financial-administration`, `events-and-conferences`, `workforce-pathways`
+- `PD Creation Department Supplemental Pay Approval Memo .pdf` → `procurement-compliance`, `summer-pd`, `workforce-pathways`, `conference-travel`, `academic-programs`
+- `Penny King  Recruitment Brochure.pdf` → `needs-review`, `workforce-pathways`, `health-compliance`, `cte-summer-program`, `industry-certifications`
+- `Penny King October 2025 PLC GES Meeting.pdf` → `needs-review`, `financial-administration`, `career-exploration`
+- `Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `needs-review`, `student-services`, `health-compliance`, `workforce-pathways`, `cte-summer-program`, `academic-programs`
+- `Perkins Travel/Expenditure Justification Form_September 2025[72].pdf` → `procurement-compliance`, `events-and-conferences`, `needs-review`, `health-compliance`, `cte-summer-program`
+- `Perkins Travel/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf` → `needs-review`, `student-services`, `cte-summer-program`, `procurement-compliance`
+- `Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf` → `events-and-conferences`, `student-services`, `financial-administration`, `health-compliance`, `procurement-compliance`
+- `Perkins-V-Funding-Distribution.pdf` → `needs-review`, `events-and-conferences`, `cte-summer-program`, `program-planning`
+- `Proclamation 2024_Preliminary Findings of the State Review Panel.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `cte-summer-program`
+- `Program Coherent Sequence.pdf` → `cte-summer-program`, `needs-review`, `industry-certifications`, `financial-administration`
+- `QR Sheet 2a_Stakeholder Involvement by Program-1.pdf` → `needs-review`, `cte-summer-program`, `procurement-compliance`, `workforce-pathways`
+- `Sample CTE Equipment Request Form.pdf` → `procurement-compliance`, `needs-review`, `cte-summer-program`, `purchasing-operations`, `workforce-pathways`
+- `Sample CTE Instructional Coaching Guidelines.pdf` → `student-services`, `needs-review`, `cte-summer-program`
+- `Sample CW Day.pdf` → `cte-summer-program`, `needs-review`, `vendor-management`, `workforce-pathways`, `program-planning`, `procurement-compliance`
+- `Sanso 25-26 CTE Lead Teacher Stipend Agreement.pdf` → `financial-administration`, `workforce-pathways`, `cte-summer-program`, `needs-review`
+- `SouthwestReturnCollabTripAustin (1).pdf` → `needs-review`, `financial-administration`, `events-and-conferences`, `health-compliance`, `cte-summer-program`
+- `Standard Operting Procedures-Perkins.pdf` → `needs-review`, `student-services`, `procurement-compliance`, `program-planning`, `purchasing-operations`, `workforce-pathways`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990127878 - Alexis Guereca.pdf` → `health-compliance`, `procurement-compliance`, `immunization`, `events-and-conferences`, `cte-summer-program`
+- `Summer PD Schedule 2026.pdf` → `events-and-conferences`, `workforce-pathways`, `needs-review`, `procurement-compliance`, `health-compliance`
+- `Supplemental_form.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `summer-pd`, `conference-travel`
+- `TIVA SIGNED TRAVEL AUTH. - WOOD.jpg` → `events-and-conferences`, `summer-pd`, `conference-travel`, `financial-administration`, `needs-review`
+- `Tiva classes.pdf` → `events-and-conferences`, `needs-review`, `student-services`, `academic-programs`, `procurement-compliance`
+- `Townview Floor Plan (1).jpg` → `needs-review`, `curriculum`, `student-services`, `procurement-compliance`, `cte-summer-program`
+- `Travel Authorization Form_Demars Officer Training Camp_4.10.25.pdf` → `events-and-conferences`, `needs-review`, `financial-administration`
+- `Untitled presentation.pdf` → `needs-review`, `summer-pd`, `events-and-conferences`, `student-services`, `workforce-pathways`
+- `Virtual-Background copy.jpg` → `needs-review`, `workforce-pathways`, `procurement-compliance`, `cte-summer-program`
+- `Vitals-Childrens-Testing Route.pdf` → `health-compliance`, `needs-review`, `events-and-conferences`, `summer-pd`, `procurement-compliance`
+- `WBL.pdf` → `needs-review`, `student-services`, `workforce-pathways`, `health-compliance`, `cte-summer-program`, `events-and-conferences`
+- `Workshop Title： ＂The First 10： Maximizing Every Minute for Career Success＂.pdf` → `needs-review`, `workforce-pathways`, `events-and-conferences`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (2).pdf` → `workforce-pathways`, `procurement-compliance`, `needs-review`, `cte-summer-program`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030-3.pdf` → `workforce-pathways`, `academic-programs`, `procurement-compliance`, `needs-review`, `cte-summer-program`
+- `cte-indicator-auto-coder.pdf` → `needs-review`, `ctso-activities`, `academic-programs`, `cte-summer-program`, `health-compliance`, `procurement-compliance`
+- `ibc-advisory-council-inventory-twc (1).pdf` → `workforce-pathways`, `academic-programs`, `needs-review`, `industry-certifications`, `procurement-compliance`, `health-compliance`
+- `ibc-advisory-council-inventory-twc.pdf` → `workforce-pathways`, `academic-programs`, `needs-review`, `industry-certifications`, `procurement-compliance`, `health-compliance`
+- `invite.ics` → `needs-review`, `cte-summer-program`, `summer-pd`, `events-and-conferences`
+- `outlook (1).vcs` → `needs-review`, `student-services`
+- `outlook.vcs` → `needs-review`, `student-services`
+- `preliminary-2025-2030-ibc-to-program-of-study-crosswalk (6).pdf` → `workforce-pathways`, `cte-summer-program`, `procurement-compliance`, `needs-review`, `industry-certifications`
+- `preliminary-2025-2030-ibc-to-program-of-study-crosswalk.pdf` → `workforce-pathways`, `cte-summer-program`, `procurement-compliance`, `needs-review`, `industry-certifications`, `program-planning`
+- `regional-labor-market-information-wda-6.pdf` → `workforce-pathways`, `needs-review`, `events-and-conferences`, `cte-summer-program`
+- `scan_carmalone_2025-07-31-09-22-17.pdf` → `financial-administration`, `needs-review`, `summer-pd`, `events-and-conferences`, `health-compliance`
+- `tiva 2/2025 Summer Certificicate (1).pdf` → `needs-review`, `summer-pd`, `workforce-pathways`, `health-compliance`, `events-and-conferences`
+- `tiva 3/2025 Summer Certificicate (1).pdf` → `workforce-pathways`, `industry-certifications`, `summer-pd`, `needs-review`
+- `tiva 3/7-16-2025.pdf` → `financial-administration`, `needs-review`, `cte-summer-program`
+- `tiva 4/2025 Summer Certificicate (1).pdf` → `workforce-pathways`, `needs-review`, `summer-pd`, `industry-certifications`, `student-services`
+- `tiva.zip.unpacked/2025 Summer Certificicate (1).pdf` → `summer-pd`, `workforce-pathways`, `industry-certifications`, `needs-review`
+- `tiva/2025 Summer Certificicate (1).pdf` → `student-services`, `needs-review`, `workforce-pathways`, `summer-pd`, `industry-certifications`
+
+### Procurement & Vendor Compliance (295)
+
+- ` Non Awarded Vendor Request Form 7.2025.pdf` → `vendor-management`, `needs-review`
+- ` PD Summer Schedule.pdf` → `professional-development`, `summer-pd`, `events-and-conferences`, `academic-programs`, `industry-certifications`, `needs-review`
+- `2024 Kemp ISD W2.pdf` → `financial-administration`, `needs-review`
+- `2025 CTE Summer PD Feedback.pdf` → `summer-pd`, `professional-development`, `workforce-pathways`, `student-services`, `needs-review`, `events-and-conferences`
+- `2025 non-awarded vendor request forms/Copy of Non-AwardedVendorRequestForm - ASE.pdf` → `vendor-management`, `purchasing-operations`
+- `2025 non-awarded vendor request forms/Non-Awarded Vendor Forms approved/Career Safe-approval[30].pdf` → `workforce-pathways`, `purchasing-operations`, `events-and-conferences`
+- `2025 non-awarded vendor request forms/Non-Awarded Vendor Forms approved/CareerSafe Approved.pdf` → `needs-review`, `workforce-pathways`, `events-and-conferences`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ASE.pdf` → `vendor-management`, `needs-review`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - BACE.pdf` → `vendor-management`, `purchasing-operations`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Certiport.pdf` → `vendor-management`, `purchasing-operations`, `workforce-pathways`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ESCO Institute.pdf` → `vendor-management`, `needs-review`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Gaumard.pdf` → `vendor-management`, `needs-review`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NCCER.pdf` → `vendor-management`, `needs-review`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NOCTI.pdf` → `vendor-management`, `needs-review`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Nasco.pdf` → `vendor-management`, `needs-review`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SACA.pdf` → `vendor-management`, `needs-review`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SolidProfessor.pdf` → `vendor-management`, `purchasing-operations`, `needs-review`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_American Medical Technologists (AMT).pdf` → `vendor-management`, `needs-review`, `health-compliance`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Assessment Technologies.pdf` → `vendor-management`, `needs-review`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Platinum Consulting.pdf` → `vendor-management`, `needs-review`
+- `2026-27 Perkins Application — Filled Tentative (PS3350).pdf` → `needs-review`, `program-planning`
+- `25-26 SEC 11028Y1N2-2022 Early Childhood.pdf` → `events-and-conferences`, `needs-review`, `academic-programs`, `cte-summer-program`, `workforce-pathways`
+- `3. Board Document 250357-version 2.pdf` → `needs-review`, `student-services`, `workforce-pathways`, `career-exploration`
+- `3. Board Document 250357[69].pdf` → `needs-review`, `student-services`, `workforce-pathways`, `cte-summer-program`, `career-exploration`
+- `ACTE Vision 2025/656EE0EE-B956-47AB-F3B8-A54C3E8E641B20251210154217363.pdf` → `student-services`, `needs-review`, `health-compliance`, `academic-programs`, `professional-development`
+- `ACTE Vision 2025/65754B6A-EF78-CE75-65F6-D456EA8547462025121015425945.pdf` → `student-services`, `needs-review`, `events-and-conferences`
+- `ACTE Vision 2025/Admin 101/request.pdf` → `needs-review`, `workforce-pathways`, `academic-programs`, `health-compliance`
+- `ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `needs-review`, `academic-programs`, `health-compliance`, `workforce-pathways`
+- `ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf` → `needs-review`, `financial-administration`, `cte-summer-program`, `academic-programs`
+- `ACTE Vision 2025/Admin 201/Perkins Performance Measures Data Analysis Template.pdf` → `needs-review`, `academic-programs`
+- `ACTE Vision 2025/The Art of Coaching/Example of a Team's Communication Agreements.pdf` → `needs-review`, `professional-development`, `student-services`
+- `ACTE Vision 2025/The Art of Coaching/Team Member Roles and Responsibilities.pdf` → `student-services`, `needs-review`
+- `Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf` → `student-services`, `needs-review`, `health-compliance`, `financial-administration`, `workforce-pathways`, `professional-development`
+- `Allison Garcia Observer20TB20Screening_copy.pdf` → `health-compliance`, `tb-screening`, `needs-review`
+- `Alpha Education Group_Non-AwardedVendorRequestForm - signed.pdf (SECURED).pdf` → `vendor-management`, `cte-summer-program`, `events-and-conferences`, `purchasing-operations`, `needs-review`
+- `BAUTISTA_TIVA GRANT TRAVEL DOCS.pdf` → `conference-travel`, `health-compliance`, `needs-review`, `events-and-conferences`
+- `Baylor Scott & Whote MAA 2028 08.09.23.pdf` → `student-services`, `needs-review`, `health-compliance`, `cte-summer-program`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768501134.7069674.pdf` → `purchasing-operations`, `needs-review`, `workforce-pathways`, `industry-certifications`, `health-compliance`, `cte-summer-program`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768502080.5657754.pdf` → `purchasing-operations`, `needs-review`, `workforce-pathways`, `industry-certifications`
+- `CIN Parking.pdf` → `career-exploration`, `needs-review`, `curriculum`, `health-compliance`
+- `CLNA 26-27/CLNA DALLAS ISD Working Doc.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `health-compliance`, `vendor-management`
+- `CLNA 26-27/SC5600 Comprehensive Local Needs Assessment blank.pdf (SECURED).pdf.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`
+- `CLNA DALLAS ISD Working Doc.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `vendor-management`
+- `CLNA Guiding Questions (2).pdf` → `needs-review`, `health-compliance`, `academic-programs`, `workforce-pathways`, `student-services`, `cte-summer-program`
+- `CLNA Guiding Questions.pdf` → `needs-review`, `health-compliance`, `academic-programs`, `workforce-pathways`, `student-services`, `cte-summer-program`
+- `CLNA_26_27 App.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`
+- `COZART_TIVA GRANT TRAVEL DOCS - signed (1).pdf` → `conference-travel`, `health-compliance`, `student-services`, `needs-review`
+- `CTE Admin 101-Slide Deck.pdf` → `needs-review`, `professional-development`, `academic-programs`, `events-and-conferences`, `workforce-pathways`
+- `CTE Lead.pdf` → `financial-administration`, `needs-review`, `cte-summer-program`, `professional-development`, `industry-certifications`
+- `CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf` → `events-and-conferences`, `conference-travel`, `needs-review`
+- `CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf 1.zip.unpacked/CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf` → `needs-review`, `events-and-conferences`, `workforce-pathways`, `conference-travel`
+- `CTE PLC October 29, 2024 (Responses).pdf` → `needs-review`, `events-and-conferences`, `cte-summer-program`
+- `CTE Required Certification by Program.pdf` → `academic-programs`, `cte-summer-program`, `industry-certifications`, `workforce-pathways`
+- `CTE- SUM26 CIN Summer Learning Site Signage Template.pdf` → `summer-pd`, `cte-summer-program`, `health-compliance`, `needs-review`, `workforce-pathways`, `events-and-conferences`
+- `CTE- SUM26 CIS Summer Learning Site Signage Template (2).pdf` → `summer-pd`, `curriculum`, `needs-review`, `professional-development`, `events-and-conferences`, `workforce-pathways`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (4).png` → `summer-pd`, `career-exploration`, `needs-review`, `events-and-conferences`, `workforce-pathways`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary.png` → `summer-pd`, `career-exploration`, `needs-review`, `academic-programs`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1).pdf` → `summer-pd`, `cte-summer-program`, `curriculum`, `needs-review`, `health-compliance`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (4).png` → `summer-pd`, `career-exploration`, `needs-review`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (5).png` → `summer-pd`, `career-exploration`, `workforce-pathways`, `needs-review`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (8).png` → `summer-pd`, `career-exploration`, `curriculum`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (9).png` → `summer-pd`, `financial-administration`, `needs-review`, `events-and-conferences`, `curriculum`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary.png` → `summer-pd`, `career-exploration`, `events-and-conferences`, `cte-summer-program`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (2).pdf` → `summer-pd`, `professional-development`, `events-and-conferences`, `curriculum`, `academic-programs`, `workforce-pathways`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary.png` → `summer-pd`, `career-exploration`, `needs-review`, `events-and-conferences`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template.pdf` → `summer-pd`, `curriculum`, `cte-summer-program`, `professional-development`, `health-compliance`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (8).png` → `summer-pd`, `career-exploration`, `events-and-conferences`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary.png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (9).png` → `summer-pd`, `financial-administration`, `events-and-conferences`, `needs-review`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary.png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `events-and-conferences`
+- `CTE-Standard Operating Procedures/2026-27 Dallas ISD CTE CTSO Handbook.docx` → `events-and-conferences`, `academic-programs`, `ctso-activities`, `needs-review`, `health-compliance`, `financial-administration`
+- `CTE-Standard Operating Procedures/CTE Vehicle Protocol.pdf` → `needs-review`
+- `CTE-Standard Operating Procedures/CTE Vehicles.pdf` → `needs-review`, `events-and-conferences`
+- `CTE-Standard Operating Procedures/Campus Lead Teacher Program.pdf` → `needs-review`, `cte-summer-program`, `financial-administration`, `academic-programs`
+- `CTE-Standard Operating Procedures/Donation SOP Draft. pdf` → `needs-review`, `vendor-management`
+- `CTE-Standard Operating Procedures/Standard Operting Procedures-Perkins.pdf` → `needs-review`, `purchasing-operations`, `professional-development`, `financial-administration`, `conference-travel`, `program-planning`
+- `CTX_Berkner HS_ED02 (2).pdf` → `needs-review`, `purchasing-operations`, `events-and-conferences`
+- `ChatGPT Image Aug 7, 2026, 11_03_54 AM.png` → `needs-review`, `workforce-pathways`, `events-and-conferences`, `purchasing-operations`
+- `CodeHS Proclamation 2024 titles.pdf` → `needs-review`, `academic-programs`, `cte-summer-program`
+- `ContactList_ProcurementServices_21_2.pdf` → `events-and-conferences`, `needs-review`
+- `Copy of CTE PLC Agendas (1) (1).pdf` → `events-and-conferences`, `conference-travel`, `professional-development`, `workforce-pathways`, `student-services`, `needs-review`
+- `Copy of CTE PLC Agendas (1).pdf` → `events-and-conferences`, `conference-travel`, `professional-development`, `workforce-pathways`, `student-services`, `needs-review`
+- `D. Johnson complete naf documents .pdf` → `events-and-conferences`, `financial-administration`, `conference-travel`, `needs-review`, `student-services`, `professional-development`
+- `DIAZ_TIVA_GRANT TRAVEL FORMS _SIGNED.pdf` → `summer-pd`, `events-and-conferences`, `career-exploration`, `conference-travel`, `financial-administration`, `student-services`
+- `DISD_EMS_Student_Profile_5_26_26.pdf` → `cte-summer-program`, `health-compliance`, `needs-review`, `career-exploration`, `workforce-pathways`, `student-services`
+- `DISD_Purchasing_Analysis 208023.pdf` → `purchasing-operations`, `needs-review`, `workforce-pathways`, `vendor-management`, `health-compliance`
+- `DSC_6946-Enhanced-NR.jpg` → `cte-summer-program`, `health-compliance`, `needs-review`, `financial-administration`, `events-and-conferences`
+- `Dallas ISD 2026-2027 Comprehensive Local Needs Assessment.pdf` → `needs-review`, `academic-programs`, `career-exploration`
+- `Dallas ISD Garner A&P 1 year Estimate_316614.pdf` → `purchasing-operations`, `needs-review`, `health-compliance`, `academic-programs`, `cte-summer-program`, `financial-administration`
+- `DallasISDTravel - ACTE Best Practices - JS.pdf` → `events-and-conferences`, `health-compliance`, `program-planning`, `needs-review`
+- `Dallas_ISD_CLNA_2026-2027_DRAFT.pdf` → `needs-review`, `academic-programs`, `health-compliance`, `workforce-pathways`, `career-exploration`, `cte-summer-program`
+- `Department Supplemental Pay Approval Memo.pdf` → `professional-development`, `summer-pd`, `workforce-pathways`, `conference-travel`, `academic-programs`
+- `Disability+Severe+Food+Allergy+Request+Form.pdf` → `needs-review`, `health-compliance`
+- `Documents/12-month weightlifitng Plan.pdf` → `needs-review`, `events-and-conferences`, `cte-summer-program`
+- `Documents/2025-2026 CTE Oracle iExpense Travel Training.pdf` → `needs-review`, `events-and-conferences`, `professional-development`, `health-compliance`
+- `Documents/244 Sitipend 2026/Amaning Completed-Supplemental_form.pdf (SECURED).pdf` → `financial-administration`, `academic-programs`, `workforce-pathways`, `summer-pd`, `needs-review`
+- `Documents/244 Sitipend 2026/Amaning-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `needs-review`, `academic-programs`, `conference-travel`, `summer-pd`, `events-and-conferences`
+- `Documents/244 Sitipend 2026/Archie-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `needs-review`, `academic-programs`, `summer-pd`, `conference-travel`, `workforce-pathways`
+- `Documents/244 Sitipend 2026/Benagh-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `needs-review`, `student-services`, `professional-development`, `conference-travel`, `workforce-pathways`
+- `Documents/244 Sitipend 2026/Coyle-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `needs-review`, `academic-programs`, `professional-development`, `conference-travel`
+- `Documents/244 Sitipend 2026/Hamilton-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `needs-review`, `student-services`, `workforce-pathways`, `industry-certifications`
+- `Documents/244 Sitipend 2026/Jones-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `needs-review`, `academic-programs`, `summer-pd`, `conference-travel`, `events-and-conferences`
+- `Documents/244 Sitipend 2026/Kalat-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `needs-review`, `academic-programs`, `workforce-pathways`
+- `Documents/244 Sitipend 2026/MRodriguez-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `needs-review`, `workforce-pathways`, `conference-travel`, `summer-pd`, `professional-development`
+- `Documents/244 Sitipend 2026/Maxwell-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `needs-review`, `academic-programs`, `workforce-pathways`, `summer-pd`, `professional-development`
+- `Documents/244 Sitipend 2026/SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `needs-review`, `professional-development`, `conference-travel`, `events-and-conferences`
+- `Documents/244 Sitipend 2026/Williams-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `needs-review`, `student-services`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/65684178-BD76-0A08-B60B-BE1C34BFECD62025121015413396.pdf` → `student-services`, `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/65754B6A-EF78-CE75-65F6-D456EA8547462025121015425945.pdf` → `needs-review`, `student-services`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Required Certification by Program.pdf` → `academic-programs`, `cte-summer-program`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/Admin 101/WBL-why it patters.pdf` → `needs-review`, `academic-programs`, `professional-development`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `needs-review`, `academic-programs`, `health-compliance`, `workforce-pathways`, `student-services`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf` → `needs-review`, `financial-administration`, `cte-summer-program`, `academic-programs`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins-V-Funding-Distribution.pdf` → `needs-review`, `program-planning`
+- `Documents/ACTE Vision 2025/CLNA/73459750-E17B-83F6-D59C-631B116DBF582025121022091676.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `program-planning`, `events-and-conferences`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Member Roles and Responsibilities.pdf` → `student-services`, `needs-review`, `events-and-conferences`
+- `Documents/ANG-DISD Adamson HS Air Compressor Equipment Repairs_Quote_20262603AD.pdf` → `needs-review`, `purchasing-operations`, `academic-programs`, `health-compliance`, `financial-administration`
+- `Documents/Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf` → `student-services`, `needs-review`, `health-compliance`
+- `Documents/Adopted Materiall Quotes␠/ACTE Visin 2025 Grant_Funded Travel Authorization Form- ACTE 2025 copy.pdf` → `events-and-conferences`, `conference-travel`, `professional-development`, `needs-review`, `financial-administration`
+- `Documents/Adopted Materiall Quotes␠/BE Publishing Non Awarded Vendor Approved.pdf` → `needs-review`, `academic-programs`
+- `Documents/Adopted Materiall Quotes␠/CTE QUOTE Dallas ISD Aug 26 2025 Digital 1 year with teacher tools MW.pdf` → `purchasing-operations`, `needs-review`, `financial-administration`, `cte-summer-program`, `events-and-conferences`
+- `Documents/Adopted Materiall Quotes␠/Certiport Non Vendor form Approved .pdf` → `purchasing-operations`, `workforce-pathways`, `events-and-conferences`, `needs-review`, `vendor-management`
+- `Documents/Adopted Materiall Quotes␠/Code HS Approved.pdf` → `academic-programs`, `purchasing-operations`, `workforce-pathways`, `needs-review`
+- `Documents/Adopted Materiall Quotes␠/CodeHS Proclamation 2024 titles.pdf` → `needs-review`, `academic-programs`, `purchasing-operations`, `cte-summer-program`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD A&P revised seat number Estimate_316614.pdf` → `purchasing-operations`, `needs-review`, `academic-programs`, `health-compliance`, `financial-administration`, `events-and-conferences`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Garner A&P 1 year Estimate_316614.pdf` → `purchasing-operations`, `needs-review`, `academic-programs`, `health-compliance`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 1 year Estimate_375613.pdf` → `purchasing-operations`, `needs-review`, `academic-programs`, `financial-administration`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 4 year  Estimate_375616.pdf` → `needs-review`, `purchasing-operations`, `academic-programs`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Video Game Design Estimate_375603.pdf` → `purchasing-operations`, `needs-review`, `academic-programs`
+- `Documents/Adopted Materiall Quotes␠/Davis Publications Non Awarded Vendor Approved.pdf` → `needs-review`, `academic-programs`, `conference-travel`
+- `Documents/Adopted Materiall Quotes␠/Goodheart Wilcox Non Awarded approved.pdf` → `academic-programs`, `needs-review`, `purchasing-operations`
+- `Documents/Adopted Materiall Quotes␠/Human Services-Cengage quote 2025.pdf` → `purchasing-operations`, `needs-review`
+- `Documents/Adopted Materiall Quotes␠/National Restraunt Association Approved Quote.pdf` → `needs-review`, `workforce-pathways`, `events-and-conferences`, `conference-travel`, `purchasing-operations`
+- `Documents/Adopted Materiall Quotes␠/Non Awarded Vendor Request McGraw Hill Approved.pdf` → `academic-programs`, `conference-travel`, `financial-administration`, `purchasing-operations`, `needs-review`
+- `Documents/Adopted Materiall Quotes␠/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf` → `conference-travel`, `workforce-pathways`, `academic-programs`, `financial-administration`, `purchasing-operations`, `vendor-management`
+- `Documents/Adopted Materiall Quotes␠/Pearson Non Awarded Approved.pdf` → `vendor-management`, `purchasing-operations`, `academic-programs`, `needs-review`, `financial-administration`
+- `Documents/Adopted Materiall Quotes␠/Proclamation 2024 -Principles of IT.pdf` → `purchasing-operations`, `needs-review`, `academic-programs`, `events-and-conferences`
+- `Documents/Adopted Materiall Quotes␠/SACA_09-08-2025 Approved.pdf` → `needs-review`, `industry-certifications`, `conference-travel`, `purchasing-operations`
+- `Documents/Affiliated Agreements/Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2)[18].pdf` → `student-services`, `health-compliance`, `needs-review`, `financial-administration`
+- `Documents/Affiliated Agreements/Automotive Service Excellence - Approved for one time purchase[5].pdf` → `needs-review`, `workforce-pathways`, `health-compliance`
+- `Documents/Affiliated Agreements/ESCO Institute LTD - approved for one time use.pdf` → `needs-review`, `cte-summer-program`, `health-compliance`, `conference-travel`, `events-and-conferences`
+- `Documents/Baylor Scott & Whote MAA 2028 08.09.23.pdf` → `student-services`, `needs-review`, `health-compliance`, `cte-summer-program`
+- `Documents/Bell Schedule CI East.pdf` → `events-and-conferences`, `needs-review`, `student-services`, `curriculum`
+- `Documents/CLNA Tools-ACTE Vision.pdf` → `needs-review`, `academic-programs`, `events-and-conferences`
+- `Documents/CNA Workscopes_ Step #1_ Stop_and_Jot_Reflection.pdf` → `needs-review`, `program-planning`, `ctso-activities`, `student-services`, `academic-programs`
+- `Documents/CompTIA Non Awarded Vendor Request Form 7.2025.pdf` → `vendor-management`, `workforce-pathways`, `purchasing-operations`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.docx.pdf` → `financial-administration`, `cte-summer-program`, `needs-review`, `workforce-pathways`, `professional-development`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.pdf` → `financial-administration`, `cte-summer-program`, `needs-review`, `events-and-conferences`, `workforce-pathways`, `health-compliance`
+- `Documents/Conference Travel/Expenditure Justification Form_September 2025[86] copy.pdf` → `needs-review`, `cte-summer-program`, `health-compliance`
+- `Documents/Conference Travel/SRFM Travel Expense Report Checklist.pdf` → `events-and-conferences`, `student-services`, `financial-administration`, `needs-review`
+- `Documents/DallasISDTravel - ACTE Best Practice - JB.pdf` → `events-and-conferences`, `needs-review`, `purchasing-operations`
+- `Documents/DallasISDTravel - ACTE Best Practices - JS.pdf` → `events-and-conferences`, `needs-review`, `purchasing-operations`
+- `Documents/Estimate_3377_from_Alpha_Education_Group[48].pdf` → `purchasing-operations`, `cte-summer-program`, `academic-programs`, `events-and-conferences`, `conference-travel`, `workforce-pathways`
+- `Documents/How to Request a Trip (2).pdf` → `needs-review`
+- `Documents/January 2026 Lunch and Learn.pdf` → `needs-review`, `purchasing-operations`
+- `Documents/Mackenzie Birthcertificate.jpeg` → `student-services`, `health-compliance`, `needs-review`
+- `Documents/New Stipend Request Form[81].pdf` → `financial-administration`, `workforce-pathways`
+- `Documents/Non-AwardedVendorRequestForm copy.pdf` → `vendor-management`, `purchasing-operations`, `needs-review`
+- `Documents/Norman Moore Grant_Funded Travel Authorization Form.pdf` → `events-and-conferences`, `professional-development`, `financial-administration`, `needs-review`, `student-services`
+- `Documents/Perkins Travel/2025-2026 Financial Services Activity Calendar[2].pdf` → `student-services`, `needs-review`, `purchasing-operations`
+- `Documents/Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `needs-review`, `health-compliance`, `workforce-pathways`, `academic-programs`, `financial-administration`
+- `Documents/Perkins Travel/Expenditure Justification Form_September 2025[72].pdf` → `events-and-conferences`, `needs-review`, `cte-summer-program`
+- `Documents/Perkins Travel/SRFM Meal Reimbursement Guide - Revised.10.14.2025[38].pdf` → `financial-administration`, `events-and-conferences`, `needs-review`, `student-services`
+- `Documents/Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf` → `events-and-conferences`, `financial-administration`, `health-compliance`
+- `Documents/Procurement Codes .pdf` → `purchasing-operations`, `needs-review`, `financial-administration`, `health-compliance`
+- `Documents/Purchase Orders：Lince Codes/ContactList_ProcurementServices_21_2.pdf` → `events-and-conferences`, `needs-review`
+- `Documents/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf` → `needs-review`, `cte-summer-program`
+- `Documents/Quotes 25-26/Trailer Outlet Quote_.pdf` → `purchasing-operations`, `needs-review`
+- `Documents/Triptracker 101 2025-26.pptx.pdf` → `needs-review`, `health-compliance`, `conference-travel`, `events-and-conferences`
+- `Documents/Welding -Alpha Group.pdf` → `needs-review`, `events-and-conferences`, `purchasing-operations`, `industry-certifications`
+- `Documents/iSupplierPortalQuickReferenceCard-NewProspectiveSuppliersRegistration.pdf` → `needs-review`, `financial-administration`
+- `Documents/scan_jspence-Life insurance.pdf` → `needs-review`, `cte-summer-program`
+- `Documents/scan_jspence_2025-09-04-09-15-15.pdf` → `academic-programs`, `workforce-pathways`, `health-compliance`, `purchasing-operations`, `needs-review`
+- `Documents/untitled folder/Travel Forms/Expenditure Justification Form_September 2025.pdf` → `events-and-conferences`, `needs-review`, `health-compliance`, `cte-summer-program`
+- `EMT：EMR/26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `needs-review`, `career-exploration`, `financial-administration`, `health-compliance`, `professional-development`
+- `EMT：EMR/FOR_YOUR_SIGNATURE_Affiliation_Agreement(One[79].pdf` → `student-services`, `health-compliance`, `needs-review`
+- `EMT：EMR/Signed NAF Forms 26.pdf` → `events-and-conferences`, `conference-travel`, `financial-administration`, `student-services`, `professional-development`, `needs-review`
+- `Editable_Non Awarded Vendor Request Form 7.2025.pdf` → `vendor-management`, `purchasing-operations`, `needs-review`
+- `Estimate_3377_from_Alpha_Education_Group[48].pdf` → `purchasing-operations`, `events-and-conferences`, `academic-programs`, `conference-travel`, `health-compliance`, `workforce-pathways`
+- `Hicks Bio.pdf` → `needs-review`, `student-services`, `academic-programs`
+- `IMG_4472.jpg` → `needs-review`, `events-and-conferences`, `curriculum`, `financial-administration`
+- `J. Spann.pdf` → `events-and-conferences`, `financial-administration`, `workforce-pathways`, `needs-review`, `student-services`, `professional-development`
+- `JOSEPH_THOA_GRANT TRAVEL FORM-REVISED - signed.pdf` → `events-and-conferences`, `conference-travel`, `needs-review`
+- `Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED) (3).pdf` → `events-and-conferences`, `financial-administration`, `conference-travel`, `professional-development`
+- `KGeorgeCTELeadTeacherStipendAgreement11.13.25 (1).pdf` → `financial-administration`, `workforce-pathways`, `needs-review`, `professional-development`, `program-planning`, `cte-summer-program`
+- `KGeorgeCTELeadTeacherStipendAgreement11.13.25.pdf` → `financial-administration`, `workforce-pathways`, `needs-review`, `professional-development`, `cte-summer-program`
+- `Lead Teacher/CTE Lead Teacher Agreement.pdf` → `student-services`, `financial-administration`, `cte-summer-program`, `needs-review`, `professional-development`, `industry-certifications`
+- `Lead Teacher/CTE Lead Teacher.pdf` → `financial-administration`, `cte-summer-program`, `needs-review`, `workforce-pathways`, `professional-development`
+- `Lead Teacher/SOP Materials/Federal Spend & Cooperative Contract Use.pdf` → `needs-review`
+- `Lead Teacher/original-4128F740-F01F-467F-97DF-B744898FC450.jpeg` → `financial-administration`, `events-and-conferences`, `needs-review`, `industry-certifications`, `health-compliance`
+- `M Clifton CTSO Sponser Agreement .pdf` → `events-and-conferences`
+- `M. Spence 504 Plan.pdf` → `needs-review`, `vendor-management`, `health-compliance`, `cte-summer-program`
+- `Mackenns Spence-Jones Center.pdf` → `needs-review`, `academic-programs`, `student-services`
+- `Minor Testing Packet (1).pdf` → `needs-review`, `academic-programs`, `professional-development`
+- `Minor Testing Packet.pdf` → `needs-review`, `academic-programs`, `professional-development`, `health-compliance`
+- `NAF 2026/NAF NEXT 2026 Grant_Funded Travel Authorization Form Updated.pdf` → `events-and-conferences`, `professional-development`, `needs-review`, `student-services`
+- `NAF Employment Application.pdf` → `needs-review`, `events-and-conferences`, `workforce-pathways`, `professional-development`
+- `NAF Next 2026.pdf` → `events-and-conferences`, `needs-review`, `program-planning`, `professional-development`, `purchasing-operations`, `financial-administration`
+- `NAF Paperwork/Board Document 250357[69].pdf` → `events-and-conferences`, `workforce-pathways`, `cte-summer-program`, `needs-review`, `career-exploration`, `student-services`
+- `Non Awarded 2.pdf` → `conference-travel`, `academic-programs`, `vendor-management`, `purchasing-operations`, `financial-administration`, `needs-review`
+- `Non Awarded Vendor Quotes/BE Publishing Non Awarded Vendor Approved.pdf` → `conference-travel`, `purchasing-operations`, `cte-summer-program`, `needs-review`, `academic-programs`
+- `Non Awarded Vendor Quotes/CTE QUOTE Dallas ISD Aug 26 2025 Digital 1 year with teacher tools MW.pdf` → `purchasing-operations`, `academic-programs`, `needs-review`, `events-and-conferences`
+- `Non Awarded Vendor Quotes/Certiport Non Vendor form Approved .pdf` → `workforce-pathways`, `purchasing-operations`
+- `Non Awarded Vendor Quotes/Code HS Approved.pdf` → `needs-review`, `workforce-pathways`
+- `Non Awarded Vendor Quotes/Davis Publications Non Awarded Vendor Approved.pdf` → `needs-review`, `academic-programs`, `conference-travel`
+- `Non Awarded Vendor Quotes/Goodheart Wilcox Non Awarded approved.pdf` → `needs-review`, `academic-programs`, `purchasing-operations`
+- `Non Awarded Vendor Quotes/National Restraunt Association Approved Quote.pdf` → `needs-review`, `workforce-pathways`, `events-and-conferences`, `purchasing-operations`, `conference-travel`
+- `Non Awarded Vendor Quotes/Non Awarded Vendor Request McGraw Hill Approved.pdf` → `academic-programs`, `conference-travel`, `financial-administration`, `needs-review`, `purchasing-operations`, `vendor-management`
+- `Non Awarded Vendor Quotes/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf` → `workforce-pathways`, `purchasing-operations`, `academic-programs`, `needs-review`, `financial-administration`
+- `Non Awarded Vendor Quotes/Pearson Non Awarded Approved.pdf` → `workforce-pathways`, `academic-programs`, `needs-review`, `financial-administration`, `vendor-management`, `conference-travel`
+- `Non Awarded Vendor Quotes/SACA_09-08-2025 Approved.pdf` → `industry-certifications`, `purchasing-operations`, `conference-travel`, `needs-review`, `student-services`, `workforce-pathways`
+- `Non- Awarded 1.pdf` → `workforce-pathways`, `purchasing-operations`, `needs-review`, `academic-programs`
+- `Non-Awarded Vendor Forms approved 2/NCCER_Approved 09-12-2025.pdf` → `academic-programs`, `workforce-pathways`, `conference-travel`, `purchasing-operations`, `needs-review`
+- `Non-Awarded Vendor Forms approved 3/NCCER_Approved 09-12-2025.pdf` → `workforce-pathways`, `purchasing-operations`, `needs-review`
+- `Non-Awarded Vendor Forms approved/Alpha Education Group_Non-AwardedVendorRequestForm - signed.pdf (SECURED).pdf` → `vendor-management`, `cte-summer-program`, `events-and-conferences`, `purchasing-operations`, `needs-review`, `student-services`
+- `Non-Awarded Vendor Forms approved/CLNA␠/2026-27-clna-guidebook.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `health-compliance`, `program-planning`
+- `Non-Awarded Vendor Forms approved/CLNA␠/SC5600 Comprehensive Local Needs Assessment blank.pdf (SECURED).pdf` → `needs-review`, `academic-programs`, `workforce-pathways`
+- `Non-Awarded Vendor Forms approved/Career Safe-approval[30].pdf` → `workforce-pathways`, `needs-review`, `purchasing-operations`
+- `Non-Awarded Vendor Forms approved/CareerSafe Approved.pdf` → `workforce-pathways`, `needs-review`
+- `Non-Awarded Vendor Forms approved/CompTia Non-Awarded Vendor Form.pdf` → `workforce-pathways`, `purchasing-operations`, `needs-review`, `health-compliance`
+- `Non-Awarded Vendor Forms approved/CompTia.pdf` → `conference-travel`, `needs-review`, `workforce-pathways`, `purchasing-operations`, `financial-administration`
+- `Non-Awarded Vendor Forms approved/Stone Non-AwardedVendorRequestForm.pdf` → `vendor-management`, `purchasing-operations`, `cte-summer-program`, `needs-review`
+- `Non-Awarded Vendor Forms approved/TPSA non awarded vendor form - approved for competitions[16].pdf` → `needs-review`, `vendor-management`
+- `Non-Awarded Vendor Requests Log (1).pdf` → `purchasing-operations`, `needs-review`, `workforce-pathways`
+- `Non-Awarded Vendor Requests Log.pdf` → `needs-review`, `purchasing-operations`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/CTE Admin 101-Slide Deck.pptx` → `needs-review`, `health-compliance`, `workforce-pathways`, `professional-development`, `program-planning`, `academic-programs`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE New Teacher Professional Development Plan.pdf` → `needs-review`, `professional-development`, `program-planning`, `events-and-conferences`, `workforce-pathways`, `summer-pd`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Required Certification by Program.xlsx` → `academic-programs`, `cte-summer-program`, `workforce-pathways`, `needs-review`, `health-compliance`, `events-and-conferences`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/Sample CTE Equipment Request Form.pdf` → `needs-review`, `cte-summer-program`, `purchasing-operations`, `academic-programs`
+- `OneDrive_2_12-9-2025.zip.unpacked/Program Coherent Sequence.docx` → `cte-summer-program`, `needs-review`, `financial-administration`, `industry-certifications`, `professional-development`
+- `OneDrive_2_12-9-2025.zip.unpacked/Sample CW Day.pdf` → `needs-review`, `cte-summer-program`, `program-planning`, `vendor-management`, `workforce-pathways`, `professional-development`
+- `PD Creation Department Supplemental Pay Approval Memo .pdf` → `professional-development`, `summer-pd`, `workforce-pathways`, `conference-travel`, `academic-programs`
+- `Perkins Travel/2025-2026 Financial Services Activity Calendar[2].pdf` → `student-services`, `needs-review`, `purchasing-operations`, `events-and-conferences`
+- `Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `needs-review`, `student-services`, `health-compliance`, `workforce-pathways`, `cte-summer-program`, `academic-programs`
+- `Perkins Travel/Expenditure Justification Form_September 2025[72].pdf` → `events-and-conferences`, `needs-review`, `health-compliance`, `cte-summer-program`
+- `Perkins Travel/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf` → `needs-review`, `student-services`, `cte-summer-program`
+- `Perkins Travel/SRFM Meal Reimbursement Guide - Revised.10.14.2025[38].pdf` → `financial-administration`, `needs-review`, `events-and-conferences`, `student-services`
+- `Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf` → `events-and-conferences`, `student-services`, `financial-administration`, `health-compliance`, `professional-development`
+- `PerkinsV_CLNA_Template_ Guide.pdf` → `needs-review`, `academic-programs`, `health-compliance`, `student-services`
+- `Please_complete_with_DocuSign_Tosa_Approved_.pdf` → `health-compliance`, `industry-certifications`, `needs-review`, `student-services`
+- `Procurement Services Training (1).pdf` → `needs-review`, `purchasing-operations`
+- `Procurement Services Training.pdf` → `needs-review`, `purchasing-operations`
+- `Proposal_ Student-Run Financial Center at Townview.pdf` → `student-services`, `health-compliance`, `needs-review`, `workforce-pathways`
+- `QR Sheet 2a_Stakeholder Involvement by Program-1.pdf` → `needs-review`, `cte-summer-program`, `workforce-pathways`
+- `Receipt _ DALLAS ISD.pdf` → `financial-administration`, `events-and-conferences`, `needs-review`, `purchasing-operations`
+- `Reference Latter-Myra 2026.pdf` → `needs-review`
+- `Sample CTE Equipment Request Form.pdf` → `needs-review`, `cte-summer-program`, `purchasing-operations`, `workforce-pathways`
+- `Sample CW Day.pdf` → `cte-summer-program`, `needs-review`, `vendor-management`, `workforce-pathways`, `program-planning`, `professional-development`
+- `SampleEmail (6).pdf` → `needs-review`, `purchasing-operations`, `events-and-conferences`
+- `SampleEmail.pdf` → `needs-review`, `purchasing-operations`, `events-and-conferences`
+- `Spence-NAF Employment Application (1).pdf` → `needs-review`, `events-and-conferences`, `workforce-pathways`
+- `Standard Operting Procedures-Perkins.pdf` → `needs-review`, `student-services`, `professional-development`, `program-planning`, `purchasing-operations`, `workforce-pathways`
+- `StartProcess (3).pdf` → `needs-review`
+- `StartProcess.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779987132611 - Marilyn Almonaci.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779988804972 - Melissa Alonso.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779989208523 - Jennifer Carpio.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990127878 - Alexis Guereca.pdf` → `health-compliance`, `immunization`, `events-and-conferences`, `cte-summer-program`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991144994 - Juve Mateos Mendoza.pdf` → `immunization`, `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991243234 - Isabella Guerrero.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991314944 - Treynahdee Washington.pdf` → `health-compliance`, `needs-review`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989208523 - Jennifer Carpio.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989270536 - Emily Collins.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991144994 - Juve Mateos Mendoza.pdf` → `health-compliance`, `needs-review`
+- `Summer PD Schedule 2026.pdf` → `professional-development`, `events-and-conferences`, `workforce-pathways`, `needs-review`, `health-compliance`
+- `Supplemental_form.pdf` → `financial-administration`, `needs-review`, `summer-pd`, `conference-travel`
+- `TOSA Site agreement.pdf` → `health-compliance`, `industry-certifications`, `needs-review`
+- `Tiva classes.pdf` → `professional-development`, `events-and-conferences`, `needs-review`, `student-services`, `academic-programs`
+- `Townview Floor Plan (1).jpg` → `needs-review`, `curriculum`, `student-services`, `cte-summer-program`
+- `Townview Floor Plan.jpg` → `needs-review`, `curriculum`, `student-services`
+- `Transportation Receipt 2.pdf` → `financial-administration`, `needs-review`
+- `Travel Reconcile NLSC- Justification.pdf` → `events-and-conferences`, `student-services`, `needs-review`
+- `Vehicle Check Out Form.pdf` → `needs-review`
+- `Virtual-Background copy.jpg` → `needs-review`, `workforce-pathways`, `cte-summer-program`
+- `Virtual-Background2.jpg` → `needs-review`, `workforce-pathways`
+- `Vitals-Childrens-Testing Route.pdf` → `health-compliance`, `needs-review`, `events-and-conferences`, `summer-pd`
+- `Workscopes_ Step #1_ Stop_and_Jot_Reflection.pdf` → `academic-programs`, `needs-review`, `program-planning`, `ctso-activities`
+- `add_to_calendar.ics` → `academic-programs`, `needs-review`, `student-services`, `events-and-conferences`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (1).pdf` → `needs-review`, `workforce-pathways`, `academic-programs`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (2).pdf` → `workforce-pathways`, `needs-review`, `cte-summer-program`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (3).pdf` → `workforce-pathways`, `needs-review`, `academic-programs`, `program-planning`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030-3.pdf` → `workforce-pathways`, `academic-programs`, `needs-review`, `cte-summer-program`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030.pdf` → `workforce-pathways`, `needs-review`, `academic-programs`, `industry-certifications`
+- `cte-indicator-auto-coder.pdf` → `needs-review`, `ctso-activities`, `academic-programs`, `cte-summer-program`, `health-compliance`
+- `cte-wbl-training-plan-0.pdf` → `needs-review`, `student-services`, `health-compliance`, `workforce-pathways`, `events-and-conferences`
+- `cte-wbl-training-plan.pdf` → `needs-review`, `student-services`, `health-compliance`, `workforce-pathways`, `events-and-conferences`
+- `eDynamic Quote - Principles of IT - 3YR - R. Howard_V1.pdf` → `purchasing-operations`, `needs-review`, `academic-programs`
+- `ibc-advisory-council-inventory-twc (1).pdf` → `workforce-pathways`, `academic-programs`, `needs-review`, `professional-development`, `industry-certifications`, `health-compliance`
+- `ibc-advisory-council-inventory-twc.pdf` → `workforce-pathways`, `academic-programs`, `needs-review`, `professional-development`, `industry-certifications`, `health-compliance`
+- `p2024-list-of-materials-adopted-by-sboe.pdf` → `needs-review`, `academic-programs`, `events-and-conferences`, `workforce-pathways`
+- `preliminary-2025-2030-ibc-to-program-of-study-crosswalk (6).pdf` → `workforce-pathways`, `cte-summer-program`, `needs-review`, `industry-certifications`
+- `preliminary-2025-2030-ibc-to-program-of-study-crosswalk.pdf` → `workforce-pathways`, `cte-summer-program`, `needs-review`, `industry-certifications`, `program-planning`
+- `regional-labor-market-information-wda-5.pdf` → `workforce-pathways`, `needs-review`, `health-compliance`, `academic-programs`
+- `tiva 3/7-17-2025.pdf` → `financial-administration`, `needs-review`, `events-and-conferences`
+- `wallpaperB.jpg` → `needs-review`, `workforce-pathways`
+
+### health-compliance (274)
+
+- ` PD Summer Schedule.pdf` → `professional-development`, `summer-pd`, `events-and-conferences`, `academic-programs`, `procurement-compliance`, `industry-certifications`
+- `12-21-BASC 3 Teacher.pdf` → `needs-review`, `academic-programs`, `professional-development`, `events-and-conferences`
+- `2024 Dallas ISD W2 (2).pdf` → `financial-administration`, `needs-review`
+- `2024 Dallas ISD W2.pdf` → `financial-administration`, `needs-review`, `immunization`
+- `2024 Kemp ISD W2 (1).pdf` → `needs-review`, `financial-administration`
+- `2024-2025-clna-guidebook.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`
+- `2025 CTE Summer PD Feedback.pdf` → `summer-pd`, `professional-development`, `workforce-pathways`, `student-services`, `needs-review`, `events-and-conferences`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_American Medical Technologists (AMT).pdf` → `procurement-compliance`, `vendor-management`, `needs-review`
+- `2026 Graduation Cord Rosters.pdf` → `needs-review`, `workforce-pathways`
+- `25-26 CI North .pdf` → `career-exploration`, `needs-review`, `workforce-pathways`, `financial-administration`, `industry-certifications`, `student-services`
+- `26-27 CLNA.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `career-exploration`
+- `26-27 Campus CTE Nonposition Realignment Datasource V4.pdf` → `needs-review`, `cte-summer-program`, `workforce-pathways`
+- `26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `financial-administration`, `needs-review`, `career-exploration`, `student-services`, `professional-development`
+- `318703661.pdf` → `needs-review`, `workforce-pathways`
+- `A Goodson Travel form - signed.pdf` → `events-and-conferences`, `needs-review`
+- `ACTE HQ Frameworks.pdf` → `academic-programs`, `needs-review`, `workforce-pathways`
+- `ACTE Vision 2025/656EE0EE-B956-47AB-F3B8-A54C3E8E641B20251210154217363.pdf` → `student-services`, `procurement-compliance`, `needs-review`, `academic-programs`, `professional-development`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf` → `needs-review`, `academic-programs`, `cte-summer-program`, `financial-administration`, `events-and-conferences`, `student-services`
+- `ACTE Vision 2025/Admin 101/request.pdf` → `needs-review`, `workforce-pathways`, `procurement-compliance`, `academic-programs`
+- `ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `procurement-compliance`
+- `ACTE Vision 2025/Admin 201/CTE Admin 102-Slide Deck.pptx.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`
+- `ACTE Vision 2025/Admin 201/Improving_CTE_Performance_Measurement_Data_Collection_09-11-2024.pdf` → `needs-review`, `conference-travel`
+- `ACTE Vision 2025/The Art of Coaching/Team Temperature Check.pdf` → `student-services`, `professional-development`, `needs-review`, `academic-programs`
+- `Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf` → `student-services`, `needs-review`, `financial-administration`, `procurement-compliance`, `workforce-pathways`, `professional-development`
+- `Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf (SECURED).pdf` → `student-services`, `needs-review`
+- `Allison Garcia Observer20TB20Screening_copy.pdf` → `procurement-compliance`, `tb-screening`, `needs-review`
+- `Assessment - Mackenna.pdf` → `academic-programs`, `needs-review`
+- `BAUTISTA_TIVA GRANT TRAVEL DOCS.pdf` → `conference-travel`, `needs-review`, `procurement-compliance`, `events-and-conferences`
+- `Baylor Scott & Whote MAA 2028 08.09.23.pdf` → `student-services`, `needs-review`, `procurement-compliance`, `cte-summer-program`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768501134.7069674.pdf` → `purchasing-operations`, `needs-review`, `workforce-pathways`, `industry-certifications`, `procurement-compliance`, `cte-summer-program`
+- `C.Seay- 2025 Certified Educator Conference - signed.pdf` → `events-and-conferences`, `student-services`
+- `CI North Parking at TJ.pdf` → `career-exploration`, `needs-review`, `curriculum`
+- `CI North Remote Parking (1).pdf` → `needs-review`, `summer-pd`, `cte-summer-program`
+- `CIN Parking.pdf` → `career-exploration`, `needs-review`, `curriculum`, `procurement-compliance`
+- `CLNA 2026-27-clna-guidebook[55].pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `program-planning`
+- `CLNA 26-27/2026-27-clna-guidebook.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`
+- `CLNA 26-27/CLNA DALLAS ISD Working Doc.pdf` → `needs-review`, `procurement-compliance`, `academic-programs`, `workforce-pathways`, `vendor-management`
+- `CLNA Guiding Questions (2).pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `student-services`, `cte-summer-program`, `professional-development`
+- `CLNA Guiding Questions.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `student-services`, `cte-summer-program`, `professional-development`
+- `CLNA Planning Tool-Example.pdf` → `program-planning`, `academic-programs`, `needs-review`, `workforce-pathways`, `cte-summer-program`, `events-and-conferences`
+- `COZART_TIVA GRANT TRAVEL DOCS - signed (1).pdf` → `conference-travel`, `student-services`, `needs-review`, `procurement-compliance`
+- `CPAL_DISD_MOU_SowingSeeds (3).pdf` → `needs-review`, `student-services`, `workforce-pathways`
+- `CTE Form Mule Email Preview — CELIS _ Graphic Design I.pdf` → `needs-review`, `workforce-pathways`
+- `CTE Framework (1).pdf` → `workforce-pathways`, `needs-review`
+- `CTE Framework.pdf` → `academic-programs`, `workforce-pathways`, `events-and-conferences`, `program-planning`, `needs-review`, `financial-administration`
+- `CTE TEAM (1).png` → `student-services`, `needs-review`, `cte-summer-program`, `workforce-pathways`, `academic-programs`, `conference-travel`
+- `CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf` → `summer-pd`, `cte-summer-program`, `curriculum`, `needs-review`, `professional-development`, `events-and-conferences`
+- `CTE- SUM26 CIN Summer Learning Site Signage Template.pdf` → `summer-pd`, `cte-summer-program`, `needs-review`, `procurement-compliance`, `workforce-pathways`, `events-and-conferences`
+- `CTE- SUM26 CIS Summer Learning Site Signage Template (2).pdf` → `summer-pd`, `curriculum`, `needs-review`, `professional-development`, `events-and-conferences`, `workforce-pathways`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (8).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `academic-programs`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1).pdf` → `summer-pd`, `cte-summer-program`, `curriculum`, `needs-review`, `events-and-conferences`, `procurement-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template.pdf` → `summer-pd`, `curriculum`, `cte-summer-program`, `professional-development`, `events-and-conferences`, `procurement-compliance`
+- `CTE-Standard Operating Procedures/2026-27 Dallas ISD CTE CTSO Handbook.docx` → `events-and-conferences`, `academic-programs`, `ctso-activities`, `needs-review`, `procurement-compliance`, `financial-administration`
+- `Career Institute North - Raw Data Entries (1).pdf` → `career-exploration`, `needs-review`, `workforce-pathways`, `financial-administration`
+- `Career Institute North - Raw Data Entries.pdf` → `career-exploration`, `needs-review`, `workforce-pathways`, `financial-administration`
+- `CollabBadge.pdf` → `needs-review`, `workforce-pathways`, `cte-summer-program`
+- `Copy of EXPO Attendance Roster for CTE.pdf` → `events-and-conferences`, `needs-review`, `workforce-pathways`, `cte-summer-program`
+- `Cornerstone_Session_Signin-1_5_2026.pdf` → `student-services`, `professional-development`, `needs-review`, `workforce-pathways`, `academic-programs`
+- `D. Enderle Travel Form ATAT - signed.pdf` → `events-and-conferences`, `needs-review`
+- `DISD_EMS_Student_Profile_5_26_26.pdf` → `cte-summer-program`, `needs-review`, `procurement-compliance`, `career-exploration`, `workforce-pathways`, `student-services`
+- `DISD_Purchasing_Analysis 208023.pdf` → `purchasing-operations`, `needs-review`, `workforce-pathways`, `vendor-management`
+- `DRAFT Vehicle Intake & Liability Waiver Form.pdf` → `needs-review`, `cte-summer-program`, `academic-programs`
+- `DSC_6946-Enhanced-NR.jpg` → `cte-summer-program`, `needs-review`, `procurement-compliance`, `financial-administration`, `events-and-conferences`
+- `DSC_7046-Enhanced-NR.jpg` → `financial-administration`, `needs-review`
+- `DSC_7046-Enhanced-NR[89].jpg.jpeg` → `financial-administration`, `needs-review`
+- `DSC_9851.jpg` → `needs-review`
+- `Dallas ISD CTE_ Work-Based Learning Continuum.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `cte-summer-program`, `program-planning`, `professional-development`
+- `Dallas ISD Garner A&P 1 year Estimate_316614.pdf` → `purchasing-operations`, `needs-review`, `academic-programs`, `cte-summer-program`, `financial-administration`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ALEXIS GUERECA 01.13.2010   TB LAB RESULTS.pdf` → `needs-review`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ALLISON GARCIAGUIRRE 07.16.2009 TB LAB RESULTS.pdf` → `needs-review`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ANA RIVERA 12.09.2008 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ANGIE GONZALEZ 07.23.2010 TB LAB RESULTS.pdf` → `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ARIANA GOMEZ 02.16.2011 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/CARLA MELGAR 09.22.1992 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/CINTHIA SANTOYO 06.08.2009 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/EDGAR VASQUEZ 09.10.2010 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/EMILY COLLINS 06.10.2009 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/GABRIELA GURROLA 11.13.2009 TB LAB RESULTS.pdf` → `needs-review`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/GABRIELLA NUNEZ 12.28.2009 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ISABELLA GUERRERO 10.02.2009 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/JAYDE MORALES 03.13.2009 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/JENNIFER CARPIO 09.30.2009 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/JUVE NOE MATEOS MENDOZA 06.04.2008 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/LYLA CAMERENA 04.16.2008 TB LAB RESULTS.pdf` → `needs-review`, `tb-screening`, `student-services`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/MARILYN ALMONACI 12.14.2009 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/MARLEY MARROQUIN 07.08.2008 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`, `student-services`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/MELISSA ALONSO 10.23.2008 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`, `lab-results`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/MELISSA LARA 02.19.2011 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/NATALIA BLAS 05.21.2010 TB LAB RESULTS.pdf` → `tb-screening`, `student-services`, `needs-review`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/PAULA ROCABRUNO TORRALBA 11.16.2010 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/TREYNAHDEE WASHINGTON 08.07.2009 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`, `student-services`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/YVONNE MORGAN 07.14.1980 TB LABRESULTS.pdf` → `needs-review`, `tb-screening`
+- `Dallas ISD TB Results/ALEXIS GUERECA 01.13.2010   TB LAB RESULTS.pdf` → `needs-review`, `tb-screening`
+- `Dallas ISD TB Results/ALLISON GARCIAGUIRRE 07.16.2009 TB LAB RESULTS.pdf` → `needs-review`, `tb-screening`
+- `Dallas ISD TB Results/ANA RIVERA 12.09.2008 TB LAB RESULTS.pdf` → `needs-review`, `tb-screening`
+- `Dallas ISD TB Results/ANGIE GONZALEZ 07.23.2010 TB LAB RESULTS.pdf` → `needs-review`, `tb-screening`
+- `Dallas ISD TB Results/ARIANA GOMEZ 02.16.2011 TB LAB RESULTS.pdf` → `tb-screening`, `lab-results`, `needs-review`
+- `Dallas ISD TB Results/CARLA MELGAR 09.22.1992 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`
+- `Dallas ISD TB Results/CINTHIA SANTOYO 06.08.2009 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`
+- `Dallas ISD TB Results/EDGAR VASQUEZ 09.10.2010 TB LAB RESULTS.pdf` → `needs-review`, `tb-screening`, `lab-results`
+- `Dallas ISD TB Results/EMILY COLLINS 06.10.2009 TB LAB RESULTS.pdf` → `tb-screening`
+- `Dallas ISD TB Results/GABRIELA GURROLA 11.13.2009 TB LAB RESULTS.pdf` → `needs-review`, `tb-screening`, `student-services`
+- `Dallas ISD TB Results/GABRIELLA NUNEZ 12.28.2009 TB LAB RESULTS.pdf` → `tb-screening`
+- `Dallas ISD TB Results/ISABELLA GUERRERO 10.02.2009 TB LAB RESULTS.pdf` → `needs-review`, `tb-screening`
+- `Dallas ISD TB Results/JENNIFER CARPIO 09.30.2009 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`
+- `Dallas ISD TB Results/JUVE NOE MATEOS MENDOZA 06.04.2008 TB LAB RESULTS.pdf` → `needs-review`, `tb-screening`
+- `Dallas ISD TB Results/LYLA CAMERENA 04.16.2008 TB LAB RESULTS.pdf` → `needs-review`, `tb-screening`
+- `Dallas ISD TB Results/MARILYN ALMONACI 12.14.2009 TB LAB RESULTS.pdf` → `needs-review`, `tb-screening`
+- `Dallas ISD TB Results/MARLEY MARROQUIN 07.08.2008 TB LAB RESULTS.pdf` → `tb-screening`
+- `Dallas ISD TB Results/MELISSA ALONSO 10.23.2008 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`
+- `Dallas ISD TB Results/MELISSA LARA 02.19.2011 TB LAB RESULTS.pdf` → `needs-review`, `tb-screening`
+- `Dallas ISD TB Results/NATALIA BLAS 05.21.2010 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`
+- `Dallas ISD TB Results/PAULA ROCABRUNO TORRALBA 11.16.2010 TB LAB RESULTS.pdf` → `needs-review`, `tb-screening`
+- `Dallas ISD TB Results/TREYNAHDEE WASHINGTON 08.07.2009 TB LAB RESULTS.pdf` → `tb-screening`, `needs-review`
+- `Dallas ISD TB Results/YVONNE MORGAN 07.14.1980 TB LABRESULTS.pdf` → `needs-review`, `tb-screening`
+- `DallasISDTravel - ACTE Best Practices - JS.pdf` → `events-and-conferences`, `procurement-compliance`, `program-planning`, `needs-review`
+- `Dallas_ISD_CLNA_2026-2027_DRAFT.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `career-exploration`, `cte-summer-program`, `procurement-compliance`
+- `Disability+Severe+Food+Allergy+Request+Form.pdf` → `needs-review`, `procurement-compliance`
+- `Documents/2025-2026 CTE Oracle iExpense Travel Training.pdf` → `needs-review`, `events-and-conferences`, `professional-development`, `procurement-compliance`
+- `Documents/26-27 Campus CTE Nonposition Realignment Datasource Updated.pdf` → `needs-review`, `cte-summer-program`, `program-planning`
+- `Documents/26-27 TraditionalCalendar-Traditional2026-2027.pdf` → `financial-administration`, `events-and-conferences`, `needs-review`, `professional-development`, `summer-pd`
+- `Documents/ACTE Vision 2025/65734697-0BED-B7C1-727E-DB1AA7193B0820251210154246197.pdf` → `student-services`, `needs-review`, `conference-travel`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf` → `needs-review`, `workforce-pathways`, `cte-summer-program`, `program-planning`
+- `Documents/ACTE Vision 2025/Admin 101/request.pdf` → `needs-review`, `workforce-pathways`, `cte-summer-program`, `academic-programs`, `student-services`, `industry-certifications`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `student-services`, `procurement-compliance`
+- `Documents/ACTE Vision 2025/Admin 201/Improving_CTE_Performance_Measurement_Data_Collection_09-11-2024.pdf` → `needs-review`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Temperature Check.pdf` → `student-services`, `professional-development`, `needs-review`
+- `Documents/ANG-DISD Adamson HS Air Compressor Equipment Repairs_Quote_20262603AD.pdf` → `needs-review`, `procurement-compliance`, `purchasing-operations`, `academic-programs`, `financial-administration`
+- `Documents/Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf` → `student-services`, `needs-review`, `procurement-compliance`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD A&P revised seat number Estimate_316614.pdf` → `purchasing-operations`, `needs-review`, `academic-programs`, `financial-administration`, `events-and-conferences`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Garner A&P 1 year Estimate_316614.pdf` → `purchasing-operations`, `needs-review`, `academic-programs`
+- `Documents/Affiliated Agreements/Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2)[18].pdf` → `student-services`, `procurement-compliance`, `needs-review`, `financial-administration`
+- `Documents/Affiliated Agreements/Automotive Service Excellence - Approved for one time purchase[5].pdf` → `needs-review`, `procurement-compliance`, `workforce-pathways`
+- `Documents/Affiliated Agreements/Dallas ISD_First Amendment  to extend term[31].pdf` → `needs-review`, `student-services`, `cte-summer-program`
+- `Documents/Affiliated Agreements/ESCO Institute LTD - approved for one time use.pdf` → `procurement-compliance`, `needs-review`, `cte-summer-program`, `conference-travel`, `events-and-conferences`
+- `Documents/Affiliated Agreements/Sgtar Wars Table mats[6].pdf` → `needs-review`, `summer-pd`
+- `Documents/Baylor Scott & Whote MAA 2028 08.09.23.pdf` → `student-services`, `needs-review`, `procurement-compliance`, `cte-summer-program`
+- `Documents/CTE Proclamation 2024.pdf` → `needs-review`, `academic-programs`, `events-and-conferences`, `workforce-pathways`, `professional-development`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.pdf` → `procurement-compliance`, `financial-administration`, `cte-summer-program`, `needs-review`, `events-and-conferences`, `workforce-pathways`
+- `Documents/Conference Travel/Expenditure Justification Form_September 2025[86] copy.pdf` → `procurement-compliance`, `needs-review`, `cte-summer-program`
+- `Documents/Insurance documentation .pdf` → `student-services`, `needs-review`
+- `Documents/Kenzie Birth cert.jpeg` → `student-services`, `needs-review`
+- `Documents/M. Spence Initial Parent Referral Packet[16].pdf` → `academic-programs`, `needs-review`, `program-planning`, `events-and-conferences`
+- `Documents/Mackenna Birth Cert.jpeg` → `student-services`, `needs-review`, `industry-certifications`, `immunization`
+- `Documents/Mackenna Spence 12-21-BASC 3 Teacher.pdf` → `needs-review`, `academic-programs`, `tb-screening`, `events-and-conferences`
+- `Documents/Mackenna Spence NICHQ Teacher.pdf` → `academic-programs`, `needs-review`
+- `Documents/Mackenna physical 2.jpeg` → `academic-programs`, `needs-review`
+- `Documents/Mackenzie Birthcertificate.jpeg` → `student-services`, `needs-review`, `procurement-compliance`
+- `Documents/Mackenzie Spence Birth certificate.jpeg` → `student-services`, `needs-review`
+- `Documents/Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `needs-review`, `workforce-pathways`, `procurement-compliance`, `academic-programs`, `financial-administration`
+- `Documents/Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf` → `events-and-conferences`, `procurement-compliance`, `financial-administration`
+- `Documents/Physical Mackenna spence 1.jpeg` → `needs-review`
+- `Documents/Proclamation 2024_Preliminary Findings of the State Review Panel.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `professional-development`, `events-and-conferences`
+- `Documents/Procurement Codes .pdf` → `procurement-compliance`, `purchasing-operations`, `needs-review`, `financial-administration`
+- `Documents/Showcase Promo 2026[5].pdf` → `events-and-conferences`, `workforce-pathways`, `needs-review`, `student-services`
+- `Documents/Triptracker 101 2025-26.pptx.pdf` → `needs-review`, `procurement-compliance`, `conference-travel`, `events-and-conferences`
+- `Documents/scan_jspence_2025-09-04-09-15-15.pdf` → `procurement-compliance`, `academic-programs`, `workforce-pathways`, `purchasing-operations`, `needs-review`
+- `Documents/untitled folder/Travel Forms/Expenditure Justification Form_September 2025.pdf` → `procurement-compliance`, `events-and-conferences`, `needs-review`, `cte-summer-program`
+- `EMT：EMR/26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `needs-review`, `career-exploration`, `financial-administration`, `professional-development`, `procurement-compliance`
+- `EMT：EMR/Dallas ISD_First Amendment  to extend term (1) - signed.pdf` → `student-services`, `cte-summer-program`, `needs-review`
+- `EMT：EMR/FOR_YOUR_SIGNATURE_Affiliation_Agreement(One[79].pdf` → `student-services`, `needs-review`, `procurement-compliance`
+- `Ed Rising Conference Itinerary (1).pdf` → `events-and-conferences`, `summer-pd`, `needs-review`, `academic-programs`, `workforce-pathways`, `student-services`
+- `Ed Rising Conference Itinerary.pdf` → `events-and-conferences`, `needs-review`, `academic-programs`
+- `EnrollmentByCourse.pdf` → `needs-review`
+- `Estimate_3377_from_Alpha_Education_Group[48].pdf` → `purchasing-operations`, `events-and-conferences`, `academic-programs`, `conference-travel`, `workforce-pathways`
+- `Goal_Details_Report_9_39_20_AM.pdf` → `needs-review`, `immunization`
+- `IMG_4433.jpeg` → `financial-administration`, `needs-review`
+- `IMG_4495.jpeg` → `financial-administration`, `needs-review`
+- `IMG_4509.jpeg` → `events-and-conferences`, `professional-development`, `needs-review`
+- `Image_20250918_151210_340.jpeg` → `needs-review`, `workforce-pathways`
+- `Insurance documentation  (1).pdf` → `student-services`, `needs-review`, `immunization`
+- `Insurance documentation .pdf` → `student-services`, `needs-review`
+- `Intership Student Names.pdf` → `needs-review`, `events-and-conferences`
+- `Intership Students.png` → `needs-review`, `cte-summer-program`, `workforce-pathways`
+- `JAYDE MORALES 03.13.2009 TB LAB RESULTS.pdf` → `tb-screening`
+- `Johnson July hourlysupplementaltimecard.pdf` → `needs-review`, `professional-development`, `financial-administration`
+- `Jones-Gunter THOA Travel Mileage.pdf` → `events-and-conferences`, `needs-review`
+- `K. Jennings SkillsUsa Nationals 2025 - signed (1).pdf` → `needs-review`, `workforce-pathways`, `student-services`
+- `Kenna Address Verification.jpeg` → `needs-review`, `financial-administration`
+- `L. Sanchez-Munoz Travel form - signed.pdf` → `events-and-conferences`, `needs-review`
+- `Lead Teacher/original-4128F740-F01F-467F-97DF-B744898FC450.jpeg` → `financial-administration`, `procurement-compliance`, `events-and-conferences`, `needs-review`, `industry-certifications`
+- `Lyla Camarena- Vitals Camp- Children's Health.pdf` → `needs-review`, `summer-pd`
+- `M. Johnson June hourlysupplementaltimecard.pdf` → `needs-review`, `professional-development`, `workforce-pathways`
+- `M. Spence 504 Plan.pdf` → `needs-review`, `vendor-management`, `cte-summer-program`
+- `Mackenna Birth Cert (1).jpeg` → `student-services`, `needs-review`, `immunization`
+- `Mackenna Birth Cert (2).jpeg` → `student-services`, `needs-review`, `immunization`
+- `Mackenna Birth Cert (3).jpeg` → `student-services`, `needs-review`, `industry-certifications`, `immunization`
+- `Mackenna Birth Cert.jpeg` → `student-services`, `needs-review`, `immunization`
+- `Marriage License.pdf` → `needs-review`, `student-services`
+- `Mental+Health+Services+Notification.pdf` → `cte-summer-program`, `needs-review`, `events-and-conferences`
+- `Minor Testing Packet.pdf` → `needs-review`, `procurement-compliance`, `academic-programs`, `professional-development`
+- `NAF Next 2026.pdf` → `events-and-conferences`, `needs-review`, `program-planning`, `professional-development`, `purchasing-operations`, `financial-administration`
+- `NICHQ Teacher.pdf` → `academic-programs`, `needs-review`
+- `Non-Awarded Vendor Forms approved/CLNA␠/2026-27-clna-guidebook.pdf` → `needs-review`, `procurement-compliance`, `academic-programs`, `workforce-pathways`, `program-planning`
+- `Non-Awarded Vendor Forms approved/CompTia Non-Awarded Vendor Form.pdf` → `procurement-compliance`, `workforce-pathways`, `purchasing-operations`, `needs-review`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Admin 101_CTE Terms Glossary.docx` → `needs-review`, `workforce-pathways`, `cte-summer-program`, `student-services`, `industry-certifications`, `academic-programs`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/CTE Admin 101-Slide Deck.pptx` → `needs-review`, `workforce-pathways`, `professional-development`, `procurement-compliance`, `program-planning`, `academic-programs`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Program Management/ACTE HQ Frameworks.pdf` → `academic-programs`, `needs-review`, `cte-summer-program`, `student-services`, `workforce-pathways`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Required Certification by Program.xlsx` → `procurement-compliance`, `academic-programs`, `cte-summer-program`, `workforce-pathways`, `needs-review`, `events-and-conferences`
+- `PATIN_TIVA-GRANT TRAVEL FORM-REVISED - signed.pdf (SECURED).pdf` → `conference-travel`, `events-and-conferences`, `needs-review`
+- `Parent consent Dallas ISD.docx[18].pdf` → `needs-review`
+- `Penny King  Recruitment Brochure.pdf` → `needs-review`, `workforce-pathways`, `cte-summer-program`, `industry-certifications`
+- `Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `needs-review`, `student-services`, `workforce-pathways`, `cte-summer-program`, `academic-programs`, `procurement-compliance`
+- `Perkins Travel/Expenditure Justification Form_September 2025[72].pdf` → `procurement-compliance`, `events-and-conferences`, `needs-review`, `cte-summer-program`
+- `Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf` → `events-and-conferences`, `student-services`, `financial-administration`, `procurement-compliance`, `professional-development`
+- `PerkinsV_CLNA_Template_ Guide.pdf` → `needs-review`, `academic-programs`, `procurement-compliance`, `student-services`
+- `Please_complete_with_DocuSign_Tosa_Approved_.pdf` → `industry-certifications`, `procurement-compliance`, `needs-review`, `student-services`
+- `Proposal_ Student-Run Financial Center at Townview.pdf` → `student-services`, `needs-review`, `workforce-pathways`, `procurement-compliance`
+- `SouthwestReturnCollabTripAustin (1).pdf` → `needs-review`, `financial-administration`, `events-and-conferences`, `cte-summer-program`
+- `SouthwestReturnCollabTripAustin (2).pdf` → `needs-review`, `financial-administration`, `events-and-conferences`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779987132611 - Marilyn Almonaci.pdf` → `needs-review`, `procurement-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779988804972 - Melissa Alonso.pdf` → `needs-review`, `procurement-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779988892711 - Natalia Blas.pdf` → `immunization`, `needs-review`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779989208523 - Jennifer Carpio.pdf` → `needs-review`, `procurement-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779989270536 - Emily Collins.pdf` → `needs-review`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779989419214 - Allison Garcia.pdf` → `needs-review`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779989820280 - Ariana Gomez Artica.pdf` → `needs-review`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990127878 - Alexis Guereca.pdf` → `procurement-compliance`, `immunization`, `events-and-conferences`, `cte-summer-program`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990207966 - Ana Rivera.pdf` → `needs-review`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990494836 - Paula Rocabruno Torralba.pdf` → `needs-review`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990589182 - Gabriella Nunez 1.pdf` → `needs-review`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990647956 - Gabriella Nunez 2.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990990829 - Cinthia Santoyo.pdf` → `immunization`, `needs-review`, `events-and-conferences`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991060777 - Jayde Morales.pdf` → `needs-review`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991144994 - Juve Mateos Mendoza.pdf` → `immunization`, `needs-review`, `procurement-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991243234 - Isabella Guerrero.pdf` → `needs-review`, `procurement-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991314944 - Treynahdee Washington.pdf` → `needs-review`, `procurement-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991580729 - Gabriela Gurrola.pdf` → `needs-review`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991987508 - Angie Gonzalez.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779992249416 - Melissa Lara.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779987132611 - Marilyn Almonaci.pdf` → `needs-review`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779988804972 - Melissa Alonso.pdf` → `needs-review`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779988892711 - Natalia Blas.pdf` → `needs-review`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989208523 - Jennifer Carpio.pdf` → `needs-review`, `procurement-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989270536 - Emily Collins.pdf` → `needs-review`, `procurement-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989419214 - Allison Garcia.pdf` → `financial-administration`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989820280 - Ariana Gomez Artica.pdf` → `needs-review`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990127878 - Alexis Guereca.pdf` → `needs-review`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990207966 - Ana Rivera.pdf` → `needs-review`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990494836 - Paula Rocabruno Torralba.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990589182 - Gabriella Nunez 1.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990647956 - Gabriella Nunez 2.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990990829 - Cinthia Santoyo.pdf` → `needs-review`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991060777 - Jayde Morales.pdf` → `needs-review`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991144994 - Juve Mateos Mendoza.pdf` → `procurement-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991243234 - Isabella Guerrero.pdf` → `financial-administration`, `needs-review`, `events-and-conferences`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991314944 - Treynahdee Washington.pdf` → `financial-administration`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991580729 - Gabriela Gurrola.pdf` → `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991987508 - Angie Gonzalez.pdf` → `immunization`, `needs-review`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779992249416 - Melissa Lara.pdf` → `needs-review`
+- `Student List_TAFE Nationals_D.O.B..pdf` → `needs-review`, `events-and-conferences`
+- `Student+Code+of+Conduct.pdf` → `financial-administration`, `needs-review`
+- `Summer PD Schedule 2026.pdf` → `professional-development`, `events-and-conferences`, `workforce-pathways`, `needs-review`, `procurement-compliance`
+- `TOSA Site agreement.pdf` → `industry-certifications`, `procurement-compliance`, `needs-review`
+- `Tiva Milage (1).pdf` → `needs-review`, `events-and-conferences`, `program-planning`
+- `Travel Reconcile NLSC - Badge.pdf` → `events-and-conferences`, `needs-review`
+- `Travel Reconcile NLSC - Lodging.pdf` → `needs-review`, `events-and-conferences`, `financial-administration`
+- `Vitals-Childrens-Testing Route.pdf` → `needs-review`, `events-and-conferences`, `summer-pd`, `procurement-compliance`
+- `WBL.pdf` → `needs-review`, `student-services`, `workforce-pathways`, `professional-development`, `cte-summer-program`, `events-and-conferences`
+- `cte-indicator-auto-coder.pdf` → `needs-review`, `ctso-activities`, `academic-programs`, `cte-summer-program`, `procurement-compliance`
+- `cte-wbl-training-plan-0.pdf` → `needs-review`, `student-services`, `workforce-pathways`, `events-and-conferences`, `procurement-compliance`
+- `cte-wbl-training-plan.pdf` → `needs-review`, `student-services`, `workforce-pathways`, `events-and-conferences`, `procurement-compliance`
+- `ibc-advisory-council-inventory-twc (1).pdf` → `workforce-pathways`, `academic-programs`, `needs-review`, `professional-development`, `industry-certifications`, `procurement-compliance`
+- `ibc-advisory-council-inventory-twc.pdf` → `workforce-pathways`, `academic-programs`, `needs-review`, `professional-development`, `industry-certifications`, `procurement-compliance`
+- `perkinsplanupdatefinalrevised.pdf` → `needs-review`, `events-and-conferences`, `workforce-pathways`
+- `regional-labor-market-information-wda-5.pdf` → `workforce-pathways`, `needs-review`, `academic-programs`, `procurement-compliance`
+- `scan_carmalone_2025-07-31-09-22-17.pdf` → `financial-administration`, `needs-review`, `summer-pd`, `events-and-conferences`, `professional-development`
+- `scan_carmalone_2025-07-31-11-27-56.pdf` → `financial-administration`, `needs-review`, `events-and-conferences`
+- `tiva 2/2025 Summer Certificicate (1).pdf` → `needs-review`, `summer-pd`, `professional-development`, `workforce-pathways`, `events-and-conferences`
+- `tiva 2/7-14-2025.pdf` → `financial-administration`, `needs-review`
+- `tiva 3/7-14-2025.pdf` → `financial-administration`, `needs-review`
+- `tiva 4/7-17-2025.pdf` → `financial-administration`, `needs-review`
+- `tiva/7-16-2025.pdf` → `financial-administration`, `needs-review`
+- `tiva/7-17-2025.pdf` → `financial-administration`, `needs-review`
+
+### Workforce Development & Career Pathways (331)
+
+- ` PD Summer Schedule.pdf` → `professional-development`, `summer-pd`, `events-and-conferences`, `academic-programs`, `procurement-compliance`, `industry-certifications`
+- `2024-2025-clna-guidebook.pdf` → `needs-review`, `academic-programs`, `health-compliance`
+- `2025 CTE Summer PD Feedback.pdf` → `summer-pd`, `professional-development`, `student-services`, `needs-review`, `events-and-conferences`, `health-compliance`
+- `2025 non-awarded vendor request forms/Non-Awarded Vendor Forms approved/Career Safe-approval[30].pdf` → `procurement-compliance`, `purchasing-operations`, `events-and-conferences`
+- `2025 non-awarded vendor request forms/Non-Awarded Vendor Forms approved/CareerSafe Approved.pdf` → `needs-review`, `procurement-compliance`, `events-and-conferences`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Certiport.pdf` → `procurement-compliance`, `vendor-management`, `purchasing-operations`
+- `2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `needs-review`, `professional-development`
+- `2026 Graduation Cord Rosters.pdf` → `needs-review`, `health-compliance`
+- `2026-27 DRAFT[98].pdf` → `needs-review`, `program-planning`, `cte-summer-program`
+- `25-26 CI North .pdf` → `career-exploration`, `needs-review`, `health-compliance`, `financial-administration`, `industry-certifications`, `student-services`
+- `25-26 SEC 11028Y1N2-2022 Early Childhood.pdf` → `events-and-conferences`, `needs-review`, `academic-programs`, `cte-summer-program`, `procurement-compliance`
+- `26-27 CI Copy of Bell Schedule.docx.pdf` → `events-and-conferences`, `needs-review`, `career-exploration`, `financial-administration`
+- `26-27 CLNA.pdf` → `needs-review`, `academic-programs`, `career-exploration`, `health-compliance`
+- `26-27 Campus CTE Nonposition Realignment Datasource V2 (1).pdf` → `needs-review`, `cte-summer-program`, `program-planning`
+- `26-27 Campus CTE Nonposition Realignment Datasource V4.pdf` → `needs-review`, `cte-summer-program`, `health-compliance`
+- `26-27 Campus CTE Nonposition Realignment Datasource V5 (1).pdf` → `needs-review`, `cte-summer-program`, `curriculum`
+- `26-27 Campus CTE Nonposition Realignment Datasource V5.pdf` → `needs-review`, `cte-summer-program`
+- `26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `financial-administration`, `needs-review`, `career-exploration`, `student-services`, `professional-development`, `health-compliance`
+- `3. Board Document 250357-version 2.pdf` → `needs-review`, `student-services`, `procurement-compliance`, `career-exploration`
+- `3. Board Document 250357[69].pdf` → `needs-review`, `student-services`, `cte-summer-program`, `procurement-compliance`, `career-exploration`
+- `318703661.pdf` → `needs-review`, `health-compliance`
+- `ACTE HQ Frameworks.pdf` → `academic-programs`, `needs-review`, `health-compliance`
+- `ACTE Vision 2025 Agenda.pdf` → `needs-review`, `cte-summer-program`, `events-and-conferences`
+- `ACTE Vision 2025/Admin 101/Advisory Council.pdf` → `needs-review`, `student-services`, `academic-programs`
+- `ACTE Vision 2025/Admin 101/CTE Program Coherent Sequence.pdf` → `cte-summer-program`, `needs-review`, `industry-certifications`, `academic-programs`, `program-planning`
+- `ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf` → `needs-review`, `academic-programs`, `program-planning`, `cte-summer-program`, `events-and-conferences`
+- `ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf` → `needs-review`, `academic-programs`, `student-services`, `program-planning`, `curriculum`
+- `ACTE Vision 2025/Admin 101/request.pdf` → `needs-review`, `procurement-compliance`, `academic-programs`, `health-compliance`
+- `ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `needs-review`, `academic-programs`, `health-compliance`, `procurement-compliance`
+- `ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf` → `program-planning`, `academic-programs`, `cte-summer-program`, `needs-review`
+- `ACTE Vision 2025/Admin 201/CTE Admin 102-Slide Deck.pptx.pdf` → `needs-review`, `academic-programs`, `health-compliance`
+- `ACTE Vision 2025/BFE8C233-C2D9-EA8C-9D7B-E8680DA0FD882025121209522347.pdf` → `needs-review`
+- `ACTE Vision 2025/The Art of Coaching/Do we Need a Team.pdf` → `student-services`, `needs-review`, `professional-development`
+- `ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf` → `student-services`, `needs-review`, `professional-development`, `events-and-conferences`
+- `ACTE-Membership-Application-Jeremy Spence.pdf` → `needs-review`, `professional-development`, `cte-summer-program`
+- `Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf` → `student-services`, `needs-review`, `health-compliance`, `financial-administration`, `procurement-compliance`, `professional-development`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768501134.7069674.pdf` → `purchasing-operations`, `needs-review`, `industry-certifications`, `health-compliance`, `procurement-compliance`, `cte-summer-program`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768502080.5657754.pdf` → `purchasing-operations`, `needs-review`, `industry-certifications`, `procurement-compliance`
+- `CI North Parking at TJ.pdf` → `career-exploration`, `needs-review`, `health-compliance`, `curriculum`
+- `CIN Parking.pdf` → `career-exploration`, `needs-review`, `curriculum`, `procurement-compliance`, `health-compliance`
+- `CLNA 2026-27-clna-guidebook[55].pdf` → `needs-review`, `academic-programs`, `health-compliance`, `program-planning`
+- `CLNA 26-27/2025-26 Application.pdf (SECURED).pdf` → `needs-review`, `academic-programs`, `professional-development`
+- `CLNA 26-27/2026-27-clna-guidebook.pdf` → `needs-review`, `academic-programs`, `health-compliance`
+- `CLNA 26-27/CLNA DALLAS ISD Working Doc.pdf` → `needs-review`, `procurement-compliance`, `academic-programs`, `health-compliance`, `vendor-management`
+- `CLNA 26-27/PerkinsV_CLNA_Template_ Guide.pdf` → `needs-review`, `academic-programs`, `student-services`
+- `CLNA 26-27/SC5600 Comprehensive Local Needs Assessment blank.pdf (SECURED).pdf.pdf` → `needs-review`, `procurement-compliance`, `academic-programs`
+- `CLNA 26-27/regional-labor-market-information-wda-6.pdf` → `needs-review`, `cte-summer-program`, `events-and-conferences`
+- `CLNA DALLAS ISD Working Doc.pdf` → `needs-review`, `procurement-compliance`, `academic-programs`, `vendor-management`
+- `CLNA Guiding Questions (2).pdf` → `needs-review`, `health-compliance`, `academic-programs`, `student-services`, `cte-summer-program`, `professional-development`
+- `CLNA Guiding Questions.pdf` → `needs-review`, `health-compliance`, `academic-programs`, `student-services`, `cte-summer-program`, `professional-development`
+- `CLNA Planning Tool-Example.pdf` → `program-planning`, `academic-programs`, `needs-review`, `cte-summer-program`, `health-compliance`, `events-and-conferences`
+- `CLNA_26_27 App.pdf` → `needs-review`, `procurement-compliance`, `academic-programs`
+- `CPAL_DISD_MOU_SowingSeeds (3).pdf` → `needs-review`, `health-compliance`, `student-services`
+- `CTE Admin 101-Slide Deck.pdf` → `needs-review`, `professional-development`, `academic-programs`, `events-and-conferences`, `procurement-compliance`
+- `CTE Form Mule Email Preview — CELIS _ Graphic Design I.pdf` → `needs-review`, `health-compliance`
+- `CTE Framework (1).pdf` → `needs-review`, `health-compliance`
+- `CTE Framework 2 slides.pdf` → `needs-review`, `academic-programs`, `program-planning`
+- `CTE Framework 26.pdf` → `academic-programs`, `program-planning`, `events-and-conferences`, `ctso-activities`, `financial-administration`, `needs-review`
+- `CTE Framework.pdf` → `academic-programs`, `events-and-conferences`, `program-planning`, `needs-review`, `financial-administration`, `health-compliance`
+- `CTE Lead.pdf` → `procurement-compliance`, `financial-administration`, `needs-review`, `cte-summer-program`, `professional-development`, `industry-certifications`
+- `CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf 1.zip.unpacked/CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf` → `needs-review`, `procurement-compliance`, `events-and-conferences`, `conference-travel`
+- `CTE PLC.png` → `needs-review`, `professional-development`
+- `CTE Required Certification by Program.pdf` → `procurement-compliance`, `academic-programs`, `cte-summer-program`, `industry-certifications`
+- `CTE Summer PD 2026/We are CTE.pdf` → `professional-development`, `student-services`, `needs-review`, `career-exploration`
+- `CTE Survey Dashboard — One Pager (1).pdf` → `needs-review`, `cte-summer-program`
+- `CTE Survey Dashboard — One Pager.pdf` → `needs-review`, `cte-summer-program`, `career-exploration`
+- `CTE TEAM (1).png` → `student-services`, `needs-review`, `cte-summer-program`, `health-compliance`, `academic-programs`, `conference-travel`
+- `CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf` → `summer-pd`, `cte-summer-program`, `curriculum`, `needs-review`, `professional-development`, `health-compliance`
+- `CTE- SUM26 CIN Summer Learning Site Signage Template.pdf` → `summer-pd`, `cte-summer-program`, `health-compliance`, `needs-review`, `procurement-compliance`, `events-and-conferences`
+- `CTE- SUM26 CIS Summer Learning Site Signage Template (2).pdf` → `summer-pd`, `curriculum`, `needs-review`, `professional-development`, `events-and-conferences`, `health-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (2).png` → `summer-pd`, `career-exploration`, `academic-programs`, `needs-review`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (3).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (4).png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `needs-review`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (5).png` → `summer-pd`, `career-exploration`, `needs-review`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (6).png` → `summer-pd`, `career-exploration`, `academic-programs`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (7).png` → `summer-pd`, `career-exploration`, `needs-review`, `academic-programs`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (8).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `academic-programs`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (9).png` → `summer-pd`, `career-exploration`, `needs-review`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary.png` → `summer-pd`, `career-exploration`, `needs-review`, `academic-programs`, `procurement-compliance`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (2).png` → `summer-pd`, `career-exploration`, `needs-review`, `academic-programs`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (3).png` → `summer-pd`, `career-exploration`, `needs-review`, `academic-programs`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (4).png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `needs-review`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (5).png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `needs-review`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (6).png` → `summer-pd`, `career-exploration`, `curriculum`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (7).png` → `summer-pd`, `career-exploration`, `needs-review`, `events-and-conferences`, `academic-programs`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (8).png` → `summer-pd`, `career-exploration`, `curriculum`, `needs-review`, `procurement-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary.png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `events-and-conferences`, `cte-summer-program`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (2).pdf` → `summer-pd`, `professional-development`, `events-and-conferences`, `curriculum`, `academic-programs`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (2).png` → `summer-pd`, `career-exploration`, `academic-programs`, `needs-review`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (3).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (4).png` → `summer-pd`, `curriculum`, `events-and-conferences`, `needs-review`, `career-exploration`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (5).png` → `summer-pd`, `career-exploration`, `needs-review`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (6).png` → `summer-pd`, `career-exploration`, `academic-programs`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (7).png` → `summer-pd`, `career-exploration`, `needs-review`, `academic-programs`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (8).png` → `summer-pd`, `career-exploration`, `curriculum`, `events-and-conferences`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary.png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `needs-review`, `events-and-conferences`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template.pdf` → `summer-pd`, `curriculum`, `cte-summer-program`, `professional-development`, `health-compliance`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (2).png` → `summer-pd`, `career-exploration`, `events-and-conferences`, `needs-review`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (3).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `academic-programs`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (4).png` → `summer-pd`, `curriculum`, `events-and-conferences`, `needs-review`, `career-exploration`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (5).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (6).png` → `summer-pd`, `career-exploration`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (7).png` → `summer-pd`, `career-exploration`, `cte-summer-program`, `curriculum`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (8).png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `events-and-conferences`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (9).png` → `summer-pd`, `curriculum`, `career-exploration`, `financial-administration`, `needs-review`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary.png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `procurement-compliance`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (2).png` → `summer-pd`, `career-exploration`, `events-and-conferences`, `needs-review`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (3).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (4).png` → `summer-pd`, `curriculum`, `events-and-conferences`, `needs-review`, `career-exploration`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (5).png` → `summer-pd`, `career-exploration`, `needs-review`, `curriculum`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (6).png` → `summer-pd`, `career-exploration`, `academic-programs`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (7).png` → `summer-pd`, `career-exploration`, `needs-review`, `academic-programs`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (8).png` → `summer-pd`, `career-exploration`, `curriculum`, `events-and-conferences`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary.png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `procurement-compliance`, `events-and-conferences`
+- `CTE-Standard Operating Procedures/2026-27 Dallas ISD CTE CTSO Handbook.docx` → `events-and-conferences`, `academic-programs`, `ctso-activities`, `needs-review`, `procurement-compliance`, `health-compliance`
+- `Career Exploration in IT.pdf` → `needs-review`, `academic-programs`
+- `Career Institute North - Raw Data Entries (1).pdf` → `career-exploration`, `needs-review`, `health-compliance`, `financial-administration`
+- `Career Institute North - Raw Data Entries.pdf` → `career-exploration`, `needs-review`, `health-compliance`, `financial-administration`
+- `Carlson June hourlysupplementaltimecard.pdf` → `needs-review`, `professional-development`
+- `Certiport Conference Preauthorization, Agenda, Badge, Parking Receipts, and bank statement-Palmer.pdf` → `events-and-conferences`, `conference-travel`, `financial-administration`, `needs-review`, `professional-development`
+- `ChatGPT Image Aug 7, 2026, 11_03_54 AM.png` → `needs-review`, `events-and-conferences`, `purchasing-operations`
+- `ChatGPT Image Jul 17, 2026, 09_53_55 AM.png` → `needs-review`, `professional-development`, `program-planning`
+- `CollabBadge.pdf` → `needs-review`, `health-compliance`, `cte-summer-program`
+- `Considerations for 2026–27 and Future Cohorts  CCMR Notecatcher.pdf` → `needs-review`, `program-planning`, `financial-administration`
+- `Copy of CTE PLC Agendas (1) (1).pdf` → `events-and-conferences`, `conference-travel`, `professional-development`, `student-services`, `needs-review`, `program-planning`
+- `Copy of CTE PLC Agendas (1).pdf` → `events-and-conferences`, `conference-travel`, `professional-development`, `student-services`, `needs-review`, `industry-certifications`
+- `Copy of EXPO Attendance Roster for CTE.pdf` → `events-and-conferences`, `needs-review`, `health-compliance`, `cte-summer-program`
+- `Copy of ibc-advisory-council-inventory-twc.pdf` → `academic-programs`, `needs-review`, `financial-administration`
+- `Cornerstone_Session_Signin-1_14_2026.pdf` → `events-and-conferences`, `professional-development`, `student-services`, `needs-review`, `academic-programs`
+- `Cornerstone_Session_Signin-1_5_2026 (1).pdf` → `needs-review`, `summer-pd`, `professional-development`, `student-services`
+- `Cornerstone_Session_Signin-1_5_2026 (3).pdf` → `needs-review`, `professional-development`, `student-services`, `academic-programs`, `events-and-conferences`
+- `Cornerstone_Session_Signin-1_5_2026 (4).pdf` → `student-services`, `professional-development`, `summer-pd`, `events-and-conferences`, `needs-review`
+- `Cornerstone_Session_Signin-1_5_2026.pdf` → `student-services`, `professional-development`, `needs-review`, `health-compliance`, `academic-programs`
+- `Cornerstone_Session_Signin-5_26_2026 (1).pdf` → `student-services`, `professional-development`, `events-and-conferences`, `needs-review`, `career-exploration`, `summer-pd`
+- `Cornerstone_Session_Signin-5_26_2026 (2).pdf` → `needs-review`, `professional-development`, `student-services`, `events-and-conferences`
+- `Cornerstone_Session_Signin-5_26_2026 (3).pdf` → `needs-review`, `events-and-conferences`, `professional-development`, `student-services`, `career-exploration`, `academic-programs`
+- `Cornerstone_Session_Signin-5_26_2026 (4).pdf` → `needs-review`, `events-and-conferences`, `professional-development`, `student-services`, `career-exploration`
+- `Cornerstone_Session_Signin-5_26_2026 (5).pdf` → `student-services`, `professional-development`, `events-and-conferences`, `career-exploration`, `needs-review`
+- `Cornerstone_Session_Signin-5_26_2026 (6).pdf` → `student-services`, `professional-development`, `events-and-conferences`, `career-exploration`, `needs-review`
+- `Cornerstone_Session_Signin-5_26_2026 (7).pdf` → `needs-review`, `events-and-conferences`, `professional-development`, `student-services`
+- `Cornerstone_Session_Signin-5_26_2026.pdf` → `needs-review`, `professional-development`, `student-services`, `events-and-conferences`, `career-exploration`, `summer-pd`
+- `Cornerstone_Session_Signin-5_29_2026.pdf` → `needs-review`, `events-and-conferences`, `professional-development`, `student-services`, `career-exploration`
+- `Cornerstone_Session_Signin-6_10_2026.pdf` → `needs-review`, `professional-development`, `career-exploration`, `summer-pd`, `academic-programs`, `student-services`
+- `Cornerstone_Session_Signin-6_9_2026.pdf` → `needs-review`, `events-and-conferences`, `professional-development`, `career-exploration`, `summer-pd`, `academic-programs`
+- `DIAZ_TIVA_GRANT TRAVEL FORMS _SIGNED.pdf` → `summer-pd`, `events-and-conferences`, `career-exploration`, `conference-travel`, `financial-administration`, `student-services`
+- `DISD_EMS_Student_Profile_5_26_26.pdf` → `cte-summer-program`, `health-compliance`, `needs-review`, `procurement-compliance`, `career-exploration`, `student-services`
+- `DISD_Purchasing_Analysis 208023.pdf` → `purchasing-operations`, `needs-review`, `vendor-management`, `health-compliance`
+- `Dallas ISD 2026-2027 Comprehensive Local Needs Assessment.pdf` → `needs-review`, `academic-programs`, `procurement-compliance`, `career-exploration`
+- `Dallas ISD CTE_ Work-Based Learning Continuum.pdf` → `needs-review`, `academic-programs`, `cte-summer-program`, `health-compliance`, `program-planning`, `professional-development`
+- `Dallas ISD — NAF Membership Agreement 2026-27[57].pdf` → `events-and-conferences`, `needs-review`, `program-planning`, `industry-certifications`
+- `Dallas_ISD_CLNA_2026-2027_DRAFT.pdf` → `needs-review`, `academic-programs`, `health-compliance`, `career-exploration`, `cte-summer-program`, `procurement-compliance`
+- `Dallas_ISD_CTE_Industry_Partner_Quarterly_Meeting_One_Pager.pdf` → `needs-review`, `events-and-conferences`
+- `Department Supplemental Pay Approval Memo.pdf` → `procurement-compliance`, `professional-development`, `summer-pd`, `conference-travel`, `academic-programs`
+- `Digitial Citizenship PSA[7].pdf` → `needs-review`, `academic-programs`
+- `Documents/244 Sitipend 2026/Amaning Completed-Supplemental_form.pdf (SECURED).pdf` → `financial-administration`, `procurement-compliance`, `academic-programs`, `summer-pd`, `needs-review`
+- `Documents/244 Sitipend 2026/Archie-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `academic-programs`, `summer-pd`, `conference-travel`
+- `Documents/244 Sitipend 2026/Benagh-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `student-services`, `professional-development`, `conference-travel`
+- `Documents/244 Sitipend 2026/Hamilton-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `student-services`, `industry-certifications`
+- `Documents/244 Sitipend 2026/Kalat-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `academic-programs`
+- `Documents/244 Sitipend 2026/MRodriguez-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `needs-review`, `conference-travel`, `summer-pd`, `professional-development`, `procurement-compliance`
+- `Documents/244 Sitipend 2026/Maxwell-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `academic-programs`, `summer-pd`, `professional-development`
+- `Documents/244 Sitipend 2026/Williams-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `student-services`
+- `Documents/ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf` → `student-services`, `needs-review`, `academic-programs`, `events-and-conferences`
+- `Documents/ACTE Vision 2025/Admin 101/ACTE Advisory Council Support Menu.pdf` → `needs-review`, `student-services`, `cte-summer-program`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Council.pdf` → `needs-review`, `student-services`, `academic-programs`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1 (1).pdf` → `needs-review`, `academic-programs`, `program-planning`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1.pdf` → `needs-review`, `cte-summer-program`, `program-planning`
+- `Documents/ACTE Vision 2025/Admin 101/CTE New Teacher Professional Development Plan (1).pdf` → `needs-review`, `professional-development`, `academic-programs`, `cte-summer-program`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Prof Growth Plan.pdf` → `professional-development`, `needs-review`, `industry-certifications`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Program Coherent Sequence.pdf` → `cte-summer-program`, `needs-review`, `industry-certifications`, `curriculum`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Required Certification by Program.pdf` → `procurement-compliance`, `academic-programs`, `cte-summer-program`
+- `Documents/ACTE Vision 2025/Admin 101/Directions for High School Scope  Sequence (2).pdf` → `needs-review`, `academic-programs`, `financial-administration`, `events-and-conferences`, `program-planning`
+- `Documents/ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf` → `needs-review`, `cte-summer-program`, `program-planning`, `health-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf` → `needs-review`, `academic-programs`, `student-services`, `program-planning`, `financial-administration`, `cte-summer-program`
+- `Documents/ACTE Vision 2025/Admin 101/WBL Cheat Sheet.pdf` → `needs-review`, `cte-summer-program`, `academic-programs`
+- `Documents/ACTE Vision 2025/Admin 101/WBL-why it patters.pdf` → `needs-review`, `procurement-compliance`, `academic-programs`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/request.pdf` → `needs-review`, `cte-summer-program`, `academic-programs`, `health-compliance`, `student-services`, `industry-certifications`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `needs-review`, `academic-programs`, `health-compliance`, `student-services`, `procurement-compliance`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool-Example.pdf` → `program-planning`, `academic-programs`, `needs-review`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf` → `program-planning`, `academic-programs`, `needs-review`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Data Analysis Template.pdf` → `needs-review`, `academic-programs`
+- `Documents/ACTE Vision 2025/BFE8C233-C2D9-EA8C-9D7B-E8680DA0FD882025121209522347.pdf` → `needs-review`
+- `Documents/ACTE Vision 2025/CLNA/73459750-E17B-83F6-D59C-631B116DBF582025121022091676.pdf` → `needs-review`, `academic-programs`, `program-planning`, `procurement-compliance`, `events-and-conferences`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of an Effective Team.pdf` → `student-services`, `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf` → `student-services`, `needs-review`, `events-and-conferences`, `cte-summer-program`, `professional-development`
+- `Documents/Adopted Materiall Quotes␠/Certiport Non Vendor form Approved .pdf` → `procurement-compliance`, `purchasing-operations`, `events-and-conferences`, `needs-review`, `vendor-management`
+- `Documents/Adopted Materiall Quotes␠/Code HS Approved.pdf` → `procurement-compliance`, `academic-programs`, `purchasing-operations`, `needs-review`
+- `Documents/Adopted Materiall Quotes␠/National Restraunt Association Approved Quote.pdf` → `procurement-compliance`, `needs-review`, `events-and-conferences`, `conference-travel`, `purchasing-operations`
+- `Documents/Adopted Materiall Quotes␠/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf` → `procurement-compliance`, `conference-travel`, `academic-programs`, `financial-administration`, `purchasing-operations`, `vendor-management`
+- `Documents/Adopted Materiall Quotes␠/SACA_09-08-2025 Approved.pdf` → `procurement-compliance`, `needs-review`, `industry-certifications`, `conference-travel`, `purchasing-operations`
+- `Documents/Affiliated Agreements/Automotive Service Excellence - Approved for one time purchase[5].pdf` → `needs-review`, `procurement-compliance`, `health-compliance`
+- `Documents/CTAT Summer 2025.jpeg` → `needs-review`, `events-and-conferences`
+- `Documents/CTE Proclamation 2024.pdf` → `needs-review`, `academic-programs`, `events-and-conferences`, `health-compliance`, `professional-development`
+- `Documents/CompTIA Non Awarded Vendor Request Form 7.2025.pdf` → `procurement-compliance`, `vendor-management`, `purchasing-operations`
+- `Documents/Conference Travel/CTE CTSO Sponsorship Guidelines 25-26.docx.pdf` → `events-and-conferences`, `needs-review`, `ctso-activities`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.docx.pdf` → `procurement-compliance`, `financial-administration`, `cte-summer-program`, `needs-review`, `professional-development`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.pdf` → `procurement-compliance`, `financial-administration`, `cte-summer-program`, `needs-review`, `events-and-conferences`, `health-compliance`
+- `Documents/Conference Travel/Moore Norman Agenda_MNTC_Dallas_ISD_Visit_Agenda.pdf` → `needs-review`, `events-and-conferences`
+- `Documents/Cornerstone_Session_Signin-1_5_2026 (2).pdf` → `student-services`, `professional-development`, `needs-review`, `events-and-conferences`, `academic-programs`
+- `Documents/DALLASISDGOOGLECOURSECATALOG.pdf` → `needs-review`, `academic-programs`, `career-exploration`, `cte-summer-program`, `program-planning`
+- `Documents/Estimate_3377_from_Alpha_Education_Group[48].pdf` → `purchasing-operations`, `cte-summer-program`, `academic-programs`, `events-and-conferences`, `conference-travel`, `professional-development`
+- `Documents/JeremySpenceCoverLetter AA.pdf` → `needs-review`, `academic-programs`, `cte-summer-program`
+- `Documents/Mackenna Birth Cert.jpeg` → `student-services`, `health-compliance`, `needs-review`, `industry-certifications`, `immunization`
+- `Documents/New Stipend Request Form[29].pdf` → `financial-administration`, `needs-review`
+- `Documents/New Stipend Request Form[81].pdf` → `financial-administration`, `procurement-compliance`
+- `Documents/Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `needs-review`, `health-compliance`, `procurement-compliance`, `academic-programs`, `financial-administration`
+- `Documents/Proclamation 2024_Preliminary Findings of the State Review Panel.pdf` → `needs-review`, `academic-programs`, `health-compliance`, `professional-development`, `events-and-conferences`
+- `Documents/Showcase Promo 2026[5].pdf` → `events-and-conferences`, `needs-review`, `student-services`, `health-compliance`
+- `Documents/TEKS/130.-subchapter-d-business-management-and-administration.pdf` → `needs-review`, `academic-programs`
+- `Documents/Welding -Alpha Group.pdf` → `needs-review`, `events-and-conferences`, `purchasing-operations`, `industry-certifications`
+- `Documents/scan_jspence_2025-09-04-09-15-15.pdf` → `procurement-compliance`, `academic-programs`, `health-compliance`, `purchasing-operations`, `needs-review`
+- `EMT：EMR/26-27 CI Copy of Bell Schedule.docx.pdf` → `events-and-conferences`, `needs-review`, `career-exploration`
+- `EMT：EMR/26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `needs-review`, `career-exploration`, `financial-administration`, `health-compliance`, `professional-development`, `procurement-compliance`
+- `Early Childhood Education.pdf` → `events-and-conferences`, `cte-summer-program`, `academic-programs`, `needs-review`, `professional-development`, `summer-pd`
+- `Ed Rising Conference Itinerary (1).pdf` → `events-and-conferences`, `summer-pd`, `needs-review`, `health-compliance`, `academic-programs`, `student-services`
+- `Elementary.pdf` → `summer-pd`, `needs-review`, `curriculum`, `academic-programs`
+- `Employability_Skills_Framework_OnePager_20180212.pdf` → `student-services`, `needs-review`
+- `Estimate_3377_from_Alpha_Education_Group[48].pdf` → `purchasing-operations`, `events-and-conferences`, `academic-programs`, `conference-travel`, `health-compliance`
+- `IMG_0900.jpg` → `needs-review`, `professional-development`, `events-and-conferences`, `industry-certifications`
+- `Image_20250918_151210_340.jpeg` → `needs-review`, `health-compliance`
+- `Intership Students.png` → `health-compliance`, `needs-review`, `cte-summer-program`
+- `J. Spann.pdf` → `events-and-conferences`, `financial-administration`, `needs-review`, `student-services`, `procurement-compliance`, `professional-development`
+- `Jeremy Spence Cover Letter NAF 2026 (1).pdf` → `needs-review`, `professional-development`, `events-and-conferences`, `cte-summer-program`, `curriculum`
+- `JeremySpenceresume 04.2026.pdf` → `needs-review`, `cte-summer-program`, `professional-development`, `events-and-conferences`
+- `JeremySpenceresume 06.2024.docx.pdf` → `needs-review`, `professional-development`, `academic-programs`, `events-and-conferences`
+- `K. Jennings SkillsUsa Nationals 2025 - signed (1).pdf` → `needs-review`, `student-services`, `health-compliance`
+- `KGeorge 25-26 Woodrow CTE Business PLC Minutes.pdf` → `needs-review`, `program-planning`, `academic-programs`, `events-and-conferences`, `conference-travel`
+- `KGeorgeCTELeadTeacherStipendAgreement11.13.25 (1).pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `professional-development`, `program-planning`, `cte-summer-program`
+- `KGeorgeCTELeadTeacherStipendAgreement11.13.25.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `professional-development`, `cte-summer-program`
+- `KGeorgeEduthingsIBCCertUploads4.15.26.pdf` → `needs-review`, `industry-certifications`, `student-services`
+- `KGeorgeIBCTrainingSignIn3.25.26.pdf` → `needs-review`, `professional-development`, `financial-administration`, `events-and-conferences`, `cte-summer-program`
+- `KGeorgeTrainingIBCs3.25.26.pdf` → `needs-review`, `academic-programs`, `student-services`, `conference-travel`
+- `Lead Teacher/CTE Lead Teacher Agreement.pdf` → `student-services`, `financial-administration`, `procurement-compliance`, `cte-summer-program`, `needs-review`, `professional-development`
+- `Lead Teacher/CTE Lead Teacher.pdf` → `procurement-compliance`, `financial-administration`, `cte-summer-program`, `needs-review`, `professional-development`
+- `Lead Teacher/original-4128F740-F01F-467F-97DF-B744898FC450.jpeg` → `financial-administration`, `procurement-compliance`, `events-and-conferences`, `needs-review`, `industry-certifications`, `health-compliance`
+- `Lesson Plan - Digitial Citizenship Part I.pdf` → `needs-review`
+- `Lincoln Culinaryjpg.jpeg` → `needs-review`, `cte-summer-program`, `events-and-conferences`
+- `Lockley NAF Internship Expo Attendance and Updates 2026.pdf` → `events-and-conferences`, `needs-review`
+- `M. Johnson June hourlysupplementaltimecard.pdf` → `needs-review`, `professional-development`, `health-compliance`
+- `Mackenna Birth Cert (3).jpeg` → `student-services`, `health-compliance`, `needs-review`, `industry-certifications`, `immunization`
+- `NAF Cover Letter.pdf` → `events-and-conferences`, `professional-development`, `needs-review`, `cte-summer-program`
+- `NAF Employment Application (1).pdf` → `needs-review`, `events-and-conferences`
+- `NAF Employment Application.pdf` → `needs-review`, `events-and-conferences`, `procurement-compliance`, `professional-development`
+- `NAF Next 2026.pdf` → `events-and-conferences`, `needs-review`, `program-planning`, `professional-development`, `purchasing-operations`, `financial-administration`
+- `NAF Next Meeting (1).pdf` → `events-and-conferences`, `program-planning`, `needs-review`
+- `NAF Next Meeting.pdf` → `events-and-conferences`, `needs-review`, `professional-development`
+- `NAF Paperwork/Board Document 250357[69].pdf` → `events-and-conferences`, `procurement-compliance`, `cte-summer-program`, `needs-review`, `career-exploration`, `student-services`
+- `Non Awarded Vendor Quotes/Certiport Non Vendor form Approved .pdf` → `procurement-compliance`, `purchasing-operations`
+- `Non Awarded Vendor Quotes/Code HS Approved.pdf` → `procurement-compliance`, `needs-review`
+- `Non Awarded Vendor Quotes/National Restraunt Association Approved Quote.pdf` → `procurement-compliance`, `needs-review`, `events-and-conferences`, `purchasing-operations`, `conference-travel`
+- `Non Awarded Vendor Quotes/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf` → `procurement-compliance`, `purchasing-operations`, `academic-programs`, `needs-review`, `financial-administration`
+- `Non Awarded Vendor Quotes/Pearson Non Awarded Approved.pdf` → `procurement-compliance`, `academic-programs`, `needs-review`, `financial-administration`, `vendor-management`, `conference-travel`
+- `Non Awarded Vendor Quotes/SACA_09-08-2025 Approved.pdf` → `procurement-compliance`, `industry-certifications`, `purchasing-operations`, `conference-travel`, `needs-review`, `student-services`
+- `Non- Awarded 1.pdf` → `procurement-compliance`, `purchasing-operations`, `needs-review`, `academic-programs`
+- `Non-Awarded Vendor Forms approved 2/NCCER_Approved 09-12-2025.pdf` → `procurement-compliance`, `academic-programs`, `conference-travel`, `purchasing-operations`, `needs-review`
+- `Non-Awarded Vendor Forms approved 3/NCCER_Approved 09-12-2025.pdf` → `procurement-compliance`, `purchasing-operations`, `needs-review`
+- `Non-Awarded Vendor Forms approved/CLNA␠/2026-27-clna-guidebook.pdf` → `needs-review`, `procurement-compliance`, `academic-programs`, `health-compliance`, `program-planning`
+- `Non-Awarded Vendor Forms approved/CLNA␠/SC5600 Comprehensive Local Needs Assessment blank.pdf (SECURED).pdf` → `needs-review`, `procurement-compliance`, `academic-programs`
+- `Non-Awarded Vendor Forms approved/Career Safe-approval[30].pdf` → `procurement-compliance`, `needs-review`, `purchasing-operations`
+- `Non-Awarded Vendor Forms approved/CareerSafe Approved.pdf` → `procurement-compliance`, `needs-review`
+- `Non-Awarded Vendor Forms approved/CompTia Non-Awarded Vendor Form.pdf` → `procurement-compliance`, `purchasing-operations`, `needs-review`, `health-compliance`
+- `Non-Awarded Vendor Forms approved/CompTia.pdf` → `procurement-compliance`, `conference-travel`, `needs-review`, `purchasing-operations`, `financial-administration`
+- `Non-Awarded Vendor Requests Log (1).pdf` → `procurement-compliance`, `purchasing-operations`, `needs-review`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Admin 101_CTE Terms Glossary.docx` → `needs-review`, `cte-summer-program`, `health-compliance`, `student-services`, `industry-certifications`, `academic-programs`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Advisory Council Resources/Advisory Council Support Menu.docx` → `needs-review`, `student-services`, `cte-summer-program`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Advisory Council Resources/Advisory Councils from Year 1.docx` → `needs-review`, `academic-programs`, `program-planning`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Advisory Council Resources/WBL Cheat Sheet.docx` → `needs-review`, `academic-programs`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/CTE Admin 101-Slide Deck.pptx` → `needs-review`, `health-compliance`, `professional-development`, `procurement-compliance`, `program-planning`, `academic-programs`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Program Management/ACTE HQ Frameworks.pdf` → `academic-programs`, `needs-review`, `health-compliance`, `cte-summer-program`, `student-services`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE New Teacher Professional Development Plan.pdf` → `needs-review`, `professional-development`, `program-planning`, `events-and-conferences`, `procurement-compliance`, `summer-pd`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Prof Growth Plan.pdf` → `professional-development`, `needs-review`, `program-planning`, `events-and-conferences`, `cte-summer-program`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Required Certification by Program.xlsx` → `procurement-compliance`, `academic-programs`, `cte-summer-program`, `needs-review`, `health-compliance`, `events-and-conferences`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/ACTE Advisory Council Support Menu.pdf` → `needs-review`, `student-services`, `cte-summer-program`, `financial-administration`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/Advisory Councils from Year 1.pdf` → `needs-review`, `program-planning`, `cte-summer-program`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/What is and what isn't work-based learning.pdf` → `needs-review`, `cte-summer-program`
+- `OneDrive_2_12-9-2025.zip.unpacked/12 Effective Tier 1 Instructional Strategies.docx` → `student-services`, `needs-review`, `academic-programs`, `events-and-conferences`, `summer-pd`
+- `OneDrive_2_12-9-2025.zip.unpacked/Directions for High School Scope  Sequence.pdf` → `needs-review`, `academic-programs`, `financial-administration`, `events-and-conferences`, `industry-certifications`, `program-planning`
+- `OneDrive_2_12-9-2025.zip.unpacked/Employability_Skills_Framework_OnePager_20180212.pdf` → `student-services`, `needs-review`, `financial-administration`
+- `OneDrive_2_12-9-2025.zip.unpacked/Program Coherent Sequence.docx` → `cte-summer-program`, `needs-review`, `financial-administration`, `industry-certifications`, `professional-development`, `procurement-compliance`
+- `OneDrive_2_12-9-2025.zip.unpacked/Sample CW Day.pdf` → `needs-review`, `cte-summer-program`, `program-planning`, `vendor-management`, `professional-development`
+- `OneDrive_2_12-9-2025.zip.unpacked/Scope and Sequence Template.xlsx` → `needs-review`, `academic-programs`, `student-services`, `financial-administration`, `events-and-conferences`, `summer-pd`
+- `Oswaldo_IBC_Completer_Report_2024.pdf` → `industry-certifications`
+- `PD Creation Department Supplemental Pay Approval Memo .pdf` → `procurement-compliance`, `professional-development`, `summer-pd`, `conference-travel`, `academic-programs`
+- `Penny King  Recruitment Brochure.pdf` → `needs-review`, `health-compliance`, `cte-summer-program`, `industry-certifications`
+- `Penny King November 2025 PLC GES Meeting.pdf` → `needs-review`, `career-exploration`, `program-planning`
+- `Penny King October 2025 PLC GES Meeting.pdf` → `needs-review`, `financial-administration`, `career-exploration`, `professional-development`
+- `Perkins Travel/2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `needs-review`, `events-and-conferences`
+- `Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `needs-review`, `student-services`, `health-compliance`, `cte-summer-program`, `academic-programs`, `procurement-compliance`
+- `Please_complete_with_DocuSign_Tosa_Approved_.pdf` → `health-compliance`, `industry-certifications`, `procurement-compliance`, `needs-review`, `student-services`
+- `Proclamation 2024_Preliminary Findings of the State Review Panel.pdf` → `needs-review`, `academic-programs`, `cte-summer-program`
+- `Program Coherent Sequence.pdf` → `cte-summer-program`, `needs-review`, `industry-certifications`, `financial-administration`
+- `Proposal_ Student-Run Financial Center at Townview.pdf` → `student-services`, `health-compliance`, `needs-review`, `procurement-compliance`
+- `QR Sheet 2a_Stakeholder Involvement by Program-1.pdf` → `needs-review`, `cte-summer-program`, `procurement-compliance`
+- `Sample AI Prompt for Intervention Planning.pdf` → `academic-programs`, `needs-review`, `program-planning`
+- `Sample CTE Equipment Request Form.pdf` → `procurement-compliance`, `needs-review`, `cte-summer-program`, `purchasing-operations`
+- `Sample CW Day.pdf` → `cte-summer-program`, `needs-review`, `vendor-management`, `program-planning`, `professional-development`, `procurement-compliance`
+- `Sanso 25-26 CTE Lead Teacher Stipend Agreement.pdf` → `financial-administration`, `cte-summer-program`, `needs-review`
+- `Scope and Sequence Template.pdf` → `needs-review`, `academic-programs`, `student-services`, `program-planning`, `events-and-conferences`
+- `Spence-NAF Employment Application (1).pdf` → `needs-review`, `events-and-conferences`, `procurement-compliance`
+- `Standard Operting Procedures-Perkins.pdf` → `needs-review`, `student-services`, `procurement-compliance`, `professional-development`, `program-planning`, `purchasing-operations`
+- `Summer PD Schedule 2026.pdf` → `professional-development`, `events-and-conferences`, `needs-review`, `procurement-compliance`, `health-compliance`
+- `TOSA Site agreement.pdf` → `health-compliance`, `industry-certifications`, `procurement-compliance`, `needs-review`
+- `Trustee_CTE_Pathway_Tracker 25-26.pdf` → `needs-review`, `financial-administration`, `academic-programs`
+- `Untitled presentation.pdf` → `needs-review`, `summer-pd`, `events-and-conferences`, `student-services`
+- `Virtual-Background copy.jpg` → `needs-review`, `procurement-compliance`, `cte-summer-program`
+- `Virtual-Background2.jpg` → `needs-review`, `procurement-compliance`
+- `WBL.pdf` → `needs-review`, `student-services`, `health-compliance`, `professional-development`, `cte-summer-program`, `events-and-conferences`
+- `Workshop Title： ＂The First 10： Maximizing Every Minute for Career Success＂.pdf` → `needs-review`, `professional-development`, `events-and-conferences`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (1).pdf` → `needs-review`, `academic-programs`, `procurement-compliance`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (2).pdf` → `procurement-compliance`, `needs-review`, `cte-summer-program`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (3).pdf` → `procurement-compliance`, `needs-review`, `academic-programs`, `program-planning`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030-3.pdf` → `academic-programs`, `procurement-compliance`, `needs-review`, `cte-summer-program`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030.pdf` → `procurement-compliance`, `needs-review`, `academic-programs`, `industry-certifications`
+- `cte-wbl-training-plan-0.pdf` → `needs-review`, `student-services`, `health-compliance`, `events-and-conferences`, `procurement-compliance`
+- `cte-wbl-training-plan.pdf` → `needs-review`, `student-services`, `health-compliance`, `events-and-conferences`, `procurement-compliance`
+- `ibc-advisory-council-inventory-twc (1).pdf` → `academic-programs`, `needs-review`, `professional-development`, `industry-certifications`, `procurement-compliance`, `health-compliance`
+- `ibc-advisory-council-inventory-twc.pdf` → `academic-programs`, `needs-review`, `professional-development`, `industry-certifications`, `procurement-compliance`, `health-compliance`
+- `industry-based-certifications-earned-sy2022-23.pdf` → `needs-review`
+- `invite (1).ics` → `needs-review`, `student-services`, `events-and-conferences`
+- `p2024-list-of-materials-adopted-by-sboe.pdf` → `needs-review`, `academic-programs`, `events-and-conferences`, `procurement-compliance`
+- `perkinsplanupdatefinalrevised.pdf` → `needs-review`, `events-and-conferences`, `health-compliance`
+- `preliminary-2025-2030-ibc-to-program-of-study-crosswalk (6).pdf` → `cte-summer-program`, `procurement-compliance`, `needs-review`, `industry-certifications`
+- `preliminary-2025-2030-ibc-to-program-of-study-crosswalk.pdf` → `cte-summer-program`, `procurement-compliance`, `needs-review`, `industry-certifications`, `program-planning`
+- `regional-labor-market-information-wda-5.pdf` → `needs-review`, `health-compliance`, `academic-programs`, `procurement-compliance`
+- `regional-labor-market-information-wda-6.pdf` → `needs-review`, `events-and-conferences`, `cte-summer-program`
+- `tiva 2/2025 Summer Certificicate (1).pdf` → `needs-review`, `summer-pd`, `professional-development`, `health-compliance`, `events-and-conferences`
+- `tiva 3/2025 Summer Certificicate (1).pdf` → `professional-development`, `industry-certifications`, `summer-pd`, `needs-review`
+- `tiva 4/2025 Summer Certificicate (1).pdf` → `professional-development`, `needs-review`, `summer-pd`, `industry-certifications`, `student-services`
+- `tiva.zip.unpacked/2025 Summer Certificicate (1).pdf` → `summer-pd`, `professional-development`, `industry-certifications`, `needs-review`
+- `tiva/2025 Summer Certificicate (1).pdf` → `professional-development`, `student-services`, `needs-review`, `summer-pd`, `industry-certifications`
+- `wallpaperB.jpg` → `needs-review`, `procurement-compliance`
+
+### events-and-conferences (322)
+
+- ` PD Summer Schedule.pdf` → `professional-development`, `summer-pd`, `academic-programs`, `procurement-compliance`, `industry-certifications`, `needs-review`
+- `12-21-BASC 3 Teacher.pdf` → `needs-review`, `academic-programs`, `health-compliance`, `professional-development`
+- `2018_TaxReturn (1).pdf` → `financial-administration`, `needs-review`
+- `2023_TaxReturn (1).pdf` → `financial-administration`, `needs-review`
+- `2023_TaxReturn (2).pdf` → `financial-administration`, `needs-review`
+- `2025 CTE Summer PD Feedback.pdf` → `summer-pd`, `professional-development`, `workforce-pathways`, `student-services`, `needs-review`, `health-compliance`
+- `2025 non-awarded vendor request forms/Non-Awarded Vendor Forms approved/Career Safe-approval[30].pdf` → `procurement-compliance`, `workforce-pathways`, `purchasing-operations`
+- `2025 non-awarded vendor request forms/Non-Awarded Vendor Forms approved/CareerSafe Approved.pdf` → `needs-review`, `procurement-compliance`, `workforce-pathways`
+- `25-26 SEC 11028Y1N2-2022 Early Childhood (1).pdf` → `needs-review`, `academic-programs`, `cte-summer-program`
+- `25-26 SEC 11028Y1N2-2022 Early Childhood.pdf` → `needs-review`, `academic-programs`, `cte-summer-program`, `workforce-pathways`, `procurement-compliance`
+- `26-27 CI Copy of Bell Schedule.docx.pdf` → `needs-review`, `career-exploration`, `financial-administration`
+- `A Goodson Travel form - signed.pdf` → `health-compliance`, `needs-review`
+- `ACTE Vision 2025 Agenda.pdf` → `needs-review`, `cte-summer-program`, `workforce-pathways`
+- `ACTE Vision 2025/65754B6A-EF78-CE75-65F6-D456EA8547462025121015425945.pdf` → `student-services`, `needs-review`, `procurement-compliance`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf` → `needs-review`, `academic-programs`, `cte-summer-program`, `financial-administration`, `student-services`, `professional-development`
+- `ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf` → `student-services`, `needs-review`, `summer-pd`, `academic-programs`
+- `ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf` → `needs-review`, `workforce-pathways`, `academic-programs`, `program-planning`, `cte-summer-program`
+- `ACTE Vision 2025/Admin 201/Improving_CTE_Performance_Measurement_Data_Collection_09-11-2024.pdf` → `needs-review`, `health-compliance`, `conference-travel`
+- `ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf` → `needs-review`, `student-services`, `professional-development`
+- `ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf` → `student-services`, `needs-review`, `workforce-pathways`, `professional-development`
+- `Alpha Education Group_Non-AwardedVendorRequestForm - signed.pdf (SECURED).pdf` → `procurement-compliance`, `vendor-management`, `cte-summer-program`, `purchasing-operations`, `needs-review`
+- `August 6th PD.pdf` → `needs-review`, `ctso-activities`, `cte-summer-program`
+- `BAUTISTA_TIVA GRANT TRAVEL DOCS.pdf` → `conference-travel`, `health-compliance`, `needs-review`, `procurement-compliance`
+- `C.Seay- 2025 Certified Educator Conference - signed.pdf` → `health-compliance`, `student-services`
+- `CLNA 26-27/regional-labor-market-information-wda-6.pdf` → `workforce-pathways`, `needs-review`, `cte-summer-program`
+- `CLNA Planning Tool-Example.pdf` → `program-planning`, `academic-programs`, `needs-review`, `workforce-pathways`, `cte-summer-program`, `health-compliance`
+- `COZART_TIVA GRANT TRAVEL DOCS - signed (1).pdf` → `conference-travel`, `health-compliance`, `student-services`, `needs-review`, `procurement-compliance`
+- `CTAT Summer 26_Agenda_062926.pdf` → `summer-pd`, `cte-summer-program`, `needs-review`, `student-services`
+- `CTE Admin 101-Slide Deck.pdf` → `needs-review`, `professional-development`, `academic-programs`, `workforce-pathways`, `procurement-compliance`
+- `CTE CTSO Sponsorship Guidelines 25-26.pdf` → `ctso-activities`
+- `CTE Framework 26.pdf` → `academic-programs`, `workforce-pathways`, `program-planning`, `ctso-activities`, `financial-administration`, `needs-review`
+- `CTE Framework.pdf` → `academic-programs`, `workforce-pathways`, `program-planning`, `needs-review`, `financial-administration`, `health-compliance`
+- `CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf` → `procurement-compliance`, `conference-travel`, `needs-review`
+- `CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf 1.zip.unpacked/CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf` → `needs-review`, `procurement-compliance`, `workforce-pathways`, `conference-travel`
+- `CTE PD 6.1.26.pdf` → `needs-review`, `professional-development`, `summer-pd`, `student-services`
+- `CTE PLC October 29, 2024 (Responses).pdf` → `needs-review`, `cte-summer-program`, `procurement-compliance`
+- `CTE TEAM (1).png` → `student-services`, `needs-review`, `cte-summer-program`, `workforce-pathways`, `health-compliance`, `academic-programs`
+- `CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf` → `summer-pd`, `cte-summer-program`, `curriculum`, `needs-review`, `professional-development`, `health-compliance`
+- `CTE- SUM26 CIN Summer Learning Site Signage Template.pdf` → `summer-pd`, `cte-summer-program`, `health-compliance`, `needs-review`, `procurement-compliance`, `workforce-pathways`
+- `CTE- SUM26 CIS Summer Learning Site Signage Template (2).pdf` → `summer-pd`, `curriculum`, `needs-review`, `professional-development`, `workforce-pathways`, `health-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (2).png` → `summer-pd`, `career-exploration`, `academic-programs`, `needs-review`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (4).png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `needs-review`, `workforce-pathways`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (6).png` → `summer-pd`, `career-exploration`, `academic-programs`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (7).png` → `summer-pd`, `career-exploration`, `needs-review`, `academic-programs`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (8).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `academic-programs`, `health-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (9).png` → `summer-pd`, `career-exploration`, `needs-review`, `curriculum`, `workforce-pathways`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary.png` → `summer-pd`, `career-exploration`, `needs-review`, `academic-programs`, `procurement-compliance`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1).pdf` → `summer-pd`, `cte-summer-program`, `curriculum`, `needs-review`, `health-compliance`, `procurement-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (2).png` → `summer-pd`, `career-exploration`, `needs-review`, `academic-programs`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (4).png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (6).png` → `summer-pd`, `career-exploration`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (7).png` → `summer-pd`, `career-exploration`, `needs-review`, `academic-programs`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (9).png` → `summer-pd`, `financial-administration`, `procurement-compliance`, `needs-review`, `curriculum`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary.png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `cte-summer-program`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (2).pdf` → `summer-pd`, `professional-development`, `curriculum`, `academic-programs`, `workforce-pathways`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (2).png` → `summer-pd`, `career-exploration`, `academic-programs`, `needs-review`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (4).png` → `summer-pd`, `curriculum`, `workforce-pathways`, `needs-review`, `career-exploration`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (6).png` → `summer-pd`, `career-exploration`, `academic-programs`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (7).png` → `summer-pd`, `career-exploration`, `needs-review`, `academic-programs`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (8).png` → `summer-pd`, `career-exploration`, `curriculum`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (9).png` → `summer-pd`, `cte-summer-program`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary.png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `needs-review`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template.pdf` → `summer-pd`, `curriculum`, `cte-summer-program`, `professional-development`, `health-compliance`, `procurement-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (2).png` → `summer-pd`, `career-exploration`, `needs-review`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (4).png` → `summer-pd`, `curriculum`, `needs-review`, `career-exploration`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (6).png` → `summer-pd`, `career-exploration`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (8).png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (9).png` → `summer-pd`, `curriculum`, `career-exploration`, `financial-administration`, `needs-review`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary.png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `procurement-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (2).png` → `summer-pd`, `career-exploration`, `needs-review`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (4).png` → `summer-pd`, `curriculum`, `needs-review`, `career-exploration`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (6).png` → `summer-pd`, `career-exploration`, `academic-programs`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (7).png` → `summer-pd`, `career-exploration`, `needs-review`, `academic-programs`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (8).png` → `summer-pd`, `career-exploration`, `curriculum`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (9).png` → `summer-pd`, `financial-administration`, `procurement-compliance`, `needs-review`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary.png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `procurement-compliance`
+- `CTE-Standard Operating Procedures/2026-27 Dallas ISD CTE CTSO Handbook.docx` → `academic-programs`, `ctso-activities`, `needs-review`, `procurement-compliance`, `health-compliance`, `financial-administration`
+- `CTE-Standard Operating Procedures/CTE Vehicles.pdf` → `needs-review`, `procurement-compliance`
+- `CTE-Standard Operating Procedures/Standard Operting Procedures-Perkins.pdf` → `needs-review`, `procurement-compliance`, `purchasing-operations`, `professional-development`, `financial-administration`, `conference-travel`
+- `CTE_Meeting_Agenda_Updated (1).pdf` → `summer-pd`, `needs-review`, `professional-development`, `student-services`
+- `CTE_Meeting_Agenda_Updated.pdf` → `summer-pd`, `needs-review`, `student-services`, `professional-development`
+- `CTSO Lead/CTSO Agreement.pdf` → `ctso-activities`
+- `CTSO Lead/CTSO Form Signed.pdf` → `needs-review`
+- `CTX_Berkner HS_ED02 (2).pdf` → `needs-review`, `purchasing-operations`
+- `Certiport Conference Preauthorization, Agenda, Badge, Parking Receipts, and bank statement-Palmer.pdf` → `workforce-pathways`, `conference-travel`, `financial-administration`, `needs-review`, `professional-development`
+- `ChatGPT Image Aug 7, 2026, 11_03_54 AM.png` → `needs-review`, `workforce-pathways`, `purchasing-operations`
+- `Classroom Photo.jpg` → `needs-review`
+- `ContactList_ProcurementServices_21_2.pdf` → `procurement-compliance`, `needs-review`
+- `Copy of CTE PLC Agendas (1) (1).pdf` → `conference-travel`, `professional-development`, `workforce-pathways`, `student-services`, `needs-review`, `program-planning`
+- `Copy of CTE PLC Agendas (1).pdf` → `conference-travel`, `professional-development`, `workforce-pathways`, `student-services`, `needs-review`, `industry-certifications`
+- `Copy of EXPO Attendance Roster for CTE.pdf` → `needs-review`, `workforce-pathways`, `health-compliance`, `cte-summer-program`
+- `Cornerstone_Session_Roster_Report_7_20_12 AM.pdf` → `needs-review`, `student-services`, `professional-development`
+- `Cornerstone_Session_Signin-10_12_2025 (1).pdf` → `needs-review`, `professional-development`, `student-services`, `academic-programs`
+- `Cornerstone_Session_Signin-10_12_2025.pdf` → `needs-review`, `professional-development`, `student-services`, `academic-programs`
+- `Cornerstone_Session_Signin-1_14_2026.pdf` → `workforce-pathways`, `professional-development`, `student-services`, `needs-review`, `academic-programs`
+- `Cornerstone_Session_Signin-1_5_2026 (3).pdf` → `needs-review`, `professional-development`, `workforce-pathways`, `student-services`, `academic-programs`
+- `Cornerstone_Session_Signin-1_5_2026 (4).pdf` → `student-services`, `professional-development`, `summer-pd`, `needs-review`, `workforce-pathways`
+- `Cornerstone_Session_Signin-5_26_2026 (1).pdf` → `student-services`, `professional-development`, `workforce-pathways`, `needs-review`, `career-exploration`, `summer-pd`
+- `Cornerstone_Session_Signin-5_26_2026 (2).pdf` → `needs-review`, `professional-development`, `workforce-pathways`, `student-services`
+- `Cornerstone_Session_Signin-5_26_2026 (3).pdf` → `needs-review`, `workforce-pathways`, `professional-development`, `student-services`, `career-exploration`, `academic-programs`
+- `Cornerstone_Session_Signin-5_26_2026 (4).pdf` → `needs-review`, `professional-development`, `workforce-pathways`, `student-services`, `career-exploration`
+- `Cornerstone_Session_Signin-5_26_2026 (5).pdf` → `student-services`, `professional-development`, `workforce-pathways`, `career-exploration`, `needs-review`
+- `Cornerstone_Session_Signin-5_26_2026 (6).pdf` → `student-services`, `professional-development`, `workforce-pathways`, `career-exploration`, `needs-review`
+- `Cornerstone_Session_Signin-5_26_2026 (7).pdf` → `needs-review`, `workforce-pathways`, `professional-development`, `student-services`
+- `Cornerstone_Session_Signin-5_26_2026.pdf` → `needs-review`, `professional-development`, `workforce-pathways`, `student-services`, `career-exploration`, `summer-pd`
+- `Cornerstone_Session_Signin-5_29_2026.pdf` → `needs-review`, `professional-development`, `workforce-pathways`, `student-services`, `career-exploration`
+- `Cornerstone_Session_Signin-6_10_2026.pdf` → `needs-review`, `professional-development`, `career-exploration`, `summer-pd`, `academic-programs`, `student-services`
+- `Cornerstone_Session_Signin-6_9_2026.pdf` → `needs-review`, `professional-development`, `career-exploration`, `summer-pd`, `academic-programs`, `student-services`
+- `Coyle June hourlysupplementaltimecard.pdf` → `needs-review`, `professional-development`
+- `D. Enderle Travel Form ATAT - signed.pdf` → `needs-review`, `health-compliance`
+- `D. Johnson complete naf documents .pdf` → `financial-administration`, `conference-travel`, `needs-review`, `procurement-compliance`, `student-services`, `professional-development`
+- `DIAZ_TIVA_GRANT TRAVEL FORMS _SIGNED.pdf` → `summer-pd`, `career-exploration`, `conference-travel`, `financial-administration`, `student-services`, `professional-development`
+- `DSC_6946-Enhanced-NR.jpg` → `cte-summer-program`, `health-compliance`, `needs-review`, `procurement-compliance`, `financial-administration`
+- `Dallas ISD — NAF Membership Agreement 2026-27[57].pdf` → `needs-review`, `program-planning`, `industry-certifications`, `workforce-pathways`
+- `DallasISDTravel - ACTE Best Practices - JS.pdf` → `procurement-compliance`, `health-compliance`, `program-planning`, `needs-review`
+- `Dallas_ISD_CTE_Industry_Partner_Quarterly_Meeting_One_Pager.pdf` → `workforce-pathways`, `needs-review`
+- `Dee July hourlysupplementaltimecard.pdf` → `needs-review`, `professional-development`, `conference-travel`, `curriculum`
+- `Department Supplemental Pay Approval Memo.pdf` → `procurement-compliance`, `professional-development`, `summer-pd`, `workforce-pathways`, `conference-travel`, `academic-programs`
+- `Digitial Citizenship PSA.pdf` → `needs-review`, `academic-programs`
+- `Documents/12-month weightlifitng Plan.pdf` → `needs-review`, `cte-summer-program`, `procurement-compliance`
+- `Documents/2024-25 Bell Schedule_CI South.docx.pdf` → `needs-review`, `financial-administration`
+- `Documents/2025-2026 CTE Oracle iExpense Travel Training.pdf` → `needs-review`, `professional-development`, `procurement-compliance`, `health-compliance`
+- `Documents/244 Sitipend 2026/Amaning-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `academic-programs`, `conference-travel`, `summer-pd`
+- `Documents/244 Sitipend 2026/Archie-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `academic-programs`, `summer-pd`, `conference-travel`
+- `Documents/244 Sitipend 2026/Benagh-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `student-services`, `professional-development`, `conference-travel`
+- `Documents/244 Sitipend 2026/Coyle-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `academic-programs`, `professional-development`, `conference-travel`
+- `Documents/244 Sitipend 2026/Jones-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `academic-programs`, `summer-pd`, `conference-travel`
+- `Documents/244 Sitipend 2026/MRodriguez-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `needs-review`, `workforce-pathways`, `conference-travel`, `summer-pd`, `professional-development`
+- `Documents/244 Sitipend 2026/Maxwell-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `academic-programs`, `workforce-pathways`, `summer-pd`
+- `Documents/244 Sitipend 2026/SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `needs-review`, `professional-development`, `conference-travel`, `procurement-compliance`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.2.pdf` → `financial-administration`, `needs-review`, `curriculum`
+- `Documents/26-27 TraditionalCalendar-Traditional2026-2027.pdf` → `financial-administration`, `needs-review`, `professional-development`, `health-compliance`, `summer-pd`
+- `Documents/ACTE Nashville AA.pdf` → `needs-review`, `financial-administration`
+- `Documents/ACTE Vision 2025/65734697-0BED-B7C1-727E-DB1AA7193B0820251210154246197.pdf` → `student-services`, `needs-review`, `conference-travel`, `health-compliance`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf` → `student-services`, `needs-review`, `academic-programs`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Mentor Sample Program.pdf` → `cte-summer-program`, `needs-review`, `financial-administration`, `professional-development`, `program-planning`
+- `Documents/ACTE Vision 2025/Admin 101/Directions for High School Scope  Sequence (2).pdf` → `needs-review`, `academic-programs`, `financial-administration`, `workforce-pathways`, `program-planning`
+- `Documents/ACTE Vision 2025/CLNA/73459750-E17B-83F6-D59C-631B116DBF582025121022091676.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `program-planning`, `procurement-compliance`
+- `Documents/ACTE Vision 2025/CLNA/734A12D1-EE5A-0990-1F62-9A28880A3C5720251210220946123.pdf` → `needs-review`, `academic-programs`
+- `Documents/ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf` → `needs-review`, `student-services`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Small Group Activity- Modeling Team Coaching in Action.pdf` → `needs-review`, `student-services`, `conference-travel`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Member Roles and Responsibilities.pdf` → `student-services`, `needs-review`, `procurement-compliance`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf` → `student-services`, `needs-review`, `workforce-pathways`, `cte-summer-program`, `professional-development`
+- `Documents/Adopted Materiall Quotes␠/ACTE Visin 2025 Grant_Funded Travel Authorization Form- ACTE 2025 copy.pdf` → `conference-travel`, `professional-development`, `needs-review`, `financial-administration`, `procurement-compliance`
+- `Documents/Adopted Materiall Quotes␠/CTE QUOTE Dallas ISD Aug 26 2025 Digital 1 year with teacher tools MW.pdf` → `purchasing-operations`, `needs-review`, `financial-administration`, `cte-summer-program`
+- `Documents/Adopted Materiall Quotes␠/Certiport Non Vendor form Approved .pdf` → `procurement-compliance`, `purchasing-operations`, `workforce-pathways`, `needs-review`, `vendor-management`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD A&P revised seat number Estimate_316614.pdf` → `purchasing-operations`, `needs-review`, `academic-programs`, `health-compliance`, `financial-administration`
+- `Documents/Adopted Materiall Quotes␠/Davis Publications Non Awarded Vendor Approved.pdf` → `procurement-compliance`, `needs-review`, `academic-programs`, `conference-travel`
+- `Documents/Adopted Materiall Quotes␠/National Restraunt Association Approved Quote.pdf` → `procurement-compliance`, `needs-review`, `workforce-pathways`, `conference-travel`, `purchasing-operations`
+- `Documents/Adopted Materiall Quotes␠/Non Awarded Vendor Request McGraw Hill Approved.pdf` → `procurement-compliance`, `academic-programs`, `conference-travel`, `financial-administration`, `purchasing-operations`, `needs-review`
+- `Documents/Adopted Materiall Quotes␠/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf` → `procurement-compliance`, `conference-travel`, `workforce-pathways`, `academic-programs`, `financial-administration`, `purchasing-operations`
+- `Documents/Adopted Materiall Quotes␠/Proclamation 2024 -Principles of IT.pdf` → `purchasing-operations`, `needs-review`, `academic-programs`
+- `Documents/Adopted Materiall Quotes␠/SACA_09-08-2025 Approved.pdf` → `procurement-compliance`, `needs-review`, `industry-certifications`, `conference-travel`, `purchasing-operations`
+- `Documents/Affiliated Agreements/ESCO Institute LTD - approved for one time use.pdf` → `procurement-compliance`, `needs-review`, `cte-summer-program`, `health-compliance`, `conference-travel`
+- `Documents/Bell Schedule CI East.pdf` → `needs-review`, `student-services`, `curriculum`, `procurement-compliance`
+- `Documents/Bell Schedule CI North.pdf` → `needs-review`
+- `Documents/CLNA Tools-ACTE Vision.pdf` → `needs-review`, `academic-programs`, `procurement-compliance`
+- `Documents/CNA QR Sheet 2a_Stakeholder Involvement by Program-1.pdf` → `needs-review`, `cte-summer-program`, `academic-programs`, `financial-administration`
+- `Documents/CNA Workscopes_ Step #1_ Stop_and_Jot_Reflection.pdf` → `procurement-compliance`, `needs-review`, `program-planning`, `ctso-activities`, `student-services`, `academic-programs`
+- `Documents/CTAT Summer 2025.jpeg` → `needs-review`, `workforce-pathways`
+- `Documents/CTE Lead Teacher Stipends (Fall 2025).pdf` → `needs-review`, `financial-administration`
+- `Documents/CTE Proclamation 2024.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `health-compliance`, `professional-development`
+- `Documents/Conference Travel/CTE CTSO Sponsorship Guidelines 25-26.docx.pdf` → `workforce-pathways`, `needs-review`, `ctso-activities`
+- `Documents/Conference Travel/CTE CTSO Sponsorship Guidelines 25-26.pdf` → `ctso-activities`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.pdf` → `procurement-compliance`, `financial-administration`, `cte-summer-program`, `needs-review`, `workforce-pathways`, `health-compliance`
+- `Documents/Conference Travel/JEREMY SPENCE_ACTE VISION 2025_TRAVEL AUTHORIZATION - signed.pdf` → `needs-review`, `conference-travel`, `professional-development`, `financial-administration`
+- `Documents/Conference Travel/Jspence Hotel.pdf` → `financial-administration`, `needs-review`
+- `Documents/Conference Travel/Moore Norman Agenda_MNTC_Dallas_ISD_Visit_Agenda.pdf` → `needs-review`, `workforce-pathways`
+- `Documents/Conference Travel/Moore Norman Bing Map.png` → `needs-review`, `program-planning`
+- `Documents/Conference Travel/Moore Norman Campus Mileage.pdf` → `needs-review`
+- `Documents/Conference Travel/Moore Norman Name Tent.pdf` → `needs-review`, `professional-development`, `student-services`, `cte-summer-program`
+- `Documents/Conference Travel/Moore Norman Return Bing Map.png` → `needs-review`, `program-planning`
+- `Documents/Conference Travel/SRFM Travel Expense Report Checklist.pdf` → `procurement-compliance`, `student-services`, `financial-administration`, `needs-review`
+- `Documents/Conference Travel/Schedule At-A-Glance ACTE Vision 2025.pdf` → `needs-review`, `professional-development`
+- `Documents/Conference Travel/Uber 1 Nashville .pdf` → `financial-administration`, `needs-review`
+- `Documents/Conference Travel/Uber 2 Nashville.pdf` → `needs-review`, `financial-administration`
+- `Documents/Conference Travel/Uber 3 Nashville.pdf` → `financial-administration`, `needs-review`
+- `Documents/Conference Travel/Uber 4 Nashville.pdf` → `financial-administration`, `needs-review`
+- `Documents/Conference Travel/Uber 5 Nashville.pdf` → `financial-administration`, `needs-review`
+- `Documents/Conference Travel/Uber receipts .pdf` → `financial-administration`, `needs-review`
+- `Documents/Conference Travel/eInvoice, December 08 for JEREMY SPENCE.eml` → `needs-review`
+- `Documents/Cornerstone_Session_Signin-1_5_2026 (2).pdf` → `student-services`, `professional-development`, `needs-review`, `workforce-pathways`, `academic-programs`
+- `Documents/DallasISDTravel - ACTE Best Practice - JB.pdf` → `needs-review`, `procurement-compliance`, `purchasing-operations`
+- `Documents/DallasISDTravel - ACTE Best Practices - JS.pdf` → `needs-review`, `purchasing-operations`
+- `Documents/Estimate_3377_from_Alpha_Education_Group[48].pdf` → `purchasing-operations`, `cte-summer-program`, `academic-programs`, `conference-travel`, `workforce-pathways`, `professional-development`
+- `Documents/M. Spence Initial Parent Referral Packet[16].pdf` → `academic-programs`, `needs-review`, `health-compliance`, `program-planning`
+- `Documents/Mackenna Spence 12-21-BASC 3 Teacher.pdf` → `needs-review`, `academic-programs`, `tb-screening`
+- `Documents/Norman Moore Grant_Funded Travel Authorization Form.pdf` → `professional-development`, `financial-administration`, `needs-review`, `procurement-compliance`, `student-services`
+- `Documents/Perkins Travel/Expenditure Justification Form_September 2025[72].pdf` → `procurement-compliance`, `needs-review`, `cte-summer-program`
+- `Documents/Perkins Travel/SRFM Meal Reimbursement Guide - Revised.10.14.2025[38].pdf` → `financial-administration`, `needs-review`, `student-services`, `procurement-compliance`
+- `Documents/Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf` → `procurement-compliance`, `financial-administration`, `health-compliance`
+- `Documents/Proclamation 2024_Preliminary Findings of the State Review Panel.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `health-compliance`, `professional-development`
+- `Documents/Purchase Orders：Lince Codes/ContactList_ProcurementServices_21_2.pdf` → `procurement-compliance`, `needs-review`
+- `Documents/Showcase Promo 2026[5].pdf` → `workforce-pathways`, `needs-review`, `student-services`, `health-compliance`
+- `Documents/Townview Business School Leadership Campus Field Trip Proposal[17].pdf` → `needs-review`, `cte-summer-program`, `student-services`, `financial-administration`
+- `Documents/Triptracker 101 2025-26.pptx.pdf` → `needs-review`, `health-compliance`, `procurement-compliance`, `conference-travel`
+- `Documents/WT WHite PD Roster Dallas ISD.pdf` → `needs-review`, `student-services`, `professional-development`
+- `Documents/Welding -Alpha Group.pdf` → `needs-review`, `purchasing-operations`, `industry-certifications`
+- `Documents/Your trip – View reservations on aa.com - American Airlines.pdf` → `needs-review`
+- `Documents/untitled folder/Travel Forms/Expenditure Justification Form_September 2025.pdf` → `procurement-compliance`, `needs-review`, `health-compliance`, `cte-summer-program`
+- `EMT：EMR/26-27 CI Copy of Bell Schedule.docx.pdf` → `needs-review`, `career-exploration`
+- `EMT：EMR/Signed NAF Forms 26.pdf` → `conference-travel`, `financial-administration`, `student-services`, `professional-development`, `procurement-compliance`, `needs-review`
+- `Early Childhood Education.pdf` → `workforce-pathways`, `cte-summer-program`, `academic-programs`, `needs-review`, `professional-development`, `summer-pd`
+- `Ed Rising Conference Badge-Demars (1).pdf` → `needs-review`, `professional-development`
+- `Ed Rising Conference Badge-Demars (2).pdf` → `needs-review`
+- `Ed Rising Conference Badge-Demars.pdf` → `needs-review`, `professional-development`
+- `Ed Rising Conference Itinerary (1).pdf` → `summer-pd`, `needs-review`, `health-compliance`, `academic-programs`, `workforce-pathways`, `student-services`
+- `Ed Rising Conference Itinerary.pdf` → `needs-review`, `health-compliance`, `academic-programs`
+- `Estimate_3377_from_Alpha_Education_Group[48].pdf` → `purchasing-operations`, `academic-programs`, `conference-travel`, `health-compliance`, `workforce-pathways`
+- `Ewing June hourlysupplementaltimecard.pdf` → `needs-review`, `professional-development`, `conference-travel`
+- `Final Divorce Decree Jeremy & kelli Spence.pdf` → `needs-review`
+- `Hotel receipt.pdf` → `financial-administration`, `needs-review`
+- `Hubbard June hourlysupplementaltimecard.pdf` → `needs-review`, `professional-development`, `conference-travel`
+- `IMG_0900.jpg` → `workforce-pathways`, `needs-review`, `professional-development`, `industry-certifications`
+- `IMG_4472.jpg` → `needs-review`, `curriculum`, `financial-administration`, `procurement-compliance`
+- `IMG_4509.jpeg` → `professional-development`, `needs-review`, `health-compliance`
+- `IMG_5861.jpeg` → `needs-review`, `conference-travel`
+- `Intership Student Names.pdf` → `needs-review`, `health-compliance`
+- `J. Spann.pdf` → `financial-administration`, `workforce-pathways`, `needs-review`, `student-services`, `procurement-compliance`, `professional-development`
+- `JOSEPH_THOA_GRANT TRAVEL FORM-REVISED - signed.pdf` → `conference-travel`, `needs-review`, `procurement-compliance`
+- `Jeremy Spence Cover Letter NAF 2026 (1).pdf` → `needs-review`, `professional-development`, `cte-summer-program`, `workforce-pathways`, `curriculum`
+- `Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED) (3).pdf` → `financial-administration`, `conference-travel`, `professional-development`, `procurement-compliance`
+- `Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED).pdf` → `financial-administration`, `conference-travel`, `professional-development`, `needs-review`
+- `JeremySpenceresume 04.2026.pdf` → `needs-review`, `cte-summer-program`, `professional-development`, `workforce-pathways`
+- `JeremySpenceresume 06.2024.docx.pdf` → `needs-review`, `professional-development`, `academic-programs`, `workforce-pathways`
+- `Jones-Gunter THOA Travel Mileage.pdf` → `needs-review`, `health-compliance`
+- `KGeorge 25-26 Woodrow CTE Business PLC Minutes.pdf` → `needs-review`, `program-planning`, `workforce-pathways`, `academic-programs`, `conference-travel`
+- `KGeorgeIBCTrainingSignIn3.25.26.pdf` → `needs-review`, `professional-development`, `workforce-pathways`, `financial-administration`, `cte-summer-program`
+- `KGeorgeTrainingIBCs3.25.26.pdf` → `workforce-pathways`, `needs-review`, `academic-programs`, `student-services`, `conference-travel`
+- `L. Sanchez-Munoz Travel form - signed.pdf` → `needs-review`, `health-compliance`
+- `Lead Teacher/original-4128F740-F01F-467F-97DF-B744898FC450.jpeg` → `financial-administration`, `procurement-compliance`, `needs-review`, `industry-certifications`, `health-compliance`
+- `Lincoln Culinaryjpg.jpeg` → `needs-review`, `cte-summer-program`, `workforce-pathways`
+- `Lockley NAF Internship Expo Attendance and Updates 2026.pdf` → `needs-review`, `workforce-pathways`
+- `M Clifton CTSO Sponser Agreement .pdf` → `procurement-compliance`
+- `Mental+Health+Services+Notification.pdf` → `health-compliance`, `cte-summer-program`, `needs-review`
+- `Moore Norman Bing Map.png` → `needs-review`, `program-planning`
+- `NAF 2026/NAF NEXT 2026 Grant_Funded Travel Authorization Form Updated.pdf` → `professional-development`, `procurement-compliance`, `needs-review`, `student-services`
+- `NAF 2026/NAF NEXT agenda page 1.jpg` → `needs-review`
+- `NAF 2026/NAF NEXT agenda page 2.jpg` → `professional-development`, `needs-review`
+- `NAF 2026/NAF NEXT agenda page 3.jpg` → `professional-development`, `needs-review`
+- `NAF 2026/NAF NEXT agenda page 4.jpg` → `needs-review`, `summer-pd`
+- `NAF Cover Letter.pdf` → `professional-development`, `needs-review`, `workforce-pathways`, `cte-summer-program`
+- `NAF Employment Application (1).pdf` → `needs-review`, `workforce-pathways`
+- `NAF Employment Application.pdf` → `needs-review`, `procurement-compliance`, `workforce-pathways`, `professional-development`
+- `NAF Hotel.pdf` → `needs-review`, `financial-administration`
+- `NAF Next 2026.pdf` → `needs-review`, `program-planning`, `professional-development`, `purchasing-operations`, `financial-administration`, `workforce-pathways`
+- `NAF Next Meeting (1).pdf` → `program-planning`, `needs-review`, `workforce-pathways`
+- `NAF Next Meeting.pdf` → `needs-review`, `professional-development`, `workforce-pathways`
+- `NAF Paperwork/Board Document 250357[69].pdf` → `procurement-compliance`, `workforce-pathways`, `cte-summer-program`, `needs-review`, `career-exploration`, `student-services`
+- `NAF reciepts (1).pdf` → `financial-administration`, `needs-review`
+- `Non Awarded 2.pdf` → `procurement-compliance`, `conference-travel`, `academic-programs`, `vendor-management`, `purchasing-operations`, `financial-administration`
+- `Non Awarded Vendor Quotes/BE Publishing Non Awarded Vendor Approved.pdf` → `procurement-compliance`, `conference-travel`, `purchasing-operations`, `cte-summer-program`, `needs-review`, `academic-programs`
+- `Non Awarded Vendor Quotes/CTE QUOTE Dallas ISD Aug 26 2025 Digital 1 year with teacher tools MW.pdf` → `purchasing-operations`, `academic-programs`, `needs-review`
+- `Non Awarded Vendor Quotes/Davis Publications Non Awarded Vendor Approved.pdf` → `procurement-compliance`, `needs-review`, `academic-programs`, `conference-travel`
+- `Non Awarded Vendor Quotes/National Restraunt Association Approved Quote.pdf` → `procurement-compliance`, `needs-review`, `workforce-pathways`, `purchasing-operations`, `conference-travel`
+- `Non Awarded Vendor Quotes/Non Awarded Vendor Request McGraw Hill Approved.pdf` → `procurement-compliance`, `academic-programs`, `conference-travel`, `financial-administration`, `needs-review`, `purchasing-operations`
+- `Non Awarded Vendor Quotes/Pearson Non Awarded Approved.pdf` → `procurement-compliance`, `workforce-pathways`, `academic-programs`, `needs-review`, `financial-administration`, `vendor-management`
+- `Non Awarded Vendor Quotes/SACA_09-08-2025 Approved.pdf` → `procurement-compliance`, `industry-certifications`, `purchasing-operations`, `conference-travel`, `needs-review`, `student-services`
+- `Non-Awarded Vendor Forms approved 2/NCCER_Approved 09-12-2025.pdf` → `procurement-compliance`, `academic-programs`, `workforce-pathways`, `conference-travel`, `purchasing-operations`, `needs-review`
+- `Non-Awarded Vendor Forms approved/Alpha Education Group_Non-AwardedVendorRequestForm - signed.pdf (SECURED).pdf` → `procurement-compliance`, `vendor-management`, `cte-summer-program`, `purchasing-operations`, `needs-review`, `student-services`
+- `Non-Awarded Vendor Forms approved/CompTia.pdf` → `procurement-compliance`, `conference-travel`, `needs-review`, `workforce-pathways`, `purchasing-operations`, `financial-administration`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Mentor Sample Program.pdf` → `cte-summer-program`, `needs-review`, `financial-administration`, `professional-development`, `program-planning`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE New Teacher Professional Development Plan.pdf` → `needs-review`, `professional-development`, `program-planning`, `workforce-pathways`, `procurement-compliance`, `summer-pd`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Prof Growth Plan.pdf` → `professional-development`, `needs-review`, `program-planning`, `workforce-pathways`, `cte-summer-program`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Required Certification by Program.xlsx` → `procurement-compliance`, `academic-programs`, `cte-summer-program`, `workforce-pathways`, `needs-review`, `health-compliance`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/Sample CTE Instructional Coaching Guidelines.pdf` → `student-services`, `needs-review`, `professional-development`
+- `OneDrive_2_12-9-2025.zip.unpacked/12 Effective Tier 1 Instructional Strategies.docx` → `student-services`, `needs-review`, `academic-programs`, `summer-pd`, `workforce-pathways`
+- `OneDrive_2_12-9-2025.zip.unpacked/Directions for High School Scope  Sequence.pdf` → `needs-review`, `academic-programs`, `financial-administration`, `industry-certifications`, `program-planning`
+- `OneDrive_2_12-9-2025.zip.unpacked/Scope and Sequence Template.xlsx` → `needs-review`, `academic-programs`, `student-services`, `financial-administration`, `workforce-pathways`, `summer-pd`
+- `PATIN_TIVA-GRANT TRAVEL FORM-REVISED - signed.pdf (SECURED).pdf` → `conference-travel`, `needs-review`, `health-compliance`
+- `PD Creation Department Supplemental Pay Approval Memo .pdf` → `procurement-compliance`, `professional-development`, `summer-pd`, `workforce-pathways`, `conference-travel`, `academic-programs`
+- `Perkins Travel/2025-2026 Financial Services Activity Calendar[2].pdf` → `procurement-compliance`, `student-services`, `needs-review`, `purchasing-operations`
+- `Perkins Travel/2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `workforce-pathways`, `needs-review`
+- `Perkins Travel/Expenditure Justification Form_September 2025[72].pdf` → `procurement-compliance`, `needs-review`, `health-compliance`, `cte-summer-program`
+- `Perkins Travel/SRFM Meal Reimbursement Guide - Revised.10.14.2025[38].pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `student-services`
+- `Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf` → `student-services`, `financial-administration`, `health-compliance`, `procurement-compliance`, `professional-development`
+- `Perkins-V-Funding-Distribution.pdf` → `needs-review`, `cte-summer-program`, `program-planning`
+- `Receipt _ DALLAS ISD.pdf` → `financial-administration`, `needs-review`, `purchasing-operations`
+- `SampleEmail (6).pdf` → `needs-review`, `procurement-compliance`, `purchasing-operations`
+- `SampleEmail.pdf` → `needs-review`, `procurement-compliance`, `purchasing-operations`
+- `Scope and Sequence Template.pdf` → `needs-review`, `academic-programs`, `student-services`, `workforce-pathways`, `program-planning`
+- `SouthwestReturnCollabTripAustin (1).pdf` → `needs-review`, `financial-administration`, `health-compliance`, `cte-summer-program`
+- `SouthwestReturnCollabTripAustin (2).pdf` → `needs-review`, `financial-administration`, `health-compliance`
+- `Spence-NAF Employment Application (1).pdf` → `needs-review`, `procurement-compliance`, `workforce-pathways`
+- `Spring Stipend CTE-additions 2026.pdf` → `financial-administration`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990127878 - Alexis Guereca.pdf` → `health-compliance`, `procurement-compliance`, `immunization`, `cte-summer-program`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990990829 - Cinthia Santoyo.pdf` → `immunization`, `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991243234 - Isabella Guerrero.pdf` → `health-compliance`, `financial-administration`, `needs-review`
+- `Student List_TAFE Nationals_D.O.B..pdf` → `health-compliance`, `needs-review`
+- `Summer PD Schedule 2026.pdf` → `professional-development`, `workforce-pathways`, `needs-review`, `procurement-compliance`, `health-compliance`
+- `Supplemental_form.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `summer-pd`, `conference-travel`
+- `TIVA Conferece expenses.pdf` → `needs-review`
+- `TIVA SIGNED TRAVEL AUTH. - WOOD.jpg` → `summer-pd`, `professional-development`, `conference-travel`, `financial-administration`, `needs-review`
+- `Tiva Milage (1).pdf` → `needs-review`, `health-compliance`, `program-planning`
+- `Tiva classes.pdf` → `professional-development`, `needs-review`, `student-services`, `academic-programs`, `procurement-compliance`
+- `Travel Authorization Form_Demars Officer Training Camp_4.10.25.pdf` → `needs-review`, `financial-administration`, `professional-development`
+- `Travel Reconcile NLSC - Agenda.pdf` → `needs-review`, `financial-administration`
+- `Travel Reconcile NLSC - Arta.pdf` → `needs-review`, `financial-administration`
+- `Travel Reconcile NLSC - Badge.pdf` → `needs-review`, `health-compliance`
+- `Travel Reconcile NLSC - Lodging.pdf` → `needs-review`, `financial-administration`, `health-compliance`
+- `Travel Reconcile NLSC- Justification.pdf` → `procurement-compliance`, `student-services`, `needs-review`
+- `Untitled presentation.pdf` → `needs-review`, `summer-pd`, `student-services`, `workforce-pathways`
+- `Vitals-Childrens-Testing Route.pdf` → `health-compliance`, `needs-review`, `summer-pd`, `procurement-compliance`
+- `WBL.pdf` → `needs-review`, `student-services`, `workforce-pathways`, `health-compliance`, `professional-development`, `cte-summer-program`
+- `Workscopes_ Step #1_ Stop_and_Jot_Reflection.pdf` → `procurement-compliance`, `academic-programs`, `needs-review`, `program-planning`, `ctso-activities`
+- `Workshop Title： ＂The First 10： Maximizing Every Minute for Career Success＂.pdf` → `needs-review`, `professional-development`, `workforce-pathways`
+- `add_to_calendar.ics` → `academic-programs`, `needs-review`, `student-services`, `procurement-compliance`
+- `cte-indicator-auto-coder.pdf` → `needs-review`, `ctso-activities`, `academic-programs`, `cte-summer-program`, `health-compliance`, `procurement-compliance`
+- `cte-wbl-training-plan-0.pdf` → `needs-review`, `student-services`, `health-compliance`, `workforce-pathways`, `procurement-compliance`
+- `cte-wbl-training-plan.pdf` → `needs-review`, `student-services`, `health-compliance`, `workforce-pathways`, `procurement-compliance`
+- `invite (1).ics` → `needs-review`, `student-services`, `workforce-pathways`
+- `invite.ics` → `needs-review`, `cte-summer-program`, `summer-pd`
+- `p2024-list-of-materials-adopted-by-sboe.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `procurement-compliance`
+- `perkinsplanupdatefinalrevised.pdf` → `needs-review`, `workforce-pathways`, `health-compliance`
+- `regional-labor-market-information-wda-6.pdf` → `workforce-pathways`, `needs-review`, `cte-summer-program`
+- `scan_carmalone_2025-07-31-09-22-17.pdf` → `financial-administration`, `needs-review`, `summer-pd`, `professional-development`, `health-compliance`
+- `scan_carmalone_2025-07-31-11-27-56.pdf` → `financial-administration`, `needs-review`, `health-compliance`
+- `scan_lealittle_2025-12-03-13-39-47 (1).pdf` → `conference-travel`, `academic-programs`, `needs-review`, `financial-administration`
+- `scan_lealittle_2025-12-03-13-39-47 (2).pdf` → `conference-travel`, `needs-review`, `academic-programs`
+- `scan_lealittle_2025-12-03-13-39-47.pdf` → `conference-travel`, `needs-review`, `academic-programs`, `financial-administration`
+- `tiva 2/2025 Summer Certificicate (1).pdf` → `needs-review`, `summer-pd`, `professional-development`, `workforce-pathways`, `health-compliance`
+- `tiva 3/7-17-2025.pdf` → `financial-administration`, `needs-review`, `procurement-compliance`
+
+### academic-programs (269)
+
+- ` PD Summer Schedule.pdf` → `professional-development`, `summer-pd`, `events-and-conferences`, `procurement-compliance`, `industry-certifications`, `needs-review`
+- `12-21-BASC 3 Teacher.pdf` → `needs-review`, `health-compliance`, `professional-development`, `events-and-conferences`
+- `2024-2025-clna-guidebook.pdf` → `needs-review`, `workforce-pathways`, `health-compliance`
+- `2026-27 DRAFT[98].pdf` → `needs-review`, `program-planning`, `cte-summer-program`, `workforce-pathways`
+- `2026-27 Perkins Application — Filled Tentative (PS3350).pdf` → `needs-review`, `program-planning`, `procurement-compliance`
+- `25-26 SEC 11028Y1N2-2022 Early Childhood (1).pdf` → `events-and-conferences`, `needs-review`, `cte-summer-program`
+- `25-26 SEC 11028Y1N2-2022 Early Childhood.pdf` → `events-and-conferences`, `needs-review`, `cte-summer-program`, `workforce-pathways`, `procurement-compliance`
+- `26-27 CLNA.pdf` → `needs-review`, `workforce-pathways`, `career-exploration`, `health-compliance`
+- `26-27 Campus CTE Nonposition Realignment Datasource V2 (1).pdf` → `needs-review`, `cte-summer-program`, `program-planning`, `workforce-pathways`
+- `26-27 Campus CTE Nonposition Realignment Datasource V5 (1).pdf` → `needs-review`, `cte-summer-program`, `curriculum`, `workforce-pathways`
+- `2nd floor map.png` → `needs-review`, `curriculum`, `student-services`, `summer-pd`
+- `ACTE HQ Frameworks.pdf` → `needs-review`, `health-compliance`, `workforce-pathways`
+- `ACTE Vision 2025/656EE0EE-B956-47AB-F3B8-A54C3E8E641B20251210154217363.pdf` → `student-services`, `procurement-compliance`, `needs-review`, `health-compliance`, `professional-development`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf` → `needs-review`, `cte-summer-program`, `financial-administration`, `events-and-conferences`, `student-services`, `professional-development`
+- `ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf` → `student-services`, `needs-review`, `summer-pd`, `events-and-conferences`
+- `ACTE Vision 2025/Admin 101/Advisory Council.pdf` → `needs-review`, `workforce-pathways`, `student-services`
+- `ACTE Vision 2025/Admin 101/CTE Program Coherent Sequence.pdf` → `cte-summer-program`, `needs-review`, `industry-certifications`, `program-planning`
+- `ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf` → `needs-review`, `workforce-pathways`, `program-planning`, `cte-summer-program`, `events-and-conferences`
+- `ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf` → `needs-review`, `student-services`, `workforce-pathways`, `program-planning`, `curriculum`
+- `ACTE Vision 2025/Admin 101/request.pdf` → `needs-review`, `workforce-pathways`, `procurement-compliance`, `health-compliance`
+- `ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `needs-review`, `health-compliance`, `workforce-pathways`, `procurement-compliance`
+- `ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf` → `program-planning`, `cte-summer-program`, `workforce-pathways`, `needs-review`
+- `ACTE Vision 2025/Admin 201/CTE Admin 102-Slide Deck.pptx.pdf` → `needs-review`, `health-compliance`, `workforce-pathways`
+- `ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf` → `needs-review`, `financial-administration`, `cte-summer-program`, `procurement-compliance`
+- `ACTE Vision 2025/Admin 201/Perkins Performance Measures Data Analysis Template.pdf` → `needs-review`, `procurement-compliance`
+- `ACTE Vision 2025/The Art of Coaching/Indicators of an Effective Team.pdf` → `student-services`, `professional-development`, `needs-review`
+- `ACTE Vision 2025/The Art of Coaching/Team Temperature Check.pdf` → `student-services`, `health-compliance`, `professional-development`, `needs-review`
+- `Assessment - Mackenna.pdf` → `needs-review`, `health-compliance`
+- `CI North Parking at TJ.pdf` → `career-exploration`, `needs-review`, `health-compliance`, `curriculum`
+- `CIN Parking.pdf` → `career-exploration`, `needs-review`, `curriculum`, `procurement-compliance`, `health-compliance`
+- `CLNA 2026-27-clna-guidebook[55].pdf` → `needs-review`, `workforce-pathways`, `health-compliance`, `program-planning`
+- `CLNA 26-27/2025-26 Application.pdf (SECURED).pdf` → `needs-review`, `workforce-pathways`, `professional-development`
+- `CLNA 26-27/2026-27-clna-guidebook.pdf` → `needs-review`, `workforce-pathways`, `health-compliance`
+- `CLNA 26-27/CLNA DALLAS ISD Working Doc.pdf` → `needs-review`, `procurement-compliance`, `workforce-pathways`, `health-compliance`, `vendor-management`
+- `CLNA 26-27/PerkinsV_CLNA_Template_ Guide.pdf` → `needs-review`, `student-services`, `workforce-pathways`
+- `CLNA 26-27/SC5600 Comprehensive Local Needs Assessment blank.pdf (SECURED).pdf.pdf` → `needs-review`, `procurement-compliance`, `workforce-pathways`
+- `CLNA DALLAS ISD Working Doc.pdf` → `needs-review`, `procurement-compliance`, `workforce-pathways`, `vendor-management`
+- `CLNA Guiding Questions (2).pdf` → `needs-review`, `health-compliance`, `workforce-pathways`, `student-services`, `cte-summer-program`, `professional-development`
+- `CLNA Guiding Questions.pdf` → `needs-review`, `health-compliance`, `workforce-pathways`, `student-services`, `cte-summer-program`, `professional-development`
+- `CLNA Planning Tool-Example.pdf` → `program-planning`, `needs-review`, `workforce-pathways`, `cte-summer-program`, `health-compliance`, `events-and-conferences`
+- `CLNA_26_27 App.pdf` → `needs-review`, `procurement-compliance`, `workforce-pathways`
+- `CTE Admin 101-Slide Deck.pdf` → `needs-review`, `professional-development`, `events-and-conferences`, `workforce-pathways`, `procurement-compliance`
+- `CTE Framework 2 slides.pdf` → `workforce-pathways`, `needs-review`, `program-planning`
+- `CTE Framework 26.pdf` → `workforce-pathways`, `program-planning`, `events-and-conferences`, `ctso-activities`, `financial-administration`, `needs-review`
+- `CTE Framework.pdf` → `workforce-pathways`, `events-and-conferences`, `program-planning`, `needs-review`, `financial-administration`, `health-compliance`
+- `CTE Required Certification by Program.pdf` → `procurement-compliance`, `cte-summer-program`, `industry-certifications`, `workforce-pathways`
+- `CTE TEAM (1).png` → `student-services`, `needs-review`, `cte-summer-program`, `workforce-pathways`, `health-compliance`, `conference-travel`
+- `CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf` → `summer-pd`, `cte-summer-program`, `curriculum`, `needs-review`, `professional-development`, `health-compliance`
+- `CTE- SUM26 CIS Summer Learning Site Signage Template (2).pdf` → `summer-pd`, `curriculum`, `needs-review`, `professional-development`, `events-and-conferences`, `workforce-pathways`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (2).png` → `summer-pd`, `career-exploration`, `needs-review`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (3).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (5).png` → `summer-pd`, `career-exploration`, `workforce-pathways`, `needs-review`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (6).png` → `summer-pd`, `career-exploration`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (7).png` → `summer-pd`, `career-exploration`, `needs-review`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (8).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `events-and-conferences`, `health-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (9).png` → `summer-pd`, `career-exploration`, `needs-review`, `events-and-conferences`, `curriculum`, `workforce-pathways`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary.png` → `summer-pd`, `career-exploration`, `needs-review`, `procurement-compliance`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1).pdf` → `summer-pd`, `cte-summer-program`, `curriculum`, `needs-review`, `health-compliance`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (2).png` → `summer-pd`, `career-exploration`, `needs-review`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (3).png` → `summer-pd`, `career-exploration`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (5).png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `workforce-pathways`, `needs-review`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (6).png` → `summer-pd`, `career-exploration`, `curriculum`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (7).png` → `summer-pd`, `career-exploration`, `needs-review`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (8).png` → `summer-pd`, `career-exploration`, `curriculum`, `needs-review`, `procurement-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (9).png` → `summer-pd`, `financial-administration`, `procurement-compliance`, `needs-review`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary.png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `events-and-conferences`, `cte-summer-program`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (2).pdf` → `summer-pd`, `professional-development`, `events-and-conferences`, `curriculum`, `workforce-pathways`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (2).png` → `summer-pd`, `career-exploration`, `needs-review`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (3).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (4).png` → `summer-pd`, `curriculum`, `workforce-pathways`, `events-and-conferences`, `needs-review`, `career-exploration`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (5).png` → `summer-pd`, `career-exploration`, `workforce-pathways`, `needs-review`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (6).png` → `summer-pd`, `career-exploration`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (7).png` → `summer-pd`, `career-exploration`, `needs-review`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (8).png` → `summer-pd`, `career-exploration`, `curriculum`, `events-and-conferences`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template.pdf` → `summer-pd`, `curriculum`, `cte-summer-program`, `professional-development`, `health-compliance`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (3).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (4).png` → `summer-pd`, `curriculum`, `events-and-conferences`, `needs-review`, `career-exploration`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (5).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `workforce-pathways`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (7).png` → `summer-pd`, `career-exploration`, `cte-summer-program`, `curriculum`, `needs-review`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (9).png` → `summer-pd`, `curriculum`, `career-exploration`, `financial-administration`, `needs-review`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary.png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `procurement-compliance`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (3).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (4).png` → `summer-pd`, `curriculum`, `events-and-conferences`, `needs-review`, `career-exploration`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (5).png` → `summer-pd`, `career-exploration`, `workforce-pathways`, `needs-review`, `curriculum`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (6).png` → `summer-pd`, `career-exploration`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (7).png` → `summer-pd`, `career-exploration`, `needs-review`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (8).png` → `summer-pd`, `career-exploration`, `curriculum`, `events-and-conferences`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (9).png` → `summer-pd`, `financial-administration`, `procurement-compliance`, `events-and-conferences`, `needs-review`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary.png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `procurement-compliance`, `events-and-conferences`
+- `CTE-Standard Operating Procedures/2026-27 Dallas ISD CTE CTSO Handbook.docx` → `events-and-conferences`, `ctso-activities`, `needs-review`, `procurement-compliance`, `health-compliance`, `financial-administration`
+- `CTE-Standard Operating Procedures/Campus Lead Teacher Program.pdf` → `needs-review`, `cte-summer-program`, `financial-administration`, `procurement-compliance`
+- `CTE-Standard Operating Procedures/Standard Operting Procedures-Perkins.pdf` → `needs-review`, `procurement-compliance`, `purchasing-operations`, `professional-development`, `financial-administration`, `conference-travel`
+- `Career Exploration in IT.pdf` → `needs-review`, `workforce-pathways`
+- `ChatGPT Image Jul 17, 2026, 09_53_55 AM.png` → `needs-review`, `professional-development`, `workforce-pathways`, `program-planning`
+- `CodeHS Proclamation 2024 titles.pdf` → `needs-review`, `procurement-compliance`, `cte-summer-program`
+- `Considerations for 2026–27 and Future Cohorts  CCMR Notecatcher.pdf` → `needs-review`, `workforce-pathways`, `program-planning`, `financial-administration`
+- `Copy of 26-27 Academic Services Deck Template  (1).pdf` → `curriculum`, `summer-pd`, `needs-review`, `professional-development`, `student-services`
+- `Copy of 26-27 Academic Services Deck Template .pdf` → `curriculum`, `summer-pd`, `needs-review`, `student-services`, `professional-development`
+- `Copy of CTE PLC Agendas (1) (1).pdf` → `events-and-conferences`, `conference-travel`, `professional-development`, `workforce-pathways`, `student-services`, `needs-review`
+- `Copy of CTE PLC Agendas (1).pdf` → `events-and-conferences`, `conference-travel`, `professional-development`, `workforce-pathways`, `student-services`, `needs-review`
+- `Copy of ibc-advisory-council-inventory-twc.pdf` → `workforce-pathways`, `needs-review`, `financial-administration`
+- `Cornerstone_Session_Signin-10_12_2025 (1).pdf` → `needs-review`, `professional-development`, `student-services`, `events-and-conferences`
+- `Cornerstone_Session_Signin-10_12_2025.pdf` → `needs-review`, `professional-development`, `student-services`, `events-and-conferences`
+- `Cornerstone_Session_Signin-1_14_2026.pdf` → `events-and-conferences`, `workforce-pathways`, `professional-development`, `student-services`, `needs-review`
+- `Cornerstone_Session_Signin-1_5_2026 (3).pdf` → `needs-review`, `professional-development`, `workforce-pathways`, `student-services`, `events-and-conferences`
+- `Cornerstone_Session_Signin-1_5_2026.pdf` → `student-services`, `professional-development`, `needs-review`, `workforce-pathways`, `health-compliance`
+- `Cornerstone_Session_Signin-5_26_2026 (3).pdf` → `needs-review`, `events-and-conferences`, `workforce-pathways`, `professional-development`, `student-services`, `career-exploration`
+- `Cornerstone_Session_Signin-6_10_2026.pdf` → `needs-review`, `professional-development`, `career-exploration`, `summer-pd`, `student-services`, `events-and-conferences`
+- `Cornerstone_Session_Signin-6_9_2026.pdf` → `needs-review`, `events-and-conferences`, `professional-development`, `career-exploration`, `summer-pd`, `student-services`
+- `DRAFT Vehicle Intake & Liability Waiver Form.pdf` → `needs-review`, `cte-summer-program`, `health-compliance`
+- `Dallas ISD 2026-2027 Comprehensive Local Needs Assessment.pdf` → `needs-review`, `procurement-compliance`, `career-exploration`
+- `Dallas ISD CTE_ Work-Based Learning Continuum.pdf` → `needs-review`, `workforce-pathways`, `cte-summer-program`, `health-compliance`, `program-planning`, `professional-development`
+- `Dallas ISD Garner A&P 1 year Estimate_316614.pdf` → `purchasing-operations`, `needs-review`, `health-compliance`, `cte-summer-program`, `financial-administration`
+- `Dallas ISD — NAF Membership Agreement 2026-27[57].pdf` → `events-and-conferences`, `needs-review`, `program-planning`, `industry-certifications`, `workforce-pathways`
+- `DallasISDTravel - ACTE Best Practices - JS.pdf` → `events-and-conferences`, `procurement-compliance`, `health-compliance`, `program-planning`, `needs-review`
+- `Dallas_ISD_CLNA_2026-2027_DRAFT.pdf` → `needs-review`, `health-compliance`, `workforce-pathways`, `career-exploration`, `cte-summer-program`, `procurement-compliance`
+- `Dee July hourlysupplementaltimecard.pdf` → `needs-review`, `professional-development`, `conference-travel`, `curriculum`
+- `Department Supplemental Pay Approval Memo.pdf` → `procurement-compliance`, `professional-development`, `summer-pd`, `workforce-pathways`, `conference-travel`
+- `Digitial Citizenship PSA.pdf` → `needs-review`, `events-and-conferences`
+- `Digitial Citizenship PSA[7].pdf` → `needs-review`, `workforce-pathways`
+- `Documents/244 Sitipend 2026/Amaning Completed-Supplemental_form.pdf (SECURED).pdf` → `financial-administration`, `procurement-compliance`, `workforce-pathways`, `summer-pd`, `needs-review`
+- `Documents/244 Sitipend 2026/Amaning-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `conference-travel`, `summer-pd`, `events-and-conferences`
+- `Documents/244 Sitipend 2026/Archie-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `summer-pd`, `conference-travel`, `workforce-pathways`
+- `Documents/244 Sitipend 2026/Coyle-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `professional-development`, `conference-travel`
+- `Documents/244 Sitipend 2026/Jones-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `summer-pd`, `conference-travel`, `events-and-conferences`
+- `Documents/244 Sitipend 2026/Kalat-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `workforce-pathways`
+- `Documents/244 Sitipend 2026/Maxwell-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `workforce-pathways`, `summer-pd`, `professional-development`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.2.pdf` → `financial-administration`, `needs-review`, `curriculum`, `events-and-conferences`
+- `Documents/26-27 Campus CTE Nonposition Realignment Datasource Updated.pdf` → `needs-review`, `cte-summer-program`, `program-planning`, `health-compliance`
+- `Documents/ACTE Vision 2025/656EE0EE-B956-47AB-F3B8-A54C3E8E641B20251210154217363.pdf` → `student-services`, `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf` → `student-services`, `needs-review`, `workforce-pathways`, `events-and-conferences`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Council.pdf` → `needs-review`, `workforce-pathways`, `student-services`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1 (1).pdf` → `needs-review`, `workforce-pathways`, `program-planning`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1.pdf` → `needs-review`, `cte-summer-program`, `workforce-pathways`, `program-planning`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Mentor Sample Program.pdf` → `cte-summer-program`, `needs-review`, `financial-administration`, `professional-development`, `events-and-conferences`, `program-planning`
+- `Documents/ACTE Vision 2025/Admin 101/CTE New Teacher Professional Development Plan (1).pdf` → `needs-review`, `professional-development`, `workforce-pathways`, `cte-summer-program`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Program Coherent Sequence.pdf` → `cte-summer-program`, `needs-review`, `industry-certifications`, `curriculum`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Required Certification by Program.pdf` → `procurement-compliance`, `cte-summer-program`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/Admin 101/Directions for High School Scope  Sequence (2).pdf` → `needs-review`, `financial-administration`, `events-and-conferences`, `workforce-pathways`, `program-planning`
+- `Documents/ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf` → `needs-review`, `workforce-pathways`, `cte-summer-program`, `program-planning`, `health-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf` → `needs-review`, `student-services`, `program-planning`, `workforce-pathways`, `financial-administration`, `cte-summer-program`
+- `Documents/ACTE Vision 2025/Admin 101/WBL Cheat Sheet.pdf` → `needs-review`, `cte-summer-program`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/Admin 101/WBL-why it patters.pdf` → `needs-review`, `procurement-compliance`, `professional-development`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/Admin 101/request.pdf` → `needs-review`, `workforce-pathways`, `cte-summer-program`, `health-compliance`, `student-services`, `industry-certifications`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `needs-review`, `health-compliance`, `workforce-pathways`, `student-services`, `procurement-compliance`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool-Example.pdf` → `program-planning`, `needs-review`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf` → `program-planning`, `workforce-pathways`, `needs-review`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf` → `needs-review`, `financial-administration`, `cte-summer-program`, `procurement-compliance`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Data Analysis Template.pdf` → `needs-review`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins-V-Funding-Distribution.pdf` → `needs-review`, `procurement-compliance`, `program-planning`
+- `Documents/ACTE Vision 2025/CLNA/73459750-E17B-83F6-D59C-631B116DBF582025121022091676.pdf` → `needs-review`, `workforce-pathways`, `program-planning`, `procurement-compliance`, `events-and-conferences`
+- `Documents/ACTE Vision 2025/CLNA/734A12D1-EE5A-0990-1F62-9A28880A3C5720251210220946123.pdf` → `needs-review`, `events-and-conferences`
+- `Documents/ANG-DISD Adamson HS Air Compressor Equipment Repairs_Quote_20262603AD.pdf` → `needs-review`, `procurement-compliance`, `purchasing-operations`, `health-compliance`, `financial-administration`
+- `Documents/Adopted Materiall Quotes␠/BE Publishing Non Awarded Vendor Approved.pdf` → `procurement-compliance`, `needs-review`
+- `Documents/Adopted Materiall Quotes␠/Code HS Approved.pdf` → `procurement-compliance`, `purchasing-operations`, `workforce-pathways`, `needs-review`
+- `Documents/Adopted Materiall Quotes␠/CodeHS Proclamation 2024 titles.pdf` → `needs-review`, `purchasing-operations`, `cte-summer-program`, `procurement-compliance`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD A&P revised seat number Estimate_316614.pdf` → `purchasing-operations`, `needs-review`, `health-compliance`, `financial-administration`, `events-and-conferences`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Garner A&P 1 year Estimate_316614.pdf` → `purchasing-operations`, `needs-review`, `health-compliance`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 1 year Estimate_375613.pdf` → `purchasing-operations`, `needs-review`, `financial-administration`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 4 year  Estimate_375616.pdf` → `needs-review`, `purchasing-operations`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Video Game Design Estimate_375603.pdf` → `purchasing-operations`, `needs-review`
+- `Documents/Adopted Materiall Quotes␠/Davis Publications Non Awarded Vendor Approved.pdf` → `procurement-compliance`, `needs-review`, `conference-travel`
+- `Documents/Adopted Materiall Quotes␠/Goodheart Wilcox Non Awarded approved.pdf` → `procurement-compliance`, `needs-review`, `purchasing-operations`
+- `Documents/Adopted Materiall Quotes␠/Non Awarded Vendor Request McGraw Hill Approved.pdf` → `procurement-compliance`, `conference-travel`, `financial-administration`, `purchasing-operations`, `needs-review`
+- `Documents/Adopted Materiall Quotes␠/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf` → `procurement-compliance`, `conference-travel`, `workforce-pathways`, `financial-administration`, `purchasing-operations`, `vendor-management`
+- `Documents/Adopted Materiall Quotes␠/Pearson Non Awarded Approved.pdf` → `procurement-compliance`, `vendor-management`, `purchasing-operations`, `needs-review`, `financial-administration`
+- `Documents/Adopted Materiall Quotes␠/Proclamation 2024 -Principles of IT.pdf` → `purchasing-operations`, `needs-review`, `events-and-conferences`
+- `Documents/Bell Schedule CI East.pdf` → `events-and-conferences`, `needs-review`, `student-services`, `curriculum`, `procurement-compliance`
+- `Documents/CLNA Tools-ACTE Vision.pdf` → `needs-review`, `procurement-compliance`, `events-and-conferences`
+- `Documents/CNA QR Sheet 2a_Stakeholder Involvement by Program-1.pdf` → `needs-review`, `cte-summer-program`, `events-and-conferences`, `financial-administration`
+- `Documents/CNA Workscopes_ Step #1_ Stop_and_Jot_Reflection.pdf` → `procurement-compliance`, `needs-review`, `program-planning`, `ctso-activities`, `student-services`
+- `Documents/CTE Proclamation 2024.pdf` → `needs-review`, `events-and-conferences`, `workforce-pathways`, `health-compliance`, `professional-development`
+- `Documents/Conference Travel/Moore Norman Bing Map.png` → `needs-review`, `program-planning`, `events-and-conferences`
+- `Documents/Conference Travel/Moore Norman Return Bing Map.png` → `needs-review`, `program-planning`, `events-and-conferences`
+- `Documents/Cornerstone_Session_Signin-1_5_2026 (2).pdf` → `student-services`, `professional-development`, `needs-review`, `workforce-pathways`, `events-and-conferences`
+- `Documents/DALLASISDGOOGLECOURSECATALOG.pdf` → `needs-review`, `workforce-pathways`, `career-exploration`, `cte-summer-program`, `program-planning`
+- `Documents/Estimate_3377_from_Alpha_Education_Group[48].pdf` → `purchasing-operations`, `cte-summer-program`, `events-and-conferences`, `conference-travel`, `workforce-pathways`, `professional-development`
+- `Documents/JeremySpenceCoverLetter AA.pdf` → `needs-review`, `workforce-pathways`, `cte-summer-program`
+- `Documents/M. Spence Initial Parent Referral Packet[16].pdf` → `needs-review`, `health-compliance`, `program-planning`, `events-and-conferences`
+- `Documents/Mackenna Spence 12-21-BASC 3 Teacher.pdf` → `needs-review`, `tb-screening`, `events-and-conferences`
+- `Documents/Mackenna Spence NICHQ Teacher.pdf` → `needs-review`, `health-compliance`
+- `Documents/Mackenna physical 2.jpeg` → `health-compliance`, `needs-review`
+- `Documents/Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `needs-review`, `health-compliance`, `workforce-pathways`, `procurement-compliance`, `financial-administration`
+- `Documents/Personal/Everlake- Beneficiary Change Lincoln Benefit copy.pdf` → `needs-review`, `program-planning`
+- `Documents/Proclamation 2024_Preliminary Findings of the State Review Panel.pdf` → `needs-review`, `workforce-pathways`, `health-compliance`, `professional-development`, `events-and-conferences`
+- `Documents/TEKS/130.-subchapter-d-business-management-and-administration.pdf` → `needs-review`, `workforce-pathways`
+- `Documents/scan_jspence_2025-09-04-09-15-15.pdf` → `procurement-compliance`, `workforce-pathways`, `health-compliance`, `purchasing-operations`, `needs-review`
+- `Early Childhood Education.pdf` → `events-and-conferences`, `workforce-pathways`, `cte-summer-program`, `needs-review`, `professional-development`, `summer-pd`
+- `Ed Rising Conference Itinerary (1).pdf` → `events-and-conferences`, `summer-pd`, `needs-review`, `health-compliance`, `workforce-pathways`, `student-services`
+- `Ed Rising Conference Itinerary.pdf` → `events-and-conferences`, `needs-review`, `health-compliance`
+- `Elementary (1).pdf` → `summer-pd`, `curriculum`, `needs-review`
+- `Elementary.pdf` → `summer-pd`, `needs-review`, `curriculum`, `workforce-pathways`
+- `Estimate_3377_from_Alpha_Education_Group[48].pdf` → `purchasing-operations`, `events-and-conferences`, `conference-travel`, `health-compliance`, `workforce-pathways`
+- `Hicks Bio.pdf` → `needs-review`, `procurement-compliance`, `student-services`
+- `IMG_4472.jpg` → `needs-review`, `events-and-conferences`, `curriculum`, `financial-administration`, `procurement-compliance`
+- `Jeremy Spence Cover Letter NAF 2026 (1).pdf` → `needs-review`, `professional-development`, `events-and-conferences`, `cte-summer-program`, `workforce-pathways`, `curriculum`
+- `JeremySpenceresume 06.2024.docx.pdf` → `needs-review`, `professional-development`, `workforce-pathways`, `events-and-conferences`
+- `KGeorge 25-26 Woodrow CTE Business PLC Minutes.pdf` → `needs-review`, `program-planning`, `workforce-pathways`, `events-and-conferences`, `conference-travel`
+- `KGeorgeCTELeadTeacherStipendAgreement11.13.25 (1).pdf` → `financial-administration`, `procurement-compliance`, `workforce-pathways`, `needs-review`, `professional-development`, `program-planning`
+- `KGeorgeTrainingIBCs3.25.26.pdf` → `workforce-pathways`, `needs-review`, `student-services`, `conference-travel`
+- `Mackenns Spence-Jones Center.pdf` → `needs-review`, `procurement-compliance`, `student-services`
+- `Minor Testing Packet (1).pdf` → `needs-review`, `procurement-compliance`, `professional-development`
+- `Minor Testing Packet.pdf` → `needs-review`, `procurement-compliance`, `professional-development`, `health-compliance`
+- `Moore Norman Bing Map.png` → `needs-review`, `program-planning`, `events-and-conferences`
+- `Moore Norman Return Bing Map.png` → `needs-review`, `program-planning`
+- `NAF Next 2026.pdf` → `events-and-conferences`, `needs-review`, `program-planning`, `professional-development`, `purchasing-operations`, `financial-administration`
+- `NAF Next Meeting (1).pdf` → `events-and-conferences`, `program-planning`, `needs-review`, `workforce-pathways`
+- `NICHQ Teacher.pdf` → `needs-review`, `health-compliance`
+- `Non Awarded 2.pdf` → `procurement-compliance`, `conference-travel`, `vendor-management`, `purchasing-operations`, `financial-administration`, `needs-review`
+- `Non Awarded Vendor Quotes/BE Publishing Non Awarded Vendor Approved.pdf` → `procurement-compliance`, `conference-travel`, `purchasing-operations`, `cte-summer-program`, `needs-review`
+- `Non Awarded Vendor Quotes/CTE QUOTE Dallas ISD Aug 26 2025 Digital 1 year with teacher tools MW.pdf` → `purchasing-operations`, `needs-review`, `events-and-conferences`
+- `Non Awarded Vendor Quotes/Davis Publications Non Awarded Vendor Approved.pdf` → `procurement-compliance`, `needs-review`, `conference-travel`
+- `Non Awarded Vendor Quotes/Goodheart Wilcox Non Awarded approved.pdf` → `procurement-compliance`, `needs-review`, `purchasing-operations`
+- `Non Awarded Vendor Quotes/Non Awarded Vendor Request McGraw Hill Approved.pdf` → `procurement-compliance`, `conference-travel`, `financial-administration`, `needs-review`, `purchasing-operations`, `vendor-management`
+- `Non Awarded Vendor Quotes/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf` → `procurement-compliance`, `workforce-pathways`, `purchasing-operations`, `needs-review`, `financial-administration`
+- `Non Awarded Vendor Quotes/Pearson Non Awarded Approved.pdf` → `procurement-compliance`, `workforce-pathways`, `needs-review`, `financial-administration`, `vendor-management`, `conference-travel`
+- `Non- Awarded 1.pdf` → `procurement-compliance`, `workforce-pathways`, `purchasing-operations`, `needs-review`
+- `Non-Awarded Vendor Forms approved 2/NCCER_Approved 09-12-2025.pdf` → `procurement-compliance`, `workforce-pathways`, `conference-travel`, `purchasing-operations`, `needs-review`
+- `Non-Awarded Vendor Forms approved/CLNA␠/2026-27-clna-guidebook.pdf` → `needs-review`, `procurement-compliance`, `workforce-pathways`, `health-compliance`, `program-planning`
+- `Non-Awarded Vendor Forms approved/CLNA␠/SC5600 Comprehensive Local Needs Assessment blank.pdf (SECURED).pdf` → `needs-review`, `procurement-compliance`, `workforce-pathways`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Admin 101_CTE Terms Glossary.docx` → `needs-review`, `workforce-pathways`, `cte-summer-program`, `health-compliance`, `student-services`, `industry-certifications`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Advisory Council Resources/Advisory Councils from Year 1.docx` → `needs-review`, `workforce-pathways`, `program-planning`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Advisory Council Resources/WBL Cheat Sheet.docx` → `needs-review`, `workforce-pathways`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/CTE Admin 101-Slide Deck.pptx` → `needs-review`, `health-compliance`, `workforce-pathways`, `professional-development`, `procurement-compliance`, `program-planning`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Program Management/ACTE HQ Frameworks.pdf` → `needs-review`, `health-compliance`, `cte-summer-program`, `student-services`, `workforce-pathways`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Mentor Sample Program.pdf` → `cte-summer-program`, `needs-review`, `financial-administration`, `professional-development`, `events-and-conferences`, `program-planning`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE New Teacher Professional Development Plan.pdf` → `needs-review`, `professional-development`, `program-planning`, `events-and-conferences`, `workforce-pathways`, `procurement-compliance`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Prof Growth Plan.pdf` → `professional-development`, `needs-review`, `program-planning`, `workforce-pathways`, `events-and-conferences`, `cte-summer-program`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Required Certification by Program.xlsx` → `procurement-compliance`, `cte-summer-program`, `workforce-pathways`, `needs-review`, `health-compliance`, `events-and-conferences`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/Advisory Councils from Year 1.pdf` → `needs-review`, `program-planning`, `workforce-pathways`, `cte-summer-program`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/Sample CTE Equipment Request Form.pdf` → `procurement-compliance`, `needs-review`, `cte-summer-program`, `purchasing-operations`
+- `OneDrive_2_12-9-2025.zip.unpacked/12 Effective Tier 1 Instructional Strategies.docx` → `student-services`, `needs-review`, `events-and-conferences`, `summer-pd`, `workforce-pathways`
+- `OneDrive_2_12-9-2025.zip.unpacked/Directions for High School Scope  Sequence.pdf` → `needs-review`, `financial-administration`, `events-and-conferences`, `industry-certifications`, `program-planning`
+- `OneDrive_2_12-9-2025.zip.unpacked/Sample AI Prompt for Intervention Planning.docx` → `needs-review`, `program-planning`, `student-services`
+- `OneDrive_2_12-9-2025.zip.unpacked/Sample CW Day.pdf` → `needs-review`, `cte-summer-program`, `program-planning`, `vendor-management`, `workforce-pathways`, `professional-development`
+- `OneDrive_2_12-9-2025.zip.unpacked/Scope and Sequence Template.xlsx` → `needs-review`, `student-services`, `financial-administration`, `events-and-conferences`, `workforce-pathways`, `summer-pd`
+- `PD Creation Department Supplemental Pay Approval Memo .pdf` → `procurement-compliance`, `professional-development`, `summer-pd`, `workforce-pathways`, `conference-travel`
+- `Penny King November 2025 PLC GES Meeting.pdf` → `needs-review`, `career-exploration`, `workforce-pathways`, `program-planning`
+- `Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `needs-review`, `student-services`, `health-compliance`, `workforce-pathways`, `cte-summer-program`, `procurement-compliance`
+- `Perkins-V-Funding-Distribution.pdf` → `needs-review`, `events-and-conferences`, `cte-summer-program`, `program-planning`
+- `PerkinsV_CLNA_Template_ Guide.pdf` → `needs-review`, `procurement-compliance`, `health-compliance`, `student-services`
+- `Proclamation 2024_Preliminary Findings of the State Review Panel.pdf` → `needs-review`, `workforce-pathways`, `cte-summer-program`
+- `Sample AI Prompt for Intervention Planning.pdf` → `needs-review`, `program-planning`, `workforce-pathways`
+- `Sample CW Day.pdf` → `cte-summer-program`, `needs-review`, `vendor-management`, `workforce-pathways`, `program-planning`, `professional-development`
+- `Scope and Sequence Template.pdf` → `needs-review`, `student-services`, `workforce-pathways`, `program-planning`, `events-and-conferences`
+- `Standard Operting Procedures-Perkins.pdf` → `needs-review`, `student-services`, `procurement-compliance`, `professional-development`, `program-planning`, `purchasing-operations`
+- `Tiva Milage (1).pdf` → `needs-review`, `events-and-conferences`, `health-compliance`, `program-planning`
+- `Tiva classes.pdf` → `professional-development`, `events-and-conferences`, `needs-review`, `student-services`, `procurement-compliance`
+- `Townview Floor Plan (1).jpg` → `needs-review`, `curriculum`, `student-services`, `procurement-compliance`, `cte-summer-program`
+- `Townview Floor Plan.jpg` → `needs-review`, `curriculum`, `student-services`, `procurement-compliance`
+- `Trustee_CTE_Pathway_Tracker 25-26.pdf` → `needs-review`, `financial-administration`, `workforce-pathways`
+- `Workscopes_ Step #1_ Stop_and_Jot_Reflection.pdf` → `procurement-compliance`, `needs-review`, `program-planning`, `ctso-activities`
+- `add_to_calendar.ics` → `needs-review`, `student-services`, `events-and-conferences`, `procurement-compliance`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (1).pdf` → `needs-review`, `workforce-pathways`, `procurement-compliance`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (3).pdf` → `workforce-pathways`, `procurement-compliance`, `needs-review`, `program-planning`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030-3.pdf` → `workforce-pathways`, `procurement-compliance`, `needs-review`, `cte-summer-program`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030.pdf` → `workforce-pathways`, `procurement-compliance`, `needs-review`, `industry-certifications`
+- `cte-indicator-auto-coder.pdf` → `needs-review`, `ctso-activities`, `cte-summer-program`, `health-compliance`, `procurement-compliance`
+- `dallasisd-c62186c3-6d83-472f-bc28-51c2d83d4ed9_SessionUsersTemplate.pdf` → `curriculum`, `needs-review`, `student-services`
+- `dallasisd-c806afc9-2f9e-49cd-ac0e-ef32f1f8d951_SessionUsersTemplate.pdf` → `curriculum`, `needs-review`, `student-services`
+- `eDynamic Quote - Principles of IT - 3YR - R. Howard_V1.pdf` → `purchasing-operations`, `needs-review`
+- `ibc-advisory-council-inventory-twc (1).pdf` → `workforce-pathways`, `needs-review`, `professional-development`, `industry-certifications`, `procurement-compliance`, `health-compliance`
+- `ibc-advisory-council-inventory-twc.pdf` → `workforce-pathways`, `needs-review`, `professional-development`, `industry-certifications`, `procurement-compliance`, `health-compliance`
+- `p2024-list-of-materials-adopted-by-sboe.pdf` → `needs-review`, `events-and-conferences`, `workforce-pathways`, `procurement-compliance`
+- `preliminary-2025-2030-ibc-to-program-of-study-crosswalk.pdf` → `workforce-pathways`, `cte-summer-program`, `procurement-compliance`, `needs-review`, `industry-certifications`, `program-planning`
+- `regional-labor-market-information-wda-5.pdf` → `workforce-pathways`, `needs-review`, `health-compliance`, `procurement-compliance`
+- `scan_lealittle_2025-12-03-13-39-47 (1).pdf` → `conference-travel`, `needs-review`, `financial-administration`, `events-and-conferences`
+- `scan_lealittle_2025-12-03-13-39-47 (2).pdf` → `conference-travel`, `needs-review`, `events-and-conferences`
+- `scan_lealittle_2025-12-03-13-39-47.pdf` → `conference-travel`, `needs-review`, `financial-administration`, `events-and-conferences`
+
+### financial-administration (215)
+
+- `2018_TaxReturn (1).pdf` → `events-and-conferences`, `needs-review`
+- `2023_TaxReturn (1).pdf` → `needs-review`, `events-and-conferences`
+- `2023_TaxReturn (2).pdf` → `events-and-conferences`, `needs-review`
+- `2024 Dallas ISD W2 (2).pdf` → `needs-review`, `health-compliance`
+- `2024 Dallas ISD W2.pdf` → `needs-review`, `immunization`
+- `2024 Kemp ISD W2 (1).pdf` → `needs-review`, `health-compliance`
+- `2024 Kemp ISD W2.pdf` → `needs-review`, `procurement-compliance`
+- `25-26 CI North .pdf` → `career-exploration`, `needs-review`, `health-compliance`, `workforce-pathways`, `industry-certifications`, `student-services`
+- `26-27 CI Copy of Bell Schedule.docx.pdf` → `events-and-conferences`, `needs-review`, `career-exploration`
+- `26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `needs-review`, `career-exploration`, `student-services`, `professional-development`, `health-compliance`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf` → `needs-review`, `academic-programs`, `cte-summer-program`, `events-and-conferences`, `student-services`, `professional-development`
+- `ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf` → `needs-review`, `cte-summer-program`, `academic-programs`, `procurement-compliance`
+- `Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf` → `student-services`, `needs-review`, `health-compliance`, `procurement-compliance`, `workforce-pathways`, `professional-development`
+- `CTE Framework 26.pdf` → `academic-programs`, `workforce-pathways`, `program-planning`, `events-and-conferences`, `ctso-activities`, `needs-review`
+- `CTE Framework.pdf` → `academic-programs`, `workforce-pathways`, `events-and-conferences`, `program-planning`, `needs-review`, `health-compliance`
+- `CTE Lead.pdf` → `procurement-compliance`, `needs-review`, `cte-summer-program`, `professional-development`, `industry-certifications`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (9).png` → `summer-pd`, `procurement-compliance`, `needs-review`, `events-and-conferences`, `curriculum`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (9).png` → `summer-pd`, `curriculum`, `career-exploration`, `needs-review`, `events-and-conferences`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (9).png` → `summer-pd`, `procurement-compliance`, `events-and-conferences`, `needs-review`, `curriculum`
+- `CTE-Standard Operating Procedures/2026-27 Dallas ISD CTE CTSO Handbook.docx` → `events-and-conferences`, `academic-programs`, `ctso-activities`, `needs-review`, `procurement-compliance`, `health-compliance`
+- `CTE-Standard Operating Procedures/Campus Lead Teacher Program.pdf` → `needs-review`, `cte-summer-program`, `procurement-compliance`, `academic-programs`
+- `CTE-Standard Operating Procedures/Standard Operting Procedures-Perkins.pdf` → `needs-review`, `procurement-compliance`, `purchasing-operations`, `professional-development`, `conference-travel`, `program-planning`
+- `Career Institute North - Raw Data Entries (1).pdf` → `career-exploration`, `needs-review`, `health-compliance`, `workforce-pathways`
+- `Career Institute North - Raw Data Entries.pdf` → `career-exploration`, `needs-review`, `health-compliance`, `workforce-pathways`
+- `Certiport Conference Preauthorization, Agenda, Badge, Parking Receipts, and bank statement-Palmer.pdf` → `events-and-conferences`, `workforce-pathways`, `conference-travel`, `needs-review`, `professional-development`
+- `CollabFoodReceipt.jpg` → `needs-review`
+- `CollabRentalCareReceipt.pdf` → `needs-review`, `student-services`
+- `Considerations for 2026–27 and Future Cohorts  CCMR Notecatcher.pdf` → `needs-review`, `workforce-pathways`, `program-planning`
+- `Copy of Spring Stipend CTE-additions 2026.pdf` → `needs-review`
+- `Copy of ibc-advisory-council-inventory-twc.pdf` → `workforce-pathways`, `academic-programs`, `needs-review`
+- `D. Johnson complete naf documents .pdf` → `events-and-conferences`, `conference-travel`, `needs-review`, `procurement-compliance`, `student-services`, `professional-development`
+- `DIAZ_TIVA_GRANT TRAVEL FORMS _SIGNED.pdf` → `summer-pd`, `events-and-conferences`, `career-exploration`, `conference-travel`, `student-services`, `professional-development`
+- `DISD_EMS_Student_Profile_5_26_26.pdf` → `cte-summer-program`, `health-compliance`, `needs-review`, `procurement-compliance`, `career-exploration`, `workforce-pathways`
+- `DSC_6946-Enhanced-NR.jpg` → `cte-summer-program`, `health-compliance`, `needs-review`, `procurement-compliance`, `events-and-conferences`
+- `DSC_7046-Enhanced-NR.jpg` → `needs-review`, `health-compliance`
+- `DSC_7046-Enhanced-NR[89].jpg.jpeg` → `needs-review`, `health-compliance`
+- `Dallas ISD Garner A&P 1 year Estimate_316614.pdf` → `purchasing-operations`, `needs-review`, `health-compliance`, `academic-programs`, `cte-summer-program`
+- `Documents/12.21  CTE Lead Teacher.pdf` → `needs-review`
+- `Documents/2024-25 Bell Schedule_CI South.docx.pdf` → `events-and-conferences`, `needs-review`
+- `Documents/244 Sitipend 2026/Amaning Completed-Supplemental_form.pdf (SECURED).pdf` → `procurement-compliance`, `academic-programs`, `workforce-pathways`, `summer-pd`, `needs-review`
+- `Documents/244 Sitipend 2026/Amaning-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `procurement-compliance`, `needs-review`, `academic-programs`, `conference-travel`, `summer-pd`, `events-and-conferences`
+- `Documents/244 Sitipend 2026/Archie-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `procurement-compliance`, `needs-review`, `academic-programs`, `summer-pd`, `conference-travel`, `workforce-pathways`
+- `Documents/244 Sitipend 2026/Benagh-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `procurement-compliance`, `needs-review`, `student-services`, `professional-development`, `conference-travel`, `workforce-pathways`
+- `Documents/244 Sitipend 2026/Copy of CTE Lead Teacher Stipends (Fall 2025).pdf` → `needs-review`, `cte-summer-program`
+- `Documents/244 Sitipend 2026/Coyle-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `procurement-compliance`, `needs-review`, `academic-programs`, `professional-development`, `conference-travel`
+- `Documents/244 Sitipend 2026/Hamilton-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `procurement-compliance`, `needs-review`, `student-services`, `workforce-pathways`, `industry-certifications`
+- `Documents/244 Sitipend 2026/Jones-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `procurement-compliance`, `needs-review`, `academic-programs`, `summer-pd`, `conference-travel`, `events-and-conferences`
+- `Documents/244 Sitipend 2026/Kalat-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `procurement-compliance`, `needs-review`, `academic-programs`, `workforce-pathways`
+- `Documents/244 Sitipend 2026/MRodriguez-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `needs-review`, `workforce-pathways`, `conference-travel`, `summer-pd`, `professional-development`, `procurement-compliance`
+- `Documents/244 Sitipend 2026/Maxwell-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `procurement-compliance`, `needs-review`, `academic-programs`, `workforce-pathways`, `summer-pd`, `professional-development`
+- `Documents/244 Sitipend 2026/SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `needs-review`, `professional-development`, `conference-travel`, `procurement-compliance`, `events-and-conferences`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.2.pdf` → `needs-review`, `curriculum`, `events-and-conferences`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.pdf` → `needs-review`
+- `Documents/244 Sitipend 2026/Williams-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `procurement-compliance`, `needs-review`, `student-services`, `workforce-pathways`
+- `Documents/26-27 TraditionalCalendar-Traditional2026-2027.pdf` → `events-and-conferences`, `needs-review`, `professional-development`, `health-compliance`, `summer-pd`
+- `Documents/78992911509__7D2691A3-B2A3-4860-A0CD-4AB3D25CEB37.jpg` → `needs-review`
+- `Documents/ACTE Nashville AA.pdf` → `needs-review`, `events-and-conferences`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Mentor Sample Program.pdf` → `cte-summer-program`, `needs-review`, `professional-development`, `events-and-conferences`, `program-planning`
+- `Documents/ACTE Vision 2025/Admin 101/Directions for High School Scope  Sequence (2).pdf` → `needs-review`, `academic-programs`, `events-and-conferences`, `workforce-pathways`, `program-planning`
+- `Documents/ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf` → `needs-review`, `academic-programs`, `student-services`, `program-planning`, `workforce-pathways`, `cte-summer-program`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf` → `needs-review`, `cte-summer-program`, `academic-programs`, `procurement-compliance`
+- `Documents/ANG-DISD Adamson HS Air Compressor Equipment Repairs_Quote_20262603AD.pdf` → `needs-review`, `procurement-compliance`, `purchasing-operations`, `academic-programs`, `health-compliance`
+- `Documents/Adopted Materiall Quotes␠/ACTE Visin 2025 Grant_Funded Travel Authorization Form- ACTE 2025 copy.pdf` → `events-and-conferences`, `conference-travel`, `professional-development`, `needs-review`, `procurement-compliance`
+- `Documents/Adopted Materiall Quotes␠/CTE QUOTE Dallas ISD Aug 26 2025 Digital 1 year with teacher tools MW.pdf` → `purchasing-operations`, `needs-review`, `cte-summer-program`, `events-and-conferences`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD A&P revised seat number Estimate_316614.pdf` → `purchasing-operations`, `needs-review`, `academic-programs`, `health-compliance`, `events-and-conferences`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 1 year Estimate_375613.pdf` → `purchasing-operations`, `needs-review`, `academic-programs`
+- `Documents/Adopted Materiall Quotes␠/Non Awarded Vendor Request McGraw Hill Approved.pdf` → `procurement-compliance`, `academic-programs`, `conference-travel`, `purchasing-operations`, `needs-review`
+- `Documents/Adopted Materiall Quotes␠/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf` → `procurement-compliance`, `conference-travel`, `workforce-pathways`, `academic-programs`, `purchasing-operations`, `vendor-management`
+- `Documents/Adopted Materiall Quotes␠/Pearson Non Awarded Approved.pdf` → `procurement-compliance`, `vendor-management`, `purchasing-operations`, `academic-programs`, `needs-review`
+- `Documents/Affiliated Agreements/Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2)[18].pdf` → `student-services`, `health-compliance`, `procurement-compliance`, `needs-review`
+- `Documents/CNA QR Sheet 2a_Stakeholder Involvement by Program-1.pdf` → `needs-review`, `cte-summer-program`, `events-and-conferences`, `academic-programs`
+- `Documents/CTE Lead Teacher Stipends (Fall 2025).pdf` → `needs-review`, `events-and-conferences`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.docx.pdf` → `procurement-compliance`, `cte-summer-program`, `needs-review`, `workforce-pathways`, `professional-development`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.pdf` → `procurement-compliance`, `cte-summer-program`, `needs-review`, `events-and-conferences`, `workforce-pathways`, `health-compliance`
+- `Documents/Conference Travel/JEREMY SPENCE_ACTE VISION 2025_TRAVEL AUTHORIZATION - signed.pdf` → `events-and-conferences`, `needs-review`, `conference-travel`, `professional-development`
+- `Documents/Conference Travel/Jspence Hotel.pdf` → `events-and-conferences`, `needs-review`
+- `Documents/Conference Travel/Moore Norman Smoothie king.jpg` → `needs-review`
+- `Documents/Conference Travel/SRFM Travel Expense Report Checklist.pdf` → `events-and-conferences`, `procurement-compliance`, `student-services`, `needs-review`
+- `Documents/Conference Travel/Uber 1 Nashville .pdf` → `needs-review`, `events-and-conferences`
+- `Documents/Conference Travel/Uber 2 Nashville.pdf` → `needs-review`, `events-and-conferences`
+- `Documents/Conference Travel/Uber 3 Nashville.pdf` → `needs-review`, `events-and-conferences`
+- `Documents/Conference Travel/Uber 4 Nashville.pdf` → `needs-review`, `events-and-conferences`
+- `Documents/Conference Travel/Uber 5 Nashville.pdf` → `needs-review`, `events-and-conferences`
+- `Documents/Conference Travel/Uber receipts .pdf` → `needs-review`, `events-and-conferences`
+- `Documents/Copy of 12.21  CTE Lead Teacher.pdf` → `needs-review`
+- `Documents/New Stipend Request Form[29].pdf` → `workforce-pathways`, `needs-review`
+- `Documents/New Stipend Request Form[81].pdf` → `workforce-pathways`, `procurement-compliance`
+- `Documents/Norman Moore Grant_Funded Travel Authorization Form.pdf` → `events-and-conferences`, `professional-development`, `needs-review`, `procurement-compliance`, `student-services`
+- `Documents/Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `needs-review`, `health-compliance`, `workforce-pathways`, `procurement-compliance`, `academic-programs`
+- `Documents/Perkins Travel/SRFM Meal Reimbursement Guide - Revised.10.14.2025[38].pdf` → `events-and-conferences`, `needs-review`, `student-services`, `procurement-compliance`
+- `Documents/Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf` → `events-and-conferences`, `procurement-compliance`, `health-compliance`
+- `Documents/Procurement Codes .pdf` → `procurement-compliance`, `purchasing-operations`, `needs-review`, `health-compliance`
+- `Documents/Townview Business School Leadership Campus Field Trip Proposal[17].pdf` → `needs-review`, `events-and-conferences`, `cte-summer-program`, `student-services`
+- `Documents/iSupplierPortalQuickReferenceCard-NewProspectiveSuppliersRegistration.pdf` → `needs-review`, `procurement-compliance`
+- `EMT：EMR/26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `needs-review`, `career-exploration`, `health-compliance`, `professional-development`, `procurement-compliance`
+- `EMT：EMR/Signed NAF Forms 26.pdf` → `events-and-conferences`, `conference-travel`, `student-services`, `professional-development`, `procurement-compliance`, `needs-review`
+- `Hotel receipt.pdf` → `needs-review`, `events-and-conferences`
+- `IMG_0899.jpg` → `needs-review`
+- `IMG_3618.jpeg` → `needs-review`
+- `IMG_4417.jpeg` → `needs-review`
+- `IMG_4433.jpeg` → `needs-review`, `health-compliance`
+- `IMG_4472.jpg` → `needs-review`, `events-and-conferences`, `curriculum`, `procurement-compliance`
+- `IMG_4488.jpeg` → `needs-review`
+- `IMG_4495.jpeg` → `needs-review`, `health-compliance`
+- `IMG_4516.jpeg` → `needs-review`
+- `Ihope explanation TIVA (1).pdf` → `needs-review`, `cte-summer-program`
+- `Ihope explanation TIVA.pdf` → `needs-review`, `cte-summer-program`
+- `J. Spann.pdf` → `events-and-conferences`, `workforce-pathways`, `needs-review`, `student-services`, `procurement-compliance`, `professional-development`
+- `Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED) (3).pdf` → `events-and-conferences`, `conference-travel`, `professional-development`, `procurement-compliance`
+- `Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED).pdf` → `events-and-conferences`, `conference-travel`, `professional-development`, `needs-review`
+- `Johnson July hourlysupplementaltimecard.pdf` → `needs-review`, `professional-development`, `health-compliance`
+- `KGeorgeCTELeadTeacherStipendAgreement11.13.25 (1).pdf` → `procurement-compliance`, `workforce-pathways`, `needs-review`, `professional-development`, `program-planning`, `cte-summer-program`
+- `KGeorgeCTELeadTeacherStipendAgreement11.13.25.pdf` → `procurement-compliance`, `workforce-pathways`, `needs-review`, `professional-development`, `cte-summer-program`
+- `KGeorgeIBCTrainingSignIn3.25.26.pdf` → `needs-review`, `professional-development`, `workforce-pathways`, `events-and-conferences`, `cte-summer-program`
+- `Kenna Address Verification.jpeg` → `needs-review`, `health-compliance`
+- `Lead Teacher/CTE Lead Teacher Agreement.pdf` → `student-services`, `procurement-compliance`, `cte-summer-program`, `needs-review`, `professional-development`, `industry-certifications`
+- `Lead Teacher/CTE Lead Teacher.pdf` → `procurement-compliance`, `cte-summer-program`, `needs-review`, `workforce-pathways`, `professional-development`
+- `Lead Teacher/original-4128F740-F01F-467F-97DF-B744898FC450.jpeg` → `procurement-compliance`, `events-and-conferences`, `needs-review`, `industry-certifications`, `health-compliance`
+- `NAF Hotel.pdf` → `needs-review`, `events-and-conferences`
+- `NAF Next 2026.pdf` → `events-and-conferences`, `needs-review`, `program-planning`, `professional-development`, `purchasing-operations`, `workforce-pathways`
+- `NAF reciepts (1).pdf` → `events-and-conferences`, `needs-review`
+- `Non Awarded 2.pdf` → `procurement-compliance`, `conference-travel`, `academic-programs`, `vendor-management`, `purchasing-operations`, `needs-review`
+- `Non Awarded Vendor Quotes/Non Awarded Vendor Request McGraw Hill Approved.pdf` → `procurement-compliance`, `academic-programs`, `conference-travel`, `needs-review`, `purchasing-operations`, `vendor-management`
+- `Non Awarded Vendor Quotes/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf` → `procurement-compliance`, `workforce-pathways`, `purchasing-operations`, `academic-programs`, `needs-review`
+- `Non Awarded Vendor Quotes/Pearson Non Awarded Approved.pdf` → `procurement-compliance`, `workforce-pathways`, `academic-programs`, `needs-review`, `vendor-management`, `conference-travel`
+- `Non-Awarded Vendor Forms approved/CompTia.pdf` → `procurement-compliance`, `conference-travel`, `needs-review`, `workforce-pathways`, `purchasing-operations`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Mentor Sample Program.pdf` → `cte-summer-program`, `needs-review`, `professional-development`, `events-and-conferences`, `program-planning`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Required Certification by Program.xlsx` → `procurement-compliance`, `academic-programs`, `cte-summer-program`, `workforce-pathways`, `needs-review`, `health-compliance`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/ACTE Advisory Council Support Menu.pdf` → `needs-review`, `workforce-pathways`, `student-services`, `cte-summer-program`
+- `OneDrive_2_12-9-2025.zip.unpacked/Directions for High School Scope  Sequence.pdf` → `needs-review`, `academic-programs`, `events-and-conferences`, `industry-certifications`, `program-planning`
+- `OneDrive_2_12-9-2025.zip.unpacked/Employability_Skills_Framework_OnePager_20180212.pdf` → `student-services`, `workforce-pathways`, `needs-review`
+- `OneDrive_2_12-9-2025.zip.unpacked/Program Coherent Sequence.docx` → `cte-summer-program`, `needs-review`, `industry-certifications`, `professional-development`, `procurement-compliance`
+- `OneDrive_2_12-9-2025.zip.unpacked/Scope and Sequence Template.xlsx` → `needs-review`, `academic-programs`, `student-services`, `events-and-conferences`, `workforce-pathways`, `summer-pd`
+- `Penny King October 2025 PLC GES Meeting.pdf` → `needs-review`, `career-exploration`, `professional-development`
+- `Perkins Travel/SRFM Meal Reimbursement Guide - Revised.10.14.2025[38].pdf` → `procurement-compliance`, `needs-review`, `events-and-conferences`, `student-services`
+- `Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf` → `events-and-conferences`, `student-services`, `health-compliance`, `procurement-compliance`, `professional-development`
+- `Program Coherent Sequence.pdf` → `cte-summer-program`, `needs-review`, `industry-certifications`
+- `Receipt _ DALLAS ISD.pdf` → `events-and-conferences`, `needs-review`, `purchasing-operations`
+- `Sanso 25-26 CTE Lead Teacher Stipend Agreement.pdf` → `workforce-pathways`, `cte-summer-program`, `needs-review`
+- `SouthwestReturnCollabTripAustin (1).pdf` → `needs-review`, `events-and-conferences`, `health-compliance`, `cte-summer-program`
+- `SouthwestReturnCollabTripAustin (2).pdf` → `needs-review`, `events-and-conferences`, `health-compliance`
+- `Spence-Uber-NAF Conference (1).pdf` → `needs-review`
+- `Spring Stipend CTE-additions 2026.pdf` → `needs-review`, `events-and-conferences`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779988892711 - Natalia Blas.pdf` → `health-compliance`, `immunization`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779989270536 - Emily Collins.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779989419214 - Allison Garcia.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779989820280 - Ariana Gomez Artica.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990207966 - Ana Rivera.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990494836 - Paula Rocabruno Torralba.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990589182 - Gabriella Nunez 1.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991060777 - Jayde Morales.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991314944 - Treynahdee Washington.pdf` → `health-compliance`, `needs-review`, `procurement-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991580729 - Gabriela Gurrola.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779987132611 - Marilyn Almonaci.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779988804972 - Melissa Alonso.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779988892711 - Natalia Blas.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989419214 - Allison Garcia.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989820280 - Ariana Gomez Artica.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990127878 - Alexis Guereca.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990207966 - Ana Rivera.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990990829 - Cinthia Santoyo.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991060777 - Jayde Morales.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991243234 - Isabella Guerrero.pdf` → `health-compliance`, `needs-review`, `events-and-conferences`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991314944 - Treynahdee Washington.pdf` → `health-compliance`, `needs-review`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991987508 - Angie Gonzalez.pdf` → `immunization`, `health-compliance`, `needs-review`
+- `Student+Code+of+Conduct.pdf` → `health-compliance`, `needs-review`
+- `Supplemental_form.pdf` → `procurement-compliance`, `needs-review`, `summer-pd`, `conference-travel`
+- `TIVA SIGNED TRAVEL AUTH. - WOOD.jpg` → `events-and-conferences`, `summer-pd`, `professional-development`, `conference-travel`, `needs-review`
+- `Transportation Receipt 1 (1).pdf` → `needs-review`
+- `Transportation Receipt 1.pdf` → `needs-review`
+- `Transportation Receipt 2.pdf` → `needs-review`, `procurement-compliance`
+- `Travel Authorization Form_Demars Officer Training Camp_4.10.25.pdf` → `events-and-conferences`, `needs-review`, `professional-development`
+- `Travel Reconcile NLSC - Agenda.pdf` → `events-and-conferences`, `needs-review`
+- `Travel Reconcile NLSC - Arta.pdf` → `events-and-conferences`, `needs-review`
+- `Travel Reconcile NLSC - Lodging.pdf` → `needs-review`, `events-and-conferences`, `health-compliance`
+- `Trustee_CTE_Pathway_Tracker 25-26.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`
+- `Untitled document.pdf` → `needs-review`
+- `hourlysupplementaltimecard.pdf` → `needs-review`
+- `receipt_3753bb7b-ce7f-4d0d-aa08-a0855cc82eb2.pdf` → `needs-review`
+- `receipt_794bfc62-f72b-4f6c-af27-9092300445dc (1).pdf` → `needs-review`
+- `receipt_c88da51b-4d66-4f7d-93a2-a76e949fab6c (1).pdf` → `needs-review`
+- `scan_carmalone_2025-07-31-09-22-17.pdf` → `needs-review`, `summer-pd`, `events-and-conferences`, `professional-development`, `health-compliance`
+- `scan_carmalone_2025-07-31-11-27-56 (1).pdf` → `needs-review`
+- `scan_carmalone_2025-07-31-11-27-56.pdf` → `needs-review`, `health-compliance`, `events-and-conferences`
+- `scan_lealittle_2025-12-03-13-39-47 (1).pdf` → `conference-travel`, `academic-programs`, `needs-review`, `events-and-conferences`
+- `scan_lealittle_2025-12-03-13-39-47.pdf` → `conference-travel`, `needs-review`, `academic-programs`, `events-and-conferences`
+- `tiva 2/7-13-2025.pdf` → `needs-review`
+- `tiva 2/7-14-2025.pdf` → `needs-review`, `health-compliance`
+- `tiva 2/7-15-2025.pdf` → `needs-review`
+- `tiva 2/7-16-2025.pdf` → `needs-review`
+- `tiva 2/7-17-2025.pdf` → `needs-review`
+- `tiva 2/7-18-2025.pdf` → `needs-review`
+- `tiva 3/7-13-2025.pdf` → `needs-review`
+- `tiva 3/7-14-2025.pdf` → `needs-review`, `health-compliance`
+- `tiva 3/7-15-2025.pdf` → `needs-review`
+- `tiva 3/7-16-2025.pdf` → `needs-review`, `cte-summer-program`
+- `tiva 3/7-17-2025.pdf` → `needs-review`, `procurement-compliance`, `events-and-conferences`
+- `tiva 3/7-18-2025.pdf` → `needs-review`
+- `tiva 4/7-13-2025.pdf` → `needs-review`
+- `tiva 4/7-14-2025.pdf` → `needs-review`
+- `tiva 4/7-15-2025.pdf` → `needs-review`
+- `tiva 4/7-16-2025.pdf` → `needs-review`
+- `tiva 4/7-17-2025.pdf` → `needs-review`, `health-compliance`
+- `tiva 4/7-18-2025.pdf` → `needs-review`
+- `tiva.zip.unpacked/7-14-2025.pdf` → `needs-review`
+- `tiva.zip.unpacked/7-15-2025.pdf` → `needs-review`
+- `tiva.zip.unpacked/7-16-2025.pdf` → `needs-review`
+- `tiva.zip.unpacked/7-17-2025.pdf` → `needs-review`
+- `tiva.zip.unpacked/7-18-2025.pdf` → `needs-review`
+- `tiva/7-13-2025.pdf` → `needs-review`
+- `tiva/7-14-2025.pdf` → `needs-review`
+- `tiva/7-15-2025.pdf` → `needs-review`
+- `tiva/7-16-2025.pdf` → `needs-review`, `health-compliance`
+- `tiva/7-17-2025.pdf` → `needs-review`, `health-compliance`
+- `tiva/7-18-2025.pdf` → `needs-review`
+
+### student-services (180)
+
+- `2025 CTE Summer PD Feedback.pdf` → `summer-pd`, `professional-development`, `workforce-pathways`, `needs-review`, `events-and-conferences`, `health-compliance`
+- `25-26 CI North .pdf` → `career-exploration`, `needs-review`, `health-compliance`, `workforce-pathways`, `financial-administration`, `industry-certifications`
+- `26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `financial-administration`, `needs-review`, `career-exploration`, `professional-development`, `health-compliance`
+- `2nd floor map.png` → `needs-review`, `curriculum`, `summer-pd`
+- `3. Board Document 250357-version 2.pdf` → `needs-review`, `workforce-pathways`, `procurement-compliance`, `career-exploration`
+- `3. Board Document 250357[69].pdf` → `needs-review`, `workforce-pathways`, `cte-summer-program`, `procurement-compliance`, `career-exploration`
+- `ACTE Vision 2025/65684178-BD76-0A08-B60B-BE1C34BFECD62025121015413396.pdf` → `needs-review`, `professional-development`
+- `ACTE Vision 2025/656A76EE-B68A-D444-6762-21010FD3F29C2025121015414842.pdf` → `needs-review`, `professional-development`
+- `ACTE Vision 2025/656CE590-B6F4-2F08-5A50-B7FB55AB15F82025121015420436.pdf` → `needs-review`
+- `ACTE Vision 2025/656EE0EE-B956-47AB-F3B8-A54C3E8E641B20251210154217363.pdf` → `procurement-compliance`, `needs-review`, `health-compliance`, `academic-programs`, `professional-development`
+- `ACTE Vision 2025/65716A4D-B4E2-7383-94EF-7EDF54BFC4E120251210154233987.pdf` → `needs-review`, `professional-development`
+- `ACTE Vision 2025/65754B6A-EF78-CE75-65F6-D456EA8547462025121015425945.pdf` → `needs-review`, `procurement-compliance`, `events-and-conferences`
+- `ACTE Vision 2025/6579DB74-F008-599E-5ED8-2CEC15E80EA820251210154329313.pdf` → `needs-review`, `professional-development`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf` → `needs-review`, `academic-programs`, `cte-summer-program`, `financial-administration`, `events-and-conferences`, `professional-development`
+- `ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf` → `needs-review`, `summer-pd`, `academic-programs`, `events-and-conferences`
+- `ACTE Vision 2025/Admin 101/Advisory Council.pdf` → `needs-review`, `workforce-pathways`, `academic-programs`
+- `ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `program-planning`, `curriculum`
+- `ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf` → `needs-review`, `professional-development`, `events-and-conferences`
+- `ACTE Vision 2025/The Art of Coaching/Do we Need a Team.pdf` → `needs-review`, `workforce-pathways`, `professional-development`
+- `ACTE Vision 2025/The Art of Coaching/Example of a Team's Communication Agreements.pdf` → `needs-review`, `procurement-compliance`, `professional-development`
+- `ACTE Vision 2025/The Art of Coaching/Indicators of a Team's Emotional Intelligence.pdf` → `needs-review`, `professional-development`
+- `ACTE Vision 2025/The Art of Coaching/Indicators of an Effective Team.pdf` → `professional-development`, `needs-review`, `academic-programs`
+- `ACTE Vision 2025/The Art of Coaching/Team Member Roles and Responsibilities.pdf` → `needs-review`, `procurement-compliance`
+- `ACTE Vision 2025/The Art of Coaching/Team Temperature Check.pdf` → `health-compliance`, `professional-development`, `needs-review`, `academic-programs`
+- `ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf` → `needs-review`, `workforce-pathways`, `professional-development`, `events-and-conferences`
+- `Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf` → `needs-review`, `health-compliance`, `financial-administration`, `procurement-compliance`, `workforce-pathways`, `professional-development`
+- `Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf (SECURED).pdf` → `needs-review`, `health-compliance`
+- `Baylor Scott & Whote MAA 2028 08.09.23.pdf` → `needs-review`, `health-compliance`, `procurement-compliance`, `cte-summer-program`
+- `C.Seay- 2025 Certified Educator Conference - signed.pdf` → `events-and-conferences`, `health-compliance`
+- `CLNA 26-27/PerkinsV_CLNA_Template_ Guide.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`
+- `CLNA Guiding Questions (2).pdf` → `needs-review`, `health-compliance`, `academic-programs`, `workforce-pathways`, `cte-summer-program`, `professional-development`
+- `CLNA Guiding Questions.pdf` → `needs-review`, `health-compliance`, `academic-programs`, `workforce-pathways`, `cte-summer-program`, `professional-development`
+- `COZART_TIVA GRANT TRAVEL DOCS - signed (1).pdf` → `conference-travel`, `health-compliance`, `needs-review`, `procurement-compliance`
+- `CPAL_DISD_MOU_SowingSeeds (3).pdf` → `needs-review`, `health-compliance`, `workforce-pathways`
+- `CTAT Summer 26_Agenda_062926.pdf` → `summer-pd`, `events-and-conferences`, `cte-summer-program`, `needs-review`
+- `CTE Admin 102-Slide Deck.pdf` → `needs-review`, `cte-summer-program`
+- `CTE PD 6.1.26.pdf` → `needs-review`, `events-and-conferences`, `professional-development`, `summer-pd`
+- `CTE Summer PD 2026/Copy of Cooperative Learning in CTE.pdf` → `summer-pd`, `needs-review`, `professional-development`
+- `CTE Summer PD 2026/We are CTE.pdf` → `professional-development`, `needs-review`, `career-exploration`, `workforce-pathways`
+- `CTE TEAM (1).png` → `needs-review`, `cte-summer-program`, `workforce-pathways`, `health-compliance`, `academic-programs`, `conference-travel`
+- `CTE_Meeting_Agenda_Updated (1).pdf` → `summer-pd`, `events-and-conferences`, `needs-review`, `professional-development`
+- `CTE_Meeting_Agenda_Updated.pdf` → `summer-pd`, `needs-review`, `events-and-conferences`, `professional-development`
+- `CollabRentalCareReceipt.pdf` → `financial-administration`, `needs-review`
+- `Copy of 26-27 Academic Services Deck Template  (1).pdf` → `academic-programs`, `curriculum`, `summer-pd`, `needs-review`, `professional-development`
+- `Copy of 26-27 Academic Services Deck Template .pdf` → `academic-programs`, `curriculum`, `summer-pd`, `needs-review`, `professional-development`
+- `Copy of CTE PLC Agendas (1) (1).pdf` → `events-and-conferences`, `conference-travel`, `professional-development`, `workforce-pathways`, `needs-review`, `program-planning`
+- `Copy of CTE PLC Agendas (1).pdf` → `events-and-conferences`, `conference-travel`, `professional-development`, `workforce-pathways`, `needs-review`, `industry-certifications`
+- `Cornerstone_Session_Roster_Report_7_20_12 AM.pdf` → `needs-review`, `events-and-conferences`, `professional-development`
+- `Cornerstone_Session_Signin-10_12_2025 (1).pdf` → `needs-review`, `professional-development`, `academic-programs`, `events-and-conferences`
+- `Cornerstone_Session_Signin-10_12_2025.pdf` → `needs-review`, `professional-development`, `academic-programs`, `events-and-conferences`
+- `Cornerstone_Session_Signin-1_14_2026.pdf` → `events-and-conferences`, `workforce-pathways`, `professional-development`, `needs-review`, `academic-programs`
+- `Cornerstone_Session_Signin-1_5_2026 (1).pdf` → `needs-review`, `summer-pd`, `professional-development`, `workforce-pathways`
+- `Cornerstone_Session_Signin-1_5_2026 (3).pdf` → `needs-review`, `professional-development`, `workforce-pathways`, `academic-programs`, `events-and-conferences`
+- `Cornerstone_Session_Signin-1_5_2026 (4).pdf` → `professional-development`, `summer-pd`, `events-and-conferences`, `needs-review`, `workforce-pathways`
+- `Cornerstone_Session_Signin-1_5_2026.pdf` → `professional-development`, `needs-review`, `workforce-pathways`, `health-compliance`, `academic-programs`
+- `Cornerstone_Session_Signin-5_26_2026 (1).pdf` → `professional-development`, `workforce-pathways`, `events-and-conferences`, `needs-review`, `career-exploration`, `summer-pd`
+- `Cornerstone_Session_Signin-5_26_2026 (2).pdf` → `needs-review`, `professional-development`, `workforce-pathways`, `events-and-conferences`
+- `Cornerstone_Session_Signin-5_26_2026 (3).pdf` → `needs-review`, `events-and-conferences`, `workforce-pathways`, `professional-development`, `career-exploration`, `academic-programs`
+- `Cornerstone_Session_Signin-5_26_2026 (4).pdf` → `needs-review`, `events-and-conferences`, `professional-development`, `workforce-pathways`, `career-exploration`
+- `Cornerstone_Session_Signin-5_26_2026 (5).pdf` → `professional-development`, `workforce-pathways`, `events-and-conferences`, `career-exploration`, `needs-review`
+- `Cornerstone_Session_Signin-5_26_2026 (6).pdf` → `professional-development`, `workforce-pathways`, `events-and-conferences`, `career-exploration`, `needs-review`
+- `Cornerstone_Session_Signin-5_26_2026 (7).pdf` → `needs-review`, `events-and-conferences`, `workforce-pathways`, `professional-development`
+- `Cornerstone_Session_Signin-5_26_2026.pdf` → `needs-review`, `professional-development`, `workforce-pathways`, `events-and-conferences`, `career-exploration`, `summer-pd`
+- `Cornerstone_Session_Signin-5_29_2026.pdf` → `needs-review`, `events-and-conferences`, `professional-development`, `workforce-pathways`, `career-exploration`
+- `Cornerstone_Session_Signin-6_10_2026.pdf` → `needs-review`, `professional-development`, `career-exploration`, `summer-pd`, `academic-programs`, `events-and-conferences`
+- `Cornerstone_Session_Signin-6_9_2026.pdf` → `needs-review`, `events-and-conferences`, `professional-development`, `career-exploration`, `summer-pd`, `academic-programs`
+- `D. Johnson complete naf documents .pdf` → `events-and-conferences`, `financial-administration`, `conference-travel`, `needs-review`, `procurement-compliance`, `professional-development`
+- `DIAZ_TIVA_GRANT TRAVEL FORMS _SIGNED.pdf` → `summer-pd`, `events-and-conferences`, `career-exploration`, `conference-travel`, `financial-administration`, `professional-development`
+- `DISD_EMS_Student_Profile_5_26_26.pdf` → `cte-summer-program`, `health-compliance`, `needs-review`, `procurement-compliance`, `career-exploration`, `workforce-pathways`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/LYLA CAMERENA 04.16.2008 TB LAB RESULTS.pdf` → `health-compliance`, `needs-review`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/MARLEY MARROQUIN 07.08.2008 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`, `needs-review`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/NATALIA BLAS 05.21.2010 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`, `needs-review`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/TREYNAHDEE WASHINGTON 08.07.2009 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`, `needs-review`
+- `Dallas ISD TB Results/GABRIELA GURROLA 11.13.2009 TB LAB RESULTS.pdf` → `health-compliance`, `needs-review`, `tb-screening`
+- `Documents/244 Sitipend 2026/Benagh-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `professional-development`, `conference-travel`, `workforce-pathways`
+- `Documents/244 Sitipend 2026/Hamilton-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `workforce-pathways`, `industry-certifications`
+- `Documents/244 Sitipend 2026/Williams-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/65684178-BD76-0A08-B60B-BE1C34BFECD62025121015413396.pdf` → `needs-review`, `procurement-compliance`, `professional-development`
+- `Documents/ACTE Vision 2025/656A76EE-B68A-D444-6762-21010FD3F29C2025121015414842.pdf` → `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/656CE590-B6F4-2F08-5A50-B7FB55AB15F82025121015420436.pdf` → `needs-review`
+- `Documents/ACTE Vision 2025/656EE0EE-B956-47AB-F3B8-A54C3E8E641B20251210154217363.pdf` → `needs-review`, `professional-development`, `academic-programs`
+- `Documents/ACTE Vision 2025/65716A4D-B4E2-7383-94EF-7EDF54BFC4E120251210154233987.pdf` → `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/65734697-0BED-B7C1-727E-DB1AA7193B0820251210154246197.pdf` → `needs-review`, `conference-travel`, `health-compliance`, `professional-development`
+- `Documents/ACTE Vision 2025/65754B6A-EF78-CE75-65F6-D456EA8547462025121015425945.pdf` → `needs-review`, `procurement-compliance`
+- `Documents/ACTE Vision 2025/6579DB74-F008-599E-5ED8-2CEC15E80EA820251210154329313.pdf` → `professional-development`, `needs-review`
+- `Documents/ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `events-and-conferences`
+- `Documents/ACTE Vision 2025/Admin 101/ACTE Advisory Council Support Menu.pdf` → `needs-review`, `workforce-pathways`, `cte-summer-program`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Council.pdf` → `needs-review`, `workforce-pathways`, `academic-programs`
+- `Documents/ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf` → `needs-review`, `academic-programs`, `program-planning`, `workforce-pathways`, `financial-administration`, `cte-summer-program`
+- `Documents/ACTE Vision 2025/Admin 101/request.pdf` → `needs-review`, `workforce-pathways`, `cte-summer-program`, `academic-programs`, `health-compliance`, `industry-certifications`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `needs-review`, `academic-programs`, `health-compliance`, `workforce-pathways`, `procurement-compliance`
+- `Documents/ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf` → `needs-review`, `professional-development`, `events-and-conferences`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Do we Need a Team.pdf` → `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Example of a Team's Communication Agreements.pdf` → `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of a Team's Emotional Intelligence.pdf` → `needs-review`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of an Effective Team.pdf` → `needs-review`, `professional-development`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Small Group Activity- Modeling Team Coaching in Action.pdf` → `needs-review`, `conference-travel`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Member Roles and Responsibilities.pdf` → `needs-review`, `procurement-compliance`, `events-and-conferences`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Temperature Check.pdf` → `professional-development`, `health-compliance`, `needs-review`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf` → `needs-review`, `workforce-pathways`, `events-and-conferences`, `cte-summer-program`, `professional-development`
+- `Documents/Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf` → `needs-review`, `health-compliance`, `procurement-compliance`
+- `Documents/Affiliated Agreements/Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2)[18].pdf` → `health-compliance`, `procurement-compliance`, `needs-review`, `financial-administration`
+- `Documents/Affiliated Agreements/Dallas ISD_First Amendment  to extend term[31].pdf` → `needs-review`, `health-compliance`, `cte-summer-program`
+- `Documents/Baylor Scott & Whote MAA 2028 08.09.23.pdf` → `needs-review`, `health-compliance`, `procurement-compliance`, `cte-summer-program`
+- `Documents/Bell Schedule CI East.pdf` → `events-and-conferences`, `needs-review`, `curriculum`, `procurement-compliance`
+- `Documents/CNA Workscopes_ Step #1_ Stop_and_Jot_Reflection.pdf` → `procurement-compliance`, `needs-review`, `program-planning`, `ctso-activities`, `academic-programs`
+- `Documents/Conference Travel/Moore Norman Name Tent.pdf` → `needs-review`, `events-and-conferences`, `professional-development`, `cte-summer-program`
+- `Documents/Conference Travel/SRFM Travel Expense Report Checklist.pdf` → `events-and-conferences`, `procurement-compliance`, `financial-administration`, `needs-review`
+- `Documents/Cornerstone_Session_Signin-1_5_2026 (2).pdf` → `professional-development`, `needs-review`, `workforce-pathways`, `events-and-conferences`, `academic-programs`
+- `Documents/Five Foundations of Ramsey.pdf` → `needs-review`
+- `Documents/Insurance documentation .pdf` → `needs-review`, `health-compliance`
+- `Documents/Kenzie Birth cert.jpeg` → `health-compliance`, `needs-review`
+- `Documents/Mackenna Birth Cert.jpeg` → `health-compliance`, `needs-review`, `industry-certifications`, `immunization`
+- `Documents/Mackenzie Birthcertificate.jpeg` → `health-compliance`, `needs-review`, `procurement-compliance`
+- `Documents/Mackenzie Spence Birth certificate.jpeg` → `health-compliance`, `needs-review`
+- `Documents/Norman Moore Grant_Funded Travel Authorization Form.pdf` → `events-and-conferences`, `professional-development`, `financial-administration`, `needs-review`, `procurement-compliance`
+- `Documents/Perkins Travel/2025-2026 Financial Services Activity Calendar[2].pdf` → `procurement-compliance`, `needs-review`, `purchasing-operations`
+- `Documents/Perkins Travel/SRFM Meal Reimbursement Guide - Revised.10.14.2025[38].pdf` → `financial-administration`, `events-and-conferences`, `needs-review`, `procurement-compliance`
+- `Documents/Showcase Promo 2026[5].pdf` → `events-and-conferences`, `workforce-pathways`, `needs-review`, `health-compliance`
+- `Documents/Townview Business School Leadership Campus Field Trip Proposal[17].pdf` → `needs-review`, `events-and-conferences`, `cte-summer-program`, `financial-administration`
+- `Documents/WT WHite PD Roster Dallas ISD.pdf` → `needs-review`, `professional-development`, `events-and-conferences`
+- `EMT：EMR/Dallas ISD_First Amendment  to extend term (1) - signed.pdf` → `cte-summer-program`, `needs-review`, `health-compliance`
+- `EMT：EMR/FOR_YOUR_SIGNATURE_Affiliation_Agreement(One[79].pdf` → `health-compliance`, `needs-review`, `procurement-compliance`
+- `EMT：EMR/Signed NAF Forms 26.pdf` → `events-and-conferences`, `conference-travel`, `financial-administration`, `professional-development`, `procurement-compliance`, `needs-review`
+- `Ed Rising Conference Itinerary (1).pdf` → `events-and-conferences`, `summer-pd`, `needs-review`, `health-compliance`, `academic-programs`, `workforce-pathways`
+- `Employability_Skills_Framework_OnePager_20180212.pdf` → `workforce-pathways`, `needs-review`
+- `Hicks Bio.pdf` → `needs-review`, `procurement-compliance`, `academic-programs`
+- `Insurance documentation  (1).pdf` → `needs-review`, `immunization`, `health-compliance`
+- `Insurance documentation .pdf` → `needs-review`, `health-compliance`
+- `J. Spann.pdf` → `events-and-conferences`, `financial-administration`, `workforce-pathways`, `needs-review`, `procurement-compliance`, `professional-development`
+- `K. Jennings SkillsUsa Nationals 2025 - signed (1).pdf` → `needs-review`, `workforce-pathways`, `health-compliance`
+- `KGeorgeEduthingsIBCCertUploads4.15.26.pdf` → `workforce-pathways`, `needs-review`, `industry-certifications`
+- `KGeorgeTrainingIBCs3.25.26.pdf` → `workforce-pathways`, `needs-review`, `academic-programs`, `conference-travel`
+- `Lead Teacher/CTE Lead Teacher Agreement.pdf` → `financial-administration`, `procurement-compliance`, `cte-summer-program`, `needs-review`, `professional-development`, `industry-certifications`
+- `Mackenna Birth Cert (1).jpeg` → `needs-review`, `health-compliance`, `immunization`
+- `Mackenna Birth Cert (2).jpeg` → `health-compliance`, `needs-review`, `immunization`
+- `Mackenna Birth Cert (3).jpeg` → `health-compliance`, `needs-review`, `industry-certifications`, `immunization`
+- `Mackenna Birth Cert.jpeg` → `needs-review`, `immunization`, `health-compliance`
+- `Mackenns Spence-Jones Center.pdf` → `needs-review`, `procurement-compliance`, `academic-programs`
+- `Marriage License.pdf` → `needs-review`, `health-compliance`
+- `NAF 2026/NAF NEXT 2026 Grant_Funded Travel Authorization Form Updated.pdf` → `events-and-conferences`, `professional-development`, `procurement-compliance`, `needs-review`
+- `NAF Paperwork/Board Document 250357[69].pdf` → `events-and-conferences`, `procurement-compliance`, `workforce-pathways`, `cte-summer-program`, `needs-review`, `career-exploration`
+- `Non Awarded Vendor Quotes/SACA_09-08-2025 Approved.pdf` → `procurement-compliance`, `industry-certifications`, `purchasing-operations`, `conference-travel`, `needs-review`, `workforce-pathways`
+- `Non-Awarded Vendor Forms approved/Alpha Education Group_Non-AwardedVendorRequestForm - signed.pdf (SECURED).pdf` → `procurement-compliance`, `vendor-management`, `cte-summer-program`, `events-and-conferences`, `purchasing-operations`, `needs-review`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Admin 101_CTE Terms Glossary.docx` → `needs-review`, `workforce-pathways`, `cte-summer-program`, `health-compliance`, `industry-certifications`, `academic-programs`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Advisory Council Resources/Advisory Council Support Menu.docx` → `needs-review`, `workforce-pathways`, `cte-summer-program`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Program Management/ACTE HQ Frameworks.pdf` → `academic-programs`, `needs-review`, `health-compliance`, `cte-summer-program`, `workforce-pathways`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/Sample CTE Instructional Coaching Guidelines.pdf` → `events-and-conferences`, `needs-review`, `professional-development`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/ACTE Advisory Council Support Menu.pdf` → `needs-review`, `workforce-pathways`, `cte-summer-program`, `financial-administration`
+- `OneDrive_2_12-9-2025.zip.unpacked/12 Effective Tier 1 Instructional Strategies.docx` → `needs-review`, `academic-programs`, `events-and-conferences`, `summer-pd`, `workforce-pathways`
+- `OneDrive_2_12-9-2025.zip.unpacked/Employability_Skills_Framework_OnePager_20180212.pdf` → `workforce-pathways`, `needs-review`, `financial-administration`
+- `OneDrive_2_12-9-2025.zip.unpacked/Sample AI Prompt for Intervention Planning.docx` → `needs-review`, `academic-programs`, `program-planning`
+- `OneDrive_2_12-9-2025.zip.unpacked/Scope and Sequence Template.xlsx` → `needs-review`, `academic-programs`, `financial-administration`, `events-and-conferences`, `workforce-pathways`, `summer-pd`
+- `Perkins Travel/2025-2026 Financial Services Activity Calendar[2].pdf` → `procurement-compliance`, `needs-review`, `purchasing-operations`, `events-and-conferences`
+- `Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `needs-review`, `health-compliance`, `workforce-pathways`, `cte-summer-program`, `academic-programs`, `procurement-compliance`
+- `Perkins Travel/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf` → `needs-review`, `cte-summer-program`, `procurement-compliance`
+- `Perkins Travel/SRFM Meal Reimbursement Guide - Revised.10.14.2025[38].pdf` → `financial-administration`, `procurement-compliance`, `needs-review`, `events-and-conferences`
+- `Perkins Travel/SRFM Travel Expense Report Checklist[93].pdf` → `events-and-conferences`, `financial-administration`, `health-compliance`, `procurement-compliance`, `professional-development`
+- `PerkinsV_CLNA_Template_ Guide.pdf` → `needs-review`, `academic-programs`, `procurement-compliance`, `health-compliance`
+- `Please_complete_with_DocuSign_Tosa_Approved_.pdf` → `health-compliance`, `industry-certifications`, `procurement-compliance`, `needs-review`
+- `Proposal_ Student-Run Financial Center at Townview.pdf` → `health-compliance`, `needs-review`, `workforce-pathways`, `procurement-compliance`
+- `Sample CTE Instructional Coaching Guidelines.pdf` → `needs-review`, `professional-development`, `cte-summer-program`
+- `Scope and Sequence Template.pdf` → `needs-review`, `academic-programs`, `workforce-pathways`, `program-planning`, `events-and-conferences`
+- `Standard Operting Procedures-Perkins.pdf` → `needs-review`, `procurement-compliance`, `professional-development`, `program-planning`, `purchasing-operations`, `workforce-pathways`
+- `Tiva classes.pdf` → `professional-development`, `events-and-conferences`, `needs-review`, `academic-programs`, `procurement-compliance`
+- `Townview Floor Plan (1).jpg` → `needs-review`, `curriculum`, `procurement-compliance`, `cte-summer-program`
+- `Townview Floor Plan.jpg` → `needs-review`, `curriculum`, `procurement-compliance`
+- `Travel Reconcile NLSC- Justification.pdf` → `events-and-conferences`, `procurement-compliance`, `needs-review`
+- `Untitled presentation.pdf` → `needs-review`, `summer-pd`, `events-and-conferences`, `workforce-pathways`
+- `WBL.pdf` → `needs-review`, `workforce-pathways`, `health-compliance`, `professional-development`, `cte-summer-program`, `events-and-conferences`
+- `add_to_calendar.ics` → `academic-programs`, `needs-review`, `events-and-conferences`, `procurement-compliance`
+- `cte-wbl-training-plan-0.pdf` → `needs-review`, `health-compliance`, `workforce-pathways`, `events-and-conferences`, `procurement-compliance`
+- `cte-wbl-training-plan.pdf` → `needs-review`, `health-compliance`, `workforce-pathways`, `events-and-conferences`, `procurement-compliance`
+- `dallasisd-c62186c3-6d83-472f-bc28-51c2d83d4ed9_SessionUsersTemplate.pdf` → `curriculum`, `needs-review`
+- `dallasisd-c806afc9-2f9e-49cd-ac0e-ef32f1f8d951_SessionUsersTemplate.pdf` → `curriculum`, `needs-review`, `academic-programs`
+- `invite (1).ics` → `needs-review`, `events-and-conferences`, `workforce-pathways`
+- `outlook (1).vcs` → `needs-review`, `professional-development`
+- `outlook.vcs` → `needs-review`, `professional-development`
+- `tiva 4/2025 Summer Certificicate (1).pdf` → `professional-development`, `workforce-pathways`, `needs-review`, `summer-pd`, `industry-certifications`
+- `tiva/2025 Summer Certificicate (1).pdf` → `professional-development`, `needs-review`, `workforce-pathways`, `summer-pd`, `industry-certifications`
+
+### Needs review (773)
+
+- ` Non Awarded Vendor Request Form 7.2025.pdf` → `procurement-compliance`, `vendor-management`
+- ` PD Summer Schedule.pdf` → `professional-development`, `summer-pd`, `events-and-conferences`, `academic-programs`, `procurement-compliance`, `industry-certifications`
+- `12-21-BASC 3 Teacher.pdf` → `academic-programs`, `health-compliance`, `professional-development`, `events-and-conferences`
+- `2018_TaxReturn (1).pdf` → `financial-administration`, `events-and-conferences`
+- `2023_TaxReturn (1).pdf` → `financial-administration`, `events-and-conferences`
+- `2023_TaxReturn (2).pdf` → `financial-administration`, `events-and-conferences`
+- `2024 Dallas ISD W2 (2).pdf` → `financial-administration`, `health-compliance`
+- `2024 Dallas ISD W2.pdf` → `financial-administration`, `immunization`
+- `2024 Kemp ISD W2 (1).pdf` → `financial-administration`, `health-compliance`
+- `2024 Kemp ISD W2.pdf` → `financial-administration`, `procurement-compliance`
+- `2024-2025-clna-guidebook.pdf` → `academic-programs`, `workforce-pathways`, `health-compliance`
+- `2025 CTE Summer PD Feedback.pdf` → `summer-pd`, `professional-development`, `workforce-pathways`, `student-services`, `events-and-conferences`, `health-compliance`
+- `2025 non-awarded vendor request forms/Non-Awarded Vendor Forms approved/CareerSafe Approved.pdf` → `procurement-compliance`, `workforce-pathways`, `events-and-conferences`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ASE.pdf` → `procurement-compliance`, `vendor-management`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - ESCO Institute.pdf` → `procurement-compliance`, `vendor-management`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Gaumard.pdf` → `procurement-compliance`, `vendor-management`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NCCER.pdf` → `procurement-compliance`, `vendor-management`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - NOCTI.pdf` → `procurement-compliance`, `vendor-management`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - Nasco.pdf` → `procurement-compliance`, `vendor-management`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SACA.pdf` → `procurement-compliance`, `vendor-management`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm - SolidProfessor.pdf` → `procurement-compliance`, `vendor-management`, `purchasing-operations`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_American Medical Technologists (AMT).pdf` → `procurement-compliance`, `vendor-management`, `health-compliance`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Assessment Technologies.pdf` → `procurement-compliance`, `vendor-management`
+- `2025 non-awarded vendor request forms/Non-AwardedVendorRequestForm_Platinum Consulting.pdf` → `procurement-compliance`, `vendor-management`
+- `2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `workforce-pathways`, `professional-development`
+- `2026 Graduation Cord Rosters.pdf` → `workforce-pathways`, `health-compliance`
+- `2026-27 DRAFT[98].pdf` → `program-planning`, `cte-summer-program`, `workforce-pathways`
+- `2026-27 Perkins Application — Filled Tentative (PS3350).pdf` → `program-planning`, `procurement-compliance`
+- `25-26 CI North .pdf` → `career-exploration`, `health-compliance`, `workforce-pathways`, `financial-administration`, `industry-certifications`, `student-services`
+- `25-26 SEC 11028Y1N2-2022 Early Childhood (1).pdf` → `events-and-conferences`, `academic-programs`, `cte-summer-program`
+- `25-26 SEC 11028Y1N2-2022 Early Childhood.pdf` → `events-and-conferences`, `academic-programs`, `cte-summer-program`, `workforce-pathways`, `procurement-compliance`
+- `26-27 CI Copy of Bell Schedule.docx.pdf` → `events-and-conferences`, `career-exploration`, `financial-administration`
+- `26-27 CLNA.pdf` → `academic-programs`, `workforce-pathways`, `career-exploration`, `health-compliance`
+- `26-27 Campus CTE Nonposition Realignment Datasource V2 (1).pdf` → `cte-summer-program`, `program-planning`, `workforce-pathways`
+- `26-27 Campus CTE Nonposition Realignment Datasource V4.pdf` → `cte-summer-program`, `workforce-pathways`, `health-compliance`
+- `26-27 Campus CTE Nonposition Realignment Datasource V5 (1).pdf` → `cte-summer-program`, `curriculum`, `workforce-pathways`
+- `26-27 Campus CTE Nonposition Realignment Datasource V5.pdf` → `cte-summer-program`, `workforce-pathways`
+- `26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `financial-administration`, `career-exploration`, `student-services`, `professional-development`, `health-compliance`
+- `2nd floor map.png` → `curriculum`, `student-services`, `summer-pd`
+- `3. Board Document 250357-version 2.pdf` → `student-services`, `workforce-pathways`, `procurement-compliance`, `career-exploration`
+- `3. Board Document 250357[69].pdf` → `student-services`, `workforce-pathways`, `cte-summer-program`, `procurement-compliance`, `career-exploration`
+- `318703661.pdf` → `workforce-pathways`, `health-compliance`
+- `A Goodson Travel form - signed.pdf` → `events-and-conferences`, `health-compliance`
+- `ACTE HQ Frameworks.pdf` → `academic-programs`, `health-compliance`, `workforce-pathways`
+- `ACTE Vision 2025 Agenda.pdf` → `cte-summer-program`, `workforce-pathways`, `events-and-conferences`
+- `ACTE Vision 2025/65684178-BD76-0A08-B60B-BE1C34BFECD62025121015413396.pdf` → `student-services`, `professional-development`
+- `ACTE Vision 2025/656A76EE-B68A-D444-6762-21010FD3F29C2025121015414842.pdf` → `student-services`, `professional-development`
+- `ACTE Vision 2025/656CE590-B6F4-2F08-5A50-B7FB55AB15F82025121015420436.pdf` → `student-services`
+- `ACTE Vision 2025/656EE0EE-B956-47AB-F3B8-A54C3E8E641B20251210154217363.pdf` → `student-services`, `procurement-compliance`, `health-compliance`, `academic-programs`, `professional-development`
+- `ACTE Vision 2025/65716A4D-B4E2-7383-94EF-7EDF54BFC4E120251210154233987.pdf` → `student-services`, `professional-development`
+- `ACTE Vision 2025/65754B6A-EF78-CE75-65F6-D456EA8547462025121015425945.pdf` → `student-services`, `procurement-compliance`, `events-and-conferences`
+- `ACTE Vision 2025/6579DB74-F008-599E-5ED8-2CEC15E80EA820251210154329313.pdf` → `student-services`, `professional-development`
+- `ACTE Vision 2025/ACTE Admin 101 Notes.pdf` → `academic-programs`, `cte-summer-program`, `financial-administration`, `events-and-conferences`, `student-services`, `professional-development`
+- `ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf` → `student-services`, `summer-pd`, `academic-programs`, `events-and-conferences`
+- `ACTE Vision 2025/Admin 101/Advisory Council.pdf` → `workforce-pathways`, `student-services`, `academic-programs`
+- `ACTE Vision 2025/Admin 101/CTE Program Coherent Sequence.pdf` → `cte-summer-program`, `industry-certifications`, `academic-programs`, `program-planning`
+- `ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf` → `workforce-pathways`, `academic-programs`, `program-planning`, `cte-summer-program`, `events-and-conferences`
+- `ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf` → `academic-programs`, `student-services`, `workforce-pathways`, `program-planning`, `curriculum`
+- `ACTE Vision 2025/Admin 101/request.pdf` → `workforce-pathways`, `procurement-compliance`, `academic-programs`, `health-compliance`
+- `ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `academic-programs`, `health-compliance`, `workforce-pathways`, `procurement-compliance`
+- `ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf` → `program-planning`, `academic-programs`, `cte-summer-program`, `workforce-pathways`
+- `ACTE Vision 2025/Admin 201/CTE Admin 102-Slide Deck.pptx.pdf` → `academic-programs`, `health-compliance`, `workforce-pathways`
+- `ACTE Vision 2025/Admin 201/Improving_CTE_Performance_Measurement_Data_Collection_09-11-2024.pdf` → `health-compliance`, `conference-travel`
+- `ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf` → `financial-administration`, `cte-summer-program`, `academic-programs`, `procurement-compliance`
+- `ACTE Vision 2025/Admin 201/Perkins Performance Measures Data Analysis Template.pdf` → `academic-programs`, `procurement-compliance`
+- `ACTE Vision 2025/BFE8C233-C2D9-EA8C-9D7B-E8680DA0FD882025121209522347.pdf` → `workforce-pathways`
+- `ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf` → `student-services`, `professional-development`, `events-and-conferences`
+- `ACTE Vision 2025/The Art of Coaching/Do we Need a Team.pdf` → `student-services`, `workforce-pathways`, `professional-development`
+- `ACTE Vision 2025/The Art of Coaching/Example of a Team's Communication Agreements.pdf` → `procurement-compliance`, `professional-development`, `student-services`
+- `ACTE Vision 2025/The Art of Coaching/Indicators of a Team's Emotional Intelligence.pdf` → `student-services`, `professional-development`
+- `ACTE Vision 2025/The Art of Coaching/Indicators of an Effective Team.pdf` → `student-services`, `professional-development`, `academic-programs`
+- `ACTE Vision 2025/The Art of Coaching/Team Member Roles and Responsibilities.pdf` → `student-services`, `procurement-compliance`
+- `ACTE Vision 2025/The Art of Coaching/Team Temperature Check.pdf` → `student-services`, `health-compliance`, `professional-development`, `academic-programs`
+- `ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf` → `student-services`, `workforce-pathways`, `professional-development`, `events-and-conferences`
+- `ACTE-Membership-Application-Jeremy Spence.pdf` → `professional-development`, `workforce-pathways`, `cte-summer-program`
+- `Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf` → `student-services`, `health-compliance`, `financial-administration`, `procurement-compliance`, `workforce-pathways`, `professional-development`
+- `Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf (SECURED).pdf` → `student-services`, `health-compliance`
+- `Allison Garcia Observer20TB20Screening_copy.pdf` → `health-compliance`, `procurement-compliance`, `tb-screening`
+- `Alpha Education Group_Non-AwardedVendorRequestForm - signed.pdf (SECURED).pdf` → `procurement-compliance`, `vendor-management`, `cte-summer-program`, `events-and-conferences`, `purchasing-operations`
+- `Assessment - Mackenna.pdf` → `academic-programs`, `health-compliance`
+- `August 6th PD.pdf` → `ctso-activities`, `cte-summer-program`, `events-and-conferences`
+- `BAUTISTA_TIVA GRANT TRAVEL DOCS.pdf` → `conference-travel`, `health-compliance`, `procurement-compliance`, `events-and-conferences`
+- `Baylor Scott & Whote MAA 2028 08.09.23.pdf` → `student-services`, `health-compliance`, `procurement-compliance`, `cte-summer-program`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768501134.7069674.pdf` → `purchasing-operations`, `workforce-pathways`, `industry-certifications`, `health-compliance`, `procurement-compliance`, `cte-summer-program`
+- `Bid Table - Workplace Safety, Training, & Career Fair_1768502080.5657754.pdf` → `purchasing-operations`, `workforce-pathways`, `industry-certifications`, `procurement-compliance`
+- `CI North Parking at TJ.pdf` → `career-exploration`, `health-compliance`, `curriculum`
+- `CI North Remote Parking (1).pdf` → `summer-pd`, `health-compliance`, `cte-summer-program`
+- `CIN Parking.pdf` → `career-exploration`, `curriculum`, `procurement-compliance`, `health-compliance`
+- `CLNA 2026-27-clna-guidebook[55].pdf` → `academic-programs`, `workforce-pathways`, `health-compliance`, `program-planning`
+- `CLNA 26-27/2025-26 Application.pdf (SECURED).pdf` → `academic-programs`, `workforce-pathways`, `professional-development`
+- `CLNA 26-27/2026-27-clna-guidebook.pdf` → `academic-programs`, `workforce-pathways`, `health-compliance`
+- `CLNA 26-27/CLNA DALLAS ISD Working Doc.pdf` → `procurement-compliance`, `academic-programs`, `workforce-pathways`, `health-compliance`, `vendor-management`
+- `CLNA 26-27/PerkinsV_CLNA_Template_ Guide.pdf` → `academic-programs`, `student-services`, `workforce-pathways`
+- `CLNA 26-27/SC5600 Comprehensive Local Needs Assessment blank.pdf (SECURED).pdf.pdf` → `procurement-compliance`, `academic-programs`, `workforce-pathways`
+- `CLNA 26-27/regional-labor-market-information-wda-6.pdf` → `workforce-pathways`, `cte-summer-program`, `events-and-conferences`
+- `CLNA DALLAS ISD Working Doc.pdf` → `procurement-compliance`, `academic-programs`, `workforce-pathways`, `vendor-management`
+- `CLNA Guiding Questions (2).pdf` → `health-compliance`, `academic-programs`, `workforce-pathways`, `student-services`, `cte-summer-program`, `professional-development`
+- `CLNA Guiding Questions.pdf` → `health-compliance`, `academic-programs`, `workforce-pathways`, `student-services`, `cte-summer-program`, `professional-development`
+- `CLNA Planning Tool-Example.pdf` → `program-planning`, `academic-programs`, `workforce-pathways`, `cte-summer-program`, `health-compliance`, `events-and-conferences`
+- `CLNA_26_27 App.pdf` → `procurement-compliance`, `academic-programs`, `workforce-pathways`
+- `COZART_TIVA GRANT TRAVEL DOCS - signed (1).pdf` → `conference-travel`, `health-compliance`, `student-services`, `procurement-compliance`
+- `CPAL_DISD_MOU_SowingSeeds (3).pdf` → `health-compliance`, `student-services`, `workforce-pathways`
+- `CTAT Summer 26_Agenda_062926.pdf` → `summer-pd`, `events-and-conferences`, `cte-summer-program`, `student-services`
+- `CTE Admin 101-Slide Deck.pdf` → `professional-development`, `academic-programs`, `events-and-conferences`, `workforce-pathways`, `procurement-compliance`
+- `CTE Admin 102-Slide Deck.pdf` → `cte-summer-program`, `student-services`
+- `CTE Form Mule Email Preview — CELIS _ Graphic Design I.pdf` → `workforce-pathways`, `health-compliance`
+- `CTE Framework (1).pdf` → `workforce-pathways`, `health-compliance`
+- `CTE Framework 2 slides.pdf` → `workforce-pathways`, `academic-programs`, `program-planning`
+- `CTE Framework 26.pdf` → `academic-programs`, `workforce-pathways`, `program-planning`, `events-and-conferences`, `ctso-activities`, `financial-administration`
+- `CTE Framework.pdf` → `academic-programs`, `workforce-pathways`, `events-and-conferences`, `program-planning`, `financial-administration`, `health-compliance`
+- `CTE Lead.pdf` → `procurement-compliance`, `financial-administration`, `cte-summer-program`, `professional-development`, `industry-certifications`
+- `CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf` → `events-and-conferences`, `procurement-compliance`, `conference-travel`
+- `CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf 1.zip.unpacked/CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf` → `procurement-compliance`, `events-and-conferences`, `workforce-pathways`, `conference-travel`
+- `CTE PD 6.1.26.pdf` → `events-and-conferences`, `professional-development`, `summer-pd`, `student-services`
+- `CTE PLC October 29, 2024 (Responses).pdf` → `events-and-conferences`, `cte-summer-program`, `procurement-compliance`
+- `CTE PLC.png` → `professional-development`, `workforce-pathways`
+- `CTE Summer PD 2026/Copy of Cooperative Learning in CTE.pdf` → `summer-pd`, `student-services`, `professional-development`
+- `CTE Summer PD 2026/We are CTE.pdf` → `professional-development`, `student-services`, `career-exploration`, `workforce-pathways`
+- `CTE Survey Dashboard — One Pager (1).pdf` → `cte-summer-program`, `workforce-pathways`
+- `CTE Survey Dashboard — One Pager.pdf` → `cte-summer-program`, `career-exploration`
+- `CTE TEAM (1).png` → `student-services`, `cte-summer-program`, `workforce-pathways`, `health-compliance`, `academic-programs`, `conference-travel`
+- `CTE- CIS SUM26 Summer Learning Site Signage Template (1).pdf` → `summer-pd`, `cte-summer-program`, `curriculum`, `professional-development`, `health-compliance`, `events-and-conferences`
+- `CTE- SUM26 CIN Summer Learning Site Signage Template.pdf` → `summer-pd`, `cte-summer-program`, `health-compliance`, `procurement-compliance`, `workforce-pathways`, `events-and-conferences`
+- `CTE- SUM26 CIS Summer Learning Site Signage Template (2).pdf` → `summer-pd`, `curriculum`, `professional-development`, `events-and-conferences`, `workforce-pathways`, `health-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (2).png` → `summer-pd`, `career-exploration`, `academic-programs`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (3).png` → `summer-pd`, `curriculum`, `career-exploration`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (4).png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `events-and-conferences`, `workforce-pathways`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (5).png` → `summer-pd`, `career-exploration`, `workforce-pathways`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (7).png` → `summer-pd`, `career-exploration`, `academic-programs`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (8).png` → `summer-pd`, `curriculum`, `career-exploration`, `academic-programs`, `events-and-conferences`, `health-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary (9).png` → `summer-pd`, `career-exploration`, `events-and-conferences`, `curriculum`, `workforce-pathways`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1) 2/Elementary.png` → `summer-pd`, `career-exploration`, `academic-programs`, `procurement-compliance`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1).pdf` → `summer-pd`, `cte-summer-program`, `curriculum`, `health-compliance`, `events-and-conferences`, `procurement-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (2).png` → `summer-pd`, `career-exploration`, `academic-programs`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (3).png` → `summer-pd`, `career-exploration`, `academic-programs`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (4).png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (5).png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `workforce-pathways`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (7).png` → `summer-pd`, `career-exploration`, `events-and-conferences`, `academic-programs`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (8).png` → `summer-pd`, `career-exploration`, `curriculum`, `procurement-compliance`
+- `CTE- SUM26 Summer Learning Site Signage  Template (1)/Elementary (9).png` → `summer-pd`, `financial-administration`, `procurement-compliance`, `events-and-conferences`, `curriculum`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template (2).pdf` → `summer-pd`, `professional-development`, `events-and-conferences`, `curriculum`, `academic-programs`, `workforce-pathways`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (2).png` → `summer-pd`, `career-exploration`, `academic-programs`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (3).png` → `summer-pd`, `curriculum`, `career-exploration`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (4).png` → `summer-pd`, `curriculum`, `workforce-pathways`, `events-and-conferences`, `career-exploration`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (5).png` → `summer-pd`, `career-exploration`, `workforce-pathways`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (7).png` → `summer-pd`, `career-exploration`, `academic-programs`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary (9).png` → `summer-pd`, `cte-summer-program`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template 2/Elementary.png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `events-and-conferences`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template.pdf` → `summer-pd`, `curriculum`, `cte-summer-program`, `professional-development`, `health-compliance`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (2).png` → `summer-pd`, `career-exploration`, `events-and-conferences`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (3).png` → `summer-pd`, `curriculum`, `career-exploration`, `academic-programs`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (4).png` → `summer-pd`, `curriculum`, `events-and-conferences`, `career-exploration`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (5).png` → `summer-pd`, `curriculum`, `career-exploration`, `workforce-pathways`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (7).png` → `summer-pd`, `career-exploration`, `cte-summer-program`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (8).png` → `summer-pd`, `career-exploration`, `procurement-compliance`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary (9).png` → `summer-pd`, `curriculum`, `career-exploration`, `financial-administration`, `events-and-conferences`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template.zip.unpacked/Elementary.png` → `summer-pd`, `curriculum`, `career-exploration`, `procurement-compliance`, `events-and-conferences`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (2).png` → `summer-pd`, `career-exploration`, `events-and-conferences`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (3).png` → `summer-pd`, `curriculum`, `career-exploration`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (4).png` → `summer-pd`, `curriculum`, `events-and-conferences`, `career-exploration`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (5).png` → `summer-pd`, `career-exploration`, `workforce-pathways`, `curriculum`, `cte-summer-program`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (7).png` → `summer-pd`, `career-exploration`, `academic-programs`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary (9).png` → `summer-pd`, `financial-administration`, `procurement-compliance`, `events-and-conferences`, `curriculum`
+- `CTE- SUM26 Summer Learning Site Signage  Template/Elementary.png` → `summer-pd`, `curriculum`, `career-exploration`, `procurement-compliance`, `events-and-conferences`
+- `CTE-Standard Operating Procedures/2026-27 Dallas ISD CTE CTSO Handbook.docx` → `events-and-conferences`, `academic-programs`, `ctso-activities`, `procurement-compliance`, `health-compliance`, `financial-administration`
+- `CTE-Standard Operating Procedures/CTE Vehicle Protocol.pdf` → `procurement-compliance`
+- `CTE-Standard Operating Procedures/CTE Vehicles.pdf` → `procurement-compliance`, `events-and-conferences`
+- `CTE-Standard Operating Procedures/Campus Lead Teacher Program.pdf` → `cte-summer-program`, `financial-administration`, `procurement-compliance`, `academic-programs`
+- `CTE-Standard Operating Procedures/Donation SOP Draft. pdf` → `vendor-management`, `procurement-compliance`
+- `CTE-Standard Operating Procedures/Standard Operting Procedures-Perkins.pdf` → `procurement-compliance`, `purchasing-operations`, `professional-development`, `financial-administration`, `conference-travel`, `program-planning`
+- `CTE_Meeting_Agenda_Updated (1).pdf` → `summer-pd`, `events-and-conferences`, `professional-development`, `student-services`
+- `CTE_Meeting_Agenda_Updated.pdf` → `summer-pd`, `events-and-conferences`, `student-services`, `professional-development`
+- `CTSO Lead/CTSO Form Signed.pdf` → `events-and-conferences`
+- `CTX_Berkner HS_ED02 (2).pdf` → `purchasing-operations`, `events-and-conferences`
+- `CTX_Berkner HS_ED02.pdf` → —
+- `Career Exploration in IT.pdf` → `workforce-pathways`, `academic-programs`
+- `Career Institute North - Raw Data Entries (1).pdf` → `career-exploration`, `health-compliance`, `workforce-pathways`, `financial-administration`
+- `Career Institute North - Raw Data Entries.pdf` → `career-exploration`, `health-compliance`, `workforce-pathways`, `financial-administration`
+- `Carlson June hourlysupplementaltimecard.pdf` → `professional-development`, `workforce-pathways`
+- `Certiport Conference Preauthorization, Agenda, Badge, Parking Receipts, and bank statement-Palmer.pdf` → `events-and-conferences`, `workforce-pathways`, `conference-travel`, `financial-administration`, `professional-development`
+- `ChatGPT Image Aug 7, 2026, 11_03_54 AM.png` → `workforce-pathways`, `events-and-conferences`, `purchasing-operations`
+- `ChatGPT Image Jul 17, 2026, 09_53_55 AM.png` → `professional-development`, `workforce-pathways`, `program-planning`
+- `Classroom Photo.jpg` → `events-and-conferences`
+- `CodeHS Proclamation 2024 titles.pdf` → `procurement-compliance`, `academic-programs`, `cte-summer-program`
+- `CollabBadge.pdf` → `workforce-pathways`, `health-compliance`, `cte-summer-program`
+- `CollabFoodReceipt.jpg` → `financial-administration`
+- `CollabRentalCareReceipt.pdf` → `financial-administration`, `student-services`
+- `Complete_with_Docusign_3902_San_Miguel_Ct_PS.pdf` → —
+- `Considerations for 2026–27 and Future Cohorts  CCMR Notecatcher.pdf` → `workforce-pathways`, `program-planning`, `financial-administration`
+- `ContactList_ProcurementServices_21_2.pdf` → `events-and-conferences`, `procurement-compliance`
+- `Cooperative Learning in CTE.pdf` → `summer-pd`, `professional-development`
+- `Copy of 26-27 Academic Services Deck Template  (1).pdf` → `academic-programs`, `curriculum`, `summer-pd`, `professional-development`, `student-services`
+- `Copy of 26-27 Academic Services Deck Template .pdf` → `academic-programs`, `curriculum`, `summer-pd`, `student-services`, `professional-development`
+- `Copy of CTE PLC Agendas (1) (1).pdf` → `events-and-conferences`, `conference-travel`, `professional-development`, `workforce-pathways`, `student-services`, `program-planning`
+- `Copy of CTE PLC Agendas (1).pdf` → `events-and-conferences`, `conference-travel`, `professional-development`, `workforce-pathways`, `student-services`, `industry-certifications`
+- `Copy of EXPO Attendance Roster for CTE.pdf` → `events-and-conferences`, `workforce-pathways`, `health-compliance`, `cte-summer-program`
+- `Copy of Spring Stipend CTE-additions 2026.pdf` → `financial-administration`
+- `Copy of ibc-advisory-council-inventory-twc.pdf` → `workforce-pathways`, `academic-programs`, `financial-administration`
+- `Cornerstone_Session_Roster_Report_7_20_12 AM.pdf` → `student-services`, `events-and-conferences`, `professional-development`
+- `Cornerstone_Session_Signin-10_12_2025 (1).pdf` → `professional-development`, `student-services`, `academic-programs`, `events-and-conferences`
+- `Cornerstone_Session_Signin-10_12_2025.pdf` → `professional-development`, `student-services`, `academic-programs`, `events-and-conferences`
+- `Cornerstone_Session_Signin-1_14_2026.pdf` → `events-and-conferences`, `workforce-pathways`, `professional-development`, `student-services`, `academic-programs`
+- `Cornerstone_Session_Signin-1_5_2026 (1).pdf` → `summer-pd`, `professional-development`, `workforce-pathways`, `student-services`
+- `Cornerstone_Session_Signin-1_5_2026 (3).pdf` → `professional-development`, `workforce-pathways`, `student-services`, `academic-programs`, `events-and-conferences`
+- `Cornerstone_Session_Signin-1_5_2026 (4).pdf` → `student-services`, `professional-development`, `summer-pd`, `events-and-conferences`, `workforce-pathways`
+- `Cornerstone_Session_Signin-1_5_2026.pdf` → `student-services`, `professional-development`, `workforce-pathways`, `health-compliance`, `academic-programs`
+- `Cornerstone_Session_Signin-5_26_2026 (1).pdf` → `student-services`, `professional-development`, `workforce-pathways`, `events-and-conferences`, `career-exploration`, `summer-pd`
+- `Cornerstone_Session_Signin-5_26_2026 (2).pdf` → `professional-development`, `workforce-pathways`, `student-services`, `events-and-conferences`
+- `Cornerstone_Session_Signin-5_26_2026 (3).pdf` → `events-and-conferences`, `workforce-pathways`, `professional-development`, `student-services`, `career-exploration`, `academic-programs`
+- `Cornerstone_Session_Signin-5_26_2026 (4).pdf` → `events-and-conferences`, `professional-development`, `workforce-pathways`, `student-services`, `career-exploration`
+- `Cornerstone_Session_Signin-5_26_2026 (5).pdf` → `student-services`, `professional-development`, `workforce-pathways`, `events-and-conferences`, `career-exploration`
+- `Cornerstone_Session_Signin-5_26_2026 (6).pdf` → `student-services`, `professional-development`, `workforce-pathways`, `events-and-conferences`, `career-exploration`
+- `Cornerstone_Session_Signin-5_26_2026 (7).pdf` → `events-and-conferences`, `workforce-pathways`, `professional-development`, `student-services`
+- `Cornerstone_Session_Signin-5_26_2026.pdf` → `professional-development`, `workforce-pathways`, `student-services`, `events-and-conferences`, `career-exploration`, `summer-pd`
+- `Cornerstone_Session_Signin-5_29_2026.pdf` → `events-and-conferences`, `professional-development`, `workforce-pathways`, `student-services`, `career-exploration`
+- `Cornerstone_Session_Signin-6_10_2026.pdf` → `professional-development`, `career-exploration`, `summer-pd`, `academic-programs`, `student-services`, `events-and-conferences`
+- `Cornerstone_Session_Signin-6_9_2026.pdf` → `events-and-conferences`, `professional-development`, `career-exploration`, `summer-pd`, `academic-programs`, `student-services`
+- `Coyle June hourlysupplementaltimecard.pdf` → `professional-development`, `events-and-conferences`
+- `D. Enderle Travel Form ATAT - signed.pdf` → `events-and-conferences`, `health-compliance`
+- `D. Johnson complete naf documents .pdf` → `events-and-conferences`, `financial-administration`, `conference-travel`, `procurement-compliance`, `student-services`, `professional-development`
+- `DIAZ_TIVA_GRANT TRAVEL FORMS _SIGNED.pdf` → `summer-pd`, `events-and-conferences`, `career-exploration`, `conference-travel`, `financial-administration`, `student-services`
+- `DISD_EMS_Student_Profile_5_26_26.pdf` → `cte-summer-program`, `health-compliance`, `procurement-compliance`, `career-exploration`, `workforce-pathways`, `student-services`
+- `DISD_Purchasing_Analysis 208023.pdf` → `purchasing-operations`, `workforce-pathways`, `vendor-management`, `health-compliance`
+- `DRAFT Vehicle Intake & Liability Waiver Form.pdf` → `cte-summer-program`, `health-compliance`, `academic-programs`
+- `DSC_6946-Enhanced-NR.jpg` → `cte-summer-program`, `health-compliance`, `procurement-compliance`, `financial-administration`, `events-and-conferences`
+- `DSC_7006-Enhanced-NR.jpg` → `summer-pd`
+- `DSC_7046-Enhanced-NR.jpg` → `financial-administration`, `health-compliance`
+- `DSC_7046-Enhanced-NR[89].jpg.jpeg` → `financial-administration`, `health-compliance`
+- `DSC_9851.jpg` → `health-compliance`
+- `Dallas ISD 2026-2027 Comprehensive Local Needs Assessment.pdf` → `academic-programs`, `procurement-compliance`, `career-exploration`
+- `Dallas ISD CTE_ Work-Based Learning Continuum.pdf` → `academic-programs`, `workforce-pathways`, `cte-summer-program`, `health-compliance`, `program-planning`, `professional-development`
+- `Dallas ISD Garner A&P 1 year Estimate_316614.pdf` → `purchasing-operations`, `health-compliance`, `academic-programs`, `cte-summer-program`, `financial-administration`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ALEXIS GUERECA 01.13.2010   TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ALLISON GARCIAGUIRRE 07.16.2009 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ANA RIVERA 12.09.2008 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ARIANA GOMEZ 02.16.2011 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/CARLA MELGAR 09.22.1992 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/CINTHIA SANTOYO 06.08.2009 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/EDGAR VASQUEZ 09.10.2010 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/EMILY COLLINS 06.10.2009 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/GABRIELA GURROLA 11.13.2009 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/GABRIELLA NUNEZ 12.28.2009 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/ISABELLA GUERRERO 10.02.2009 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/JAYDE MORALES 03.13.2009 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/JENNIFER CARPIO 09.30.2009 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/JUVE NOE MATEOS MENDOZA 06.04.2008 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/LYLA CAMERENA 04.16.2008 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`, `student-services`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/MARILYN ALMONACI 12.14.2009 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/MARLEY MARROQUIN 07.08.2008 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`, `student-services`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/MELISSA ALONSO 10.23.2008 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`, `lab-results`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/MELISSA LARA 02.19.2011 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/NATALIA BLAS 05.21.2010 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`, `student-services`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/PAULA ROCABRUNO TORRALBA 11.16.2010 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/TREYNAHDEE WASHINGTON 08.07.2009 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`, `student-services`
+- `Dallas ISD TB Results-20260528T200331Z-3-001.zip.unpacked/Dallas ISD TB Results/YVONNE MORGAN 07.14.1980 TB LABRESULTS.pdf` → `tb-screening`, `health-compliance`
+- `Dallas ISD TB Results/ALEXIS GUERECA 01.13.2010   TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results/ALLISON GARCIAGUIRRE 07.16.2009 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results/ANA RIVERA 12.09.2008 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results/ANGIE GONZALEZ 07.23.2010 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results/ARIANA GOMEZ 02.16.2011 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`, `lab-results`
+- `Dallas ISD TB Results/CARLA MELGAR 09.22.1992 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results/CINTHIA SANTOYO 06.08.2009 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results/EDGAR VASQUEZ 09.10.2010 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`, `lab-results`
+- `Dallas ISD TB Results/GABRIELA GURROLA 11.13.2009 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`, `student-services`
+- `Dallas ISD TB Results/ISABELLA GUERRERO 10.02.2009 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results/JENNIFER CARPIO 09.30.2009 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results/JUVE NOE MATEOS MENDOZA 06.04.2008 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results/LYLA CAMERENA 04.16.2008 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results/MARILYN ALMONACI 12.14.2009 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results/MELISSA ALONSO 10.23.2008 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results/MELISSA LARA 02.19.2011 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results/NATALIA BLAS 05.21.2010 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results/PAULA ROCABRUNO TORRALBA 11.16.2010 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results/TREYNAHDEE WASHINGTON 08.07.2009 TB LAB RESULTS.pdf` → `health-compliance`, `tb-screening`
+- `Dallas ISD TB Results/YVONNE MORGAN 07.14.1980 TB LABRESULTS.pdf` → `tb-screening`, `health-compliance`
+- `Dallas ISD — NAF Membership Agreement 2026-27[57].pdf` → `events-and-conferences`, `program-planning`, `industry-certifications`, `workforce-pathways`
+- `DallasISDTravel - ACTE Best Practices - JS.pdf` → `events-and-conferences`, `procurement-compliance`, `health-compliance`, `program-planning`
+- `Dallas_ISD_CLNA_2026-2027_DRAFT.pdf` → `academic-programs`, `health-compliance`, `workforce-pathways`, `career-exploration`, `cte-summer-program`, `procurement-compliance`
+- `Dallas_ISD_CTE_Industry_Partner_Quarterly_Meeting_One_Pager.pdf` → `workforce-pathways`, `events-and-conferences`
+- `Dee July hourlysupplementaltimecard.pdf` → `professional-development`, `conference-travel`, `curriculum`
+- `Digitial Citizenship PSA.pdf` → `events-and-conferences`, `academic-programs`
+- `Digitial Citizenship PSA[7].pdf` → `workforce-pathways`, `academic-programs`
+- `Disability+Severe+Food+Allergy+Request+Form.pdf` → `health-compliance`, `procurement-compliance`
+- `Documents/12-month weightlifitng Plan.pdf` → `events-and-conferences`, `cte-summer-program`, `procurement-compliance`
+- `Documents/12.21  CTE Lead Teacher.pdf` → `financial-administration`
+- `Documents/2024-25 Bell Schedule_CI South.docx.pdf` → `events-and-conferences`, `financial-administration`
+- `Documents/2025-2026 CTE Oracle iExpense Travel Training.pdf` → `events-and-conferences`, `professional-development`, `procurement-compliance`, `health-compliance`
+- `Documents/244 Sitipend 2026/Amaning Completed-Supplemental_form.pdf (SECURED).pdf` → `financial-administration`, `procurement-compliance`, `academic-programs`, `workforce-pathways`, `summer-pd`
+- `Documents/244 Sitipend 2026/Amaning-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `academic-programs`, `conference-travel`, `summer-pd`, `events-and-conferences`
+- `Documents/244 Sitipend 2026/Archie-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `academic-programs`, `summer-pd`, `conference-travel`, `workforce-pathways`
+- `Documents/244 Sitipend 2026/Benagh-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `student-services`, `professional-development`, `conference-travel`, `workforce-pathways`
+- `Documents/244 Sitipend 2026/Copy of CTE Lead Teacher Stipends (Fall 2025).pdf` → `financial-administration`, `cte-summer-program`
+- `Documents/244 Sitipend 2026/Coyle-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `academic-programs`, `professional-development`, `conference-travel`
+- `Documents/244 Sitipend 2026/Hamilton-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `student-services`, `workforce-pathways`, `industry-certifications`
+- `Documents/244 Sitipend 2026/Jones-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `academic-programs`, `summer-pd`, `conference-travel`, `events-and-conferences`
+- `Documents/244 Sitipend 2026/Kalat-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `academic-programs`, `workforce-pathways`
+- `Documents/244 Sitipend 2026/MRodriguez-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `workforce-pathways`, `conference-travel`, `summer-pd`, `professional-development`, `procurement-compliance`
+- `Documents/244 Sitipend 2026/Maxwell-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `academic-programs`, `workforce-pathways`, `summer-pd`, `professional-development`
+- `Documents/244 Sitipend 2026/SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `professional-development`, `conference-travel`, `procurement-compliance`, `events-and-conferences`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.2.pdf` → `financial-administration`, `curriculum`, `events-and-conferences`
+- `Documents/244 Sitipend 2026/Spring Stipend CTE 2026.pdf` → `financial-administration`
+- `Documents/244 Sitipend 2026/Williams-SRFM Supplemental Compensation Certification Form_revised 07.15.2025.pdf` → `financial-administration`, `procurement-compliance`, `student-services`, `workforce-pathways`
+- `Documents/26-27 Campus CTE Nonposition Realignment Datasource Updated.pdf` → `cte-summer-program`, `program-planning`, `health-compliance`
+- `Documents/26-27 TraditionalCalendar-Traditional2026-2027.pdf` → `financial-administration`, `events-and-conferences`, `professional-development`, `health-compliance`, `summer-pd`
+- `Documents/78992911509__7D2691A3-B2A3-4860-A0CD-4AB3D25CEB37.jpg` → `financial-administration`
+- `Documents/ACTE Nashville AA.pdf` → `financial-administration`, `events-and-conferences`
+- `Documents/ACTE Vision 2025/65684178-BD76-0A08-B60B-BE1C34BFECD62025121015413396.pdf` → `student-services`, `procurement-compliance`, `professional-development`
+- `Documents/ACTE Vision 2025/656A76EE-B68A-D444-6762-21010FD3F29C2025121015414842.pdf` → `student-services`, `professional-development`
+- `Documents/ACTE Vision 2025/656CE590-B6F4-2F08-5A50-B7FB55AB15F82025121015420436.pdf` → `student-services`
+- `Documents/ACTE Vision 2025/656EE0EE-B956-47AB-F3B8-A54C3E8E641B20251210154217363.pdf` → `student-services`, `professional-development`, `academic-programs`
+- `Documents/ACTE Vision 2025/65716A4D-B4E2-7383-94EF-7EDF54BFC4E120251210154233987.pdf` → `student-services`, `professional-development`
+- `Documents/ACTE Vision 2025/65734697-0BED-B7C1-727E-DB1AA7193B0820251210154246197.pdf` → `student-services`, `conference-travel`, `health-compliance`, `professional-development`
+- `Documents/ACTE Vision 2025/65754B6A-EF78-CE75-65F6-D456EA8547462025121015425945.pdf` → `procurement-compliance`, `student-services`
+- `Documents/ACTE Vision 2025/6579DB74-F008-599E-5ED8-2CEC15E80EA820251210154329313.pdf` → `student-services`, `professional-development`
+- `Documents/ACTE Vision 2025/Admin 101/12 Tier 1 Strategies.pdf` → `student-services`, `academic-programs`, `workforce-pathways`, `events-and-conferences`
+- `Documents/ACTE Vision 2025/Admin 101/ACTE Advisory Council Support Menu.pdf` → `workforce-pathways`, `student-services`, `cte-summer-program`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Council.pdf` → `workforce-pathways`, `student-services`, `academic-programs`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1 (1).pdf` → `academic-programs`, `workforce-pathways`, `program-planning`
+- `Documents/ACTE Vision 2025/Admin 101/Advisory Councils from Year 1.pdf` → `cte-summer-program`, `workforce-pathways`, `program-planning`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Mentor Sample Program.pdf` → `cte-summer-program`, `financial-administration`, `professional-development`, `events-and-conferences`, `program-planning`
+- `Documents/ACTE Vision 2025/Admin 101/CTE New Teacher Professional Development Plan (1).pdf` → `professional-development`, `workforce-pathways`, `academic-programs`, `cte-summer-program`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Prof Growth Plan.pdf` → `professional-development`, `workforce-pathways`, `industry-certifications`
+- `Documents/ACTE Vision 2025/Admin 101/CTE Program Coherent Sequence.pdf` → `cte-summer-program`, `industry-certifications`, `curriculum`
+- `Documents/ACTE Vision 2025/Admin 101/Directions for High School Scope  Sequence (2).pdf` → `academic-programs`, `financial-administration`, `events-and-conferences`, `workforce-pathways`, `program-planning`
+- `Documents/ACTE Vision 2025/Admin 101/Employer Engagement- A Year-Long Plan for Sustained Partnerships with Local Industry..pdf` → `workforce-pathways`, `cte-summer-program`, `program-planning`, `health-compliance`
+- `Documents/ACTE Vision 2025/Admin 101/Scope and Sequence Template.pdf` → `academic-programs`, `student-services`, `program-planning`, `workforce-pathways`, `financial-administration`, `cte-summer-program`
+- `Documents/ACTE Vision 2025/Admin 101/WBL Cheat Sheet.pdf` → `cte-summer-program`, `academic-programs`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/Admin 101/WBL-why it patters.pdf` → `procurement-compliance`, `academic-programs`, `professional-development`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/Admin 101/request.pdf` → `workforce-pathways`, `cte-summer-program`, `academic-programs`, `health-compliance`, `student-services`, `industry-certifications`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Guiding Questions.pdf` → `academic-programs`, `health-compliance`, `workforce-pathways`, `student-services`, `procurement-compliance`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool-Example.pdf` → `program-planning`, `academic-programs`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/Admin 201/CLNA Planning Tool.pdf` → `program-planning`, `academic-programs`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/Admin 201/CTE Admin 102-Slide Deck.pptx.pdf` → `cte-summer-program`
+- `Documents/ACTE Vision 2025/Admin 201/Improving_CTE_Performance_Measurement_Data_Collection_09-11-2024.pdf` → `health-compliance`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Cheat Sheet.pdf` → `financial-administration`, `cte-summer-program`, `academic-programs`, `procurement-compliance`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins Performance Measures Data Analysis Template.pdf` → `academic-programs`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/Admin 201/Perkins-V-Funding-Distribution.pdf` → `procurement-compliance`, `program-planning`
+- `Documents/ACTE Vision 2025/BFE8C233-C2D9-EA8C-9D7B-E8680DA0FD882025121209522347.pdf` → `workforce-pathways`
+- `Documents/ACTE Vision 2025/CLNA/73459750-E17B-83F6-D59C-631B116DBF582025121022091676.pdf` → `academic-programs`, `workforce-pathways`, `program-planning`, `procurement-compliance`, `events-and-conferences`
+- `Documents/ACTE Vision 2025/CLNA/734A12D1-EE5A-0990-1F62-9A28880A3C5720251210220946123.pdf` → `academic-programs`, `events-and-conferences`
+- `Documents/ACTE Vision 2025/The Art of Coaching/44 Ways to Build Emotional Intelligence.pdf` → `student-services`, `professional-development`, `events-and-conferences`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Do we Need a Team.pdf` → `student-services`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Example of a Team's Communication Agreements.pdf` → `student-services`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of a Team's Emotional Intelligence.pdf` → `student-services`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Indicators of an Effective Team.pdf` → `student-services`, `professional-development`, `workforce-pathways`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Small Group Activity- Modeling Team Coaching in Action.pdf` → `student-services`, `conference-travel`, `professional-development`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Member Roles and Responsibilities.pdf` → `student-services`, `procurement-compliance`, `events-and-conferences`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Team Temperature Check.pdf` → `student-services`, `professional-development`, `health-compliance`
+- `Documents/ACTE Vision 2025/The Art of Coaching/Transformational Coaching Team's Mission and Vision.pdf` → `student-services`, `workforce-pathways`, `events-and-conferences`, `cte-summer-program`, `professional-development`
+- `Documents/ANG-DISD Adamson HS Air Compressor Equipment Repairs_Quote_20262603AD.pdf` → `procurement-compliance`, `purchasing-operations`, `academic-programs`, `health-compliance`, `financial-administration`
+- `Documents/Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2).pdf` → `student-services`, `health-compliance`, `procurement-compliance`
+- `Documents/Adopted Materiall Quotes␠/ACTE Visin 2025 Grant_Funded Travel Authorization Form- ACTE 2025 copy.pdf` → `events-and-conferences`, `conference-travel`, `professional-development`, `financial-administration`, `procurement-compliance`
+- `Documents/Adopted Materiall Quotes␠/BE Publishing Non Awarded Vendor Approved.pdf` → `procurement-compliance`, `academic-programs`
+- `Documents/Adopted Materiall Quotes␠/CTE QUOTE Dallas ISD Aug 26 2025 Digital 1 year with teacher tools MW.pdf` → `purchasing-operations`, `financial-administration`, `cte-summer-program`, `events-and-conferences`
+- `Documents/Adopted Materiall Quotes␠/Certiport Non Vendor form Approved .pdf` → `procurement-compliance`, `purchasing-operations`, `workforce-pathways`, `events-and-conferences`, `vendor-management`
+- `Documents/Adopted Materiall Quotes␠/Code HS Approved.pdf` → `procurement-compliance`, `academic-programs`, `purchasing-operations`, `workforce-pathways`
+- `Documents/Adopted Materiall Quotes␠/CodeHS Proclamation 2024 titles.pdf` → `academic-programs`, `purchasing-operations`, `cte-summer-program`, `procurement-compliance`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD A&P revised seat number Estimate_316614.pdf` → `purchasing-operations`, `academic-programs`, `health-compliance`, `financial-administration`, `events-and-conferences`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Garner A&P 1 year Estimate_316614.pdf` → `purchasing-operations`, `academic-programs`, `health-compliance`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 1 year Estimate_375613.pdf` → `purchasing-operations`, `academic-programs`, `financial-administration`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Hospitality 4 year  Estimate_375616.pdf` → `purchasing-operations`, `academic-programs`
+- `Documents/Adopted Materiall Quotes␠/Dallas ISD Spence Video Game Design Estimate_375603.pdf` → `purchasing-operations`, `academic-programs`
+- `Documents/Adopted Materiall Quotes␠/Davis Publications Non Awarded Vendor Approved.pdf` → `procurement-compliance`, `academic-programs`, `conference-travel`
+- `Documents/Adopted Materiall Quotes␠/Goodheart Wilcox Non Awarded approved.pdf` → `procurement-compliance`, `academic-programs`, `purchasing-operations`
+- `Documents/Adopted Materiall Quotes␠/Human Services-Cengage quote 2025.pdf` → `purchasing-operations`, `procurement-compliance`
+- `Documents/Adopted Materiall Quotes␠/National Restraunt Association Approved Quote.pdf` → `procurement-compliance`, `workforce-pathways`, `events-and-conferences`, `conference-travel`, `purchasing-operations`
+- `Documents/Adopted Materiall Quotes␠/Non Awarded Vendor Request McGraw Hill Approved.pdf` → `procurement-compliance`, `academic-programs`, `conference-travel`, `financial-administration`, `purchasing-operations`
+- `Documents/Adopted Materiall Quotes␠/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf` → `procurement-compliance`, `conference-travel`, `workforce-pathways`, `academic-programs`, `financial-administration`, `purchasing-operations`
+- `Documents/Adopted Materiall Quotes␠/Pearson Non Awarded Approved.pdf` → `procurement-compliance`, `vendor-management`, `purchasing-operations`, `academic-programs`, `financial-administration`
+- `Documents/Adopted Materiall Quotes␠/Proclamation 2024 -Principles of IT.pdf` → `purchasing-operations`, `academic-programs`, `events-and-conferences`
+- `Documents/Adopted Materiall Quotes␠/SACA_09-08-2025 Approved.pdf` → `procurement-compliance`, `industry-certifications`, `conference-travel`, `purchasing-operations`
+- `Documents/Affiliated Agreements/Acadian_Dallas_Independent_School Dist-Both parties signed (1) (2)[18].pdf` → `student-services`, `health-compliance`, `procurement-compliance`, `financial-administration`
+- `Documents/Affiliated Agreements/Automotive Service Excellence - Approved for one time purchase[5].pdf` → `procurement-compliance`, `workforce-pathways`, `health-compliance`
+- `Documents/Affiliated Agreements/Dallas ISD_First Amendment  to extend term[31].pdf` → `student-services`, `health-compliance`, `cte-summer-program`
+- `Documents/Affiliated Agreements/ESCO Institute LTD - approved for one time use.pdf` → `procurement-compliance`, `cte-summer-program`, `health-compliance`, `conference-travel`, `events-and-conferences`
+- `Documents/Affiliated Agreements/Sgtar Wars Table mats[6].pdf` → `summer-pd`, `health-compliance`
+- `Documents/Baylor Scott & Whote MAA 2028 08.09.23.pdf` → `student-services`, `health-compliance`, `procurement-compliance`, `cte-summer-program`
+- `Documents/Bell Schedule CI East.pdf` → `events-and-conferences`, `student-services`, `curriculum`, `procurement-compliance`
+- `Documents/Bell Schedule CI North.pdf` → `events-and-conferences`
+- `Documents/CLNA Tools-ACTE Vision.pdf` → `academic-programs`, `procurement-compliance`, `events-and-conferences`
+- `Documents/CNA QR Sheet 2a_Stakeholder Involvement by Program-1.pdf` → `cte-summer-program`, `events-and-conferences`, `academic-programs`, `financial-administration`
+- `Documents/CNA Workscopes_ Step #1_ Stop_and_Jot_Reflection.pdf` → `procurement-compliance`, `program-planning`, `ctso-activities`, `student-services`, `academic-programs`
+- `Documents/CTAT Summer 2025.jpeg` → `workforce-pathways`, `events-and-conferences`
+- `Documents/CTE Lead Teacher Stipends (Fall 2025).pdf` → `financial-administration`, `events-and-conferences`
+- `Documents/CTE Proclamation 2024.pdf` → `academic-programs`, `events-and-conferences`, `workforce-pathways`, `health-compliance`, `professional-development`
+- `Documents/Conference Travel/CTE CTSO Sponsorship Guidelines 25-26.docx.pdf` → `events-and-conferences`, `workforce-pathways`, `ctso-activities`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.docx.pdf` → `procurement-compliance`, `financial-administration`, `cte-summer-program`, `workforce-pathways`, `professional-development`
+- `Documents/Conference Travel/Campus Lead Responsibilities 25-26.pdf` → `procurement-compliance`, `financial-administration`, `cte-summer-program`, `events-and-conferences`, `workforce-pathways`, `health-compliance`
+- `Documents/Conference Travel/Expenditure Justification Form_September 2025[86] copy.pdf` → `procurement-compliance`, `cte-summer-program`, `health-compliance`
+- `Documents/Conference Travel/JEREMY SPENCE_ACTE VISION 2025_TRAVEL AUTHORIZATION - signed.pdf` → `events-and-conferences`, `conference-travel`, `professional-development`, `financial-administration`
+- `Documents/Conference Travel/Jspence Hotel.pdf` → `financial-administration`, `events-and-conferences`
+- `Documents/Conference Travel/Moore Norman Agenda_MNTC_Dallas_ISD_Visit_Agenda.pdf` → `workforce-pathways`, `events-and-conferences`
+- `Documents/Conference Travel/Moore Norman Bing Map.png` → `program-planning`, `events-and-conferences`
+- `Documents/Conference Travel/Moore Norman Campus Mileage.pdf` → `events-and-conferences`
+- `Documents/Conference Travel/Moore Norman Name Tent.pdf` → `events-and-conferences`, `professional-development`, `student-services`, `cte-summer-program`
+- `Documents/Conference Travel/Moore Norman Return Bing Map.png` → `program-planning`, `events-and-conferences`
+- `Documents/Conference Travel/Moore Norman Smoothie king.jpg` → `financial-administration`
+- `Documents/Conference Travel/SRFM Travel Expense Report Checklist.pdf` → `events-and-conferences`, `procurement-compliance`, `student-services`, `financial-administration`
+- `Documents/Conference Travel/Schedule At-A-Glance ACTE Vision 2025.pdf` → `events-and-conferences`, `professional-development`
+- `Documents/Conference Travel/Uber 1 Nashville .pdf` → `financial-administration`, `events-and-conferences`
+- `Documents/Conference Travel/Uber 2 Nashville.pdf` → `financial-administration`, `events-and-conferences`
+- `Documents/Conference Travel/Uber 3 Nashville.pdf` → `financial-administration`, `events-and-conferences`
+- `Documents/Conference Travel/Uber 4 Nashville.pdf` → `financial-administration`, `events-and-conferences`
+- `Documents/Conference Travel/Uber 5 Nashville.pdf` → `financial-administration`, `events-and-conferences`
+- `Documents/Conference Travel/Uber receipts .pdf` → `financial-administration`, `events-and-conferences`
+- `Documents/Conference Travel/eInvoice, December 08 for JEREMY SPENCE.eml` → `events-and-conferences`
+- `Documents/Copy of 12.21  CTE Lead Teacher.pdf` → `financial-administration`
+- `Documents/Cornerstone_Session_Signin-1_5_2026 (2).pdf` → `student-services`, `professional-development`, `workforce-pathways`, `events-and-conferences`, `academic-programs`
+- `Documents/DALLASISDGOOGLECOURSECATALOG.pdf` → `workforce-pathways`, `academic-programs`, `career-exploration`, `cte-summer-program`, `program-planning`
+- `Documents/DallasISDTravel - ACTE Best Practice - JB.pdf` → `events-and-conferences`, `procurement-compliance`, `purchasing-operations`
+- `Documents/DallasISDTravel - ACTE Best Practices - JS.pdf` → `events-and-conferences`, `purchasing-operations`
+- `Documents/Five Foundations of Ramsey.pdf` → `student-services`
+- `Documents/How to Request a Trip (2).pdf` → `procurement-compliance`
+- `Documents/Insurance documentation .pdf` → `student-services`, `health-compliance`
+- `Documents/January 2026 Lunch and Learn.pdf` → `procurement-compliance`, `purchasing-operations`
+- `Documents/JeremySpenceCoverLetter AA.pdf` → `academic-programs`, `workforce-pathways`, `cte-summer-program`
+- `Documents/Kenzie Birth cert.jpeg` → `student-services`, `health-compliance`
+- `Documents/M. Spence Initial Parent Referral Packet[16].pdf` → `academic-programs`, `health-compliance`, `program-planning`, `events-and-conferences`
+- `Documents/Mackenna Birth Cert.jpeg` → `student-services`, `health-compliance`, `industry-certifications`, `immunization`
+- `Documents/Mackenna Spence 12-21-BASC 3 Teacher.pdf` → `academic-programs`, `tb-screening`, `events-and-conferences`
+- `Documents/Mackenna Spence NICHQ Teacher.pdf` → `academic-programs`, `health-compliance`
+- `Documents/Mackenna physical 2.jpeg` → `academic-programs`, `health-compliance`
+- `Documents/Mackenzie Birthcertificate.jpeg` → `student-services`, `health-compliance`, `procurement-compliance`
+- `Documents/Mackenzie Spence Birth certificate.jpeg` → `student-services`, `health-compliance`
+- `Documents/New Stipend Request Form[29].pdf` → `financial-administration`, `workforce-pathways`
+- `Documents/Non-AwardedVendorRequestForm copy.pdf` → `procurement-compliance`, `vendor-management`, `purchasing-operations`
+- `Documents/Norman Moore Grant_Funded Travel Authorization Form.pdf` → `events-and-conferences`, `professional-development`, `financial-administration`, `procurement-compliance`, `student-services`
+- `Documents/Perkins Travel/2025-2026 Financial Services Activity Calendar[2].pdf` → `procurement-compliance`, `student-services`, `purchasing-operations`
+- `Documents/Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `health-compliance`, `workforce-pathways`, `procurement-compliance`, `academic-programs`, `financial-administration`
+- `Documents/Perkins Travel/Expenditure Justification Form_September 2025[72].pdf` → `procurement-compliance`, `events-and-conferences`, `cte-summer-program`
+- `Documents/Perkins Travel/SRFM Meal Reimbursement Guide - Revised.10.14.2025[38].pdf` → `financial-administration`, `events-and-conferences`, `student-services`, `procurement-compliance`
+- `Documents/Personal/Everlake- Beneficiary Change Lincoln Benefit copy.pdf` → `program-planning`
+- `Documents/Physical Mackenna spence 1.jpeg` → `health-compliance`
+- `Documents/Proclamation 2024_Preliminary Findings of the State Review Panel.pdf` → `academic-programs`, `workforce-pathways`, `health-compliance`, `professional-development`, `events-and-conferences`
+- `Documents/Procurement Codes .pdf` → `procurement-compliance`, `purchasing-operations`, `financial-administration`, `health-compliance`
+- `Documents/Purchase Orders：Lince Codes/ContactList_ProcurementServices_21_2.pdf` → `events-and-conferences`, `procurement-compliance`
+- `Documents/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf` → `cte-summer-program`, `procurement-compliance`
+- `Documents/Quotes 25-26/Trailer Outlet Quote_.pdf` → `purchasing-operations`, `procurement-compliance`
+- `Documents/Showcase Promo 2026[5].pdf` → `events-and-conferences`, `workforce-pathways`, `student-services`, `health-compliance`
+- `Documents/TEKS/130.-subchapter-d-business-management-and-administration.pdf` → `academic-programs`, `workforce-pathways`
+- `Documents/Table mats.pdf` → —
+- `Documents/Townview Business School Leadership Campus Field Trip Proposal[17].pdf` → `events-and-conferences`, `cte-summer-program`, `student-services`, `financial-administration`
+- `Documents/Triptracker 101 2025-26.pptx.pdf` → `health-compliance`, `procurement-compliance`, `conference-travel`, `events-and-conferences`
+- `Documents/Triptracker Cheat Sheet.pdf` → —
+- `Documents/WT WHite PD Roster Dallas ISD.pdf` → `student-services`, `professional-development`, `events-and-conferences`
+- `Documents/Welding -Alpha Group.pdf` → `events-and-conferences`, `purchasing-operations`, `industry-certifications`
+- `Documents/Your trip – View reservations on aa.com - American Airlines.pdf` → `events-and-conferences`
+- `Documents/iSupplierPortalQuickReferenceCard-NewProspectiveSuppliersRegistration.pdf` → `procurement-compliance`, `financial-administration`
+- `Documents/scan_jspence-Life insurance.pdf` → `cte-summer-program`, `procurement-compliance`
+- `Documents/scan_jspence_2025-09-04-09-15-15.pdf` → `procurement-compliance`, `academic-programs`, `workforce-pathways`, `health-compliance`, `purchasing-operations`
+- `Documents/untitled folder/Travel Forms/Expenditure Justification Form_September 2025.pdf` → `procurement-compliance`, `events-and-conferences`, `health-compliance`, `cte-summer-program`
+- `EMT：EMR/26-27 CI Copy of Bell Schedule.docx.pdf` → `events-and-conferences`, `career-exploration`
+- `EMT：EMR/26-27 Comprehensive High Schools_Career Institutes A_B Calendar (Approved 4_13_26) - DRAFT.pdf` → `career-exploration`, `financial-administration`, `health-compliance`, `professional-development`, `procurement-compliance`
+- `EMT：EMR/Dallas ISD_First Amendment  to extend term (1) - signed.pdf` → `student-services`, `cte-summer-program`, `health-compliance`
+- `EMT：EMR/FOR_YOUR_SIGNATURE_Affiliation_Agreement(One[79].pdf` → `student-services`, `health-compliance`, `procurement-compliance`
+- `EMT：EMR/Signed NAF Forms 26.pdf` → `events-and-conferences`, `conference-travel`, `financial-administration`, `student-services`, `professional-development`, `procurement-compliance`
+- `Early Childhood Education.pdf` → `events-and-conferences`, `workforce-pathways`, `cte-summer-program`, `academic-programs`, `professional-development`, `summer-pd`
+- `Ed Rising Conference Badge-Demars (1).pdf` → `events-and-conferences`, `professional-development`
+- `Ed Rising Conference Badge-Demars (2).pdf` → `events-and-conferences`
+- `Ed Rising Conference Badge-Demars.pdf` → `events-and-conferences`, `professional-development`
+- `Ed Rising Conference Itinerary (1).pdf` → `events-and-conferences`, `summer-pd`, `health-compliance`, `academic-programs`, `workforce-pathways`, `student-services`
+- `Ed Rising Conference Itinerary.pdf` → `events-and-conferences`, `health-compliance`, `academic-programs`
+- `Editable_Non Awarded Vendor Request Form 7.2025.pdf` → `procurement-compliance`, `vendor-management`, `purchasing-operations`
+- `Elementary (1).pdf` → `summer-pd`, `curriculum`, `academic-programs`
+- `Elementary.pdf` → `summer-pd`, `curriculum`, `academic-programs`, `workforce-pathways`
+- `Employability_Skills_Framework_OnePager_20180212.pdf` → `student-services`, `workforce-pathways`
+- `EnrollmentByCourse.pdf` → `health-compliance`
+- `Ewing June hourlysupplementaltimecard.pdf` → `professional-development`, `conference-travel`
+- `Final Divorce Decree Jeremy & kelli Spence.pdf` → `events-and-conferences`
+- `Goal_Details_Report_9_39_20_AM.pdf` → `health-compliance`, `immunization`
+- `Hicks Bio.pdf` → `procurement-compliance`, `student-services`, `academic-programs`
+- `Hotel receipt.pdf` → `financial-administration`, `events-and-conferences`
+- `Hubbard June hourlysupplementaltimecard.pdf` → `professional-development`, `conference-travel`, `events-and-conferences`
+- `IMG_0899.jpg` → `financial-administration`
+- `IMG_0900.jpg` → `workforce-pathways`, `professional-development`, `events-and-conferences`, `industry-certifications`
+- `IMG_3618.jpeg` → `financial-administration`
+- `IMG_4417.jpeg` → `financial-administration`
+- `IMG_4433.jpeg` → `financial-administration`, `health-compliance`
+- `IMG_4472.jpg` → `events-and-conferences`, `curriculum`, `financial-administration`, `procurement-compliance`
+- `IMG_4488.jpeg` → `financial-administration`
+- `IMG_4495.jpeg` → `financial-administration`, `health-compliance`
+- `IMG_4509.jpeg` → `events-and-conferences`, `professional-development`, `health-compliance`
+- `IMG_4516.jpeg` → `financial-administration`
+- `IMG_5861.jpeg` → `conference-travel`, `events-and-conferences`
+- `Ihope explanation TIVA (1).pdf` → `financial-administration`, `cte-summer-program`
+- `Ihope explanation TIVA.pdf` → `financial-administration`, `cte-summer-program`
+- `Image_20250918_151210_207.jpeg` → `summer-pd`
+- `Image_20250918_151210_340.jpeg` → `workforce-pathways`, `health-compliance`
+- `Insurance documentation  (1).pdf` → `student-services`, `immunization`, `health-compliance`
+- `Insurance documentation .pdf` → `student-services`, `health-compliance`
+- `Intership Student Names.pdf` → `events-and-conferences`, `health-compliance`
+- `Intership Students.png` → `health-compliance`, `cte-summer-program`, `workforce-pathways`
+- `J. Spann.pdf` → `events-and-conferences`, `financial-administration`, `workforce-pathways`, `student-services`, `procurement-compliance`, `professional-development`
+- `JOSEPH_THOA_GRANT TRAVEL FORM-REVISED - signed.pdf` → `events-and-conferences`, `conference-travel`, `procurement-compliance`
+- `Jeremy Spence Cover Letter NAF 2026 (1).pdf` → `professional-development`, `events-and-conferences`, `cte-summer-program`, `workforce-pathways`, `curriculum`
+- `Jeremy Spence_NAF Next 2026 Conference.pdf (SECURED).pdf` → `events-and-conferences`, `financial-administration`, `conference-travel`, `professional-development`
+- `JeremySpenceresume 04.2026.pdf` → `cte-summer-program`, `professional-development`, `workforce-pathways`, `events-and-conferences`
+- `JeremySpenceresume 06.2024.docx.pdf` → `professional-development`, `academic-programs`, `workforce-pathways`, `events-and-conferences`
+- `Johnson July hourlysupplementaltimecard.pdf` → `professional-development`, `financial-administration`, `health-compliance`
+- `Jones-Gunter THOA Travel Mileage.pdf` → `events-and-conferences`, `health-compliance`
+- `K. Jennings SkillsUsa Nationals 2025 - signed (1).pdf` → `workforce-pathways`, `student-services`, `health-compliance`
+- `KGeorge 25-26 Woodrow CTE Business PLC Minutes.pdf` → `program-planning`, `workforce-pathways`, `academic-programs`, `events-and-conferences`, `conference-travel`
+- `KGeorgeCTELeadTeacherStipendAgreement11.13.25 (1).pdf` → `financial-administration`, `procurement-compliance`, `workforce-pathways`, `professional-development`, `program-planning`, `cte-summer-program`
+- `KGeorgeCTELeadTeacherStipendAgreement11.13.25.pdf` → `financial-administration`, `procurement-compliance`, `workforce-pathways`, `professional-development`, `cte-summer-program`
+- `KGeorgeEduthingsIBCCertUploads4.15.26.pdf` → `workforce-pathways`, `industry-certifications`, `student-services`
+- `KGeorgeIBCTrainingSignIn3.25.26.pdf` → `professional-development`, `workforce-pathways`, `financial-administration`, `events-and-conferences`, `cte-summer-program`
+- `KGeorgeTrainingIBCs3.25.26.pdf` → `workforce-pathways`, `academic-programs`, `student-services`, `conference-travel`
+- `Kenna Address Verification.jpeg` → `financial-administration`, `health-compliance`
+- `L. Sanchez-Munoz Travel form - signed.pdf` → `events-and-conferences`, `health-compliance`
+- `Lead Teacher/CTE Lead Teacher Agreement.pdf` → `student-services`, `financial-administration`, `procurement-compliance`, `cte-summer-program`, `professional-development`, `industry-certifications`
+- `Lead Teacher/CTE Lead Teacher.pdf` → `procurement-compliance`, `financial-administration`, `cte-summer-program`, `workforce-pathways`, `professional-development`
+- `Lead Teacher/SOP Materials/Federal Spend & Cooperative Contract Use.pdf` → `procurement-compliance`
+- `Lead Teacher/original-4128F740-F01F-467F-97DF-B744898FC450.jpeg` → `financial-administration`, `procurement-compliance`, `events-and-conferences`, `industry-certifications`, `health-compliance`
+- `Lesson Plan - Digitial Citizenship Part I.pdf` → `workforce-pathways`
+- `Lincoln Culinaryjpg.jpeg` → `cte-summer-program`, `workforce-pathways`, `events-and-conferences`
+- `Lockley NAF Internship Expo Attendance and Updates 2026.pdf` → `events-and-conferences`, `workforce-pathways`
+- `Lyla Camarena- Vitals Camp- Children's Health.pdf` → `health-compliance`, `summer-pd`
+- `M. Johnson June hourlysupplementaltimecard.pdf` → `professional-development`, `workforce-pathways`, `health-compliance`
+- `M. Spence 504 Plan.pdf` → `vendor-management`, `health-compliance`, `cte-summer-program`
+- `Mackenna Birth Cert (1).jpeg` → `student-services`, `health-compliance`, `immunization`
+- `Mackenna Birth Cert (2).jpeg` → `student-services`, `health-compliance`, `immunization`
+- `Mackenna Birth Cert (3).jpeg` → `student-services`, `health-compliance`, `industry-certifications`, `immunization`
+- `Mackenna Birth Cert.jpeg` → `student-services`, `immunization`, `health-compliance`
+- `Mackenns Spence-Jones Center.pdf` → `procurement-compliance`, `academic-programs`, `student-services`
+- `Marriage License.pdf` → `student-services`, `health-compliance`
+- `Mental+Health+Services+Notification.pdf` → `health-compliance`, `cte-summer-program`, `events-and-conferences`
+- `Minor Testing Packet (1).pdf` → `procurement-compliance`, `academic-programs`, `professional-development`
+- `Minor Testing Packet.pdf` → `procurement-compliance`, `academic-programs`, `professional-development`, `health-compliance`
+- `Moore Norman Bing Map.png` → `program-planning`, `events-and-conferences`
+- `Moore Norman Return Bing Map.png` → `program-planning`
+- `NAF 2026/NAF NEXT 2026 Grant_Funded Travel Authorization Form Updated.pdf` → `events-and-conferences`, `professional-development`, `procurement-compliance`, `student-services`
+- `NAF 2026/NAF NEXT agenda page 1.jpg` → `events-and-conferences`
+- `NAF 2026/NAF NEXT agenda page 2.jpg` → `events-and-conferences`, `professional-development`
+- `NAF 2026/NAF NEXT agenda page 3.jpg` → `events-and-conferences`, `professional-development`
+- `NAF 2026/NAF NEXT agenda page 4.jpg` → `events-and-conferences`, `summer-pd`
+- `NAF Cover Letter.pdf` → `events-and-conferences`, `professional-development`, `workforce-pathways`, `cte-summer-program`
+- `NAF Employment Application (1).pdf` → `events-and-conferences`, `workforce-pathways`
+- `NAF Employment Application.pdf` → `events-and-conferences`, `procurement-compliance`, `workforce-pathways`, `professional-development`
+- `NAF Hotel.pdf` → `events-and-conferences`, `financial-administration`
+- `NAF Next 2026.pdf` → `events-and-conferences`, `program-planning`, `professional-development`, `purchasing-operations`, `financial-administration`, `workforce-pathways`
+- `NAF Next Meeting (1).pdf` → `events-and-conferences`, `program-planning`, `workforce-pathways`
+- `NAF Next Meeting.pdf` → `events-and-conferences`, `professional-development`, `workforce-pathways`
+- `NAF Paperwork/Board Document 250357[69].pdf` → `events-and-conferences`, `procurement-compliance`, `workforce-pathways`, `cte-summer-program`, `career-exploration`, `student-services`
+- `NAF reciepts (1).pdf` → `financial-administration`, `events-and-conferences`
+- `NICHQ Teacher.pdf` → `academic-programs`, `health-compliance`
+- `Non Awarded 2.pdf` → `procurement-compliance`, `conference-travel`, `academic-programs`, `vendor-management`, `purchasing-operations`, `financial-administration`
+- `Non Awarded Vendor Quotes/BE Publishing Non Awarded Vendor Approved.pdf` → `procurement-compliance`, `conference-travel`, `purchasing-operations`, `cte-summer-program`, `academic-programs`
+- `Non Awarded Vendor Quotes/CTE QUOTE Dallas ISD Aug 26 2025 Digital 1 year with teacher tools MW.pdf` → `purchasing-operations`, `academic-programs`, `events-and-conferences`
+- `Non Awarded Vendor Quotes/Code HS Approved.pdf` → `procurement-compliance`, `workforce-pathways`
+- `Non Awarded Vendor Quotes/Davis Publications Non Awarded Vendor Approved.pdf` → `procurement-compliance`, `academic-programs`, `conference-travel`
+- `Non Awarded Vendor Quotes/Goodheart Wilcox Non Awarded approved.pdf` → `procurement-compliance`, `academic-programs`, `purchasing-operations`
+- `Non Awarded Vendor Quotes/National Restraunt Association Approved Quote.pdf` → `procurement-compliance`, `workforce-pathways`, `events-and-conferences`, `purchasing-operations`, `conference-travel`
+- `Non Awarded Vendor Quotes/Non Awarded Vendor Request McGraw Hill Approved.pdf` → `procurement-compliance`, `academic-programs`, `conference-travel`, `financial-administration`, `purchasing-operations`, `vendor-management`
+- `Non Awarded Vendor Quotes/Non-Awarded Vendor Request_Certiport_09-05-2025 Approved.pdf` → `procurement-compliance`, `workforce-pathways`, `purchasing-operations`, `academic-programs`, `financial-administration`
+- `Non Awarded Vendor Quotes/Pearson Non Awarded Approved.pdf` → `procurement-compliance`, `workforce-pathways`, `academic-programs`, `financial-administration`, `vendor-management`, `conference-travel`
+- `Non Awarded Vendor Quotes/SACA_09-08-2025 Approved.pdf` → `procurement-compliance`, `industry-certifications`, `purchasing-operations`, `conference-travel`, `student-services`, `workforce-pathways`
+- `Non- Awarded 1.pdf` → `procurement-compliance`, `workforce-pathways`, `purchasing-operations`, `academic-programs`
+- `Non-Awarded Vendor Forms approved 2/NCCER_Approved 09-12-2025.pdf` → `procurement-compliance`, `academic-programs`, `workforce-pathways`, `conference-travel`, `purchasing-operations`
+- `Non-Awarded Vendor Forms approved 3/NCCER_Approved 09-12-2025.pdf` → `procurement-compliance`, `workforce-pathways`, `purchasing-operations`
+- `Non-Awarded Vendor Forms approved/Alpha Education Group_Non-AwardedVendorRequestForm - signed.pdf (SECURED).pdf` → `procurement-compliance`, `vendor-management`, `cte-summer-program`, `events-and-conferences`, `purchasing-operations`, `student-services`
+- `Non-Awarded Vendor Forms approved/CLNA␠/2026-27-clna-guidebook.pdf` → `procurement-compliance`, `academic-programs`, `workforce-pathways`, `health-compliance`, `program-planning`
+- `Non-Awarded Vendor Forms approved/CLNA␠/SC5600 Comprehensive Local Needs Assessment blank.pdf (SECURED).pdf` → `procurement-compliance`, `academic-programs`, `workforce-pathways`
+- `Non-Awarded Vendor Forms approved/Career Safe-approval[30].pdf` → `procurement-compliance`, `workforce-pathways`, `purchasing-operations`
+- `Non-Awarded Vendor Forms approved/CareerSafe Approved.pdf` → `workforce-pathways`, `procurement-compliance`
+- `Non-Awarded Vendor Forms approved/CompTia Non-Awarded Vendor Form.pdf` → `procurement-compliance`, `workforce-pathways`, `purchasing-operations`, `health-compliance`
+- `Non-Awarded Vendor Forms approved/CompTia.pdf` → `procurement-compliance`, `conference-travel`, `workforce-pathways`, `purchasing-operations`, `financial-administration`
+- `Non-Awarded Vendor Forms approved/Stone Non-AwardedVendorRequestForm.pdf` → `procurement-compliance`, `vendor-management`, `purchasing-operations`, `cte-summer-program`
+- `Non-Awarded Vendor Forms approved/TPSA non awarded vendor form - approved for competitions[16].pdf` → `procurement-compliance`, `vendor-management`
+- `Non-Awarded Vendor Requests Log (1).pdf` → `procurement-compliance`, `purchasing-operations`, `workforce-pathways`
+- `Non-Awarded Vendor Requests Log.pdf` → `procurement-compliance`, `purchasing-operations`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Admin 101_CTE Terms Glossary.docx` → `workforce-pathways`, `cte-summer-program`, `health-compliance`, `student-services`, `industry-certifications`, `academic-programs`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Advisory Council Resources/Advisory Council Support Menu.docx` → `workforce-pathways`, `student-services`, `cte-summer-program`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Advisory Council Resources/Advisory Councils from Year 1.docx` → `academic-programs`, `workforce-pathways`, `program-planning`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Advisory Council Resources/WBL Cheat Sheet.docx` → `academic-programs`, `workforce-pathways`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/CTE Admin 101-Slide Deck.pptx` → `health-compliance`, `workforce-pathways`, `professional-development`, `procurement-compliance`, `program-planning`, `academic-programs`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Program Management/ACTE HQ Frameworks.pdf` → `academic-programs`, `health-compliance`, `cte-summer-program`, `student-services`, `workforce-pathways`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Mentor Sample Program.pdf` → `cte-summer-program`, `financial-administration`, `professional-development`, `events-and-conferences`, `program-planning`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE New Teacher Professional Development Plan.pdf` → `professional-development`, `program-planning`, `events-and-conferences`, `workforce-pathways`, `procurement-compliance`, `summer-pd`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Prof Growth Plan.pdf` → `professional-development`, `program-planning`, `workforce-pathways`, `events-and-conferences`, `cte-summer-program`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/CTE Required Certification by Program.xlsx` → `procurement-compliance`, `academic-programs`, `cte-summer-program`, `workforce-pathways`, `health-compliance`, `events-and-conferences`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/Teacher Recruitment & Retention/Sample CTE Instructional Coaching Guidelines.pdf` → `student-services`, `events-and-conferences`, `professional-development`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/ACTE Advisory Council Support Menu.pdf` → `workforce-pathways`, `student-services`, `cte-summer-program`, `financial-administration`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/Advisory Councils from Year 1.pdf` → `program-planning`, `workforce-pathways`, `cte-summer-program`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/Sample CTE Equipment Request Form.pdf` → `procurement-compliance`, `cte-summer-program`, `purchasing-operations`, `academic-programs`
+- `OneDrive_2025-12-09.zip.unpacked/Admin 101 Resources/WBL & Industry Partnerships/What is and what isn't work-based learning.pdf` → `cte-summer-program`, `workforce-pathways`
+- `OneDrive_2_12-9-2025.zip.unpacked/12 Effective Tier 1 Instructional Strategies.docx` → `student-services`, `academic-programs`, `events-and-conferences`, `summer-pd`, `workforce-pathways`
+- `OneDrive_2_12-9-2025.zip.unpacked/Directions for High School Scope  Sequence.pdf` → `academic-programs`, `financial-administration`, `events-and-conferences`, `industry-certifications`, `program-planning`
+- `OneDrive_2_12-9-2025.zip.unpacked/Employability_Skills_Framework_OnePager_20180212.pdf` → `student-services`, `workforce-pathways`, `financial-administration`
+- `OneDrive_2_12-9-2025.zip.unpacked/Program Coherent Sequence.docx` → `cte-summer-program`, `financial-administration`, `industry-certifications`, `professional-development`, `procurement-compliance`
+- `OneDrive_2_12-9-2025.zip.unpacked/Sample AI Prompt for Intervention Planning.docx` → `academic-programs`, `program-planning`, `student-services`
+- `OneDrive_2_12-9-2025.zip.unpacked/Sample CW Day.pdf` → `cte-summer-program`, `program-planning`, `vendor-management`, `workforce-pathways`, `professional-development`
+- `OneDrive_2_12-9-2025.zip.unpacked/Scope and Sequence Template.xlsx` → `academic-programs`, `student-services`, `financial-administration`, `events-and-conferences`, `workforce-pathways`, `summer-pd`
+- `PATIN_TIVA-GRANT TRAVEL FORM-REVISED - signed.pdf (SECURED).pdf` → `conference-travel`, `events-and-conferences`, `health-compliance`
+- `Parent consent Dallas ISD.docx[18].pdf` → `health-compliance`
+- `Penny King  Recruitment Brochure.pdf` → `workforce-pathways`, `health-compliance`, `cte-summer-program`, `industry-certifications`
+- `Penny King November 2025 PLC GES Meeting.pdf` → `career-exploration`, `workforce-pathways`, `program-planning`
+- `Penny King October 2025 PLC GES Meeting.pdf` → `financial-administration`, `career-exploration`, `professional-development`
+- `Perkins Travel/2025-2026 Financial Services Activity Calendar[2].pdf` → `procurement-compliance`, `student-services`, `purchasing-operations`, `events-and-conferences`
+- `Perkins Travel/2025-2030-industry-based-certification-list-for-public-school-accountability.pdf` → `workforce-pathways`, `events-and-conferences`
+- `Perkins Travel/Dallas Independent School District - Plan without Addendums (37)[39].pdf` → `student-services`, `health-compliance`, `workforce-pathways`, `cte-summer-program`, `academic-programs`, `procurement-compliance`
+- `Perkins Travel/Expenditure Justification Form_September 2025[72].pdf` → `procurement-compliance`, `events-and-conferences`, `health-compliance`, `cte-summer-program`
+- `Perkins Travel/Purchase Orders：Lince Codes/Microsoft Word - DISD Chart of Accounts Cheat Sheet 2025 05 28.pdf` → `student-services`, `cte-summer-program`, `procurement-compliance`
+- `Perkins Travel/SRFM Meal Reimbursement Guide - Revised.10.14.2025[38].pdf` → `financial-administration`, `procurement-compliance`, `events-and-conferences`, `student-services`
+- `Perkins-V-Funding-Distribution.pdf` → `events-and-conferences`, `cte-summer-program`, `program-planning`
+- `PerkinsV_CLNA_Template_ Guide.pdf` → `academic-programs`, `procurement-compliance`, `health-compliance`, `student-services`
+- `Please_complete_with_DocuSign_Tosa_Approved_.pdf` → `health-compliance`, `industry-certifications`, `procurement-compliance`, `student-services`
+- `Proclamation 2024_Preliminary Findings of the State Review Panel.pdf` → `academic-programs`, `workforce-pathways`, `cte-summer-program`
+- `Procurement Services Training (1).pdf` → `procurement-compliance`, `purchasing-operations`
+- `Procurement Services Training.pdf` → `procurement-compliance`, `purchasing-operations`
+- `Program Coherent Sequence.pdf` → `cte-summer-program`, `industry-certifications`, `financial-administration`
+- `Proposal_ Student-Run Financial Center at Townview.pdf` → `student-services`, `health-compliance`, `workforce-pathways`, `procurement-compliance`
+- `QR Sheet 2a_Stakeholder Involvement by Program-1.pdf` → `cte-summer-program`, `procurement-compliance`, `workforce-pathways`
+- `Receipt _ DALLAS ISD.pdf` → `financial-administration`, `events-and-conferences`, `purchasing-operations`
+- `Reference Latter-Myra 2026.pdf` → `procurement-compliance`
+- `Sample AI Prompt for Intervention Planning.pdf` → `academic-programs`, `program-planning`, `workforce-pathways`
+- `Sample CTE Equipment Request Form.pdf` → `procurement-compliance`, `cte-summer-program`, `purchasing-operations`, `workforce-pathways`
+- `Sample CTE Instructional Coaching Guidelines.pdf` → `student-services`, `professional-development`, `cte-summer-program`
+- `Sample CW Day.pdf` → `cte-summer-program`, `vendor-management`, `workforce-pathways`, `program-planning`, `professional-development`, `procurement-compliance`
+- `SampleEmail (6).pdf` → `procurement-compliance`, `purchasing-operations`, `events-and-conferences`
+- `SampleEmail.pdf` → `procurement-compliance`, `purchasing-operations`, `events-and-conferences`
+- `Sanso 25-26 CTE Lead Teacher Stipend Agreement.pdf` → `financial-administration`, `workforce-pathways`, `cte-summer-program`
+- `Scope and Sequence Template.pdf` → `academic-programs`, `student-services`, `workforce-pathways`, `program-planning`, `events-and-conferences`
+- `SouthwestReturnCollabTripAustin (1).pdf` → `financial-administration`, `events-and-conferences`, `health-compliance`, `cte-summer-program`
+- `SouthwestReturnCollabTripAustin (2).pdf` → `financial-administration`, `events-and-conferences`, `health-compliance`
+- `Spence-NAF Employment Application (1).pdf` → `events-and-conferences`, `procurement-compliance`, `workforce-pathways`
+- `Spence-Uber-NAF Conference (1).pdf` → `financial-administration`
+- `Spring Stipend CTE-additions 2026.pdf` → `financial-administration`, `events-and-conferences`
+- `Standard Operting Procedures-Perkins.pdf` → `student-services`, `procurement-compliance`, `professional-development`, `program-planning`, `purchasing-operations`, `workforce-pathways`
+- `StartProcess (3).pdf` → `procurement-compliance`
+- `StartProcess.pdf` → `procurement-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779987132611 - Marilyn Almonaci.pdf` → `health-compliance`, `procurement-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779988804972 - Melissa Alonso.pdf` → `health-compliance`, `procurement-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779988892711 - Natalia Blas.pdf` → `health-compliance`, `immunization`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779989208523 - Jennifer Carpio.pdf` → `health-compliance`, `procurement-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779989270536 - Emily Collins.pdf` → `health-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779989419214 - Allison Garcia.pdf` → `health-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779989820280 - Ariana Gomez Artica.pdf` → `health-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990207966 - Ana Rivera.pdf` → `health-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990494836 - Paula Rocabruno Torralba.pdf` → `health-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990589182 - Gabriella Nunez 1.pdf` → `health-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990647956 - Gabriella Nunez 2.pdf` → `health-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779990990829 - Cinthia Santoyo.pdf` → `immunization`, `health-compliance`, `events-and-conferences`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991060777 - Jayde Morales.pdf` → `health-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991144994 - Juve Mateos Mendoza.pdf` → `immunization`, `health-compliance`, `procurement-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991243234 - Isabella Guerrero.pdf` → `health-compliance`, `procurement-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991314944 - Treynahdee Washington.pdf` → `health-compliance`, `procurement-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991580729 - Gabriela Gurrola.pdf` → `health-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779991987508 - Angie Gonzalez.pdf` → `health-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026.zip.unpacked/1779992249416 - Melissa Lara.pdf` → `health-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779987132611 - Marilyn Almonaci.pdf` → `health-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779988804972 - Melissa Alonso.pdf` → `health-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779988892711 - Natalia Blas.pdf` → `health-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989208523 - Jennifer Carpio.pdf` → `health-compliance`, `procurement-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989270536 - Emily Collins.pdf` → `health-compliance`, `procurement-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989419214 - Allison Garcia.pdf` → `health-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779989820280 - Ariana Gomez Artica.pdf` → `health-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990127878 - Alexis Guereca.pdf` → `health-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990207966 - Ana Rivera.pdf` → `health-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990494836 - Paula Rocabruno Torralba.pdf` → `health-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990589182 - Gabriella Nunez 1.pdf` → `health-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990647956 - Gabriella Nunez 2.pdf` → `health-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779990990829 - Cinthia Santoyo.pdf` → `health-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991060777 - Jayde Morales.pdf` → `health-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991144994 - Juve Mateos Mendoza.pdf` → `health-compliance`, `procurement-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991243234 - Isabella Guerrero.pdf` → `health-compliance`, `financial-administration`, `events-and-conferences`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991314944 - Treynahdee Washington.pdf` → `health-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991580729 - Gabriela Gurrola.pdf` → `health-compliance`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779991987508 - Angie Gonzalez.pdf` → `immunization`, `health-compliance`, `financial-administration`
+- `State of Texas Immunization Records for CTE students pulled 5-28-2026[66]/1779992249416 - Melissa Lara.pdf` → `health-compliance`
+- `Student List_TAFE Nationals_D.O.B..pdf` → `health-compliance`, `events-and-conferences`
+- `Student+Code+of+Conduct.pdf` → `health-compliance`, `financial-administration`
+- `Summer PD Schedule 2026.pdf` → `professional-development`, `events-and-conferences`, `workforce-pathways`, `procurement-compliance`, `health-compliance`
+- `Supplemental_form.pdf` → `financial-administration`, `procurement-compliance`, `summer-pd`, `conference-travel`
+- `TIVA Conferece expenses.pdf` → `events-and-conferences`
+- `TIVA SIGNED TRAVEL AUTH. - WOOD.jpg` → `events-and-conferences`, `summer-pd`, `professional-development`, `conference-travel`, `financial-administration`
+- `TOSA Site agreement.pdf` → `health-compliance`, `industry-certifications`, `procurement-compliance`
+- `Tiva Milage (1).pdf` → `events-and-conferences`, `health-compliance`, `program-planning`
+- `Tiva classes.pdf` → `professional-development`, `events-and-conferences`, `student-services`, `academic-programs`, `procurement-compliance`
+- `Townview Floor Plan (1).jpg` → `curriculum`, `student-services`, `procurement-compliance`, `cte-summer-program`
+- `Townview Floor Plan.jpg` → `curriculum`, `student-services`, `procurement-compliance`
+- `Transportation Receipt 1 (1).pdf` → `financial-administration`
+- `Transportation Receipt 1.pdf` → `financial-administration`
+- `Transportation Receipt 2.pdf` → `financial-administration`, `procurement-compliance`
+- `Travel Authorization Form_Demars Officer Training Camp_4.10.25.pdf` → `events-and-conferences`, `financial-administration`, `professional-development`
+- `Travel Reconcile NLSC - Agenda.pdf` → `events-and-conferences`, `financial-administration`
+- `Travel Reconcile NLSC - Arta.pdf` → `events-and-conferences`, `financial-administration`
+- `Travel Reconcile NLSC - Badge.pdf` → `events-and-conferences`, `health-compliance`
+- `Travel Reconcile NLSC - Lodging.pdf` → `events-and-conferences`, `financial-administration`, `health-compliance`
+- `Travel Reconcile NLSC- Justification.pdf` → `events-and-conferences`, `procurement-compliance`, `student-services`
+- `Triptracker Cheat Sheet.pdf` → —
+- `Trustee_CTE_Pathway_Tracker 25-26.pdf` → `financial-administration`, `academic-programs`, `workforce-pathways`
+- `Untitled document.pdf` → `financial-administration`
+- `Untitled presentation.pdf` → `summer-pd`, `events-and-conferences`, `student-services`, `workforce-pathways`
+- `Vehicle Check Out Form.pdf` → `procurement-compliance`
+- `Virtual-Background copy.jpg` → `workforce-pathways`, `procurement-compliance`, `cte-summer-program`
+- `Virtual-Background2.jpg` → `workforce-pathways`, `procurement-compliance`
+- `Vitals-Childrens-Testing Route.pdf` → `health-compliance`, `events-and-conferences`, `summer-pd`, `procurement-compliance`
+- `WBL.pdf` → `student-services`, `workforce-pathways`, `health-compliance`, `professional-development`, `cte-summer-program`, `events-and-conferences`
+- `Workscopes_ Step #1_ Stop_and_Jot_Reflection.pdf` → `procurement-compliance`, `academic-programs`, `program-planning`, `ctso-activities`
+- `Workshop Title： ＂The First 10： Maximizing Every Minute for Career Success＂.pdf` → `professional-development`, `workforce-pathways`, `events-and-conferences`
+- `add_to_calendar.ics` → `academic-programs`, `student-services`, `events-and-conferences`, `procurement-compliance`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (1).pdf` → `workforce-pathways`, `academic-programs`, `procurement-compliance`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (2).pdf` → `workforce-pathways`, `procurement-compliance`, `cte-summer-program`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030 (3).pdf` → `workforce-pathways`, `procurement-compliance`, `academic-programs`, `program-planning`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030-3.pdf` → `workforce-pathways`, `academic-programs`, `procurement-compliance`, `cte-summer-program`
+- `aligned-ibcs-to-programs-of-study-crosswalk-2025-2030.pdf` → `workforce-pathways`, `procurement-compliance`, `academic-programs`, `industry-certifications`
+- `cte-indicator-auto-coder.pdf` → `ctso-activities`, `academic-programs`, `cte-summer-program`, `health-compliance`, `procurement-compliance`
+- `cte-wbl-training-plan-0.pdf` → `student-services`, `health-compliance`, `workforce-pathways`, `events-and-conferences`, `procurement-compliance`
+- `cte-wbl-training-plan.pdf` → `student-services`, `health-compliance`, `workforce-pathways`, `events-and-conferences`, `procurement-compliance`
+- `dallasisd-c62186c3-6d83-472f-bc28-51c2d83d4ed9_SessionUsersTemplate.pdf` → `curriculum`, `student-services`
+- `dallasisd-c806afc9-2f9e-49cd-ac0e-ef32f1f8d951_SessionUsersTemplate.pdf` → `curriculum`, `student-services`, `academic-programs`
+- `eDynamic Quote - Principles of IT - 3YR - R. Howard_V1.pdf` → `purchasing-operations`, `academic-programs`
+- `edit.pdf` → —
+- `hourlysupplementaltimecard.pdf` → `financial-administration`
+- `ibc-advisory-council-inventory-twc (1).pdf` → `workforce-pathways`, `academic-programs`, `professional-development`, `industry-certifications`, `procurement-compliance`, `health-compliance`
+- `ibc-advisory-council-inventory-twc.pdf` → `workforce-pathways`, `academic-programs`, `professional-development`, `industry-certifications`, `procurement-compliance`, `health-compliance`
+- `industry-based-certifications-earned-sy2022-23.pdf` → `workforce-pathways`
+- `invite (1).ics` → `student-services`, `events-and-conferences`, `workforce-pathways`
+- `invite.ics` → `cte-summer-program`, `summer-pd`, `events-and-conferences`
+- `outlook (1).vcs` → `professional-development`, `student-services`
+- `outlook.vcs` → `professional-development`, `student-services`
+- `p2024-list-of-materials-adopted-by-sboe.pdf` → `academic-programs`, `events-and-conferences`, `workforce-pathways`, `procurement-compliance`
+- `perkinsplanupdatefinalrevised.pdf` → `events-and-conferences`, `workforce-pathways`, `health-compliance`
+- `preliminary-2025-2030-ibc-to-program-of-study-crosswalk (6).pdf` → `workforce-pathways`, `cte-summer-program`, `procurement-compliance`, `industry-certifications`
+- `preliminary-2025-2030-ibc-to-program-of-study-crosswalk.pdf` → `workforce-pathways`, `cte-summer-program`, `procurement-compliance`, `industry-certifications`, `program-planning`
+- `receipt_3753bb7b-ce7f-4d0d-aa08-a0855cc82eb2.pdf` → `financial-administration`
+- `receipt_794bfc62-f72b-4f6c-af27-9092300445dc (1).pdf` → `financial-administration`
+- `receipt_c88da51b-4d66-4f7d-93a2-a76e949fab6c (1).pdf` → `financial-administration`
+- `regional-labor-market-information-wda-5.pdf` → `workforce-pathways`, `health-compliance`, `academic-programs`, `procurement-compliance`
+- `regional-labor-market-information-wda-6.pdf` → `workforce-pathways`, `events-and-conferences`, `cte-summer-program`
+- `scan_carmalone_2025-07-31-09-22-17.pdf` → `financial-administration`, `summer-pd`, `events-and-conferences`, `professional-development`, `health-compliance`
+- `scan_carmalone_2025-07-31-11-27-56 (1).pdf` → `financial-administration`
+- `scan_carmalone_2025-07-31-11-27-56.pdf` → `financial-administration`, `health-compliance`, `events-and-conferences`
+- `scan_lealittle_2025-12-03-13-39-47 (1).pdf` → `conference-travel`, `academic-programs`, `financial-administration`, `events-and-conferences`
+- `scan_lealittle_2025-12-03-13-39-47 (2).pdf` → `conference-travel`, `academic-programs`, `events-and-conferences`
+- `scan_lealittle_2025-12-03-13-39-47.pdf` → `conference-travel`, `academic-programs`, `financial-administration`, `events-and-conferences`
+- `tiva 2/2025 Summer Certificicate (1).pdf` → `summer-pd`, `professional-development`, `workforce-pathways`, `health-compliance`, `events-and-conferences`
+- `tiva 2/7-13-2025.pdf` → `financial-administration`
+- `tiva 2/7-14-2025.pdf` → `financial-administration`, `health-compliance`
+- `tiva 2/7-15-2025.pdf` → `financial-administration`
+- `tiva 2/7-16-2025.pdf` → `financial-administration`
+- `tiva 2/7-17-2025.pdf` → `financial-administration`
+- `tiva 2/7-18-2025.pdf` → `financial-administration`
+- `tiva 3/2025 Summer Certificicate (1).pdf` → `professional-development`, `workforce-pathways`, `industry-certifications`, `summer-pd`
+- `tiva 3/7-13-2025.pdf` → `financial-administration`
+- `tiva 3/7-14-2025.pdf` → `financial-administration`, `health-compliance`
+- `tiva 3/7-15-2025.pdf` → `financial-administration`
+- `tiva 3/7-16-2025.pdf` → `financial-administration`, `cte-summer-program`
+- `tiva 3/7-17-2025.pdf` → `financial-administration`, `procurement-compliance`, `events-and-conferences`
+- `tiva 3/7-18-2025.pdf` → `financial-administration`
+- `tiva 4/2025 Summer Certificicate (1).pdf` → `professional-development`, `workforce-pathways`, `summer-pd`, `industry-certifications`, `student-services`
+- `tiva 4/7-13-2025.pdf` → `financial-administration`
+- `tiva 4/7-14-2025.pdf` → `financial-administration`
+- `tiva 4/7-15-2025.pdf` → `financial-administration`
+- `tiva 4/7-16-2025.pdf` → `financial-administration`
+- `tiva 4/7-17-2025.pdf` → `financial-administration`, `health-compliance`
+- `tiva 4/7-18-2025 (2).pdf` → —
+- `tiva 4/7-18-2025.pdf` → `financial-administration`
+- `tiva.zip.unpacked/2025 Summer Certificicate (1).pdf` → `summer-pd`, `professional-development`, `workforce-pathways`, `industry-certifications`
+- `tiva.zip.unpacked/7-14-2025.pdf` → `financial-administration`
+- `tiva.zip.unpacked/7-15-2025.pdf` → `financial-administration`
+- `tiva.zip.unpacked/7-16-2025.pdf` → `financial-administration`
+- `tiva.zip.unpacked/7-17-2025.pdf` → `financial-administration`
+- `tiva.zip.unpacked/7-18-2025 (2).pdf` → —
+- `tiva.zip.unpacked/7-18-2025.pdf` → `financial-administration`
+- `tiva/2025 Summer Certificicate (1).pdf` → `professional-development`, `student-services`, `workforce-pathways`, `summer-pd`, `industry-certifications`
+- `tiva/7-13-2025.pdf` → `financial-administration`
+- `tiva/7-14-2025.pdf` → `financial-administration`
+- `tiva/7-15-2025.pdf` → `financial-administration`
+- `tiva/7-16-2025.pdf` → `financial-administration`, `health-compliance`
+- `tiva/7-17-2025.pdf` → `financial-administration`, `health-compliance`
+- `tiva/7-18-2025.pdf` → `financial-administration`
+- `wallpaperB.jpg` → `workforce-pathways`, `procurement-compliance`

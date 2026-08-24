@@ -1,0 +1,54 @@
+{
+  "stop": "flags-rose",
+  "rounds": [
+    {
+      "round": 1,
+      "flags": 7,
+      "flag_rate": 0.3888888888888889,
+      "applied": 7,
+      "skipped": 0,
+      "revise": "agriculture, environment, sports-facility, sports-league, transport-rail",
+      "notes": [
+        "agriculture: split → 2 children",
+        "environment: split → 3 children",
+        "sports-facility: dissolved → sports (dropped 0 children)",
+        "sports-league: split → 2 children",
+        "transport-rail: split → 2 children"
+      ]
+    },
+    {
+      "round": 2,
+      "flags": 5,
+      "flag_rate": 0.2777777777777778,
+      "applied": 5,
+      "skipped": 0,
+      "revise": "agriculture, agriculture-environment, agriculture-soil-irrigation, rail-operations, waste-management",
+      "notes": [
+        "air-quality: folded 1 file(s) → environment",
+        "waste-management: folded 1 file(s) → environment",
+        "wetland-ecology: folded 1 file(s) → environment",
+        "sports-league-standings: folded 1 file(s) → sports-league",
+        "sports-league-scheduling: folded 1 file(s) → sports-league",
+        "rail-operations: folded 1 file(s) → transport-rail",
+        "harbor-operations: folded 1 file(s) → transport-rail",
+        "agriculture: dissolved → needs-review (dropped 2 children)",
+        "agriculture-environment: missing",
+        "agriculture-soil-irrigation: missing",
+        "rail-operations: missing",
+        "waste-management: missing"
+      ]
+    },
+    {
+      "round": 3,
+      "flags": 7,
+      "flag_rate": 0.3888888888888889,
+      "applied": 0,
+      "skipped": 0,
+      "revise": "",
+      "notes": [
+        "skipped apply: flag rate rose 28% → 39%"
+      ]
+    }
+  ],
+  "updated_at": "2026-08-20T19:31:23+00:00"
+}

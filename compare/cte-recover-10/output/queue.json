@@ -1,0 +1,52 @@
+{
+  "built_at": "2026-08-20T15:18:05+00:00",
+  "intake": "/Users/michaelbufkin/Desktop/burling-v2/compare/cte-recover-10/intake",
+  "total": 9,
+  "items": [
+    {
+      "doc_id": "a07df45eb31b2293",
+      "rel_path": "12-21-BASC 3 Teacher.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3a0ac35663b4bf67",
+      "rel_path": "2nd floor map.png",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "bd38e46176898520",
+      "rel_path": "318703661.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "bd57f2af62221d71",
+      "rel_path": "ACTE-scan-1.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d919e4cc4b832684",
+      "rel_path": "ACTE-scan-2.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "66b78a4456a54100",
+      "rel_path": "CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf 1.zip.unpacked/CTE NAF DOCUMENTS FOR GRANTS APPROVAL.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0644b69eb1d70884",
+      "rel_path": "Classroom Photo.jpg",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "28ac23b08bbd872d",
+      "rel_path": "scan-3.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "e3f9d8e0ebd6b844",
+      "rel_path": "scan-4.pdf",
+      "status": "extracted"
+    }
+  ]
+}

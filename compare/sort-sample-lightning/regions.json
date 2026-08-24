@@ -1,0 +1,1140 @@
+{
+  "meta": {
+    "documents": 18,
+    "top_level": 7,
+    "nodes": 20,
+    "tags_total": 164,
+    "tags_mapped": 164,
+    "tag_coverage_pct": 100.0,
+    "docs_mapped": 18,
+    "built_at": "2026-08-20T19:29:24+00:00",
+    "notes": "Tree built from 163 concept clusters across 18 documents. Topics grouped by domain: Agriculture, Environment, Finance, Health, Sports, Transport. Children added only where cluster density justified subtopics. Tags mapped to single nodes per multi-homing rule.",
+    "method": "normalize-cluster-compact",
+    "concepts": 163,
+    "clusters": 163,
+    "clusters_sent": 0
+  },
+  "regions": [
+    {
+      "id": "environment",
+      "label": "Environment & Ecology",
+      "description": "Files concerning natural environment monitoring, waste management, and ecological surveys.",
+      "tags": [
+        "air-quality-brief",
+        "contamination-audit",
+        "ditch-cleanout",
+        "environmental-monitoring",
+        "habitat-management",
+        "mrr-rejection-threshold",
+        "nesting-season",
+        "oxbow-marsh",
+        "species-count",
+        "water-level"
+      ],
+      "children": []
+    },
+    {
+      "id": "finance",
+      "label": "Personal Finance",
+      "description": "Budgeting, tax preparation, and savings planning",
+      "tags": [
+        "automatic-transfer",
+        "budget-adjustment",
+        "budget-planning",
+        "car-insurance-sinking-fund",
+        "expense-management",
+        "estimated-payments",
+        "financial-management",
+        "groceries",
+        "monthly-budget",
+        "rent"
+      ],
+      "children": []
+    },
+    {
+      "id": "health",
+      "label": "Health & Wellness",
+      "description": "Clinic operations, vaccinations, and heat safety",
+      "tags": [
+        "after-hours-clinic",
+        "clinic-hours",
+        "extreme-heat",
+        "flu-shot-clinic",
+        "health-vaccine-faq",
+        "heat-advisory",
+        "immunization-clinic",
+        "walk-in-clinic",
+        "well-child-visits",
+        "water-requirement"
+      ],
+      "children": []
+    },
+    {
+      "id": "sports",
+      "label": "Sports & Recreation",
+      "description": "League operations, race events, and facility scheduling",
+      "tags": [
+        "aid-station",
+        "basketball-standings",
+        "dive-well",
+        "filter-maintenance",
+        "harbor-five",
+        "lessons",
+        "mile-8-4",
+        "recreational-basketball",
+        "sports-facility",
+        "trail-race"
+      ],
+      "children": [
+        {
+          "id": "sports-league",
+          "label": "League & Tournament Operations",
+          "description": "Files concerning the administration, scheduling, and results of organized sports competitions and leagues.",
+          "tags": [
+            "basketball-standings",
+            "makeup-games-elementary-gym",
+            "recreational-basketball",
+            "scorebook-required",
+            "travel-call-dispute",
+            "week-four-protest",
+            "weekend-engineering"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "label": "Transportation & Infrastructure",
+      "description": "Bike lanes, rail schedules, and harbor operations",
+      "tags": [
+        "bike-lane",
+        "container-ship",
+        "corridor-improvement",
+        "cycle-track",
+        "estuary-fog",
+        "harbor-pilot",
+        "leading-interval",
+        "parking-lane-conversion",
+        "rail-timetable",
+        "tug-availability"
+      ],
+      "children": [
+        {
+          "id": "transport-bike",
+          "label": "Bike Infrastructure",
+          "description": "Protected lanes, cycle tracks, and ridership data",
+          "tags": [
+            "bike-lane",
+            "cycle-track",
+            "leading-interval",
+            "maple-avenue",
+            "parking-lane-conversion",
+            "protected-bike-lane",
+            "weekday-ridership"
+          ],
+          "children": []
+        },
+        {
+          "id": "transport-rail",
+          "label": "Rail & Harbor Operations",
+          "description": "This group contains two distinct operational domains: rail freight and passenger scheduling, and maritime pilotage and port logistics. Files in this group address either ground-based rail network management or water-based vessel movement and port authority directives.",
+          "tags": [
+            "bridge-blockade",
+            "container-ship",
+            "estuary-fog",
+            "freight-yard",
+            "licensed-pilot",
+            "rail-timetable",
+            "replacement-buses",
+            "tug-availability"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "needs-review",
+      "label": "Needs review",
+      "description": "Singleton or unmatched tags the compact stitch did not place.",
+      "tags": [
+        "seed-catalog",
+        "open-pollinated",
+        "tomato",
+        "Amish-Paste",
+        "hybrid-sweetcorn",
+        "germination-rate",
+        "order-notes",
+        "personal-finance",
+        "transit",
+        "essential-expenses",
+        "community-health-access",
+        "local-league-results",
+        "indoor-pool",
+        "november",
+        "lap-swim",
+        "adult-fitness",
+        "pool-operations",
+        "running-event",
+        "traffic-signal",
+        "counts-data",
+        "port-operations",
+        "berth-delay",
+        "buoy-12",
+        "north-line",
+        "express-trains",
+        "suburban-stops"
+      ],
+      "children": []
+    }
+  ],
+  "synonyms": {
+    "agricultural-soil-test": [
+      "agricultural-soil-test",
+      "soil-test"
+    ],
+    "cover-crop": [
+      "cover-crop",
+      "clover"
+    ],
+    "drip-irrigation": [
+      "drip-irrigation",
+      "drip-irrigation"
+    ],
+    "even-days": [
+      "even-days",
+      "even-days"
+    ],
+    "filter-flush": [
+      "filter-flush",
+      "filter-flush"
+    ],
+    "fruit-set-observation": [
+      "fruit-set-observation",
+      "fruit-set-observation"
+    ],
+    "orchard-maintenance": [
+      "orchard-maintenance",
+      "orchard-maintenance"
+    ],
+    "watering-schedule": [
+      "watering-schedule",
+      "watering-schedule"
+    ],
+    "pm25": [
+      "pm25",
+      "pm25"
+    ],
+    "inversion-morning": [
+      "inversion-morning",
+      "inversion-morning"
+    ],
+    "valley-floor-advisory": [
+      "valley-floor-advisory",
+      "valley-floor-advisory"
+    ],
+    "wood-stove-curtailment": [
+      "wood-stove-curtailment",
+      "wood-stove-curtailment"
+    ],
+    "stage-1-alert": [
+      "stage-1-alert",
+      "stage-1-alert"
+    ],
+    "blue-bin-recycling": [
+      "blue-bin-recycling",
+      "blue-bin-recycling"
+    ],
+    "food-soiled-cardboard": [
+      "food-soiled-cardboard",
+      "food-soiled-cardboard"
+    ],
+    "plastic-bags-recycling": [
+      "plastic-bags-recycling",
+      "plastic-bags-recycling"
+    ],
+    "mrf-rejection-threshold": [
+      "mrf-rejection-threshold",
+      "mrf-rejection-threshold"
+    ],
+    "sticker-campaign": [
+      "sticker-campaign",
+      "sticker-campaign"
+    ],
+    "nesting-season": [
+      "nesting-season",
+      "nesting-season"
+    ],
+    "oxbow-marsh": [
+      "oxbow-marsh",
+      "oxbow-marsh"
+    ],
+    "species-count": [
+      "species-count",
+      "species-count"
+    ],
+    "water-level": [
+      "water-level",
+      "water-level"
+    ],
+    "ditch-cleanout": [
+      "ditch-cleanout",
+      "ditch-cleanout"
+    ],
+    "1098-mortgage-interest": [
+      "1098-mortgage-interest",
+      "1098-mortgage-interest"
+    ],
+    "charitable-receipts": [
+      "charitable-receipts",
+      "charitable-receipts"
+    ],
+    "estimated-payments": [
+      "estimated-payments",
+      "estimated-payments"
+    ],
+    "single-filing-status": [
+      "single-filing-status",
+      "single-filing-status"
+    ],
+    "tax-checklist": [
+      "tax-checklist",
+      "tax-checklist"
+    ],
+    "tax-preparation": [
+      "tax-preparation",
+      "tax-preparation"
+    ],
+    "w-2-lookalikes": [
+      "w-2-lookalikes",
+      "w-2-lookalikes"
+    ],
+    "year-end-tax": [
+      "year-end-tax",
+      "year-end-tax"
+    ],
+    "automatic-transfer": [
+      "automatic-transfer",
+      "automatic-transfer"
+    ],
+    "budget-planning": [
+      "budget-planning",
+      "budget-planning"
+    ],
+    "emergency-fund": [
+      "emergency-fund",
+      "emergency-fund"
+    ],
+    "financial-management": [
+      "financial-management",
+      "financial-management"
+    ],
+    "monthly-budget": [
+      "monthly-budget",
+      "monthly-budget"
+    ],
+    "savings-goal": [
+      "savings-goal",
+      "savings-goal"
+    ],
+    "travel-envelope": [
+      "travel-envelope",
+      "travel-envelope"
+    ],
+    "after-hours-clinic": [
+      "after-hours-clinic",
+      "after-hours-clinic"
+    ],
+    "flu-shot-clinic": [
+      "flu-shot-clinic",
+      "flu-shot-clinic"
+    ],
+    "health-vaccine-faq": [
+      "health-vaccine-faq",
+      "health-vaccine-faq"
+    ],
+    "immunization-record": [
+      "immunization-record",
+      "immunization-record"
+    ],
+    "measles-mumps-rubella": [
+      "measles-mumps-rubella",
+      "measles-mumps-rubella"
+    ],
+    "philosophical-exemption": [
+      "philosophical-exemption",
+      "philosophical-exemption"
+    ],
+    "two-dose-schedule": [
+      "two-dose-schedule",
+      "two-dose-schedule"
+    ],
+    "sixth-grade-entry": [
+      "sixth-grade-entry",
+      "sixth-grade-entry"
+    ],
+    "heat-advisory": [
+      "heat-advisory",
+      "heat-advisory"
+    ],
+    "outdoor-workers": [
+      "outdoor-workers",
+      "outdoor-workers"
+    ],
+    "heat-index": [
+      "heat-index",
+      "heat-index"
+    ],
+    "mandatory-breaks": [
+      "mandatory-breaks",
+      "mandatory-breaks"
+    ],
+    "water-requirement": [
+      "water-requirement",
+      "water-requirement"
+    ],
+    "roof-work-cancellation": [
+      "roof-work-cancellation",
+      "roof-work-cancellation"
+    ],
+    "worker-safety": [
+      "worker-safety",
+      "worker-safety"
+    ],
+    "basketball-standings": [
+      "basketball-standings",
+      "basketball-standings"
+    ],
+    "harbor-five": [
+      "harbor-five",
+      "harbor-five"
+    ],
+    "week-four-protest": [
+      "week-four-protest",
+      "week-four-protest"
+    ],
+    "makeup-games-elementary-gym": [
+      "makeup-games-elementary-gym",
+      "makeup-games-elementary-gym"
+    ],
+    "scorebook-required": [
+      "scorebook-required",
+      "scorebook-required"
+    ],
+    "travel-call-dispute": [
+      "travel-call-dispute",
+      "travel-call-dispute"
+    ],
+    "recreational-basketball": [
+      "recreational-basketball",
+      "recreational-basketball"
+    ],
+    "local-league-results": [
+      "local-league-results",
+      "local-league-results"
+    ],
+    "indoor-pool": [
+      "indoor-pool",
+      "indoor-pool"
+    ],
+    "schedule": [
+      "schedule",
+      "schedule"
+    ],
+    "lap-swim": [
+      "lap-swim",
+      "lap-swim"
+    ],
+    "lessons": [
+      "lessons",
+      "lessons"
+    ],
+    "dive-well": [
+      "dive-well",
+      "dive-well"
+    ],
+    "filter-maintenance": [
+      "filter-maintenance",
+      "filter-maintenance"
+    ],
+    "adult-fitness": [
+      "adult-fitness",
+      "adult-fitness"
+    ],
+    "sports-facility": [
+      "sports-facility",
+      "sports-facility"
+    ],
+    "pool-operations": [
+      "pool-operations",
+      "pool-operations"
+    ],
+    "trail-race": [
+      "trail-race",
+      "trail-race"
+    ],
+    "trail-race-volunteer-brief": [
+      "trail-race-volunteer-brief",
+      "trail-race-volunteer-brief"
+    ],
+    "aid-station": [
+      "aid-station",
+      "aid-station"
+    ],
+    "aid-station-2": [
+      "aid-station-2",
+      "aid-station-2"
+    ],
+    "sweep-crew": [
+      "sweep-crew",
+      "sweep-crew"
+    ],
+    "fire-road-shared-use": [
+      "fire-road-shared-use",
+      "fire-road-shared-use"
+    ],
+    "horse-share": [
+      "horse-share",
+      "horse-share"
+    ],
+    "mile-8-4": [
+      "mile-8-4",
+      "mile-8-4"
+    ],
+    "volunteer-guidance": [
+      "volunteer-guidance",
+      "volunteer-guidance"
+    ],
+    "bike-lane": [
+      "bike-lane",
+      "bike-lane"
+    ],
+    "protected-bike-lane": [
+      "protected-bike-lane",
+      "protected-bike-lane"
+    ],
+    "cycle-track": [
+      "cycle-track",
+      "cycle-track"
+    ],
+    "maple-avenue": [
+      "maple-avenue",
+      "maple-avenue"
+    ],
+    "traffic-signal": [
+      "traffic-signal",
+      "traffic-signal"
+    ],
+    "leading-interval": [
+      "leading-interval",
+      "leading-interval"
+    ],
+    "counts-data": [
+      "counts-data",
+      "counts-data"
+    ],
+    "weekday-ridership": [
+      "weekday-ridership",
+      "weekday-ridership"
+    ],
+    "parking-lane-conversion": [
+      "parking-lane-conversion",
+      "parking-lane-conversion"
+    ],
+    "corridor-improvement": [
+      "corridor-improvement",
+      "corridor-improvement"
+    ],
+    "harbor-pilot": [
+      "harbor-pilot",
+      "harbor-pilot"
+    ],
+    "container-ship": [
+      "container-ship",
+      "container-ship"
+    ],
+    "port-operations": [
+      "port-operations",
+      "port-operations"
+    ],
+    "tug-availability": [
+      "tug-availability",
+      "tug-availability"
+    ],
+    "estuary-fog": [
+      "estuary-fog",
+      "estuary-fog"
+    ],
+    "berth-delay": [
+      "berth-delay",
+      "berth-delay"
+    ],
+    "licensed-pilot": [
+      "licensed-pilot",
+      "licensed-pilot"
+    ],
+    "buoy-12": [
+      "buoy-12",
+      "buoy-12"
+    ],
+    "rail-timetable": [
+      "rail-timetable",
+      "rail-timetable"
+    ],
+    "weekday-peak": [
+      "weekday-peak",
+      "weekday-peak"
+    ],
+    "north-line": [
+      "north-line",
+      "north-line"
+    ],
+    "express-trains": [
+      "express-trains",
+      "express-trains"
+    ],
+    "suburban-stops": [
+      "suburban-stops",
+      "suburban-stops"
+    ],
+    "weekend-engineering": [
+      "weekend-engineering",
+      "weekend-engineering"
+    ],
+    "bridge-blockade": [
+      "bridge-blockade",
+      "bridge-blockade"
+    ],
+    "replacement-buses": [
+      "replacement-buses",
+      "replacement-buses"
+    ],
+    "freight-yard": [
+      "freight-yard",
+      "freight-yard"
+    ],
+    "service-road": [
+      "service-road",
+      "service-road"
+    ]
+  },
+  "tag_to_region": {
+    "agricultural-soil-test": "agriculture",
+    "cover-crop": "agriculture",
+    "drip-irrigation": "agriculture",
+    "even-days": "agriculture",
+    "filter-flush": "agriculture",
+    "fruit-set-observation": "agriculture",
+    "harvest-management": "agriculture",
+    "orchard-maintenance": "agriculture",
+    "planting-log": "agriculture",
+    "watering-schedule": "agriculture",
+    "clover": "agriculture-soil",
+    "east-field": "agriculture-soil",
+    "lime-application": "agriculture-soil",
+    "maize": "agriculture-soil",
+    "organic-matter": "agriculture-soil",
+    "phosphorus-low": "agriculture-soil",
+    "potassium-adequate": "agriculture-soil",
+    "south-strip": "agriculture-soil",
+    "windbreak-management": "agriculture-irrigation",
+    "air-quality-brief": "environment",
+    "contamination-audit": "environment",
+    "ditch-cleanout": "environment",
+    "environmental-monitoring": "environment",
+    "habitat-management": "environment",
+    "mrr-rejection-threshold": "environment",
+    "nesting-season": "environment",
+    "oxbow-marsh": "environment",
+    "species-count": "environment",
+    "water-level": "environment",
+    "pm25": "environment-air",
+    "inversion-morning": "environment-air",
+    "valley-floor-advisory": "environment-air",
+    "wood-stove-curtailment": "environment-air",
+    "stage-1-alert": "environment-air",
+    "air-pollution": "environment-air",
+    "blue-bin-recycling": "environment-recycling",
+    "food-soiled-cardboard": "environment-recycling",
+    "mrf-rejection-threshold": "environment-recycling",
+    "municipal-recycling": "environment-recycling",
+    "plastic-bags-recycling": "environment-recycling",
+    "sticker-campaign": "environment-recycling",
+    "wetland-bird-survey": "environment-wetland",
+    "wetland-ecology": "environment-wetland",
+    "wildlife-survey": "environment-wetland",
+    "automatic-transfer": "finance",
+    "budget-adjustment": "finance",
+    "budget-planning": "finance",
+    "car-insurance-sinking-fund": "finance",
+    "expense-management": "finance",
+    "estimated-payments": "finance",
+    "financial-management": "finance",
+    "groceries": "finance",
+    "monthly-budget": "finance",
+    "rent": "finance",
+    "1098-mortgage-interest": "finance-tax",
+    "charitable-receipts": "finance-tax",
+    "practice-list": "finance-tax",
+    "single-filing-status": "finance-tax",
+    "tax-checklist": "finance-tax",
+    "tax-preparation": "finance-tax",
+    "w-2-lookalikes": "finance-tax",
+    "year-end-tax": "finance-tax",
+    "emergency-fund": "finance-savings",
+    "savings-goal": "finance-savings",
+    "travel-envelope": "finance-savings",
+    "after-hours-clinic": "health",
+    "clinic-hours": "health",
+    "extreme-heat": "health",
+    "flu-shot-clinic": "health",
+    "health-vaccine-faq": "health",
+    "heat-advisory": "health",
+    "immunization-clinic": "health",
+    "walk-in-clinic": "health",
+    "well-child-visits": "health",
+    "water-requirement": "health",
+    "county-board-policy": "health-vaccines",
+    "immunization-record": "health-vaccines",
+    "measles-mumps-rubella": "health-vaccines",
+    "philosophical-exemption": "health-vaccines",
+    "sixth-grade-entry": "health-vaccines",
+    "two-dose-schedule": "health-vaccines",
+    "heat-index": "health-safety",
+    "mandatory-breaks": "health-safety",
+    "outdoor-workers": "health-safety",
+    "roof-work-cancellation": "health-safety",
+    "worker-safety": "health-safety",
+    "aid-station": "sports",
+    "basketball-standings": "sports",
+    "dive-well": "sports",
+    "filter-maintenance": "sports",
+    "harbor-five": "sports",
+    "lessons": "sports",
+    "mile-8-4": "sports",
+    "recreational-basketball": "sports",
+    "sports-facility": "sports",
+    "trail-race": "sports",
+    "makeup-games-elementary-gym": "sports-league",
+    "scorebook-required": "sports-league",
+    "travel-call-dispute": "sports-league",
+    "week-four-protest": "sports-league",
+    "weekend-engineering": "sports-league",
+    "aid-station-2": "sports-facility",
+    "fire-road-shared-use": "sports-facility",
+    "horse-share": "sports-facility",
+    "sweep-crew": "sports-facility",
+    "trail-race-volunteer-brief": "sports-facility",
+    "volunteer-guidance": "sports-facility",
+    "bike-lane": "transport",
+    "container-ship": "transport",
+    "corridor-improvement": "transport",
+    "cycle-track": "transport",
+    "estuary-fog": "transport",
+    "harbor-pilot": "transport",
+    "leading-interval": "transport",
+    "parking-lane-conversion": "transport",
+    "rail-timetable": "transport",
+    "tug-availability": "transport",
+    "maple-avenue": "transport-bike",
+    "protected-bike-lane": "transport-bike",
+    "weekday-ridership": "transport-bike",
+    "bridge-blockade": "transport-rail",
+    "freight-yard": "transport-rail",
+    "licensed-pilot": "transport-rail",
+    "replacement-buses": "transport-rail",
+    "soil-test": "agriculture",
+    "dawn-watering": "agriculture",
+    "cover-crop-rye": "agriculture",
+    "agricultural-planning": "agriculture",
+    "spring-soil-test": "agriculture",
+    "pilot-neighborhood-outreach": "transport",
+    "bird-observation": "agriculture",
+    "household-budget": "finance",
+    "monthly-budget-worksheet": "finance",
+    "budget-tracking": "finance",
+    "fictional-tax": "finance-tax",
+    "health-center-hours": "health",
+    "school-health": "health",
+    "schedule": "agriculture",
+    "weekday-peak": "transport-bike",
+    "service-road": "sports-facility",
+    "seed-catalog": "needs-review",
+    "open-pollinated": "needs-review",
+    "tomato": "needs-review",
+    "Amish-Paste": "needs-review",
+    "hybrid-sweetcorn": "needs-review",
+    "germination-rate": "needs-review",
+    "order-notes": "needs-review",
+    "personal-finance": "needs-review",
+    "transit": "needs-review",
+    "essential-expenses": "needs-review",
+    "community-health-access": "needs-review",
+    "local-league-results": "needs-review",
+    "indoor-pool": "needs-review",
+    "november": "needs-review",
+    "lap-swim": "needs-review",
+    "adult-fitness": "needs-review",
+    "pool-operations": "needs-review",
+    "running-event": "needs-review",
+    "traffic-signal": "needs-review",
+    "counts-data": "needs-review",
+    "port-operations": "needs-review",
+    "berth-delay": "needs-review",
+    "buoy-12": "needs-review",
+    "north-line": "needs-review",
+    "express-trains": "needs-review",
+    "suburban-stops": "needs-review"
+  },
+  "assignments": [
+    {
+      "doc_id": "bd5ddeb51ca38f39",
+      "rel_path": "ag-irrigation-schedule.txt",
+      "region_ids": [
+        "agriculture-soil-irrigation"
+      ],
+      "top_level_regions": [
+        "agriculture"
+      ],
+      "matched_tags": [
+        "drip-irrigation",
+        "windbreak-management"
+      ],
+      "unmatched_tags": [],
+      "summary": "A maintenance directive for orchard block B specifying a drip irrigation schedule that runs two hours before dawn on even calendar days, noting a prior sand filter clog in June and observing uneven moisture conditions with the windbreak side being drier.",
+      "tag_count": 8
+    },
+    {
+      "doc_id": "1ead1228c6360aa4",
+      "rel_path": "ag-seed-catalog-notes.txt",
+      "region_ids": [
+        "agriculture-environment",
+        "agriculture-soil-irrigation"
+      ],
+      "top_level_regions": [
+        "needs-review",
+        "agriculture"
+      ],
+      "matched_tags": [
+        "seed-catalog",
+        "cover-crop-rye"
+      ],
+      "unmatched_tags": [],
+      "summary": "A farmer or gardener recorded germination results and ordering reminders from seed packets. The notes track a successful open-pollinated tomato trial, a hybrid sweetcorn packet sold out until March, and a restock order for cover-crop rye to avoid last year's planting delays.",
+      "tag_count": 10
+    },
+    {
+      "doc_id": "1bb609f1ed0a8e6a",
+      "rel_path": "ag-soil-test.txt",
+      "region_ids": [
+        "agriculture-soil-irrigation"
+      ],
+      "top_level_regions": [
+        "agriculture"
+      ],
+      "matched_tags": [
+        "soil-test",
+        "lime-application"
+      ],
+      "unmatched_tags": [],
+      "summary": "A brief spring soil test summary for an east field, reporting pH 6.2, low phosphorus, adequate potassium, and recommending lime application ahead of maize planting. The south strip is noted to retain last year's clover as a cover crop.",
+      "tag_count": 12
+    },
+    {
+      "doc_id": "639b0d0ebc6c125b",
+      "rel_path": "env-air-quality-brief.txt",
+      "region_ids": [
+        "environment"
+      ],
+      "top_level_regions": [
+        "environment"
+      ],
+      "matched_tags": [
+        "air-quality-brief",
+        "pm25"
+      ],
+      "unmatched_tags": [],
+      "summary": "A morning air quality brief reports that PM2.5 peaked at 38 µg/m³ between 07:00 and 08:00, affecting the valley floor only. It notes that wood-stove curtailment is currently voluntary but would become mandatory under a Stage 1 alert.",
+      "tag_count": 8
+    },
+    {
+      "doc_id": "31da306e51d9cf0b",
+      "rel_path": "env-recycling-audit.txt",
+      "region_ids": [
+        "transport",
+        "environment"
+      ],
+      "top_level_regions": [
+        "environment",
+        "transport"
+      ],
+      "matched_tags": [
+        "municipal-recycling",
+        "contamination-audit",
+        "pilot-neighborhood-outreach"
+      ],
+      "unmatched_tags": [],
+      "summary": "A municipal recycling audit report finds 18 percent contamination in blue bins, primarily from food-soiled cardboard and plastic bags, noting the MRF will reject loads exceeding 20 percent contamination. It documents a sticker campaign on pizza boxes that reduced contamination by two percentage points in a pilot neighborhood.",
+      "tag_count": 8
+    },
+    {
+      "doc_id": "72819aff4be10af4",
+      "rel_path": "env-wetland-survey.txt",
+      "region_ids": [
+        "environment",
+        "agriculture-environment"
+      ],
+      "top_level_regions": [
+        "environment",
+        "agriculture"
+      ],
+      "matched_tags": [
+        "wetland-bird-survey",
+        "oxbow-marsh",
+        "bird-observation"
+      ],
+      "unmatched_tags": [],
+      "summary": "A brief field note documenting an 18-species wetland bird survey at an oxbow marsh, noting a least bittern heard but not seen, elevated water levels from recent rain, and a recommendation to postpone a planned ditch cleanout to protect nesting activity.",
+      "tag_count": 10
+    },
+    {
+      "doc_id": "bcab66ccd06ca867",
+      "rel_path": "finance-budget-worksheet.txt",
+      "region_ids": [
+        "finance",
+        "needs-review"
+      ],
+      "top_level_regions": [
+        "finance",
+        "needs-review"
+      ],
+      "matched_tags": [
+        "household-budget",
+        "personal-finance"
+      ],
+      "unmatched_tags": [],
+      "summary": "A personal household monthly budget worksheet tracking fixed expenses (rent, transit, car insurance sinking fund) and variable costs (groceries, streaming), with notes on last month's overspending and adjustments to streaming bundle instead of groceries.",
+      "tag_count": 10
+    },
+    {
+      "doc_id": "c93256566b49e14b",
+      "rel_path": "finance-savings-goal.txt",
+      "region_ids": [
+        "finance",
+        "needs-review"
+      ],
+      "top_level_regions": [
+        "finance",
+        "needs-review"
+      ],
+      "matched_tags": [
+        "emergency-fund",
+        "automatic-transfer",
+        "essential-expenses"
+      ],
+      "unmatched_tags": [],
+      "summary": "This document outlines a personal emergency-fund savings goal targeting three months of essential bills, currently at $4,200. It establishes an automatic transfer of $150 on the 1st and 15th of each month and explicitly separates a travel envelope from the emergency fund to prevent accidental withdrawals for vacation spending.",
+      "tag_count": 8
+    },
+    {
+      "doc_id": "becb27e6c4a664e4",
+      "rel_path": "finance-tax-checklist.txt",
+      "region_ids": [
+        "finance"
+      ],
+      "top_level_regions": [
+        "finance"
+      ],
+      "matched_tags": [
+        "tax-checklist",
+        "estimated-payments"
+      ],
+      "unmatched_tags": [],
+      "summary": "A fictional practice checklist for year-end tax preparation that guides users to gather W-2 forms, mortgage interest statements (1098), and charitable receipts over $250, noting estimated tax payments made in June and September and identifying the filer as single. It is explicitly labeled as a practice list and not official tax advice.",
+      "tag_count": 10
+    },
+    {
+      "doc_id": "8553bfd8bec9ed72",
+      "rel_path": "health-clinic-hours.txt",
+      "region_ids": [
+        "health",
+        "needs-review"
+      ],
+      "top_level_regions": [
+        "health",
+        "needs-review"
+      ],
+      "matched_tags": [
+        "clinic-hours",
+        "community-health-access"
+      ],
+      "unmatched_tags": [],
+      "summary": "This document lists the walk-in hours for a community health clinic, specifying Tuesday and Thursday evenings and noting that Saturday well-child slots are full through the end of the month. It also informs visitors that flu shots are available in a side room and that an insurance card should be brought if applicable.",
+      "tag_count": 8
+    },
+    {
+      "doc_id": "1c95d28af6f91d32",
+      "rel_path": "health-heat-advisory.txt",
+      "region_ids": [
+        "health"
+      ],
+      "top_level_regions": [
+        "health"
+      ],
+      "matched_tags": [
+        "heat-advisory",
+        "outdoor-workers"
+      ],
+      "unmatched_tags": [],
+      "summary": "A heat advisory mandating 15-minute shade breaks hourly and one liter of water per person per hour when the heat index exceeds 103°F, with a directive to cancel non-essential roof work after 14:00 to protect outdoor workers from extreme heat.",
+      "tag_count": 8
+    },
+    {
+      "doc_id": "d85a0006be31122a",
+      "rel_path": "health-vaccine-faq.txt",
+      "region_ids": [
+        "health"
+      ],
+      "top_level_regions": [
+        "health"
+      ],
+      "matched_tags": [
+        "health-vaccine-faq",
+        "immunization-record"
+      ],
+      "unmatched_tags": [],
+      "summary": "A frequently asked questions document outlining school vaccination requirements for sixth grade entry, specifically addressing MMR dose requirements, the limited acceptance of measles history as a substitute for the first dose, and the county board's policy prohibiting philosophical exemptions.",
+      "tag_count": 8
+    },
+    {
+      "doc_id": "8fde67398e46ef07",
+      "rel_path": "sports-league-standings.txt",
+      "region_ids": [
+        "sports-league",
+        "sports"
+      ],
+      "top_level_regions": [
+        "sports",
+        "needs-review"
+      ],
+      "matched_tags": [
+        "basketball-standings",
+        "week-four-protest",
+        "local-league-results"
+      ],
+      "unmatched_tags": [],
+      "summary": "A brief update on Tuesday night basketball league standings, noting that Harbor Five leads with a 7–1 record and that a protest from week four regarding a late travel call was denied. It also specifies that any makeup games will be played at the elementary gym and that participants should bring their own scorebooks.",
+      "tag_count": 8
+    },
+    {
+      "doc_id": "d7df66a18bf8c884",
+      "rel_path": "sports-pool-schedule.txt",
+      "region_ids": [
+        "sports",
+        "needs-review"
+      ],
+      "top_level_regions": [
+        "needs-review",
+        "agriculture",
+        "sports"
+      ],
+      "matched_tags": [
+        "indoor-pool",
+        "schedule",
+        "lessons"
+      ],
+      "unmatched_tags": [],
+      "summary": "A November schedule for an indoor pool outlining lap swim hours, lane assignments for lessons, and maintenance closures for the dive well, with spectator areas kept clear during adult fitness times.",
+      "tag_count": 10
+    },
+    {
+      "doc_id": "4cd7eaca3fe2dd5a",
+      "rel_path": "sports-trail-race.txt",
+      "region_ids": [
+        "sports",
+        "sports"
+      ],
+      "top_level_regions": [
+        "sports",
+        "needs-review"
+      ],
+      "matched_tags": [
+        "trail-race",
+        "trail-race-volunteer-brief",
+        "running-event"
+      ],
+      "unmatched_tags": [],
+      "summary": "A briefing document for trail race volunteers outlining aid station placement at the ridge junction (mile 8.4), requirements for runners to carry their own bottles, sweep crew timing relative to starters, and shared use of the fire road with horses before noon.",
+      "tag_count": 10
+    },
+    {
+      "doc_id": "f4c56668aef65be8",
+      "rel_path": "transport-bike-lane-memo.txt",
+      "region_ids": [
+        "transport",
+        "transport-bike",
+        "needs-review"
+      ],
+      "top_level_regions": [
+        "transport",
+        "needs-review"
+      ],
+      "matched_tags": [
+        "bike-lane",
+        "protected-bike-lane",
+        "traffic-signal"
+      ],
+      "unmatched_tags": [],
+      "summary": "A planning memo outlining the conversion of a parking lane on Maple Avenue into a two-way protected bike lane (cycle track), noting the need for signal timing adjustments at 4th Street to prevent conflicts with turning trucks and citing count data showing 1,400 weekday riders.",
+      "tag_count": 10
+    },
+    {
+      "doc_id": "3893ad1684a00555",
+      "rel_path": "transport-harbor-pilot.txt",
+      "region_ids": [
+        "transport-rail",
+        "transport"
+      ],
+      "top_level_regions": [
+        "transport",
+        "needs-review"
+      ],
+      "matched_tags": [
+        "harbor-pilot",
+        "port-operations",
+        "licensed-pilot"
+      ],
+      "unmatched_tags": [],
+      "summary": "A port authority notice informing that container ships exceeding 200 meters in length are required to board a licensed harbor pilot at buoy 12. The document records that fog conditions in the estuary during March caused delays at three berths, and clarifies that tug availability is communicated via the port operations board rather than radio.",
+      "tag_count": 8
+    },
+    {
+      "doc_id": "9a8f9744d369aa12",
+      "rel_path": "transport-rail-timetable.txt",
+      "region_ids": [
+        "transport",
+        "transport-rail",
+        "sports-league",
+        "transport-bike",
+        "sports"
+      ],
+      "top_level_regions": [
+        "transport",
+        "needs-review",
+        "sports"
+      ],
+      "matched_tags": [
+        "rail-timetable",
+        "weekday-peak",
+        "north-line",
+        "weekend-engineering",
+        "bridge-blockade",
+        "service-road"
+      ],
+      "unmatched_tags": [],
+      "summary": "A weekday peak-hour rail timetable for the city's north line, noting express trains that skip suburban stops and a scheduled weekend engineering blockade on the river bridge that will require replacement bus services via a service road beside the freight yard.",
+      "tag_count": 10
+    }
+  ],
+  "clusters": []
+}

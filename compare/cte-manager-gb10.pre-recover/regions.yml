@@ -1,0 +1,215 @@
+# Auto-stitched from Pass A tags. Edit freely; this becomes the handoff map seed.
+# built_at: 2026-08-20T13:34:55+00:00
+regions:
+  - id: curriculum-administration
+    label: "Curriculum Administration"
+    description: "Tags governing curriculum management, pacing, and administrative oversight."
+    tags:
+      - "curriculum_admin"
+      - "curriculum-admin"
+      - "curriculum-administration"
+      - "curriculum_lesson"
+      - "curriculum_pacing"
+      - "curriculum-and-instruction"
+      - "curriculum-and-instruction-admin"
+      - "curriculum-integration"
+    children:
+      - id: curriculum-purchasing
+        label: "Curriculum Purchasing"
+        description: "Tags for acquiring curriculum materials and subscriptions."
+        tags:
+          - "curriculum_purchase"
+          - "curriculum-subscription"
+          - "curriculum-and-instruction-admin"
+        children: []
+  - id: professional-development
+    label: "Professional Development"
+    description: "Tags for staff training, certifications, and PD events."
+    tags:
+      - "professional-development"
+      - "cte-professional-development"
+      - "professional_development"
+      - "pd-2026"
+      - "summer-pd-2026"
+      - "7-hour-training"
+      - "training-attendance"
+      - "lead-summer-program"
+    children:
+      - id: cte-pd-sessions
+        label: "CTE PD Sessions"
+        description: "Tags specific to CTE professional development activities."
+        tags:
+          - "cte-professional-development"
+          - "cte-flex-day"
+          - "pd-kickoff"
+          - "keynote-speaker"
+          - "ai-lessons"
+        children: []
+  - id: procurement-and-vendors
+    label: "Procurement and Vendors"
+    description: "Tags governing purchasing, vendor compliance, and non-awarded requests."
+    tags:
+      - "purchasing-quote"
+      - "procurement-form"
+      - "procurement-justification"
+      - "procurement-ordering"
+      - "procurement-approval"
+      - "vendor-compliance"
+      - "vendor-approval"
+      - "vendor-justification"
+    children:
+      - id: non-awarded-vendor-requests
+        label: "Non-Awarded Vendor Requests"
+        description: "Forms and justifications for non-competitive vendor selections."
+        tags:
+          - "non-awarded-vendor-request-form"
+          - "non-awarded-vendor-form"
+          - "non-awarded-vendor-request"
+          - "non-awarded-vendor-justification"
+          - "sole-source-procurement"
+          - "vendor-compliance-checklist"
+          - "vendor-request-process"
+        children: []
+      - id: vendor-approvals
+        label: "Vendor Approvals"
+        description: "Tags for approving and onboarding vendors."
+        tags:
+          - "vendor-approval-process"
+          - "approved-vendor-form"
+          - "agreements-dallasisd-org"
+          - "capital-expenditure-2025"
+        children: []
+  - id: student-health-and-compliance
+    label: "Student Health and Compliance"
+    description: "Tags related to student health records, immunizations, and regulatory compliance."
+    tags:
+      - "immunization_record"
+      - "vaccination_history"
+      - "student-health-record"
+      - "student-health"
+      - "tb-testing"
+      - "tuberculosis-screening"
+      - "quantiferon-gold-plus"
+      - "medical-record"
+      - "lab-results"
+    children:
+      - id: trailer-compliance
+        label: "Trailer Compliance"
+        description: "Health and safety compliance tags associated with mobile lab trailers."
+        tags:
+          - "trailer-compliance"
+          - "trailer-pd"
+          - "trailer-scripts"
+          - "trailer-ops"
+        children: []
+  - id: work-based-learning
+    label: "Work-Based Learning"
+    description: "Tags coordinating internships, industry partnerships, and WBL activities."
+    tags:
+      - "work-based-learning"
+      - "labor-market-alignment"
+      - "industry-partnerships"
+      - "industry-based-certification"
+      - "industry-based-certifications"
+      - "career-technical-education"
+      - "career-clusters"
+      - "career-institute-north"
+    children:
+      - id: ctso-events
+        label: "CTSO Events and Fundraising"
+        description: "Tags for Career and Technical Student Organization activities."
+        tags:
+          - "ctso-fundraising"
+          - "ctso-sponsor"
+          - "ctso-best-practices"
+          - "ctso-fundraising"
+        children: []
+  - id: technology-and-inventory
+    label: "Technology and Inventory"
+    description: "Tags for equipment, lab resources, and technology integration."
+    tags:
+      - "mobile-lab"
+      - "icev"
+      - "google-gemini-notebooklm"
+      - "eduthings"
+      - "solidprofessor"
+      - "goodheart-willcox"
+      - "certiport"
+      - "mad-learn"
+    children:
+      - id: mobile-lab-equipment
+        label: "Mobile Lab Equipment"
+        description: "Tags for mobile lab trailers and associated hardware."
+        tags:
+          - "mobile-lab"
+          - "trailer-compliance"
+          - "mobile-welding-lab-trailer"
+          - "trailer-pd"
+        children: []
+  - id: financial-and-grants
+    label: "Financial and Grants"
+    description: "Tags for budgeting, funding sources, and grant compliance."
+    tags:
+      - "perkins-v"
+      - "perkins-v-compliance"
+      - "perkins-v-clna"
+      - "federal-grant-compliance"
+      - "federal-programs-compliance"
+      - "special-revenue-funds"
+      - "funding-source-199"
+      - "tax_financial"
+    children:
+      - id: perkins-management
+        label: "Perkins Grant Management"
+        description: "Tags specific to Perkins grant requirements and reporting."
+        tags:
+          - "perkins-v"
+          - "perkins-v-clna"
+          - "perkins-grant"
+          - "perkins-v-strengthening-cte"
+        children: []
+  - id: needs-review
+    label: "Needs review"
+    description: "Singleton or unmatched tags the compact stitch did not place."
+    tags:
+      - "showcase-2026"
+      - "scheduling"
+      - "wbl-what-does-this-look-like"
+      - "optimal-ed-vr"
+      - "everfi"
+      - "internship-dos-donts"
+      - "irs_form_1040"
+      - "spence_family"
+      - "wages_business_income"
+      - "schedule_c_ez"
+      - "schedule_4_other_taxes"
+      - "schedule_1_adjustments"
+      - "schedule_5329_retirement"
+      - "schedule_8606_ira_conversion"
+      - "filing_status_married_jointly"
+      - "taxpayer_ssn_present"
+      - "dependents_claimed"
+      - "internal_revenue_service"
+      - "wage_income"
+      - "clean_energy_credit"
+      - "dependent_care_expenses"
+      - "schedule_8812"
+      - "schedule_3"
+      - "filing_status_single"
+      - "refundable_credits"
+      - "irs_2023"
+      - "w2_form"
+      - "irs_wage_report"
+      - "employee_compensation"
+      - "withholding_statement"
+      - "ssn_present"
+      - "payroll_document"
+      - "disd_employer"
+      - "copy_c_employee_records"
+      - "copy_2_state_local"
+      - "wage_statement_2024"
+      - "kemp_independent_school_district"
+      - "box12_code_hlth_caf_trs"
+      - "irs_form_w2_2024"
+      - "employee_earnings_report"
+    children: []

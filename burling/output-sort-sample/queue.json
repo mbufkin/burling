@@ -1,0 +1,97 @@
+{
+  "built_at": "2026-08-20T18:54:36+00:00",
+  "intake": "/Users/michaelbufkin/Desktop/burling-v2/burling/tests/fixtures/sort-sample",
+  "total": 18,
+  "items": [
+    {
+      "doc_id": "bd5ddeb51ca38f39",
+      "rel_path": "ag-irrigation-schedule.txt",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1ead1228c6360aa4",
+      "rel_path": "ag-seed-catalog-notes.txt",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1bb609f1ed0a8e6a",
+      "rel_path": "ag-soil-test.txt",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "639b0d0ebc6c125b",
+      "rel_path": "env-air-quality-brief.txt",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "31da306e51d9cf0b",
+      "rel_path": "env-recycling-audit.txt",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "72819aff4be10af4",
+      "rel_path": "env-wetland-survey.txt",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "bcab66ccd06ca867",
+      "rel_path": "finance-budget-worksheet.txt",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "c93256566b49e14b",
+      "rel_path": "finance-savings-goal.txt",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "becb27e6c4a664e4",
+      "rel_path": "finance-tax-checklist.txt",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8553bfd8bec9ed72",
+      "rel_path": "health-clinic-hours.txt",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1c95d28af6f91d32",
+      "rel_path": "health-heat-advisory.txt",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d85a0006be31122a",
+      "rel_path": "health-vaccine-faq.txt",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8fde67398e46ef07",
+      "rel_path": "sports-league-standings.txt",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d7df66a18bf8c884",
+      "rel_path": "sports-pool-schedule.txt",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4cd7eaca3fe2dd5a",
+      "rel_path": "sports-trail-race.txt",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "f4c56668aef65be8",
+      "rel_path": "transport-bike-lane-memo.txt",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "3893ad1684a00555",
+      "rel_path": "transport-harbor-pilot.txt",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9a8f9744d369aa12",
+      "rel_path": "transport-rail-timetable.txt",
+      "status": "extracted"
+    }
+  ]
+}

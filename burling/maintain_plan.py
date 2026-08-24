@@ -17,7 +17,7 @@ from typing import Callable
 from burling.file_plan import UNMAPPED_ID
 from burling.layer_plan import FAT_MIN, kebab
 from burling.progress import console_safe
-from burling.walk_plan import WalkState, _ask, _valid_child
+from burling.walk_plan import WalkState, _ask, _split_proposal, _valid_child
 
 Chooser = Callable[..., dict]
 
@@ -264,17 +264,29 @@ def sweep_combines(
         if len(children) < min_children:
             continue
         raw = choose_combine(prefix=prefix, siblings=children)
-        groups = coerce_merges(raw, [name for name, _n in children])
         obj = raw if isinstance(raw, dict) else {}
         why = str(obj.get("reasoning") or "")[:800]
-        n = apply_merges(state, prefix, groups, reasoning=why or "combine sweep")
-        if n:
+        merges_raw, dissolves = _split_proposal(raw, prefix, children)
+        n = 0
+        for child in dissolves:
+            d = state.promote(prefix, child, reasoning=why or "combine sweep")
+            if d:
+                print(
+                    console_safe(
+                        f"  sweep {'/'.join(prefix)}: dissolve {child} ({d} file(s) up)"
+                    ),
+                    flush=True,
+                )
+            n += d
+        groups = coerce_merges({"groups": merges_raw}, [name for name, _n in children])
+        m = apply_merges(state, prefix, groups, reasoning=why or "combine sweep")
+        if m:
             print(
                 console_safe(
                     f"  sweep {'/'.join(prefix)}: "
-                    + "; ".join(f"{', '.join(m)} → {into}" for m, into in groups)
+                    + "; ".join(f"{', '.join(m2)} → {into}" for m2, into in groups)
                 ),
                 flush=True,
             )
-        moved += n
+        moved += n + m
     return moved

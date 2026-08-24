@@ -1,0 +1,386 @@
+{
+  "version": 1,
+  "documents": {
+    "bd5ddeb51ca38f39": {
+      "doc_id": "bd5ddeb51ca38f39",
+      "rel_path": "ag-irrigation-schedule.txt",
+      "ext": ".txt",
+      "size_bytes": 234,
+      "content_hash": "bd5ddeb51ca38f39f2369a8dfeb9c004b0912fb6ba675105964de39fa308e875",
+      "char_count": 234,
+      "extraction": {
+        "ok": true,
+        "method": "text",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-20T18:54:36+00:00",
+      "pass1": null,
+      "pass2": null,
+      "rich_tags": null,
+      "queue_status": "extracted"
+    },
+    "1ead1228c6360aa4": {
+      "doc_id": "1ead1228c6360aa4",
+      "rel_path": "ag-seed-catalog-notes.txt",
+      "ext": ".txt",
+      "size_bytes": 253,
+      "content_hash": "1ead1228c6360aa43d559adce7192f4b78edc54704ee75cdfa058af81843a957",
+      "char_count": 253,
+      "extraction": {
+        "ok": true,
+        "method": "text",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-20T18:54:36+00:00",
+      "pass1": null,
+      "pass2": null,
+      "rich_tags": null,
+      "queue_status": "extracted"
+    },
+    "1bb609f1ed0a8e6a": {
+      "doc_id": "1bb609f1ed0a8e6a",
+      "rel_path": "ag-soil-test.txt",
+      "ext": ".txt",
+      "size_bytes": 229,
+      "content_hash": "1bb609f1ed0a8e6a13f1189f43c404db4946cda835bad15f2d8cdc59ff927519",
+      "char_count": 227,
+      "extraction": {
+        "ok": true,
+        "method": "text",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-20T18:54:36+00:00",
+      "pass1": null,
+      "pass2": null,
+      "rich_tags": null,
+      "queue_status": "extracted"
+    },
+    "639b0d0ebc6c125b": {
+      "doc_id": "639b0d0ebc6c125b",
+      "rel_path": "env-air-quality-brief.txt",
+      "ext": ".txt",
+      "size_bytes": 218,
+      "content_hash": "639b0d0ebc6c125bb3eaa81ee5103668f3705e9bd23bef68bb5370a2c6753992",
+      "char_count": 216,
+      "extraction": {
+        "ok": true,
+        "method": "text",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-20T18:54:36+00:00",
+      "pass1": null,
+      "pass2": null,
+      "rich_tags": null,
+      "queue_status": "extracted"
+    },
+    "31da306e51d9cf0b": {
+      "doc_id": "31da306e51d9cf0b",
+      "rel_path": "env-recycling-audit.txt",
+      "ext": ".txt",
+      "size_bytes": 246,
+      "content_hash": "31da306e51d9cf0b8cb1c56a8edebf0c8aff90b23385a8948cb468e202006e9e",
+      "char_count": 246,
+      "extraction": {
+        "ok": true,
+        "method": "text",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-20T18:54:36+00:00",
+      "pass1": null,
+      "pass2": null,
+      "rich_tags": null,
+      "queue_status": "extracted"
+    },
+    "72819aff4be10af4": {
+      "doc_id": "72819aff4be10af4",
+      "rel_path": "env-wetland-survey.txt",
+      "ext": ".txt",
+      "size_bytes": 231,
+      "content_hash": "72819aff4be10af4fa7e15babf8d919634063e8c516bb58d9a2f872fd2a940d0",
+      "char_count": 231,
+      "extraction": {
+        "ok": true,
+        "method": "text",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-20T18:54:36+00:00",
+      "pass1": null,
+      "pass2": null,
+      "rich_tags": null,
+      "queue_status": "extracted"
+    },
+    "bcab66ccd06ca867": {
+      "doc_id": "bcab66ccd06ca867",
+      "rel_path": "finance-budget-worksheet.txt",
+      "ext": ".txt",
+      "size_bytes": 205,
+      "content_hash": "bcab66ccd06ca86729d4faa091c458af648f3fb2878e28fd839b65862a2cc2b0",
+      "char_count": 205,
+      "extraction": {
+        "ok": true,
+        "method": "text",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-20T18:54:36+00:00",
+      "pass1": null,
+      "pass2": null,
+      "rich_tags": null,
+      "queue_status": "extracted"
+    },
+    "c93256566b49e14b": {
+      "doc_id": "c93256566b49e14b",
+      "rel_path": "finance-savings-goal.txt",
+      "ext": ".txt",
+      "size_bytes": 206,
+      "content_hash": "c93256566b49e14b6b9a783ef148e0e49fa4790b3b3028d95bec3afb6827ea05",
+      "char_count": 206,
+      "extraction": {
+        "ok": true,
+        "method": "text",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-20T18:54:36+00:00",
+      "pass1": null,
+      "pass2": null,
+      "rich_tags": null,
+      "queue_status": "extracted"
+    },
+    "becb27e6c4a664e4": {
+      "doc_id": "becb27e6c4a664e4",
+      "rel_path": "finance-tax-checklist.txt",
+      "ext": ".txt",
+      "size_bytes": 228,
+      "content_hash": "becb27e6c4a664e415d2e79e85973c950974d84f2a4d45bf35f08b79eec68d87",
+      "char_count": 228,
+      "extraction": {
+        "ok": true,
+        "method": "text",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [
+        "tax_financial"
+      ],
+      "prior_severity": "low",
+      "queued_at": "2026-08-20T18:54:36+00:00",
+      "pass1": null,
+      "pass2": null,
+      "rich_tags": null,
+      "queue_status": "extracted"
+    },
+    "8553bfd8bec9ed72": {
+      "doc_id": "8553bfd8bec9ed72",
+      "rel_path": "health-clinic-hours.txt",
+      "ext": ".txt",
+      "size_bytes": 210,
+      "content_hash": "8553bfd8bec9ed72bd13fa6da04a60f7032f8956d9f8e9ba28d6c45632c61e9d",
+      "char_count": 208,
+      "extraction": {
+        "ok": true,
+        "method": "text",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-20T18:54:36+00:00",
+      "pass1": null,
+      "pass2": null,
+      "rich_tags": null,
+      "queue_status": "extracted"
+    },
+    "1c95d28af6f91d32": {
+      "doc_id": "1c95d28af6f91d32",
+      "rel_path": "health-heat-advisory.txt",
+      "ext": ".txt",
+      "size_bytes": 217,
+      "content_hash": "1c95d28af6f91d32af65e756c4525ae82ce320bb0ac89129a0987093aa4c6db5",
+      "char_count": 216,
+      "extraction": {
+        "ok": true,
+        "method": "text",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-20T18:54:36+00:00",
+      "pass1": null,
+      "pass2": null,
+      "rich_tags": null,
+      "queue_status": "extracted"
+    },
+    "d85a0006be31122a": {
+      "doc_id": "d85a0006be31122a",
+      "rel_path": "health-vaccine-faq.txt",
+      "ext": ".txt",
+      "size_bytes": 210,
+      "content_hash": "d85a0006be31122a1e7f590eec0c4b7473c345ed575b142c94f1138f15807b1b",
+      "char_count": 210,
+      "extraction": {
+        "ok": true,
+        "method": "text",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-20T18:54:36+00:00",
+      "pass1": null,
+      "pass2": null,
+      "rich_tags": null,
+      "queue_status": "extracted"
+    },
+    "8fde67398e46ef07": {
+      "doc_id": "8fde67398e46ef07",
+      "rel_path": "sports-league-standings.txt",
+      "ext": ".txt",
+      "size_bytes": 185,
+      "content_hash": "8fde67398e46ef0787dc43c920250ce4032c2e2f9becd5a79bea93e8042a6637",
+      "char_count": 183,
+      "extraction": {
+        "ok": true,
+        "method": "text",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-20T18:54:36+00:00",
+      "pass1": null,
+      "pass2": null,
+      "rich_tags": null,
+      "queue_status": "extracted"
+    },
+    "d7df66a18bf8c884": {
+      "doc_id": "d7df66a18bf8c884",
+      "rel_path": "sports-pool-schedule.txt",
+      "ext": ".txt",
+      "size_bytes": 206,
+      "content_hash": "d7df66a18bf8c8842c79f0e41b8d442d6ec14225968416ac4ef6c07a946b193e",
+      "char_count": 202,
+      "extraction": {
+        "ok": true,
+        "method": "text",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-20T18:54:36+00:00",
+      "pass1": null,
+      "pass2": null,
+      "rich_tags": null,
+      "queue_status": "extracted"
+    },
+    "4cd7eaca3fe2dd5a": {
+      "doc_id": "4cd7eaca3fe2dd5a",
+      "rel_path": "sports-trail-race.txt",
+      "ext": ".txt",
+      "size_bytes": 215,
+      "content_hash": "4cd7eaca3fe2dd5a95b8cd2933fc71ed4fb66efa01250ece3f3bd1e9405eb14e",
+      "char_count": 213,
+      "extraction": {
+        "ok": true,
+        "method": "text",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-20T18:54:36+00:00",
+      "pass1": null,
+      "pass2": null,
+      "rich_tags": null,
+      "queue_status": "extracted"
+    },
+    "f4c56668aef65be8": {
+      "doc_id": "f4c56668aef65be8",
+      "rel_path": "transport-bike-lane-memo.txt",
+      "ext": ".txt",
+      "size_bytes": 256,
+      "content_hash": "f4c56668aef65be8664c7fd160b05a2ab7118bccf5c7fae1a038e037bbffb8b9",
+      "char_count": 256,
+      "extraction": {
+        "ok": true,
+        "method": "text",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-20T18:54:36+00:00",
+      "pass1": null,
+      "pass2": null,
+      "rich_tags": null,
+      "queue_status": "extracted"
+    },
+    "3893ad1684a00555": {
+      "doc_id": "3893ad1684a00555",
+      "rel_path": "transport-harbor-pilot.txt",
+      "ext": ".txt",
+      "size_bytes": 226,
+      "content_hash": "3893ad1684a00555f7f8b06721baa2182af4fe21098dc64e18ddbdd01a6b9542",
+      "char_count": 226,
+      "extraction": {
+        "ok": true,
+        "method": "text",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-20T18:54:36+00:00",
+      "pass1": null,
+      "pass2": null,
+      "rich_tags": null,
+      "queue_status": "extracted"
+    },
+    "9a8f9744d369aa12": {
+      "doc_id": "9a8f9744d369aa12",
+      "rel_path": "transport-rail-timetable.txt",
+      "ext": ".txt",
+      "size_bytes": 306,
+      "content_hash": "9a8f9744d369aa12e3dd63e61f90f9bd95450547991a91e129e1b04bb029c70a",
+      "char_count": 306,
+      "extraction": {
+        "ok": true,
+        "method": "text",
+        "error": null
+      },
+      "priors": {},
+      "filename_tags": [],
+      "prior_severity": "low",
+      "queued_at": "2026-08-20T18:54:36+00:00",
+      "pass1": null,
+      "pass2": null,
+      "rich_tags": null,
+      "queue_status": "extracted"
+    }
+  },
+  "intake": "/Users/michaelbufkin/Desktop/burling-v2/burling/tests/fixtures/sort-sample"
+}

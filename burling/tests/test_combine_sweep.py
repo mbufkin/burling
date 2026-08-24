@@ -62,3 +62,57 @@ class SweepTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class DissolveTests(unittest.TestCase):
+    def test_thin_drawer_dissolves_into_parent(self) -> None:
+        state = WalkState()
+        _place(state, "a", "legal", "nda")
+        _place(state, "b", "legal", "trademarks")
+
+        def fake_combine(*, prefix, siblings):
+            return {"groups": [{"merge": ["nda"], "into": "legal"}],
+                    "reasoning": "one-file drawer"}
+
+        moved = sweep_combines(state, fake_combine)
+        self.assertEqual(moved, 1)
+        self.assertEqual(state.homes["a"], ["legal"])
+        self.assertEqual(state.combines[0]["dissolve"], True)
+        # Fat-enough drawer untouched.
+        self.assertEqual(state.homes["b"], ["legal", "trademarks"])
+
+    def test_fat_drawer_refuses_dissolve(self) -> None:
+        from burling.walk_plan import DISSOLVE_MAX_FILES
+
+        state = WalkState()
+        for i in range(DISSOLVE_MAX_FILES + 1):
+            _place(state, f"n{i}", "technology", "network")
+
+        def fake_combine(*, prefix, siblings):
+            return {"groups": [{"merge": ["network"], "into": "technology"}]}
+
+        moved = sweep_combines(state, fake_combine)
+        self.assertEqual(moved, 0)
+        self.assertTrue(all(h[:2] == ["technology", "network"] for h in state.homes.values()))
+
+    def test_dissolve_at_depth_two(self) -> None:
+        state = WalkState()
+        st = WalkState()
+        st.place("a", main="finance", sub=ChildChoice("invent", "invoices"),
+                 detail=ChildChoice("invent", "services"))
+        st.place("b", main="finance", sub=ChildChoice("invent", "invoices"),
+                 detail=ChildChoice("invent", "payments"))
+        state.homes.update(st.homes)
+        state.records.update(st.records)
+
+        def fake_combine(*, prefix, siblings):
+            if prefix == ["finance"]:
+                return {"groups": []}
+            if prefix == ["finance", "invoices"]:
+                return {"groups": [{"merge": ["services"], "into": "invoices"}]}
+            return {"groups": []}
+            return {"groups": []}
+
+        moved = sweep_combines(state, fake_combine)
+        self.assertEqual(moved, 1)
+        self.assertEqual(state.homes["a"], ["finance", "invoices"])

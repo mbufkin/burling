@@ -1,0 +1,5 @@
+Drip irrigation schedule, orchard block B.
+
+Run two hours before dawn on even calendar days. Emitters were
+flushed after the sand filter clogged in June. Fruit set looks even
+on the third and fourth rows; the windbreak side is drier.

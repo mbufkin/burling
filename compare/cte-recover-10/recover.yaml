@@ -1,0 +1,22 @@
+# Ten-file recover test. Local Ollama only. Does not touch cte-manager-gb10.
+ollama:
+  url: "http://127.0.0.1:11434"
+  model: "qwen2.5:7b"
+  api: "ollama"
+  timeout_seconds: 180
+  temperature: 0.1
+
+paths:
+  intake_dir: "/Users/michaelbufkin/Desktop/burling-v2/compare/cte-recover-10/intake"
+  output_dir: "/Users/michaelbufkin/Desktop/burling-v2/compare/cte-recover-10/output"
+
+chunking:
+  threshold_chars: 12000
+  chunk_chars: 10000
+  overlap_chars: 400
+
+policy:
+  never_delete: true
+  local_only: true
+  redact_pii_in_ledger: true
+  fail_closed_on_personal_tax: true

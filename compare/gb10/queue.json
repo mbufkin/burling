@@ -1,0 +1,147 @@
+{
+  "built_at": "2026-08-18T22:09:15+00:00",
+  "intake": "/home/lenovo/meg-intake",
+  "total": 28,
+  "items": [
+    {
+      "doc_id": "ec811a14875574e6",
+      "rel_path": "Copy of Mobile Lab Compliance Checklist.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "d14b8180c110fb4e",
+      "rel_path": "Copy of [EXTERNAL FACING] MS CTE Technology Tracking - August 18, 10_33 AM.xlsx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "0ca68f3217ac40e5",
+      "rel_path": "Dallas ISD CTE MS Technology_Check-in (Responses).xlsx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "87b1273a61af3724",
+      "rel_path": "EIF- Pathful/DISD_Full_Year_Course_Overview (1).docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "8cd312cc2a8ba088",
+      "rel_path": "EIF- Pathful/DISD_Semester_Course_Overview.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2cd8f94d8c4401a3",
+      "rel_path": "EIF- Pathful/Pathful_Integration_Overview.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "b6ae7af5493f82f8",
+      "rel_path": "EIF- Pathful/Program_Changes_2025-26_to_2026-27.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "88f278617a24c3ce",
+      "rel_path": "Engine Room-Need to know docs for MS/2026-2027 MS Engine Room.xlsx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "91c9c4001399b977",
+      "rel_path": "Engine Room-Need to know docs for MS/2026-2027 Teacher_Campus List - 7_29_2026.xlsx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "092746ffbaf3f798",
+      "rel_path": "MS Co-Hort/Framework_ MS Path to College & Career Co-Hort.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "52975c50133ad6f6",
+      "rel_path": "Mobile Lab Documents/2026 - 2027_ Dallas ISD CTE Mobile Lab Video Scripts.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "fb19ccc19d6a97f6",
+      "rel_path": "Mobile Lab Documents/Campus Mobile Lab Meeting Slide Deck.pptx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "5b7cffbe05e34978",
+      "rel_path": "Mobile Lab Documents/Trailer Acknowledgment_.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "9862eb158e8715be",
+      "rel_path": "PD/August 6, 2026, Dallas ISD CTE Middle School Professional Development & Back to School (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "ab22847ddc9fb763",
+      "rel_path": "PD/August 6, 2026, Dallas ISD CTE Middle School Professional Development & Back to School.pptx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2a38b4a477a9dad6",
+      "rel_path": "PD/CTE 26-27 Summer PD_ 7th Grade Career Readiness Experiences.pptx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "944635169d0cc90a",
+      "rel_path": "PD/CTE 26-27 Summer PD_ Middle School Spending.pptx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "edfc22b1a0a1e4c7",
+      "rel_path": "Purchasing/MSTees 3600 #50410.pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "cb7dbfa8460ca39b",
+      "rel_path": "Purchasing/Quote #50401 (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6a41c633f659ae21",
+      "rel_path": "Purchasing/School Specialty Purchasing List.docx",
+      "status": "extract_failed"
+    },
+    {
+      "doc_id": "96cffb236da3c047",
+      "rel_path": "Purchasing/Trailer Activity Guide - Print Ready (1).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "4da7d5458f277a5c",
+      "rel_path": "Showcase/2026 - 2027 Career Exploration Parking Tags.pptx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "049a89afd8e0bde3",
+      "rel_path": "Showcase/2026-2027 Showcase - Partner Flyer (2).pdf",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "1177aa6fc1c22b64",
+      "rel_path": "Showcase/2026-2027 Showcase Invite List.xlsx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "6ad0cc94a59e279b",
+      "rel_path": "Showcase/Parking.pptx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "2acdc633e79c763c",
+      "rel_path": "Summe Conference Tracker 2026.xlsx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "bed3855b8250ca56",
+      "rel_path": "WAIP/2026 - 2027_ Middle School Career Exploration Experience Registrations.docx",
+      "status": "extracted"
+    },
+    {
+      "doc_id": "436c890945db09b8",
+      "rel_path": "[EXTERNAL FACING] MS CTE Technology Tracking.xlsx",
+      "status": "extracted"
+    }
+  ]
+}
