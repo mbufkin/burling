@@ -13,6 +13,7 @@ published: no dump, no repo paths, no method names.
 
 from __future__ import annotations
 
+import html
 import json
 import re
 from collections import Counter
@@ -20,6 +21,48 @@ from pathlib import Path, PurePosixPath
 from string import Template
 
 from burling.io_util import atomic_write
+
+# Page chrome is data, not a second template. District maps keep the
+# DISD masthead; the public sample map swaps this dict so LinkedIn
+# never films a live dump under district branding.
+DEFAULT_CHROME = {
+    "page_title": "Dallas ISD CTE — Topic map",
+    "brand_left": "Dallas ISD",
+    "brand_right": "Career & Technical Education",
+    "lede": (
+        "Every file in Career & Technical Education, grouped the way "
+        "the work actually runs. Switch a view to recut the same collection. "
+        "Ring size is count, not importance."
+    ),
+    "footer": "Dallas ISD Career and Technical Education · Collection map",
+    "hub_label": "CTE",
+    "root_title": "Dallas ISD CTE",
+    "idle_note": (
+        "Hover a ring to preview a group. Click a slice to open it — "
+        "the brief stays until you choose another."
+    ),
+    "visible_facets": None,
+}
+
+# Public demo: synthetic fixtures only. No district name, no live paths.
+SAMPLE_CHROME = {
+    "page_title": "Burling — Topic map",
+    "brand_left": "Burling",
+    "brand_right": "Sample collection",
+    "lede": (
+        "A synthetic handover dump, grouped the way the work runs. "
+        "Ring size is count, not importance. These are sample files, "
+        "not a live records dump."
+    ),
+    "footer": "Burling · sample documentation — not a live dump",
+    "hub_label": "Map",
+    "root_title": "Sample collection",
+    "idle_note": (
+        "Hover a ring to preview a group. Click a slice to open it. "
+        "This map is synthetic sample files only."
+    ),
+    "visible_facets": ("program",),
+}
 
 FACETS = ("program", "function", "audience", "record_type", "lifecycle")
 FACET_LABELS = {
@@ -178,7 +221,23 @@ def _is_hole(term: str) -> bool:
     }
 
 
-def _sunburst_payload(placements: list[dict], facet: str) -> dict:
+def resolve_chrome(chrome: dict | None = None) -> dict:
+    """Merge caller chrome onto the district defaults.
+
+    Best practice: missing keys stay DISD so a partial override cannot
+    blank the masthead. Pass SAMPLE_CHROME as a whole dict for the
+    public demo.
+    """
+    out = dict(DEFAULT_CHROME)
+    if chrome:
+        out.update(chrome)
+    return out
+
+
+def _sunburst_payload(
+    placements: list[dict], facet: str, chrome: dict | None = None
+) -> dict:
+    chrome = resolve_chrome(chrome)
     buckets: dict[str, list[dict]] = {}
     for p in placements:
         terms = p.get(facet) or ["unmapped"]
@@ -187,7 +246,7 @@ def _sunburst_payload(placements: list[dict], facet: str) -> dict:
 
     ids: list[str] = ["root"]
     parents: list[str] = [""]
-    labels: list[str] = ["CTE"]
+    labels: list[str] = [str(chrome["hub_label"])]
     values: list[int] = [len(placements)]
     colors: list[str] = [_ROOT]
     text_colors: list[str] = [_CREAM]
@@ -288,7 +347,11 @@ def _sunburst_payload(placements: list[dict], facet: str) -> dict:
     }
 
 
-def browse_sunburst_payload(nodes: list[object], assignments: list[dict] | None = None) -> dict:
+def browse_sunburst_payload(
+    nodes: list[object],
+    assignments: list[dict] | None = None,
+    chrome: dict | None = None,
+) -> dict:
     """Three-ring sunburst: topic → subtopic → files, with unique path ids.
 
     Best practice (ISO 2.42 / SKOS): ``trailer-compliance`` is one concept.
@@ -311,9 +374,10 @@ def browse_sunburst_payload(nodes: list[object], assignments: list[dict] | None 
         for bt in n.broader:
             children_of.setdefault(bt, []).append(n)
 
+    chrome = resolve_chrome(chrome)
     ids = ["root"]
     parents = [""]
-    labels = ["CTE"]
+    labels = [str(chrome["hub_label"])]
     values = [sum(len(t.docs) for t in topics) or 1]
     colors = [_ROOT]
     text_colors = [_CREAM]
@@ -326,7 +390,7 @@ def browse_sunburst_payload(nodes: list[object], assignments: list[dict] | None 
                 "kind": "root",
                 "facet": "browse",
                 "count": unique_n,
-                "title": "Dallas ISD CTE",
+                "title": chrome["root_title"],
                 "note": "Some groups appear under more than one topic. Ring size is document count.",
             }
         )
@@ -497,7 +561,7 @@ _HTML = Template(
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Dallas ISD CTE — Topic map</title>
+  <title>$page_title</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;500&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -938,8 +1002,8 @@ _HTML = Template(
 </head>
 <body>
   <div class="brandbar">
-    <span>Dallas ISD</span>
-    <span>Career &amp; Technical Education</span>
+    <span>$brand_left</span>
+    <span>$brand_right</span>
   </div>
   <div class="page">
     <header class="masthead">
@@ -953,11 +1017,7 @@ _HTML = Template(
             <span>of $n documents in the collection</span>
           </span>
         </p>
-        <p class="lede">
-          Every file in Career &amp; Technical Education, grouped the way
-          the work actually runs. Switch a view to recut the same collection.
-          Ring size is count, not importance.
-        </p>
+        <p class="lede">$lede</p>
       </div>
 
       <div class="placements">
@@ -978,15 +1038,16 @@ _HTML = Template(
     </section>
 
     <footer>
-      Dallas ISD Career and Technical Education
-      <span>·</span>
-      Collection map
+      $footer
     </footer>
   </div>
   <script>
     const FIGURES = $figures_json;
     const FACET_LABELS = $facet_labels_json;
     const DOC_COUNT = $n;
+    const HUB_LABEL = $hub_label_js;
+    const ROOT_TITLE = $root_title_js;
+    const IDLE_NOTE = $idle_note_js;
     const brief = document.getElementById("brief");
     const crumb = document.getElementById("crumb");
     let currentFacet = "$default_facet";
@@ -994,10 +1055,10 @@ _HTML = Template(
     function idleBrief() {
       return {
         kind: "root",
-        title: "Dallas ISD CTE",
+        title: ROOT_TITLE,
         count: DOC_COUNT,
         facet: currentFacet,
-        note: "Hover a ring to preview a group. Click a slice to open it — the brief stays until you choose another.",
+        note: IDLE_NOTE,
       };
     }
 
@@ -1043,10 +1104,15 @@ _HTML = Template(
         ? ""
         : "<p>" + (m.count || 0) + " documents" + (m.facet && !isRoot ? " · " + (FACET_LABELS[m.facet] || m.facet).toLowerCase() : "") + "</p>";
       const rows = [];
-      if (m.path) rows.push(["Path", m.path]);
-      if (m.program) rows.push(["Program", m.program]);
-      if (m.function) rows.push(["Function", m.function]);
-      if (m.audience) rows.push(["Audience", m.audience]);
+      function pushRow(label, value) {
+        const v = String(value || "").trim();
+        if (!v || v === "unmapped") return;
+        rows.push([label, v]);
+      }
+      pushRow("Path", m.path);
+      pushRow("Program", m.program);
+      pushRow("Function", m.function);
+      pushRow("Audience", m.audience);
       if (m.conf !== undefined && m.kind === "doc") rows.push(["Confidence", Number(m.conf).toFixed(2)]);
       const dl = rows.length
         ? "<dl>" + rows.map(function (r) { return "<div><dt>" + r[0] + "</dt><dd>" + escapeHtml(r[1]) + "</dd></div>"; }).join("") + "</dl>"
@@ -1277,6 +1343,7 @@ _HTML = Template(
         const path = document.createElementNS(NS, "path");
         path.setAttribute("class", "slice");
         path.setAttribute("data-id", node.id);
+        path.setAttribute("data-label", prettyLabel(node.label));
         path.setAttribute("d", sectorPath(cx, cy, rr[0], rr[1], ang[0], ang[1]));
         path.setAttribute("fill", node.color);
         path.addEventListener("pointerenter", function () {
@@ -1312,7 +1379,7 @@ _HTML = Template(
       const title = document.createElementNS(NS, "text");
       title.setAttribute("class", "hub-title");
       title.setAttribute("x", cx);
-      const hubLabel = focus.id === "root" ? "CTE" : prettyLabel(focus.label);
+      const hubLabel = focus.id === "root" ? HUB_LABEL : prettyLabel(focus.label);
       const words = hubLabel.split(" ");
       const lines = hubLabel.length <= 14 || words.length < 2
         ? [hubLabel]
@@ -1361,7 +1428,7 @@ _HTML = Template(
       window.addEventListener("resize", function () { renderWheel(); });
     }
 
-    document.querySelector(".facets").addEventListener("click", function (e) {
+    document.querySelector(".facets")?.addEventListener("click", function (e) {
       const btn = e.target.closest(".facet");
       if (!btn) return;
       draw(btn.dataset.facet);
@@ -1381,7 +1448,8 @@ def build_topic_map_html(data: dict) -> str:
     placements = data.get("placements") or []
     n = len(placements)
     n_review = sum(1 for p in placements if p.get("needs_review"))
-    figures = {f: _sunburst_payload(placements, f) for f in FACETS}
+    chrome = resolve_chrome(data.get("chrome"))
+    figures = {f: _sunburst_payload(placements, f, chrome) for f in FACETS}
     extra = data.get("browse_figure")
     labels = dict(FACET_LABELS)
     default_facet = "program"
@@ -1389,6 +1457,13 @@ def build_topic_map_html(data: dict) -> str:
         figures = {"browse": extra, **figures}
         labels = {"browse": "Topics", **labels}
         default_facet = "browse"
+    visible = chrome.get("visible_facets")
+    if visible:
+        keep = tuple(visible)
+        figures = {k: v for k, v in figures.items() if k in keep}
+        labels = {k: v for k, v in labels.items() if k in figures}
+        if default_facet not in figures:
+            default_facet = next(iter(figures), default_facet)
     top_prog = Counter((p.get("program") or ["unmapped"])[0] for p in placements)
     program_items = "".join(
         (
@@ -1410,6 +1485,14 @@ def build_topic_map_html(data: dict) -> str:
         figures_json=json.dumps(figures),
         facet_labels_json=json.dumps(labels),
         default_facet=default_facet,
+        page_title=html.escape(str(chrome["page_title"]), quote=True),
+        brand_left=html.escape(str(chrome["brand_left"])),
+        brand_right=html.escape(str(chrome["brand_right"])),
+        lede=html.escape(str(chrome["lede"])),
+        footer=html.escape(str(chrome["footer"])),
+        hub_label_js=json.dumps(str(chrome["hub_label"])),
+        root_title_js=json.dumps(str(chrome["root_title"])),
+        idle_note_js=json.dumps(str(chrome["idle_note"])),
     )
 
 

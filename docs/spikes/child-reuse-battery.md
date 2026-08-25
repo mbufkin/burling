@@ -46,3 +46,27 @@ ws = json.load(open("docs/spikes/battery/reuse-1-post.json"))
 print(score_run(ws["homes"], labels))
 PY
 ```
+
+## Round 2 — menu-locked sub-drawers (#spike/child-vocab)
+
+Diagnosis from round 1: across 6 runs the model invented ~115 distinct
+sub-drawers; only ~17 ever matched ground truth. Mains score ~96% because
+they are menu-locked; subs were free kebab invention.
+
+Fix: `file_plan.WORKPLACE_CHILDREN` — per-main approved drawer vocabulary,
+config-overridable (`walk.children`, disable with `false`; mains without an
+entry stay free-invention, e.g. `customers` whose drawers are account names).
+
+| Arm | Strict sub % | Mains % | Drawers | Singletons |
+|---|---|---|---|---|
+| reuse, no menu (n=3) | 27.4 [22–32] | 94.0 | 42.7 | 30.7 |
+| **vocab menu (n=3)** | **79.9 [76–85]** | 95.5 | 39.7 | 22.3 |
+
+Remaining misses decompose as: `customers` label/taxonomy mismatch (account
+drawers are open-ended by design), ~4–5 wrong-main docs per run concentrated
+in genuinely ambiguous files (travel-expense-policy, delivery-receiving-log),
+and the andon fixture (excluded from intake).
+
+Verdict: sub-drawer accuracy is a vocabulary problem, not a model problem.
+Menus move it from ~1/4 to ~4/5 correct; the rest needs org-specific plan
+data (per-account drawers), not better prompts.
