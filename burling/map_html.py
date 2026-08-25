@@ -61,7 +61,7 @@ SAMPLE_CHROME = {
         "Hover a ring to preview a group. Click a slice to open it. "
         "This map is synthetic sample files only."
     ),
-    "visible_facets": ("program",),
+    "visible_facets": ("browse", "program"),
 }
 
 FACETS = ("program", "function", "audience", "record_type", "lifecycle")
